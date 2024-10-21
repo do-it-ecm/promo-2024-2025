@@ -14,5 +14,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: alouradou/do-it
-          event-type: build
+          event-type: build-parent
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
