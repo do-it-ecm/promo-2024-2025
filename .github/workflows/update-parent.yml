@@ -12,7 +12,7 @@ jobs:
       - name: Trigger parent repository update
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: alouradou/do-it
-          event-type: update-submodule
+          event-type: build
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
