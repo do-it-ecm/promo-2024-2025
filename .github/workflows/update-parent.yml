@@ -7,6 +7,7 @@ on:
 
 jobs:
   update-parent:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Trigger parent repository update
