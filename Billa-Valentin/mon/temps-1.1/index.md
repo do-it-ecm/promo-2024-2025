@@ -11,9 +11,9 @@ temps: 1
 tags:
   - 'vert'  
   - 'avancé'
-  - 'SQL'
+  - 'sql'
 
-résumé: "Apprentissage de fonctionnalités avancées SQL"
+résumé: Apprentissage de fonctionnalités avancées SQL
 ---
 
 {% prerequis "**Prérequis :**" %}
