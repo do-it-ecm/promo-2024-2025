@@ -1,16 +1,16 @@
 ---
-layout: layout/profile.njk
+layout: layout/fiche.njk
 
 title: "Arthur Louradou"
 authors:
     - "Arthur Louradou"
 ---
 
-Élève ingénieur à l'École centrale de Marseille. 
+Élève ingénieur à l'École centrale de Marseille.
 
 ## POK & MON
 
-### Ceux de l'année dernière
+### Les POK & MON 2023-2024
 
 * [Les POKs : La belle épok](../../2023-2024/Louradou-Arthur/pok)
 * [Les MONs : Mon parcours d'autoformation](../../2023-2024/Louradou-Arthur/mon)
