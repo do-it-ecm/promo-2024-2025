@@ -71,7 +71,7 @@ Pour continuer, nous avons pu nous entretenir brièvement pour cibler le besoin 
 
 ### Correction du site actuel
 
-Nous l’avons exprimé au départ, deux modules sont suspectés de provoquer des lenteurs dans la compilation du site actuel : soit **pagesearch**, soit le **style**. Pour isoler les causes, nous allons mener des tests de performances en désactivant ces paramètres dans le fichier de configuration `.eleventy.js`. Après la désactivation des modules, on constate que pagesearch a finalement un impact mineur. Nous allons donc enquêter du côté des styles, et un détail retient mon attention : le compilateur postcss copie énormément de fichiers en amont. Changeons la configuration de tailwind pour remédier à ce problème : 
+Nous l’avons exprimé au départ, deux modules sont suspectés de provoquer des lenteurs dans la compilation du site actuel : soit **pagesearch**, soit le **style**. Pour isoler les causes, nous allons mener des tests de performances en désactivant ces paramètres dans le fichier de configuration `.eleventy.js`. Après la désactivation des modules, on constate que pagesearch a finalement un impact mineur. Nous allons donc enquêter du côté des styles, et un détail retient mon attention : le compilateur postcss copie énormément de fichiers en amont. Changeons la configuration de tailwind pour remédier à ce problème :
 
 ```jsx
 module.exports = {
@@ -90,7 +90,7 @@ module.exports = {
     plugins: [
       require('@tailwindcss/typography'),
     ],
-    
+
   }
 ```
 
