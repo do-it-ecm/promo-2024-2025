@@ -9,7 +9,7 @@ date: 1971-01-01
 temps: 2
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Se former sur les bases en SQL pour l'appliquer à la gestion de bases de données."
 ---
 
 {% prerequis %}
