@@ -5,7 +5,8 @@ title: "Devenir une pro d’Excel et créer mon budget planner"
 authors:
   - Esther Henry
 
-date: 1970-11-01
+date: 2024-11-01
+
 temps: 2
 tags:
   - “vert”
