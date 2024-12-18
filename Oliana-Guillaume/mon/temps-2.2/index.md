@@ -5,7 +5,7 @@ title: "Introduction à la blockchain"
 authors:
   - OLIANA Guillaume
 
-date: 1971-01-01
+date: 2024-12-01
 temps: 2
 tags:
 
@@ -14,7 +14,7 @@ résumé: "Un MON autour de la blockchain."
 
 {% prerequis %}
 
-LAucun prérequis, ce MON est un travail de recherche qui a pour but de m'éduquer sur ces technologies, aussi bien que ceux qui prendront le temps de le lire.
+LAucun prérequis, ce MON est un travail de recherche qui a pour but de m'éduquer sur ces technologies.
 
 {% endprerequis %}
 {% lien %}
@@ -25,6 +25,8 @@ LAucun prérequis, ce MON est un travail de recherche qui a pour but de m'éduqu
 
 [Comprendre la blockchain en 7min](https://www.youtube.com/watch?v=6uYRN6b5EMU&t=13s)
 
+[Different consensus mechanisms](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp)
+
 
 
 {% endlien %}
@@ -33,25 +35,21 @@ LAucun prérequis, ce MON est un travail de recherche qui a pour but de m'éduqu
 ## Contenu
 
 ### **1. Introduction à la blockchain**
-Définition
+
 La blockchain est une technologie de stockage et de transmission de données fonctionnant comme un registre distribué et immuable. Chaque transaction ou information est enregistrée dans un réseau décentralisé de manière sécurisée et transparente, accessible à tous les participants du réseau. Une fois les données validées, elles deviennent impossibles à modifier ou à supprimer, garantissant ainsi l’intégrité des informations.
 
-Historique : Origine et évolution
-Les prémices de la blockchain
+### Historique : Origine et évolution
+
 Les bases théoriques de la blockchain remontent aux années 1990, avec des travaux sur l’horodatage sécurisé des données numériques. Ces concepts techniques se sont concrétisés en 2008 avec l’invention de Bitcoin, la première application fonctionnelle de cette technologie.
 
-### Création de Bitcoin (2008)
+#### Création de Bitcoin (2008)
 
-Satoshi Nakamoto, un pseudonyme collectif ou individuel, publie le livre blanc intitulé "Bitcoin: A Peer-to-Peer Electronic Cash System".
-La blockchain est utilisée pour résoudre le problème du "double spending" dans les monnaies numériques, garantissant qu’une unité de monnaie ne puisse pas être dépensée deux fois.
+Satoshi Nakamoto, connu comme le créateur de Bitcoin et dont l'identité reste encore à ce jour inconnue, publie le un papier (white paper) intitulé "Bitcoin: A Peer-to-Peer Electronic Cash System".
+
+Dans ce document, il explique comment la blockchain peut être utilisée pour résoudre le problème du "double spending" dans les monnaies numériques, garantissant qu’une unité de monnaie ne puisse pas être dépensée deux fois.
 Le premier bloc, connu sous le nom de Genesis Block, est miné le 3 janvier 2009, marquant le début de l’ère blockchain.
-Au-delà de Bitcoin : Évolution vers d'autres plateformes
 
-### Ethereum (2015) : Introduit les smart contracts, des programmes exécutés automatiquement sur la blockchain, ouvrant la voie à des applications complexes au-delà des paiements.
-Hyperledger Fabric (2016) : Développé pour des blockchains permissionnées adaptées aux entreprises, comme dans la gestion de la chaîne d'approvisionnement.
-Polkadot, Solana et d’autres : Axées sur des solutions innovantes comme l’interopérabilité et la haute performance.
-
-Cas d’utilisation de la blockchain
+#### Cas d’utilisation de la blockchain
 
 Bien que la blockchain soit née pour soutenir les cryptomonnaies, son champ d'application s'est étendu à de nombreux secteurs.
 
@@ -78,14 +76,14 @@ La blockchain est souvent comparée à un registre public numérique, mais elle 
 
 Une blockchain est une chaîne de blocs (logique), chaque bloc contenant un ensemble de transactions et des métadonnées qui garantissent la continuité et l’intégrité de la chaîne.
 
-- **Bloc dans la blockchain** :  
+- **Bloc dans la blockchain** :
   Chaque bloc contient les éléments suivants :
   - **Transactions** : Liste des transferts effectués, signés par les utilisateurs.
   - **Hash du bloc précédent** : Empreinte unique du bloc précédent, permettant de lier les blocs entre eux.
   - **Timestamp** : Date et heure à laquelle le bloc a été validé.
   - **Nonce** (Proof of Work uniquement) : Une valeur trouvée par les mineurs pour résoudre le puzzle cryptographique.
 
-- **Fonctionnement global** :  
+- **Fonctionnement global** :
   Les blocs sont enchaînés grâce aux hashes, formant une structure où toute modification dans un bloc invalide la chaîne entière à partir de ce point.
 
 ---
@@ -98,7 +96,7 @@ Voici les étapes détaillées lorsque **A** envoie 1 Bitcoin à **B** :
    - **A** utilise son portefeuille Bitcoin pour créer une transaction.
    - La transaction spécifie :
      - L'adresse Bitcoin de **B** (clé publique de B, dérivée de sa clé privée).
-     - Le montant transféré (1 BTC, soit 0.40€ en 2010 et 90 000€ en 2024).
+     - Le montant transféré (1 BTC, soit 0.40€ en 2010 et 105 000€ à l'heure actuelle).
      - Une signature numérique générée avec la clé privée de **A**, prouvant que **A** autorise la transaction.
 
 2. **Diffusion de la transaction** :
@@ -115,11 +113,11 @@ Voici les étapes détaillées lorsque **A** envoie 1 Bitcoin à **B** :
      - Un nonce, initialement non défini.
 
 4. **Validation du bloc par Proof of Work (PoW)** :
-   - Les mineurs exécutent un processus de *brute force* pour trouver un nonce $n$ tel que :  
+   - Les mineurs exécutent un processus de *brute force* pour trouver un nonce $n$ tel que :
      \[
      $H(\text{header} + n) < \text{cible}$
      \]
-     où $\text{header}$ inclut les données du bloc.  
+     où $\text{header}$ inclut les données du bloc.
    - Une fois la condition satisfaite, le mineur diffuse le bloc validé au réseau.
 
 5. **Ajout du bloc à la blockchain** :
@@ -137,51 +135,51 @@ Voici les étapes détaillées lorsque **A** envoie 1 Bitcoin à **B** :
 
 Dans un réseau décentralisé, le consensus est essentiel pour garantir la cohérence des données partagées entre tous les nœuds. Ce processus repose sur des algorithmes mathématiques permettant de valider les blocs tout en sécurisant le réseau contre les attaques malveillantes.
 
-- **Proof of Work (PoW)**  
-  - **Principe** : Comme expliqué plus haut, chaque mineur doit résoudre un puzzle cryptographique complexe, consistant à trouver un nonce $n$ tel que :  
+- **Proof of Work (PoW)**
+  - **Principe** : Comme expliqué plus haut, chaque mineur doit résoudre un puzzle cryptographique complexe, consistant à trouver un nonce $n$ tel que :
     \[
     $H(\text{header} + n) < \text{cible}$
     \]
-    où $H$ est une fonction de hashage, $\text{header}$ contient les données du bloc, et $\text{cible}$ est une valeur ajustée par le réseau pour maintenir un temps de bloc constant (par exemple, 10 minutes pour Bitcoin).  
+    où $H$ est une fonction de hashage, $\text{header}$ contient les données du bloc, et $\text{cible}$ est une valeur ajustée par le réseau pour maintenir un temps de bloc constant (par exemple, 10 minutes pour Bitcoin).
 
-  - **Sécurité** :  
-    - La complexité du puzzle rend la falsification des blocs coûteuse en termes de ressources.  
-    - Une attaque nécessiterait une puissance de calcul supérieure à 50 % de celle du réseau total (fameuse attaque des 51 %).  
+  - **Sécurité** :
+    - La complexité du puzzle rend la falsification des blocs coûteuse en termes de ressources.
+    - Une attaque nécessiterait une puissance de calcul supérieure à 50 % de celle du réseau total (fameuse attaque des 51 %).
 
-  - **Avantages** :  
-    - Garantit une sécurité robuste grâce au coût élevé du minage.  
-  - **Inconvénients** :  
-    - Inefficience énergétique : La résolution de $H(\text{header} + n)$ est un processus de recherche exhaustive (brute-force).  
-    - Centralisation potentielle dans des pools de minage.  
+  - **Avantages** :
+    - Garantit une sécurité robuste grâce au coût élevé du minage.
+  - **Inconvénients** :
+    - Inefficience énergétique : La résolution de $H(\text{header} + n)$ est un processus de recherche exhaustive (brute-force). Cela fait d'ailleurs partie de ce qui est reproché à Bitcoin par ses détracteurs et concurrents.
+    - Centralisation potentielle dans des pools de minage.
 
-- **Proof of Stake (PoS)**  
-  - **Principe** : Les validateurs sont choisis pour proposer ou valider des blocs en fonction de la quantité de tokens qu’ils possèdent et ont "stakée".  
-  - **Sélection du validateur** :  
-    - Le choix est souvent basé sur une fonction pseudo-aléatoire pondérée par :  
-      - Le montant staké $S$.  
-      - L’ancienneté du staking $T$.  
-    - Exemple :  
+- **Proof of Stake (PoS)**
+  - **Principe** : Les validateurs sont choisis pour proposer ou valider des blocs en fonction de la quantité de tokens qu’ils possèdent et ont "stakée" (accumulée, bloquée).
+  - **Sélection du validateur** :
+    - Le choix est souvent basé sur une fonction pseudo-aléatoire pondérée par :
+      - Le montant staké $S$.
+      - L’ancienneté du staking $T$.
+    - Exemple :
       \[
       $P_i = \frac{S_i \cdot T_i}{\sum_{j} S_j \cdot T_j}$
       \]
       où $P_i$ est la probabilité qu’un validateur $i$ soit choisi.
 
-  - **Sécurité** :  
-    - Une attaque nécessiterait de posséder une part significative des tokens, ce qui rend l’attaque économiquement risquée.  
-  - **Avantages** :  
-    - Faible consommation d’énergie.  
-    - Validation rapide des blocs.  
-  - **Inconvénients** :  
-    - Concentration des pouvoirs entre les riches détenteurs de tokens.  
+  - **Sécurité** :
+    - Une attaque nécessiterait de posséder une part significative des tokens, ce qui rend l’attaque économiquement risquée.
+  - **Avantages** :
+    - Faible consommation d’énergie.
+    - Validation rapide des blocs.
+  - **Inconvénients** :
+    - Concentration des pouvoirs entre les riches détenteurs de tokens.
 
-- **Autres variantes**  
-  - **Delegated Proof of Stake (DPoS)** :  
-    - Principe : Les participants élisent un nombre fixe de délégués qui se chargent de valider les blocs.  
-    - Avantages : Hautes performances grâce à un consensus rapide.  
-    - Inconvénient : Centralisation partielle autour des délégués.  
+- **Autres variantes**
+  - **Delegated Proof of Stake (DPoS)** :
+    - Principe : Les participants élisent un nombre fixe de délégués qui se chargent de valider les blocs.
+    - Avantages : Hautes performances grâce à un consensus rapide.
+    - Inconvénient : Centralisation partielle autour des délégués.
 
-  - **Proof of Authority (PoA)** :  
-    - Utilisé dans des blockchains permissionnées, où seuls des nœuds validateurs approuvés peuvent ajouter des blocs.  
+  - **Proof of Authority (PoA)** :
+    - Utilisé dans des blockchains permissionnées, où seuls des nœuds validateurs approuvés peuvent ajouter des blocs.
     - Sécurité reposant sur la réputation des validateurs.
 
 ---
@@ -190,39 +188,39 @@ Dans un réseau décentralisé, le consensus est essentiel pour garantir la coh�
 
 La sécurité de la blockchain repose sur des propriétés mathématiques et cryptographiques.
 
-- **L’immutabilité**  
-  - Chaque bloc dépend du hash du bloc précédent. Si un attaquant modifie les données d’un bloc $B_k$, le hash de $B_k$ change, rendant $B_{k+1}$ invalide.  
-  - Recréer la chaîne entière à partir de $B_k$ nécessiterait de recalculer le PoW (ou satisfaire d’autres conditions de consensus) pour chaque bloc, ce qui est pratiquement impossible dans des blockchains bien réparties.  
+- **L’immutabilité**
+  - Chaque bloc dépend du hash du bloc précédent. Si un attaquant modifie les données d’un bloc $B_k$, le hash de $B_k$ change, rendant $B_{k+1}$ invalide.
+  - Recréer la chaîne entière à partir de $B_k$ nécessiterait de recalculer le PoW (ou satisfaire d’autres conditions de consensus) pour chaque bloc, ce qui est pratiquement impossible dans des blockchains bien réparties.
 
-- **Cryptographie**  
-  - **Fonctions de hashage** :  
-    - Propriétés utilisées :  
-      - **Résistance aux collisions** : Il est presque impossible de trouver deux entrées $x$ et $y$ telles que $H(x) = H(y)$.  
-      - **Résistance à la préimage** : Pour un $h$, il est difficile de trouver un $x$ tel que $H(x) = h$.  
-    - Exemple : Bitcoin utilise **SHA-256**, qui produit un hash de 256 bits.  
+- **Cryptographie**
+  - **Fonctions de hashage** :
+    - Propriétés utilisées :
+      - **Résistance aux collisions** : Il est presque impossible de trouver deux entrées $x$ et $y$ telles que $H(x) = H(y)$.
+      - **Résistance à la préimage** : Pour un $h$, il est difficile de trouver un $x$ tel que $H(x) = h$.
+    - Exemple : Bitcoin utilise **SHA-256**, qui produit un hash de 256 bits.
 
-  - **Signatures numériques** :  
-    - Utilisation de la cryptographie asymétrique. Chaque utilisateur possède :  
-      - Une **clé privée** $d$ pour signer.  
-      - Une **clé publique** $Q$ dérivée de $d$ :  
+  - **Signatures numériques** :
+    - Utilisation de la cryptographie asymétrique. Chaque utilisateur possède :
+      - Une **clé privée** $d$ pour signer.
+      - Une **clé publique** $Q$ dérivée de $d$ :
         \[
         $Q = d \cdot G$
         \]
-        où $G$ est un point générateur sur une courbe elliptique.  
-      - Une transaction est signée avec $d$, et tout participant peut vérifier la signature avec $Q$.  
+        où $G$ est un point générateur sur une courbe elliptique.
+      - Une transaction est signée avec $d$, et tout participant peut vérifier la signature avec $Q$.
 
-  - **Prévention de la double dépense** :  
-    - Chaque transaction inclut une référence à une transaction précédente, empêchant qu’un même token soit utilisé deux fois.  
+  - **Prévention de la double dépense** :
+    - Chaque transaction inclut une référence à une transaction précédente, empêchant qu’un même token soit utilisé deux fois.
 
-- **Décentralisation**  
-  - Chaque nœud du réseau stocke une copie complète du registre, garantissant que la perte ou la compromission de certains nœuds ne compromette pas l’intégrité de la blockchain.  
+- **Décentralisation**
+  - Chaque nœud du réseau stocke une copie complète du registre, garantissant que la perte ou la compromission de certains nœuds ne compromette pas l’intégrité de la blockchain.
   - Les décisions sont prises par consensus, éliminant le besoin d’un tiers centralisé.
 
 ---
 
 ### 3. Composants techniques classiques
 
-Les composants techniques qui font fonctionner une blockchain sont variés, allant des protocoles réseau à la cryptographie utilisée pour sécuriser les transactions. Comprendre ces éléments est essentiel pour saisir comment la blockchain garantit la sécurité, la décentralisation et l'intégrité des données.
+Les composants techniques qui font fonctionner une blockchain sont variés, allant des protocoles réseau à la cryptographie utilisée pour sécuriser les transactions. Comprendre ces éléments est essentiel pour saisir comment la blockchain garantit la sécurité, la décentralisation et l'intégrité des données. Commeçpns par la base :
 
 #### Langages de programmation
 
@@ -233,7 +231,7 @@ Sur des blockchains comme **Solana**, le langage privilégié est **Rust**. Rust
 
 #### Protocoles Réseau
 
-Le réseau blockchain est généralement basé sur un modèle **peer-to-peer (P2P)**. Cela signifie que chaque participant, ou **nœud**, du réseau possède une copie complète (ou partielle) de la blockchain et interagit avec d'autres nœuds sans qu'il y ait de serveur central. Cette décentralisation est la clé de la résistance aux censures et aux attaques.  
+Le réseau blockchain est généralement basé sur un modèle **peer-to-peer (P2P)**. Cela signifie que chaque participant, ou **nœud**, du réseau possède une copie complète (ou partielle) de la blockchain et interagit avec d'autres nœuds sans qu'il y ait de serveur central. Cette décentralisation est la clé de la résistance aux censures et aux attaques.
 
 Lorsqu'une transaction est effectuée, elle est envoyée à tous les nœuds du réseau, et chaque nœud valide cette transaction selon les règles du consensus (comme le Proof of Work ou Proof of Stake). L'absence de serveur central élimine un point de défaillance unique, ce qui rend la blockchain extrêmement robuste contre les attaques.
 
@@ -241,7 +239,7 @@ Le modèle P2P permet aussi un traitement parallèle et une synchronisation rapi
 
 #### Infrastructure des Nœuds
 
-Les nœuds sont les composants fondamentaux de la blockchain. On distingue principalement deux types de nœuds : les **full nodes** et les **light nodes**. 
+Les nœuds sont les composants fondamentaux de la blockchain. On distingue principalement deux types de nœuds : les **full nodes** et les **light nodes**.
 
 Les **full nodes** conservent une copie complète de la blockchain, validant chaque transaction et chaque bloc selon les règles du consensus. Ils sont essentiels à la sécurité et à la décentralisation du réseau. Cependant, ils nécessitent des ressources importantes en termes de stockage et de puissance de calcul.
 
@@ -256,10 +254,10 @@ La blockchain, en plus de ses fondements théoriques, se déploie déjà dans de
 
 #### Démonstration d'une blockchain simple en Python
 
-L'une des façons les plus simples d'appréhender le fonctionnement d'une blockchain est de la créer en Python. Voici les étapes essentielles pour concevoir une blockchain de base.
+L'une des façons les plus simples d'appréhender le fonctionnement d'une blockchain est de la créer en Python. De façon très simplifiée, voici la structure de celle-ci:
 
 1. **Structure d’un bloc**
-   Un bloc de la blockchain contient généralement trois éléments essentiels :
+   Un bloc de la blockchain contient généralement les éléments essentiels suivants:
    - **Index** : Un identifiant unique pour chaque bloc.
    - **Timestamp** : La date et l’heure de la création du bloc.
    - **Données** : Les informations stockées dans le bloc, comme des transactions ou des événements.
@@ -271,41 +269,100 @@ L'une des façons les plus simples d'appréhender le fonctionnement d'une blockc
    ```python
    import hashlib
    import time
+   import networkx as nx
+   import matplotlib.pyplot as plt
 
    class Block:
-       def __init__(self, index, previous_hash, timestamp, data, hash):
-           self.index = index
-           self.previous_hash = previous_hash
-           self.timestamp = timestamp
-           self.data = data
-           self.hash = hash
+    def __init__(self, index, previous_hash, timestamp, data, hash):
+      self.index = index
+      self.previous_hash = previous_hash
+      self.timestamp = timestamp
+      self.data = data
+      self.hash = hash
 
-       def calculate_hash(self):
-           block_string = f'{self.index}{self.previous_hash}{self.timestamp}{self.data}'
-           return hashlib.sha256(block_string.encode('utf-8')).hexdigest()
+    def calculate_hash(self):
+      block_string = f'{self.index}{self.previous_hash}{self.timestamp}{self.data}'
+      return hashlib.sha256(block_string.encode('utf-8')).hexdigest()
 
-   def create_genesis_block():
-       return Block(0, "0", int(time.time()), "Genesis Block", "0")
+    def create_genesis_block():
+      genesis_data = "Genesis Block"
+      genesis_hash = hashlib.sha256(genesis_data.encode('utf-8')).hexdigest()
+      return Block(0, "0", int(time.time()), genesis_data, genesis_hash)
 
-   def create_new_block(previous_block, data):
-       index = previous_block.index + 1
-       timestamp = int(time.time())
-       hash = hashlib.sha256(f'{index}{previous_block.hash}{timestamp}{data}'.encode('utf-8')).hexdigest()
-       return Block(index, previous_block.hash, timestamp, data, hash)
+    def create_new_block(previous_block, data):
+      index = previous_block.index + 1
+      timestamp = int(time.time())
+      combined_data = f'{index}{previous_block.hash}{timestamp}{data}'
+      block_hash = hashlib.sha256(combined_data.encode('utf-8')).hexdigest()
+      return Block(index, previous_block.hash, timestamp, data, block_hash)
 
-   # Création de la chaîne de blocs
-   blockchain = [create_genesis_block()]
-   previous_block = blockchain[0]
-   for i in range(1, 10):
-       new_block = create_new_block(previous_block, f"Block #{i} Data")
-       blockchain.append(new_block)
-       previous_block = new_block
 
-   # Affichage de la blockchain
-   for block in blockchain:
-       print(f"Block #{block.index} : {block.hash}")
+    blockchain = [create_genesis_block()]
+    previous_block = blockchain[0]
 
+
+    for i in range(1, 5):
+      new_block = create_new_block(previous_block, f"Transaction data for Block #{i}")
+      blockchain.append(new_block)
+      previous_block = new_block
+
+
+    def plot_blockchain(blockchain):
+      G = nx.DiGraph()
+
+      for block in blockchain:
+        block_label = f"Block #{block.index}\nHash: {block.hash[:8]}..."
+        G.add_node(block.index, label=block_label)
+
+        if block.index > 0:
+            G.add_edge(block.index - 1, block.index, label="Linked via hash")
+
+    pos = {i: (i, 0) for i in range(len(blockchain))}
+
+    plt.figure(figsize=(12, 6))
+    nx.draw(
+        G, pos, with_labels=True, labels=nx.get_node_attributes(G, 'label'),
+        node_color="skyblue", node_size=2000, font_size=10, font_weight="bold",
+        arrows=True, arrowstyle="->", arrowsize=15
+    )
+
+    edge_labels = nx.get_edge_attributes(G, 'label')
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color="red")
+
+    plt.title("Visualisation de la Blockchain")
+    plt.show()
+
+    plot_blockchain(blockchain)
   ```
+
+#### Résultats:
+
+
+================================================================================
+                     Visualisation graphique de la Blockchain
+================================================================================
+
+--------------------------------------------------------------------------------
+| BLOCK #0                              Timestamp: 1702913450 |
+--------------------------------------------------------------------------------
+| Previous Hash : 0                                                           |
+| Data          : Genesis Block                                               |
+| Current Hash  : 9a6e0c80d243fcf2b9adfe32024cc03be27364fb8db4...             |
+--------------------------------------------------------------------------------
+                                     ↓
+
+--------------------------------------------------------------------------------
+| BLOCK #1                              Timestamp: 1702913451 |
+--------------------------------------------------------------------------------
+| Previous Hash : 9a6e0c80d243fcf2b9adfe32024cc03be27364fb8db4...             |
+| Data          : Transaction data for Block #1                              |
+| Current Hash  : b7c1a748bd8d843e51912b23be8b9a1f55c42c72fa17...             |
+--------------------------------------------------------------------------------
+                                     ↓
+...
+================================================================================
+
+![alt text](image-3.png)
 
 
   Ce code illustre une chaîne de blocs qui s’étend avec chaque nouvelle "transaction" (ici, des données textuelles). Chaque bloc se réfère au précédent grâce à son hash, assurant la continuité de la blockchain.
@@ -314,10 +371,12 @@ L'une des façons les plus simples d'appréhender le fonctionnement d'une blockc
 
 Lorsqu’un nouveau bloc est ajouté, sa validité est vérifiée par rapport à la chaîne existante. Si le hash du bloc précédent ne correspond pas, cela signifie qu'une tentative de fraude a été effectuée. Dans une implémentation réelle, ce processus est répété et vérifié par plusieurs nœuds du réseau, assurant la sécurité de la blockchain.
 
-**Utilisation de frameworks de blockchain**
 
 
-Bien que créer une blockchain à partir de zéro soit un excellent moyen d'apprendre, dans un cadre réel, des frameworks et des plateformes spécialisées sont utilisés pour déployer des blockchains plus complexes.
+
+
+
+
 
 
 
