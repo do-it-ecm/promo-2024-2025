@@ -1,4 +1,4 @@
-name: Update Parent Repository
+name: Notify Parent Repo Build
 
 on:
   push:
@@ -6,14 +6,14 @@ on:
       - main
 
 jobs:
-  update-parent:
-    permissions: write-all
+  notify-parent:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Trigger parent repository update
+      - name: Trigger Parent Workflow
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.PAT }}
-          repository: alouradou/do-it
-          event-type: build-parent
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+          token: ${{ secrets.DO_IT_UPDATE_TOKEN }}
+          repository: do-it-ecm/do-it
+          event-type: submodule-update
+          client-payload: '{"submodule": "${{ github.repository }}"}'
