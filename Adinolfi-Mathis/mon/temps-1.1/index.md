@@ -7,8 +7,8 @@ authors:
 
 date: 2024-16-09
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Machine learning"
   - "IA"
 

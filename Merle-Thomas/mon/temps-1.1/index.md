@@ -6,8 +6,8 @@ authors:
   - Thomas Merle
 date: 2024-09-08
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Developpement FrontEnd"
   - "HTML"
   - "CSS"

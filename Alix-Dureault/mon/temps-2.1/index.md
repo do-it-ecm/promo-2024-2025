@@ -6,8 +6,8 @@ authors:
   - Alix Duréault
 
 date: 2024-10-16
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "info"
 
 résumé: "Ce MON a pour but de me former en Java Script et en React."

@@ -6,8 +6,8 @@ authors:
   - Clarisse Francese
 
 date: 1971-01-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "entreprise opale"
   - "gouvernance"
   - "organisation"

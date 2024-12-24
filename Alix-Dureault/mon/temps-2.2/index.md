@@ -6,8 +6,8 @@ authors:
   - Alix Duréault
 
 date: 2024-10-16
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "info"
 
 résumé: "Le but de ce MON est de se former en typescript."

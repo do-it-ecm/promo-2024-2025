@@ -8,8 +8,8 @@ authors:
 
 date: 2024-09-05
 
-tags: 
- - "temps 1"
+temps: 1
+tags:
  - "SQL"
  - "bigquery"
  - "vert"

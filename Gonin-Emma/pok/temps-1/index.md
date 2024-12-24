@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-05
 
+temps: 1
 tags:
-  - "temps 1"
   - "frontend"
 
 résumé: Le but de ce POK est de faire un portfolio web de mes peintures réalisées pendant ma césure.

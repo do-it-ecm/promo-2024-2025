@@ -7,8 +7,8 @@ authors:
 
 date: 2024-10-16
 
+temps: 2
 tags:
-  - "temps 2"
   - "info"
 
 résumé: Ce second POK réalisé en collaboration avec Alix Duréault a pour objectif de réaliser un SI pour suivre et communiquer les items de diplomation, en collaboration avec la formation de l'école.

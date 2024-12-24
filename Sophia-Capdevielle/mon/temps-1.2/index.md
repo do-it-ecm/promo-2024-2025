@@ -6,8 +6,8 @@ authors:
   - Sophia Capdevielle
 
 date: 2024-09-18
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "productivité"
   - "management"
 

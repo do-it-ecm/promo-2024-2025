@@ -6,8 +6,8 @@ authors:
   - Inès Kebbab
 
 date: 2024-10-01
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Traduire un concept abstrait et complexe en une stratégie concrète et pratique pour une ville ou une entreprise. "
 ---

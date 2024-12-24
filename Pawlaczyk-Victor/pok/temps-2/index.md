@@ -7,8 +7,8 @@ authors:
 
 date: 2025-01-01
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: Quand on pense à un projet immobilier, on pense à l'achat, au financement et éventuellement aux travaux. Cependant, y penser ne suffit pas ! Ce POK a pour objectif de formaliser une étude d'avant projet pour un investissement immobilier.
 ---

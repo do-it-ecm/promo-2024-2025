@@ -6,8 +6,8 @@ authors:
   - Juliette Kocupyr
 
 date: 2024-09-05
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Ux"
 
 résumé: "Introduction au Design Thinking et à l'Ux Design."

@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-15
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Management"
   - "Inclusivité"
 

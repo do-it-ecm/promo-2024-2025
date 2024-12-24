@@ -6,8 +6,8 @@ authors:
   - Matthieu Dufort
 
 date: 2024-09-06
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Novice"
   - "Langage de programmation"
 

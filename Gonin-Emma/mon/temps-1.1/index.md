@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-05
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "golang"
 
 résumé: "Ce MON est une introduction au langage Golang."

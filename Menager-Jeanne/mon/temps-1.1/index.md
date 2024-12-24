@@ -7,8 +7,8 @@ authors:
 
 date: 1970-09-01
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Je souhaite me former à l’utilisation du HTML et du CSS afin de développer un site internet joli et fonctionnel au cours de mon POK"
 ---

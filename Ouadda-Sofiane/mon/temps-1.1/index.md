@@ -6,8 +6,8 @@ authors:
   - Sofiane Ouadda
 date: 2024-09-16
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Developpement FrontEnd"
   - "HTML"
   - "CSS"

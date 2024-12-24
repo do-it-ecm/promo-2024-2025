@@ -7,8 +7,8 @@ authors:
 
 date: 2024-18-09
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "HTML/CSS" 
   - "Beginner"
   - "Basics"

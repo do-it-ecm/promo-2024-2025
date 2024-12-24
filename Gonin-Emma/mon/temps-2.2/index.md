@@ -6,8 +6,8 @@ authors:
   - Emma Gonin
 
 date: 1971-01-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "vert"
 
 résumé: "Un MON traitant de Jenkins"

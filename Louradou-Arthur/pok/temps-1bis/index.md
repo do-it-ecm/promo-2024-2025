@@ -7,8 +7,8 @@ authors:
 
 date: 2024-10-16
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "pok"
   - "web"
   - "statique"
@@ -82,7 +82,7 @@ module.exports = {
         "./src/cs/**/*.{html,js,njk}",
         "./src/mon/**/*.{html,js,njk}",
         "./src/pok/**/*.{html,js,njk}",
-        "./config/markdown/shortcodes/quotes/!(index).js"
+        "./scripts/eleventy/markdown/shortcodes/quotes/!(index).js"
     ],
     theme: {
       extend: {},

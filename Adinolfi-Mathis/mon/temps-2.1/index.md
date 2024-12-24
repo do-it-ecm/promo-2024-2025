@@ -6,8 +6,8 @@ authors:
   - ADINOLFI Mathis
 
 date: 1970-11-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Un MON traitant d'un sujet."
 ---

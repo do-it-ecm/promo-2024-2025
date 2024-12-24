@@ -6,8 +6,8 @@ authors:
   - Esther Henry
 
 date: 1971-03-01
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Un MON traitant d'un sujet."
 ---

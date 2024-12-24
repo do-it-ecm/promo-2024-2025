@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-18
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "À travers ce MON, j'aimerais étudier en détail le processus de transformation auquel de plus en plus d'entreprises font face aujourd'hui."
 ---

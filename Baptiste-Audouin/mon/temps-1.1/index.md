@@ -7,8 +7,8 @@ authors:
   
 date: 2024-09-09
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   
 résumé: "Le but de ce MON est de me former sur les API REST ainsi que sur leurs intégrations dans des projets web"
 ---

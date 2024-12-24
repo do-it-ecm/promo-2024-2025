@@ -6,8 +6,8 @@ authors:
   - Alix Duréault
 
 date: 1970-10-01
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Knowledge Managment"
 
 résumé: "Un MON explorant la difficulté de la perte de savoir dans l'entreprise liée au départ d'employés."

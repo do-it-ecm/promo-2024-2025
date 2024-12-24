@@ -6,8 +6,8 @@ authors:
   - Victor Pawlaczyk
 
 date: 2024-10-10
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Saumon"
   - "Intelligence collective"
 

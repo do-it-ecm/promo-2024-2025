@@ -6,8 +6,8 @@ authors:
   - Ménager Jeanne
 
 date: 1970-10-01
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Au cours de mon stage, j’ai remarqué que des étudiants d’école de commerce avait une grande maitrise de fonctionnalités que je ne soupçonnais pas d’exister sur Excel, je souhaite donc monter en compétence sur ce sujet"
 ---

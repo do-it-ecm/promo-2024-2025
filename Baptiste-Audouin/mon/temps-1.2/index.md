@@ -6,8 +6,8 @@ authors:
   - Baptiste Audouin
 
 date: 2024-09-09
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "python"
 
 résumé: "Au cours de ce MON je souhaite découvrir la manipulation des bases de données avec Python et faire une application à des données sportives"

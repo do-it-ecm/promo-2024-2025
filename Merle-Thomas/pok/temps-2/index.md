@@ -7,8 +7,8 @@ authors:
 
 date: 2024-10-16
 
+temps: 2
 tags: 
-  - 'temps 2'
   - 'Dev Web'
   - 'BackEnd'
   - 'Language Go'

@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-06
 
+temps: 1
 tags:
-  - "temps 1"
 
 résumé: Ce POK vise à mettre en place la maquette d'un outil opérationnel de suivi de la compétence individuelle au sein d'une organisation simple, en utilisant les différentes fonctionnalités et outils de Google Drive.
 ---

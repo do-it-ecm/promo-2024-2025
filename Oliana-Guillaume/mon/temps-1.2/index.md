@@ -7,8 +7,8 @@ authors:
 
 date: 2024-10-10
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Python - Finance"
   - "Portfolio Analysis"
 

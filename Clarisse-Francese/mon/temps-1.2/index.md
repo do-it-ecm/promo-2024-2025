@@ -6,8 +6,8 @@ authors:
   - Clarisse Francese
 
 date: 1970-10-01
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "design thinking"
   - "service design"
   - "bleu"

@@ -7,8 +7,8 @@ authors:
 
 date: 2024-10-13
 
+temps: 1
 tags:
-  - 'temps 1'
   - 'dev'
   - 'cyber'
 ---

@@ -7,8 +7,8 @@ authors:
 
 date: 1971-01-01
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: L'objectif de ce POK est d'apprendre comment on nettoie et on gère de la donnée, mais également de montrer comment on présente et traite cette donnée.
 ---
