@@ -7,8 +7,8 @@ authors:
 
 date: 2024-10-14
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Un MON traitant de la compréhension du concept d'API et sa création."
 ---

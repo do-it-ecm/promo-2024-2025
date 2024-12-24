@@ -7,8 +7,8 @@ authors:
 
 date: 1970-09-01
 
+temps: 1
 tags:
-  - "temps 1"
 
 résumé: "Rassembler mon expérience interrail pour pouvoir le partager facilement."
 ---

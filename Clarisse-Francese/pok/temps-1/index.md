@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-05
 
+temps: 1
 tags:
-  - "temps 1"
   - "google sheets"
   - "google apps script"
   - "vert"
@@ -23,7 +23,7 @@ POK débutant : aucun prérequis
 {% endprerequis %}
 {% details "Ressources mentionnées dans ce POK" %}
 
-- [POK : Un peu d'Excel/Google Sheets pour mourir moins idiot](/promos/2023-2024/TAING-Henri/mon/temps-2-1/)
+- [POK : Un peu d'Excel/Google Sheets pour mourir moins idiot](/promos/2023-2024/TAING-Henri/mon/temps-2.1/)
 - [Formation sheets-Pratique.com](https://sheets-pratique.com/fr/cours)
 - [Récap fonctions qui existent](https://sheets-pratique.com/fr/fonctions).
 - [Générateur de formule pour extraire des données](https://sheets-pratique.com/fr/utilitaires/formule-extraction).
@@ -100,7 +100,7 @@ La plupart des MON sur les tableaux que j’ai trouvé parlent d’Excel or j’
 
 {% lien %}
 
-Je suis tombée sur ce MON de Henri [Un peu d'Excel/Google Sheets pour mourir moins idiot](/promos/2023-2024/TAING-Henri/mon/temps-2-1/)  
+Je suis tombée sur ce MON de Henri [Un peu d'Excel/Google Sheets pour mourir moins idiot](/promos/2023-2024/TAING-Henri/mon/temps-2.1/)  
 Dedans, il recommande la formation suivante [Sheets-Pratique.com](https://sheets-pratique.com/fr/cours) que j’ai donc décidé de suivre.
 
 {% endlien %}

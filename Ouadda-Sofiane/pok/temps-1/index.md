@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-16
 
-tags: 
-  - 'temps 1'
+temps: 1
+tags:
   - 'FrontEnd'
   - 'HTML'
   - 'CSS'

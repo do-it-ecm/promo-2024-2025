@@ -6,8 +6,8 @@ authors:
   - Ménager Jeanne
 
 date: 1970-11-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Je vais suivre le projet numéri-ologie afin de découvrir les bases du développement de serveur web"
 ---

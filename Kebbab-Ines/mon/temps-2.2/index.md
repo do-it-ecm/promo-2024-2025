@@ -6,8 +6,8 @@ authors:
   - Inès Kebbab
 
 date: 2024-11-20
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "info"
   - "C++"
 

@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-11
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Un MON traitant de l'initiation au développement d'applications mobiles pour les débutants absolus."
 ---

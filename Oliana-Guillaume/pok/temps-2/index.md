@@ -7,8 +7,8 @@ authors:
 
 date: 2024-10-10
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: Un POK autour du framework Django pour la création d'une app web de gestion de tâche style to do list.
 ---

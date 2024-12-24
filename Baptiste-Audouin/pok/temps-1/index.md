@@ -8,8 +8,8 @@ authors:
 
 date: 2024-09-10
 
+temps: 1
 tags:
-  - "temps 1"
   - "vba"
   - "Excel"
 résumé: POK traitant du langage VBA avec une mise en application concrète

@@ -7,8 +7,8 @@ authors:
 
 date: 1971-01-01
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "data visualisation"
   - "looker studio"
 
@@ -21,7 +21,7 @@ POK débutant : aucun prérequis
 {% endprerequis %}
 {% details "Ressources mentionnées dans ce POK" %}
 
-- [Truc](/promos/2023-2024/TAING-Henri/mon/temps-2-1/)
+- [Truc](/promos/2023-2024/TAING-Henri/mon/temps-2.1/)
 
 {% enddetails %}
 

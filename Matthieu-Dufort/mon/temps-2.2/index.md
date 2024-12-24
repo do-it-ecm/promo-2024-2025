@@ -6,8 +6,8 @@ authors:
   - Matthieu Dufort
 
 date: 1971-01-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Un MON traitant de l'impact des serveurs sur l'environnement ainsi que des solutions pour le réduire"
 ---

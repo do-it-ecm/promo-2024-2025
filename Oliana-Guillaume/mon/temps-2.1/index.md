@@ -5,8 +5,8 @@ title: "Prise en main de Selenium"
 authors:
   - OLIANA Guillaume
 date: 2024-10-10
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Un MON traitant de Selenium."
 ---

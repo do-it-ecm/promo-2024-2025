@@ -6,8 +6,8 @@ authors:
   - Victor Pawlaczyk
 
 date: 2024-09-05
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Un MON traitant d'un sujet."
 ---

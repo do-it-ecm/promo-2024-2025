@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-05
 
+temps: 1
 tags:
-  - "temps 1"
   - "info"
 
 résumé: Ce premier POK vise à créer un petit site web pour suivre l'avancée dans une liste d'objectifs dans un jeu vidéo (Les Sims 4).

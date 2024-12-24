@@ -6,8 +6,8 @@ authors:
   - Titouan Corne
 
 date: 2024-10-15
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "vert"
   - "Excel"
   - "VBA"

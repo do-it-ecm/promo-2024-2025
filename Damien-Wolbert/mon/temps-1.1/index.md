@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-08
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Ce MON vise à étudier les enjeux du déploiement d'un nouvel outil au sein d'une équipe : enjeux psychologiques, comportementaux, professionnels. Il me permettra d'aborder certain points de la conduite du changement et d'analyser les différentes ressouces rencontrées au regard d'un cas concret : la mise en place de l'outil destiné à remplacer Sérénade."
 ---

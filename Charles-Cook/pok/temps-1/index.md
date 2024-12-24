@@ -7,8 +7,8 @@ authors:
 
 date: 1970-09-01
 
+temps: 1
 tags:
-  - "temps 1"
   - "Python"
 
 résumé: Création d'un outils en Python permettant d'automatiser la création de bons de commande.

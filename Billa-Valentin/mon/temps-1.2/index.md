@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-17
 
+temps: 1
 tags:
-  - 'temps 1'
   - 'vert'  
   - 'débutant'
   - 'lexique'

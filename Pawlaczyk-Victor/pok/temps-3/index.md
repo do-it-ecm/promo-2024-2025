@@ -7,8 +7,8 @@ authors:
 
 date: 2025-03-01
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: Un POK traitant d'un sujet.
 ---

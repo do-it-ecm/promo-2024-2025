@@ -6,8 +6,8 @@ authors:
   - Serigne Mbaye Sy AMAR
 
 date: 2024-12-09
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Un MON traitant d'un sujet."
 ---

@@ -8,8 +8,8 @@ authors:
 
 date: 2024-10-14
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Decathlon"
   - "Stratégie entreprise"
   - "Mangement entreprise"

@@ -6,8 +6,8 @@ authors:
   - Charles Cook
 
 date: 1970-10-01
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Ce MON reprend les bases de ce qu'est un business model, et explique pourquoi cette notion est stratégique pour les entreprises afin de rester compétitives"
 ---

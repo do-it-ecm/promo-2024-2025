@@ -7,9 +7,8 @@ authors:
 
 date: 2024-10-16
 
-tags: 
-  - "temps 2"
-  - "temps 2.1"
+temps: 2
+tags:
   - "Open Source"
   - "Libre"
 

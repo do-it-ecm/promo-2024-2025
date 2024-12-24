@@ -6,8 +6,8 @@ authors:
   - Ménager Jeanne
 
 date: 1971-01-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Je cherche à m'intérésser à la façon dont les bookmakers gagnent de l'argent et à savoir ce qu'ils font de l'argent des utilisateurs sur leur site"
 ---
