@@ -78,7 +78,7 @@ Après avoir cliqué sur le bouton de lancement, un certain nombre de fenêtre v
 {% enddetails %}
 
 {% details "Les déclencheurs" %}
-Les déclencheurs permettent de lancer des programmes de manière différentes ou lors d'un évènement.  
+Les déclencheurs permettent de lancer des programmes de manière différentes ou lors d'un évènement.
 **Types de déclencheurs :**
 - Basé sur une feuille de calcul : Ouverture, modification (modification manuelle d'une cellule), changement (modifications structurelles ou par des programmes : nouvelle feuille, nouvelle colonne...), envoie d'un formulaire.
 - Horaires : date et heure précise, intervalles de temps (de la minute au mois).
@@ -96,7 +96,7 @@ console.log("7");
 console.log("8");
 ```
 Résultat :
-![Journal d'exécution](./Journal%20d'exécution.png)
+![Journal d'exécution](./Journal_d_execution.png)
 {% enddetails %}
 
 ## Syntaxes AppScript et VBA
@@ -105,14 +105,14 @@ Résultat :
 En Appscript, chaque ligne doit être terminée par **";"** !!!!
 {% endattention %}
 {% info %}
-Les commentaires se font :  
+Les commentaires se font :
 - **En VBA :** Avec ***'***
 - **En AppScript :** Avec ***//***
 {% endinfo %}
 
 ### Données de référence pour comparaison
 
-Considérons les données suivantes : 
+Considérons les données suivantes :
 - Un fichier (Gsheet ou Excel) nommé "Suivi"
 - "Suivi" possède deux feuilles : "Page de garde" et "KPI" telles que suit :
 
@@ -244,7 +244,7 @@ Reprenons l'exemple de la suite de Fibonacci, cette fois-ci, nous voulons créer
     transi = f1;
     f1 = f1 + f0;
     f0 = transi;
-    liste.push(f1);   
+    liste.push(f1);
   }
 ```
 **En VBA :**

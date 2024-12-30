@@ -69,7 +69,7 @@ Python a été créé par Guido van Rossum en 1991 afin de fournir un langage si
 - Syntaxe claire et lisible.
 - Large bibliothèque standard et écosystème (Pandas, NumPy, Django).
 - Utilisé dans divers domaines (data science, web, IA).
-  
+
 **Inconvénients** :
 
 - Performances inférieures par rapport à des langages compilés.
@@ -131,7 +131,7 @@ Il est créé par Rasmus Lerdorf en 1994 afin de faire du développement web cô
 - Facile à déployer et à utiliser pour le développement web.
 - Large écosystème de frameworks (Laravel, Symfony).
 - Intégration facile avec des bases de données (MySQL, PostgreSQL).
-  
+
 **Inconvénients** :
 
 - Moins sécurisé par défaut par rapport à d'autres langages.
@@ -140,7 +140,7 @@ Il est créé par Rasmus Lerdorf en 1994 afin de faire du développement web cô
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![C++](./C++.png) C++
+## ![C++](./Cpp.png) C++
 
 Développé par Bjarne Stroustrup en 1983, il est utilisé afin d'ajouter des fonctionnalités orientées objet à C. Les utilisations se rapproche donc du langage C : développement pour de systèmes, de jeux ainsi que d'application performante. Il est surtout utilisé pour ce dernier point car il est idéal pour répondre à un besoin de performances critiques.
 
@@ -149,7 +149,7 @@ Développé par Bjarne Stroustrup en 1983, il est utilisé afin d'ajouter des fo
 - Performances élevées et contrôle bas niveau.
 - Portabilité entre différentes plateformes.
 - Utilisé dans des domaines exigeants comme le jeu et le système embarqué.
-  
+
 **Inconvénients** :
 
 - Syntaxe complexe et difficile à apprendre.
@@ -534,7 +534,7 @@ Il est Créé en 1959 par le CODASYL (Conference on Data Systems Languages) sous
 - Système fiable et utilisé depuis très longtemps.
 - Syntaxe très proche du langage naturel (anglais).
 - Traitement des données volumineuses.
-  
+
 **Inconvénients** :
 
 - Syntaxe verbeuse.

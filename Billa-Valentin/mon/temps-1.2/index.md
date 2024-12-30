@@ -9,7 +9,7 @@ date: 2024-09-17
 
 temps: 1
 tags:
-  - 'vert'  
+  - 'vert'
   - 'débutant'
   - 'lexique'
 
@@ -20,11 +20,11 @@ résumé: "Dictionnaire `vert` vers français"
 ### Web
 #### Front-end
 La partie d'un site web ou d'une application que l'utilisateur voit et avec laquelle il interagit.
-Elle est construite avec des outils comme HTML (pour la structure), CSS (pour le design) et JavaScript (pour le comportement). 
+Elle est construite avec des outils comme HTML (pour la structure), CSS (pour le design) et JavaScript (pour le comportement).
 
 #### Back-end
 La partie d'un site web ou d'une application que les utilisateurs ne voient pas.
-Elle gère les données, la logique et la communication avec les bases de données et les serveurs. 
+Elle gère les données, la logique et la communication avec les bases de données et les serveurs.
 Elle communique souvent via des APIs.
 
 #### Site Statique
@@ -39,7 +39,7 @@ facilitant ainsi l'échange de données entre des applications ou des services.
 
 #### HTTP et HTTPS
 HTTP (HyperText Transfer Protocol) est le protocole utilisé pour transférer des données sur le web.
-Il permet aux navigateurs de récupérer des pages web à partir de serveurs. HTTPS (HTTP Secure) 
+Il permet aux navigateurs de récupérer des pages web à partir de serveurs. HTTPS (HTTP Secure)
 est une version sécurisée de HTTP qui utilise le chiffrement pour protéger les données échangées,
 garantissant ainsi la confidentialité et l'intégrité des informations.
 
@@ -56,7 +56,7 @@ lourd que REST. SOAP est encore utilisé dans certains environnements d'entrepri
 par des architectures plus légères comme REST.
 
 #### gRPC
-gRPC est un framework open-source de communication entre services qui utilise HTTP/2 pour le transport et 
+gRPC est un framework open-source de communication entre services qui utilise HTTP/2 pour le transport et
 Protocol Buffers pour la sérialisation des données. Conçu par Google, il est particulièrement adapté aux microservices
 en raison de sa performance et de sa capacité à gérer des connexions bidirectionnelles. gRPC est considéré comme
 une avancée par rapport à REST et SOAP, offrant des fonctionnalités modernes pour les applications distribuées.
@@ -67,7 +67,7 @@ Les bases de données sont des systèmes organisés qui permettent de stocker, g
 
 #### SQL (Structured Query Language)
 SQL est un langage de programmation utilisé pour gérer et manipuler des bases de données relationnelles.
-Les bases de données SQL sont organisées en tables, avec des lignes et des colonnes, et elles permettent 
+Les bases de données SQL sont organisées en tables, avec des lignes et des colonnes, et elles permettent
 de définir des relations entre les données.
 
 - **Caractéristiques** :
@@ -140,7 +140,7 @@ via Internet, ce qui permet une scalabilité facile, un déploiement rapide et u
 <!-- TODO: Partie sur les OS, parties des outils génériques, controle de version, IDE... -->
 
 ## Langages
-> Un langage de programmation est un langage informatique destiné à formuler des algorithmes et produire des 
+> Un langage de programmation est un langage informatique destiné à formuler des algorithmes et produire des
 > programmes informatiques qui les appliquent. D'une manière similaire à une langue naturelle, un langage de
 > programmation est composé d'un alphabet, d'un vocabulaire, de règles de grammaire, de significations,
 > mais aussi d'un environnement de traduction censé rendre sa syntaxe compréhensible par la machine.
@@ -161,8 +161,8 @@ via Internet, ce qui permet une scalabilité facile, un déploiement rapide et u
 
 #### Compilé / Interprété
 - **Compilé** : \
-  Le code est entièrement traduit en langage machine (le langage que l'ordinateur comprend) 
-  avant d'être exécuté. Cela rend généralement les programmes plus rapides mais nécessite une étape 
+  Le code est entièrement traduit en langage machine (le langage que l'ordinateur comprend)
+  avant d'être exécuté. Cela rend généralement les programmes plus rapides mais nécessite une étape
   supplémentaire pour "compiler" le code d'abord. Exemple : C++ est compilé.
 - **Interprété** : \
   Le code est traduit en langage machine pendant son exécution, ce qui rend les choses plus lentes,
@@ -182,7 +182,7 @@ site du language (disponible en lien directement dans le titre) soit issues de
 [Flaticon et crées par Freepik](https://www.flaticon.com/free-icons)
 {% endnote %}
 
-#### <img src="images/icons/c++.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [C / C++](https://isocpp.org/)
+#### <img src="images/icons/cpp.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [C / C++](https://isocpp.org/)
 C est un langage de programmation compilé, de bas niveau, utilisé pour les systèmes d'exploitation, les systèmes embarqués et les logiciels nécessitant des performances critiques. C++ est une extension de C, ajoutant la programmation orientée objet.
 
 **Origine** : \
@@ -317,7 +317,7 @@ comme langage principal pour le développement Android.
 - **Spring** : Compatible avec Kotlin, il permet de tirer parti des fonctionnalités modernes de Kotlin tout en exploitant les outils du framework Spring pour créer des applications robustes.
 
 **Utilisation réelle** : \
-Kotlin est aujourd’hui le langage recommandé pour le développement d’applications Android, 
+Kotlin est aujourd’hui le langage recommandé pour le développement d’applications Android,
 ce qui a conduit des entreprises comme Pinterest et Trello à adopter Kotlin pour leurs applications mobiles.
 Son intégration native avec les outils Android et sa compatibilité avec Java en font un choix populaire
 pour les nouveaux projets Android.
@@ -325,7 +325,7 @@ pour les nouveaux projets Android.
 #### <img src="images/icons/javascript.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 JavaScript est le langage incontournable du web et est le seul langage qui permet de créer des interactions directement
 dans le navigateur. Il est interprété, ce qui signifie qu'il est exécuté directement par le moteur JavaScript d'un
-navigateur sans nécessiter de compilation préalable. Cela en fait l’un des langages de développement front-end les plus 
+navigateur sans nécessiter de compilation préalable. Cela en fait l’un des langages de développement front-end les plus
 utilisés.
 
 **Origine** : \
@@ -343,7 +343,7 @@ JavaScript est utilisé par presque tous les sites web pour rendre les pages int
 {% details "JavaScript en tant que langage serveur" %}
 Bien que JavaScript ait historiquement été limité aux navigateurs web, il est aujourd’hui aussi couramment
 utilisé côté serveur grâce à Node.js. Node.js a été développé en 2009 et permet d'exécuter du code JavaScript
-côté serveur. Cela a révolutionné le développement web en permettant aux développeurs d'utiliser un seul langage 
+côté serveur. Cela a révolutionné le développement web en permettant aux développeurs d'utiliser un seul langage
 pour gérer à la fois le front-end et le back-end d'une application.
 
 **Utilisation réelle** : \
@@ -560,7 +560,7 @@ Depuis nous en sommes à la HTML5 et CSS3.
   </note>
   ```
   Vous pourrez souvent le trouver dans des fichiers de configurations un poil datés (eg. `.pom`),
-  c'était un format très populaire depuis sa création en 1996, mais est en déclin depuis l'arrivée de JSON 
+  c'était un format très populaire depuis sa création en 1996, mais est en déclin depuis l'arrivée de JSON
 - [**JSON**](https://www.json.org/json-en.html) (*JavaScript Object Notation*) :
   Un format d'échange de données EXTRÊMEMENT populaire (difficile de trouver des API qui ne renvoient pas de JSON) et
   relativement léger, il est basé sur un sous-ensemble du langage de programmation JavaScript
