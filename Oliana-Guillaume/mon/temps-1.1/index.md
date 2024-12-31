@@ -157,7 +157,7 @@ Maintenant que nous avons écrit notre fichier HTML, il est temps de le tester e
 
 Dans notre exemple, voici à quoi ressemble notre premiere page web : 
 
-![alt text](image.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.1/image.png)
 
 
 ---
@@ -209,7 +209,7 @@ Les balises sémantiques en HTML, telles que `<header>`, `<nav>`, `<section>`, e
 ```
 Voici alors notre page : 
 
-![alt text](image-1.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.1/image-1.png)
 
 ### 2.4 Importance des balises sémantiques
 
@@ -351,7 +351,7 @@ Pour appliquer ce fichier CSS à votre page web, vous devez lier le fichier CSS 
 
 Voici à quoi ressemble maintenant notre site :
 
-![alt text](image-2.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.1/image-2.png)
 
 
 
@@ -441,7 +441,7 @@ Nous allons créer une section avec trois colonnes qui utilisent Flexbox pour s'
 
 Voici alors à quoi ressemble notre site.
 
-![alt text](image-6.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.1/image-6.png)
 
 
 ---

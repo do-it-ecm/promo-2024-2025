@@ -144,20 +144,20 @@ J'ai lancé `docker-compose build` dans mon terminal et dans un premier temps ç
 
 Docker va alors construire les images pour chaque service. L'image pour le frontend s'appelle "nom-du-projet-frontend" et est très lourde (3,5 Go), ça doit être parce qu'elle contient tous les modules Node qu'on a installé précédemment.
 
-![alt text](image-3.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Gonin-Emma/mon/temps-2.2/image-3.png)
 
 Pour démarrer les conteneurs pour ces services, je lance `docker-compose up`.
 
-![alt text](image.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Gonin-Emma/mon/temps-2.2/image.png)
 
 On voit dans Docker Desktop que 2 conteneurs sont créés : un pour le frontend et un pour le backend. On peut aussi voir les logs en temps réel pour chaque service.
 
-![alt text](image-1.png)
-![alt text](image-5.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Gonin-Emma/mon/temps-2.2/image-1.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Gonin-Emma/mon/temps-2.2/image-5.png)
 
 J'accède à `http://localhost:3000` dans mon navigateur pour voir l'application React puis à `http://localhost:8000` pour tester l'API FastAPI. J'ai eu quelques problèmes avec mon conteneur backend mais le frontend fonctionne.
 
-![alt text](image-2.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Gonin-Emma/mon/temps-2.2/image-2.png)
 
 J'utilise l'interface de **Docker Desktop** pour :
 

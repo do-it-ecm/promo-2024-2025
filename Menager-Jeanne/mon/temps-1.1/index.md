@@ -59,7 +59,7 @@ Elles vont souvent par paire, voici quelques exemples :
 
 Dans le cours d'openClassRoom, un projet fil rouge était proposé afin d'appliquer directement les principes appris et voici le résultat à la fin de la partie d'htlm : 
 
-![Capture d'écran à la fin de la partie HTML](./HTML.png)
+![Capture d'écran à la fin de la partie HTML](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-1.1/HTML.png)
 
 On voit ici le titre de la page ** À propos - Robbie Lens Photographie** est indiqué en haut. La page est ensuite divisée et plusieurs sections avec des titres de tailles différentes. Mais ce contenu n'est pas joli et ne donne pas envie d'être lu. Pour le rendre plus attractif, nous allons donc utiliser le CSS.
 
@@ -133,7 +133,7 @@ Tout d'abord, on peut régler les marges externes appellées "margin" et les mar
 
 Ensuite, on peut utiliser ce qui s'appelle des flexbox pour aligner les éléments comme on le souhaite comme illustré sur cette image : 
 
-![Explication flexbox](./flexbox.png)
+![Explication flexbox](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-1.1/flexbox.png)
 
 Enfin, les CSS grids permetent de placer vos élément dans un tableau en précisant les tailles des colonnes et lignes comme fait ici : 
 
@@ -148,9 +148,9 @@ Enfin, les CSS grids permetent de placer vos élément dans un tableau en préci
 
 Ainsi, grace au CSS, nous avons pu rendre le site web de la photographe plus attractif : 
 
-![Site après l'utilisation du CSS](./CSS1.png)
-![Site après l'utilisation du CSS](./CSS2.png)
-![Site après l'utilisation du CSS](./CSS3.png)
+![Site après l'utilisation du CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-1.1/CSS1.png)
+![Site après l'utilisation du CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-1.1/CSS2.png)
+![Site après l'utilisation du CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-1.1/CSS3.png)
 
 Je n'ai pas eu le temps de finir la formation d'openClassRoom mais je suis satisfaite du travail que j'ai effectué et je sais où trouver les ressources qu'il me manque si j'en ai besoin un jour. Les parties manquantes ne me seront pas utiles pour mon POK, ce n'est donc pas grave.
 

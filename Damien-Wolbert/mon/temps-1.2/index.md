@@ -96,7 +96,7 @@ console.log("7");
 console.log("8");
 ```
 Résultat :
-![Journal d'exécution](./Journal_d_execution.png)
+![Journal d'exécution](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/mon/temps-1.2/Journal_d_execution.png)
 {% enddetails %}
 
 ## Syntaxes AppScript et VBA

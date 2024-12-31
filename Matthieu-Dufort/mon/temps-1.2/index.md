@@ -36,7 +36,7 @@ Je vais donc commencer par traiter ces langages en cherchant pour chacun :
 - Les inconvénients
 - Leurs cas d'usages
 
-## ![JavaScript](./JS.png) Javascript
+## ![JavaScript](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/JS.png) Javascript
 
 Ce langage a été créé par Brendan Eich en 1995 pour Netscape afin de permettre l'interactivité sur les pages web. Il est utilisé dans le cadre du développement web dans les applications du coté du client mais aussi du coté du serveur (Node.js). Il est indispensable pour le développement web moderne.
 
@@ -60,7 +60,7 @@ Netscape est le premier navigateur web commercial distribué à grande échelle.
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Python](./Python.png) Python
+## ![Python](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Python.png) Python
 
 Python a été créé par Guido van Rossum en 1991 afin de fournir un langage simple et lisible pour les tâches de scripting. Il est utilisé pour faire du développement web, de la datascience, du scripting et des automatismes. C'est un langage assez facile d'accès et il est donc très recommandé pour les débutants ou pour les projets multidisciplinaire (grâce à sa forte adaptabilité).
 
@@ -78,7 +78,7 @@ Python a été créé par Guido van Rossum en 1991 afin de fournir un langage si
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Java](./Java.png) Java
+## ![Java](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Java.png) Java
 
 Ce langage a été développé par Sun Microsystems en 1995 afin de créer un langage portable pour les appareils embarqués. Il est très utilisé pour le développement d'application d'entreprise, d'application Android ou pour tous les systèmes embarqués. Il permet de gérer des applications volumineuses ou des systèmes complexes.
 
@@ -96,7 +96,7 @@ Ce langage a été développé par Sun Microsystems en 1995 afin de créer un la
 
 *Niveau de difficulté d'apprentissage* : 3
 
-## ![C#](./C1.png) C#
+## ![C#](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/C1.png) C#
 
 Le C est développé par Microsoft en 2000 dans le but de créer un langage moderne pour le développement sur la plateforme .NET. Il est utilisé pour le développement d'applications de bureau, de jeux mais aussi d'applications web. Par son fort lien avec Microsoft, il est recommandé pour les applications Windows et les applications d'entreprise
 
@@ -122,7 +122,7 @@ Elle comprend les sytèmes d'exploitations Microsoft, des moyens de communicatio
 
 *Niveau de difficulté d'apprentissage* : 3
 
-## ![PHP](./php.png) PHP
+## ![PHP](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/php.png) PHP
 
 Il est créé par Rasmus Lerdorf en 1994 afin de faire du développement web côté serveur. Il est donc utilisé dans le cadre du développement web et surtout pour la gestion de contenu (WordPress...). Il permet d'être efficace et rapide lors du développement d'une application web.
 
@@ -158,7 +158,7 @@ Développé par Bjarne Stroustrup en 1983, il est utilisé afin d'ajouter des fo
 
 *Niveau de difficulté d'apprentissage* : 3
 
-## ![Ruby](./Ruby.png) Ruby
+## ![Ruby](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Ruby.png) Ruby
 
 Il est Créé par Yukihiro Matsumoto en 1995 afin de Créer un langage simple et agréable à utiliser. Il est utilisé pour faire des prototypes rapide et un peu de développement Web. Il est donc particulièrement idéal pour la réalisation de MVP (minimum viable product).
 
@@ -176,7 +176,7 @@ Il est Créé par Yukihiro Matsumoto en 1995 afin de Créer un langage simple et
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![TypeScript](./TypeScript.png) TypeScript
+## ![TypeScript](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/TypeScript.png) TypeScript
 
 Tout comme le C, ce langage est développé par Microsoft en 2012. Il cherche a améliorer JavaScript avec un typage statique. Il est donc utilisé aussi pour le développemnt d'application web mais plutôt sur des app plus complexe ou utilisant des framworks modernes (React...). Il est donc recommandé pour les grandes bases de codes.
 
@@ -200,7 +200,7 @@ Le typage statique consiste à définir les types des objets. Cela permet permet
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Swift](./Swift.png) Swift
+## ![Swift](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Swift.png) Swift
 
 Ce langage est développé par Apple en 2014 pour Remplacer Objective-C pour le développement iOS et macOS. Il est donc utilisé dans des développements pour iOS et macOS et est utilie dans le cadre de projet Apple. On pourrait l'assimiler au C de Microsoft mais du coté Apple.
 
@@ -218,7 +218,7 @@ Ce langage est développé par Apple en 2014 pour Remplacer Objective-C pour le 
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Go](./Go.png) Go
+## ![Go](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Go.png) Go
 
 Développé par Google en 2009, il permet de fournir un langage efficace pour le développement système. Il est utilisé pour le développement de serveurs, microservices et systèmes distribués principalement. Il est idéal pour une application qui a besoin de forte performance.
 
@@ -236,7 +236,7 @@ Développé par Google en 2009, il permet de fournir un langage efficace pour le
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Kotlin](./Kotlin.png) Kotlin
+## ![Kotlin](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Kotlin.png) Kotlin
 
 Développé par JetBrains et lancé en 2011, il a pour objectif de créer un langage moderne pour remplacer Java sur Android. Il sert donc pour des application Android mais aussi pour des applications backend. Il est particulièrement recommandé pour le développement d'application mobile moderne.
 
@@ -254,7 +254,7 @@ Développé par JetBrains et lancé en 2011, il a pour objectif de créer un lan
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Rust](./Rust.png) Rust
+## ![Rust](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Rust.png) Rust
 
 Ce langage est Développé par Mozilla et lancé en 2010. Il a pour objectifs de fournir un langage performant avec une gestion de la mémoire sécurisée. Il est utilisé pour le développement de système, d'application et de jeux performants. Il est donc idéal lorsque l'on recherche de la sécurité et de la performance pour une application.
 
@@ -272,7 +272,7 @@ Ce langage est Développé par Mozilla et lancé en 2010. Il a pour objectifs de
 
 *Niveau de difficulté d'apprentissage* : 3
 
-## ![Dart](./Dart.png) Dart
+## ![Dart](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Dart.png) Dart
 
 Développé par Google et lancé en 2011, il permet de créer un langage pour le développement d'applications web et mobiles. Il est donc idéale pour les projets multiplateforme car il est aussi bien compatible mobile que web.
 
@@ -290,7 +290,7 @@ Développé par Google et lancé en 2011, il permet de créer un langage pour le
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Scala](./Scala.png) Scala
+## ![Scala](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Scala.png) Scala
 
 Il est développé par Martin Odersky et lancé en 2003.Son objectif principale est de combiner la programmation orientée objet et la programmation fonctionnelle. Il est utilisé pour le traitement de données ainsi que pour la programmation d'applications d'entreprise. Il permet de traiter des problèmes complexes avec une forte performance.
 
@@ -308,7 +308,7 @@ Il est développé par Martin Odersky et lancé en 2003.Son objectif principale 
 
 *Niveau de difficulté d'apprentissage* : 3
 
-## ![Perl](./Perl.png) Perl
+## ![Perl](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Perl.png) Perl
 
 Créé par Larry Wall en 1987 pour le traitement de texte et le scripting de système. Il est utilisé pour la réalisation de script, l'administration de système et le traitement de texte. Il est principalement recommandé dans le cadre de tache d'automatisation et dans les scripts rapide et peu complexe.
 
@@ -326,7 +326,7 @@ Créé par Larry Wall en 1987 pour le traitement de texte et le scripting de sys
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![R](./R.png) R
+## ![R](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/R.png) R
 
 Ce langage est développé par Ross Ihaka et Robert Gentleman en 1993 afin d'analyser des données et produire des graphiques. Il est idéal pour des projets de recherche et d'analyse de données dans les domaines d'analyse, de statistique et de science de la données.
 
@@ -344,7 +344,7 @@ Ce langage est développé par Ross Ihaka et Robert Gentleman en 1993 afin d'ana
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Shell scripting](./ShellScripting.png) Shell scripting (Bash)
+## ![Shell scripting](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/ShellScripting.png) Shell scripting (Bash)
 
 Crée par Brian Fox en 1987, il permet de fournir un interpréteur de commandes pour Unix. Il est très utile pour les administrateur système et les développeurs DevOps afin d'automatiser les taches système et pour faire des scripts de déploiment.
 
@@ -362,7 +362,7 @@ Crée par Brian Fox en 1987, il permet de fournir un interpréteur de commandes 
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![Elixir](./Elixir.png) Elixir
+## ![Elixir](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Elixir.png) Elixir
 
 Sorti par José Valim en 2011, c'est un langage fonctionnel pour la création d'applications évolutives. Il est utilisé pour les applications web et les systèmes distribués et est particulièrement idéal pour les applications nécessitant beaucoup de disponibilité.
 
@@ -380,7 +380,7 @@ Sorti par José Valim en 2011, c'est un langage fonctionnel pour la création d'
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Lua](./Lua.png) Lua
+## ![Lua](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Lua.png) Lua
 
 Ce language provient du Brésil et apparaît en 1993. Il veut mettre a dispoisition un langage léger et extensible pour intégrer des fonctionnalités dans des applications. Il permet le dévelopement de jeux et de système embarqué.
 
@@ -398,7 +398,7 @@ Ce language provient du Brésil et apparaît en 1993. Il veut mettre a dispoisit
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![ObjectiveC](./ObjectiveC.png) Objective-C
+## ![ObjectiveC](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/ObjectiveC.png) Objective-C
 
 Il est développé par Brad Cox et Tom Love dans les années 1980.L'objectif de ce langage est de combiner la programmation orientée objet avec C. Il est fait pour le développement d'application MacOS et iOS. Il s'est aujourd'hui fait majoritairement remplacé par swift mais il reste utilisé pour les applications fonctionnant avec avant l'apparition de swift.
 
@@ -416,7 +416,7 @@ Il est développé par Brad Cox et Tom Love dans les années 1980.L'objectif de 
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![SQL](./SQL.png) SQL (Structured Query Language)
+## ![SQL](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/SQL.png) SQL (Structured Query Language)
 
 C'est un langage produit en 1970 par IBM qui permet de
 gérer et interroger des bases de données relationnelles. Il est utilisé pour la gestion et l'analyse de base de données.
@@ -435,7 +435,7 @@ gérer et interroger des bases de données relationnelles. Il est utilisé pour 
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![HTML](./HTML.png) HTML (HyperText Markup Language)
+## ![HTML](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/HTML.png) HTML (HyperText Markup Language)
 
 Créé par Tim Berners-Lee au début des années 1990 afin de Structurer le contenu sur le web. Il est utilisé uniquement pour apporter de la structure à une page web mais ne permet aucun dynamisme sans l'utilisation d'autre langage.
 
@@ -453,7 +453,7 @@ Créé par Tim Berners-Lee au début des années 1990 afin de Structurer le cont
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![CSS](./CSS.png) CSS (Cascading Style Sheets)
+## ![CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/CSS.png) CSS (Cascading Style Sheets)
 
 Ce langage est créé par le W3C en 1996 pour séparer le contenu et la présentation des pages web. Il se combine avec HTML en apportant le style sur la mise en forme.
 
@@ -471,7 +471,7 @@ Ce langage est créé par le W3C en 1996 pour séparer le contenu et la présent
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![XML](./XML.png) XML (eXtensible Markup Language)
+## ![XML](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/XML.png) XML (eXtensible Markup Language)
 
 Tout comme le CSS, il est Développé par le W3C dans les années 1990. Il a pour objectif de donner un format flexible pour le stockage et l'échange de données. Il permet la configuration d'application l'échange et le stockage de données
 
@@ -489,7 +489,7 @@ Tout comme le CSS, il est Développé par le W3C dans les années 1990. Il a pou
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![JSON](./json.png) JSON (JavaScript Object Notation)
+## ![JSON](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/json.png) JSON (JavaScript Object Notation)
 
 Ce langage, similaire au XML est créé par Douglas Crockford dans les années 2000 afin de Fournir un format plus léger pour l'échange de données. Il permet donc de la même façon l'échange de données entre un serveur et un utilisateur ainsi que la configuration d'applications.
 
@@ -507,7 +507,7 @@ Ce langage, similaire au XML est créé par Douglas Crockford dans les années 2
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![Fortran](./Fortran.png) Fortran (Formula Translation)
+## ![Fortran](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Fortran.png) Fortran (Formula Translation)
 
 Créé en 1957 par IBM, sous la direction de John Backus. Il est développé pour effectuer les calculs scientifiques et l'ingénierie. Il excelle dans les calculs intensifs grâce à ses optimisations modernes. Il est massivement utilisé en physique, métérologie, chimie, astrologie et ingénierie pour la réalisation de calcul massif. Il est utilisé dans les super-computers pour la réalisation de simulation comme des simulation climat ou de mécanique des fluides. Il est indispensable pour tous les scientifiques travaillant ayant besoin de grande puissance de calcul
 
@@ -525,7 +525,7 @@ Créé en 1957 par IBM, sous la direction de John Backus. Il est développé pou
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![alt text](./COBOL.png) COBOL (Common Business-Oriented Language)
+## ![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/COBOL.png) COBOL (Common Business-Oriented Language)
 
 Il est Créé en 1959 par le CODASYL (Conference on Data Systems Languages) sous la direction de Grace Hopper. COBOL a été conçu pour être un langage de programmation orienté vers les affaires  permettant la gestion de grandes quantités de données. Il est très utilisé dans les secteurs publiques, bancaire et financier pour gérer des grandes quantités de transaction. Il tourne sur des grands ordinateurs gérant des millions de transactions par jours.
 
@@ -543,7 +543,7 @@ Il est Créé en 1959 par le CODASYL (Conference on Data Systems Languages) sous
 
 *Niveau de difficulté d'apprentissage* : 2
 
-## ![Scratch](./Scratch.png) Scratch
+## ![Scratch](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Scratch.png) Scratch
 
 Ce langage est créé en 2003 au MIT Media Lab par Mitchel Resnick afin d'avoir un langage de programmation visuel destiné à initier es enfants et les débutants. Il permet de créer des projets interactifs facilement sans syntaxe complexe. Il est donc utilisé dans l'éducation pour apprendre les concepts fondamentaux de la programmation. Il peut aussi servir à faire des jeux et services pour enfant.
 
@@ -561,7 +561,7 @@ Ce langage est créé en 2003 au MIT Media Lab par Mitchel Resnick afin d'avoir 
 
 *Niveau de difficulté d'apprentissage* : 0
 
-## ![Delphi](./Delphi.png) Delphi
+## ![Delphi](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/Delphi.png) Delphi
 
 Delphi a été lancé en 1995 par Borland en tant qu'environnement de développement intégré (IDE) basé sur le langage Object Pascal. Delphi a été créé pour fournir une alternative rapide et efficace à la création d'applications sous Windows. Il combine la puissance du langage Pascal avec un IDE complet permettant le développement rapide d'applications (RAD). Il est très utlisé pour le développement d'application desktop sur windows. Il est possible aussi de faire des applications mobiles. Il permet de faire des interfaces complexes et de bien gérer les bases de données et sera donc majoritairement utilisé dans le cadre de projet ayant besoin de gérer ces deux choses.
 
@@ -579,7 +579,7 @@ Delphi a été lancé en 1995 par Borland en tant qu'environnement de développe
 
 *Niveau de difficulté d'apprentissage* : 1
 
-## ![VisualBasic](./VisualBasic.png) Visual Basic
+## ![VisualBasic](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Matthieu-Dufort/mon/temps-1.2/VisualBasic.png) Visual Basic
 
 Visual Basic a été créé par Microsoft en 1991. il a été conçu pour permettre aux développeurs de créer facilement des applications Windows avec une interface graphique en utilisant un environnement de développement rapide. Il est principalement utilisé pour des applications de bureau. Il permet aussi l'optimisation d'office avec des macros (VBA). Il est aussi pratique pour faire des prototypes rapides. Il est donc utilisé pour des applications simple sans nécessité de performance.
 

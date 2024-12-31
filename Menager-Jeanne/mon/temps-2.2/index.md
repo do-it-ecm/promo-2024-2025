@@ -36,13 +36,13 @@ Afin de lutter contre le risque d'addiction aux jeux d'argent, la france a mis e
 Ce chiffre peut paraitre faible mais avec 1 477 M€ misé sur les paris sportif en 2023 en France soit entre 44,3M€ et 59,08M€ de cummulés pour les 16 bookmakers français. \
 Néeanmoins ces 16 bookmakers ne se partage pas le marché equitablement, les principaux sont : Parions Sport, qui appartient à la française des jeux et qui avait le monopole jusqu'en 2010, Winamax, qui dit être le numéro 1 et Betclic
 
-![Répartition des mises](./repartition_mises.png)
+![Répartition des mises](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-2.2/repartition_mises.png)
 
 ## Le Marketing
 
 Comme le pourcentage récupéré par les bookmakers sur chaque site est très faible, ils ont besoin d'un gros volume de jeu et donc de toujours plus de parieur. Pour cela, ils investissent beaucoup dans la pub, le sponsoring et le naming en ciblant un public bien définit : les fans de sport majeur. En effet, avant chaque rencontre de football à la télévision, il y a au moins une pub pour un site de paris. Certains bookmakers font même des partenariats avec des clubs de foot comme le PSG et l'OM avec parions sport ou même BetWay qui sponsorise le maillot de WestHam. Enfin, certains bookmaker comme betclic, paye pour qu'une compétition porte son nom, c'est le cas du championnat de France de Basket, la Betclic Elite. \
 
-![Maillot de West Ham](./Maillot-West-Ham-United-2024-2025-domicile.webp)
+![Maillot de West Ham](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-2.2/Maillot-West-Ham-United-2024-2025-domicile.webp)
 
 L'omniprésence du football dans le dernier paragraphe n'est pas uniquement dû à mon appétance pour ce sport : les bookmakers savent quel public il peuvent attirer et avec plus de la moitié des mises des paris sportifs sur le football, c'est naturellement sur ce marché que les bookmakers essayent de recruter. \
 Leurs publicités sont aussi très ciblées pour les jeunes hommes (85% des parieurs sont des hommes et une majorité a moins de 34 ans). \
@@ -52,14 +52,14 @@ En addition, des points de fidélité sont aussi créés par certains site pour 
 Enfin, certaines côtes sont volontairement hautes, elles sont appellées "cotes boostées" afin d'encourager les joueurs à parier. Ceux ci sont souvent prévenu par notification car les sites de paris existent aussi sous forme d'applications.
 Nous pourrions penser que toutes ces méthodes font perdre de l'argent aux bookmakers mais le nombre de clients qu'elles y gagnent est bien plus important : Winamax qui pratique toutes ces techniques est le premier bookmaker français. Et il existe des site comparant les avantages de bookmakers : 
 
-![Critiques de Genybet](./GenyBet.png)
-![Critiques de Betclic](./Betclic.png)
+![Critiques de Genybet](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-2.2/GenyBet.png)
+![Critiques de Betclic](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-2.2/Betclic.png)
 
 
 Enfin, le système de cotation a un impact sur l'affluence sur le site : en effet, l'idée des joueurs est de gagner le plus d'argent possible donc d'avoir les meilleurs côtes : 
 
-![Côtes sur Genybet](./Cotes_GenyBEt.png)
-![Côtes sur Betclic](./cotes_betclic.png)
+![Côtes sur Genybet](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-2.2/Cotes_GenyBEt.png)
+![Côtes sur Betclic](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Menager-Jeanne/mon/temps-2.2/cotes_betclic.png)
 
 ## Que font les bookmakers de l'argent des parieurs
 

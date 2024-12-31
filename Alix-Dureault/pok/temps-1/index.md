@@ -101,7 +101,7 @@ J'ai continué en ajoutant une image et le lien de chaque page de patron que j'a
 ```
 
 Voici donc le résultat de la page pour le moment : 
-![Page d'acceuil](./Pageacceuil1.jpg)
+![Page d'acceuil](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Pageacceuil1.jpg)
 
 #### Page patron typique
 
@@ -178,9 +178,9 @@ La page patron à une structure typique à chaque fois :
 ```
 
 Le résultat final du sprint donne quelque chose comme ça : 
-![Début de la page patron](./Lilithtop1.jpg)
-![Milieu de la page patron](./Lilithtop2.jpg)
-![Fin de la page patron](./Dosnu1.jpg)
+![Début de la page patron](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Lilithtop1.jpg)
+![Milieu de la page patron](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Lilithtop2.jpg)
+![Fin de la page patron](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Dosnu1.jpg)
 
 Pour l'instant le visuel n'est pas incroyable mais cela devrait s'arranger avec le sprint 2 et l'ajout du code css.
 
@@ -190,7 +190,7 @@ Pendant le second sprint, je me suis concentrée sur l'apparence de mon site web
 
 Pour cela, j'ai commencé par réaliser une maquette sommaire du rendu que je voulais afin de mieux cerner sur quoi travailler et dans quelle direction me tourner.
 
-![Fin de la page patron](./Maquette.jpg)
+![Fin de la page patron](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Maquette.jpg)
 
 Une fois cette maquette terminée, j'ai pu me lancer dans le code, d'abord en html pour ajouter les classes de mes éléments et les balises ```<div>``` et ```<span>``` qui sont utiles pour séparer les éléments de la page et les disposer aux bons endroits.
 
@@ -655,14 +655,14 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
     
 Tout ce code me permet d'obtenir un résultat beaucoup plus sympathique que lorsque l'on a juste un code html. Voici une plus jolie vision de ce que mon code a pu donné :
     
-![Visuel de la page d'accueil](./Accueilfinal1.png)
+![Visuel de la page d'accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Accueilfinal1.png)
     
-![Visuel de la page d'accueil 2](./Accueilfinal2.png)
+![Visuel de la page d'accueil 2](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Accueilfinal2.png)
     
-![Visuel de la page patron](./Patronfinal1.png)
+![Visuel de la page patron](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Patronfinal1.png)
     
-![Visuel de la page patron 2](./Patronfinal2.png)
+![Visuel de la page patron 2](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Patronfinal2.png)
     
-![Visuel de la page patron 3](./Patronfinal3.png)
+![Visuel de la page patron 3](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Patronfinal3.png)
     
-![Visuel de la page patron 4](./Patronfinal4.png)
+![Visuel de la page patron 4](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Alix-Dureault/pok/temps-1/Patronfinal4.png)

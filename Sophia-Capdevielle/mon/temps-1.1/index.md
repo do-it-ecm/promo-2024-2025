@@ -198,16 +198,16 @@ Installation CLI Vue: 'npm install -g @vue/cli'\
 'vue create mon-projet-vue' \
 Voilà on a créer notre premier projet Vue !
 
-![Vue CLI](./VueCLI.png)
+![Vue CLI](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Sophia-Capdevielle/mon/temps-1.1/VueCLI.png)
 
 Ici, on choisira "Default" avec Vue3.\
 Tous les fichiers nécessaires sont ensuite générés automatiquement: structure de base, Babel, ESLint, scripts de base. Voilà ce à quoi ressemble le base créée:
 
-![App Vue Base](./AppVuebase.png)
+![App Vue Base](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Sophia-Capdevielle/mon/temps-1.1/AppVuebase.png)
 
 Et voilà les dossiers et fichiers créés:
 
-![Dossiers App Vue](./DossiersAppVue.png)
+![Dossiers App Vue](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Sophia-Capdevielle/mon/temps-1.1/DossiersAppVue.png)
 
 App.vue est appelé **composant racine**
 
