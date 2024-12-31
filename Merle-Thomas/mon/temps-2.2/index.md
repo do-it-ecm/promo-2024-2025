@@ -202,7 +202,7 @@ Exemple : Ryanair, adoptant une stratégie de coût minimal après le succès d�
 Exemple : Microsoft, qui s’adapte rapidement aux évolutions du cloud.
 * **Passives** : L’entreprise se limite à des améliorations mineures demandées par les clients existants.
 
-![Stratégies](./Stratégies.png "Tableau des positionnements stratégiques des entreprises")
+![Stratégies](./Strategies.png "Tableau des positionnements stratégiques des entreprises")
 
 Les entreprises adoptent des postures différentes face à l’incertitude :
 

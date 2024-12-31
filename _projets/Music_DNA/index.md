@@ -34,10 +34,10 @@ Les cibles de cette application sont les suivantes :
 Ci-après, deux exemples de personne cible pouvant profiter de l'application MusiCoach :
 
 *Personae 1 :*
-![Personae 1](<Images/Personae 1.png>)
+![Personae 1](<Images/Personae_1.png>)
 
 *Personae 2 :*
-![Personae 2](<Images/Personae 2.png>)
+![Personae 2](<Images/Personae_2.png>)
 
 ### Benchmark 
 Nous avons réalisé une étude de marché afin de voir les offres proposées par les principales applications de musique ayant le même objectif que MusiCoach
