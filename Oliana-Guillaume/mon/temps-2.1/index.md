@@ -282,7 +282,7 @@ npm install firebase
 On a donc directement la structure de projet suivante : 
 
 <div style = "display : flex; flex-direction: column; align-items : center; margin : 20px">
-  <img src= "/home/guillaumeoliana/Pictures/Screenshots/Screenshot from 2024-11-17 18-11-42.png"></img>
+  <img src= "/home/guillaumeoliana/Pictures/Screenshots/Screenshot_from_2024-11-17_18-11-42.png"></img>
   <h2>Structure du folder créé par Vite</h2>
 </div>
 

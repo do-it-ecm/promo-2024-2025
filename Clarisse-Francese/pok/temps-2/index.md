@@ -112,13 +112,13 @@ J'ai aussi regardé de mon côté des ressourcespour mieux comprendre la **Datav
 
 J'ai suivi la [vidéo youtube](https://www.youtube.com/watch?v=BVBvo9eKK40) recommandée par Sarah, ce qui m'a permis de travailler sur le tableau de données assez indigeste ci-dessous.
 
-<img src="Tuto tableau avant LS.png" width="60%" alt="Image description">
+<img src="Tuto_tableau_avant_LS.png" width="60%" alt="Image description">
 
 Et d'utiliser Looker Studio pour **transformer ces données en le tableau de bord** ci-dessous. On voit que **tout est dynamique** et donc on peut passer du tableau original à gauche à un tableau où on étudie les chiffres plus en détail à droite (ici j'ai sélectionné le pays Italy et décoché la case tapis).
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="Tuto tableau apres LS.png" alt="Image 2" style="width: 48%; height: auto;">
-    <img src="Tuto tableau apres LS Italy.png" alt="Image 3" style="width: 48%; height: auto;">
+    <img src="Tuto_tableau_apres_LS.png" alt="Image 2" style="width: 48%; height: auto;">
+    <img src="Tuto_tableau_apres_LS_Italy.png" alt="Image 3" style="width: 48%; height: auto;">
 </div>
 
 ### 👩‍🎨 Projet 1 : tableau de bord des ventes de ma soeur artiste

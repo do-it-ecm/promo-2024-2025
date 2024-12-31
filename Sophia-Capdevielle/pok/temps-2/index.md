@@ -85,7 +85,7 @@ Alors on s'est dit qu'on allait créer une page en no-code avec l'outil Notion, 
 C'est ce qui a été fait. Voici quelques images de l'interface:
 
 <video controls>
-  <source src="./NotionEPvidéo.mp4" type="video/mp4">
+  <source src="./NotionEPvideo.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la vidéo.
 </video>
 
@@ -135,7 +135,7 @@ Cependant, j'ai exploré les possibilités et j'ai vu la partie "Formulaires" d'
 Voici le formulaire réalisé à titre d'exemple:
 
 <video controls>
-  <source src="./FormAirtablevidéo.mp4" type="video/mp4">
+  <source src="./FormAirtablevideo.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la vidéo.
 </video>
 
