@@ -7,8 +7,8 @@ authors:
 
 date: 2024-11-10
 
+temps: 2
 tags:
-  - "temps 2"
   - "dev"
   - "vscode"
 
@@ -18,12 +18,6 @@ résumé: Développement d'une extension permettant de débloquer des succès en
 <head>
   <link rel="icon" href="https://github.com/BoxBoxJason/achievements/blob/203309903d67090188814ce491a9d418ab71891e/assets/icons/pusheen_holding_trophy.png?raw=true" type="image/x-icon">
 </head>
-
-<script type="module">
-  // Mermaid configuration
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
 
 {% prerequis '**POK avancé**'%}
 - [VSCode](https://code.visualstudio.com/)
@@ -46,7 +40,7 @@ Toujours dans l'optique de créer le **meilleur environnement de développement 
 
 Et puis *Qui n'a jamais rêvé de terminer VSCode* ? C'est pourquoi j'ai décidé de développer une extension pour VSCode permettant de débloquer des achievements en fonction de l'utilisation de l'éditeur.
 
-Il existe déjà deux extensions de ce type sur le marché, mais elles ne sont pas complètes du tout et ne sont plus maintenues. J'ai donc décidé de développer la mienne, qui sera plus complète et plus à jour. 
+Il existe déjà deux extensions de ce type sur le marché, mais elles ne sont pas complètes du tout et ne sont plus maintenues. J'ai donc décidé de développer la mienne, qui sera plus complète et plus à jour.
 
 ## Fonctionnement
 L'extension `Achievements` fonctionne de manière assez simple. Le but est de ne pas impacter les performances de l'éditeur et de pouvoir fonctionner hors ligne.
