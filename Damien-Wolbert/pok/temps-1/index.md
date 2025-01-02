@@ -420,7 +420,7 @@ Cette séparation en 3 onglets distincts permettra à terme de modifier les comp
 
 Comme visible sur la figure précédente, une compétence est définie par un N°, un nom et une description. L'utilisateur peut définir un nombre de paliers d'acquisition entre 1 et 5 et visualiser l'avancement.  
 Pour chaque palier, il peut indiquer la date à laquelle il souhaite que le niveau de compétence soit maitrisé, la date à laquelle il est maitrisé ainsi qu'une typologie de preuve d'acquisition (diplôme, certificat ou expérience).
-![Criticite](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/pok/temps-1/Criticite.png)
+![Criticite](./Criticite.png)
 L'utilisateur peut également saisir une importance et une urgence temporelle pour chaque compétence (Criticité voulue) et vérifier la cohérence des choix des objectifs définis par les paliers (Criticité effective). La criticité effective calcul les temps restant pour l'acquisition des différents niveaux de compétences, et définis l'ugence temporelle porportionnellement à l'écart entre l'échéance la plus courte et l'échéance la plus longue.
 
 Pour se faire, il a été nécessaire de créer des onglets "Back-end", pour réaliser les opérations permettant le calcul évoqué précédemment.

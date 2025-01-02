@@ -84,7 +84,7 @@ Un attribut est une précision que l'on apporte afin de modifier l'identité vis
 | ```texte-align``` | Alignement du texte d'un élément HTML|
 
 Ainsi, le code précédent permet d'obtenir ceci :
-![Titre](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Charles-Cook/mon/temps-2.1/Images/Titre.png)
+![Titre](Images/Titre.png)
 
 #### Liens
 ````
@@ -103,7 +103,7 @@ Ainsi, le code précédent permet d'obtenir ceci :
 | ```class``` | Renvoie à une classe créée eu préalable, permettant de donner l'identité visuelle à l'élément|
 
 Ainsi, le code précédent permet de créer le lien "Bases" suivant : 
-![Liens](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Charles-Cook/mon/temps-2.1/Images/Liens.png)
+![Liens](Images/Liens.png)
 
 #### Images 
 ````

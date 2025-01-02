@@ -19,10 +19,10 @@ Il y a aussi un système de points en fonction de la précision de la localisati
 Voici un premier exemple de ce qu'il faudrait faire :
 
 - L'utilisateur a sur son téléphone la photo ancienne :
-![Photo ancienne](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/_projets/Marseille_Artchitecture/PictureOld.png)
+![Photo ancienne](./PictureOld.png)
 
 - Il doit ensuite prendre cette photo, à l'endroit ou l'ancienne a été prise et l'envoyer dans l'application :
-![Photo Récente](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/_projets/Marseille_Artchitecture/PictureNew.png)
+![Photo Récente](./PictureNew.png)
 
 ## En Pratique
 

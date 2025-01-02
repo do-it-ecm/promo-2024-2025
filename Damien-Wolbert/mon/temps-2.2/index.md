@@ -34,7 +34,7 @@ L'ensemble de ce MON se base sur la connaissance du modèle relationnel.
 Ressource : [*Théorie et exercices*](https://stph.scenari-community.org/bdd/nor1-lin/co/nor_1.html) Ce site internet fournit un cours intéressant sur le modèle relationnel et propose des exercices d'applicaton intéressants.  
 ***Attention :*** Certaines explications sous flous et le cours se comprend véritablement grâce aux exercices d'application.
 #### **Notions à connaître :**
-![Définitions de base](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/mon/temps-2.2/Definitions.png)
+![Définitions de base](./Definitions.png)
 Notions générales :
 - Attribut
 - Schema

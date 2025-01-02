@@ -236,7 +236,7 @@ Cette bas de donnée doit contenir les éléments suivants :
 + Commandes manufacture. Il s'agit des commandes passées pour le stock central, mais qui n'ont pas encore été livré. Ces quantités n'apparaissent donc pas encore dans le physique en stock. 
 + Commandes marchés. Il s'agit des commandes passées par les différents marchés et qui n'ont pas encore été expédiées. Ces quantités apparaissent donc encore dans le stock central physique. 
 
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Charles-Cook/pok/temps-1/Images/BDPOK1.png)
+![alt text](Images/BDPOK1.png)
 
 #### Lead Time
 Les bons de commande contiennent également une date de livraison demandée. Cette date de livraison dépend du fournisseur, une seconde feuille dans le classeur recense donc Lead Time en fonction du fournisseur (en mois).

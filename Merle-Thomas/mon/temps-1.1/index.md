@@ -205,7 +205,7 @@ Il existe trois manières d'insérer une feuille de style, en interne, en extern
 
 **La syntaxe CSS :**
 
-![Syntaxe_CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Merle-Thomas/mon/temps-1.1/syntaxe_CSS.png)
+![Syntaxe_CSS](./syntaxe_CSS.png)
 
 Le sélecteur pointe vers l’élément HTML que vous souhaitez styliser. Chaque déclaration comprend un nom de propriété CSS et une valeur.
 
@@ -397,7 +397,7 @@ Et voici ensuite la code HTML permettant de faire appel à notre fichier CSS ext
 ```
 
 L'exécution de ce code sur le serveur web nous permet d'afficher ce rendu visuel : 
-![Page-Menu-Dark-Kitchen](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Merle-Thomas/mon/temps-1.1/page-menu.png)
+![Page-Menu-Dark-Kitchen](./page-menu.png)
 
 ## 3.Bilan<a name="3bilan"></a>
 Lors de ce MON, j'ai réalisé 2 tutoriels complets sur W3School qui m'ont permis de découvrir et d'apprendre la mécanique du FrontEnd avec l'utilisation des languages HTML et CSS. L'objectif de ce MON était de bien assimilé ces 2 languages afin de les utiliserr pour le codage de mon propre site web qui fait l'objet de mon POK1. Je suis donc satisfait du travail réalisé puisque le rendu des premières pages de mon site est satisfaisant. Reste maintenant à acquérir des connaissance complémentaires en JavaScript et sur l'utilisation du framework Vue pour ajouter de l'interactivité aux pages de mon site internet. 

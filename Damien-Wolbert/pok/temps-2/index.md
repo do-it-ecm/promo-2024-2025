@@ -139,7 +139,7 @@ Afin de comprendre la suite de ce POK, il est nécessaire de s'intier au monde d
 Le schema ci-dessous présente la configuration de parc utilisée tout au long du projet (c.f. hypothèses)
 ![Parc photovoltaïque simple](./POK%202%20%20Brainstorming%20générale%20P3.png)
 
-![Illustration d'un parc photovoltaïque](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/pok/temps-2/Schemas.png)
+![Illustration d'un parc photovoltaïque](./Schemas.png)
 <p style="text-align: center;">**Figure :** « «Folie» ou projet «d’intérêt général»? Un parc solaire XXL à l’étude en France ». parismatch.com, 8 février 2022, https://www.parismatch.com/Actu/Environnement/Folie-ou-projet-d-interet-general-Dans-le-sud-ouest-de-la-France-un-parc-solaire-XXL-a-l-etude-1786628.</p>
 
 - ***String*** : Ensemble de panneaux connectés en série.
@@ -338,5 +338,5 @@ Les images ci-dessous montrent un cas d'utilisation de l'outil :
 ![Phase 1](./Phase%204.2.png)
 {% enddetails %}
 {% details "Livrable" %}
-![Phase 1](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/pok/temps-2/Livrable.png)
+![Phase 1](./Livrable.png)
 {% enddetails %}

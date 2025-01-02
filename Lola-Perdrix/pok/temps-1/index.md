@@ -89,7 +89,7 @@ J'ai utilisé la fonction "Convertir" de Excel pour mettre en forme les données
 
 | Avant | Après |
 |-------|-------|
-| ![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/Conversion_dataset.jpg) | ![image](Dataset_converti.jpg) |
+| ![image](Conversion_dataset.jpg) | ![image](Dataset_converti.jpg) |
 
 ***Je répète l'opération pour les autres datasets au format csv.***
 
@@ -155,7 +155,7 @@ J'ai dû faire un copier-coller de [cette page internet](https://www.pokepedia.f
 
 #### Dataset prêt pour l'analyse
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/Dataset_pret.jpg)
+![image](Dataset_pret.jpg)
 
 {% note %}
 
@@ -187,11 +187,11 @@ J'ai utilisé la formule :
 
 avec la liste des types dans la colonne C, le type 1 en colonne D, et le type 2 en colonne E.
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/Tableau_repartition.jpg)
+![image](Tableau_repartition.jpg)
 
 Ce qui donne visuellement :
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/Graphe_repartition_type.jpg)
+![image](Graphe_repartition_type.jpg)
 
 graphe dans lequel je souhaite intégrer encore la proportion de légendaires ainsi que la proportion de pokémon à un seul type.
 
@@ -203,13 +203,13 @@ J'ai calculé pour chaque type la moyenne de chaque attribut de combat avec la f
 
 qui je l'admets n'est pas très compréhensible telle quelle, mais je peux faire néanmoins la remarque que le bon positionnement des dollars dans ma formule m'a permis de l'étirer dans tous les sens pour remplir ce tableau avec seulement celle-ci :
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/Tableau_carac_type.jpg)
+![image](Tableau_carac_type.jpg)
 
 Ce qui peut donner visuellement ceci bien que je me concentrerai sur la visualisation au prochain sprint :
 
 | Tous les types ensemble | Filtrage dans la source de données | Graphique dynamique avec filtre associé |
 |:-------:|:-------:|:--------:|
-| ![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/Graphe_carac_type.jpg) | ![image](Graphe_carac_type_filtre.jpg) | ![image](Graphe_dynamique.jpg) |
+| ![image](Graphe_carac_type.jpg) | ![image](Graphe_carac_type_filtre.jpg) | ![image](Graphe_dynamique.jpg) |
 
 - **Est-ce que les pokémon légendaires sont forcément les plus forts ?**
 
@@ -228,7 +228,7 @@ Pour cette question j'utilise les fonctions `INDEX`, `EQUIV`, `MIN` et `MAX` com
 
 et j'ai finalement regroupé ces résultats dans ces tableaux.
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/Tableaux_sup.jpg)
+![image](Tableaux_sup.jpg)
 
 {% note %}
 
@@ -280,7 +280,7 @@ A noter que si la formule dans la cellule contient des conditions matricielles (
 
 Ce qui donne ceci pour la génération 1 :
 
-![records](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/fin_analyse.jpg)
+![records](fin_analyse.jpg)
 
 ### Macro VBA
 
@@ -328,7 +328,7 @@ End Sub
 
 | Input côté utilisateur | Résultat sur une autre feuille |
 |:-----:|:--------:|
-|![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/inputbox.jpg) | ![image](gen2.jpg)|
+|![image](inputbox.jpg) | ![image](gen2.jpg)|
 
 #### Automatisation 2 : Ajout de la colonne "NB type"
 
@@ -433,7 +433,7 @@ End Sub
 
 {% enddetails %}
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/tableau_types_gen2.jpg)
+![image](tableau_types_gen2.jpg)
 
 #### Automatisation 5 : Création d'un graphe
 
@@ -459,7 +459,7 @@ End Sub
 
 Ce graphique comporte les paramètres élémentaires dont j'avais besoin mais je pourrais le peaufiner plus tard pour le rendre plus joli.
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/Graphe_rep_auto.jpg)
+![image](Graphe_rep_auto.jpg)
 
 #### Réunion de toutes les procédures en une
 
@@ -745,7 +745,7 @@ End Sub
 
 | étape 1 | Résultat |
 |:-----:|:--------:|
-|![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/exemple_macro.jpg) | ![image](resultat_macro.jpg)|
+|![image](exemple_macro.jpg) | ![image](resultat_macro.jpg)|
 
 ### Création du rapport d'une génération
 
@@ -767,7 +767,7 @@ Pour cette étape finale j'ai donc usé de ma créativité afin de faire quelque
 
 Voici le résultat final pour la génération 1 :
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/pok/temps-1/feuille1.jpg) ![image](feuille2.jpg)
+![image](feuille1.jpg) ![image](feuille2.jpg)
 
 ## Conclusion POK
 

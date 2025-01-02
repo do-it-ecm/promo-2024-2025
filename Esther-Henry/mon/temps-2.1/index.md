@@ -61,7 +61,7 @@ En m'inspirant de ce que j’avais vu sur les réseaux et de mon précédent cah
 
 Le but est de créer ce **template** pour qu’il soit utilisable ensuite toute l’année et pour chaque année, sans avoir besoin de modifier la structure. Il est aussi conçu pour que d’autres puissent théoriquement l’utiliser : après avoir rempli l’onglet de planification, les autres onglets se remplissent automatiquement.
 
-![Template](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Esther-Henry/mon/temps-2.1/images/visuel.png)
+![Template](./images/visuel.png)
 
 #### Mise en page
 
@@ -77,7 +77,7 @@ Je voulais à la fois un outil pratique mais aussi esthétique. J’ai alors jou
 
 Une fois mes onglets et leurs tableaux de valeurs structurés, j’ai appliqué des formats à mes données : partout où je voulais un format particulier, j’ai appliqué un format spécifique à mes données, comme nombre, pourcentage, date, ou monétaire.
 
-![Format](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Esther-Henry/mon/temps-2.1/images/format.png)
+![Format](./images/format.png)
 
 #### Les listes
 
@@ -115,13 +115,13 @@ Une fois toute cette structure montée, j’ai ajouté des valeurs de test pour 
 
 Comme vu dans le cours, les mises en forme conditionnelle permettent de mettre en avant certaines valeurs. Je les ai donc utilisées dans mon récapitulatif afin de visualiser si j’étais dans le rouge ou pas. J’ai donc surligné en rouge les valeurs négatives et en vert les positives pour pouvoir voir en un coup d’œil l’état de mes finances.
 
-![MFC](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Esther-Henry/mon/temps-2.1/images/mfc.png)
+![MFC](./images/mfc.png)
 
 #### Les graphiques
 
 Toujours dans une idée de meilleure visualisation des données, j’ai ajouté divers graphiques à ma template du mois, notamment un graphique prévu vs réel en barre et un camembert de la répartition réelle. J’ai cependant eu un peu de mal avec le camembert, car comme j’ai fusionné des cellules, je ne sais pas trop pourquoi, mais j’avais plein de données parasites. J’ai donc dû nettoyer à la main pour avoir un camembert propre.
 
-![Graphique](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Esther-Henry/mon/temps-2.1/images/graphiques.png)
+![Graphique](./images/graphiques.png)
 
 ### Ce qu’il reste à faire
 

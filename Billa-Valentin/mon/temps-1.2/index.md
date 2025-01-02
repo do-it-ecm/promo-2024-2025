@@ -100,7 +100,7 @@ Généralement les bases de données No-SQL sont bien plus spécialisées que le
   - **Redis** : Une base de données clé-valeur en mémoire, souvent utilisée pour le caching
     et le stockage de données temporaires.
 
-![Illustration de la multitude de bases de données existantes](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/illustrations/databases.gif)
+![Illustration de la multitude de bases de données existantes](images/illustrations/databases.gif)
 
 ### Serveurs
 Un serveur est un ordinateur ou un système qui fournit des ressources, des données ou des services à
@@ -182,7 +182,7 @@ site du language (disponible en lien directement dans le titre) soit issues de
 [Flaticon et crées par Freepik](https://www.flaticon.com/free-icons)
 {% endnote %}
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/cpp.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [C / C++](https://isocpp.org/)
+#### <img src="images/icons/cpp.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [C / C++](https://isocpp.org/)
 C est un langage de programmation compilé, de bas niveau, utilisé pour les systèmes d'exploitation, les systèmes embarqués et les logiciels nécessitant des performances critiques. C++ est une extension de C, ajoutant la programmation orientée objet.
 
 **Origine** : \
@@ -207,7 +207,7 @@ web sont affichées, en respectant au mieux la spécification. Certaines feature
 que sur certaines implémentations eg. [`calc-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/calc-size#browser_compatibility)
 {% endinfo %}
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/c-sharp.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [C#](https://dotnet.microsoft.com/en-us/languages/csharp) *(.NET)*
+#### <img src="images/icons/c-sharp.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [C#](https://dotnet.microsoft.com/en-us/languages/csharp) *(.NET)*
 C# est un langage de programmation compilé et orienté objet, principalement utilisé pour le développement d'applications
 Windows, mais aussi pour les applications web et les jeux vidéo.
 
@@ -221,7 +221,7 @@ Développé par Microsoft en 2000 dans le cadre de son initiative .NET, C# est c
 **Utilisation réelle** : \
 Visual Studio Code, un éditeur de code populaire, a été développé en C# à l'aide du framework Electron.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/bash.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Bash](https://www.gnu.org/software/bash/)
+#### <img src="images/icons/bash.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Bash](https://www.gnu.org/software/bash/)
 Bash (Bourne Again Shell) est un shell Unix utilisé pour exécuter des commandes et écrire des scripts d'automatisation.
 Il est couramment utilisé pour les tâches d'administration système dans les environnements Linux et Unix.
 
@@ -235,7 +235,7 @@ Bash n'a pas de framework dédié, mais il est utilisé pour l'automatisation di
 Les administrateurs système et les ingénieurs DevOps utilisent Bash pour automatiser la gestion
 des serveurs et le déploiement de logiciels.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/gopher.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Go](https://go.dev/)
+#### <img src="images/icons/gopher.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Go](https://go.dev/)
 Go est un langage compilé, statiquement typé, conçu pour la simplicité, la concurrence et la scalabilité.
 Il est souvent utilisé pour les systèmes distribués et les applications qui nécessitent une haute performance.
 
@@ -252,10 +252,10 @@ Docker, la plateforme populaire de conteneurisation, est écrit en Go.
 
 {% info %}
 La petite créature que j'ai utilisée est en réalité la mascotte de Go, voici le vrai logo
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/go.svg" aria-hidden="true" width="40px" height="30px" style="border: none; display: inline-block"/>
+<img src="images/icons/go.svg" aria-hidden="true" width="40px" height="30px" style="border: none; display: inline-block"/>
 {% endinfo %}
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/haskell.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Haskell](https://www.haskell.org/)
+#### <img src="images/icons/haskell.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Haskell](https://www.haskell.org/)
 Haskell est un langage de programmation purement fonctionnel, compilé, et à typage statique. Il est connu pour son
 utilisation de fonctions immuables, ce qui signifie que les variables ne peuvent pas être modifiées une fois assignées.
 Haskell favorise l'écriture de programmes robustes, corrects et concis grâce à son système de types avancé et ses
@@ -278,7 +278,7 @@ des algorithmes à haute fréquence. Par exemple, certaines entreprises de finan
 Haskell pour garantir la fiabilité et la sécurité des systèmes de gestion des risques. Son système de types permet de
 réduire les erreurs critiques dans les applications sensibles.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/java.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Java](https://www.oracle.com/java/)
+#### <img src="images/icons/java.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Java](https://www.oracle.com/java/)
 Java est un langage de programmation à typage statique, orienté objet, et compilé. Connu pour sa portabilité grâce à la
 machine virtuelle Java (JVM), il permet d’écrire une fois du code et de l’exécuter sur n'importe quel système
 d'exploitation. Java est un langage de haut niveau, conçu pour être simple, robuste, sécurisé, et indépendant
@@ -299,7 +299,7 @@ peut fonctionner sur toute plateforme dotée de la JVM.
 Java est largement utilisé pour développer des systèmes backend robustes dans des entreprises comme
 Uber, Amazon, et eBay. Il est également essentiel dans le développement d’applications Android (voir ci-dessous).
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/kotlin.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Kotlin](https://kotlinlang.org/)
+#### <img src="images/icons/kotlin.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Kotlin](https://kotlinlang.org/)
 Kotlin est un langage de programmation moderne, concis, et polyvalent qui fonctionne également sur la JVM,
 tout en étant compatible avec Java. Kotlin est un langage à typage statique et un des principaux langages
 utilisés pour le développement Android. Il offre de nombreuses améliorations par rapport à Java, telles que
@@ -322,7 +322,7 @@ ce qui a conduit des entreprises comme Pinterest et Trello à adopter Kotlin pou
 Son intégration native avec les outils Android et sa compatibilité avec Java en font un choix populaire
 pour les nouveaux projets Android.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/javascript.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+#### <img src="images/icons/javascript.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 JavaScript est le langage incontournable du web et est le seul langage qui permet de créer des interactions directement
 dans le navigateur. Il est interprété, ce qui signifie qu'il est exécuté directement par le moteur JavaScript d'un
 navigateur sans nécessiter de compilation préalable. Cela en fait l’un des langages de développement front-end les plus
@@ -350,7 +350,7 @@ pour gérer à la fois le front-end et le back-end d'une application.
 Node.js est utilisé par des entreprises comme LinkedIn, Uber et PayPal pour gérer les opérations côté serveur.
 {% enddetails %}
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/typescript.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [TypeScript](https://www.typescriptlang.org/)
+#### <img src="images/icons/typescript.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [TypeScript](https://www.typescriptlang.org/)
 TypeScript est un sur-ensemble de JavaScript qui ajoute un typage statique, permettant de détecter les erreurs
 lors de la compilation. Cela améliore la robustesse et la maintenabilité des projets, surtout à grande échelle.
 
@@ -361,7 +361,7 @@ rendant le développement plus sécurisé.
 **Utilisation réelle** : \
 TypeScript est couramment utilisé dans des entreprises comme Slack, Airbnb, et Microsoft.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/lua.gif" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Lua](https://www.lua.org/)
+#### <img src="images/icons/lua.gif" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Lua](https://www.lua.org/)
 Lua est un langage de script léger et rapide, souvent utilisé comme langage embarqué dans d'autres applications,
 notamment dans le développement de jeux vidéo et de logiciels.
 
@@ -377,7 +377,7 @@ parfait pour les environnements embarqués.
 **Utilisation réelle** : \
 Lua est le langage de script utilisé dans Roblox, une des plus grandes plateformes de jeux en ligne.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/ocaml.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Ocaml](https://ocaml.org/)
+#### <img src="images/icons/ocaml.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Ocaml](https://ocaml.org/)
 OCaml est un langage de programmation fonctionnel, impératif et orienté objet,
 connu pour sa rapidité et sa polyvalence. Il est compilé et possède un système de types
 fort et statique, avec une syntaxe proche de la programmation mathématique.
@@ -403,7 +403,7 @@ complexes et performantes.
 On fait du OCaml en option informatique de MP !
 {% endinfo %}
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/perl.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Perl](https://www.perl.org/)
+#### <img src="images/icons/perl.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Perl](https://www.perl.org/)
 Perl est un langage de script polyvalent, connu pour ses puissantes capacités de manipulation de texte.
 Il est souvent utilisé pour l'administration système, le traitement de fichiers et les tâches automatisées.
 
@@ -422,7 +422,7 @@ Le système de billetterie initial de Ticketmaster a été développé en Perl.
 Perl n'a pas de logo officiel, j'ai utilisé le logo de la Perl foundation
 {% endinfo %}
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/php.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [PHP](https://www.php.net/)
+#### <img src="images/icons/php.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [PHP](https://www.php.net/)
 PHP est un langage de script côté serveur conçu pour le développement web dynamique.
 Il est particulièrement adapté aux applications qui nécessitent des interactions serveur-serveur.
 
@@ -440,7 +440,7 @@ principalement grâce à l'influence de WordPress, qui est écrit en PHP. WordPr
 alimente à lui seul plus de 40% des sites web dans le monde. Cela inclut des millions de sites de toutes tailles,
 des blogs personnels aux grandes entreprises.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/python.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Python](https://www.python.org/)
+#### <img src="images/icons/python.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Python](https://www.python.org/)
 Python est un langage de programmation de haut niveau, interprété, connu pour sa lisibilité et sa simplicité.
 Il est largement utilisé dans de nombreux domaines : développement web, analyse de données, intelligence artificielle,
 automatisation de tâches, et plus encore. Python est un langage dynamique, ce qui le rend facile à écrire et à modifier.
@@ -458,7 +458,7 @@ Python a été créé par Guido van Rossum à la fin des années 1980 et publié
 Le backend d'Instagram utilise massivement Python pour gérer d'énormes quantités de données utilisateur,
 et des géants comme Google et Netflix l'utilisent dans leurs infrastructures.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/r.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [R](https://www.r-project.org/)
+#### <img src="images/icons/r.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [R](https://www.r-project.org/)
 R est un langage de programmation et un environnement dédiés aux statistiques, à l'analyse de données et à la création de graphiques.
 
 **Origine** : \
@@ -473,7 +473,7 @@ R est principalement utilisé dans les statistiques et les sciences des données
 R est très utilisé dans le milieu académique et dans les institutions de recherche pour l'analyse de données et
 la modélisation statistique.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/ruby.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Ruby](https://www.ruby-lang.org/en/)
+#### <img src="images/icons/ruby.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Ruby](https://www.ruby-lang.org/en/)
 Ruby est un langage de programmation interprété, orienté objet, conçu pour être simple et productif.
 Il est souvent utilisé pour le développement web et les scripts.
 
@@ -488,7 +488,7 @@ plus facile et agréable pour les développeurs.
 **Utilisation réelle** : \
 GitLab, une alternative populaire à Github, est développée en Ruby on Rails.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/rust.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Rust](https://www.rust-lang.org/)
+#### <img src="images/icons/rust.svg" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Rust](https://www.rust-lang.org/)
 Rust est un langage compilé conçu pour la vitesse et la sécurité, en particulier dans la gestion
 de la mémoire. Il est utilisé dans le développement de systèmes nécessitant haute performance et sécurité.
 
@@ -505,7 +505,7 @@ Le moteur de rendu Servo du navigateur Firefox de Mozilla est écrit en Rust.
 En décembre 2022 il est devenu le premier langage autre que C et assembly à être utilisé dans le
 développement du kernel Linux.
 
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/swift.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Swift](https://www.swift.org/)
+#### <img src="images/icons/swift.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [Swift](https://www.swift.org/)
 Swift est un langage compilé, moderne, conçu par Apple pour remplacer Objective-C dans le développement
 d'applications pour iOS, macOS, watchOS et tvOS.
 
@@ -535,7 +535,7 @@ La distinction ne les rend évidemment pas moins utiles et ils restent des outil
 
 
 <!-- sorry pour la longueur des titres, c'est pas possible de les couper en plusieurs bouts -->
-#### <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/mon/temps-1.2/images/icons/html.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [HTML](https://en.wikipedia.org/wiki/HTML) & <img src="images/icons/css.svg" aria-hidden="true" width="20px" height="20px" style="height: 20px; width: auto; border: none; display: inline"/> [CSS]()
+#### <img src="images/icons/html.png" aria-hidden="true" width="20px" height="20px" style="border: none; display: inline"/> [HTML](https://en.wikipedia.org/wiki/HTML) & <img src="images/icons/css.svg" aria-hidden="true" width="20px" height="20px" style="height: 20px; width: auto; border: none; display: inline"/> [CSS]()
 HTML (Hypertext Markup Language) structures the content of web pages, while CSS (Cascading Style Sheets) styles it.
 Together, they form the foundation of web development.
 
