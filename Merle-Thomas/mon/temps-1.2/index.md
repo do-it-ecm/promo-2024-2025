@@ -29,8 +29,8 @@ Languages HTML/CSS
 
 Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce MON. On oubliera pas de donner :
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
 
 ## Table des matières<a name="table-des-matières"></a>
 - [Table des matières](#table-des-matières)
@@ -49,13 +49,13 @@ Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de 
 - [Horodateur](#horodateur)
 
 
-## Contenu 
+## Contenu
 ## Présentation du tutoriel javascript-koans<a name="présentation-du-tutoriel-javascript-koans"></a>
 ### <span style="color: blue">1. Généralités<a name="1-généralités"></a>
 
 Basé sur le tutoriel de Edgecase [Ruby koans](http://github.com/edgecase/ruby_koans), l'objectif des koans Javascript est d'enseigner la programmation Javascript par le biais de **tests** et de **code à trous**.
 
-Lien vers le code : 
+Lien vers le code :
 [JavaScript koans](http://github.com/edgecase/javascript-koans)
 
 Lors de la première execution, une erreur d'exécution apparaît, ainsi qu'une indication qui montre où l'erreur s'est produite. L'objectif est de faire disparaître l'erreur dans le code. En corrigeant chaque erreur, je vais apprendre une notion particulière sur le langage Javascript et la programmation fonctionnelle en général.
@@ -64,7 +64,7 @@ Le tutoriel d'apprentissage Javascript commence dans le fichier *koans/AboutExpe
 
 ### <span style="color: blue">2. Running the koans<a name="2-running-the-koans"></a>
 
-Pour compléter les exercices et visualiser le passage des tests, il suffit de **RUN** le fichier *KoansRunnner.html* dans le navigateur du système, ici **Google Chrome**. Pour ce faire j'ai dû télécharger l'extension **RunServer** de VsCode. 
+Pour compléter les exercices et visualiser le passage des tests, il suffit de **RUN** le fichier *KoansRunnner.html* dans le navigateur du système, ici **Google Chrome**. Pour ce faire j'ai dû télécharger l'extension **RunServer** de VsCode.
 
 La première erreur se trouve dans *koans/AboutExpects.js*. Je l'ai corrigé et ai lancé le premier test. A chaque complétion, il suffit de rafraîchir le navigateur pour voir si on passe les tests ou non, jusqu'à ce que tous les tests deviennent verts.
 
@@ -393,21 +393,21 @@ describe("About Objects", function () {
 
 ### <span style="color: blue">6. Passage des tests<a name="6-passage-des-tests"></a>
 
-Voici comment se présente la page de passage des tests pour suivre notre avancée dans le tutoriel : 
+Voici comment se présente la page de passage des tests pour suivre notre avancée dans le tutoriel :
 
 ![Tests js-koans](./test-js-koans.png)
 
 ## Tutoriel W3School JS<a name="tutoriel-w3school-js"></a>
-Comme pour les languages HTML et CSS, j'ai utilisé le tutoriel W3School pour apprendre les bases de JS. J'ai suivi les cours puis réalisé chaque exercices de chaque partie grâce à l'éditeur de code en ligne. Ces tutoriels sont vraiment bien fiat pour ceux qui veulent apprendre les bases des languages du FrontEnd, même s'ils sont très longs car traitent de toutes les notions de chaque language, donc difficile de faire le tri sur ce dont on a besoin dès le départ de l'apprentissage. 
+Comme pour les languages HTML et CSS, j'ai utilisé le tutoriel W3School pour apprendre les bases de JS. J'ai suivi les cours puis réalisé chaque exercices de chaque partie grâce à l'éditeur de code en ligne. Ces tutoriels sont vraiment bien fiat pour ceux qui veulent apprendre les bases des languages du FrontEnd, même s'ils sont très longs car traitent de toutes les notions de chaque language, donc difficile de faire le tri sur ce dont on a besoin dès le départ de l'apprentissage.
 
 ### <span style="color: blue">1. Variables<a name="1-variables"></a>
-Les variables en JS peuvent être déclarées selon 4 possibilités : 
+Les variables en JS peuvent être déclarées selon 4 possibilités :
   * automatiquement
   * utilisant ``var``
   * utilisant ``const``
   * utilisant ``let``
-  
-Comment choisir parmi ces possibilités ? 
+
+Comment choisir parmi ces possibilités ?
 1. Il faut toujours déclaré ses varaiables
 2. Toujours utiliser ``const`` si la variables est fixe
 3. Toujours utiliser ``const`` si le type de variable est fixe (Arrays and Objects)
@@ -416,7 +416,7 @@ Comment choisir parmi ces possibilités ?
 
 Toutes les variables en JS sont définis par des identificateurs qui sont uniques. On peut leur donner des noms court (x ou y) ou des noms plus descriptifs comme ``age``, ``titre``, ``couleur`` etc.
 
-Voici un tableau récapitulant les utilisation des différrents types de déclarations de variables : 
+Voici un tableau récapitulant les utilisation des différrents types de déclarations de variables :
 |   | Scope	| Redeclare	| Reassign	| Hoisted	| Binds this  |
 | -------- | -------- |-------- |-------- |-------- |-------- |
 |`var`	| No	| Yes	| Yes	| Yes	| Yes |
@@ -424,7 +424,7 @@ Voici un tableau récapitulant les utilisation des différrents types de déclar
 |`const`	| Yes	| No	| No	| No	| No |
 
 ### <span style="color: blue">2. Objets<a name="2-objets"></a>
-En JS, on utlise des objets qui possèdent plusieurs propriétés que l'on définit et on peut ensuite accéder à ces propriétés. Prenons l'exemple d'une voiture comme dans le tutoriel : 
+En JS, on utlise des objets qui possèdent plusieurs propriétés que l'on définit et on peut ensuite accéder à ces propriétés. Prenons l'exemple d'une voiture comme dans le tutoriel :
 ```
 const car = {
   "name": "Fiat",
@@ -435,10 +435,10 @@ const car = {
 ```
 L'objet car possède 4 propriétés : name, model, weight et color.
 
-Il est également possible de créer un objet et y ajouter ses propriétés : 
+Il est également possible de créer un objet et y ajouter ses propriétés :
 ```
 // Create an Object
-const car = {}; 
+const car = {};
 
 // Add Properties
 car.name= "Fiat";
@@ -447,10 +447,10 @@ car.weight= 800;
 car.color= "white"
 ```
 
-En utilisant le mot clé ``new Object ()`` cela donne : 
+En utilisant le mot clé ``new Object ()`` cela donne :
 ```
 // Create an Object
-const car = new Object{}; 
+const car = new Object{};
 
 // Add Properties
 car.name= "Fiat";
@@ -459,19 +459,19 @@ car.weight= 800;
 car.color= "white"
 ```
 
-Il est possible ensuite d'accéder au différentes propriétés de l'objet de la manière suivante : 
+Il est possible ensuite d'accéder au différentes propriétés de l'objet de la manière suivante :
 ```
 objectName.propertyName
 objectName["propertyName"]
 ```
-Ou d'utiliser le mot clé *let* : 
+Ou d'utiliser le mot clé *let* :
 ```
 let weight = car.weight;
 let weigjt = car["weight"];
 let weight = car[x];
 ```
 
-Il est possible d'ajouter et d'en supprimer des nouvelles propriétés à tous les objets : 
+Il est possible d'ajouter et d'en supprimer des nouvelles propriétés à tous les objets :
 ```
 //Add property
 car.launch = "2015";
@@ -480,7 +480,7 @@ car.launch = "2015";
 delete car.weight;
 ```
 
-Les objets possèdent des propriétés mais également des **Méthodes**, ce sont des actions réalisées par les objets qui sont définies comme des fonctions et stockées sous forme de propriétés de l'objet : 
+Les objets possèdent des propriétés mais également des **Méthodes**, ce sont des actions réalisées par les objets qui sont définies comme des fonctions et stockées sous forme de propriétés de l'objet :
 ```
 const car = {
   "name": "Fiat",
@@ -492,7 +492,7 @@ const car = {
 };
 ```
 
-En JS, les objets ne sont pas figés et leurs propriétés peuvent être modifiées : 
+En JS, les objets ne sont pas figés et leurs propriétés peuvent être modifiées :
 ```
 //Create an Object
 const car = {
@@ -502,14 +502,14 @@ const car = {
   "color": "white";
 
 // Create a copy
-const x= car ; 
+const x= car ;
 
 // Change Color in both
 x.color = "blue";
 };
 ```
 
-Il y a plusieurs façon d'afficher un Objet en JS : 
+Il y a plusieurs façon d'afficher un Objet en JS :
    * On affiche les propriétés de l'objet par nom
 ```
 //Create an Object
@@ -586,7 +586,7 @@ function Car(name, model, weight, color) {
 }
 ```
 
-Une fonction constructeur peut également avoir des **méthodes**, qu'il est possible d'ajouter à n'importe quel objet : 
+Une fonction constructeur peut également avoir des **méthodes**, qu'il est possible d'ajouter à n'importe quel objet :
 ```
 FatherCar.changeModel = function (model) {
   this.model = model;

@@ -9,7 +9,7 @@ date: 2024-18-09
 
 temps: 1
 tags:
-  - "HTML/CSS" 
+  - "HTML/CSS"
   - "Beginner"
   - "Basics"
 
@@ -31,8 +31,8 @@ Les lien utiles pour la compréhension de celui-ci.
 
 Ce MON vise à introduire les bases du **HTML** et du **CSS**. L'objectif est de vous guider à travers la création d'une page web simple et de comprendre comment le CSS permet de styliser un site web.
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
 
 # Sommaire : Découverte du HTML et CSS
 
@@ -155,7 +155,7 @@ Maintenant que nous avons écrit notre fichier HTML, il est temps de le tester e
 - Si un élément ne s'affiche pas correctement, retournons dans le code pour vérifier si nous avons bien imbriqué nos balises ou si quelque chose manque.
 - **Actualisons la page** après chaque modification pour voir les changements. C'est une bonne habitude à prendre.
 
-Dans notre exemple, voici à quoi ressemble notre premiere page web : 
+Dans notre exemple, voici à quoi ressemble notre premiere page web :
 
 ![alt text](image.png)
 
@@ -207,7 +207,7 @@ Les balises sémantiques en HTML, telles que `<header>`, `<nav>`, `<section>`, e
 
 
 ```
-Voici alors notre page : 
+Voici alors notre page :
 
 ![alt text](image-1.png)
 
@@ -366,8 +366,8 @@ Voici à quoi ressemble maintenant notre site :
 #### Concepts clés :
 
 - **Container flex** : L'élément parent qui utilise `display: flex;` pour activer les propriétés Flexbox sur ses enfants.
-  
-  
+
+
   ```css
   .container {
     display: flex;
@@ -463,7 +463,7 @@ Exemple de Media Query pour les écrans de moins de 768 pixels :
   body {
     background-color: lightblue;
   }
-  
+
   .services {
     flex-direction: column; /* Affiche les services en colonne sur mobile */
   }
@@ -560,7 +560,7 @@ Le but de cette dernière partie est de combiner tout ce que nous avons appris p
       <img src=bg.png>
     </section>
 
-    
+
 
     <section class="services">
       <div class="service">

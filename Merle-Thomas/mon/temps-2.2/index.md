@@ -12,7 +12,7 @@ tags:
   - "Innovation"
   - "Strategy"
 
-résumé: "Ce MON est une analyse des patterns que l'on retrouve dans le management de l'innovation d'un point de vue historique afin de mettre en lumière les meilleures pratiques du management de l'innovation. Nous tenterons de répondre à la question : sont-elles applicables aujourd'hui et qui sont les nouveaux acteurs de l'innovation? 
+résumé: "Ce MON est une analyse des patterns que l'on retrouve dans le management de l'innovation d'un point de vue historique afin de mettre en lumière les meilleures pratiques du management de l'innovation. Nous tenterons de répondre à la question : sont-elles applicables aujourd'hui et qui sont les nouveaux acteurs de l'innovation?
 Ce MON sera aussi l'occasion de comparer les différentes strategies d'innovation mises en place par ces acteurs."
 ---
 
@@ -27,11 +27,11 @@ Aucun prérequis nécessaires.
 
 {% endlien %}
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
 
 {% note %}
-Objectifs : 
+Objectifs :
 - Identifier des patterns dans le processus d'innovation
 - Designer le processus d'innovation
 - Comprendre qui sont les acteurs de l'innovation et analyser leurs stratégies
@@ -44,10 +44,10 @@ Objectifs :
 3. [3.Concevoir le processus d'innovation](#Conception)
 4. [4.Comprendre les acteurs de l'innovation et leurs stratégies](#Stratégies)
 5. [5.Guide pour devenir un innovateur performant](#Guide)
-    
+
 ## Comment qualifie-t-on un innovateur ?
 
-L’innovation est une discipline complexe qui conjugue créativité, stratégie et gestion systémique. Ce MON explore les fondements conceptuels et pratiques de l’innovation pour répondre à la question : 
+L’innovation est une discipline complexe qui conjugue créativité, stratégie et gestion systémique. Ce MON explore les fondements conceptuels et pratiques de l’innovation pour répondre à la question :
 
 **Comment définir un innovateur et ses pratiques ?**
 
@@ -55,9 +55,9 @@ Une analyse détaillée des concepts clés, illustrée par des exemples issus de
 
 ## 1.Définir l’innovation et son importance<a name="Définition"></a>
 
-L’innovation est un processus multi-étapes visant à transformer une idée nouvelle en valeur économique ou sociétale. 
-Plusieurs définitions sont proposées : 
-Selon Hauschildt, elle implique des produits ou processus qualitativement nouveaux, tandis que Porter insiste sur sa commercialisation. On peut néanmooins s'accorder sur cette définition : 
+L’innovation est un processus multi-étapes visant à transformer une idée nouvelle en valeur économique ou sociétale.
+Plusieurs définitions sont proposées :
+Selon Hauschildt, elle implique des produits ou processus qualitativement nouveaux, tandis que Porter insiste sur sa commercialisation. On peut néanmooins s'accorder sur cette définition :
 
 *"Innovation management is the creation of processes that aim at creating and exploiting new things."*
 
@@ -83,8 +83,8 @@ L'innovation peut être catégorisée en :
 * **Produit ou service** : Introduction d’une nouveauté répondant à des besoins explicites (ex. : les ordinateurs portables).
 * **Processus** : Transformation ou optimisation des systèmes internes pour réduire les coûts ou augmenter l’efficacité (ex. : robotisation industrielle).
 * **Business Model** : Réorganisation des flux de valeur et des propositions clients (ex. : Uber combinant service et plateforme numérique).
-  
-Ces types se chevauchent souvent. Par exemple, l’utilisation de l’impression 3D pour des prothèses peut être à la fois une innovation produit et processus et l'innovation prduit pour une entreprise peut être une innovation processus pour l'acheteur. 
+
+Ces types se chevauchent souvent. Par exemple, l’utilisation de l’impression 3D pour des prothèses peut être à la fois une innovation produit et processus et l'innovation prduit pour une entreprise peut être une innovation processus pour l'acheteur.
 
 ### Les modèles de changement technologique
 **Le cycle de vie des produits (PLC)**
@@ -183,7 +183,7 @@ Basé sur le modèle de diffusion de Rogers :
 
 ### Les stratégies d'innovation
 
-Les stratégies d’innovation permettent de structurer les décisions organisationnelles pour maximiser l’impact des efforts créatifs et technologiques. Elles répondent à des questions fondamentales : Que voulons-nous accomplir avec l’innovation ?  Comment y parvenir de manière optimale ? 
+Les stratégies d’innovation permettent de structurer les décisions organisationnelles pour maximiser l’impact des efforts créatifs et technologiques. Elles répondent à des questions fondamentales : Que voulons-nous accomplir avec l’innovation ?  Comment y parvenir de manière optimale ?
 
 Une stratégie d’innovation vise à aligner les objectifs organisationnels, les ressources, et les choix technologiques pour maintenir ou développer un avantage concurrentiel. Elle se construit autour de plusieurs dimensions :
 
@@ -316,7 +316,7 @@ Tous les éléments vus précédemment permettent de construire un guide pratiqu
 - William Abernathy, *A Dynamic Model of Process and Product Innovation*, 1975
 - Robert G. Cooper, *Winning at New Products: Creating Value Through Innovation*, 2001
 - Prof. Dr. Joachim Henkel, *Innovation: Organization & Management Courses*, Technical University of Muncih
-  
+
 ## Horodateur
 
 Toutes les séances et le nombre d'heures que l'on y a passé.

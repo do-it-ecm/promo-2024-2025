@@ -7,7 +7,7 @@ authors:
 
 date: 1970-09-01
 
-tags: 
+tags:
   - "VBA"
 
 résumé: "Introduction au VBA et utilisation des macro pour des tâches chronophages."
@@ -26,8 +26,8 @@ Les lien utiles pour la compréhension de celui-ci.
 
 Ce premier MON fait suite à une problématique rencontrée lors de chacun de mes stages de césure, au cours desquels j'ai été confronté a des "macros" à corriger ou compléter. Ces "macros" permettaient d'automatiser des tâches pouvant être longues et chronophages sur Excel.
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
 
 
 ## Table des matières
@@ -57,14 +57,14 @@ Le langage VBA permet de réaliser un certain nombre d'actions :
 ### Interaction avec l'utilisateur par la création de boîtes de dialogue
 
 #### MsgBox (Texte, Boutons, Titre)
-Cette fonction permet simplement d'afficher un message à l'utilisateur lors de l'exécution de la Macro : 
+Cette fonction permet simplement d'afficher un message à l'utilisateur lors de l'exécution de la Macro :
 ```
 Sub exemple()
     MsgBox "Welcome in this Worksheet!"
 End Sub
 ```
 
-Elle peut également être utilisée pour demander confirmation de réalisation de la Macro : 
+Elle peut également être utilisée pour demander confirmation de réalisation de la Macro :
 ```
 Sub exemple()
     If MsgBox("Confirmation de suppression de la colonne A ?", vbYesNo, "Demande de confirmation") = vbYes Then
@@ -110,7 +110,7 @@ End Sub
 
 Les conditions sont utilisées pour vérifier une caractéritsique avant la réalisation d'une Macro, ou alors réaliser une action différente en fonction du type ou de la valeur d'une donnée.
 
-Penons l'exemple d'une feuille excel comprenant respectivement dans les cellule A1, B1 et C1 le prénom, nom et ville de l'école d'un étudiant centralien. Le code suivant permet donc de vérfier que toutes les informations sont bien renseignées (il n'y a pas de case vide), puis de donner l'adresse mail associée dans la celulle D1. Un message d'erreur s'affiche si la ville renseignée ne correspond pas à une école du groupe *Centrale* : 
+Penons l'exemple d'une feuille excel comprenant respectivement dans les cellule A1, B1 et C1 le prénom, nom et ville de l'école d'un étudiant centralien. Le code suivant permet donc de vérfier que toutes les informations sont bien renseignées (il n'y a pas de case vide), puis de donner l'adresse mail associée dans la celulle D1. Un message d'erreur s'affiche si la ville renseignée ne correspond pas à une école du groupe *Centrale* :
 
 ````
 Sub exemple()
@@ -137,9 +137,9 @@ Sub exemple()
                 MsgBox "Erreur ville"
         End Select
         Range("D1") = prenom & "." & nom & "@centrale-" & ecole & ".fr"
-   
+
     End If
-        
+
 End Sub
 ````
 ### Les boucles
@@ -157,7 +157,7 @@ End Sub
 ````
 
 #### Do Until
-Cette fonction permet de réaliser une instruction jusqu'à ce que la condition soit vraie : 
+Cette fonction permet de réaliser une instruction jusqu'à ce que la condition soit vraie :
 ````
 Sub exemple()
     Do Until [CONDITION]
@@ -166,12 +166,12 @@ Sub exemple()
 End Sub
 ````
 
-#### For Next 
-Cette fonction permet de réaliser une instruction pour un indice variant d'une valeur à une autre : 
+#### For Next
+Cette fonction permet de réaliser une instruction pour un indice variant d'une valeur à une autre :
 ````
 Sub exemple()
     Dim k As Integer
-        
+
     For k = 1 To 10
         *Instruction*
         k=k+1
@@ -183,7 +183,7 @@ End Sub
 
 Les tableaux sont utilisés en langage VBA afin de stocker un grand nombre de valeur contrairement aux variables qui ne permettent le stockage que d'une unique valeur. De plus, stocker les valeurs d'une base de données sous forme de tableau permet d'accéder et de manipuler les données plus facilement.
 
-La fonction suivante permet de créer un tableau avec i lignes et j colonnes : 
+La fonction suivante permet de créer un tableau avec i lignes et j colonnes :
 ```
 Sub exemple()
     Dim tableau(i-1,j-1)
@@ -209,13 +209,13 @@ La base donnée servant d'imput comprend 4 colonnes, contenant dans l'ordre les 
 Pour cet exemple, la base de données contient 100 étudiants.
 
 ### Objectif
-L'objectif est d'automatiser un certain nombre d'actions : 
+L'objectif est d'automatiser un certain nombre d'actions :
 + Création de l'adresse mail de chaque étudiant comprenant son nomn son prénom et son école
 + L'extraction de la liste des élèves centraliens étudiants à Marseille
 + La création d'une nouvelle feuille affichant ces élèves
 
 ### Code
-Le code commenté ci-après : 
+Le code commenté ci-après :
 
 ````
 Sub Trie()
@@ -228,9 +228,9 @@ Sub Trie()
         ville = LCase(Trim(Range("C" & i + 1)))     'LCase et Trim permettent de comparer lessuites de caractères sans prendre en compte les majuscules ou les espaces
             If ville = "marseille" Then
                 ecole = "med"
-                
+
                 'Création du tableau pour les élèves de centrale Marseille
-                
+
                 tableau(j - 1, 0) = Range("A" & i + 1)
                 tableau(j - 1, 1) = Range("B" & i + 1)
                 tableau(j - 1, 2) = Range("C" & i + 1)
@@ -247,7 +247,7 @@ Sub Trie()
         End If
     Range("E" & i + 1) = prenom & "." & nom & "@centrale-" & ecole & ".fr"  'Création de l'adresse mail
     Next
-    
+
 'Affichage du tableau dans une nouvelle feuille "ECM" afin de pouvoir voir les élèves de centrale Marseille
 
 For k = 1 To 100
@@ -256,12 +256,12 @@ For k = 1 To 100
     Sheets("ECM").Range("C" & k) = tableau(k - 1, 2)
     Sheets("ECM").Range("D" & k) = tableau(k - 1, 3)
 Next
-    
+
 End Sub
 ````
 
 ### Résultats
-Les résultats obtenus après avoir exécuté la macro sont les suivants : 
+Les résultats obtenus après avoir exécuté la macro sont les suivants :
 
 *Création des adresses mail*
 

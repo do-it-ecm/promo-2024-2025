@@ -10,7 +10,7 @@ date: 2024-12-12
 temps: 3
 tags:
 
-résumé: L'objectif de ce POK est de construire un guide d'aide à la décision lors du cadrage de projets divers. Il permettra de choisir le type de documents à mettre en place et/ou à choisir pour réaliser le suivi d'un projet. 
+résumé: L'objectif de ce POK est de construire un guide d'aide à la décision lors du cadrage de projets divers. Il permettra de choisir le type de documents à mettre en place et/ou à choisir pour réaliser le suivi d'un projet.
 ---
 
 {% prerequis %}
@@ -26,8 +26,8 @@ Les lien utiles pour la compréhension de celui-ci.
 
 Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce POK. On oubliera pas de donner :
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
 
 ## Brainstorming d'avant cadrage
 
@@ -48,7 +48,7 @@ Une page notion, mindmap, processus, google formular ou fichier excel permettant
   - Définition des "projet" (certaines tâches ne sont-elles pas des projets habituels ???)
   - Proposer des exemples à catégoriser
   - Les projets "d'auto-formation"
-  
+
 ### Remarques
 
 - Intégrer des enjeux environnementaux ?

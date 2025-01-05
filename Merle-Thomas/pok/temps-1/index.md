@@ -8,7 +8,7 @@ authors:
 date: 2024-09-05
 
 temps: 1
-tags: 
+tags:
   - 'vert'
   - 'FrontEnd'
   - 'CSS'
@@ -42,11 +42,11 @@ résumé: "Codage du FrontEnd du site de ma Dark Kitchen avec HTML/CSS/JavaScrip
 
 Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce POK. On oubliera pas de donner :
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
 
 # <span style="color: green">POK 1 - Asian Fried Rice - FrontEnd
-Codage en HTML/CSS/JavaScript. 
+Codage en HTML/CSS/JavaScript.
 
 Ce POK décrit les étapes du développement du site web de notre Dark Kitchen de Fried Rice et de Noodles. Il s'agit de la création du FrontEnd à l'aide de HTML, CSS et JavaScript. Le projet évoluera vers une structure dynamique en utilisant **Vue.js**. Le site aura une page d'accueil, un menu, un panier et d'autres composants nécessaires pour faire des commandes en ligne.
 
@@ -56,7 +56,7 @@ Ce POK décrit les étapes du développement du site web de notre Dark Kitchen d
 2. Mise en pratique de l'apprentissage des languages **HTML/CSS** et **JavaScript**.
 3. Migrer le site d'une architecture statique vers une structure plus dynamique avec **Vue.js**.
 4. Déployer une interface utilisateur fluide et réactive pour un site web de Dark Kitchen.
-5. Mettre en place une gestion de porjet de type **Pair Programming**, dan sl'objectif d'apprendre à développer un site from scratch en utilisant JavaScript. 
+5. Mettre en place une gestion de porjet de type **Pair Programming**, dan sl'objectif d'apprendre à développer un site from scratch en utilisant JavaScript.
 
 
 ## Plan d'action
@@ -66,7 +66,7 @@ Ce POK décrit les étapes du développement du site web de notre Dark Kitchen d
 - Développement du layout général et de l'identité visuelle (typographie, couleurs, design des boutons).
 
 
-### 2. Dynamisation du FrontEnd avec JavaScript 
+### 2. Dynamisation du FrontEnd avec JavaScript
 [NON RÉALISÉ] (Pas utile pour la migration vers Vue.js)
 - ~~Intégrer des fonctionnalités **JavaScript** pour dynamiser l'interface utilisateur (par exemple, le panier).~~
 - ~~Manipulation du **DOM** pour interagir avec les éléments HTML.~~
@@ -78,7 +78,7 @@ Ce POK décrit les étapes du développement du site web de notre Dark Kitchen d
 - Gestion des événements utilisateurs (ex. : ajout de produits au panier, mise à jour du contenu).
 
 ### 4. Méthode de développement : le *Pair Programming*
-Mon niveau en développement web et mes connaissances des languages et framework utilisés n'étant pas assez développé, nous avons décidé d'utiliser la méthode de Pair Programming à une seule machine. 
+Mon niveau en développement web et mes connaissances des languages et framework utilisés n'étant pas assez développé, nous avons décidé d'utiliser la méthode de Pair Programming à une seule machine.
 
 Travailler en binôme favorise l’émulation et donc la créativité puisque l’échange fait émerger de nouvelles idées. De plus, cette méthode m'a permis de montée en compétences rapidement. Le transfert de connaissances est plus fluide en pair programming et permet en effet de faire l’économie de l’auto-formation. Nous avons utiliser une méthode classique, sur un même poste de travail avec chacun un rôle bien précis, l’un code et l’autre effectue la revue de code en simultané en alternant les rôles, notamment lorsque je commençais à mieux maîtriser le projet.
 
@@ -116,7 +116,7 @@ Travailler en binôme favorise l’émulation et donc la créativité puisque l�
 
 ### 1. Configuration du Projet Vue.js
 - **Tâches** :
-  - [Sofiane](#)&[Thomas](#): Initialiser un nouveau projet Vue.js avec Vue CLI. 
+  - [Sofiane](#)&[Thomas](#): Initialiser un nouveau projet Vue.js avec Vue CLI.
   - [Sofiane](#)&[Thomas](#) : Créer la structure des dossiers du projet (``components``, ``views``, ``router``, etc.).
   - [Sofiane](#)&[Thomas](#) : Valider que le projet démarre correctement avec un serveur local.
 
