@@ -18,7 +18,7 @@ résumé: "Je réalise ce MON pour m'initier au BackEnd et au language Go afin d
 
 {% prerequis %}
 
-- [`Bases en Dev Web`](/cs/contribuer-au-site/#prerequis)
+- [`Bases en Dev Web`](/contribuer/shortcodes/#prerequis)
 
 {% endprerequis %}
 {% lien %}
@@ -27,8 +27,8 @@ résumé: "Je réalise ce MON pour m'initier au BackEnd et au language Go afin d
 
 {% endlien %}
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
 
 {% note %}
 Objectifs :
@@ -48,13 +48,13 @@ Objectifs :
 - [Chapitre 6 : Les Fonctions](#fonctions)
 - [Chapitre 7 : Les Tableaux](#tableaux)
 - [Mini Projet: écriture d'un code de jeu de morpions en Go](#projet)
-    
+
 
 ## Contenu
 
 # Apprentissage de GoLang
 
-L'objectif de cet apprentissage est de maîtriser les bases du langage Go afin d'écrire un petit jeu de **morpions** ou **tic-tac-toe**. 
+L'objectif de cet apprentissage est de maîtriser les bases du langage Go afin d'écrire un petit jeu de **morpions** ou **tic-tac-toe**.
 
 ---
 
@@ -185,7 +185,7 @@ func main() {
 ```
 
 🏁 **Résultats :**
-Entrez votre âge : 16 Sortez ! 
+Entrez votre âge : 16 Sortez !
 Entrez votre âge : 25 Entrez :
 
 ## 2. Les instructions `elseif`
@@ -222,7 +222,7 @@ func main() {
     default:
         fmt.Println("Mauvais choix !")
     }
-} 
+}
 ```
 
 🏁 **Résultats :**
@@ -252,7 +252,7 @@ for i := 0; i < 10; i++ {
 }
 ```
 
-### Exemple : Écrire une phrase 100 fois 
+### Exemple : Écrire une phrase 100 fois
 ```go
 func main() {
     for compteur := 0; compteur < 100; compteur++ {
@@ -261,7 +261,7 @@ func main() {
 }
 ```
 
-🏁 **Résultats:** 
+🏁 **Résultats:**
 1. Je ne dois frapper mes camarades de classe
 2. Je ne dois frapper mes camarades de classe
 ...
@@ -296,7 +296,7 @@ func main() {
 }
 ```
 
-🏁 **Résultats:** 
+🏁 **Résultats:**
 Entrez votre âge : 17
 Entrez votre âge : 19
 Bienvenue en boîte de nuit !
@@ -322,7 +322,7 @@ func nomDeLaFonction(liste_de_paramètres) type_de_retour {
 1. **Fonction sans type de retour ni paramètres**
 Une fonction simple qui n'accepte ni paramètres ni type de retour.
 
-### Exemple : 
+### Exemple :
 ```go
 func affichage() {
     fmt.Println("#################################")
@@ -338,7 +338,7 @@ func main() {
 2. **Fonction avec paramètres et type de retour**
 Une fonction peut accepter plusieurs paramètres, quels que soient leurs types.
 
-### Exemple : 
+### Exemple :
 ```go
 func affichage(nom string, age int) {
     fmt.Println("Bonjour", nom, "vous avez", age, "ans")
@@ -357,7 +357,7 @@ Bonjour Alex vous avez 12 ans
 3. **Fonction avec type de retour**
 Utilisez le mot-clé `return` pour renvoyer une valeur, qui peut être stockée ou utilisée directement.
 
-### Exemple : 
+### Exemple :
 ```go
 func maxNbr(a int, b int) int {
     if a > b {
@@ -380,7 +380,7 @@ Valeur : 50 , Type : int
 4. **Retourner plusieurs valeurs**
 Une fonction peut renvoyer plusieurs valeurs de types différents.
 
-### Exemple : 
+### Exemple :
 ```go
 func additionTrois(a int, b int) (int, int) {
     return a + 3, b + 3
@@ -443,10 +443,10 @@ func main() {
     fmt.Println("Premier jour :", jours[0])
     fmt.Println("Dernier jour :", jours[len(jours)-1])
 }
-``` 
+```
 
 * Parcourir avec une Boucle range
-* 
+*
 ```go
 func main() {
     var jours = [7]string{"lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"}
@@ -619,7 +619,7 @@ func recupererSaisieUtilisateur() (ligne, colonne int) {
 ```
 
 **Explications:**
-Cette fonction `recupererSaisieUtilisateur` : 
+Cette fonction `recupererSaisieUtilisateur` :
 * Vérifie que l’entrée est valide (nombres dans les limites, case libre).
 * Utilise `fmt.Sscanf` pour interpréter facilement les coordonnées.
 
@@ -684,7 +684,7 @@ func verifierMatchNul() bool {
 * La focntion `verifierVictoire` vérifie les conditions de victoire pour les lignes, colonnes et diagonales.
 * La focntion `verifierMatchNul` vérifie si toutes les cases sont occupées.
 
-### Synthèse sur le TP 
+### Synthèse sur le TP
 
 **Structure choisie :**
 * Un tableau 2D pour modéliser le damier.
@@ -694,7 +694,7 @@ func verifierMatchNul() bool {
 **Difficultés et Résolutions:**
 #### Blocage : Gestion des indices dans un tableau 2D
 **Problème** : L'utilisation d'un tableau 2D au lieu d'un tableau 1D rendait la vérification des conditions de victoire plus complexe, notamment pour les diagonales.
-💡 *Solution* : 
+💡 *Solution* :
 J'ai utilisé des boucles pour parcourir dynamiquement chaque ligne, colonne et diagonale.
 J'ai également vérifié manuellement les indices critiques pour les diagonales, car elles ne peuvent pas être parcourues directement comme une ligne ou une colonne.
 

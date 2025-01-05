@@ -30,8 +30,8 @@ Aucun prérequis nécessaires.
 
 Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce MON. On oubliera pas de donner :
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
 
 ## Table des matières<a name="table-des-matières"></a>
 
@@ -77,7 +77,7 @@ L’élément meta sert lui à transmettre des meta informations sur la page au 
 Le langage HTML tout entier repose sur l’utilisation d’**éléments**. Dans une page, nous allons utiliser les éléments en HTML pour marquer du contenu, c’est-à-dire pour lui donner du sens aux yeux des navigateurs et des moteurs de recherche.
 
 **<span style="color: purple">1. Les balises HTML**<a name="balises"></a>
-   
+
 Une balise peut prendre trois formes. La première, la plus simple, un simple nom d'élément encadré par les signes inférieur et supérieur. Dans un deuxième temps, la balise peut porter sur une partie précise du document, auquel cas, elle doit s'ouvrir et se refermer. Enfin, il peut être nécessaire de préciser le comportement de la balise, cela se fait avec des **attributs**.
 
 | Elément de base  | Definition |
@@ -124,7 +124,7 @@ Les éléments vont également pouvoir contenir des **attributs** qu’on va alo
 * L'attribut **class** est souvent utilisé pour pointer vers un nom de classe dans une feuille définissant le style. Il peut également être utilisé par un JavaScript pour accéder et manipuler des éléments portant le nom de classe spécifique. Pour définir plusieurs classes, séparez les noms de classe par un espace. L'élément sera stylisé selon toutes les classes spécifiées.
 * L'attribut **id** spécifie un identifiant unique pour un élément HTML. La valeur de l'attribut id doit être unique dans le document HTML. Il est utilisé pour spécifier une caractéristique de style spécifique dans le code. Il est également utilisé par JavaScript.
 
-Pourquoi les attributs **div** et **id** sont-ils différents ? 
+Pourquoi les attributs **div** et **id** sont-ils différents ?
 L'attribut **class** peut être utilisé par plusieurs éléments HTML, tandis que **div** ne doit être utilisé que par un seul élément HTML dans la page :
 
 ```
@@ -147,7 +147,7 @@ L'attribut **class** peut être utilisé par plusieurs éléments HTML, tandis q
 Indenter va nous permettre d’avoir un code plus propre et plus lisible, donc plus compréhensible. Indenter permet également de plus facilement **détecter les erreurs** potentielles dans un code.
 Note : Les retours à la ligne et l’indentation créés dans l’éditeur n’affectent pas le résultat final dans le navigateur.
 
-Les commentaires ne seront pas affichés par le navigateur lorsque celui-ci va afficher la page : ils ne vont servir qu’aux développeurs créant ou lisant le code. Les commentaires en HTML vont prendre la forme d’une **balise orpheline** très particulière : 
+Les commentaires ne seront pas affichés par le navigateur lorsque celui-ci va afficher la page : ils ne vont servir qu’aux développeurs créant ou lisant le code. Les commentaires en HTML vont prendre la forme d’une **balise orpheline** très particulière :
 ```
 <!--Commentaire-->
 ```
@@ -185,7 +185,7 @@ Une **entité HTML** est une suite de caractère qui est utilisée pour afficher
 **<span style="color: purple">7. Block/Inline Elemnent**<a name="B/I_element"></a>
 
 * Un **élément de niveau bloc** commence toujours sur une nouvelle ligne et occupe toute la largeur disponible;
-* Un élément en ligne ne démarre pas sur une nouvelle ligne et prend uniquement la largeur nécessaire; 
+* Un élément en ligne ne démarre pas sur une nouvelle ligne et prend uniquement la largeur nécessaire;
 * L'**élément div** est au niveau bloc et est souvent utilisé comme conteneur pour d'autres éléments HTML.
 * L'**élément span** est un conteneur en ligne utilisé pour baliser une partie d'un texte ou une partie d'un document.
 
@@ -211,7 +211,7 @@ Le sélecteur pointe vers l’élément HTML que vous souhaitez styliser. Chaque
 
 **<span style="color: purple">2. Les sélecteurs**<a name="sélecteurs"></a>
 
-Les sélecteurs CSS sont utilisés pour « trouver » (ou sélectionner) les éléments HTML que vous souhaitez styliser. Il en existe 5 catégories : 
+Les sélecteurs CSS sont utilisés pour « trouver » (ou sélectionner) les éléments HTML que vous souhaitez styliser. Il en existe 5 catégories :
 * Sélecteurs simples (sélectionnez des éléments en fonction du nom, de l'identifiant, de la classe)
 * Sélecteurs combinatoires (sélectionnez des éléments en fonction d'une relation spécifique entre eux)
 * Sélecteurs de pseudo-classes (sélectionnez des éléments en fonction d'un certain état)
@@ -225,10 +225,10 @@ Tous les styles d'une page seront « mis en cascade » dans une nouvelle feuille
 1. Style en ligne (à l'intérieur d'un élément HTML)
 2. Feuilles de style externes et internes (dans la section head)
 3. Navigateur par défaut
-   
-Ainsi, un style en ligne a la priorité la plus élevée et remplacera les styles externes et internes ainsi que les valeurs par défaut du navigateur. 
 
-Exemple : 
+Ainsi, un style en ligne a la priorité la plus élevée et remplacera les styles externes et internes ainsi que les valeurs par défaut du navigateur.
+
+Exemple :
 ```
 <!DOCTYPE html>
 <html>
@@ -250,7 +250,7 @@ body {background-color: linen;}
 On se limitera ici à une brève présentation du language CSS, puisque nous allons rapidement le pratiquer à l'aide de notre POK1, puisque nous allons écrire un fichier externe qui définira le style de notre site web.
 
 
-Voici un exemple d'un code que nous avons écris pour définir le design de la page menu de notre site web : 
+Voici un exemple d'un code que nous avons écris pour définir le design de la page menu de notre site web :
 ```
 body {
     font-family: 'Raleway', sans-serif;
@@ -346,7 +346,7 @@ nav ul li a {
 }
 ```
 
-Et voici ensuite la code HTML permettant de faire appel à notre fichier CSS externe : 
+Et voici ensuite la code HTML permettant de faire appel à notre fichier CSS externe :
 ```
 <!DOCTYPE html>
 <html lang="fr">
@@ -388,7 +388,7 @@ Et voici ensuite la code HTML permettant de faire appel à notre fichier CSS ext
                     <p>Un menu généreux pour les afters salle.</p>
                     <a href="panier.html" class="btn-primary">Ajouter au panier</a>
                 </div>
-    
+
             </div>
         </div>
     </section>
@@ -396,11 +396,11 @@ Et voici ensuite la code HTML permettant de faire appel à notre fichier CSS ext
 </html>
 ```
 
-L'exécution de ce code sur le serveur web nous permet d'afficher ce rendu visuel : 
+L'exécution de ce code sur le serveur web nous permet d'afficher ce rendu visuel :
 ![Page-Menu-Dark-Kitchen](./page-menu.png)
 
 ## 3.Bilan<a name="3bilan"></a>
-Lors de ce MON, j'ai réalisé 2 tutoriels complets sur W3School qui m'ont permis de découvrir et d'apprendre la mécanique du FrontEnd avec l'utilisation des languages HTML et CSS. L'objectif de ce MON était de bien assimilé ces 2 languages afin de les utiliserr pour le codage de mon propre site web qui fait l'objet de mon POK1. Je suis donc satisfait du travail réalisé puisque le rendu des premières pages de mon site est satisfaisant. Reste maintenant à acquérir des connaissance complémentaires en JavaScript et sur l'utilisation du framework Vue pour ajouter de l'interactivité aux pages de mon site internet. 
+Lors de ce MON, j'ai réalisé 2 tutoriels complets sur W3School qui m'ont permis de découvrir et d'apprendre la mécanique du FrontEnd avec l'utilisation des languages HTML et CSS. L'objectif de ce MON était de bien assimilé ces 2 languages afin de les utiliserr pour le codage de mon propre site web qui fait l'objet de mon POK1. Je suis donc satisfait du travail réalisé puisque le rendu des premières pages de mon site est satisfaisant. Reste maintenant à acquérir des connaissance complémentaires en JavaScript et sur l'utilisation du framework Vue pour ajouter de l'interactivité aux pages de mon site internet.
 
 ## Horodateur
 
