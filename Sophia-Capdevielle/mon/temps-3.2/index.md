@@ -1,15 +1,17 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du second MON du temps 3"
+title: "Luttes sociales et syndicalisme face au management moderne"
 authors:
-  - Gordon Zola
+  - Sophia Capdevielle
 
-date: 1971-03-01
+date: 2025-01-15
 temps: 3
 tags:
+  - syndicalisme
+  - management
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Ce MON a pour objectif d'explorer les transformations des luttes sociales et du syndicalisme face aux nouveaux modèles de management, souvent souvent associés à des valeurs de productivité, d’agilité, d’innovation, et de flexibilité. Il s’agit de comprendre comment ces luttes s’adaptent ou résistent aux évolutions du monde du travail, des usines à l’open space. Finalement on discutera de la place des revendications syndicales dans le secteur de l'IT."
 ---
 
 {% prerequis %}

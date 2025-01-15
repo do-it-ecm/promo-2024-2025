@@ -1,16 +1,18 @@
 ---
 layout: layout/pok.njk
 
-title: "Titre du POK du temps 3"
+title: "Simulateur d'un système de taxation (des riches)"
 authors:
-  - Gordon Zola
+  - Sophia Capdevielle
 
-date: 1971-03-01
+date: 2025-01-15
 
 temps: 3
 tags:
+  - python
+  - data
 
-résumé: Un POK traitant d'un sujet.
+résumé: Créer un outil en Python qui permet de simuler un système fiscal (plus équitable) en testant différents scénarios de taxation et en visualisant leurs impacts sur la répartition des revenus.
 ---
 
 {% prerequis %}
@@ -53,9 +55,9 @@ Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la
 
 Toutes les séances et le nombre d'heure que l'on y a passé.
 
-| Date | Heures passées | Indications |
-| -------- | -------- |-------- |
-| Mardi 27/08  | 1H  | Travail sur la trame du site |
+| Date        | Heures passées | Indications                  |
+| ----------- | -------------- | ---------------------------- |
+| Mardi 27/08 | 1H             | Travail sur la trame du site |
 
 ## Contenu
 
