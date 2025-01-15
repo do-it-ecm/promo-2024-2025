@@ -1,15 +1,16 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du premier MON du temps 3"
+title: "Introduction à FastAPI"
 authors:
-  - Gordon Zola
+  - Sophia Capdevielle
 
-date: 1971-02-01
+date: 2025-01-15
 temps: 3
 tags:
+  - fastapi
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "L'objectif de ce MON est de découvrir et prendre en main FastAPI: comprendre son fonctionnement, ses avantages, et ses applications."
 ---
 
 {% prerequis %}
