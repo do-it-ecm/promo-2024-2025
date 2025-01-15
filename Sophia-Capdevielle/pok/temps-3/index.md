@@ -1,7 +1,7 @@
 ---
 layout: layout/pok.njk
 
-title: "Simulateur d'un système de taxation (des riches)"
+title: "Analyse de données: L'impact des mobilisations sur les droits des travailleurs.euses"
 authors:
   - Sophia Capdevielle
 
@@ -12,7 +12,7 @@ tags:
   - python
   - data
 
-résumé: Créer un outil en Python qui permet de simuler un système fiscal (plus équitable) en testant différents scénarios de taxation et en visualisant leurs impacts sur la répartition des revenus.
+résumé: À l'aide de Python, explorer le lien entre les mobilisations sociales et l’évolution des droits des travailleuses et travailleurs en analysant des données sur les grèves, les revendications et les réformes sociales.
 ---
 
 {% prerequis %}
