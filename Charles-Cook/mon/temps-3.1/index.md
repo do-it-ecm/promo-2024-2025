@@ -1,7 +1,7 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du premier MON du temps 3"
+title: "Télétravail : vision du point de vue employé"
 authors:
   - Charles Cook
 
@@ -9,7 +9,7 @@ date: 1971-02-01
 temps: 3
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "MON faisant écho à mon MON précédent, mais prenant cette fois ci le point de vue opposé."
 ---
 
 {% prerequis %}
