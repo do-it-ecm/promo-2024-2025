@@ -1,7 +1,7 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du second MON du temps 3"
+title: "Management Culturel"
 authors:
   - Charles Cook
 
@@ -9,7 +9,7 @@ date: 1971-03-01
 temps: 3
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Ce MON a pour objectif d'étudier les écarts de management qu'il peut exister en entreprise en fonction de la culture du pays."
 ---
 
 {% prerequis %}

@@ -1,7 +1,7 @@
 ---
 layout: layout/pok.njk
 
-title: "Titre du POK du temps 3"
+title: "Analyse Verbatims"
 authors:
   - Charles Cook
 
@@ -10,7 +10,7 @@ date: 1971-03-01
 temps: 3
 tags:
 
-résumé: Un POK traitant d'un sujet.
+résumé: L'objectif de ce POK est de réaliser une ananlyse textuel, afin de permettre d'automatiser l'analyse de commentaires laissés par des clients. Cette analyse serait thématique mais également sentimentale.
 ---
 
 {% prerequis %}
@@ -53,9 +53,9 @@ Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la
 
 Toutes les séances et le nombre d'heure que l'on y a passé.
 
-| Date | Heures passées | Indications |
-| -------- | -------- |-------- |
-| Mardi 27/08  | 1H  | Travail sur la trame du site |
+| Date        | Heures passées | Indications                  |
+| ----------- | -------------- | ---------------------------- |
+| Mardi 27/08 | 1H             | Travail sur la trame du site |
 
 ## Contenu
 
