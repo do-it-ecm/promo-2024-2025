@@ -7,9 +7,10 @@ authors:
 
 date: 2024-12-02
 
+temps: 2
+
 tags:
-  - 'temps 1'
-  - 'vert'  
+  - 'vert'
   - 'débutant'
   - 'devops'
   - 'serveur'
@@ -31,7 +32,7 @@ périphériques de stockage dans l'objectif de mettre à disposition plusieurs d
 étudiantes sans pour autant leur faire prendre le risque de perdre leurs données !
 
 Dans ce MON, je souhaite donc explorer les différentes **technologies RAID** ainsi que **ZFS**,
-afin de mieux comprendre leurs avantages, limites et applications dans la gestion de stockage de données. 
+afin de mieux comprendre leurs avantages, limites et applications dans la gestion de stockage de données.
 
 RAID est omniprésent dans les systèmes de stockage critiques, tandis que ZFS, avec son approche moderne,
 est devenu un incontournable (entre autre recommandé à l'association par des membres de la DSI de l'école)
@@ -45,7 +46,7 @@ L'encryption peut toujours être ajoutée par-dessus les solutions que je prése
 
 Même si votre serveur utilise des solutions comme RAID ou ZFS pour garantir la redondance des données, **cela ne remplace pas des sauvegardes régulières**.
 Ces solutions protègent principalement contre les défaillances matérielles, mais elles ne couvrent pas les erreurs humaines,
-les attaques logicielles ou les catastrophes physiques (incendie, inondation, etc.).  
+les attaques logicielles ou les catastrophes physiques (incendie, inondation, etc.).
 **Avoir des sauvegardes (backups) reste crucial** pour assurer une protection complète.
 Une recommendation généralement donnée est la [règle des 3-2-1](https://www.veeam.com/blog/321-backup-rule.html)
 {% endnote %}
@@ -76,7 +77,7 @@ d'écriture et sécuriser les données en cas de coupure de courant.
 {% endinfo %}
 
 Pour les nouveaux serveurs du GInfo, des Dell R740XD contiennent des cartes RAID matérielles de qualité
-ce qui rendrait dommage l'utilisation de RAID logiciel. 
+ce qui rendrait dommage l'utilisation de RAID logiciel.
 
 ## Les niveaux de RAID les plus courants
 
@@ -152,7 +153,7 @@ RAID 10 est souvent considéré comme la meilleure solution pour un compromis **
 
 ---
 
-Je suis tombé au cours de mes recherches sur des gens mentionnant ZFS, j'ai donc décidé d'investiguer dans 
+Je suis tombé au cours de mes recherches sur des gens mentionnant ZFS, j'ai donc décidé d'investiguer dans
 cette direction.
 
 ## ZFS : une alternative au RAID
@@ -174,7 +175,7 @@ ZFS repose sur une hiérarchie de composants logiques et physiques qui permetten
 Un **zpool** est l'unité de base de gestion du stockage dans ZFS.
 Il regroupe un ensemble de disques physiques pour former une seule entité logique.
 
-Un zpool est configuré pour offrir **la redondance**, **la performance** ou une combinaison des deux, 
+Un zpool est configuré pour offrir **la redondance**, **la performance** ou une combinaison des deux,
 selon la disposition des disques qu'il contient.
 
 Les données et l'espace disponible sont automatiquement équilibrés dans le pool, ce qui élimine la gestion
@@ -198,7 +199,7 @@ parti de disques rapides (comme des SSD ou NVMe) en complément des disques prin
 
 {% note %}
 Il est difficile d'évaluer si une configuration ZFS va être bénéfique et les impacts sur la perfomance de notre
-système sans tout simplement la tester. En effet en fonction des besoins, 
+système sans tout simplement la tester. En effet en fonction des besoins,
 {% endnote %}
 
 #### Système de fichiers et datasets

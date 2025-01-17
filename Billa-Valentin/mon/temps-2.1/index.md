@@ -7,9 +7,10 @@ authors:
 
 date: 2024-09-17
 
+temps: 2
+
 tags:
-  - 'temps 2'
-  - 'vert'  
+  - 'vert'
   - 'débutant'
   - 'back'
   - 'programmation-fonctionnelle'
@@ -79,7 +80,7 @@ j'ai découvert quelques super concepts qui auraient été une vraie aubaine dan
 
 J'ai perdu pas mal de temps, car j'ai initialement voulu suivre un tutoriel Haskell qui ne devait pas vraiment
 être prévu pour des utilisateurs sur Linux donc j'ai adapté comme je pouvais et j'ai installé des trucs qui
-sont rentrés en conflit quand j'ai finalement essayé de simplement suivre la 
+sont rentrés en conflit quand j'ai finalement essayé de simplement suivre la
 [documentation d'Haskell](https://www.haskell.org/get-started/) pour télécharger ce qu'il faut pour
 développer en Haskell...
 

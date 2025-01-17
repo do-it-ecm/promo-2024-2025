@@ -6,8 +6,9 @@ authors:
   - "Sofiane Ouadda"
 date: 2024-10-20
 
-tags: 
-  - "temps 2"
+temps: 2
+
+tags:
   - "Dévelopement Web"
   - "BackEnd"
   - "Node.js"
@@ -194,9 +195,9 @@ Pour interagir avec une base de données, vous pouvez utiliser des bibliothèque
 
 ## Horodateur
 
-| Date       | Heures passées | Indications                                                                  | 
+| Date       | Heures passées | Indications                                                                  |
 |------------|----------------|------------------------------------------------------------------------------|
-| 25/10      | 1H30           | Lecture de la documentation officielle Node.js et installation d’un projet   | 
+| 25/10      | 1H30           | Lecture de la documentation officielle Node.js et installation d’un projet   |
 | 26/10      | 2H             | Pratique sur la création d’un serveur HTTP simple avec Node.js               |
 | 27/10      | 1H30           | Apprentissage d’Express.js et construction d’une API REST                   |
 | 27/10      | 1H30           | Manipulation de fichiers avec le module `fs`                                |

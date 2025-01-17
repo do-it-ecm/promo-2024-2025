@@ -7,8 +7,9 @@ authors:
 
 date: 2024-09-05
 
+temps: 2
+
 tags:
-  - 'temps 2'
   - 'vert'
   - 'débutant'
   - 'accessibilité'
@@ -61,7 +62,7 @@ Lors de mes premières heures de POK, j'ai décidé de me renseigner sur les pro
 Tout d'abord, je me suis dirigé vers l'article d'[introduction à l'accessibilité](https://www.w3.org/WAI/fundamentals/accessibility-intro/fr#evaluate)
 disponible sur le site de la W3 qui donne un bon résumé du pourquoi de l'accessibilité. Ensuite j'ai rapidement lu le
 [Diagnostic flash](https://design.numerique.gouv.fr/outils/diagnostic-flash/) pour le RGAA
-(Référentiel Général d’Amélioration de l’Accessibilité), recommandé dans un mail de DataSud afin de m'approprier les 
+(Référentiel Général d’Amélioration de l’Accessibilité), recommandé dans un mail de DataSud afin de m'approprier les
 principales erreurs sur lesquelles rester vigilant.
 
 Finalement, j'ai exploré le MON d'Inès ["Handicap ou pas cap"](/promos/2024-2025/Kebbab-Ines/mon/temps-1.1/), qui s'avère
@@ -82,7 +83,7 @@ J'ai commencé par installer deux extensions recommandés sur le site du diagnos
   *visualiser la hiérarchie du document HTML (important pour la navigation au clavier et lecteurs d'écran)*
 - Contrast Checker (symbolisée par une roue multicolore)
   *valider les écarts de contraste pour les différentes couleurs du site*
-   
+
 J'ai ensuite voulu essayer d'autres outils comme [WAVE](https://wave.webaim.org/) ou [Lighthouse](https://developer.chrome.com/docs/lighthouse/)
 dont que j'ai vu mentionnés sur [une discussion Reddit](https://www.reddit.com/r/accessibility/comments/wdgol0/tools_for_accessibility_scans_on_websites/)
 relative où un internaute se questionne sur les outils utilisés par ses compères.
@@ -102,14 +103,14 @@ une sorte de marche à suivre.
 
 J'ai commencé par les pages de documentation disponibles dans l'onglet "Commencer sur DataSud" eg. ["Qu'est-ce que DataSud"](https://www.datasud.fr/portal/commencer).
 Étant principalement des explications celles-ci étaient plutôt simples à analyser en terme d'interaction utilisateur ->
-pas de formulaires, boutons... je suis donc principalement resté vigilant sur l'organisation hierarchique du contenu, 
+pas de formulaires, boutons... je suis donc principalement resté vigilant sur l'organisation hierarchique du contenu,
 l'accessibilité des images et de la facilité de compréhension du texte.
 
-Ensuite, j'ai porté mon œil sur la page d'accueil du site sur laquelle ce qui m'a pris le plus de temps était la 
+Ensuite, j'ai porté mon œil sur la page d'accueil du site sur laquelle ce qui m'a pris le plus de temps était la
 barre de navigation et son burger menu associé sur téléphone. Ceux-ci n'étaient pas correctement accessibles, entre autre
 les sous-menus n'étaient pas accessibles au clavier, j'ai donc fait pas mal de recherches pour apporter une suggestion
 d'amélioration. Pour cela, j'ai d'ailleurs tenté d'identifier les technologies utilisées pour coder le site, malheureusement
-je n'ai pas trouvé le code source du site sur le [GitHub de DataSud](https://github.com/datasud/) donc je me suis basé 
+je n'ai pas trouvé le code source du site sur le [GitHub de DataSud](https://github.com/datasud/) donc je me suis basé
 sur le code source disponible dans l'inspecteur d'élément:
 - [React](https://react.dev/) (il est fait mention de 'react-helmet' une librairie React)
 - [Tailwind](https://tailwindcss.com/) qui permet d'ajouter des styles directement dans le HTML
@@ -157,7 +158,7 @@ s'affine aussi les mêmes problèmes basiques apparaissent souvent eg. `<img alt
 
 #### Lighthouse et WAVE
 
-J'ai découvert qu'au lieu d'utiliser les sites, je peux utiliser les extensions qui me permettent d'analyser des 
+J'ai découvert qu'au lieu d'utiliser les sites, je peux utiliser les extensions qui me permettent d'analyser des
 pages initialement cachée derrière des écrans de chargement.
 
 WAVE est au début dur à appréhender, car il rajoute énormément d'informations à la page, de couleurs etc,

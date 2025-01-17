@@ -6,8 +6,10 @@ authors:
   - Inès Kebbab
 
 date: 2024-12-17
-tags: 
-  - "temps 3"
+
+temps: 3
+
+tags:
   - "info"
 
 résumé: "Comprendre et découvrir différents outils de analyse et visualisation de données."
