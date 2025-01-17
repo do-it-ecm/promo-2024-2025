@@ -7,8 +7,9 @@ authors:
 
 date: 2024-12-17
 
+temps: 3
+
 tags:
-  - "temps 3"
   - "info"
 
 résumé: Ce POK tourne aux enjeux de la constitution d'une base de données et aux techniques de scrapping de site web, dans le cadre de mon projet aux Entrep'.
