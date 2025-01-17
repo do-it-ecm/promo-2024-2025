@@ -7,8 +7,9 @@ authors:
 
 date: 2024-11-19
 
+temps: 2
+
 tags:
-  - 'temps 2'
   - 'dev'
   - 'kubernetes'
   - 'k9s'

@@ -7,8 +7,9 @@ authors:
 
 date: 2024-12-17
 
+temps: 2
+
 tags:
-  - 'temps 2'
   - 'dev'
   - 'vscode'
 

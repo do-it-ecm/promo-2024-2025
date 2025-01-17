@@ -19,3 +19,8 @@ L'objectif de mon temps 1 est d'avoir une idée claire sur ce qu'est l'**environ
 L'objectif de mon temps 2 est de **maîtriser les outils** qui permettent de gagner du temps dans le développement.
 - [MON 2.1 - k9s speedrun any% unrestricted wg+ WR](./temps-2.1)
 - [MON 2.2 - VSCode Speedup](./temps-2.2)
+
+## Temps 3
+L'objectif de mon temps 3 est de **faire du logiciel qui dure en production**.
+- [MON 3.1 - Faire du software qui dure: Documentation](./temps-3.1)
+- [MON 3.2 - Faire du software qui dure: Philosophie](./temps-3.2)
