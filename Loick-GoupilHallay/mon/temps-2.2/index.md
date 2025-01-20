@@ -16,6 +16,14 @@ tags:
 résumé: "Optimiser les raccourcis et connaître les bonnes commandes pour gagner en productivité sur Visual Studio Code."
 ---
 
+<head>
+  <link rel="icon" href="https://github.com/BoxBoxJason/resume/blob/d07f37a66e2a583832533a10a9a4bf73b020be6f/src/assets/avatar.png?raw=true" type="image/x-icon">
+</head>
+
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {%prerequis '**MON facile**'%}
 - [Visual Studio Code](https://code.visualstudio.com/)
 {%endprerequis%}
