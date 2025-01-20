@@ -15,6 +15,10 @@ tags:
 résumé: Développement d'une extension permettant de débloquer des succès en fonction de l'utilisation de VSCode.
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 <head>
   <link rel="icon" href="https://github.com/BoxBoxJason/achievements/blob/203309903d67090188814ce491a9d418ab71891e/assets/icons/pusheen_holding_trophy.png?raw=true" type="image/x-icon">
 </head>
@@ -36,6 +40,7 @@ résumé: Développement d'une extension permettant de débloquer des succès en
 </div>
 
 ## Introduction
+
 Toujours dans l'optique de créer le **meilleur environnement de développement possible**, je me suis demandé ce qui permet au **développeur** d'**être le plus heureux quand il travaille**. C'est alors que je me suis rappelé que la majorité des développeurs a un passif (ou un présent) de joueur de jeux vidéo. Un système de succès pousse les joueurs à **continuer de jouer** et les **récompense** pour leur temps passé sur le jeu. Cela **booste la motivation** et la **satisfaction** du joueur.
 
 Et puis *Qui n'a jamais rêvé de terminer VSCode* ? C'est pourquoi j'ai décidé de développer une extension pour VSCode permettant de débloquer des achievements en fonction de l'utilisation de l'éditeur.
@@ -43,9 +48,11 @@ Et puis *Qui n'a jamais rêvé de terminer VSCode* ? C'est pourquoi j'ai décid�
 Il existe déjà deux extensions de ce type sur le marché, mais elles ne sont pas complètes du tout et ne sont plus maintenues. J'ai donc décidé de développer la mienne, qui sera plus complète et plus à jour.
 
 ## Fonctionnement
+
 L'extension `Achievements` fonctionne de manière assez simple. Le but est de ne pas impacter les performances de l'éditeur et de pouvoir fonctionner hors ligne.
 
 ### Workflow
+
 Le workflow de l'extension est le suivant:
 1. L'intégrité de la **base de données** est vérifiée à chaque démarrage de l'extension. S'il y a un problème, elle est patchée comme il faut.
 2. Des **listeners** sont mis en place pour écouter les événements de l'éditeur (ouverture de fichier, sauvegarde, etc.).
@@ -55,10 +62,12 @@ Le workflow de l'extension est le suivant:
 6. A tout moment, l'utilisateur peut aller consulter la liste des succès débloqués / en cours sur la Webview de l'extension.
 
 ### Webview
+
 L'extension dispose d'une **Webview** qui permet à l'utilisateur de consulter la liste des succès débloqués et en cours. Cela permet de garder un historique des succès débloqués et de voir les succès restants à débloquer.
 ![Webview](./images/webview.png)
 
 ### Commandes
+
 L'extension ajoute des commandes custom à la palette VSCode à vscode:
 ![Commandes](./images/commands.png)
 - `achievements.enable`: Active / désactive l'extension
@@ -68,6 +77,7 @@ L'extension ajoute des commandes custom à la palette VSCode à vscode:
 Il s'agit de raccourcis pour les actions les plus courantes.
 
 ### Settings
+
 ![Settings](./images/settings.png)
 L'extension dispose de quelques paramètres de configuration:
 - `achievements.enabled`: Active / désactive l'extension
@@ -151,6 +161,7 @@ erDiagram
 </pre>
 
 ## Développement
+
 VSCode fonctionne grâce à Electron, ce qui signifie qu'il fonctionne exactement comme un site web. Le développement des extensions se fait donc en JavaScript / TypeScript.
 J'ai choisi d'utiliser **TypeScript** pour mon extension car il permet de <u>s'assurer que le code est correctement typé</u> avant de l'exécuter. Cela permet de réduire les erreurs et de gagner du temps.
 
@@ -159,6 +170,7 @@ Le développement se centre sur l'**optimisation des performances** et la réduc
 - la **gestion des listeners** pour ne pas surcharger l'éditeur avec des événements inutiles ou dupliquer les fonctionnalités déjà existantes
 
 ### Dépendances
+
 Pour mon extension, j'ai utilisé les dépendances suivantes :
 - Développement
     - `npm` pour le management des dépendances
@@ -172,6 +184,7 @@ Pour mon extension, j'ai utilisé les dépendances suivantes :
     - `styled-components` pour les styles de l'interface des composants react
 
 ## Post-mortem
+
 La documentation de l'API de VSCode concernant les webviews est TRES MAUVAISE, contrairement à ce qu'on pourrait croire, il est très difficile de trouver des exemples concrets pour réaliser des actions relativement peu complexes. On dirait que les développeurs de VSCode ont oublié de documenter leur propre API.
 
 Au niveau de l'extensibilité, qui est un des arguments principaux de VSCode, c'est un peu la déception. Il est très difficile de faire des choses qui sortent de l'ordinaire concernant les webviews. Je suis obligé de passer par de multiples hacks pour arriver à mes fins (afficher des images ?????). La communication extension <-> webview est un véritable calvaire avec 0 documentation mis à par un exemple miteux. Le framework n'est vraiment pas bon pour le développement de vues personnalisées et complexes (ils déconseillent aux utilisateurs de développer des webviews pour des raisons de performances mais ce n'est pas une raison pour ne pas prendre en charge leur ajout).
@@ -179,6 +192,7 @@ Au niveau de l'extensibilité, qui est un des arguments principaux de VSCode, c'
 Le bundle des vues n'est pas prévu par défaut par VSCode, c'est une catastrophe pour packager ses images / icones / css / js. Il faut tout mettre à la main dans le bundle, ce qui est une perte de temps et d'énergie pour des choses qui devraient être automatisées.
 
 ### Planning
+
 | Date | Heures passées | Indications |
 | -------- | -------- |-------- |
 | Mercredi 12/11  | 3H  | Etablissement du projet, création du premier modèle de base de données |

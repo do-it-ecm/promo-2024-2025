@@ -17,6 +17,10 @@ tags:
 résumé: Rework du site Do-It pour apporter la possibilité de scaling et l'utilisation de GitHub Actions pour le CI/CD.
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% prerequis '**POK avancé**'%}
 - [Git](https://git-scm.com/)
 - [Eleventy](https://www.11ty.dev/)
@@ -29,6 +33,7 @@ résumé: Rework du site Do-It pour apporter la possibilité de scaling et l'uti
 {% endlien %}
 
 ## Introduction
+
 Après 3 ans de bons et loyaux services, le site Do-It arrive à saturation. Il est en effet gangréné par les **mauvaises pratiques** qui se sont **accumulées** au fil des POK & MON. Il est temps de reprendre les choses en main et de revoir l'architecture du site pour le rendre scalable et plus facile à maintenir.
 
 Le build a dépassé la taille du Giga, le **déploiement** via GitHub Actions **ne passe plus entièrement** à cause de cela, et les pauvres élèves se font engueuler par nos chers professeurs car ils ne peuvent pas consulter leurs rendus.
@@ -36,17 +41,20 @@ Le build a dépassé la taille du Giga, le **déploiement** via GitHub Actions *
 ## Problèmes actuels
 
 ### Taille du build
+
 Le site Do-It est construit avec Eleventy, et au fil des POK & MON, **la taille du build a explosé**. Il est maintenant impossible de déployer le site en entier via GitHub Actions, car **le build dépasse la taille maximale supportée par GitHub Pages**. Cela est dû au contenu multimédia (images, vidéos, sons, diaporamas, zip, code source,...) qui a été ajouté au fil des années en les plaçant directement dans le dossier `src`.
 
 La limite de taille du build est de **1 Go** pour GitHub Pages, et le site Do-It dépasse largement cette taille.
 
 ### Scaling
+
 Le repository Git servant à build le site est **monolithique**. Tous les élèves ont leur propre dossier dans le dossier `src`, et le site est construit en entier à chaque modification. Cela pose plusieurs problèmes :
 - **Pas de gestion fine des droits** : les élèves ont accès à tout le site, ce qui peut entraîner des modifications non désirées
 - **Temps de build trop long** : plus il y a d'élèves, plus le temps de build augmente
 - **Performances Git dégradées**: GitHub recommande de ne pas excéder 5Gb de données par repository sous peine de faire face à de sérieux problèmes de performance, celui de Do-It atteint les 4.1Gb à l'heure actuelle. La siuation est critique.
 
 ### Mauvaises pratiques
+
 Le site Do-It est victime de **mauvaises pratiques** en cascade:
 - **Les médias sont directement au niveau des markdown** : cela augmente la taille du build et rend le site difficile à maintenir
 - **Les promos ne respectent pas toutes le même format**: la nomenclature des directories et des fichiers n'est pas vérouillée. Cela rend pénible la maintenance du site
@@ -56,6 +64,7 @@ Le site Do-It est victime de **mauvaises pratiques** en cascade:
 - **Personne n'utilise Git**: Les élèves ne font pas l'effort d'utiliser Git comme il faut, tout le monde push sur la branche `main` et je reçois régulièrement des messages pour résoudre des problèmes de conflits.
 
 ## Objectifs
+
 - **Résoudre le problème de taille de build** pour que toutes les actions de déploiement passent
 - **Permettre le scaling du site** pour supporter un nombre croissant d'élèves
 - **Mettre en place du GitOps** pour faciliter le déploiement et la maintenance du site
@@ -65,6 +74,7 @@ Le site Do-It est victime de **mauvaises pratiques** en cascade:
 ## Résolution
 
 ### Résolution de la taille du build
+
 Le problème d'échec de déploiement étant urgent, j'ai décidé de le résoudre immédiatement en **réencodant** toutes les images du site en **WebP** et toutes les vidéos en **MP4** avec le **codec H.264**. Cela a permis de **diviser par 2 la taille du build** et de permettre le déploiement complet du site via GitHub Actions.
 
 {% details "Script bash d'optimisation des médias" %}
@@ -168,6 +178,7 @@ La solution perenne est de **sortir les médias du build** et de les stocker dan
 Comme ni vous, ni moi n'avons envie de payer ou de maintenir un serveur, la solution la plus simple est de **continuer d'utiliser GitHub** pour stocker les médias, mais de **ne plus les inclure dans le build**. Nous allons simplement **référencer les médias** dans les fichiers HTML et les laisser **accessibles via GitHub**.
 
 ### Scaling
+
 Pour permettre le scaling du site, il faut impérativement **séparer les promotions**. Chaque promotion doit avoir son propre repository Git, et le site doit être construit à partir de **repositories séparés**. Cela permettra de **réduire le temps de build** et de **séparer les droits et les préoccupations**.
 
 Concrètement, chaque promotion aura son propre repository Git, et le site Do-It sera construit à partir de **submodules Git**.\
@@ -182,6 +193,7 @@ Cela passe par plusieurs étapes clés:
 - **Migration du site vers notre propre serveur aioli**
 
 ### Mauvaises pratiques
+
 Pour résoudre les problèmes de mauvaise pratiques, j'ai décidé de mettre en place une **pipeline CI/CD** GitHub Actions qui va **vérifier** que chacune des nouvelles pratiques est respectée, et dans le cas contraire, le **build échouera**.
 
 {% details "Pipeline CI/CD Compliance GitHub Actions" %}
