@@ -200,6 +200,7 @@ Pour résoudre les problèmes de mauvaise pratiques, j'ai décidé de mettre en 
 Cette pipeline GitHub Actions utilise du caching pour accélérer le build et lance tous nos tests de conformité.\
 Elle ne se lance que lorsqu'une merge request est acceptée ou lorsqu'un submodule est mis à jour. Finito les push sur `main`!
 ```yaml
+{% raw %}
 name: check-compliance
 
 on:
@@ -231,7 +232,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .git/modules
-          key: submodules-$&123;&123; github.ref_name &125;&125;
+          key: submodules-${{ github.ref_name }}
           restore-keys: |
             submodules-${{ github.ref_name }}
             submodules-
@@ -280,6 +281,7 @@ jobs:
 
       - name: Check Compliance
         run:  npm run check-compliance
+{% endraw %}
 ```
 {% enddetails %}
 
@@ -287,6 +289,7 @@ jobs:
 Cette pipeline GitHub Actions construit le site Do-It à partir des submodules Git et applique les changements sur la branche `gh-pages` pour déployer le site. Elle ne conserve que la dernière version du build pour éviter de faire grossir le repository Git inutilement.
 
 ```yaml
+{% raw %}
 name: publish
 
 on:
@@ -369,5 +372,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force_orphan: true
           publish_branch: gh-pages
+{% endraw %}
 ```
 {% enddetails %}
