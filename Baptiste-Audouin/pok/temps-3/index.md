@@ -91,7 +91,7 @@ $$
 
 **Où :**
 
-- \\lambda\\ : paramètre de régularisation pour limiter les valeurs extrêmes dans \\( U \\) et \\( M \\).
+- \\(lambda\\) : paramètre de régularisation pour limiter les valeurs extrêmes dans \\( U \\) et \\( M \\).
 - \\( ||U_u||^2 \\) et \\( ||M_i||^2 \\) : normes des vecteurs utilisateur et élément.
 
 
@@ -112,9 +112,15 @@ Supposons une matrice \\( R \\) comme celle-ci (notes données par des utilisate
 | Utilisateur 2       | ?      | 4      | ?      |  
 | Utilisateur 3       | 1      | ?      | 2      |  
 
-Le modèle utilise \\( U \) et \\( M \) pour prédire les notes manquantes (notées "?"). En ajustant itérativement \\( U \\) et \\( M \\), ALS minimise l'erreur entre les prédictions et les notes réelles.
+Le modèle utilise \\( U \) et \\( M \\) pour prédire les notes manquantes (notées "?"). En ajustant itérativement \\( U \\) et \\( M \\), ALS minimise l'erreur entre les prédictions et les notes réelles.
 
-#### Le Dataset
+#### Choix du Dataset
+
+Pour ce projet , j'ai choisi le dataset **MovieLens** disponible sur Kaggle, un des datasets les plus populaires pour les systèmes de recommandation. Ce dataset contient des millions de notes attribuées à des films par des utilisateurs. Il inclut plusieurs fichiers, dont les principaux sont :
+
+- **movies.csv** : Contient les informations sur les films, notamment l'ID du film, le titre et les genres associés.
+- **ratings.csv** : Contient les évaluations des utilisateurs pour les films, avec l'ID de l'utilisateur, l'ID du film, la note attribuée et la date de l'évaluation.
+- **tags.csv** : Contient des informations sur les tags associés aux films, qui peuvent être utiles pour l'analyse des préférences.
 
 
 ### Second Sprint
