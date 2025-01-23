@@ -72,56 +72,39 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 
 #### Le modèle ALS (Alternating Least Squares) 
 
-### Explication du modèle ALS
+Le modèle **ALS (Alternating Least Squares)** est utilisé pour les systèmes de recommandation. Il cherche à décomposer une matrice \\( R \\), qui représente les interactions entre utilisateurs et éléments (comme les notes attribuées à des films pour ce POK), en deux matrices plus petites :
 
-Le modèle **ALS (Alternating Least Squares)** est utilisé pour les systèmes de recommandation. Il cherche à décomposer une matrice \( R \), qui représente les interactions entre utilisateurs et éléments (comme les notes attribuées à des films), en deux matrices plus petites :
-
-- \( U \) : matrice des préférences des utilisateurs.
-- \( M \) : matrice des caractéristiques des éléments (comme les films).
+- \\( U \\) : matrice des préférences des utilisateurs.
+- \\( M \\) : matrice des caractéristiques des éléments (comme les films).
 
 L'approximation se fait avec la relation suivante :  
 $$
 R \\approx U \\cdot M^T
 $$
 
-L'objectif est de minimiser l'erreur entre les valeurs prédites \( U_u^T \\cdot M_i \) et les notes réelles \( R_{ui} \), tout en ajoutant une régularisation pour éviter le surapprentissage. La fonction d'optimisation est :  
+L'objectif est de minimiser l'erreur entre les valeurs prédites \\( U_u^T \\cdot M_i \\) et les notes réelles \\( R_{ui} \\)
+tout en ajoutant une régularisation pour éviter le surapprentissage. La fonction d'optimisation est :  
 
 $$
 \\min_{U, M} \\sum_{(u, i) \\in R} \\left( R_{ui} - U_u^T M_i \\right)^2 + \\lambda \\left( ||U_u||^2 + ||M_i||^2 \\right)
 $$
 
-#### Où :
+**Où :**
 
-$$
-\\lambda\\ 
-$$ 
-: paramètre de régularisation pour limiter les valeurs extrêmes dans $$ \\( U \\) et \\( M \\).
-$$
-\\( ||U_u||^2 \\) et \\( ||M_i||^2 \\) 
-$$
-: normes des vecteurs utilisateur et élément.
+- \\lambda\\ : paramètre de régularisation pour limiter les valeurs extrêmes dans \\( U \\) et \\( M \\).
+- \\( ||U_u||^2 \\) et \\( ||M_i||^2 \\) : normes des vecteurs utilisateur et élément.
 
----
 
-### Fonctionnement d'ALS
+#### Fonctionnement d'ALS
 
-1. Fixer la matrice \( M \) et calculer \( U \).
+1. Fixer la matrice \\( M \\) et calculer \\( U \\).
 2. Fixer la matrice \( U \) et calculer \( M \).
 
 Le processus alterne entre ces deux étapes jusqu'à ce que l'erreur soit suffisamment basse.
 
----
+#### Exemple simple
 
-### Points forts du modèle
-
-- **Gestion des données incomplètes** : ALS fonctionne bien avec des matrices où beaucoup de données sont manquantes.  
-- **Parallélisation** : ALS est efficace pour traiter de grandes données avec des outils comme Apache Spark.
-
----
-
-### Exemple simple
-
-Supposons une matrice \( R \) comme celle-ci (notes données par des utilisateurs) :  
+Supposons une matrice \\( R \\) comme celle-ci (notes données par des utilisateurs) :  
 
 | Utilisateur / Film | Film 1 | Film 2 | Film 3 |  
 |---------------------|--------|--------|--------|  
@@ -129,7 +112,9 @@ Supposons une matrice \( R \) comme celle-ci (notes données par des utilisateur
 | Utilisateur 2       | ?      | 4      | ?      |  
 | Utilisateur 3       | 1      | ?      | 2      |  
 
-ALS utilise \( U \) et \( M \) pour prédire les notes manquantes (notées "?"). En ajustant itérativement \( U \) et \( M \), ALS minimise l'erreur entre les prédictions et les notes réelles.
+Le modèle utilise \\( U \) et \\( M \) pour prédire les notes manquantes (notées "?"). En ajustant itérativement \\( U \\) et \\( M \\), ALS minimise l'erreur entre les prédictions et les notes réelles.
+
+#### Le Dataset
 
 
 ### Second Sprint
