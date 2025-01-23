@@ -72,35 +72,57 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 
 #### Le modèle ALS (Alternating Least Squares) 
 
-Voici une explication un peu plus détaillée :  
+### Explication du modèle ALS
 
-Le modèle **ALS (Alternating Least Squares)** est une méthode de factorisation matricielle utilisée pour les systèmes de recommandation. Il vise à décomposer une matrice \( R \) représentant les interactions entre utilisateurs et éléments (comme les notes attribuées à des films dans ce POK) en deux matrices plus petites :  
-- \( U \) : une matrice \( n \times k \) représentant les préférences des utilisateurs.  
-- \( M \) : une matrice \( m \times k \) représentant les caractéristiques des éléments (les films ici).  
+Le modèle **ALS (Alternating Least Squares)** est utilisé pour les systèmes de recommandation. Il cherche à décomposer une matrice \( R \), qui représente les interactions entre utilisateurs et éléments (comme les notes attribuées à des films), en deux matrices plus petites :
 
-Ces deux matrices sont calculées de manière à approximer \( R \) :  
-\[
-R \approx U \cdot M^T
-\]  
+- \( U \) : matrice des préférences des utilisateurs.
+- \( M \) : matrice des caractéristiques des éléments (comme les films).
 
-L'objectif est de minimiser l'erreur entre les valeurs prédites \( U_u^T M_i \) (produit des vecteurs utilisateur et élément) et les notes réelles \( R_{ui} \), tout en évitant le surapprentissage grâce à une régularisation :  
-\[
-\min_{U, M} \sum_{(u, i) \in R} \left( R_{ui} - U_u^T M_i \right)^2 + \lambda \left( \|U_u\|^2 + \|M_i\|^2 \right)
-\]  
-où :  
-- \( \lambda \) est un paramètre de régularisation pour pénaliser les valeurs extrêmes dans \( U \) et \( M \).  
-- \( \|U_u\|^2 \) et \( \|M_i\|^2 \) sont des normes qui contrôlent la taille des vecteurs.  
+L'approximation se fait avec la relation suivante :  
+$$
+R \\approx U \\cdot M^T
+$$
 
-### Fonctionnement de l'optimisation  
-ALS alterne entre :  
-1. **Fixer \( M \)** et résoudre \( U \).  
-2. **Fixer \( U \)** et résoudre \( M \).  
+L'objectif est de minimiser l'erreur entre les valeurs prédites \( U_u^T \\cdot M_i \) et les notes réelles \( R_{ui} \), tout en ajoutant une régularisation pour éviter le surapprentissage. La fonction d'optimisation est :  
 
-Ce processus est répété jusqu'à ce que l'erreur converge vers une valeur minimale.  
+$$
+\\min_{U, M} \\sum_{(u, i) \\in R} \\left( R_{ui} - U_u^T M_i \\right)^2 + \\lambda \\left( ||U_u||^2 + ||M_i||^2 \\right)
+$$
 
-### Points forts  
-- **Gestion des données creuses** : ALS est bien adapté aux matrices où la majorité des interactions sont inconnues.  
-- **Parallélisation** : Grâce à son alternance entre \( U \) et \( M \), ALS peut être distribué efficacement, par exemple avec Spark.  
+#### Où :
+- \( \\lambda \) : paramètre de régularisation pour limiter les valeurs extrêmes dans \( U \) et \( M \).
+- \( ||U_u||^2 \) et \( ||M_i||^2 \) : normes des vecteurs utilisateur et élément.
+
+---
+
+### Fonctionnement d'ALS
+
+1. Fixer la matrice \( M \) et calculer \( U \).
+2. Fixer la matrice \( U \) et calculer \( M \).
+
+Le processus alterne entre ces deux étapes jusqu'à ce que l'erreur soit suffisamment basse.
+
+---
+
+### Points forts du modèle
+
+- **Gestion des données incomplètes** : ALS fonctionne bien avec des matrices où beaucoup de données sont manquantes.  
+- **Parallélisation** : ALS est efficace pour traiter de grandes données avec des outils comme Apache Spark.
+
+---
+
+### Exemple simple
+
+Supposons une matrice \( R \) comme celle-ci (notes données par des utilisateurs) :  
+
+| Utilisateur / Film | Film 1 | Film 2 | Film 3 |  
+|---------------------|--------|--------|--------|  
+| Utilisateur 1       | 5      | ?      | 3      |  
+| Utilisateur 2       | ?      | 4      | ?      |  
+| Utilisateur 3       | 1      | ?      | 2      |  
+
+ALS utilise \( U \) et \( M \) pour prédire les notes manquantes (notées "?"). En ajustant itérativement \( U \) et \( M \), ALS minimise l'erreur entre les prédictions et les notes réelles.
 
 
 ### Second Sprint
