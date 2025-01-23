@@ -112,7 +112,7 @@ Supposons une matrice \\( R \\) comme celle-ci (notes données par des utilisate
 | Utilisateur 2       | ?      | 4      | ?      |  
 | Utilisateur 3       | 1      | ?      | 2      |  
 
-Le modèle utilise \\( U \) et \\( M \\) pour prédire les notes manquantes (notées "?"). En ajustant itérativement \\( U \\) et \\( M \\), ALS minimise l'erreur entre les prédictions et les notes réelles.
+Le modèle utilise \\( U \\) et \\( M \\) pour prédire les notes manquantes (notées "?"). En ajustant itérativement \\( U \\) et \\( M \\), ALS minimise l'erreur entre les prédictions et les notes réelles.
 
 #### Choix du Dataset
 
