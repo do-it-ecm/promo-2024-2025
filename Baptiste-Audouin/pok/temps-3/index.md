@@ -91,8 +91,15 @@ $$
 $$
 
 #### Où :
-- \( \\lambda \) : paramètre de régularisation pour limiter les valeurs extrêmes dans \( U \) et \( M \).
-- \( ||U_u||^2 \) et \( ||M_i||^2 \) : normes des vecteurs utilisateur et élément.
+
+$$
+\\lambda\\ 
+$$ 
+: paramètre de régularisation pour limiter les valeurs extrêmes dans $$ \\( U \\) et \\( M \\).
+$$
+\\( ||U_u||^2 \\) et \\( ||M_i||^2 \\) 
+$$
+: normes des vecteurs utilisateur et élément.
 
 ---
 
