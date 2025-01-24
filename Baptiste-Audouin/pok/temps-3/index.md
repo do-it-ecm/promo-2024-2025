@@ -41,8 +41,8 @@ Au cours de mon cursus j'ai déjà eu l'occasion de travailler sur des modèles 
 
 #### Sprint 1
 
-- [ ] Documentation sur le théorie du modèle ALS (1h)
-- [ ] Recherche et sélection du dataset (ex. MovieLens) (1h)
+- [x] Documentation sur la théorie du modèle ALS (2h)
+- [x] Recherche et sélection du dataset (1h)
 - [ ] Préparation de l'environnement PySpark (1h)
 - [ ] Exploration initiale des données (analyse des colonnes et visualisation) (1h)
 - [ ] Nettoyage et transformation des données (gestion des valeurs manquantes, typage) (2h)
@@ -64,6 +64,7 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 | Date | Heures passées | Indications |
 | -------- | -------- |-------- |
 | Jeudi 23/01  | 2H  | Cadrage et documentation sur le modèle ALS |
+| Jeudi 23/01  | 1H30  | Recherche et sélection du dataset |
 
 ## Contenu
 
