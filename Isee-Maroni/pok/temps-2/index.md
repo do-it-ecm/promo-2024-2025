@@ -80,7 +80,7 @@ Pour réaliser mon infographie, j'ai fait une sélection des données spécifiqu
 
 ![Donnees_brutes](./A4-1.png)
 
-Je me suis ensuite appliquée à les représenter de manière visuelle afin que le message principal soit compris d’un coup d’œil, avec un minimum de texte explicatif. Mon objectif était que les éléments graphiques portent la majeure partie de la signification.
+En utilisant le logiciel **Figma**, je me suis ensuite appliquée à les représenter de manière visuelle afin que le message principal soit compris d’un coup d’œil, avec un minimum de texte explicatif. Mon objectif était que les éléments graphiques portent la majeure partie de la signification.
 
 #### Ébauche et progression
 
