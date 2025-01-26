@@ -106,7 +106,7 @@ Liste des prérequis du POK ET/OU MON
 
 {% details "Sprint 1" %}
 
-**GESTION GENERALE DU TEMPS :** Très bonne gestion du temps comparativement aux temps 2 et 3.  
+**GESTION GENERALE DU TEMPS :** Très bonne gestion du temps comparativement aux temps 2 et 3.
 
 **DIMENSIONNEMENT DU PROJET :** Bon dimensionnement général des objectifs du projet.
 
@@ -114,19 +114,19 @@ Liste des prérequis du POK ET/OU MON
 {% enddetails %}
 
 {% details "Sprint 2" %}
-**GESTION GENERALE DU TEMPS :** Lorem Ipsum  
+**GESTION GENERALE DU TEMPS :** Lorem Ipsum
 
-**GESTION GENERALE :** Lorem Ipsum  
+**GESTION GENERALE :** Lorem Ipsum
 
-**DIMENSIONNEMENT DU PROJET :** Lorem Ipsum  
+**DIMENSIONNEMENT DU PROJET :** Lorem Ipsum
 
 {% enddetails %}
 
 {% details "POK complet" %}
 
-**DIMENSIONNEMENT PROJET :** Lorem Ipsum  
-**DIMENSIONNEMENT TÂCHES:** Lorem Ipsum  
-**APPROCHE METHODOLOGIQUE :** Lorem Ipsum  
+**DIMENSIONNEMENT PROJET :** Lorem Ipsum
+**DIMENSIONNEMENT TÂCHES:** Lorem Ipsum
+**APPROCHE METHODOLOGIQUE :** Lorem Ipsum
 
 {% enddetails %}
 
@@ -141,12 +141,12 @@ Pouvant être mobilisé sur plusieurs projets et tâches opérationnelles simult
 - Identifier et prévenir les différents risques gravitant autours de mon poste, tâches et projets.
 - Reporter précisément et de manière casiment automatique mes activités à ma direction.
 - Mener une démarche d'amélioration continue sur l'ensemble de mes activités.
- 
+
 {% enddetails %}
 
 2. Les besoins principaux pour le suivi de mes activités professionnelles sont : *Formaliser, plannifier, anticiper, identifier et capitaliser*.
 
-{% details "Pourquoi ?" %}  
+{% details "Pourquoi ?" %}
 | Besoin | Détail | Besoin psychologique et méthodologique |
 |--------|--------|----------------------------------------|
 | **Formaliser** | Clarifier les différentes demandes qui me sont adressées au travers de chartes projets, cahiers des charges...| Provient d'un besoin fort d'avoir une vue à la fois d'ensemble et précise des tâches que je dois réaliser. Mon niveau de motivation et d'efficacité en est très dépendant|
@@ -160,15 +160,15 @@ Pouvant être mobilisé sur plusieurs projets et tâches opérationnelles simult
 
 Mettre en place une méthode de travail permettant de lier chacune de mes activités suppose d'avoir connaissance des différentes typologies de tâches qui pourront m'incomber. J'ai donc identifié 4 cas de figure :
 
-**Cas N°1 :** Membre d'une équipe projet, sans en être le gestionnaire. Le chef de projet mène une gestion complète : documents de cadrage, de conception, de plannification, tous partagés, validés et suivis.  
-**Cas N°2 :** Membre d'une équipe projet, sans en être le gestionnaire. Le chef de projet **NE** mène **PAS** gestion complète : **PAS** de documents de cadrage, de conception, de plannification partagées, validés et suivis.  
-**Cas N°3 :** Chargé de la réalisation d'un projet seul. Des attentes précises sont partagées par le management et le suivi du projet est actif.  
-**Cas N°4 :** Chargé de la réalisation d'un projet seul. Aucune attente particulière n'est adressée par le management et le suivi n'est pas actif.  
+**Cas N°1 :** Membre d'une équipe projet, sans en être le gestionnaire. Le chef de projet mène une gestion complète : documents de cadrage, de conception, de plannification, tous partagés, validés et suivis.
+**Cas N°2 :** Membre d'une équipe projet, sans en être le gestionnaire. Le chef de projet **NE** mène **PAS** gestion complète : **PAS** de documents de cadrage, de conception, de plannification partagées, validés et suivis.
+**Cas N°3 :** Chargé de la réalisation d'un projet seul. Des attentes précises sont partagées par le management et le suivi du projet est actif.
+**Cas N°4 :** Chargé de la réalisation d'un projet seul. Aucune attente particulière n'est adressée par le management et le suivi n'est pas actif.
 
 ### 1.3 Une méthode qui me correspond : Prince2
 
 #### La méthode
-D'après [cet article](https://www.planzone.fr/blog/quest-ce-que-la-methodologie-prince2), la méthode Prince2 (PRojects IN Controlled Environments) est "[...]une méthode pragmatique, structurée, évolutive et adaptable qui permet d'organiser, de gérer et de contrôler efficacement tous types de projets, quelle que soit sa taille."  
+D'après [cet article](https://www.planzone.fr/blog/quest-ce-que-la-methodologie-prince2), la méthode Prince2 (PRojects IN Controlled Environments) est "[...]une méthode pragmatique, structurée, évolutive et adaptable qui permet d'organiser, de gérer et de contrôler efficacement tous types de projets, quelle que soit sa taille."
 "PRINCE2 se base sur :
 - 7 principes qui présentent les lignes directrices à suivre ;
 - 7 thèmes qui décrivent les aspects de la gestion de projet à aborder en permanence pour mener à bien le projet ;
@@ -215,14 +215,14 @@ La conception du projet est une phase de travail à part entière pour le chef d
 {% endnote %}
 
 {% info %}
-Dans la méthode Prince2, ces deux phases se retrouvent essentiellement dans les thèmes ***Cas d'affaire*** et ***Organisation***, ainsi que dans les processus ***Elaborer*** et ***Initaliser***.  
+Dans la méthode Prince2, ces deux phases se retrouvent essentiellement dans les thèmes ***Cas d'affaire*** et ***Organisation***, ainsi que dans les processus ***Elaborer*** et ***Initaliser***.
 {% endinfo %}
 ### 2.2 Les différentes catégorisations
 
 #### Les besoins du projet
 Une analyse des projets menés lors de mes stages et études m'a permis de réaliser cette cartographie
 {% details "Cartographie" %}
-![Cartographie des parties prenantes et besoins projets](./POK%203%20P1.png)
+![Cartographie des parties prenantes et besoins projets](./POK_3_P1.png)
 {% enddetails %}
 **Besoins :**
 | N°  | Besoin | Détail | Pour | Depuis |
@@ -264,7 +264,7 @@ Les thèmes doivent être abordés tout au long de chaque processus !
 {% endattention %}
 
 {% info %}
-Dans la méthode Prince2, la communication avec les parties prenantes est inclue dans plusieurs thèmes et processus. 
+Dans la méthode Prince2, la communication avec les parties prenantes est inclue dans plusieurs thèmes et processus.
 Bien que celà soit cohérent avec l'importance des tâches reliées, il faut à mon sens prendre particlièrement garde à ne pas la négliger car c'est un sous-thème et un sous-processus de plusieurs éléments !
 {% endinfo %}
 
