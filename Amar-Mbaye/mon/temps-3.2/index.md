@@ -1,22 +1,23 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du second MON du temps 3"
+title: "La cybersécurité, analyse des menaces et solutions"
 authors:
   - Serigne Mbaye Sy AMAR
 
-date: 2024-12-09
+date: 2025-01-18
 temps: 3
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Durant ce MON, je vais consacrer une étude sur la cybersécurité. Mon objectif est d'explorer les différents aspects de ce domaine, notamment les types de menaces actuelles, les meilleures pratiques pour protéger les systèmes informatiques, ainsi que les solutions  pour renforcer la sécurité des données et des réseaux."
 ---
 
 {% prerequis %}
 
-Liste des prérequis du POK ET/OU MON
-
+- Connaissance de base en informatique (systèmes d'exploitation, réseaux, et gestion des fichiers).
+  
 {% endprerequis %}
+
 {% lien %}
 
 Les lien utiles pour la compréhension de celui-ci.
