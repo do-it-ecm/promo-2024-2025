@@ -102,13 +102,13 @@ Chaque sprint répond à une **question principale**.
 
 {% details "Détails des activités du Sprint 1" %}  
 
-| Date       | Heures passées | Indications                                   | Niveau d'efficacité |
-|------------|----------------|-----------------------------------------------|----------------------|
-| 16/01/2025 | 3.0h           | Lecture et exercices sur PyQt (widgets de base). | Très efficace.       |
-| 16/01/2025 | 1.5h           | Exploration des styles via QSS.              | Bonne progression.   |
-| 17/01/2025 | 2.0h           | Design des tableaux avec QVBoxLayout.        | Modérément fluide.   |
-| 18/01/2025 | 1.5h           | Étude des signaux et slots.                  | Bonne maîtrise.      |
-| 18/01/2025 | 2.0h           | Création de l'interface principale.          | Très fluide.         |
+| Date       | Heures passées | Indications                                   |
+|------------|----------------|-----------------------------------------------|
+| 16/01/2025 | 3.0h           | Lecture et exercices sur PyQt (widgets de base). |
+| 16/01/2025 | 1.5h           | Exploration des styles via QSS.              |
+| 17/01/2025 | 2.0h           | Design des tableaux avec QVBoxLayout.        |
+| 18/01/2025 | 1.5h           | Étude des signaux et slots.                  |
+| 18/01/2025 | 2.0h           | Création de l'interface principale.          |
 
 
 **Total du sprint 1 :** 10h.  
