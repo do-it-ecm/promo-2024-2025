@@ -1,15 +1,15 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du second MON du temps 3"
+title: "Transition pour les villages-stations"
 authors:
   - Isée Maroni
 
-date: 1971-03-01
+date: 2025-01-25
 temps: 3
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Quel avenir pour nos montagnes ? Quelle transition possible pour les villages-stations ?"
 ---
 
 {% prerequis %}
