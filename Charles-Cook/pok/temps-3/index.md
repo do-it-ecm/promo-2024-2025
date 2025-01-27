@@ -117,6 +117,7 @@ Cette préparation préalable se fait avec les étapes suivantes :
 *Fonction employée :* `lemmatizer = WordNetLemmatizer()`<br>
 {% enddetails %}
 {% details "Attribution d'un indice de polarité" %}
+- *Méthode :* A partir d'un dictionnaire préconstruit, une polarité est attribué à chaque mot (*merveilleux* aura une polarité positive tandis que *mauvais* ara une polarité négative).
 - *Bibliothèque utilisée :* TextBlob
 - *Avantages :* Analyse sentimetale intégrée, peu de code, bon pour des projets simples, compatible en français.
 {% enddetails %}
@@ -127,6 +128,42 @@ On remarque que dans le cadre des commentaires sur le film "The Substance", la c
 On remarque alors que la corrélation est beaucoup plus éviente. Ce code permet donc de déterminer automatiquement si un commentaire est plutôt positif ou négatif.
 {% enddetails %}
 
-### Premier Sprint
+### Clusterisation
+{% details "Approche méthodologique" %}
+- Nettoyer les données en faisant une pré-analyse (comme pour l'analyse sentimentale).
+- Représenter chaque mot sous forme de vecteur, appelé *Word Embedding*. Il s'agit de représenter une chaîne de caracatère en vecteur numérique de taille fixe. Les mots ayant un sens proche ont une représentation proche dans l'espace vectoriel.
+- Classification des vecteurs par la méthode des k-means.
+{% enddetails %}
+{% details "Algorithme des k-means" %}
+- Initialisation avec k le nombre de cluster souhaité. 
+- Choix de k individus au hasard (représentant les k classes à ce stade).
+- Association de chacun des individus restant à la classe la plus proche.
+- Carcatérisation de chacune des classes par la moyennes de points qu'elle contient.
+- Evaluation de la distance physique de chacun des individus à chacune des k moyennes. Les individus peuvent alors changer de classe si une autre est plus proche.
+- Ré-itération de l'étape précédente jusqu'à ce qu'il n'y ait plus de changement de classe parmis les individus. 
+- Obtention des k clusters.
+{% enddetails %}
+{% details "Code" %}
+- *Bibliothèque utilisée :* `Pycaret`
+- *Avantage :* réalise le pré-traitement des données, encode les données (attribue un vecteur à chaque commentaire textuel), clustering intégré.
+{% enddetails %}
+{% details "Résultats" %}
+La base que j'ai utilisée est la base de 50 commentaires sur le bar avec les notes associées. Pour faire tourner le modèle j'ai choisi un k de 2 afin d'obtenir 2 clusters. Le problème est que l'lagorithme semble bien s'éxécuter mais lorsque j'essaie d'afficher les données dans un graphique (un graphique en barre par exemple pour obtenir la population de chacun des clusters), mon ordinateur plante avant d'afficher les résultats. Après recherche il semblerait que cela pourrait provenir de la capacité de l'environnement virtuel que j'utilise. Je vais tenter de trouver une solution lors du second Sprint. 
+{% enddetails %}
 
-### Second Sprint
+### Livrables
+{% details "Bases de données" %}
+Les bases de données ("The Substance" et pour le bar) et les fichiers de travail intermédiaire se trouve sur le [GitHub](https://github.com/CharlesCook1/POK3).
+{% enddetails %}
+{% details "Résultats Analyse Sentimentale" %}
+- Ci-dessous les résultats de corrélation entre les notes laissés par les spectateurs du film "The Substance" et la polarité associée à chaque commentaire.<br>
+![alt text](<Images/Polarité en fonction de la note The substance.png>)
+La corrélation n'est pas évidente, lié, d'après-moi, au style du film (body horror)<br>
+
+- Ci-après, la même corrélation pour un bar sur le Vieux Port :<br>
+![alt text](<Images/Corréaltion Bar.png>)
+La corrélation est alors plus évidente, plus la note attribué par le client est proche de 5, plus la polarité attribuée par l'algorithme est proche de 1.
+{% enddetails %}
+{% details "Code" %}
+Le code se trouve sur le [GitHub](https://github.com/CharlesCook1/POK3).
+{% enddetails %}
