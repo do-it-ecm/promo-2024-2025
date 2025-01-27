@@ -75,7 +75,7 @@ J'ai ajouté des interactions (liens cliquables, transitions entre les frames) p
 
 {% info %}
 
-Si tu veux en savoir plus à propos de **Miam'Miam**, je t'invite à lire mon **[POK2 - Angular - Front-End Framework](https://francoisbrucker.github.io/do-it/promos/2024-2025/Corne-Titouan/pok/temps-2/)**
+Si tu veux en savoir plus à propos de **Miam'Miam**, je t'invite à lire mon **[POK2 - Angular - Front-End Framework]({{ site.url }}/promos/2024-2025/Corne-Titouan/pok/temps-2/)**
 
 {% endinfo %}
 

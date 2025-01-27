@@ -29,7 +29,7 @@ résumé: "Codage du BackEnd du site de ma Dark Kitchen avec NodeJS."
 {% endprerequis %}
 {% lien %}
 
-- [`MON2.1: Initiation au BackEnd : go to learn Go!`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/mon/temps-2.1/)
+- [`MON2.1: Initiation au BackEnd : go to learn Go!`]({{ site.url }}/promos/2024-2025/Merle-Thomas/mon/temps-2.1/)
 - [`GitHub Projet Dark Kitchen v2`](https://github.com/SofianeOuadda/dark-kitchen-v2)
 - [GitHub Backend Dark Kitchen](https://github.com/SofianeOuadda/dark-kitchen-v2)
 

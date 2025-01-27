@@ -6,7 +6,7 @@ authors:
   - Isée Maroni
 
 date: 2025-01-22
-tags: 
+tags:
   - "temps 3"
 
 résumé: "Découvrir les bases de Apps Script pour automatiser l'envoie de certificats chaque trimestre nécessaire à la réception des paiements et le suivi"
@@ -24,8 +24,8 @@ Aucun
 
 {% details "💡 MON en lien" %}
 
-- [`MON 2.1 de Mathis ADINOLFI : Création d'un EDT automatique avec Sheet et Appscript`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Adinolfi-Mathis/mon/temps-2.1/)
-- [`MON 2.1 de Matthieu DUFORT : Automatisation avec Google App Script`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Matthieu-Dufort/mon/temps-2.1/)
+- [`MON 2.1 de Mathis ADINOLFI : Création d'un EDT automatique avec Sheet et Appscript`]({{ site.url }}/promos/2024-2025/Adinolfi-Mathis/mon/temps-2.1/)
+- [`MON 2.1 de Matthieu DUFORT : Automatisation avec Google App Script`]({{ site.url }}/promos/2024-2025/Matthieu-Dufort/mon/temps-2.1/)
 {%enddetails%}
 
 
@@ -131,7 +131,7 @@ Voici 2 versions successives du template :
 
 {% details "fillTemplate(row)" %}
 ``````
-{% raw %} 
+{% raw %}
 
 function fillTemplate(row) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
@@ -274,7 +274,7 @@ function processTrimestre(trimestre) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
   var trimestreIndex = headers.indexOf("Trimestre") + 1; // Colonne "Trimestre"
-  
+
   // Parcours des lignes
   var lastRow = sheet.getLastRow();
   for (var row = 2; row <= lastRow; row++) {

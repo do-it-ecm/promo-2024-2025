@@ -14,13 +14,13 @@ résumé: Ce POK vise à mettre en place la maquette d'un outil opérationnel de
 ---
 
 {% prerequis %}
-**Niveau :** Basique +  
+**Niveau :** Basique +
 **Pré-requis:**
 - Connaissance de base de Google AppScript, de Google Sheet et de Google Drive.
 - Connaissance de base des enjeux de la compétence individuelle en entreprise.
 {% endprerequis %}
 {% lien %}
-- [MON sur les fonctionnalités de Google AppScript](https://francoisbrucker.github.io/do-it/promos/2024-2025/Damien-Wolbert/mon/temps-1.2/)
+- [MON sur les fonctionnalités de Google AppScript]({{ site.url }}/promos/2024-2025/Damien-Wolbert/mon/temps-1.2/)
 {% endlien %}
 {% details "Bibliographie" %}
 
@@ -89,7 +89,7 @@ Le suivi du projet a été réalisé sur un outil personnel développé spécial
 | 16/09/2024 | 3.7h | Recherches bibliographiques | Elevé |
 | 18/09/2024 | 2h | Mise en forme du sprint sur le site Do-It | Elevé |
 
-***Total du sprint :*** *11 heures soit 10% de plus que le temps demandé*  
+***Total du sprint :*** *11 heures soit 10% de plus que le temps demandé*
 
 ##### Sprint 2
 
@@ -117,8 +117,8 @@ Le suivi du projet a été réalisé sur un outil personnel développé spécial
 | 07/10/2024 | 0.5h | Cadrage du sprint 2 | Elevé |
 | 14/10/2024 | 7h | Architecture générale, architecture collaborateurs, architecture bases de données, templates individuels, document de suivi général, fonctions de création pour la structure | Elevé |
 | 15/10/2024 | 3,5h | Correction fonctions de création, amélioration templates individuels, tests | Elevé |
-| 16/10/2024 | 3,5h | Rédaction sur site de Do_It, derniers tests, REX | Elevé |  
-***Total du sprint 2 :*** *14 heures soit 40% de plus que le temps demandé*  
+| 16/10/2024 | 3,5h | Rédaction sur site de Do_It, derniers tests, REX | Elevé |
+***Total du sprint 2 :*** *14 heures soit 40% de plus que le temps demandé*
 {% faire %}
 **TOTAL POK 1 :** *25 heures soit 25% de plus que le temps demandé*
 {% endfaire %}
@@ -188,7 +188,7 @@ Il pourra être pertinent de mettre en place une échelle d'autonomie face à la
 {% endfaire %}
 
 **Une échelle de reconnaissance (caractéristique n°3) :**
-Dans un article *Compétences individuelles et collectives* [3] du ministère de la transition écologique et de la cohésion des territoires, nous pouvons trouver des ressources présentant la compétence individuelle comme critique pour une organisation. Ainsi, on peut les classer à la fois par raport à son utilité immédiate mais aussi par rapport à son utilité stratégique, à moyen et long terme. 
+Dans un article *Compétences individuelles et collectives* [3] du ministère de la transition écologique et de la cohésion des territoires, nous pouvons trouver des ressources présentant la compétence individuelle comme critique pour une organisation. Ainsi, on peut les classer à la fois par raport à son utilité immédiate mais aussi par rapport à son utilité stratégique, à moyen et long terme.
 
 {% faire %}
 Il faudra permettre à l'utilisateur de définir des échelles d'importance actuelles et stratégiques.
@@ -203,7 +203,7 @@ Mes recherches bibliographiques indiquent que certains outils sont a priori indi
 D'après l'ouvrage *INGENIERIE DE FORMATION : Intégrez les nouveaux modes de formation dans votre pédagogie*, des outils importants du suivi de la compétence sont le référentiel métier et le référentiel de compétence. Le second découlant du premier ce qui donne parfois lieu à l'élaboration d 'un référentiel de compétence-métier.
 
 {% details "Référentiel métier" %}
-**Référentiel métier :** Description d'un poste tel qu'il est occupé et tel qu'il devrait être occupé d'après la vision stratégique de l'entreprise. 
+**Référentiel métier :** Description d'un poste tel qu'il est occupé et tel qu'il devrait être occupé d'après la vision stratégique de l'entreprise.
 Il définit notamment 4 types d'éléments :
 - ***Missions*** : Finalité de l'emploi, indique le servie rendu à l’entreprise. Objectif de l’emploi par rapport à l’unité (équipe, service, etc…) dont il fait partie.
 - ***Fonctions*** : Combinaison d’activités par thématique ou unité logique. *Ex : Suivi des intervenants pour le responsable activité commerciale de KSI Centrale Marseille.*
@@ -385,7 +385,7 @@ Le document de suivi général doit regrouper :
 - Toutes les bases de données.
 Actuellement, ce document comporte les éléments suivants :
 ![Fonctions générales](./Fonctions%20générales%20disponibles.png)
-L'onglet ***New*** correspond, à cet étape du projet, aux fonctionnalités correspondant à la structure.  
+L'onglet ***New*** correspond, à cet étape du projet, aux fonctionnalités correspondant à la structure.
 
 {%lien%}
 [Lien vers le document de suivi général](https://docs.google.com/spreadsheets/d/1crOzv51Mt0-jJi2xNZKXNoEiwMz2lBXg7hcZI-SBvUA/edit?usp=sharing)
@@ -418,7 +418,7 @@ Cette séparation en 3 onglets distincts permettra à terme de modifier les comp
 
 ![Apercçu des compétences](./Apercu%20competences.png)
 
-Comme visible sur la figure précédente, une compétence est définie par un N°, un nom et une description. L'utilisateur peut définir un nombre de paliers d'acquisition entre 1 et 5 et visualiser l'avancement.  
+Comme visible sur la figure précédente, une compétence est définie par un N°, un nom et une description. L'utilisateur peut définir un nombre de paliers d'acquisition entre 1 et 5 et visualiser l'avancement.
 Pour chaque palier, il peut indiquer la date à laquelle il souhaite que le niveau de compétence soit maitrisé, la date à laquelle il est maitrisé ainsi qu'une typologie de preuve d'acquisition (diplôme, certificat ou expérience).
 ![Criticite](./Criticite.png)
 L'utilisateur peut également saisir une importance et une urgence temporelle pour chaque compétence (Criticité voulue) et vérifier la cohérence des choix des objectifs définis par les paliers (Criticité effective). La criticité effective calcul les temps restant pour l'acquisition des différents niveaux de compétences, et définis l'ugence temporelle porportionnellement à l'écart entre l'échéance la plus courte et l'échéance la plus longue.
@@ -433,10 +433,10 @@ L'onglet ***New*** regroupe les outils suivants :
 - Création d'une équipe
 - Création d'un poste
 - Création d'un profile individuel
-Comme la plupart des bases de données sont liées, il n'est pas encore possible de créer la totalité des ces éléments de manière complète. En effet, comme les fonctions de modification restent à créer, il manquera au moins un élément, d'au moins un attribut : 
+Comme la plupart des bases de données sont liées, il n'est pas encore possible de créer la totalité des ces éléments de manière complète. En effet, comme les fonctions de modification restent à créer, il manquera au moins un élément, d'au moins un attribut :
 *Exemple : Si nous créons un service, sans avoir préalablement crée de profile, nous ne pourrons pas associer de responsable au service. De même, si nous créons un poste sans avoir créé de service, nous ne pourrons pas affecter de service à ce poste.*
 
-Il n'est pour l'instant pas possible de modifier les informations renseignées autrement qu'en modifiant manuellemnt les bases de données. A terme, l'objectif serait de dupliquer ***New***, de créer des fonctions permettant d'importer les informations présentes dans les bases de données et de créer des fonctions mettant à jour les nouvelles informations entrées par l'utilisateur.  
+Il n'est pour l'instant pas possible de modifier les informations renseignées autrement qu'en modifiant manuellemnt les bases de données. A terme, l'objectif serait de dupliquer ***New***, de créer des fonctions permettant d'importer les informations présentes dans les bases de données et de créer des fonctions mettant à jour les nouvelles informations entrées par l'utilisateur.
 *Estimation du temps de l'opération : 4 à 5 heures*
 
 
@@ -445,19 +445,19 @@ Il n'est pour l'instant pas possible de modifier les informations renseignées a
 
 ### REX Sprint 1
 
-**GESTION DU TEMPS :** Je pense avoir commencé à travailler sur le POK trop tard, ce qui m'a obligé de condenser mes séances de travail juste avant la deadline.  
+**GESTION DU TEMPS :** Je pense avoir commencé à travailler sur le POK trop tard, ce qui m'a obligé de condenser mes séances de travail juste avant la deadline.
 
-**PROGRAMMATION DES TACHES :** Je n'ai pas pris en compte le temps additionnel que prenait la répoonse à une enquête. Ainsi, j'aurais dû d'abord me concentrer sur la conception du formulaire afin de les envoyer le plus rapidement possible.  
+**PROGRAMMATION DES TACHES :** Je n'ai pas pris en compte le temps additionnel que prenait la répoonse à une enquête. Ainsi, j'aurais dû d'abord me concentrer sur la conception du formulaire afin de les envoyer le plus rapidement possible.
 
-**DIMENSIONNEMENT DU PROJET :** Je pense que ce projet est trop ambitieux pour ne solliciter que 10 heures de travail. L'origine de cette erreur de jugement provient sûrement d'une fausse impression de maitrise du sujet. En effet, je ne pensais pas que la recherche documentaire et l'approfondissement du sujet me prendrait autant de temps.  
+**DIMENSIONNEMENT DU PROJET :** Je pense que ce projet est trop ambitieux pour ne solliciter que 10 heures de travail. L'origine de cette erreur de jugement provient sûrement d'une fausse impression de maitrise du sujet. En effet, je ne pensais pas que la recherche documentaire et l'approfondissement du sujet me prendrait autant de temps.
 
 ### REX Sprint 2
 
-**GESTION DU TEMPS GENERALE :** J'ai entammé le sprint 2 beaucoup trop tard. En effet, je me suis basé sur le temps alloué au projet (10h) et pas au temps que le projet tel que défini allait me prendre.  
+**GESTION DU TEMPS GENERALE :** J'ai entammé le sprint 2 beaucoup trop tard. En effet, je me suis basé sur le temps alloué au projet (10h) et pas au temps que le projet tel que défini allait me prendre.
 
-**GESTION DU TEMPS DE PROGRAMMATION :** La programmation des différentes fonctions et des templates m'a pris plus longtemps que prévu. En effet, bien que mon MON 1.2 m'ait permis de mieux maitriser Google AppScript, j'ai surestimé mes capacités.  
+**GESTION DU TEMPS DE PROGRAMMATION :** La programmation des différentes fonctions et des templates m'a pris plus longtemps que prévu. En effet, bien que mon MON 1.2 m'ait permis de mieux maitriser Google AppScript, j'ai surestimé mes capacités.
 
-**PROGRAMMATION DES TACHES :** Comme pour le sprint 1, je n'ai pas pris en compte le temps pris par la propagation et l'étude d'un questionnaire. De plus, je n'ai pas pris le temps de relancer d'autres participants potentiels, ce qui a aboutit à un questionnaire peu exploitable, du fait du nombre de réponses. En effet, j'espérais pouvoir récolter une vingtaine de réponses alors que je n'en ai reçu que huit.  
+**PROGRAMMATION DES TACHES :** Comme pour le sprint 1, je n'ai pas pris en compte le temps pris par la propagation et l'étude d'un questionnaire. De plus, je n'ai pas pris le temps de relancer d'autres participants potentiels, ce qui a aboutit à un questionnaire peu exploitable, du fait du nombre de réponses. En effet, j'espérais pouvoir récolter une vingtaine de réponses alors que je n'en ai reçu que huit.
 
 **DIMENSIONNEMENT DU PROJET :** Comme au temps 1, le projet est trop ambitieux pour tenir en 20 heures. Pour le réaliser tel qu'envisagé en début de cadrage, j'estime qu'il me faudrait un total de 30 à 40 heures supplémentaire en omettant le reporting à réaliser sur le site Do-It.
 

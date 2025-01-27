@@ -22,7 +22,7 @@ Pour ce POK, je me suis basé sur des connaissances en React, HTML, JS et Figma.
 
 {% lien %}
 
-Ce POK est en lien avec mon [MON du temps 2.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Alix-Dureault/mon/temps-2.1/).
+Ce POK est en lien avec mon [MON du temps 2.1]({{ site.url }}/promos/2024-2025/Alix-Dureault/mon/temps-2.1/).
 
 {% endlien %}
 
@@ -91,7 +91,7 @@ Nous avons pu choisir les technologies suite à notre réunion avec la DSI.
 
 Pour pouvoir nous aider, ils nous ont conseillé d'utiliser des frameworks JavaScript comme React ou Angular ou des frameworks Python.
 
-Pour le front, nous utilisons toutes les deux React pour nos projets, il nous a donc semblé une bonne idée de l'utiliser aussi lors de ce projet. 
+Pour le front, nous utilisons toutes les deux React pour nos projets, il nous a donc semblé une bonne idée de l'utiliser aussi lors de ce projet.
 
 ### Quelle forme aura la base de donnée du site ?
 
@@ -106,7 +106,7 @@ Cela implique plusieurs choses derrière sur notre travail :
 
 ### Solution technique pour la base de donnée
 
-J'ai pu exercé quelques recherches sur le sujet en décomposant le sujet en plusieurs étapes : 
+J'ai pu exercé quelques recherches sur le sujet en décomposant le sujet en plusieurs étapes :
 1. Upload d'un fichier csv à partir de l'interface du site web
 
 Au cours de mes recherches, j'ai pu trouvé plusieurs ressources qui pourront nous aider dans cette tâche : [Upload un fichier dans React](https://www.youtube.com/watch?v=ijx0Uqlo3NA), [Upload un fichier dans React avec une barre de progrès ](https://www.youtube.com/watch?v=edR6Az7shv8) et [Upload un fichier avec une API drag and drop](https://www.youtube.com/watch?v=vEkf9JgJV00).
@@ -133,7 +133,7 @@ Enfin après les retours de Catherine Musy, j'ai pu reprendre quelques élément
 
 ### Initialisation de l'excel côté gestion de la scolarité
 
-Pour se donner une bonne idée de à quoi ressemble l'excel avec lequel travaille la gestion de la scolarité, Catherine Muzy a pu nous envoyé un extrait anonymosé du tableau de diplomation de cette année. 
+Pour se donner une bonne idée de à quoi ressemble l'excel avec lequel travaille la gestion de la scolarité, Catherine Muzy a pu nous envoyé un extrait anonymosé du tableau de diplomation de cette année.
 
 Je l'ai par la suite modifié pour qu'il convienne plus aux différents service (BIP et Bureau 2A). J'ai aussi pu ajouter plusieurs lignes tests d'élèves consentants qui nous permettront de mener les tests de connexion à la fin du projet.
 
@@ -144,7 +144,7 @@ Enfin, après le travail de maquette, je suis aller voir un petite dizaine d'ét
 Inès a pu travaillé sur la prise en compte de ces avis. Globalement, ces avis nous amènent à retravailler la présentation des crédits ECTS, quelques formulations et la présence du stage de deuxième année en fonction du parcours de l'élève.
 
 ## Second Sprint
- 
+
  Pour le second sprint, j'ai pu me concentrer sur commencer à coder notre application.
 
 ### Comment transcrire un design depuis Figma à un code React ?
