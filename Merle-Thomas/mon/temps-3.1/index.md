@@ -9,7 +9,7 @@ date: 2025-01-22
 
 temps: 3
 
-tags: 
+tags:
   - "temps 3"
   - "Management"
   - "Innovation"
@@ -93,7 +93,7 @@ La **Recherche et Développement** (R&D) sont essentiels pour maintenir une inno
 * **Adoption de méthodes agiles** : Permettre une itération rapide et continue pour adapter l’innovation à des besoins changeants.
 * **Suivi des KPIs d’innovation** : Mesurer la performance de la R&D à travers des indicateurs comme le ratio d’innovations commercialisées ou le retour sur investissement des projets.
 
-![R&D Processus in Innovation](./R&D_Process.png "R&D Processus in Innovation")
+![R&D Processus in Innovation](./RnD_Process.png "R&D Processus in Innovation")
 
 ### 1.2. Outils de roadmapping<a name="Roa12-outils-de-roadmappingdmap"></a>
 
@@ -244,7 +244,7 @@ Les **mécanismes informels** complètent les protections formelles en rendant u
 1. Combiner secret commercial et brevets (si possible) pour protéger différents aspects d’une innovation.
 2. Investir dans la complexité technique pour dissuader les imitateurs.
 3. Élaborer des stratégies de locking pour renforcer la dépendance des clients à vos solutions.
-  
+
 --
 
 ## Sources
