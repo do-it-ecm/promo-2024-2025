@@ -14,33 +14,33 @@ résumé: Reprise des cours de première année et suivi d'un cours en ligne.
 
 {% lien %}
 
-- Un POK très complet sur les bases de donnée : [Lien vers le POK](https://francoisbrucker.github.io/do-it/promos/2024-2025/Matthieu-Dufort/pok/temps-1/)
-- Un MON sur les bases de données non relationnelles : [Lien vers le MON](https://francoisbrucker.github.io/do-it/promos/2022-2023/Varnerot-Antoine/mon/bdd-non-relationnelles/)
+- Un POK très complet sur les bases de donnée : [Lien vers le POK]({{ site.url }}/promos/2024-2025/Matthieu-Dufort/pok/temps-1/)
+- Un MON sur les bases de données non relationnelles : [Lien vers le MON]({{ site.url }}/promos/2022-2023/Varnerot-Antoine/mon/bdd-non-relationnelles/)
 
 {% endlien %}
 
 {% details "Bibliographie" %}
-- **[1]** Qu’est-ce qu’une base de données. https://www.oracle.com/fr/database/definition-base-de-donnees/. 
+- **[1]** Qu’est-ce qu’une base de données. https://www.oracle.com/fr/database/definition-base-de-donnees/.
 - **[2]** Cours sur les bases de données : "Bases de données", Catherine Jazzar
 - **[3]** Introduction [La théorie de la normalisation relationnelle]. https://stph.scenari-community.org/bdd/nor1-lin/co/nor_1.html.
 {% enddetails %}
 
 ## Les fondamentaux : que sont les BDD ? Comment les représenter ?
-**Définition :** Une base de données est un ensemble d'informations qui est organisé de manière à être facilement accessible, géré et mis à jour. Elle est utilisée par les organisations comme méthode de stockage, de gestion et de récupération de l’informations. 
+**Définition :** Une base de données est un ensemble d'informations qui est organisé de manière à être facilement accessible, géré et mis à jour. Elle est utilisée par les organisations comme méthode de stockage, de gestion et de récupération de l’informations.
 Les données sont organisées en lignes, colonnes et tableaux et sont indexées pour faciliter la recherche d'informations. Les données sont mises à jour, complétées ou encore supprimées au fur et à mesure que de nouvelles informations sont ajoutées. Elles contiennent généralement des agrégations d'enregistrements ou de fichiers de données, tels que les transactions de vente, les catalogues et inventaires de produits et les profils de clients.[1]
 
 L'ensemble de ce MON se base sur la connaissance du modèle relationnel.
 {% details "**Se former au modèle relationnel**" %}
-Ressource : [*Théorie et exercices*](https://stph.scenari-community.org/bdd/nor1-lin/co/nor_1.html) Ce site internet fournit un cours intéressant sur le modèle relationnel et propose des exercices d'applicaton intéressants.  
+Ressource : [*Théorie et exercices*](https://stph.scenari-community.org/bdd/nor1-lin/co/nor_1.html) Ce site internet fournit un cours intéressant sur le modèle relationnel et propose des exercices d'applicaton intéressants.
 ***Attention :*** Certaines explications sous flous et le cours se comprend véritablement grâce aux exercices d'application.
 #### **Notions à connaître :**
 ![Définitions de base](./Definitions.png)
 Notions générales :
 - Attribut
 - Schema
-- Relation  
+- Relation
 
-Modèle relationnel : 
+Modèle relationnel :
 - Dépendance fonctionnelle
 - DFE : Dépendance fonctionnelle élémentaire
 - Axiomes d'Amstrong
@@ -48,15 +48,15 @@ Modèle relationnel :
 - Couverture minimale
 - Formes normales : 1FN, 2FN, 3FN
 - Clé primaire
- 
+
 {% enddetails %}
 
 
 
 ### Réprésentations
-On peut représenter un schéma ou une relation de multiples façons.  
-- **Entité/association :** Permet de représenter la relation de manière schématique.  
-- **Représentation UML :** Permet de représenter la relation de manière schématique et normée.  
+On peut représenter un schéma ou une relation de multiples façons.
+- **Entité/association :** Permet de représenter la relation de manière schématique.
+- **Représentation UML :** Permet de représenter la relation de manière schématique et normée.
 - **Schema relationnel :** Permet de représenter la relation sous forme analytique : Eleve(nom, prénom, niveau, GPA).
 
 ## Démarche de construction
@@ -79,7 +79,7 @@ On peut représenter un schéma ou une relation de multiples façons.
 Il faut s'assurer que les clef primaires soient bien définies (C.f. **[2]** et **[3]**).
 {% endinfo %}
 
-{% details "Modèle UML" %} 
+{% details "Modèle UML" %}
 Le modèle UML permet de représenter les interactions entre les schémas et les relations avec une méthode précise. Toutefois, il me semble moins pertinent dans une phase de conception de base de données que le modèle entité/association car moins différenciant visuellement.
 {% enddetails %}
 
@@ -104,20 +104,20 @@ Ne pas oublier les différentes formes possibles de dépendances fonctionnelles 
 
 #### 3.2. Définir la norme et normaliser
 
-**1FN : Première forme normale**  
-     ¤ *Vérifier* : Existence d'une clef **&** aucune dépendance non fonctionnelle (un antécédant => une image)  
+**1FN : Première forme normale**
+     ¤ *Vérifier* : Existence d'une clef **&** aucune dépendance non fonctionnelle (un antécédant => une image)
      ¤ *Normaliser* : Ajouter des attributs en antécédant de la relation afin d'en faire une fonction.
 
-**2FN : Deuxième forme normale**  
-     ¤ *Vérifier* : 1FN **&** tout attribut qui n'est pas dans une clef ne dépend pas que d'une partie d'une clef.  
+**2FN : Deuxième forme normale**
+     ¤ *Vérifier* : 1FN **&** tout attribut qui n'est pas dans une clef ne dépend pas que d'une partie d'une clef.
      ¤ *Normaliser* : Décomposer la relation en plusieurs "sous-relations".
 
 {% attention %}
 Pour éviter toute perte d'information, il peut être nécessaire de créer une relation liant les clés primaires des sous-relations.
 {% endattention %}
 
-**3FN : Troisième forme normale**  
-     ¤ *Vérifier* : 2FN **&** toutes les DFE (dépendances fonctionnelles élémentaires) allant vers un attribut qui n'est pas dans une clé proviennent d'une clef.  
+**3FN : Troisième forme normale**
+     ¤ *Vérifier* : 2FN **&** toutes les DFE (dépendances fonctionnelles élémentaires) allant vers un attribut qui n'est pas dans une clé proviennent d'une clef.
      ¤ *Normaliser* : Décomposer la relation en plusieurs relations ou compléter la clef par un autre attribut.
 
 {% attention %}

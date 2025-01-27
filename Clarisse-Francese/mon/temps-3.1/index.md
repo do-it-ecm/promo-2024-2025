@@ -9,7 +9,7 @@ date: 1971-02-01
 temps: 3
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Un MON traitant de moiiii"
 ---
 
 {% prerequis %}

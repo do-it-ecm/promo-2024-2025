@@ -21,7 +21,7 @@ Liste des prérequis du POK ET/OU MON
 {% endprerequis %}
 {% lien %}
 
-[MON de Sarah Sebastien sur le data art](https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/mon/temps-3.1/)
+[MON de Sarah Sebastien sur le data art]({{ site.url }}/promos/2023-2024/Sarah-Sebastien/mon/temps-3.1/)
 [Inspirations d'artistes](https://flowingdata.com/category/visualization/artistic-visualization/)
 
 {% endlien %}

@@ -21,7 +21,7 @@ Bases de SQL
 {% endprerequis %}
 {% lien %}
 
-[Mon précédent MON sur les bases de SQL](https://francoisbrucker.github.io/do-it/promos/2024-2025/Lola-Perdrix/mon/temps-1.2/)
+[Mon précédent MON sur les bases de SQL]({{ site.url }}/promos/2024-2025/Lola-Perdrix/mon/temps-1.2/)
 
 {% endlien %}
 
@@ -94,7 +94,7 @@ Chaque SGDBR (système de gestion de bases de données relationnelles) peut déc
   - Attention car suppression souvent définitive
 - **Supprimer le contenu d'une table (la vider) :** `TRUNCATE TABLE <nom table>`
 
-- **Notion d'index :** Il s'agit d'une implémentation physique qui permet d'accélérer les recherche sur une table (et ne pas la parcourir séquentiellement) de manière exponentielle, c'est donc quasiment indispensable. Chaque SGDBR l'implémente comme il le souhaite. Je n'ai pas souhaité rentrer dans le détails des différentes méthodes d'indexation, c'est un peu plus détaillé dans le [MON SQL Avancé](https://francoisbrucker.github.io/do-it/promos/2024-2025/Billa-Valentin/mon/temps-1.1/) de Valentin.
+- **Notion d'index :** Il s'agit d'une implémentation physique qui permet d'accélérer les recherche sur une table (et ne pas la parcourir séquentiellement) de manière exponentielle, c'est donc quasiment indispensable. Chaque SGDBR l'implémente comme il le souhaite. Je n'ai pas souhaité rentrer dans le détails des différentes méthodes d'indexation, c'est un peu plus détaillé dans le [MON SQL Avancé]({{ site.url }}/promos/2024-2025/Billa-Valentin/mon/temps-1.1/) de Valentin.
 
 - **Contraintes d'intégrité des données :** Il est possible d'indiquer au système des contraintes pour permettre d'assurer a cohérence de la base de données
   - `DEFAULT` : une valeur à renseigner par défaut afin d'éviter les valeurs `NULL` (choix important)
@@ -225,7 +225,7 @@ Au delà de faire des requêtes, j'ai aussi vu la possibilité de faire du code 
 
 Il existe des langages de programmation dédiés comme **PL/SQL** ou **TransactSQL**.
 
-J'ai pu explorer un petit peu les méthodes, qui consistent comme en programmation générale en définir des variables, rajouter des requêtes SQL stockées dans des curseurs que l'on peut parcourir avec des boucles, faire des opérations sur des valeurs retournées, et renvoyer des valeurs ou non. Il existe un tas de choses que l'on peut faire et que j'ai un peu parcourues sans rentrer dans le détail car ce n'est pas forcément ce qui était essentiel. Si besoin le [MON SQL Avancé](https://francoisbrucker.github.io/do-it/promos/2024-2025/Billa-Valentin/mon/temps-1.1/) de Valentin aborde un peu plus le sujet.
+J'ai pu explorer un petit peu les méthodes, qui consistent comme en programmation générale en définir des variables, rajouter des requêtes SQL stockées dans des curseurs que l'on peut parcourir avec des boucles, faire des opérations sur des valeurs retournées, et renvoyer des valeurs ou non. Il existe un tas de choses que l'on peut faire et que j'ai un peu parcourues sans rentrer dans le détail car ce n'est pas forcément ce qui était essentiel. Si besoin le [MON SQL Avancé]({{ site.url }}/promos/2024-2025/Billa-Valentin/mon/temps-1.1/) de Valentin aborde un peu plus le sujet.
 
 ## Soucis de performance et conseils
 
@@ -242,7 +242,7 @@ Faire des requêtes sur des grandes tables de données peut très vite poser des
 - **Optimiser une requête**
   - Évaluer d'abord la taille de nos requêtes avec COUNT(*) en premier lieu par exemple
   - Privilégier l'utilisation des colonnes indexées
-  - Utiliser la commande `EXPLAIN` ou `EXPLAIN PLAN` pour analyser comment le système parvient à réaliser ce qu'on lui demande (cf [MON de Valentin](https://francoisbrucker.github.io/do-it/promos/2024-2025/Billa-Valentin/mon/temps-1.1/))
+  - Utiliser la commande `EXPLAIN` ou `EXPLAIN PLAN` pour analyser comment le système parvient à réaliser ce qu'on lui demande (cf [MON de Valentin]({{ site.url }}/promos/2024-2025/Billa-Valentin/mon/temps-1.1/))
 
 ## Résumé
 

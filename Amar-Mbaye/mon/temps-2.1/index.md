@@ -48,7 +48,7 @@ Le lien utile pour la compréhension de NestJS:
 
 
 ## Introduction
-J'apprends NestJs dans le but de me familiariser avec un langage backend autre que Laravel. Pour tout ce qui est en rapport avec l'installation et les autres étapes, je vous invite à consulter ce site web [1ère étape NestJs](https://docs.nestjs.com/first-steps). Pour voir également une application concrète de NestJs, veuillez consulter mon POK du temps 2 [POK Temps 2](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/pok/temps-2/). J'ai commencé par visiter le site **Créer un CRUD avec NestJs**, dont le lien est au niveau de mes références, ce qui m'a permis de connaître les éléments les plus importants en NestJs. Je vais procéder ainsi par question, et tous mes exemples ont été basés sur mon forum de discussion.
+J'apprends NestJs dans le but de me familiariser avec un langage backend autre que Laravel. Pour tout ce qui est en rapport avec l'installation et les autres étapes, je vous invite à consulter ce site web [1ère étape NestJs](https://docs.nestjs.com/first-steps). Pour voir également une application concrète de NestJs, veuillez consulter mon POK du temps 2 [POK Temps 2]({{ site.url }}/promos/2024-2025/Amar-Mbaye/pok/temps-2/). J'ai commencé par visiter le site **Créer un CRUD avec NestJs**, dont le lien est au niveau de mes références, ce qui m'a permis de connaître les éléments les plus importants en NestJs. Je vais procéder ainsi par question, et tous mes exemples ont été basés sur mon forum de discussion.
 
 ## **1. Les Modules**
 

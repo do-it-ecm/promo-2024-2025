@@ -22,9 +22,9 @@ Novice
 {% lien %}
 
 Les lien utiles pour la compréhension de celui-ci.
-[MON de Tuncay Bilgi](https://francoisbrucker.github.io/do-it/promos/2022-2023/Bilgi-Tuncay/mon/Docker/), le
-[MON de Victor Ory](https://francoisbrucker.github.io/do-it/promos/2023-2024/Victor-Ory/mon/Docker/) et le
-[MON d'Arthur Louradou](https://francoisbrucker.github.io/do-it/promos/2023-2024/Louradou-Arthur/mon/temps-2.1/)
+[MON de Tuncay Bilgi]({{ site.url }}/promos/2022-2023/Bilgi-Tuncay/mon/Docker/), le
+[MON de Victor Ory]({{ site.url }}/promos/2023-2024/Victor-Ory/mon/Docker/) et le
+[MON d'Arthur Louradou]({{ site.url }}/promos/2023-2024/Louradou-Arthur/mon/temps-2.1/)
 
 {% endlien %}
 
@@ -32,7 +32,7 @@ Un MON pour se familiariser avec Docker. J'ai déjà utilisé un peu Docker pend
 
 ## Contenu
 
-Dans un premier temps, j'installe [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) sur mon Windows, ce qui me servira à orchestrer mes conteneurs. Je manque de stockage sur ma machine et j'ai eu des problèmes avec WSL mais j'ai réussi à lancer Docker Desktop pour travailler dessus. J'ai lu le [MON de Tuncay](https://francoisbrucker.github.io/do-it/promos/2022-2023/Bilgi-Tuncay/mon/Docker/) pour me familiariser avec Docker puis je me suis lancée le défi de dockeriser mon application web de mon portefolio qui consiste à un frontend React et un backend Fastapi avec un script NodeJs pour orchestrer le tout. Je vais créer seulement deux conteneurs : un pour le frontend et un pour le backend.
+Dans un premier temps, j'installe [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) sur mon Windows, ce qui me servira à orchestrer mes conteneurs. Je manque de stockage sur ma machine et j'ai eu des problèmes avec WSL mais j'ai réussi à lancer Docker Desktop pour travailler dessus. J'ai lu le [MON de Tuncay]({{ site.url }}/promos/2022-2023/Bilgi-Tuncay/mon/Docker/) pour me familiariser avec Docker puis je me suis lancée le défi de dockeriser mon application web de mon portefolio qui consiste à un frontend React et un backend Fastapi avec un script NodeJs pour orchestrer le tout. Je vais créer seulement deux conteneurs : un pour le frontend et un pour le backend.
 
 
 #### a. Structure de mon projet

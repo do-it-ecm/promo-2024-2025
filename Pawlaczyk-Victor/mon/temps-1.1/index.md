@@ -35,13 +35,13 @@ Excel est un logiciel du pack office microsoft très utilisé dans le milieu pro
 
 ## La formation suivie
 
-Avant tout, j'ai exploré le site de Do_It afin de faire un petit tour des MON existants sur ce sujet. Je me suis un peu plus attardé sur ceux de [Agathe Rabachou](https://francoisbrucker.github.io/do-it/promos/2023-2024/Agathe-Rabachou/mon/temps-2.1/) et [Mathis Schultz](https://francoisbrucker.github.io/do-it/promos/2023-2024/Mathis%20Schultz/mon/temps-2.1/).
+Avant tout, j'ai exploré le site de Do_It afin de faire un petit tour des MON existants sur ce sujet. Je me suis un peu plus attardé sur ceux de [Agathe Rabachou]({{ site.url }}/promos/2023-2024/Agathe-Rabachou/mon/temps-2.1/) et [Mathis Schultz]({{ site.url }}/promos/2023-2024/Mathis%20Schultz/mon/temps-2.1/).
 
 Suite à cet état des lieux et une recherche d'autres ressources potentielles sur internet, j'ai décidé de suivre la formation proposée par [Excel-Pratique](https://www.excel-pratique.com/).
 
 Cette formation traite le sujet à partir de zéro et déroule de manière assez fluide les possibilités et les spécificités du VBA. Elle est en plus ponctuée de petits exercices d'application, ce qui est très appréciable. Cependant, de nombreux paragraphes manquent d'application, ces exercices arrivaient un peu trop rarement à mon goût. Si vous suivez cette formation, je vous encourage à manipuler et tester un peu chaque manipulation au fur et à mesure de votre côté, même quand aucun exercice n'est proposé. Cela permet de prendre en main les commandes de base.
 
-Je ne vais pas rédiger ici un cours sur le VBA. Ce compte rendu de MON est plus là comme une sorte de boîte à outil des commandes et fonctionnalités de base du VBA, qui me semblent utile à garder sous la main. Je pourrai directement utiliser cette boîte à outils dans le cadre de mon [POK n°1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Pawlaczyk-Victor/pok/temps-1/) qui a pour but d'utiliser le VBA pour automatiser ou simplifier certaines tâches de mes collègues.
+Je ne vais pas rédiger ici un cours sur le VBA. Ce compte rendu de MON est plus là comme une sorte de boîte à outil des commandes et fonctionnalités de base du VBA, qui me semblent utile à garder sous la main. Je pourrai directement utiliser cette boîte à outils dans le cadre de mon [POK n°1]({{ site.url }}/promos/2024-2025/Pawlaczyk-Victor/pok/temps-1/) qui a pour but d'utiliser le VBA pour automatiser ou simplifier certaines tâches de mes collègues.
 
 ## Boîte à outils Excel
 
@@ -144,7 +144,7 @@ L'exemple suivant met en application les quelques points précédents en créant
 ```vb
 Sub Exemple_Mise_En_Forme()
     Range("A1:C13").Borders.Weight = 2
-    
+
     With Range("A1:C1")
         .HorizontalAlignment = xlCenter
         .VerticalAlignment = xlCenter
@@ -155,14 +155,14 @@ Sub Exemple_Mise_En_Forme()
             .Size = 12
         End With
     End With
-    
+
     With Range("A2:C13")
         .HorizontalAlignment = xlCenter
         With .Font
             .Size = 10
         End With
     End With
-    
+
 End Sub
 ```
 
@@ -190,7 +190,7 @@ C'est un outil très pratique pour intéragir avec l'utilisateur de la Macro. On
 'Pour afficher la valeur de la variable x
 MsgBox.x
 
-'Pour afficher un message quelconque 
+'Pour afficher un message quelconque
 MsgBox "Sincères Salutations"
 
 'Et pour concaténer les 2, on utilise &
@@ -200,7 +200,7 @@ MsgBox "La variable x vaut " & x
 Une message box ne sert pas qu'à afficher quelque chose, elle peut demander une confirmation par exemple à l'utilisateur. Par exemple :
 
 ```vb
-MsgBox("Veux-tu vraiment lancer la Macro Exemple1 ?", vbYesNo, "Lancement de Exemple1") 
+MsgBox("Veux-tu vraiment lancer la Macro Exemple1 ?", vbYesNo, "Lancement de Exemple1")
 ```
 
 Voici les principales possibilités qui ont retenu mon attention :
