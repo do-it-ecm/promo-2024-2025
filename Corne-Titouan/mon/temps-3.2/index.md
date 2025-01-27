@@ -1,15 +1,17 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du second MON du temps 3"
+title: "Les enjeux du numérique dans le domaine de la santé"
 authors:
   - Titouan Corne
 
-date: 1971-03-01
-temps: 3
-tags:
+date: 2025-01-06
+tags: 
+  - "temps 3"
+  - "e-santé"
+  - "vert"
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Ce MON traite l'évolution de l'usage du numérique dans le domaine de la santé. Il me permettra d'identifier les limites de la e-santé. Exceptionnellement, ce MON sera constitué de 15 heures de travail."
 ---
 
 {% prerequis %}
@@ -25,8 +27,8 @@ Les lien utiles pour la compréhension de celui-ci.
 
 Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce MON. On oubliera pas de donner :
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
+- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
+- les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
 
 ## Contenu
 

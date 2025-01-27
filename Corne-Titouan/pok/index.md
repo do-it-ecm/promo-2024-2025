@@ -6,8 +6,8 @@ authors:
   - Titouan Corne
 ---
 
-Ensemble des POK réalisés par Titouan Corne.
+Voici l'ensemble de mes POK :
 
 - [POK 1 : Développement Android - Programmation Kotlin](./temps-1)
-- [POK 2 : Angular - Front-End Framework](./temps-2)
-- [POK 3](./temps-3)
+- [POK 2 : Angular - Front-End Framework (1/2)](./temps-2)
+- [POK 3 : Angular - Front-End Framework (2/2)](./temps-3)
