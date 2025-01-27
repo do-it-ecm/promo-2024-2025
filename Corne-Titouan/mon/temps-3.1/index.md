@@ -18,13 +18,15 @@ résumé: "Avec ce MON, je compte étudier la méthodologie Test-Driven Developm
 
 {% prerequis %}
 
-Liste des prérequis du POK ET/OU MON
+Aucun prérequis nécessaire
 
 {% endprerequis %}
 {% lien %}
 
-- [Site officiel](https://react.dev/)
-- [GitHub : application pour tester et prendre en main les différents concepts](mettre lien ici)
+- [A Practical Example using Test Driven Development. Source : Vandan Gogna, an IBM Garage expert, sur Medium (2021)](https://vandangogna.medium.com/a-practical-example-using-test-driven-development-88b4536ac574)
+- [*Test-Driven Development by example* de Kent Beck (2003)](https://github.com/test-driven-development/kent-beck-money-example/blob/master/kent-beck-test-driven-development-by-example.pdf)
+- [Doc officielle du framework Jasmine](https://jasmine.github.io/)
+- [Lien GitHub : projet morpion en TDD](https://github.com/TitouanCorne/morpion_TDD)
 
 {% endlien %}
 
@@ -539,7 +541,7 @@ Pour le bien de tous, j'arrête les explications détaillées à partir d'ici. L
 
 ## 6. Utiliser Copilot pour implémenter ses tests <a id="section6"></a>
 
-suite à venir
+suite à venir (en cours de rédaction)
   
 ## Sources utiles
 
@@ -548,5 +550,5 @@ suite à venir
 - [A Practical Example using Test Driven Development. Source : Vandan Gogna, an IBM Garage expert, sur Medium (2021)](https://vandangogna.medium.com/a-practical-example-using-test-driven-development-88b4536ac574)
 - [*Test-Driven Development by example* de Kent Beck (2003)](https://github.com/test-driven-development/kent-beck-money-example/blob/master/kent-beck-test-driven-development-by-example.pdf)
 - [Doc officielle du framework Jasmine](https://jasmine.github.io/)
-- 
+
 {% endlien %}
