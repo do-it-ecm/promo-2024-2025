@@ -19,13 +19,13 @@ résumé: "Nous découvrirons ensemble le monde de l'Open Source dans le dévelo
 
 ## Introduction
 
-Un an que je rédige des articles sur ce site et je n’ai qu’à peine eu l’occasion d’étudier des sujets axés 
+Un an que je rédige des articles sur ce site et je n’ai qu’à peine eu l’occasion d’étudier des sujets axés
 <span class="bg-blue-100 rounded-full p-1.5">management</span> ou relatifs à l’entreprise de façon approfondie.
 
-L’***Open Source*** est une approche collaborative du développement logiciel qui par opposition au modèle propriétaire 
-offre une transparence sur le code ainsi produit. De ce fait, avec un regard de 
-<span class="bg-green-100 rounded-full p-1.5">développeur</span>, j’aimerais apporter une contribution à l’*Open Source* 
-en analysant l’état des **industries du numériques** et la place du **logiciel libre** dans ces dernières, 
+L’***Open Source*** est une approche collaborative du développement logiciel qui par opposition au modèle propriétaire
+offre une transparence sur le code ainsi produit. De ce fait, avec un regard de
+<span class="bg-green-100 rounded-full p-1.5">développeur</span>, j’aimerais apporter une contribution à l’*Open Source*
+en analysant l’état des **industries du numériques** et la place du **logiciel libre** dans ces dernières,
 avant de **contribuer à un projet** au sein d’une communauté bénévole active.
 
 
@@ -43,9 +43,9 @@ Cette question englobe plusieurs aspects :
 
 {% endfaire %}
 
-De cette façon, nous verrons le lien avec le sujet dans 
+De cette façon, nous verrons le lien avec le sujet dans
 l’<span class="bg-blue-100 rounded-full p-1.5">industrie tertiaire</span> dans un premier temps ([Partie 1](#partie-1)),
-puis avec la <span class="bg-pink-100 rounded-full p-1.5">gestion de projet</span> en source ouverte et 
+puis avec la <span class="bg-pink-100 rounded-full p-1.5">gestion de projet</span> en source ouverte et
 le <span class="bg-green-100 rounded-full p-1.5">développement logiciel</span> dans un second ([Partie 2](#partie-2)).
 
 ## Précédentes contributions
@@ -99,9 +99,9 @@ GNU/Linux est un exemple assez emblématique de la puissance de l'*Open Source*.
 UNIX est une famille de systèmes d’exploitation encadrée par des standards et issue de développements privés. Avant la rédaction de ce MON, j’aurais dit qu’UNIX n’était qu’une base aux systèmes Linux d’aujourd’hui ! Il n’en est rien. En réalité, il s’agit d’un système répondant aux mêmes caractéristiques (multi-utilisateur, multi-programmes, a un système de fichier propre et compatibilité avec de nombreux matériels) mais dérivé de UNIX ou *“**Unix-like**”* [7](#bibliographie). La communauté de hackers rédigeant ainsi le [*GNU Manifesto*](https://www.gnu.org/gnu/manifesto.html) embrassent ainsi pleinement la philosophie du libre et structurent des programmes sous forme de briques logicielles empruntées du fonctionnement de logiciels privés.
 
 > *GNU is not in the public domain. Everyone will be permitted to modify and redistribute GNU, but no distributor will be allowed to restrict its further redistribution.*
-> 
+>
 > [C’est à dire, en français]
-> 
+>
 > GNU n’est pas dans le domaine public. Quiconque pourra modifier et redistribuer GNU, mais aucun distributeur ne sera autorisé à en restreindre d’utilisation par des tiers.
 
 _Extrait du *GNU Manifesto*_
@@ -138,11 +138,11 @@ Avec l’exemple de l’essor des systèmes d’exploitation basés sur Unix, no
     </figcaption>
 </figure>
 
-Nous venons de mentionner l’entreprise Google pour sa participation à l’*Open Source* en lien avec le noyau Linux, mais ce n’est pas sa seule contribution. En effet, sur [la page dédiée à la promotion de l’Open Source par la firme](https://opensource.google) on note l’omniprésence de Google sur ce marché, des technologies surprenamment présentes dans les POKs et MONs des uns et des autres. J'ai moi-même travaillé sur plusieurs projets utilisant ces technologies, au point d'en oublier parfois que des solutions comme Kubernetes ou Angular sont issues du géant Google : voir [MON 2.2 - Kubernetes](https://francoisbrucker.github.io/do-it/promos/2023-2024/Louradou-Arthur/mon/temps-2.2/) et [MON 3.1 - Angular](https://francoisbrucker.github.io/do-it/promos/2023-2024/Louradou-Arthur/mon/temps-3.1/).
+Nous venons de mentionner l’entreprise Google pour sa participation à l’*Open Source* en lien avec le noyau Linux, mais ce n’est pas sa seule contribution. En effet, sur [la page dédiée à la promotion de l’Open Source par la firme](https://opensource.google) on note l’omniprésence de Google sur ce marché, des technologies surprenamment présentes dans les POKs et MONs des uns et des autres. J'ai moi-même travaillé sur plusieurs projets utilisant ces technologies, au point d'en oublier parfois que des solutions comme Kubernetes ou Angular sont issues du géant Google : voir [MON 2.2 - Kubernetes]({{ site.url }}/promos/2023-2024/Louradou-Arthur/mon/temps-2.2/) et [MON 3.1 - Angular]({{ site.url }}/promos/2023-2024/Louradou-Arthur/mon/temps-3.1/).
 
 <br />
 
-Dès lors, nous pouvons citer d’autres multinationales qui ont investi dans l’*Open Source* comme Microsoft avec *VS Code*, *.NET*, *TypeScript* ou *Azure OpenAI*, puis Meta avec *React*, *PyTorch*, *GraphQL* ou même leur LLM *LLaMa* (voir le [MON 1.1 de Cassandra - Evolution récente des Large Language Models (LLMs)](https://francoisbrucker.github.io/do-it/promos/2023-2024/Ledins-Cassandra/mon/temps-1.1/), soulignant les différences entre modèles propriétaires et *Open Source* dans le domaine des modèles de langage).
+Dès lors, nous pouvons citer d’autres multinationales qui ont investi dans l’*Open Source* comme Microsoft avec *VS Code*, *.NET*, *TypeScript* ou *Azure OpenAI*, puis Meta avec *React*, *PyTorch*, *GraphQL* ou même leur LLM *LLaMa* (voir le [MON 1.1 de Cassandra - Evolution récente des Large Language Models (LLMs)]({{ site.url }}/promos/2023-2024/Ledins-Cassandra/mon/temps-1.1/), soulignant les différences entre modèles propriétaires et *Open Source* dans le domaine des modèles de langage).
 
 {% exercice %}
 Mais quel intérêt pour les GAFAM de voir leur code en libre accès et modifiable par toutes et tous ?
@@ -169,7 +169,7 @@ Et vous pouvez en savoir plus en suivant le lien ci-dessous.
 
 {% lieninterne "./conference" %}
 
-Ensuite, il faut considérer que les entreprises ont un intérêt significatif à ne pas être dépendantes de solutions propriétaires pour leurs usages, faisant valoir l'importance de leur souveraineté technologique. En adoptant et en contribuant à des solutions *Open Source*, les entreprises peuvent mieux contrôler leur infrastructure informatique, réduire leur dépendance vis-à-vis de prestataires uniques ou encore se rendre plus flexible dans les réponses technologiques aux besoins clients. Par exemple, dans le domaine du marketing numérique, WordPress est un outil *Open Source* omniprésent (presque 43% du web selon les dernières études, en progression par rapport au [MON de Lucie](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-3.1/) sur le sujet daté d’il y a un an).
+Ensuite, il faut considérer que les entreprises ont un intérêt significatif à ne pas être dépendantes de solutions propriétaires pour leurs usages, faisant valoir l'importance de leur souveraineté technologique. En adoptant et en contribuant à des solutions *Open Source*, les entreprises peuvent mieux contrôler leur infrastructure informatique, réduire leur dépendance vis-à-vis de prestataires uniques ou encore se rendre plus flexible dans les réponses technologiques aux besoins clients. Par exemple, dans le domaine du marketing numérique, WordPress est un outil *Open Source* omniprésent (presque 43% du web selon les dernières études, en progression par rapport au [MON de Lucie]({{ site.url }}/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-3.1/) sur le sujet daté d’il y a un an).
 
 Enfin, cette approche favorise l'innovation interne et la collaboration avec d’autres entreprises dans des écosystèmes logiciels partagés. Ici, je dois prendre l’exemple de Kubernetes qui illustre  cette dynamique en entreprise. Cette plateforme d'orchestration de conteneurs est maintenant au cœur de nombreuses infrastructures cloud dans toutes les industries, bénéficiant des contributions d'une vaste communauté d'entreprises et de développeurs indépendants.
 
@@ -177,7 +177,7 @@ Ces exemples montrent que de grandes entreprises multinationales contribuent act
 
 ## Des communautés *Open Source* aux enjeux divers
 
-Internet regorge de communautés variées qui partagent leurs codes et génèrent de l’interaction entre utilisateurs. De la plus anecdotique : 
+Internet regorge de communautés variées qui partagent leurs codes et génèrent de l’interaction entre utilisateurs. De la plus anecdotique :
 
 {% lien %}
 Personnes qui font des [animations pour des croix de pharmacies](https://github.com/MathisHammel/CroixPharmacie)
@@ -216,11 +216,11 @@ Enfin, pour terminer ce MON (ma toute dernière production à Centrale !), j’a
     <figcaption class="text-center">Fig 8 - Logo de Tournesol</figcaption>
 </figure>
 
-Pour commencer, je m’intéresse à la plateforme **Tournesol** 🌻 depuis la création de l’association du même nom en 2021 qui 
-faisait suite à la sortie du livre *Le Fabuleux Chantier* [15](#bibliographie). Cet ouvrage, comme d’autres des mêmes auteurs, 
-mentionnent les problématiques d’**alignement des intelligences artificielles** aux **démocraties numériques**. 
-Ces problématiques faisant écho à plusieurs domaines qui me passionnent (intelligence artificielle, démocratie et 
-modes de scrutin), j’ai continué à suivre les productions du chercheur et vidéaste Lê Nguyên Hoang de 
+Pour commencer, je m’intéresse à la plateforme **Tournesol** 🌻 depuis la création de l’association du même nom en 2021 qui
+faisait suite à la sortie du livre *Le Fabuleux Chantier* [15](#bibliographie). Cet ouvrage, comme d’autres des mêmes auteurs,
+mentionnent les problématiques d’**alignement des intelligences artificielles** aux **démocraties numériques**.
+Ces problématiques faisant écho à plusieurs domaines qui me passionnent (intelligence artificielle, démocratie et
+modes de scrutin), j’ai continué à suivre les productions du chercheur et vidéaste Lê Nguyên Hoang de
 [la chaîne YouTube Science4All](https://www.youtube.com/@le_science4all).
 
 <br />
@@ -232,58 +232,58 @@ modes de scrutin), j’ai continué à suivre les productions du chercheur et vi
 - [Le whitepaper](https://doi.org/10.48550/arXiv.2107.07334) (papier de recherche à la génèse du projet)
 {% endlien %}
 
-Ainsi, cette plateforme a pour mission d’assurer la **transparence** et la **robustesse** des votes par le prisme des **algorithmes 
-de recommandation**, omniprésents sur le web. Ce qui a déclenché mon envie d’entrer en action pour ce projet fut la lecture 
-d’un deuxième ouvrage : *La Dictature des Algorithmes* [16](#bibliographie). C’est comme cela que j’ai contacté les membres actifs de la 
+Ainsi, cette plateforme a pour mission d’assurer la **transparence** et la **robustesse** des votes par le prisme des **algorithmes
+de recommandation**, omniprésents sur le web. Ce qui a déclenché mon envie d’entrer en action pour ce projet fut la lecture
+d’un deuxième ouvrage : *La Dictature des Algorithmes* [16](#bibliographie). C’est comme cela que j’ai contacté les membres actifs de la
 communauté sur l’application Discord.
 
 ### Premiers échanges
 
-Après avoir longuement hésité, tâtonné, pour trouver les bons mots et surtout vaincre le syndrome de l’imposteur, 
+Après avoir longuement hésité, tâtonné, pour trouver les bons mots et surtout vaincre le syndrome de l’imposteur,
 j’envoyai un message dans un canal Discord pour me présenter.
 
 Voilà la teneur, enthousiasmée, de la première réponse à ma volonté de participer au projet :
 
-> Salut! 
-Je suis ravi de te rencontrer. D'autant plus que l'UX est un compétence qui nous manque beaucoup dans l'équipe de Tournesol. 
+> Salut!
+Je suis ravi de te rencontrer. D'autant plus que l'UX est un compétence qui nous manque beaucoup dans l'équipe de Tournesol.
 > On a eu de l'aide au début qui a fait que le site ressemble à quelque chose 😃
-> 
-> 
-> Un but sur notre roadmap cette année serait d'avoir une **page pour que chaque utilisateur** puisse voir quelques **statistiques** 
-> de leur utilisation de Tournesol (par exemple: le **nombre de comparaison**, le **nombre moyen de comparaison par vidéo comparée**, 
-> le **nombre de vidéos recommandées** qu'il ou elle a mis en avant, le nombre de fois qu'elle a été la première contributrice à voter 
+>
+>
+> Un but sur notre roadmap cette année serait d'avoir une **page pour que chaque utilisateur** puisse voir quelques **statistiques**
+> de leur utilisation de Tournesol (par exemple: le **nombre de comparaison**, le **nombre moyen de comparaison par vidéo comparée**,
+> le **nombre de vidéos recommandées** qu'il ou elle a mis en avant, le nombre de fois qu'elle a été la première contributrice à voter
 > sur une vidéo qui plus tard a un très bon score)
 > Ça te dirait de proposer un design pour cette nouvelle page et de le développer?
 > On peut en discuter dans [`#dev`](https://discord.com/channels/760540475139817472/826519326131093565)
-> 
+>
 
 ### Le futur
 
-Le projet était donc en demande de compétences que je pouvais apporter. 
-Je rencontrai ainsi les membres du projet par un appel et j’allais me lancer dans le design de cette application avec Figma. 
-C’est ainsi que toutes les compétences de cette dernière année et demi de Do_<span style="color: #4a86e8">It</span> allaient se croiser pour interagir avec une communauté active : 
-reste à voir combien de temps s’écoulera avant de voir apparaitre une contribution publique [sur mon GitHub](https://github.com/alouradou). 
+Le projet était donc en demande de compétences que je pouvais apporter.
+Je rencontrai ainsi les membres du projet par un appel et j’allais me lancer dans le design de cette application avec Figma.
+C’est ainsi que toutes les compétences de cette dernière année et demi de Do_<span style="color: #4a86e8">It</span> allaient se croiser pour interagir avec une communauté active :
+reste à voir combien de temps s’écoulera avant de voir apparaitre une contribution publique [sur mon GitHub](https://github.com/alouradou).
 
 ## Conclusion, perspectives, regard critique
 
-En conclusion, nous sommes revenus sur les définitions parfois philosophiques et clivantes du monde du libre dans le secteur du logiciel. 
-Nous avons montré que l'approche *Open Source* a **transformé le paysage technologique et économique** du secteur tertiaire 
-dans l’histoire. Son impact sur l'innovation se manifeste à travers la **collaboration ouverte et le partage des connaissances** 
-qui permettent aux entreprises et aux projets libres d'accélérer leur développement en réduisant les coûts. 
-Les **différents modèles économiques** observés, qu'ils soient portés par des géants technologiques ou des structures plus modestes, 
+En conclusion, nous sommes revenus sur les définitions parfois philosophiques et clivantes du monde du libre dans le secteur du logiciel.
+Nous avons montré que l'approche *Open Source* a **transformé le paysage technologique et économique** du secteur tertiaire
+dans l’histoire. Son impact sur l'innovation se manifeste à travers la **collaboration ouverte et le partage des connaissances**
+qui permettent aux entreprises et aux projets libres d'accélérer leur développement en réduisant les coûts.
+Les **différents modèles économiques** observés, qu'ils soient portés par des géants technologiques ou des structures plus modestes,
 démontrent la viabilité de cette approche.
 
-La compétitivité des entreprises est renforcée par une meilleure maîtrise des technologies, 
-une **indépendance** aux solutions propriétaires du secteur privé et une capacité d'**innovation collaborative**. 
-Nous n’avons pas eu le temps de se pencher sur **le rapport de l’État et de la législation sur le libre**, 
-notamment par le prisme de la propriété intellectuelle ou bien de la transparence des services publics numériques, 
+La compétitivité des entreprises est renforcée par une meilleure maîtrise des technologies,
+une **indépendance** aux solutions propriétaires du secteur privé et une capacité d'**innovation collaborative**.
+Nous n’avons pas eu le temps de se pencher sur **le rapport de l’État et de la législation sur le libre**,
+notamment par le prisme de la propriété intellectuelle ou bien de la transparence des services publics numériques,
 mais cela constituerait un axe intéressant pour aller plus loin.
 
-Pour finir, mon expérience avec le projet Tournesol illustre cette dynamique où l'*Open Source* devient un catalyseur 
-d'innovation tout en promouvant des valeurs de transparence et de démocratie numérique. 
-Ce MON a été l’occasion de me lancer vers une participation bénévole à un projet que je juge bénéfique. 
-Quoi qu’il en soit, c’est comme cela que se poursuivra mon parcours, au-delà du monde professionnel, 
-au service de la vision que j’aspire à partager. 
+Pour finir, mon expérience avec le projet Tournesol illustre cette dynamique où l'*Open Source* devient un catalyseur
+d'innovation tout en promouvant des valeurs de transparence et de démocratie numérique.
+Ce MON a été l’occasion de me lancer vers une participation bénévole à un projet que je juge bénéfique.
+Quoi qu’il en soit, c’est comme cela que se poursuivra mon parcours, au-delà du monde professionnel,
+au service de la vision que j’aspire à partager.
 Merci pour votre attention !
 
 ## Bibliographie et documentation { #bibliographie }

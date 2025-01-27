@@ -26,7 +26,7 @@ Prérequis : Quelques bases d'Excel
 
 {% lien %}
 
-- MON de Lola Bourdon : [Excel - repartir sur de bonnes bases](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/)
+- MON de Lola Bourdon : [Excel - repartir sur de bonnes bases]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/)
 - OpenClassrooms : [Maîtrisez les fondamentaux d'Excel](https://openclassrooms.com/fr/courses/7168336-maitrisez-les-fondamentaux-dexcel)
 
 {% endlien %}
@@ -136,7 +136,7 @@ Certains pokémon possèdent plusieurs formes alternatives ou des formes région
 Pour les enlever, j'ai utilisé les formules :
 
   `=SIERREUR(GAUCHE(B2;TROUVE(" ";B2;1));B2)` + `SUPPRESPACE(B2)`
-  
+
 pour récupérer le premier mot de la cellule, puis je supprime les doublons.
 
 Même problème à droite : Heat Rotom, Wash Rotom, Frost Rotom...
@@ -298,29 +298,29 @@ Pour cela j'ai utilisé la fonction AdvancedFilter de Excel.
 
 ```vb
   Sub FeuillesParGen()
-  
+
     'Je récupère le numéro de la génération que je veux
     Dim gen As Integer
     gen = Application.InputBox(prompt:="Enter a generation number", Type:=1)
-    
+
     Dim name As String
     name = "Gen" & gen
-    
+
     'Je supprimme l'ancienne feuille SI elle existe
     Application.DisplayAlerts = False
     On Error Resume Next
     Worksheets(name).Delete
     Err.Clear
-    
+
     'J'ajoute la nouvelle
     Application.DisplayAlerts = True
     Sheets.Add(After:=Sheets(Sheets.Count)).name = name
-    
+
     'Je copie dessus mon tableau de pokémon filtré sur la gen en question
     Worksheets("pokemon_formaté").Range("P2").Value = gen
     Worksheets("pokemon_formaté").Range("A:N").AdvancedFilter _
         Action:=xlFilterCopy, CriteriaRange:=Worksheets("pokemon_formaté").Range("P1:P2"), CopyToRange:=ActiveSheet.Range("A1"), Unique:=False
-            
+
 End Sub
 ```
 
@@ -340,12 +340,12 @@ J'ai ensuite remanié légérement le code pour le rendre plus lisible et pour l
 
 ```vb
   Sub affiche_nb_type(nb_lignes As Integer)
-    
+
     Range("O1").FormulaR1C1 = "NB type"
     Range("O2").Select
     Selection.FormulaR1C1 = "=IF(ISBLANK(RC[-10]),1,2)"
     Selection.AutoFill Destination:=Range("O2:O" & nb_lignes)
-    
+
 End Sub
 ```
 
@@ -367,34 +367,34 @@ Cette partie a juste nécessité d'apprendre à manipuler les références et le
 
 ```vb
   Sub initialisation_tableau(nb_lignes As Integer, ind As Integer)
-    
+
     'Style de la 1e ligne
     Range("C" & ind & ":L" & ind).Font.Bold = True
     Range("C" & ind & ":L" & ind).Interior.ColorIndex = 36
-    
+
     '3 premières colonnes manuelles
     Range("C" & ind).Value = "Type"
     Range("D" & ind).Value = "Nombre"
     Range("E" & ind).Value = "Nombre de légendaires"
-    
+
     'Moyennes reprises des attributs de la 1e ligne du dataset
     Dim rg As Range
     For Each rg In Range("F1:L1")
         Cells(ind, rg.Column).Value = "Moyenne de " & rg.Value
     Next rg
-    
+
     'Deux dernières lignes que je sais pas faire pour l'instant
         'Range("M170").Value = "Pire pokémon"
         'Range("N170").Value = "Meilleur pokémon"
-    
+
     Dim types As Variant
     types = Array("Poison", "Water", "Normal", "Flying", "Grass", "Ground", "Psychic", "Bug", "Fire", "Rock", "Electric", "Fighting", "Fairy", "Ice", "Dragon", "Ghost", "Steel", "Dark")
-    
+
     'J'attribue chaque type à une ligne de mon tableau
     For i = 0 To 17
         Range("C" & (i + ind + 1)).Value = types(i)
     Next i
-        
+
 End Sub
 ```
 
@@ -408,26 +408,26 @@ Je remplis à présent mon tableau d'anlyse avec les bonnes valeurs : pour cela 
 
 ```vb
 Sub calcul_valeurs(nb_lignes As Integer, ind As Integer)
-    
+
     'On remplit les nombres
     For l = ind + 1 To ind + 18
         Range("D" & l) = WorksheetFunction.CountIf(Range("D2:E" & nb_lignes), Range("C" & l))
         Range("E" & l) = WorksheetFunction.CountIfs(Range("D2:D" & nb_lignes), Range("C" & l), Range("N2:N" & nb_lignes), "VRAI") + WorksheetFunction.CountIfs(Range("E2:E" & nb_lignes), Range("C" & l), Range("N2:N" & nb_lignes), "VRAI")
         'Le compte des légendaires ne marche pas (soucis sur la condition true) à réparer
     Next
-        
+
     'On remplit les moyennes
     Dim col As Variant
     col = Array("F", "G", "H", "I", "J", "K", "L")
- 
+
     For l = ind + 1 To ind + 18
         For Each c In col
             Range(c & l) = (WorksheetFunction.SumIf(Range("D2:D" & nb_lignes), Range("C" & l), Range(c & "2:" & c & nb_lignes)) + WorksheetFunction.SumIf(Range("E2:E" & nb_lignes), Range("C" & l), Range(c & "2:" & c & nb_lignes))) / Range("D" & l).Value
         Next
     Next
-        
+
     'Meilleur et pire pokémon : à trouver car formule trop complexe
-    
+
 End Sub
 ```
 
@@ -451,7 +451,7 @@ Sub graphe(ind As Integer)
     graph.Chart.SetSourceData Source:=ActiveSheet.Range("C" & ind & ":D" & ind + 18)
     graph.Chart.ChartType = xlBarStacked
     graph.Chart.ChartTitle.Text = "Répartition des types"
-    
+
 End Sub
 ```
 
@@ -472,24 +472,24 @@ Sub AnalyseParGen()
 
     'Je crée la nouvelle feuille
     FeuillesParGen
-    
+
     'Je récupère le nombre de pokémon sur la nouvelle feuille active
     Dim nb_lignes As Integer
     nb_lignes = WorksheetFunction.CountA(Range("A:A"))
-    
+
     'Je définis l'endroit où je place mes calculs
     Dim ind As Integer
     ind = nb_lignes + 5
-    
+
     'J'affiche le nombre de types
     affiche_nb_type nb_lignes
-    
+
     'J'initialise mon tableau par type
     initialisation_tableau nb_lignes, ind
-    
+
     'Je rajoute mes valeurs calculées à l'intérieur
     calcul_valeurs nb_lignes, ind
-    
+
     'Je trie du plus grand au plus petit
 
     Range("D141").Select
@@ -505,11 +505,11 @@ Sub AnalyseParGen()
         .SortMethod = xlPinYin
         .Apply
     End With
-    
+
     'Je trace le graphique de répartition des types
     graphe ind
-    
-    
+
+
 End Sub
 ```
 
@@ -542,7 +542,7 @@ Sub nombre_legendaire(nb_lignes As Integer, poktype As String, ligne As Integer)
     Dim leg As Variant
     Dim compteur As Integer
     compteur = 0
-    
+
     For l = 2 To nb_lignes:
         leg = Range("N" & l).Value
         If leg Then
@@ -551,7 +551,7 @@ Sub nombre_legendaire(nb_lignes As Integer, poktype As String, ligne As Integer)
             End If
         End If
     Next
-    
+
     Range("E" & ligne).Value = compteur
 
 End Sub
@@ -565,24 +565,24 @@ Puis j'ai utilisé le même principe pour écrire la fonction qui permet de **co
 
 ```vb
 Sub influence_legendaire(nb_lignes As Integer, ind3 As Integer)
-    
+
     'Style
     With Range("J" & ind3)
         .Font.Bold = True
         .Interior.ColorIndex = 50
         .Value = "Influence légendaire"
     End With
-    
+
     With Range("K" & ind3)
         .Font.Bold = True
         .Interior.ColorIndex = 36
         .Value = "Moyenne TOTAL"
     End With
-    
+
     Range("J" & ind3 + 1) = "Légendaires"
     Range("J" & ind3 + 2) = "Normaux"
     Range("J" & ind3 & ":K" & ind3 + 2).Borders.Weight = xlThick
-    
+
     'On calcule les valeurs
 
     'Définir les variables
@@ -591,7 +591,7 @@ Sub influence_legendaire(nb_lignes As Integer, ind3 As Integer)
     compteur = 0
     Dim total As Double
     total = 0
-    
+
     For l = 2 To nb_lignes:
         leg = Range("N" & l).Value
         If leg Then
@@ -599,7 +599,7 @@ Sub influence_legendaire(nb_lignes As Integer, ind3 As Integer)
             total = total + Range("F" & l).Value
         End If
     Next
-    
+
     Range("K" & ind3 + 1).Value = WorksheetFunction.Round(total / compteur, 0)
     Range("K" & ind3 + 2).Value = WorksheetFunction.Round((WorksheetFunction.Sum(Range("F2:F" & nb_lignes)) - total) / (nb_lignes - 1 - compteur), 0)
 
@@ -614,29 +614,29 @@ De même, j'ai ensuite fait la fonction similaire qui devait permettre de **comp
 
 ```vb
 Sub influence_type(nb_lignes As Integer, ind3 As Integer)
-    
+
     'Style
     With Range("G" & ind3)
         .Font.Bold = True
         .Interior.ColorIndex = 50
         .Value = "Influence nb type"
     End With
-    
+
     With Range("H" & ind3)
         .Font.Bold = True
         .Interior.ColorIndex = 36
         .Value = "Moyenne TOTAL"
     End With
-    
+
     Range("G" & ind3 + 1).Value = "1 type"
     Range("G" & ind3 + 2).Value = "2 types"
-    
+
     Range("G" & ind3 & ":H" & ind3 + 2).Borders.Weight = xlThick
-    
+
     'On remplit les valeurs
     Range("H" & ind3 + 1).Value = WorksheetFunction.Round(WorksheetFunction.SumIf(Range("O2:O" & nb_lignes), 1, Range("F2:F" & nb_lignes)) / WorksheetFunction.CountIf(Range("O2:O" & nb_lignes), 1), 0)
     Range("H" & ind3 + 2).Value = WorksheetFunction.Round(WorksheetFunction.SumIf(Range("O2:O" & nb_lignes), 2, Range("F2:F" & nb_lignes)) / WorksheetFunction.CountIf(Range("O2:O" & nb_lignes), 2), 0)
-    
+
 
 End Sub
 ```
@@ -655,29 +655,29 @@ Sub records(nb_lignes As Integer, ind2 As Integer)
     For Each rg In Range("F1:L1")
         Cells(ind2, rg.Column).Value = rg.Value
     Next rg
-    
+
     'Style
     With Range("E" & ind2)
         .Font.Bold = True
         .Interior.ColorIndex = 50
         .Value = "Pokemon records"
     End With
-    
+
     With Range("F" & ind2 & ":L" & ind2)
         .Font.Bold = True
         .Interior.ColorIndex = 36
     End With
 
     Range("E" & ind2 & ":L" & ind2 + 2).Borders.Weight = xlThick
-    
+
     'titre des lignes
     Range("E" & ind2 + 1).Value = "Meilleur"
     Range("E" & (ind2 + 2)).Value = "Moins bon"
-    
+
     'On remplit les pokémon
     Dim col As Variant
     col = Array("F", "G", "H", "I", "J", "K", "L")
- 
+
     For Each C In col
         Range(C & ind2 + 1) = WorksheetFunction.Index(Range("A1:O" & nb_lignes), WorksheetFunction.Match(WorksheetFunction.Max(Range(C & "1:" & C & nb_lignes)), Range(C & "1:" & C & nb_lignes), 0), 3)
         Range(C & ind2 + 2) = WorksheetFunction.Index(Range("A1:O" & nb_lignes), WorksheetFunction.Match(WorksheetFunction.Min(Range(C & "1:" & C & nb_lignes)), Range(C & "1:" & C & nb_lignes), 0), 3)
@@ -699,45 +699,45 @@ Sub AnalyseParGen()
 
     'Je crée la nouvelle feuille
     FeuillesParGen
-    
+
     'Je récupère le nombre de pokémon sur la nouvelle feuille active
     Dim nb_lignes As Integer
     nb_lignes = WorksheetFunction.CountA(Range("A:A"))
-    
+
     'Je définis l'endroit où je place mes calculs
     Dim ind As Integer
     ind = nb_lignes + 5
-    
+
     Dim ind2 As Integer
     ind2 = ind + 20
-    
+
     Dim ind3 As Integer
     ind3 = ind2 + 4
-    
+
     'J'affiche le nombre de types
     affiche_nb_type nb_lignes
-    
+
     'J'initialise mon tableau par type
     initialisation_tableau nb_lignes, ind
-    
+
     'Je rajoute mes valeurs calculées à l'intérieur
     calcul_valeurs nb_lignes, ind
-    
+
     'Je trie du plus grand au plus petit
     tri ind
 
     'Je trace le graphique de répartition des types
     graphe ind
-    
+
     'Je mets les pokémon records
     records nb_lignes, ind2
-    
+
     'Je mets l'influence du type
     influence_type nb_lignes, ind3
-    
+
     'Influence du nomre de legendaires
     influence_legendaire nb_lignes, ind3
-    
+
 End Sub
 ```
 

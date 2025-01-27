@@ -7,7 +7,7 @@ authors:
 
 date: 2025-01-06
 
-tags: 
+tags:
   - "temps 3"
   - "vert"
   - "Dev"
@@ -26,14 +26,14 @@ résumé: Ce dernier POK est consacré à l'approfondissement des connaissances 
 {% lien %}
 
 - Liens
-  
+
 {% endlien %}
 
 ## Cadrage
 
 ### Objectifs principaux
 
-1. Continuer de développer le site *Miam'Miam* pour respecter le cahier des charges [POK 2](https://francoisbrucker.github.io/do-it/promos/2024-2025/Corne-Titouan/pok/temps-2/).
+1. Continuer de développer le site *Miam'Miam* pour respecter le cahier des charges [POK 2]({{ site.url }}/promos/2024-2025/Corne-Titouan/pok/temps-2/).
 2. Ecrire des tests pour vérifier le bon fonctionnement du site.
 3. Déployer le site sur le server aioli.
 

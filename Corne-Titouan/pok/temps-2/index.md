@@ -240,7 +240,7 @@ export class IngredientList {
 ```
 {% endraw %}
 
-On remarque la présence de la propriété **track** qui correspond à un identifiant unique qu'il faut préciser pour qu'Angular traite correctement chaque élément d'une liste. Nous avions vu qu'il y avait cette même propriété en React, présente sous le nom **key** (cf projets de mon [MON 2.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Corne-Titouan/mon/temps-2.1/)).
+On remarque la présence de la propriété **track** qui correspond à un identifiant unique qu'il faut préciser pour qu'Angular traite correctement chaque élément d'une liste. Nous avions vu qu'il y avait cette même propriété en React, présente sous le nom **key** (cf projets de mon [MON 2.1]({{ site.url }}/promos/2024-2025/Corne-Titouan/mon/temps-2.1/)).
 
 J'ai églament appris de nouveaux concepts sur lesquels, je ne vais pas m'attarder :
 
@@ -314,15 +314,15 @@ class AppComponent {
 Pour choisir quel composants créer, il faut se poser les bonnes questions :
 
 - Est-ce que cette section peut être réutilisée à plusieurs endroits de mon application ?
-  
+
   Ceci améliore la modularité et réduit la duplication de code. Exemple qui s'applique à **Miam'Miam** : une carte de recette (affichant une image, le titre de la recette et le propriétaire de la recette) apparaît plusieurs fois au sein du site. En effet, ces cartes de recettes sont listées sur la page regroupant toutes les recettes. Mais elles apparaissent également lorsqu'on consulte son espace personnel avec ses recettes enregistrées. Ainsi, au lieu de coder cette carte de recette dans plusieurs fichiers, il vaut mieux créer un composant unique. Ce composant sera ensuite personnalisé avec des `@Input()` pour afficher différentes données.
 
 - Est-ce que cette section a une logique ou un comportement distinct ?
-  
+
   Une partie d'une interface ayant une logique distincte et spécifique mérite d'être déclarée en tant que composant. Cela permet d’isoler cette logique pour la rendre facile à comprendre et à tester.
 
 - Est-ce que diviser cette section en plusieurs sous-sections améliore la lisibilité ?
-  
+
   Lorsqu'une section de code est trop longue ou complexe, il est préférable de la scinder en composants plus petits pour une meilleure lisibilité. Par exemple, pour afficher le détail d'une recette, il vaut mieux utiliser plusieurs sous-composants pour les ingrédients, les étapes à réaliser, ...
 
 - Est-ce que cette section pourrait devenir complexe avec le temps ?
@@ -345,7 +345,7 @@ Les NgModule permettaient d'optimiser le chargement de l'application en utilisan
 
 Depuis Angular 14 (i.e. depuit juin 2022), la bonne pratique change et devient d'utiliser essentiellement  des **standalone components**. Ces composants sont plus autonomes, ils n'ont pas besoin d'être inclus dans un NgModule. Cela simplifie le développement et réduit la complexité des applications Angular, surtout pour les petites applications ou pour des composants réutilisables.
 
-Angular évolue vers une structure plus légère et moderne, dans l’esprit des autres frameworks comme React (cf. mon [MON2.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Corne-Titouan/mon/temps-2.1/)) ou Vue.
+Angular évolue vers une structure plus légère et moderne, dans l’esprit des autres frameworks comme React (cf. mon [MON2.1]({{ site.url }}/promos/2024-2025/Corne-Titouan/mon/temps-2.1/)) ou Vue.
 
 ### 6. Visualisation du site **Miam'Miam**  <a id="section6"></a>
 
@@ -361,7 +361,7 @@ Angular évolue vers une structure plus légère et moderne, dans l’esprit des
 {% info %}
 
 Le projet est disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/CuisineWebSite), à la fin de ce POK, j'ai fait un commit avec le message "Fin POK2".
-  
+
 {% endinfo %}
 
 ## Conclusion du POK
@@ -378,5 +378,5 @@ Je vais continuer à développer **Miam'Miam** pour transformer ces notions de b
 - Projets Github :
   - [firstApp](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp) - projet dédié à la prise en main d'Angular via les tutos.
   - [Miam'Miam](https://github.com/TitouanCorne/ApprendreAngular/tree/main/CuisineWebSite) - projet du site de cuisine.
-  
+
 {% endlien %}

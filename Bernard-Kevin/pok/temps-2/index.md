@@ -41,10 +41,10 @@ Pas de prérequis pour le moment
 
 {% chemin %}
 <b> POK & MON </b>
-- [MON 2.1 : Introduction à React.js, Omar SALAME](https://francoisbrucker.github.io/do-it/promos/2023-2024/Omar-Salame/mon/temps-2.1/)
-- [MON 3.1 : Débuter avec React.js, Thomas DUROY](https://francoisbrucker.github.io/do-it/promos/2022-2023/Duroy-Thomas/mon/MON_3.1/)
-- [MON 2.1 : Animation 3D en React, Kévin BERNARD](https://francoisbrucker.github.io/do-it/promos/2024-2025/Bernard-Kevin/mon/temps-2.1/)
-- [MON 2.2 : Spring Boot, Kévin BERNARD](https://francoisbrucker.github.io/do-it/promos/2024-2025/Bernard-Kevin/mon/temps-2.2/)
+- [MON 2.1 : Introduction à React.js, Omar SALAME]({{ site.url }}/promos/2023-2024/Omar-Salame/mon/temps-2.1/)
+- [MON 3.1 : Débuter avec React.js, Thomas DUROY]({{ site.url }}/promos/2022-2023/Duroy-Thomas/mon/MON_3.1/)
+- [MON 2.1 : Animation 3D en React, Kévin BERNARD]({{ site.url }}/promos/2024-2025/Bernard-Kevin/mon/temps-2.1/)
+- [MON 2.2 : Spring Boot, Kévin BERNARD]({{ site.url }}/promos/2024-2025/Bernard-Kevin/mon/temps-2.2/)
 {% endchemin %}
 
 <!-- **Liste d'idées:**
@@ -169,7 +169,7 @@ Ayant clarifier grossièrement à quoi ressemblera mon site, je suis passé à l
 Je me suis renseigné sur React et j'ai créé mon projet grâce aux MONs de Thomas DUROY et Omar SALAME.
 
 {% chemin %}
-- [MON 2.1 : Introduction à React.js, Omar SALAME](https://francoisbrucker.github.io/do-it/promos/2023-2024/Omar-Salame/mon/temps-2.1/)
+- [MON 2.1 : Introduction à React.js, Omar SALAME]({{ site.url }}/promos/2023-2024/Omar-Salame/mon/temps-2.1/)
 - [MON 3.1 : Débuter avec React.js, Thomas DUROY](../../../../2022-2023/Duroy-Thomas/mon/MON_3.1/index.md)
 {% endchemin %}
 
@@ -199,7 +199,7 @@ Pour le moment cela ressemble à cela :
 Dans un premier temps, j'ai réalisé mon MON 2.2 sur Spring Boot pour me familiariser avec le backend.
 
 {% chemin %}
-[MON 2.2 : Spring Boot, Kévin BERNARD](https://francoisbrucker.github.io/do-it/promos/2024-2025/Bernard-Kevin/mon/temps-2.2/)
+[MON 2.2 : Spring Boot, Kévin BERNARD]({{ site.url }}/promos/2024-2025/Bernard-Kevin/mon/temps-2.2/)
 {% endchemin %}
 
 Ce MON m'a pris plus de temps que prévu et j'avais besoin de certaines notions pour avancer dans mon POK. J'ai continué l'apprentissage de Spring Data JPA avec la [Vidéo Youtube de Cameron McKenzie, Spring Boot, JPA & Hibernate REST based CRUD Web Project with MySQL & Swagger](https://www.youtube.com/watch?v=Rel5ymzBBFE).
