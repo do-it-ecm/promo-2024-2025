@@ -74,7 +74,8 @@ La mise en place d'un code permettant d'automatiser une clusterisation thématiq
 {% details "Sprint 1" %}
 **GESTION GENERALE DU TEMPS :** Bonne estimation générale dans le nombre de tâches pour le temps 1. Cependant, des difficultés et points bloquants n'ont pas été anticipé, ne permettant pas de terminer la totalité des tâches qui avaient été fixées. Celles-ci serton reprises en début de sprint 2.
 
-**DIMENSIONNEMENT DES TACHES :** Les tâches auraient pû être plus précises. Cela aurait permis de moins perdre de temps dans la mise au travail pour chacune de celle-ci. L'ordre de celles-ci a cependant été suivi et réaliste. 
+**DIMENSIONNEMENT DES TACHES :** Les tâches auraient pû être plus précises. Cela aurait permis de moins perdre de temps dans la mise au travail pour chacune de celle-ci. L'ordre de celles-ci a cependant été suivi et réaliste.<br>
+La compréhension et le choix des algorithmes mis en place dans la clusterisation ont été plus coûteux en temps que ce que j'avais imaginé. En effet, j'ai réalisé plusieurs essais de mise en place de la méthode k-means, mais les résultats que j'ai obtenus étaient totalement inexploitables.
 {% enddetails %}
 {% details "Sprint 2" %}
 Blabla
