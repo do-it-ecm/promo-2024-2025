@@ -52,7 +52,7 @@ On peut bien observer sur cette base que certains emails sont faux et ne peuvent
 
 ## Les nouvelles règles sur la base
 
-En suivant les bonnes pratiques que l'on retrouve dans le  [POK 1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Matthieu-Dufort/pok/temps-1/), nous allons fixer des règles pour chacun des objets.
+En suivant les bonnes pratiques que l'on retrouve dans le  [POK 1]({{ site.url }}/promos/2024-2025/Matthieu-Dufort/pok/temps-1/), nous allons fixer des règles pour chacun des objets.
 
 En premier, pour **l'adresse email**, nous allons fixer une règle de validation d'adresse email en vérifiant le format *---@---.---*
 
@@ -128,7 +128,7 @@ On combine ensuite, en fonction de la longueur de la chaîne, des fonctions logi
 - Fonction **TEXT** (TEXT) :
   - *Format* : TEXT("champ à transformer au format texte" ; "format du texte voulue")
   - *Réponse* : Le champ sous forme de texte au format souhaité
-  
+
 ```
 =IF(LEN(N2)=11;N2;IF(LEN(N2)=10;"33" & TEXT(RIGHT(N2;9);"0");"33" & N2))
 ```

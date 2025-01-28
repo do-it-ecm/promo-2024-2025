@@ -9,7 +9,7 @@ date: 2025-01-17
 temps: 3
 tags: 
 - Gestion de projet
-- Oranisation
+- Organisation
 - Agile
 - Scrum
 
@@ -185,7 +185,9 @@ Documentez les solutions pour éviter qu’elles ne se répètent.
 
 - **Could Have** : Fonctionnalités supplémentaires si le temps le permet.  
 
-- **Won’t Have** : Fonctionnalités exclues pour cette version.  
+- **Won’t Have** : Fonctionnalités exclues pour cette version. 
+  
+  ![image](./moscow.png)
 
 ---  
 
@@ -252,7 +254,6 @@ Une tâche trop grande ou complexe est difficile à estimer et à réaliser. Dé
 Assurez-vous que chaque tâche est indépendante et peut être réalisée sans dépendance excessive à d'autres tâches. {% endattention %} 
 
  
-
 ---  
 
 ##### **3. Estimer le temps avec le Planning Poker et la suite de Fibonacci**  
@@ -264,7 +265,7 @@ Assurez-vous que chaque tâche est indépendante et peut être réalisée sans d
 2. Attribuer des points Fibonacci à chaque tâche ( Estimez la complexité ou le temps nécessaire à chaque tâche) 
 
 | Points Fibonacci | Temps estimé |
-|-------------------|--------------|
+|------------------|--------------|
 | 1                | 30 minutes   |
 | 2                | 1 heure      |
 | 3                | 1,5 heures   |
@@ -277,7 +278,6 @@ Assurez-vous que chaque tâche est indépendante et peut être réalisée sans d
 
 La suite de Fibonacci est une séquence mathématique où chaque nombre est la somme des deux précédents : 1, 2, 3, 5, 8, 13, etc. Elle est utilisée pour estimer la complexité des tâches. {% endinfo %} 
 
- 
 
 3. **Calculer le temps total estimé** : 
    
@@ -285,7 +285,7 @@ La suite de Fibonacci est une séquence mathématique où chaque nombre est la s
 
 ###### **Tableau d'estimation pour un POK :**  
 
-| Tâche                                   | Points Fibonacci | Durée estimée |
+| Tâche                                  | Points Fibonacci | Durée estimée |
 |----------------------------------------|------------------|---------------|
 | Étudier la documentation PyQt          | 2                | 1h            |
 | Prototyper une interface avec tableaux | 5                | 2,5h          |
@@ -371,6 +371,8 @@ Avec les estimations prêtes, divisez le projet en sprints avec des objectifs cl
   **Daily Stand-ups :**  
 
 - Auto-évaluations quotidiennes pour identifier les blocages et ajuster les priorités.  
+  
+  ![image](./daily.png)
 
  **Rétrospectives de Sprint :**  
 
@@ -380,6 +382,8 @@ Avec les estimations prêtes, divisez le projet en sprints avec des objectifs cl
 
 - Suivez visuellement le travail restant pour mieux anticiper les retards.  
 
+
+  ![image](./burndown.png)
  
 
 {% info "Comment s’auto-évaluer " %} 

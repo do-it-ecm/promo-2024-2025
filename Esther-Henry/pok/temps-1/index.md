@@ -37,7 +37,7 @@ Pas de prérequis
 - [x] C’est quoi SAP ?
 - [x] Quelles sont ses promesses utilisateurs ?
 - [x] Apprendre à réaliser un questionnaire en SHS
-- [x] Préparation du questionnaire des avis d'utilisateurs de SAP dans le secteur cosmétique 
+- [x] Préparation du questionnaire des avis d'utilisateurs de SAP dans le secteur cosmétique
 
 ### Sprint 2
 
@@ -53,7 +53,7 @@ Pas de prérequis
 ### Définition d’un ERP
 
 {% lien %}
-[un MON utile pour plus de détails sur les ERP](https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/mon/temps-1.1/)
+[un MON utile pour plus de détails sur les ERP]({{ site.url }}/promos/2023-2024/Sarah-Sebastien/mon/temps-1.1/)
 {% endlien %}
 
 Un **ERP** (Enterprise Resource Planning), ou progiciel de gestion intégré (PGI) en français, est un système logiciel qui permet de gérer et d'intégrer les principales fonctions d'une entreprise au sein d'une seule plateforme. Il est structuré sous la forme d'un groupe de modules indépendants et constitue une base de données unique.
@@ -94,7 +94,7 @@ L’acronyme SAP pour Systems, Applications, and Products for Data Processing se
 - **R/3 :**
   - Cette version se décline en plusieurs versions, de 2.1 à 4.7, et la version SAP R/3 4.6c est l'une des plus connues.
   - Cette version est structurée sur une architecture à trois niveaux : le client, le serveur d'application et le serveur de base de données (ce qui en fait une véritable révolution pour le développement de logiciels d'ERP).
-  - Elle est plus abordable et évolutive, permettant à un seul système de couvrir les activités d'une organisation à l'échelle régionale ou mondiale. 
+  - Elle est plus abordable et évolutive, permettant à un seul système de couvrir les activités d'une organisation à l'échelle régionale ou mondiale.
   - Elle est également compatible avec diverses plateformes et systèmes d'exploitation, tels que Microsoft Windows.
 
 - **ECC :**
@@ -106,7 +106,7 @@ L’acronyme SAP pour Systems, Applications, and Products for Data Processing se
 - **S/4HANA :**
   - C'est la toute dernière version de SAP et marque une nouvelle révolution.
   - Elle est dotée de technologies intelligentes intégrées, notamment de l'IA, du Machine Learning et d'analytique avancée.
-  - Elle se base sur le "in-memory system" et l'intégration. 
+  - Elle se base sur le "in-memory system" et l'intégration.
 
 {% info %}
 Un "in-memory system" est une technologie de gestion des données qui stocke l'intégralité des données en mémoire vive (RAM) plutôt que sur des disques durs traditionnels. Cela permet un accès et un traitement des données beaucoup plus rapides, améliorant ainsi les performances des applications en temps réel, comme les bases de données, l'analyse des données, et le calcul transactionnel.
@@ -142,7 +142,7 @@ L’objectif est de préparer un questionnaire permettant de recueillir l’avis
 
 ### Méthodologie de réalisation du questionnaire
 
-Afin de réaliser un questionnaire conforme aux attendus des sciences humaines et sociales (SHS) et pour que les résultats soient significatifs, j'ai décidé de lire le MON de Lola Bourdon : [Sciences sociales pour élaborer un questionnaire](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-3.1/).
+Afin de réaliser un questionnaire conforme aux attendus des sciences humaines et sociales (SHS) et pour que les résultats soient significatifs, j'ai décidé de lire le MON de Lola Bourdon : [Sciences sociales pour élaborer un questionnaire]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-3.1/).
 
 Ce document devrait me fournir les connaissances essentielles pour la création d’un questionnaire adapté à mon étude.
 
@@ -370,7 +370,7 @@ Il est là aussi intéressant de prendre en compte l’avis de nos utilisateurs,
 
 #### Collaboration efficace
 
-Ici encore, on constate que **nos utilisateurs perçoivent SAP comme ayant un impact plutôt négatif sur la collaboration au sein de leurs équipes**, ce qui diverge de l’avis des experts. On peut alors se demander si ces limites ressenties dépendent réellement de l’utilisation de SAP ou plutôt des tâches pour lesquelles il est utilisé, ou encore de l’organisation de l’entreprise, qui diffère entre nos répondants. 
+Ici encore, on constate que **nos utilisateurs perçoivent SAP comme ayant un impact plutôt négatif sur la collaboration au sein de leurs équipes**, ce qui diverge de l’avis des experts. On peut alors se demander si ces limites ressenties dépendent réellement de l’utilisation de SAP ou plutôt des tâches pour lesquelles il est utilisé, ou encore de l’organisation de l’entreprise, qui diffère entre nos répondants.
 
 Ainsi, il pourrait être intéressant de pousser l’étude sur ce sujet, car les facteurs à prendre en compte sont sûrement multiples, et l’on sait que l’aspect collaboratif est un point essentiel lors du déploiement des systèmes d’ERP.
 
@@ -406,7 +406,7 @@ On peut alors se questionner sur l’implication entre être intéressé ou non 
 
 #### SAP pour toutes les tailles d’entreprise
 
-Parmi les promesses de SAP, il y a l'affirmation que **quelle que soit la taille de votre entreprise**, SAP propose une gamme complète d'outils et de systèmes ERP conçus pour répondre à tous les besoins spécifiques, notamment avec ses solutions SAP Business One et SAP Business ByDesign. 
+Parmi les promesses de SAP, il y a l'affirmation que **quelle que soit la taille de votre entreprise**, SAP propose une gamme complète d'outils et de systèmes ERP conçus pour répondre à tous les besoins spécifiques, notamment avec ses solutions SAP Business One et SAP Business ByDesign.
 
 Nous n'avons pas pu vérifier cette donnée, car tous nos répondants travaillent dans des entreprises de plus de 250 employés.
 
@@ -416,9 +416,9 @@ Cette technologie **S/4HANA est l’avenir de SAP**, car comme vu précédemment
 
 ### Conclusion de l’analyse
 
-Cette étude révèle des **divergences notables entre les perceptions des experts et des utilisateurs vis-à-vis des promesses de SAP**. Les **experts**, mieux formés et informés sur les évolutions de l'ERP, jugent que **SAP tient en grande partie ses promesses**, notamment en termes de productivité et de collaboration. À l'inverse, les **utilisateurs** réguliers, moins informés et davantage confrontés à des tâches opérationnelles, trouvent **SAP parfois moins intuitif** et estiment qu'il n'apporte pas toujours les gains de productivité escomptés. Cette divergence soulève notamment des questions sur l’importance d’une meilleure formation et sur l’adaptation de l'outil aux besoins quotidiens des utilisateurs. 
+Cette étude révèle des **divergences notables entre les perceptions des experts et des utilisateurs vis-à-vis des promesses de SAP**. Les **experts**, mieux formés et informés sur les évolutions de l'ERP, jugent que **SAP tient en grande partie ses promesses**, notamment en termes de productivité et de collaboration. À l'inverse, les **utilisateurs** réguliers, moins informés et davantage confrontés à des tâches opérationnelles, trouvent **SAP parfois moins intuitif** et estiment qu'il n'apporte pas toujours les gains de productivité escomptés. Cette divergence soulève notamment des questions sur l’importance d’une meilleure formation et sur l’adaptation de l'outil aux besoins quotidiens des utilisateurs.
 
-Même si, encore une fois, cette étude n’est pas représentative, les résultats permettent de soulever des questions intéressantes, notamment sur la perception de SAP selon les profils d'utilisateurs. Cependant, il ne serait pas pertinent de tirer des conclusions globales sur l’expérience utilisateur de SAP à partir de ces données limitées. 
+Même si, encore une fois, cette étude n’est pas représentative, les résultats permettent de soulever des questions intéressantes, notamment sur la perception de SAP selon les profils d'utilisateurs. Cependant, il ne serait pas pertinent de tirer des conclusions globales sur l’expérience utilisateur de SAP à partir de ces données limitées.
 
 ## Conclusion
 
@@ -454,7 +454,7 @@ Je suis finalement quand même contente d’avoir pu obtenir l’avis de mes “
 
 - [SAP](https://www.sap.com/france/products/erp/what-is-erp.html)
 - [SAP wikipédia](https://fr.wikipedia.org/wiki/SAP_(progiciel))
-- [Sciences sociales pour élaborer un questionnaire](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-3.1/)
+- [Sciences sociales pour élaborer un questionnaire]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-3.1/)
 - [Calculateur taille échantillion](https://fr.checkmarket.com/calculateur-taille-echantillon/)
 
 {% endlien %}
@@ -463,8 +463,8 @@ Je suis finalement quand même contente d’avoir pu obtenir l’avis de mes “
 
 Les MON utiles :
 
-[L'ERP, du concept à son intégration en entreprise](https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/mon/temps-1.1/)
-[Sciences sociales pour élaborer un questionnaire](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-3.1/).
+[L'ERP, du concept à son intégration en entreprise]({{ site.url }}/promos/2023-2024/Sarah-Sebastien/mon/temps-1.1/)
+[Sciences sociales pour élaborer un questionnaire]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-3.1/).
 
 {% endlien %}
 

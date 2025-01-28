@@ -23,7 +23,7 @@ Pas de Prérequis
 
 Voici les sources exploitées pour ce MON :
 
-- [MON de Clarisse sur l'intelligence collective](https://francoisbrucker.github.io/do-it/promos/2024-2025/Clarisse-Francese/mon/temps-1.1/)
+- [MON de Clarisse sur l'intelligence collective]({{ site.url }}/promos/2024-2025/Clarisse-Francese/mon/temps-1.1/)
 - [Mongeau, P. et Saint-Charles, J. (2024). Groupe et animation. Théorie et pratiques. Université du Québec à Montréal.](https://groupeetanimation.uqam.ca/conduite/des-types-de-reunions/)
 - [Conduite de Réunion - Manager Go!](https://www.manager-go.com/gestion-de-projet/conduite-de-reunion.htm)
 - Apprendre à diriger, diriger pour apprendre - Katie ANDERSON
@@ -98,7 +98,7 @@ Une autre méthode graphique très utilisée dans le lean management est celle d
 
 Pour les réunions d'idéation, on peut évidemment utiliser la méthode maintenant célèbre du Brainstorming.
 
-Les quelques méthodes d'animation de réunion et temps collectifs citées ci-dessus ne sont qu'un échantillon parmi un panel très large de méthodes variées et adaptées à une multitude de situations et d'objectifs différents. Le détail des méthodes présentées ainsi que d'autres méthodes sont décrits dans le [MON de Clarisse](https://francoisbrucker.github.io/do-it/promos/2024-2025/Clarisse-Francese/mon/temps-1.1/) et sur le site [Manager Go](https://www.manager-go.com/gestion-de-projet/conduite-de-reunion.htm)
+Les quelques méthodes d'animation de réunion et temps collectifs citées ci-dessus ne sont qu'un échantillon parmi un panel très large de méthodes variées et adaptées à une multitude de situations et d'objectifs différents. Le détail des méthodes présentées ainsi que d'autres méthodes sont décrits dans le [MON de Clarisse]({{ site.url }}/promos/2024-2025/Clarisse-Francese/mon/temps-1.1/) et sur le site [Manager Go](https://www.manager-go.com/gestion-de-projet/conduite-de-reunion.htm)
 
 #### La fin de la réunion
 

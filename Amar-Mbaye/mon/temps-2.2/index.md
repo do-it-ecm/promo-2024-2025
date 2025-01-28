@@ -15,13 +15,13 @@ résumé: "Ce MON traite les APIs REST, Une API REST permet la communication ent
 
 {% prerequis %}
 
-- Des connaissance de base en NestJs [Mon Mon 2.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-2.1/)
-- Comprendre Les bases de React [Mon Mon 1.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-1.1/)
+- Des connaissance de base en NestJs [Mon Mon 2.1]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-2.1/)
+- Comprendre Les bases de React [Mon Mon 1.1]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-1.1/)
 {% endprerequis %}
 
 {% lien %}
 
-[MON 1.1 de Baptiste Audouin Découverte des API REST](https://francoisbrucker.github.io/do-it/promos/2024-2025/Baptiste-Audouin/mon/temps-1.1/)
+[MON 1.1 de Baptiste Audouin Découverte des API REST]({{ site.url }}/promos/2024-2025/Baptiste-Audouin/mon/temps-1.1/)
 
 {% endlien %}
 
@@ -38,12 +38,12 @@ résumé: "Ce MON traite les APIs REST, Une API REST permet la communication ent
 - [**Horodatage**](#horodatage)
 - [Sources :](#sources-)
 
-Le but de ce MON est d'acquérir des compétences sur les API REST afin de pouvoir les utiliser dans mon POK. [Veuillez consulter mon POK](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/pok/temps-2/) pour une application directe de tout ce que je vais aborder dans ce MON, qui sera divisé au tour de la question  comment intégrer les API REST dans NestJS.
+Le but de ce MON est d'acquérir des compétences sur les API REST afin de pouvoir les utiliser dans mon POK. [Veuillez consulter mon POK]({{ site.url }}/promos/2024-2025/Amar-Mbaye/pok/temps-2/) pour une application directe de tout ce que je vais aborder dans ce MON, qui sera divisé au tour de la question  comment intégrer les API REST dans NestJS.
 Pour comprendre l'intégration sur la partie React, je vous invite a consulter [mon github](https://github.com/MbayeSyAmar/api_rest_dans_react/blob/main/api_rest_dans_react.md).
 
 ## Introduction :
 
-Cette première partie du MON (la base), à savoir qu'est-ce qu'une API et son fonctionnement, a été traitée de manière très explicite par Baptiste Audouin dans son [MON Temps 1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Baptiste-Audouin/mon/temps-1.1/).
+Cette première partie du MON (la base), à savoir qu'est-ce qu'une API et son fonctionnement, a été traitée de manière très explicite par Baptiste Audouin dans son [MON Temps 1]({{ site.url }}/promos/2024-2025/Baptiste-Audouin/mon/temps-1.1/).
 
 Pour répondre aux besoins spécifiques de mon POK (sous format de lien), je vais me concentrer davantage sur des aspects concrets : comment utiliser une API REST dans un projet intégrant un backend développé avec NestJS et un frontend avec React.
 

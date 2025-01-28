@@ -14,11 +14,11 @@ tags:
 résumé: Ce premier POK vise à créer un petit site web pour suivre l'avancée dans une liste d'objectifs dans un jeu vidéo (Les Sims 4).
 ---
 
-L'objectif de ce POK est de revoir les notions de base de développement web en réalisant un POK. 
+L'objectif de ce POK est de revoir les notions de base de développement web en réalisant un POK.
 
 Autres POK ou MON en lien :
-* [Web Front 1 HTML/CSS/JS](https://francoisbrucker.github.io/do-it/promos/2022-2023/Gissler-Nathan/mon/mon-1-1/) (MON de Nathan Gissler)
-* [Un peu de JavaScript](https://francoisbrucker.github.io/do-it/promos/2023-2024/William%20Lalanne/mon/temps-1.2/) (MON de William Lalanne)
+* [Web Front 1 HTML/CSS/JS]({{ site.url }}/promos/2022-2023/Gissler-Nathan/mon/mon-1-1/) (MON de Nathan Gissler)
+* [Un peu de JavaScript]({{ site.url }}/promos/2023-2024/William%20Lalanne/mon/temps-1.2/) (MON de William Lalanne)
 
 
 ## Objectifs
@@ -61,7 +61,7 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 ## Contenu
 
 ### L'idée du projet
-Ce projet est inspiré par ma propre expérience de jeu sur les Sims 4 où je me mets au défi de "finir le jeu à 100%", au travers d'une partie et donc obtenir toutes les réussites du jeu, compléter toutes les collections, atteindre le niveau maximal de toutes les compétences, etc. 
+Ce projet est inspiré par ma propre expérience de jeu sur les Sims 4 où je me mets au défi de "finir le jeu à 100%", au travers d'une partie et donc obtenir toutes les réussites du jeu, compléter toutes les collections, atteindre le niveau maximal de toutes les compétences, etc.
 
 La liste de choses à découvrir est longue et pour suivre mon avancement, j'utilise le  [site du joueur James Turner](https://jamesturner.yt/supersim/tracker) qui répond partiellement au besoin (et m'ayant ainsi inspiré ce POK), un Google Doc avec des checklists, ainsi qu'une liste papier selon les items.
 
@@ -72,14 +72,14 @@ Une fonctionnalité supplémentaire *(pour explorer plus de fonctionnalités)* s
 
 ### Premier Sprint
 #### Rappels HTML et CSS
-Pour commencer, j'ai repris mes bases en HTML et CSS pour faire un site "agréable" en partant de zéro. Je me suis aidée des formations du GInfo et du cours HTML/CSS d'Open Classroom pour me rafraîchir la mémoire. 
+Pour commencer, j'ai repris mes bases en HTML et CSS pour faire un site "agréable" en partant de zéro. Je me suis aidée des formations du GInfo et du cours HTML/CSS d'Open Classroom pour me rafraîchir la mémoire.
 
 Ayant créé un site Wordpress récemment, j'ai pu faire beaucoup de liens entre les options des components et les valeurs de style ce que j'ai trouvé assez amusant.
 
 Les notions principales que je garde en mémoire :
 * **Pour les marges :** la valeur padding sert aux marges internes alors que la valeur margin sert aux marges externes.
 * **Pour "séparer" une div :** après avoir foncé dans le tas en cherchant la propriété "width:65%; align: left;" etc dans le but d'avoir deux colonnes, je me suis retrouvée bloquée un certain temps avec un bug de div qui n'avait pas les bonnes couleurs de fond ou les bons alignements... Tout simplement car ce n'était pas la bonne propriété ! La propriété CSS utile est *"display"*, avec les valeurs *"flex", "flex-direction"* etc. Avec l'affichage *"grid"*, j'ai même pu avoir la grille souhaitée pour la checklist.
-* **Faire du CSS propre n'est pas une perte de temps :** j'ai d'abord été tenté d'inclure quelques styles dans les balises HTML... avant de me raisonner car de nombreuses balises avaient des propriétés similaires et il était beaucoup plus efficace de créer une classe (ou un id). Cela m'a aussi permis de me raisonner lorsque j'ai commencé le JS. 
+* **Faire du CSS propre n'est pas une perte de temps :** j'ai d'abord été tenté d'inclure quelques styles dans les balises HTML... avant de me raisonner car de nombreuses balises avaient des propriétés similaires et il était beaucoup plus efficace de créer une classe (ou un id). Cela m'a aussi permis de me raisonner lorsque j'ai commencé le JS.
 
 Même si j'ai survolé le cours OpenClassrooms (et que l'ordre d'apprentissage ne correspondait pas à ce que je souhaitais réaliser), j'ai tout de même pu apprendre quelques notions supplémentaires notamment en CSS. De plus, cela m'a forcé a quasiment écrire toutes mes lignes à la main.
 
@@ -120,7 +120,7 @@ J'étais finalement plus rouillée que je le pensais, mais cela m'a permis de re
 
 1. **Récupération et identification de l'élément HTML.**
 
-Ayant retenu la leçon du sprint 1, j'ai d'abord repris de zéro les bases du Javascript pour comprendre comment l'intégrer dans mon code existant. 
+Ayant retenu la leçon du sprint 1, j'ai d'abord repris de zéro les bases du Javascript pour comprendre comment l'intégrer dans mon code existant.
 
 Le language est assez proche de Python et fonctionne sur un système de variables, de fonctions et de méthodes... Ce système de propriétés sera intéressant plus tard pour identifier les différents items de la checklist selon des critères (DLCs possédés par le joueur, l'âge de l'avatar, mais aussi pour la catégorie de l'item ) et enregistrer la progression de la liste (avec la mise en cache local notamment).
 

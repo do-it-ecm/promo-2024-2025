@@ -17,7 +17,7 @@ résumé: "Un MON traitant de l'impact des data centers sur l'environnement et s
 
 {% lien %}
 
-- [Mon sur l'impact écologique du numérique](https://francoisbrucker.github.io/do-it/promos/2023-2024/Ouzoulias-Nicolas/mon/temps-3.2/)
+- [Mon sur l'impact écologique du numérique]({{ site.url }}/promos/2023-2024/Ouzoulias-Nicolas/mon/temps-3.2/)
 
 {% endlien %}
 

@@ -21,7 +21,7 @@ résumé: "Un MON ayant pour but de monter en compétence sur Google Script."
 {% lien %}
 
 - [Premier pas avec Google App script](https://developers.google.com/apps-script/samples/fundamentals-codelabs?hl=fr)
-- [MON de Abdane Ossama](https://francoisbrucker.github.io/do-it/promos/2022-2023/Abdane-Ossama/mon/mon2.1/)
+- [MON de Abdane Ossama]({{ site.url }}/promos/2022-2023/Abdane-Ossama/mon/mon2.1/)
 
 {% endlien %}
 

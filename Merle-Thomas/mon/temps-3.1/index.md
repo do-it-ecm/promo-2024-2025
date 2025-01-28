@@ -20,7 +20,7 @@ résumé: "Ce MON traite des solutions mises à disposition des innovateurs pour
 
 {% prerequis %}
 
-1. [`Innovation Management : Who innovate ?`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/mon/temps-2.2)
+1. [`Innovation Management : Who innovate ?`]({{ site.url }}/promos/2024-2025/Merle-Thomas/mon/temps-2.2)
 2. Connaissances de base en innovation:
 
 * Compréhension des concepts clés : innovation incrémentale, radicale, disruptive.
@@ -31,7 +31,7 @@ résumé: "Ce MON traite des solutions mises à disposition des innovateurs pour
 {% endprerequis %}
 
 {% lien %}
-[`Innovation Management : Who innovate ?`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/mon/temps-2.2)
+[`Innovation Management : Who innovate ?`]({{ site.url }}/promos/2024-2025/Merle-Thomas/mon/temps-2.2)
 {% endlien %}
 
 * le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)

@@ -1,7 +1,7 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du premier MON du temps 3"
+title: "Transformation digitale et environnementale"
 authors:
   - Alix Duréault
 
@@ -9,7 +9,7 @@ date: 1971-02-01
 temps: 3
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Comment conjuguer IT et écologie ?"
 ---
 
 {% prerequis %}
@@ -23,10 +23,7 @@ Les lien utiles pour la compréhension de celui-ci.
 
 {% endlien %}
 
-Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce MON. On oubliera pas de donner :
-
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
+Ce MON tournera autour de deux problématiques, est il possible de conjuguer les enjeux climatiques et les enjeux de digitalisation ? et Comment les méthodes d'analyse environnementales (analyse cycle de vie, bilan carbone, analyse coût bénéfice, ...) peuvent elles s'appliquer à des produits immatérielles comme les applications webs ?
 
 ## Contenu
 
