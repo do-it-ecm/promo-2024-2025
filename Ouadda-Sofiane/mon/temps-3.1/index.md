@@ -5,8 +5,8 @@ title: "Attaques DDoS en Cybersécurité"
 authors:
   - "Sofiane Ouadda"
 date: 2024-12-21
-
-tags: 
+temps: 3
+tags:
   - "Cybersécurité"
   - "Réseau"
   - "Sécurité Informatique"
