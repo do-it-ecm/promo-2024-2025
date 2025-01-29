@@ -1,7 +1,7 @@
 ---
 layout: layout/pok.njk
 
-title: "Titre du POK du temps 3"
+title: "Interface graphique"
 authors:
   - ADINOLFI Mathis
 
