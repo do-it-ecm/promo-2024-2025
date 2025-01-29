@@ -68,11 +68,8 @@ J'ai trouvé des données sur les permis de construire en explorant les sites go
 
 Ma première étape a été d'analyser l'évolution temporelle de ces deux types de permis de construire.
 
-![non_résidentiel_1](./non_résidentiel_1.png)
-![logements_1](./logements_1.png)
-
 <div style="display:flex">
-<div><img src="non_résidentiel_1.png"></div>
+<div><img src="non_residentiel_1.png"></div>
 <div><img src="logements_1.png"></div>
 </div>
 
@@ -87,7 +84,7 @@ Pour m'assurer que les bonnes informations étaient tracées, j'ai affiché quel
 
 {% details "💡 Chiffres clés" %}
 
-’’’
+’’’’’
 
 Occurrences pour les locaux non résidentiels :
 2013 : 64609 occurrences
@@ -120,7 +117,7 @@ Occurrences pour les logements :
 Total permis Locaux non résidentiels: 589604
 Total permis Logements: 1743110
 
-’’’
+’’’’’
 
 {% enddetails %}
 
@@ -133,11 +130,14 @@ En suivant les instructions de ce livre, toujours le même, et plus particulièr
 
 Voici donc mon approche suivante pour visualiser ces deux distributions :
 
-![Densites_4](./Densites_4.png)
+<figure>
+  <img src="./Densites_4.png" alt="Densites_4">
+  <figcaption style="text-align: center;">Figure : Superposition des densités version 2</figcaption>
+</figure>
 
 J'ai eu beaucoup de mal à ajuster mon code pour que les aires sous les courbes de densité soient proportionnelles au nombre total de permis de construire, tant pour les locaux non résidentiels (Total permis : 589 604) que pour les logements (Total permis : 1 743 110).
 
-{% details "💡 Explication & Solution trouvées après diverses essais" %}
+{% details "💡 Explication & Solution trouvées après divers essais" %}
 
 *Explication*:
 Si l'aire sous la courbe reste identique malgré la tentative de pondération, cela est dû au fonctionnement interne de Seaborn qui normalise automatiquement les densités. Pour contourner ce problème, il est nécessaire de manuellement ajuster la densité pour refléter les totaux des permis, en multipliant les densités obtenues par le total correspondant à chaque catégorie.
@@ -151,7 +151,7 @@ Cela permet un contrôle total sur la pondération et le calcul des densités, �
 
 def superpositionDensities():
 
-’’’
+’’’’’
     # Tracer les densités pondérées
     plt.figure(figsize=(12, 8))
 
@@ -180,11 +180,11 @@ def superpositionDensities():
     plt.title("Densités des autorisations d'urbanisme par mois", fontsize=16)
     plt.xlabel("Année", fontsize=14)
     plt.ylabel("Densité pondérée par nombre de permis", fontsize=14)
-’’’
+’’’’’
 
 
 def superpositionDensities2():
-’’’
+’’’’’
     # Calculer les densités
     from scipy.stats import gaussian_kde
     kde1 = gaussian_kde(data1['MOIS'].map(pd.Timestamp.toordinal), bw_method=0.15)
@@ -203,23 +203,16 @@ def superpositionDensities2():
     plt.fill_between(x_range, density1, alpha=0.5, label="Locaux non résidentiels", color="blue",)
     plt.fill_between(x_range, density2, alpha=0.5, label="Logements", color="orange")
 
-’’’
+’’’’’
 
 {% enddetails %}
 
 
 J'avais donc pendant longtemps des graphes qui ressemblaient à ça, mais cela ne transmettait pas le message visuel que je souhaitais. Cela donnait l'impression que les densités étaient similaires, alors que le nombre total de permis de construire pour les logements est plus du double de celui des locaux non résidentiels.
 
-</figure>
-{% sizedImage "./Densites_1.png", "Densites_1", "img", "CENTRER" %}
-  <figcaption>Densité des permis de construire</figcaption>
-</figure>
-
-![Densites_1](./Densites_1.png)
-
 <figure>
   <img src="./Densites_1.png" alt="Densites_1">
-  <figcaption>Figure 1 : Densité des permis de construire essai src</figcaption>
+  <figcaption style="text-align: center;">Figure : Superposition des densités version 1</figcaption>
 </figure>
 
 ### Etape 4
@@ -271,4 +264,10 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 
 | Date | Heures passées | Indications |
 | -------- | -------- |-------- |
-| Mardi 27/08  | 1H  | Travail sur la trame du site |
+| Mercredi 22/01/25  | 30min | Relecture cours Analyse de données |
+| Jeudi 23/01/25  | 3H | Recherche du jeu de donnnées et début du traitement |
+| Dimanche 26/01/25  | 1H20 | Amélioration histogramme superposition des distributions |
+| Mardi 28/01/25  | 1H | Overlapping density plots |
+| Mardi 28/01/25  | 45min | Separate density plots with transparent gray shape at the back |
+| Mardi 28/01/25  | 45min | Rédaction |
+| Mercredi 29/01/25  | 2H | Rédaction |
