@@ -45,10 +45,10 @@ résumé: Ce POK a pour but de présenter mes avancées sur ma simulation du tra
 | -------------- | -------------- | ------------------------ |
 | Samedi 11/01   | 2H             | Maquette Figma           |
 | Dimanche 12/01 | 2H             | Initialisation du projet |
-| Samedi 18/01   | 2h             | Menu                     |
+| Samedi 18/01   | 2H             | Menu                     |
 | Dimanche 19/01 | 1H30           | Toolbar                  |
 | Mercredi 22/01 | 2H30           | Grid + drag              |
-| Mercredi 29/01 | 30min          | Rédaction POK            |
+| Mercredi 29/01 | 0H30           | Rédaction POK            |
 |                |                |                          |
 | Total          | 10H30          |                          |
 
@@ -61,9 +61,9 @@ Pour rappel j'ai créé une simulation du trafic routier en python lors du [POK 
 
 ## Etape 1 - Maquette Figma
 
-Grâce aux bases aquises lors du cours UI/UX et de mon [MON 2.2](.../mon/temps-2.2) j'ai pu réaliser la maquette de l'interface graphique sur Figma. J'ai opté pour un mode sombre (possibilité de faire un mode clair) aux apparences de l'application AutoCad.
+Grâce aux bases aquises lors du cours UI/UX et de mon [MON 2.2](./../mon/temps-2.2) j'ai pu réaliser la maquette de l'interface graphique sur Figma. J'ai opté pour un mode sombre (possibilité de faire un mode clair) aux apparences de l'application AutoCad.
 
-Afin de gagner du temps j'ai réalisé seulement les deux premières pages de l'application, les suivantes étant du même style.
+Afin de gagner du temps, j'ai réalisé seulement les deux premières pages de l'application, les suivantes étant du même style.
 
 Menu : Cette page a pour but de présenter les projets en cours, il doit être possible de créer ou d'ouvrir un projet facilement. Et l'on doit pouvoir visualiser un aperçu des projets récents sans les ouvrir.
 
@@ -71,18 +71,18 @@ Menu : Cette page a pour but de présenter les projets en cours, il doit être p
     <img src="Menu.png" width="500"/>
 </div>
 
-Edition : Une fois un projet ouvert, il doit être possible de modifier ses éléments. Pour cela l'ensemble des éléments sont listés dans la toolbar à gauche, et un menu listant les paramètres s'ouvre. Le dessin de la route se fera sur une grille centrale.
+Edition : Une fois le projet ouvert, il doit être possible de modifier ses éléments. Pour cela l'ensemble des éléments sont listés dans la toolbar à gauche, et un menu listant les paramètres doit s'ouvrir. Le dessin de la route se fera sur une grille centrale.
 
 <div style="text-align: center;">
     <img src="Appli.png" width="500"/>
 </div>
 
-Lecture : Si on veut vérifier un projet sans le modifier, non accés aux outils mais grille plus large.
+Lecture : Vue permettant de vérifier un projet sans le modifier, non accés aux outils mais grille plus large.
 
 Simulation : Une fois une route créée l'on doit pouvoir visualiser le mouvement des voitures, avancer plus vite stopper reculer (comme un lecteur audio).
 
 ## Etape 2 - Frontend
 
-Une fois la maquette réalisée il faut la rendre vivante. Pour cela j'utilise le framework vuejs. Etant novice avec ce framework et en front dev, le développement me prend du temps. Actuellement j'ai terminé le menu et la page édition. Petite démo :
+Une fois la maquette réalisée il faut la rendre vivante. Pour cela j'utilise le framework vue. Etant novice avec ce framework et en front dev, le développement me prend du temps. Actuellement j'ai terminé le menu et la page édition. Petite démo :
 
 <video controls src="Demo.mp4"></video>
