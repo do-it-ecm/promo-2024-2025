@@ -1,7 +1,7 @@
 ---
 layout: layout/pok.njk
 
-title: "La RGPD "
+title: "Le RGPD "
 authors:
   - Matthieu Dufort
 
@@ -180,7 +180,7 @@ Il existe cependant quelques différences comme :
 
 Dans l'ensemble, tous les pays du monde ont aujourd'hui des règles sur la régulations des données similaires qui sont souvent comparable à celui du RGPD. Cependant, bien qu'il ait influencé de nombreuses législations, chaque pays ou région adapte ses lois en fonction de ses besoins spécifiques, de sa culture et de ses priorités en matière de protection des données. L'une des différences majeures réside dans la manière dont les pays équilibrent la protection des données avec des préoccupations telles que la sécurité nationale ou l'innovation technologique. Il reste aussi un des plus sévère en matière de sanctions financières.
 
-## Adaptation des entreprises ces différences
+## Adaptation des entreprises par rapport à ces différences
 
 Il existe pour les entreprises différentes façon de gérer ces changements de texte :
 
@@ -221,7 +221,7 @@ Et elles peuvent ensuite appliquer différents types de sanctions qui peuvent bi
 - Obligation de mise en conformité (avec délai imposé)
 - Restriction des activités
 
-Et ceci est valable pour toute entreprise gérant des données de citoyens européens.
+Et ceci est valable pour toutes entreprises gérant des données de citoyens européens.
 
 {% details "Bilan Sprint 1" %}
 
