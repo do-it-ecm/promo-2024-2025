@@ -15,11 +15,6 @@ tags:
 résumé: À l'aide de Python, explorer le lien entre les mobilisations sociales et l’évolution des droits des travailleuses et travailleurs en analysant des données sur les grèves, les revendications et les réformes sociales.
 ---
 
-{% prerequis %}
-
-Liste des prérequis du POK ET/OU MON
-
-{% endprerequis %}
 {% lien %}
 
 Les lien utiles pour la compréhension de celui-ci.
@@ -35,34 +30,95 @@ Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de 
 
 ### Sprints
 
-But final.
-
 #### Sprint 1
 
-Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la fin du sprint on fait une petite étude post-mortem pour voir ce qui s'est passé et les ajustement à faire pour le prochain sprint, pok.
-
-- [ ] Une tâche non réalisée
-- [x] Une tâche réalisée
+- [x] Cadrer l'étude
+- [x] Formuler des questions auxquelles répondre
+- [x] Collecter des données
+- [x] Nettoyer et préparer les jeux de données pour l'analyse
+- [x] Documentation librairies Python
 
 #### Sprint 2
 
-- [ ] Une tâche non réalisée
-- [x] Une tâche réalisée
-
-Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la fin du sprint on fait une petite étude post-mortem pour voir ce qui s'est passé et les ajustement à faire pour le prochain sprint, pok.
+- [ ] Continuer documentation libraries Python
+- [ ] Analyse de données et réponse aux questions formulées
+- [ ] Data Visualisation
 
 ### Horodatage
 
 Toutes les séances et le nombre d'heure que l'on y a passé.
 
-| Date        | Heures passées | Indications                  |
-| ----------- | -------------- | ---------------------------- |
-| Mardi 27/08 | 1H             | Travail sur la trame du site |
+| Date           | Heures passées | Indications                                                        |
+| -------------- | -------------- | ------------------------------------------------------------------ |
+| Jeudi 16/01    | 2H             | Cadrage de l'étude et recherche jeux de données                    |
+| Mercredi 22/01 | 2H             | Recherche données et nettoyage / préparation                       |
+| Dimanche 26/01 | 3H             | Nettoyage / préparation données et documentation librairies Python |
+| Mercredi 29/01 | 1H             | Documentation Python et début code                                 |
+
+Il n'y a pas 10h et mon demi-POK n'est pas aussi avancé que ce que je souhaiterai car je dois trouver un stage, ça me stresse mais ça va aller.
 
 ## Contenu
 
-Le contenu du POK.
-
 ### Premier Sprint
+
+Dans cette première phase, mon objectif était de cadrer l’étude en définissant clairement les questions auxquelles je souhaite répondre:
+
+Il y en a bcp car je ne suis pas sûre de pouvoir répondre à tout avec les jeux de données trouvés.
+
+- résultats de la grève (accords,...) en fonction de la longueur de la grève
+- résultats de la grève en fonction de la date de la grève
+- taux de grèves en france vs autres pays
+- comparaison entre les différents secteurs: grèves et mobilisations
+- taux de mobilisation en fonction de la date de la grève
+- taux de mobilisation en fonction de la longueur de la grève
+- comparatif entre les différents syndicats: qui initie le plus de négociations/ grèves
+- nombre de grèves en fonction de la taille de l’entreprise
+- comparaison thèmes discutés durant les mobilisations
+- durée moyenne des grèves par secteur ou par pays
+- fréquences des grèves en fonction de la date
+- corrélation entre la taille des entreprises et la réussite des grèves
+- évolution des grèves dans le temps
+- analyse géographique des grèves en France
+- taux de participation des salariés selon le secteur ou l'entreprise
+
+Pour répondre à ces questions, j’ai sélectionné plusieurs jeux de données issus de sources officielles :
+
+INSEE:
+
+- 2022
+- France Hors Mayotte
+- Entreprises de 10 salariés ou plus du secteur marchand non agricole
+  (mêmes paramètres que DARES )
+  [INSEE Grèves](https://www.insee.fr/fr/statistiques/7767085?sommaire=7767424&q=gr%C3%A8ve)
+
+DARES:
+
+- Échantillon de 16 500 entreprises, dont environ 11 000 sont répondantes, représentatif des 265 000 entreprises de 10 salariés ou plus du secteur privé non agricole en France métropolitaine jusqu'en 2017, France métropolitaine et Drom (hors Mayotte) à partir de 2018, qui emploient environ 16,0 millions de salariés. Les entreprises ont été
+  interrogées en 2023 sur leur situation en 2022
+  [DARES Grèves](https://dares.travail-emploi.gouv.fr/publication/les-greves-en-2022)
+- Autre jeu de données sur les JINT (Journées individuelles non travaillées)
+  [DARES JINT](https://dares.travail-emploi.gouv.fr/donnees/les-journees-individuelles-non-travaillees-jint)
+
+Ces sources ont été choisies pour leur fiabilité et leur complémentarité.
+
+Autres jeux de données à potentielleùment utiliser. Histoire de pouvoir répondre aux questions posées préalablement, j'ai cherché des données plus précises (longueur des grèves, taux de mobilisation, dates, syndicats) et j'ai trouvé des données de la SNCF à analyser sur les mouvements sociaux depuis plusieurs années (.csv)
+
+Une fois les données collectées, j’ai commencé un travail de préparation :
+
+- Compréhension des données: unités, signification,...
+
+- Nettoyage des données : suppression des valeurs manquantes.
+
+- Refaire les tableaux sous des formes simplifiées pour que l'analyse avec Python soit plus simple par la suite
+
+- Renommer les lignes et colonnes de façon claire
+
+Une fois que j'ai refait mes tableaux tout beaux et bien structurés, je me suis renseignée sur comment faire de l'analyse de données avec Python (j'ai jamais fait). Librairies principales que j'ai exploré:
+
+- Pandas : Permet de manipuler les données sous forme de tableaux, de filtrer, transformer les informations facilement. J’ai appris à charger mes fichiers CSV et à effectuer des premières analyses descriptives.
+
+- Matplotlib & Seaborn : Pour la visualisation des données. J’ai exploré comment représenter graphiquement les tendances, les comparaisons et les distributions de variables.
+
+L’objectif est maintenant d’appliquer ces outils à mon jeu de données et de produire mes premières visualisations et analyses.
 
 ### Second Sprint
