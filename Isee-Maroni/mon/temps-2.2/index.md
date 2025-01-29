@@ -57,7 +57,11 @@ Jeanne avait produit un graphique illustrant le nombre de joueurs étrangers par
 
 ![Tableau_couleurs](./Tableau_couleurs.png)
 
-Son graphique utilisait plus de huit couleurs différentes, rendant la lecture confuse. En nous appuyant sur l’un des principes de [`Fundamentals of Data Visualization`](https://clauswilke.com/dataviz/s) "Utilisez des étiquettes directes plutôt que des couleurs lorsque vous devez distinguer plus de huit catégories.", nous avons ajouté des étiquettes directement sur les points. Le résultat était nettement plus clair, permettant une identification rapide et précise des clubs.
+Son graphique utilisait plus de huit couleurs différentes, rendant la lecture confuse. En nous appuyant sur l’un des principes de [`Fundamentals of Data Visualization`](https://clauswilke.com/dataviz/) "Utilisez des étiquettes directes plutôt que des couleurs lorsque vous devez distinguer plus de huit catégories.", nous avons ajouté des étiquettes directement sur les points. Le résultat était nettement plus clair, permettant une identification rapide et précise des clubs.
+
+{% lien %}
+- Wilke, Claus. *Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures.* First edition, O’Reilly, 2019. [`version en ligne`](https://clauswilke.com/dataviz/)
+{% endlien %}
 
 ![Tableau_couleurs_labels](./Tableau_couleurs_labels.png)
 

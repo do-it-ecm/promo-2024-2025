@@ -24,7 +24,7 @@ Aucun prérequis nécessaires.
 {% lien %}
 
 [`W3School`](https://www.w3schools.com/html/default.asp)
-[`POK1: Asian Fried Rice - FrontEnd`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/pok/temps-1/)
+[`POK1: Asian Fried Rice - FrontEnd`]({{ site.url }}/promos/2024-2025/Merle-Thomas/pok/temps-1/)
 
 {% endlien %}
 

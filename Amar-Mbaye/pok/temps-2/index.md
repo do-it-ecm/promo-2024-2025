@@ -25,9 +25,9 @@ résumé: Le but de ce POK est de mettre en évidence les connaissances que j’
 {% lien %}
 
 Les lien utiles pour la compréhension de celui-ci:
-- [Mon Mon 1.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-1.1/)
-- [Mon Mon 2.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-2.1/)
-- [Mon MON 2.2](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-2.2/)
+- [Mon Mon 1.1]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-1.1/)
+- [Mon Mon 2.1]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-2.1/)
+- [Mon MON 2.2]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-2.2/)
 
 {% endlien %}
 
@@ -170,7 +170,7 @@ Le projet est divisé en plusieurs couches.
     - **CommentsModule** : Gère les endpoints pour les commentaires.
   - Modèles Mongoose :
     - **Post** : Définit la structure d’un post dans MongoDB (titre, contenu).
-    - **Comment** : Définit la structure d’un commentaire (contenu, post associé). 
+    - **Comment** : Définit la structure d’un commentaire (contenu, post associé).
 
 Voici le lien du code source (Backend) : [Code source](https://github.com/MbayeSyAmar/forum-backend)
 
@@ -186,8 +186,8 @@ Voici le lien du code source(Frontend) : [Code source](https://github.com/MbayeS
 
 ## Sources :
 {% lien %}
-- [Mon Mon 1.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-1.1/)
-- [Mon Mon 2.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-2.1/)
-- [Mon MON 2.2](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-2.2/)
+- [Mon Mon 1.1]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-1.1/)
+- [Mon Mon 2.1]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-2.1/)
+- [Mon MON 2.2]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-2.2/)
 
 {% endlien %}

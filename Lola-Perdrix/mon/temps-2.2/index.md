@@ -185,7 +185,7 @@ Dans l'article ["Quand les données des PME migrent vers les nuages : libératio
 
 Enfin, un enjeu de taille majeure et d'actualité est l'enjeu environnemental. De nombreux articles évoquent les conséquences environnementales du cloud, qui est réellement énergivore.
 
-Tout d'abord, d'après ["Les data centers sont de plus en plus problématiques pour la planète"](https://www.journaldugeek.com/2021/12/07/les-data-centers-sont-de-plus-en-plus-problematiques-pour-la-planete/), les data centers seraient aussi polluant que l'industre aéronautique. Les entreprises se cachent derrière la REC (renewable energy certification) pour se dire neutre en carbone sans réellement l'être. Peu de pays peuvent se vanter d'être écologiquement responsable par rapport à l'utilisation de leurs serveurs ! Les impacts sont décrits dans l'article et dans d'autres cités en bibliographie, mais aussi dans le [MON de Matthieu](https://francoisbrucker.github.io/do-it/promos/2024-2025/Matthieu-Dufort/mon/temps-2.2/).
+Tout d'abord, d'après ["Les data centers sont de plus en plus problématiques pour la planète"](https://www.journaldugeek.com/2021/12/07/les-data-centers-sont-de-plus-en-plus-problematiques-pour-la-planete/), les data centers seraient aussi polluant que l'industre aéronautique. Les entreprises se cachent derrière la REC (renewable energy certification) pour se dire neutre en carbone sans réellement l'être. Peu de pays peuvent se vanter d'être écologiquement responsable par rapport à l'utilisation de leurs serveurs ! Les impacts sont décrits dans l'article et dans d'autres cités en bibliographie, mais aussi dans le [MON de Matthieu]({{ site.url }}/promos/2024-2025/Matthieu-Dufort/mon/temps-2.2/).
 
 #### Importance de la consommation d'eau
 

@@ -14,14 +14,14 @@ résumé: "Le but de ce MON est de comprendre comment s'inscrit le langage TypeS
 ---
 
 {% prerequis %}
-Pour ce MON, il est intéressant d'avoir des bases en JavaScript. Elles permettent de mieux comprendre les concepts abordés. Pour cela, je peux conseiller la lecture de mon [MON précédent](https://francoisbrucker.github.io/do-it/promos/2024-2025/Alix-Dureault/mon/temps-2.1/).
+Pour ce MON, il est intéressant d'avoir des bases en JavaScript. Elles permettent de mieux comprendre les concepts abordés. Pour cela, je peux conseiller la lecture de mon [MON précédent]({{ site.url }}/promos/2024-2025/Alix-Dureault/mon/temps-2.1/).
 {% endprerequis %}
 
 En faisant mes recherches pour mon premier MON sur JavaScript et React, j’ai pu entendre parler de TypeScript sans comprendre réellement de quoi il s’agit.
 
 Ainsi, ce MON sera dédié à comprendre ce qu’est le langage TypeScript, à comprendre les différences entre ce langage et JavaScript et enfin apprendre les bases du langage.
 
-Pour commencer mes recherches, j’ai regardé le documentaire ["TypeScript Origins : The Documentary" de OfferZen Origins](https://www.youtube.com/watch?v=U6s2pdxebSo). Il retrace à travers un ensemble d’interview l’histoire de TypeScript. 
+Pour commencer mes recherches, j’ai regardé le documentaire ["TypeScript Origins : The Documentary" de OfferZen Origins](https://www.youtube.com/watch?v=U6s2pdxebSo). Il retrace à travers un ensemble d’interview l’histoire de TypeScript.
 
 A travers la compréhension des enjeux stratégiques, du contexte historique et des interactions avec VsCode ou Angular, il permet d’avoir une bonne vision du but du langage, de sa manière de se développer, des choix stratégiques qui entourent la création et le développement du langage. On comprend notamment l’importance de la création de ce langage pour des grands projets qui utilisait JavaScript et avait du mal avec sa complexité, notamment avec l’exemple de la symbiose avec l’environnement de développement VSCode.
 
@@ -43,7 +43,7 @@ TypeScript est un langage de programmation compilé, orienté objet et fortement
 
 TypeScript est un langage open source, soutenu par Microsoft. Il est considéré à la fois comme un langage et un ensemble d’outils.
 
-TypeScript comprend trois composants principaux : 
+TypeScript comprend trois composants principaux :
 
 - le **langage** (syntaxe, mots-clés, annotations de type),
 - le **compilateur TypeScript TSC** (convertit les instructions écrites en TypeScript en son équivalent JavaScript),
@@ -63,13 +63,13 @@ TypeScript vérifie les erreurs d'un programme avant son exécution, et le fait 
 
 Pour bien comprendre la différence et l’utilité de TypeScript, il faut avoir en tête quelques éléments sur JavaScript.
 
-JavaScript est un langage de programmation faiblement typé. Il est considéré comme un langage universel du Web. 
+JavaScript est un langage de programmation faiblement typé. Il est considéré comme un langage universel du Web.
 
 JavaScript a été initialement introduit comme langage côté client. Il était censé être utilisé seulement pour de courts extraits de code intégrés dans une page Web. Ainsi, les premiers navigateurs Web exécutaient ce code assez lentement. Depuis, JS est monté en popularité, notamment pour créer des expériences interactives. Récemment, avec le développement de Node.js, JavaScript est désormais également identifié comme une technologie émergente côté serveur. Ce changement est notamment du au côté “exécutable n’importe où” que peut avoir JavaScript.
 
 Le problème c’est que à mesure que JavaScript se développe, il devient de plus en plus compliqué, ce qui rend difficile pour les utilisateurs de garder les choses en ordre lorsqu'ils maintiennent et réutilisent le code. Un autre problème de JS est qu’il néglige de nouvelles fonctionnalités comme la vérification de type forte, les vérifications d’erreurs au moment de la compilation et l’orientation objet.
 
-D’autres problèmes résultent du fait des débuts assez humbles du langage, par exemple : 
+D’autres problèmes résultent du fait des débuts assez humbles du langage, par exemple :
 
 - L'opérateur d'égalité de JavaScript `==` contraint ses opérandes, cela entraîne des résultats innatendus comme `“ “ == 0`.
 - JavaScript permet également d'accéder à des propriétés qui ne sont pas présentes et ces erreurs ne sont détectables que lors de l’exécution.
@@ -111,7 +111,7 @@ Du point de vue des ressemblances, TypeScript préserve le comportement d'exé
 
 {% endlien %}
 
-TypeScript et JavaScript sont entièrement interopérables. 
+TypeScript et JavaScript sont entièrement interopérables.
 
 Le fait que TypeScript soit construit sur la base de JavaScript signifie aussi que la syntaxe de JS est légale en TS. TypeScript ne considère aucun code JavaScript comme une erreur en raison de sa syntaxe. Cela signifie que vous pouvez prendre n'importe quel code JavaScript fonctionnel et le placer dans un fichier TypeScript sans vous soucier de la manière exacte dont il est écrit.
 
@@ -153,7 +153,7 @@ Enfin, le système de type de TypeScript n’est pas parfait et connaît une cer
 
 Une autre raison qui peut être soulevé, c’est que lorsque l’on passe de TypeScript à JavaScript, on élimine l’étape de compilation. Cela peut donner un gros boost en productivité, notamment pour un projet de grande envergure. De plus, on peut retrouver les bénéfices de TypeScript dans JS en utilisant JSDoc.
 
-D’autres soucis de TypeScript qui peuvent être soulevés sont : 
+D’autres soucis de TypeScript qui peuvent être soulevés sont :
 
 - **Les outils :** il faut comprendre la configuration complexe de TypeScript pour pouvoir l’utiliser et les librairies externes peuvent être compliquées à utiliser quand les types sont de mauvaises qualités.
 - **La verbosité :** au lieu d’un langage concis comme JS, on passe à un code annoté qui demande parfois l’écriture manuelle de type. Cela demande plus de travail et de temps.
@@ -167,11 +167,11 @@ D’autres soucis de TypeScript qui peuvent être soulevés sont :
 
 {% endlien %}
 
-JSDoc est un format de commentaire standard où l’on déclare des types et de la documentation dous le format habituelle des commentaires JS. Ces commentaires peuvent être utilisés pour générer des type et permet de garder le fil des fonctions et variables crées an aillant accès à la définition des paramètres au fur et à mesure qu’ils sont utilisés. 
+JSDoc est un format de commentaire standard où l’on déclare des types et de la documentation dous le format habituelle des commentaires JS. Ces commentaires peuvent être utilisés pour générer des type et permet de garder le fil des fonctions et variables crées an aillant accès à la définition des paramètres au fur et à mesure qu’ils sont utilisés.
 
 JSDoc 3 est une API qui génère de la documentation pour JavaScript. En ajoutant des commentaires sous le format JSDoc directement dans le code source, l’API les scanne et génère la documentation HTML automatiquement.
 
-Le git officiel de l’API de documentation est disponible sur ce lien : [Github de JSDoc](https://github.com/jsdoc/jsdoc). Il est possible d’apporter une contribution au projet depuis ce repository GitHub. La page offre aussi tout un guide sur l’installation et l’utilisation de l’API. Cette API permet de générer automatiquement la documentation du fichier yourJavaScriptFile.js avec la ligne de commande : 
+Le git officiel de l’API de documentation est disponible sur ce lien : [Github de JSDoc](https://github.com/jsdoc/jsdoc). Il est possible d’apporter une contribution au projet depuis ce repository GitHub. La page offre aussi tout un guide sur l’installation et l’utilisation de l’API. Cette API permet de générer automatiquement la documentation du fichier yourJavaScriptFile.js avec la ligne de commande :
 
 ```bash
 ./node_modules/.bin/jsdoc yourJavaScriptFile.js
@@ -200,18 +200,18 @@ L’installation peut aussi se faire dans deux scopes différents, celui du proj
 
 ### Installation par un module npm pour un projet spécifique
 
-TypeScript est disponible sous forme de package sur le registre npm disponible sous le nom `typescript`. 
+TypeScript est disponible sous forme de package sur le registre npm disponible sous le nom `typescript`.
 
-Il faut tout d’abord initialiser npm dans le répertoire du projet en question avec la commande : 
+Il faut tout d’abord initialiser npm dans le répertoire du projet en question avec la commande :
 
 ```bash
 npm init
 ```
 
-Pour l’ajouter à un projet, il suffit de taper dans le terminal la commande : 
+Pour l’ajouter à un projet, il suffit de taper dans le terminal la commande :
 
 ```bash
-npm install --save-dev typescript 
+npm install --save-dev typescript
 ```
 
 Pour configurer le projet, on créer un fichier `tsconfig.json` dans le répertoire du projet. Ce fichier spécifie les options du compilateur pour la construction de ce projet. Cela peut ressembler à :
@@ -237,7 +237,7 @@ npx tsc
 
 Il est possible de jouer sur certaines options lors de la compilation. La page ["tsc CLI Options" de typescriptlang.org](https://www.typescriptlang.org/docs/handbook/compiler-options.html) détaille ce qui est de faire. On peut par exemple spécifier les fichiers d’entrée, ajouter des options de construction, des options de surveillance, des commandes CLI ou des drapeaux de compilateur.
 
-Une fois le fichier compiler, il faut ensuite exécuter le code JavaScript généré avec la commande : 
+Une fois le fichier compiler, il faut ensuite exécuter le code JavaScript généré avec la commande :
 
 ```bash
 node app.js
@@ -301,7 +301,7 @@ Dans JavaScript, trois primitives sont couramment utilisés et possèdent un typ
 - **string** (n’importe quelle chaîne de caractère)
 - **boolean** (peut prendre seulement 2 valeurs, true ou false)
 
-Comme les deux valeurs primitives **null** et **undefined** de JavaScript qui sont utilisées pour signaler une valeur absente ou non initialisée, TypeScript possède des types correspondants portant le même nom. Le comportement de ces types dépend de l'activation ou non de l’option `strictNullChecks`. 
+Comme les deux valeurs primitives **null** et **undefined** de JavaScript qui sont utilisées pour signaler une valeur absente ou non initialisée, TypeScript possède des types correspondants portant le même nom. Le comportement de ces types dépend de l'activation ou non de l’option `strictNullChecks`.
 
 Si elle est désactivée (`off`), des valeurs qui peuvent être null ou undefined peuvent être utilisé dans toutes les propriétés peut importe le type. Si elle est activée (`on`), pour pouvoir utilisée des propriétés pour ces valeurs, il va falloir les tester.
 
@@ -326,7 +326,7 @@ interface Point {
   x: number;
   y: number;
 }
- 
+
 function printCoord(pt: Point) {
   console.log("The coordinate's x value is " + pt.x);
   console.log("The coordinate's y value is " + pt.y);
@@ -460,7 +460,7 @@ const key: UserKeys = 'name';
 
 {% endlien %}
 
-Dans la plupart des cas et dans la mesure du possible, TypeScript tente de déduire automatiquement les types du code. C’est à dire, si on écrit : 
+Dans la plupart des cas et dans la mesure du possible, TypeScript tente de déduire automatiquement les types du code. C’est à dire, si on écrit :
 
 ```tsx
 let myName = "Alice";
@@ -490,7 +490,7 @@ function getFavoriteNumber(): number {
 
 Comme pour les annotations de type de variable, généralement il n’y a pas besoin d'une annotation sur les valeurs de sortie. TypeScript déduira le type de retour de la fonction.
 
-Pour les objets, on liste leurs propriétés et leurs types sous la forme : 
+Pour les objets, on liste leurs propriétés et leurs types sous la forme :
 
 ```tsx
 pt: { x: number; y: number }
@@ -584,7 +584,7 @@ function example(x: string | number, y: string | boolean) {
 }
 ```
 
-Des opérateurs semblables peuvent être utilisés : 
+Des opérateurs semblables peuvent être utilisés :
 
 - `!==`
 - `==`

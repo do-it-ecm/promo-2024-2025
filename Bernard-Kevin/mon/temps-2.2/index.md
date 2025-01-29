@@ -44,10 +44,10 @@ résumé: ""
 
 {% chemin %}
 <b> POK & MON </b>
-- [Mon de Amar](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-2.2/)
-- [MON de Manuela](https://francoisbrucker.github.io/do-it/promos/2024-2025/Manuela-Barreto/mon/temps-1.2/)
-- [MON de Baptiste](https://francoisbrucker.github.io/do-it/promos/2024-2025/Baptiste-Audouin/mon/temps-1.1/)
-- [POK de Kévin](https://francoisbrucker.github.io/do-it/promos/2024-2025/Bernard-Kevin/pok/temps-2/)
+- [Mon de Amar]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-2.2/)
+- [MON de Manuela]({{ site.url }}/promos/2024-2025/Manuela-Barreto/mon/temps-1.2/)
+- [MON de Baptiste]({{ site.url }}/promos/2024-2025/Baptiste-Audouin/mon/temps-1.1/)
+- [POK de Kévin]({{ site.url }}/promos/2024-2025/Bernard-Kevin/pok/temps-2/)
 {% endchemin %}
 
 ## Table des matières
@@ -62,7 +62,7 @@ résumé: ""
 
 ## 1. Introduction <a id="section1"></a>
 
-Ce MON s'inscrit dans la continuité de mon projet pour mon [POK 2](https://francoisbrucker.github.io/do-it/promos/2024-2025/Bernard-Kevin/pok/temps-2/). J'avais fait l'ébauche du frontend et je suis passé au backend que je voulais faire en Java.
+Ce MON s'inscrit dans la continuité de mon projet pour mon [POK 2]({{ site.url }}/promos/2024-2025/Bernard-Kevin/pok/temps-2/). J'avais fait l'ébauche du frontend et je suis passé au backend que je voulais faire en Java.
 Je me suis donc posé comme question :
 
 <center><b>Comment faire un backend en Java pour gérer une to do list?</b></center>
@@ -138,9 +138,9 @@ J'ai récupéré ces informations des anciens MON et de vidéo sur le sujet :
 - [Définition d'une API REST sur Red Hat, Une API REST, qu'est-ce que c'est ?](https://www.redhat.com/fr/topics/api/what-is-a-rest-api)
 - [Wikipédia, Définition architecture REST](https://fr.wikipedia.org/wiki/Representational_state_transfer)
 - [Vidéo Youtube de IBM Technology, What is a REST API? ](https://www.youtube.com/watch?v=lsMQRaeKNDk)
-- [Mon de Amar](https://francoisbrucker.github.io/do-it/promos/2024-2025/Amar-Mbaye/mon/temps-2.2/)
-- [MON de Manuela](https://francoisbrucker.github.io/do-it/promos/2024-2025/Manuela-Barreto/mon/temps-1.2/)
-- [MON de Baptiste](https://francoisbrucker.github.io/do-it/promos/2024-2025/Baptiste-Audouin/mon/temps-1.1/)
+- [Mon de Amar]({{ site.url }}/promos/2024-2025/Amar-Mbaye/mon/temps-2.2/)
+- [MON de Manuela]({{ site.url }}/promos/2024-2025/Manuela-Barreto/mon/temps-1.2/)
+- [MON de Baptiste]({{ site.url }}/promos/2024-2025/Baptiste-Audouin/mon/temps-1.1/)
 
 {% endlien %}
 
