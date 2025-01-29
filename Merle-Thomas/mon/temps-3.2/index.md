@@ -9,7 +9,7 @@ date: 2025-01-29
 
 temps: 3
 
-tags: 
+tags:
   - "temps 3"
   - "Management"
   - "Innovation"
@@ -42,7 +42,7 @@ résumé: "Ce 3ème MON sur l'Innovation Management présente une analyse approf
 {% note %}
 Objectifs :
 
-1. 
+1.
 {% endnote %}
 
 ---
@@ -172,7 +172,7 @@ Types d’implication client :
 Les fournisseurs peuvent contribuer à optimiser la conception des produits en proposant des solutions techniques innovantes ou en adaptant leurs propres processus.
 
 * **Avantages** :
-  
+
   1. Réduction des coûts de production.
   2. Amélioration de la qualité des composants.
   3. Accélération des délais de livraison.
@@ -240,7 +240,7 @@ Le **crowdsourcing** est une approche de résolution de problèmes ou de product
 
 La **Failure Modes and Effects Analysis** (FMEA) est une méthode proactive utilisée pour identifier les potentielles défaillances d'un produit ou d'un processus, évaluer leur gravité, leur fréquence d'apparition et leur détectabilité, puis mettre en place des actions correctives pour les prévenir.
 
-* **Étapes principales** 
+* **Étapes principales**
 
   1. Identifier les modes de défaillance possibles.
   2. Évaluer chaque défaillance selon trois critères : gravité, occurrence et détectabilité.
@@ -263,7 +263,9 @@ Cette méthode identifie les potentielles défaillances et établit des priorit�
 
 ## Sources
 
-* page=0> {% endlien %}
+{% lien %}
+* page=0>
+{% endlien %}
 
 ---
 
