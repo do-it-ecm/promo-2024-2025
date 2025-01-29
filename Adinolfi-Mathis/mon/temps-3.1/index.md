@@ -98,7 +98,7 @@ Une fois ArchLinux installé j'ai été déçu par l'interface graphique KDE Pla
 C'est l'heure de la personnalisation, pour cela j'ai opté pour l'interface [Hyprland](https://hyprland.org) 100% personnalisable et qui permet le tiling (mode de disposition de l'écran). Et aprés des heures de recherche de la config parfaite (ML4W) j'ai enfin mon Linux :
 
 <div style="text-align: center;">
-    <img src="ML4W.ppg" width="400"/>
+    <img src="ML4W.png" width="400"/>
 </div>
 
 ## Conclusion : Pourquoi et pour qui Linux ?
