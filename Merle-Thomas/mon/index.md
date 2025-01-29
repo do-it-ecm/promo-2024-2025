@@ -21,4 +21,4 @@ Ensemble des MON réalisés par Thomas.
 ## Temps 3
 
 - [MON 3.1 : Innovation Management : How to protect and make the Innovation viable ?](./temps-3.1)
-- [MON 3.2 :](./temps-3.2)
+- [MON 3.2 : Innovation Management : Managing the New Product Development Process](./temps-3.2)
