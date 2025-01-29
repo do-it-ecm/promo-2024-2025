@@ -814,6 +814,7 @@ rc-update add nginx default && \
 chmod +x /usr/local/bin/do-it-webserver.sh && \
 chmod +x /etc/init.d/do-it-webserver && \
 rc-update add do-it-webserver default && \
+(crontab -u do-it -l 2>/dev/null; echo "*/15 * * * * sh /home/do-it/.do-it/jobs/synchronizer.sh") | crontab -u do-it -
 sleep 5 && \
 echo "Starting the services" && \
 rc-service nginx start
