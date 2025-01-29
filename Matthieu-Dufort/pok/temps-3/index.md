@@ -35,8 +35,8 @@ Le but final de ce pok est d'acquérir de vrais connaissances sur le RGPD et de 
 - [x] Retracer les débuts de le RGPD
 - [x] Suivre l'évolution des régulations
 - [x] Analyser les grosses différences de régulation dans le monde
-- [ ] Comprendre l'impact de ses différences sur les entreprises
-- [ ] Observer les moyens mis en place pour le contrôle de son application
+- [x] Comprendre l'impact de ses différences sur les entreprises
+- [x] Observer les moyens mis en place pour le contrôle de son application
 
 #### Sprint 2
 
@@ -86,7 +86,7 @@ Le RGPD place les citoyens au centre de la protection des données personnelles 
   
 - **Droit d’opposition** : Tout individu peut s’opposer au traitement de ses données, notamment à des fins de prospection commerciale.
 
-### Responsabilité des entreprises
+### Responsabilités des entreprises
 
 Le RGPD impose aux entreprises des obligations strictes pour garantir la protection des données personnelles, avec un principe de responsabilité.
 
@@ -180,6 +180,48 @@ Il existe cependant quelques différences comme :
 
 Dans l'ensemble, tous les pays du monde ont aujourd'hui des règles sur la régulations des données similaires qui sont souvent comparable à celui du RGPD. Cependant, bien qu'il ait influencé de nombreuses législations, chaque pays ou région adapte ses lois en fonction de ses besoins spécifiques, de sa culture et de ses priorités en matière de protection des données. L'une des différences majeures réside dans la manière dont les pays équilibrent la protection des données avec des préoccupations telles que la sécurité nationale ou l'innovation technologique. Il reste aussi un des plus sévère en matière de sanctions financières.
 
+## Adaptation des entreprises ces différences
+
+Il existe pour les entreprises différentes façon de gérer ces changements de texte :
+
+- Approche centralisée : se base pour tous leurs clients sur le texte le plus stricte (souvent le RGPD)
+- Approche localisée : gestion locale en fonction de chaque texte
+
+Concernant le stockage des données, il y a aussi plusieurs tendance :
+
+- Stockage localisé : stocker les données dans un data center local (obligatoire en chine)
+- Transfert autorisé :  des accords existe entre certain pays présentant des lois similaires (Europe/Japon...) avec cryptage des données pour les transferts
+
+Concernant la gestion de données, c'est le même scénario :
+
+- Equipe locale de management pour l'approche localisée
+- Equipe globale pour l'approche centralisée
+- Equipe locale de gestion de crise pour être dans les délais juridiques de chaque pays
+
+Devant toutes ces différences, certaines entreprises appellent demandent un cadre internationnal tandis que d'autre profite des avantages présentés par ces différences pour exploiter au maximum chacunes des données.
+
+## Contrôle de l'application du RGPD
+
+Chaque pays européen détient une autorité de protection (comme la CNIL en France) des données qui réalise des contrôles, enquête, audit... afin de vérifier la bonne application du RGPD. Elles ont pour missions :
+
+- Mener des contrôles pour vérifier la conformité (en ligne et physique).
+- Répondre aux plaintes des citoyens.
+- Émettre des sanctions en cas de non-respect du RGPD.
+- Évaluer les entreprises sur la protection des données.
+
+Pour cela, elles peuvent utiliser plusieurs outils :
+
+- Analyse de site web et des cookies
+- Investigation sur entreprise
+- Demande de document (politique de gestion, contrats, registres...)
+
+Et elles peuvent ensuite appliquer différents types de sanctions qui peuvent bien sur se cumuler :
+
+- Sanction financière (20 millions ou 4% du CA mondial)
+- Obligation de mise en conformité (avec délai imposé)
+- Restriction des activités
+
+Et ceci est valable pour toute entreprise gérant des données de citoyens européens.
 
 {% details "Bilan Sprint 1" %}
 
@@ -191,12 +233,10 @@ J'ai pu finir cette première partie dans les temps sans trop de soucis, mais en
 
 ### Second Sprint
 
-
-## Bibliographie
-
-- Haseena Manji. (2016, February 2). Marxist view of education [Video]. YouTube. https://www.youtube.com/watch?v=o9xI9DOFZfw
-- Slat, B. (2019, April 10). Whales likely impacted by Great Pacific garbage patch. The Ocean Cleanup. https://www.theoceancleanup.com/updates/whales-likely-impacted-by-great-pacific-garbage-patch/
-- Tratamiento para la diabetes: Uso de insulina para controlar el azúcar en la sangre. (n.d.). Mayo Clinic. https://www.mayoclinic.org/es/diseases-conditions/diabetes/in-depth/diabetes-treatment/art-20044084
-- Frank, & Frank. (2024, July 23). Koffiebonen soorten uitgelegd: arabica vs robusta. The Kolektif. https://thekolektif.nl/blog/koffiebonen-soorten/
-- Smith, T. (2020). The citation manual for students: A quick guide (2nd ed.). Wiley.
-- Andreff, W. (2000). The evolving European model of professional sports finance. Journal of Sports Economics, 1(3), 257–276. https://doi.org/10.1177/152700250000100304
+- Le règlement général sur la protection des données - RGPD. CNIL. https://www.cnil.fr/fr/reglement-europeen-protection-donnees
+- Loi sur l’intelligence artificielle de l’UE - Développements et analyses actualisés de la loi sur l’intelligence artificielle de l’UE. https://artificialintelligenceact.eu/fr/
+- Directive 2002/58/CE du Parlement européen et du Conseil du 12 juillet 2002 concernant le traitement des données à caractère personnel et la protection de la vie privée dans le secteur des communications électroniques (directive vie privée et communications électroniques) - Légifrance. https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000337468.
+- Chambers T. L’impact du RGPD sur les entreprises internationales : enjeux et défis - Juridiques Conseils. Juridiques Conseils. https://www.avocats-valenciennes.com/limpact-du-rgpd-sur-les-entreprises-internationales-enjeux-et-defis/
+- Transferts de données hors UE : le cadre général prévu par le RGPD. https://www.cnil.fr/fr/transferts-de-donnees-hors-ue-le-cadre-general-prevu-par-le-rgpd
+- Novatek. Les sanctions avant et après RGPD. Novatek Consulting. https://novatek-consulting.com/les-sanctions-avant-et-apres-rgpd/. Published April 3, 2020.
+- Comment se passe un contrôle de la CNIL ?  (s. d.). CNIL. https://www.cnil.fr/fr/comment-se-passe-un-controle-de-la-cnil
