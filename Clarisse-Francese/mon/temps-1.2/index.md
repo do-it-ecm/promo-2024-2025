@@ -5,7 +5,7 @@ title: "MON 1.2 : Design thinking"
 authors:
   - Clarisse Francese
 
-date: 1970-10-01
+date: 2024-10-16
 temps: 1
 tags:
   - "design thinking"
