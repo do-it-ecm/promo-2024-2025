@@ -5,7 +5,7 @@ title: "MON 2.2 : les entreprises opales"
 authors:
   - Clarisse Francese
 
-date: 1971-01-01
+date: 2024-12-18
 temps: 2
 tags:
   - "entreprise opale"

@@ -5,7 +5,7 @@ title: "MON 3.2 : mindmap, lean et gestion de projet"
 authors:
   - Clarisse Francese
 
-date: 1971-03-01
+date: 2025-03-12
 temps: 3
 tags:
   - "mindmap"

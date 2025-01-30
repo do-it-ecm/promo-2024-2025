@@ -9,7 +9,17 @@ authors:
 ## POK & MON
 
 - [POK](./pok)
+  - [POK 1 : artiste en détresse (google sheets et apps script)](./pok/temps-1)
+  - [POK 2 : data visualisation sur des projets](./pok/temps-2)
+  - [POK 3 : récap des notions clés sur l'environnement](./pok/temps-3)
+
 - [MON](./mon)
+  - [MON 1.1 : faciliter l'intelligence collective](./mon/temps-1.1)
+  - [MON 1.2 : design thinking](./mon/temps-1.2)
+  - [MON 2.1 : rappels en Python](./mon/temps-2.1)
+  - [MON 2.2 : les entreprises opales](./mon/temps-2.2)
+  - [MON 3.1 : l'éloquence](./mon/temps-3.1)
+  - [MON 3.2 : mindmap, lean et gestion de projet](./mon/temps-3.2)
 
 ## Projet
 

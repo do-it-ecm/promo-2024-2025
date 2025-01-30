@@ -5,7 +5,7 @@ title: "POK 2 : data visualisation sur des projets"
 authors:
   - Clarisse Francese
 
-date: 1971-01-01
+date: 2024-12-18
 
 temps: 2
 tags:
@@ -18,7 +18,7 @@ résumé: Je compte apprendre l'art de la data visualisation à travers plusieur
 ---
 {% prerequis %}
 
-POK débutant : aucun prérequi
+POK débutant : aucun prérequis
 
 {% endprerequis %}
 {% lien %}

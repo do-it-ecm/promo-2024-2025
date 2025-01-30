@@ -5,7 +5,7 @@ title: "POK 1 : artiste en détresse (google sheets et apps script)"
 authors:
   - Clarisse Francese
 
-date: 2024-09-05
+date: 2024-10-16
 
 temps: 1
 tags:

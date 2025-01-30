@@ -5,7 +5,7 @@ title: "MON 2.1 : rappels en Python"
 authors:
   - Clarisse Francese
 
-date: 1970-11-01
+date: 2024-11-20
 temps: 2
 tags:
   - "python"
