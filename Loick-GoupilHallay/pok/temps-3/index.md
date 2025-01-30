@@ -824,4 +824,5 @@ rc-service do-it-webserver start
 
 Ce script met en place un serveur Nginx pour **servir** les fichiers statiques du site Do-It et un serveur Python pour écouter les webhooks GitHub et **mettre à jour** le site automatiquement.\
 Ces deux services redémarrent automatiquement en cas de crash.\
+Il met aussi en place la **synchronisation automatique** du site toutes les 15 minutes, au cas où le webhook ne fonctionnerait pas temporairement.
 Il faut simplement penser à **remplacer `EXAMPLETOKEN` par le token GitHub** dans le script.
