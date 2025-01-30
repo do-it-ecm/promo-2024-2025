@@ -1,7 +1,7 @@
 ---
 layout: layout/pok.njk
 
-title: "Titre du POK du temps 3"
+title: "POK 3 : récap des notions clés sur l'environnement"
 authors:
   - Clarisse Francese
 
@@ -9,18 +9,27 @@ date: 1971-03-01
 
 temps: 3
 tags:
+  - "saumon"
+  - "environnement"
 
-résumé: Un POK traitant d'un sujet.
+résumé: "Récap des notions clés sur l'environnement dont j'aurai besoin lors de mon TFE en conseil dans l'environnement"
 ---
 
 {% prerequis %}
 
-Liste des prérequis du POK ET/OU MON
+POK débutant : aucun prérequis
 
 {% endprerequis %}
 {% lien %}
 
-Les lien utiles pour la compréhension de celui-ci.
+- [Transition Journey](https://transitionjourney.notion.site/Transition-Journey-7bb72c81669343c38516b370c98d79f9)
+- Cours de la filière métier TREO (Transformation Environnementale des Organisations) disponibles sur Moodle
+- [Economie.gouv.fr](https://www.economie.gouv.fr/)
+- [Ecologie.gouv.fr](https://www.ecologie.gouv.fr/)
+- [ISO.org](https://www.iso.org/fr/iso-26000-social-responsibility.html)
+- Wikipédia
+- [Novethic](https://www.novethic.fr/lexique.html)
+- La Fresque du Climat
 
 {% endlien %}
 
