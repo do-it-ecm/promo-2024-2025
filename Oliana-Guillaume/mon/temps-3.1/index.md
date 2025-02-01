@@ -1,19 +1,19 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du premier MON du temps 3"
+title: "Agents IA"
 authors:
   - OLIANA Guillaume
 
-date: 1971-02-01
+date: 2025-02-01
 temps: 3
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+résumé: "Un MON traitant des agents IA et de leurs applications"
 ---
 
 {% prerequis %}
-Connaissance de base en IA et blockchain.
+
 {% endprerequis %}
 
 {% lien %}
