@@ -529,6 +529,10 @@ Cela permet de réduire la taille des fichiers HTML et d'accélérer le chargeme
 posthtml-url est un plugin eleventy qui permet de réécrire les URLs des médias dans les fichiers HTML.\
 Cela permet de pointer vers les médias stockés sur GitHub et de réduire la taille du build.
 
+##### Compression gzip
+
+J'ai ajouté une compression gzip sur les fichiers HTML, CSS et JS pour réduire la taille des fichiers et accélérer le chargement des pages. Combiné avec nginx pour servir les fichiers, cela permet de réduire la consommation de bande passante.
+
 ### Migration & GitOps
 
 Afin de ne plus être dépendant de GitHub Pages, il a été décidé d'utiliser nos propres serveurs pour héberger et exposer le site Do-It.
@@ -550,49 +554,95 @@ apk update && \
 apk upgrade && \
 apk add --no-cache nginx git python3 openrc && \
 rm -rf /var/cache/apk/* && \
-echo "Creating the do-it user and directory" && \
-addgroup -S do-it && \
-adduser -S -D -h /home/do-it -G do-it do-it && \
-mkdir -p /home/do-it/.do-it/jobs && \
-echo "Creating the nginx configuration file in /etc/nginx/http.d/do-it.conf" && \
-rm -f /etc/nginx/http.d/default.conf && \
-cat <<'EOF' > /etc/nginx/http.d/do-it.conf
-server {
-    # Listen on IPv4 and IPv6
-    listen 80;
-    listen [::]:80;
+mkdir -p /opt/do-it/jobs && \
+echo "Creating the nginx configuration file in /etc/nginx/nginx.conf" && \
+cat <<'EOF' > /etc/nginx/nginx.conf
+user nginx;
+worker_processes auto;
+pcre_jit on;
+error_log /var/log/nginx/error.log warn;
 
-    # Serve static files
-    root /home/do-it/.do-it/do-it;
-    index index.html;
+events {
+    worker_connections 1024;
+}
 
-    # Handle requests
-    location / {
-        # If the request is a POST, forward it to the python update server
-        if ($request_method = POST) {
-            proxy_pass http://localhost:3001;
-            break;
-        }
+http {
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
 
-        # Serve static files for other requests
-        try_files $uri $uri/ =404;
+    server_tokens off;
+    client_max_body_size 1;
+
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+    keepalive_timeout 65;
+    keepalive_requests 1000;
+
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers on;
+    ssl_session_cache shared:SSL:2m;
+    ssl_session_timeout 1h;
+    ssl_session_tickets off;
+
+    gzip on;
+    gzip_static on;
+    gzip_comp_level 2;
+    gzip_min_length 1000;
+    gzip_types text/html text/css application/javascript;
+    gzip_vary on;
+    gzip_buffers 16 8k;
+
+    log_format main '$remote_addr - $remote_user [$time_local] "$request" '
+                    '$status $body_bytes_sent "$http_referer" '
+                    '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log /var/log/nginx/access.log main;
+
+    map $http_upgrade $connection_upgrade {
+        default upgrade;
+        '' close;
     }
 
-    # Custom error page for 404 errors
-    error_page 404 /404.html;
-    location = /404.html {
-        internal;
+    server {
+        listen 80;
+        listen [::]:80;
+
+        root /opt/do-it/do-it;
+        index index.html;
+
+        location / {
+            if ($request_method = POST) {
+                proxy_pass http://localhost:3001;
+                break;
+            }
+
+            try_files $uri $uri/ =404;
+        }
+
+        # Custom error page for 404
+        error_page 404 /404.html;
+        location = /404.html {
+            internal;
+        }
+
+        # Cache HTML, CSS, JS for 1 week
+        location ~* \.(html|css|js)$ {
+            expires 7d;
+            add_header Cache-Control "public, max-age=604800, must-revalidate";
+            etag on;
+        }
     }
 }
 EOF
 
-echo "Creating the synchronizer script in /home/do-it/.do-it/jobs/synchronizer.sh" && \
-cat <<'EOF' > /home/do-it/.do-it/jobs/synchronizer.sh
+echo "Creating the synchronizer script in /opt/do-it/jobs/synchronizer.sh" && \
+cat <<'EOF' > /opt/do-it/jobs/synchronizer.sh
 #!/bin/sh
 
-DO_IT_PATH="${HOME}/.do-it/do-it"
+DO_IT_PATH="/opt/do-it/do-it"
 REMOTE_BRANCH="gh-pages"
-LOG_DIRECTORY="${HOME}/.do-it/logs"
+LOG_DIRECTORY="/opt/do-it/logs"
 LOG_FILE="${LOG_DIRECTORY}/synchronizer.log"
 
 mkdir -p ${LOG_DIRECTORY}
@@ -611,8 +661,8 @@ git reset --hard origin/${REMOTE_BRANCH} 2>&1 | log_with_timestamp | tee -a ${LO
 echo "Synchronized with the remote origin ${GIT_ORIGIN_URL} ${REMOTE_BRANCH} branch" 2>&1 | log_with_timestamp | tee -a ${LOG_FILE}
 EOF
 
-echo "Creating the server script in /home/do-it/.do-it/jobs/server.py" && \
-cat <<'EOF' > /home/do-it/.do-it/jobs/server.py
+echo "Creating the server script in /opt/do-it/jobs/server.py" && \
+cat <<'EOF' > /opt/do-it/jobs/server.py
 # coding: utf-8
 """
 Create a simple HTTP server that listens on a specified port.
@@ -780,17 +830,12 @@ name="do-it-webserver"
 description="Do-It Git Update Signals Python Web Server"
 
 command="/usr/local/bin/do-it-webserver.sh"
-command_user="do-it"
 
 pidfile="/var/run/${RC_SVCNAME}.pid"
 logfile="/var/log/${RC_SVCNAME}.log"
 
 depend() {
     need net
-}
-
-start_pre() {
-    checkpath --file --owner $command_user:$command_user --mode 0644 $logfile
 }
 
 supervisor="supervise-daemon"
@@ -802,19 +847,17 @@ EOF
 echo "Creating the web server service script in /usr/local/bin/do-it-webserver.sh" && \
 cat <<'EOF' > /usr/local/bin/do-it-webserver.sh
 #!/bin/sh
-python3 /home/do-it/.do-it/jobs/server.py --update-script /home/do-it/.do-it/jobs/synchronizer.sh --github-repo-owner do-it-ecm --github-repo do-it --github-branch gh-pages --secret-token EXAMPLETOKEN --log-file /home/do-it/.do-it/logs/server.log
+python3 /opt/do-it/jobs/server.py --update-script /opt/do-it/jobs/synchronizer.sh --github-repo-owner do-it-ecm --github-repo do-it --github-branch gh-pages --secret-token EXAMPLETOKEN --log-file /opt/do-it/logs/server.log --port 3001
 EOF
 
 echo "Cloning the do-it repository" && \
-git clone --branch gh-pages --single-branch https://github.com/do-it-ecm/do-it.git /home/do-it/.do-it/do-it && \
+git clone --branch gh-pages --single-branch https://github.com/do-it-ecm/do-it.git /opt/do-it/do-it && \
 echo "Setting permissions" && \
-chown -R do-it:do-it /home/do-it && \
-chmod -R 755 /home/do-it && \
 rc-update add nginx default && \
 chmod +x /usr/local/bin/do-it-webserver.sh && \
 chmod +x /etc/init.d/do-it-webserver && \
 rc-update add do-it-webserver default && \
-(crontab -u do-it -l 2>/dev/null; echo "*/15 * * * * sh /home/do-it/.do-it/jobs/synchronizer.sh") | crontab -u do-it -
+(crontab -l 2>/dev/null; echo "*/15 * * * * sh /opt/do-it/jobs/synchronizer.sh") | crontab -
 sleep 5 && \
 echo "Starting the services" && \
 rc-service nginx start
