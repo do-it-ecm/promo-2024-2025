@@ -42,7 +42,13 @@ résumé: "Ce 3ème MON sur l'Innovation Management présente une analyse approf
 {% note %}
 Objectifs :
 
-1.
+1. Comprendre les défis du développement de nouveaux produits
+2. Optimiser la prise de décision dans les projets innovants
+3. Mesurer et améliorer la performance des processus de développement
+4. Explorer des stratégies collaboratives et ouvertes
+5. Adopter une approche stratégique du développement produit 
+6. Stimuler la capacité d'innovation des entreprises
+   
 {% endnote %}
 
 ---
@@ -66,6 +72,7 @@ Objectifs :
   - [4.1. Quality Function Deployment (QFD)](#41-quality-function-deployment-qfd)
   - [4.2. Design for Manufacturing (DFM)](#42-design-for-manufacturing-dfm)
   - [4.3. Failure Modes and Effects Analysis (FMEA)](#43-failure-modes-and-effects-analysis-fmea)
+- [Conclusion](#conclusion)
 - [Sources](#sources)
 - [Horodateur](#horodateur)
 
@@ -127,11 +134,18 @@ Un produit peut être innovant et parfaitement adapté au marché tout en étant
 
 2. **Développement parallèle** : plusieurs étapes sont réalisées simultanément, permettant une meilleure coordination entre les équipes. Cette méthode réduit les temps de cycle mais peut engendrer des conflits si les dépendances ne sont pas bien gérées.
 
+![sequentiel vs parallele](./sequentiel_parallele.png "Sequential VS Parralel Development")
+
 *Recommandation* : favoriser le développement parallèle pour réduire les itérations chronophages tout en maintenant une coordination rigoureuse.
 
 ### 2.2. L’agilité avec les méthodes agiles<a name="22-lagilité-avec-les-méthodes-agiles"></a>
 
 Les méthodes agiles reposent sur des cycles courts appelés sprints, une forte collaboration entre équipes et une remise en question continue des solutions.
+
+* **Définition**:
+**Agile development** = A process commonly usedin software whereby the overall product is broken down into smaller independent pieces that are worked on by autonomous, self-organizing teams. Features are developed and presented to customers quickly so that the overall product can be rapidly and continuously adapted.
+
+![Waterfall vs agile](./waterfall_agile.png "Waterfall VS Agile Development")
 
 * **Concepts clés** :
   * **Scrum** : cadre agile organisé autour de sprints de deux à quatre semaines.
@@ -146,6 +160,11 @@ Les méthodes agiles reposent sur des cycles courts appelés sprints, une forte 
 ### 2.3. Les processus de validation : Stage-Gate Process<a name="23-les-processus-de-validation--stage-gate-process"></a>
 
 Le modèle Stage-Gate segmente le développement en étapes successives ponctuées de points de décision (gates). Chaque gate permet de valider la progression du projet, de réaliser des ajustements ou d’arrêter le projet.
+
+* *Définition*:
+  **go/kill decision points** = Des points de décision sont établis dans le processus de développement, où les gestionnaires doivent décider s'ils mettent fin au projet ou le laissent continuer.
+
+![Stage Gate Process](./stage_gate.png "Stage Gate Process")
 
 *Recommandation* : utiliser ces points pour valider la pertinence du projet et réduire les risques liés à un développement inefficace.
 
@@ -185,13 +204,19 @@ Les fournisseurs peuvent contribuer à optimiser la conception des produits en p
 
 Le **crowdsourcing** est une approche de résolution de problèmes ou de production qui fait appel à un large groupe de personnes, souvent via une plateforme en ligne. Les participants contribuent volontairement par des idées, des compétences ou des ressources en échange de récompenses, de reconnaissance ou simplement du plaisir de participer.
 
+* 4 étapes du crowdsourcing:
+  1. **Définition du besoin (Need Translation)** : Une déclaration claire et concise du besoin est formulée en supprimant tout jargon industriel. L'objectif est de traduire le défi en termes scientifiques simples pour attirer des solutions provenant de divers domaines, parfois inattendus. 
+  2. **Connexion (Connecting)** : Le défi d'innovation est diffusé au sein d'un réseau de fournisseurs de solutions
+  3. **Evaluation (Evaluation/Selection)** : Les propositions soumises sont examinées en profondeur. Les solutions les plus prometteuses sont compilées dans un rapport.
+  4. **Acquisition** : L'entreprise engage des négociations avec le fournisseur de la solution choisie pour conclure un accord portant sur le transfert de connaissances, une licence, un brevet, etc. Il peut également être nécessaire d'adapter la solution à ses besoins spécifiques.
+
 *Exemples de plateformes* :
-   * **Topcoder** : accès à une communauté de développeurs et experts techniques.
-   * **InnoCentive** : résolution de problèmes scientifiques.
+  * Topcoder : accès à une communauté de développeurs et experts techniques.
+  * InnoCentive : résolution de problèmes scientifiques.
 
 **Avantages** :
-   * Diversité des idées.
-   * Rapidité de résolution.
+  * Diversité des idées.
+  * Rapidité de résolution.
 
 *Recommandation* : solliciter des plateformes spécialisées pour accéder à des experts mondiaux et bénéficier d’idées novatrices.
 
@@ -201,6 +226,8 @@ Le **crowdsourcing** est une approche de résolution de problèmes ou de product
 ### 4.1. Quality Function Deployment (QFD)<a name="41-quality-function-deployment-qfd"></a>
 
 **Le Quality Function Deployment** (QFD), également appelé « maison de la qualité », est une méthode structurée qui permet de traduire les exigences des clients en caractéristiques techniques du produit. Cette approche vise à aligner les objectifs de conception sur les besoins réels des utilisateurs.
+
+![QFD](./qfd.png "QFD Process")
 
 * **Étapes principales** :
 
@@ -259,13 +286,34 @@ La **Failure Modes and Effects Analysis** (FMEA) est une méthode proactive util
 
 Cette méthode identifie les potentielles défaillances et établit des priorités pour leur prévention.
 
+## Conclusion 
+
+Les entreprises utilisent divers indicateurs pour mesurer l'efficacité et l'efficience de leurs processus de développement de nouveaux produits. Ces métriques permettent d'évaluer leur capacité à mener les projets de manière optimale, de la conception à la mise sur le marché.
+
+1. Évaluation du Processus de Développement :
+Les questions clés incluent :
+   * Quel est le temps moyen de développement (cycle de vie) des projets, et comment varie-t-il selon qu'il s'agit de projets de rupture, de plateformes ou dérivés ?
+   * Quel pourcentage de projets respectent les délais fixés ?
+   * Quel pourcentage de projets restent dans le budget prévu ?
+   * Quel pourcentage de projets aboutissent à un produit finalisé ?
+
+2. Évaluation de la Performance Globale de l'Innovation :
+Les entreprises évaluent aussi la rentabilité globale de leurs efforts d'innovation, notamment par :
+   * Le retour sur innovation (rapport entre les bénéfices tirés des nouveaux produits et les dépenses associées, telles que R&D, fabrication, commercialisation).
+   * Le pourcentage de projets atteignant leurs objectifs de vente.
+   * La proportion de revenus générés par des produits développés au cours des cinq dernières années.
+   * Le ratio de projets réussis par rapport au total des projets lancés.
+
+Ces indicateurs offrent aux entreprises une vision complète de la valeur générée par leurs efforts d'innovation, tout en identifiant les axes d'amélioration pour renforcer leur compétitivité.
+
 ---
 
 ## Sources
 
-{% lien %}
-* page=0>
-{% endlien %}
+- Schilling, Melissa A. *Strategic Management of Technological Innovation.*, Chap.11,  McGraw-Hill Education.
+- Cooper, Robert G. *Winning at New Products: Creating Value Through Innovation.* Basic Books.
+- NineSigma et InnoCentive: Plateformes pour le crowdsourcing de l'innovation.
+
 
 ---
 
@@ -275,8 +323,8 @@ Toutes les séances et le nombre d'heures que l'on y a passé.
 
 | Date | Heures passées | Indications |
 | -------- | -------- |-------- |
-| 06/01 | 3H | **Recherche et exploration** : Comprendre les concepts clés et identifier les outils |
-| 10/01 | 2H | **Structuration de l’étude** : Définition des grandes parties de la synthèse (R&D, roadmapping, lead users, mécanismes de protection) |
-| 17/01 | 3H | **Rédaction initiale** : Rédaction des parties sur la R&D, le roadmapping et lead users avec intégration d’exemples |
-| 18/01 | 2H | **Analyse des mécanismes de protection** : Étude approfondie des brevets, exploration des dispositifs européens (EPO, EUIPO) et des mécanismes informels |
-| 22/01 | 1H | **Finalisation** : Ajout des recommandations pratiques et des illustrations suggérées |
+| 24/01 | 2H | **Définition des objectifs stratégiques** : Recherche et rédaction des sections sur l’adéquation aux besoins des clients, la minimisation du temps de développement et le contrôle des coûts. |
+| 25/01 | 3H | **Processus et approches de développement** : Explication des méthodes séquentielles et parallèles et introduction des principes agiles et étude du processus Stage-Gate. |
+| 31/01 | 2H | **Implication des parties prenantes** : clients, fournisseurs et analyse approfondie du concept de crowdsourcing |
+| 01/02 | 3H | **Outils d’optimisation du développement** : QFD, DFM, FMEA |
+| 03/02 | 1H | **Conclusion et synthèse** |
