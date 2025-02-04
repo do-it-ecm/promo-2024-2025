@@ -60,7 +60,7 @@ JSX permet de produire des 'éléments' dans React. À la place de séparer les 
 
 Pour montrer un exemple de code en JSX :
 
-```
+```javascript
 function formatName(user) {
   return user.firstName + ' ' + user.lastName;
 }
@@ -71,9 +71,9 @@ const user = {
 };
 
 const element = (
-  <h1>
+  &lt;h1&gt;
     Hello, {formatName(user)}!
-  </h1>
+  &lt;/h1&gt;
 );
 ```
 
@@ -103,17 +103,17 @@ On utilise le hook (fonction spéciale dont le nom commence par use) **useState*
 
 Exemple illustratif :
 
-```
+```javascript
 import React, { useState } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0); // count est la variable d'état, setCount est la fonction pour mettre à jour l'état
 
   return (
-    <div>
-      <p>Le compteur est à : {count}</p>
-      <button onClick={() => setCount(count + 1)}>Incrémenter</button>
-    </div>
+    &lt;div&gt;
+      &lt;p&gt;Le compteur est à : {count}&lt;/p&gt;
+      &lt;button onClick={() => setCount(count + 1)}&gt;Incrémenter&lt;/button&gt;
+    &lt;/div&gt;
   );
 }
 ```
@@ -151,7 +151,7 @@ Pour une mise en pratique des points étudiés jusqu'à présent, j'ai décidé 
 
 Pour ce qui concerne les données, j'ai voulu faire au plus simple en créant un tableau d'objet JavaScript regroupant toutes les informations nécessaires. Voici à quoi ressemble le tableau :
 
-```
+```javascript
 const COURSES = [
   { name: "Marathon des Géants", place: "Toulouse", date: "10 novembre 2024", price: "50€", img: "./img/marathondesgeants", commitment: true},
   { name: "Semi Lourdes-Tarbes", place: "Lourdes", date: "17 novembre 2024", price: "20€", img: "./img/semilourdestarbes", commitment: false },

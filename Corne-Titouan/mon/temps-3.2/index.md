@@ -5,6 +5,8 @@ title: "Les enjeux du numérique dans le domaine de la santé"
 authors:
   - Titouan Corne
 
+temps: 3
+
 date: 2025-01-06
 tags: 
   - "temps 3"
