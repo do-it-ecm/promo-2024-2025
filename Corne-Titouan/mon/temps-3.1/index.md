@@ -5,9 +5,10 @@ title: "Test-Driven Development : les tests au coeur du développement"
 authors:
   - Titouan Corne
 
+temps: 3
+
 date: 2025-01-06
 tags: 
-  - "temps 3"
   - "test"
   - "vert"
   - "méthodologie"
@@ -38,7 +39,10 @@ Aucun prérequis nécessaire
 - [3. Les principaux tests rencontrés en informatique ](#3-les-principaux-tests-rencontrés-en-informatique-)
 - [4. Framework de test pour Javascript ](#4-framework-de-test-pour-javascript-)
 - [5. Mise en pratique du tdd : morpion (Angular + Jasmine) ](#5-mise-en-pratique-du-tdd--morpion-angular--jasmine-)
-- [6. Utiliser Copilot pour implémenter ses tests ](#6-utiliser-copilot-pour-implémenter-ses-tests-)
+- [6. Utiliser GitHub Copilot pour implémenter ses tests ](#6-utiliser-github-copilot-pour-implémenter-ses-tests-)
+  - [Ma question](#ma-question)
+  - [La réponse de GitHub Copilot Chat](#la-réponse-de-github-copilot-chat)
+  - [Analyse de sa réponse](#analyse-de-sa-réponse)
 - [Sources utiles](#sources-utiles)
 
 ## 1. Test-Driven Development : Comprendre la méthodologie <a id="section1"></a>
@@ -57,7 +61,7 @@ Le tdd suit généralement un cycle en trois étapes :
 
 On écrit un test qui vérifie que la fonction `add(a,b)` renvoie bien la somme de `a` et de `b`. Par exemple, add(4,3) devrait retourner 7
 
-``` python
+```python
 import unittest
 
 class TestAddition(unittest.TestCase):
@@ -77,7 +81,7 @@ Si on exécute le test à cette étape, on va obtenir une erreur qui est normale
 
 A présent on code la fonction `add` :
 
-``` python
+```python
 def add(a,b):
   return a + b
 ```
@@ -111,7 +115,7 @@ Les (nombreux) **avantages** du tdd :
 
 J'ai lu un exemple bien détaillé (*"The Money Example"* écrit en java) respectant à la lettre la méthodologie du tdd dans le livre *Tesr-Driven Development by example* écrit par Kent Beck (disponible au centre de documentation). C'est assez perturbant lorsqu'on n'est pas familier avec le tdd ! Par exemple, pour son premier test :
 
-``` java
+```java
   public void testMultiplication(){
     Dollar five = new Dollar(5);
     five.times(2);
@@ -121,7 +125,7 @@ J'ai lu un exemple bien détaillé (*"The Money Example"* écrit en java) respec
 
 Kent Beck va au plus simple (comme le veut le tdd) et implémente cette classe Dollar :
 
-``` java
+```java
   class Dollar
 
   Dollar(int amount){ //constructeur qui ne fait rien
@@ -168,7 +172,7 @@ Les concepts clés de BDD dans Jasmine :
 
 Exemples simples créés par ChatGPT :
 
-``` javascript
+```javascript
 describe("Addition", function() {
   it("should add two numbers correctly", function() {
     const result = 2 + 3;
@@ -214,7 +218,7 @@ Pour vérifier que Jasmine et Karma sont bien installés, il suffit d'aller dans
 
 On peut ensuite voir qu'un fichier **app.component.spec.ts**, associé au composant **"app.component.ts"**, a été créé. C'est dans ce fichier TypeScript, qu'on retrouvera les tests du AppComponent ! Voici à quoi il ressemble dès l'initialisation du projet :
 
-``` javascript
+```javascript
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
@@ -269,7 +273,7 @@ Ensuite, place au **tdd** :
 
 **Phase 1 (red)** : On écrit un test qui vérifie que le composant case s'affiche sous forme de box.
 
-``` javascript
+```javascript
 describe('CaseComponent', () => {
   let component: CaseComponent;
   let fixture: ComponentFixture<CaseComponent>;
@@ -289,9 +293,9 @@ Bien évidemment le test échoue !
 
 **Phase 2 (green)** : On écrit un code simple de façon à ce que le test réussisse. Pour cela, il suffit de créer un bouton dans le fichier case.component.html :
 
-``` html
-<button class="case">
-</button>
+```html
+&lt;button class="case"&gt;
+&lt;/button&gt;
 ```
 
  Le test passe !
@@ -304,7 +308,7 @@ Bien évidemment le test échoue !
 
 **Phase 1 (red)** : On écrit un nouveau test qui vérifie si la case est cliquable.
 
-``` javascript
+```javascript
 describe('CaseComponent', () => {
   let component: CaseComponent;
   let fixture: ComponentFixture<CaseComponent>;
@@ -324,9 +328,9 @@ Bien évidemment le test échoue ! (j'arrêterai de le préciser pour les procha
 
 **Phase 2 (green)** : On écrit un code simple de façon à ce que le test réussisse :
 
-``` html
-<button class="case" (click)="onClick()">
-</button>
+```html
+&lt;button class="case" (click)="onClick()"&gt;
+&lt;/button&gt;
 ```
 
  Le test passe !
@@ -339,7 +343,7 @@ Bien évidemment le test échoue ! (j'arrêterai de le préciser pour les procha
 
 **Phase 1 (red)** : On écrit un nouveau test qui vérifie que la box peut seulement prendre les valeurs X, O ou null.
 
-``` javascript
+```javascript
 describe('CaseComponent', () => {
   let component: CaseComponent;
   let fixture: ComponentFixture<CaseComponent>;
@@ -364,7 +368,7 @@ describe('CaseComponent', () => {
 
 **Phase 2 (green)** : On écrit un code simple de façon à ce que le test réussisse :
 
-``` javascript
+```javascript
 export class CaseComponent {
   onClick(){
   };
@@ -396,7 +400,7 @@ export class CaseComponent {
 
 **Phase 1 (red)** : On écrit un nouveau test qui changer la valeur d'une case vide (null) après un clic, mais qui empêcher le changement de la valeur si la case contient déjà X ou O.
 
-``` javascript
+```javascript
 describe('CaseComponent', () => {
   let component: CaseComponent;
   let fixture: ComponentFixture<CaseComponent>;
@@ -423,7 +427,7 @@ describe('CaseComponent', () => {
 
 **Phase 2 (green)** : On modifie légèrement la méthode `onClick` :
 
-``` javascript
+```javascript
 onClick(){
     if(this.value === null){
       this._value = 'X';
@@ -439,7 +443,7 @@ onClick(){
 
 {% details "Un dernier test pour le CaseComponent"%}
 
-``` javascript
+```javascript
 describe('CaseComponent', () => {
   let component: CaseComponent;
   let fixture: ComponentFixture<CaseComponent>;
@@ -486,7 +490,7 @@ Comme précédemment, place au **tdd** :
 
 **Phase 1 (red)** : On écrit un premier test qui vérifie qu'on a bien neuf cases dans la grille.
 
-``` javascript
+```javascript
 describe('GrilleComponent', () => {
   let component: GrilleComponent;
   let fixture: ComponentFixture<GrilleComponent>;
@@ -504,7 +508,7 @@ describe('GrilleComponent', () => {
 
 Dans le fichier grille.component.ts :
 
-``` javascript
+```javascript
 import { Component } from '@angular/core';
 import { CaseComponent } from '../case/case.component';
 import { CommonModule } from '@angular/common';
@@ -523,10 +527,10 @@ export class GrilleComponent {
 
 Dans le fichier grille.component.html :
 
-``` html
-<div class="grille">
-    <app-case *ngFor="let case of cases"></app-case>
-</div>
+```html
+&lt;div class="grille"&gt;
+    &lt;app-case *ngFor="let case of cases"&gt;&lt;/app-case&gt;
+&lt;/div&gt;
 ```
 
  Le test passe !
@@ -539,10 +543,100 @@ Pour le bien de tous, j'arrête les explications détaillées à partir d'ici. L
 
 {% enddetails %}
 
-## 6. Utiliser Copilot pour implémenter ses tests <a id="section6"></a>
+## 6. Utiliser GitHub Copilot pour implémenter ses tests <a id="section6"></a>
 
 suite à venir (en cours de rédaction)
-  
+
+Pour ceux qui ne connaissent pas cet outil, GitHub Copilot c'est une IA, plus précisément un LMM (comme chatGPT), utilisé pour le développement informatique. Son plus grand atout : un gain d'efficacité remarquable.
+
+Cet outil est payant, mais il y a une offre étudiante ([GitHub Copilot Student](https://docs.github.com/fr/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student)) qui est gratuite. C'est celle-ci, que j'utilise.
+
+GitHub Copilot peut être ajouté, en tant qu'extension, à son IDE (par exemple à Visual Studio Code). Quand tu installes Copilot sur VS Code, deux extensions sont ajoutées :
+
+- **GitHub Copilot**, qui propose de compléter le code de façon "intelligente" (auto-completion).
+- **GitHub Copilot Chat**, qui permet d'avoir une *conversation* avec l'IA via une interface conversationnelle, similaire à ChatGPT.
+
+GitHub Copilot, une fois intégré à VS Code est un outil très puissant puisqu'il peut scanner le code déjà écrit et proposer des améliorations sur le code existant, ou des suggestions pour continuer le développement.
+
+{% details "Exemple illustratif" %}
+
+GitHub Copilot m'a grandement aidé pour développer la fin du jeu de **morpion**. Voici un exemple de *conversation* qu'on a pu avoir :
+
+### Ma question
+
+For the moment I didn't write anything to end the game ... What do you suggest ?
+
+### La réponse de GitHub Copilot Chat
+
+To handle the end of the game in a Tic-Tac-Toe application, you need to implement a method to check for a win or a draw after each move. Here's a step-by-step plan:
+
+Check for Win: Create a method to check if the current player has won the game.
+Check for Draw: Create a method to check if the game is a draw.
+Update Game State: Modify the game state accordingly when a win or draw is detected.
+Here's an example implementation:
+
+```javascript
+// ...existing code...
+
+// Method to check for a win
+checkWin(): boolean {
+  const winPatterns = [
+    [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
+    [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
+    [0, 4, 8], [2, 4, 6]             // Diagonals
+  ];
+
+  return winPatterns.some(pattern => 
+    pattern.every(index => this.board[index] === this.currentPlayer)
+  );
+}
+
+// Method to check for a draw
+checkDraw(): boolean {
+  return this.board.every(cell => cell !== null);
+}
+
+// Method to handle the end of the game
+handleEndGame() {
+  if (this.checkWin()) {
+    console.log(`Player ${this.currentPlayer} wins!`);
+    // Additional logic to handle win (e.g., disable further moves)
+  } else if (this.checkDraw()) {
+    console.log("It's a draw!");
+    // Additional logic to handle draw
+  } else {
+    this.changePlayer(this.currentPlayer);
+  }
+}
+
+// Modify the onClick method to include end game check
+onClick(index: number) {
+  if (!this.board[index]) {
+    this.board[index] = this.currentPlayer;
+    this.handleEndGame();
+  }
+}
+
+// ...existing code...
+```
+
+In this example:
+
+checkWin checks if the current player has a winning combination.
+checkDraw checks if all cells are filled without a winner.
+handleEndGame calls these methods and handles the game state accordingly.
+The onClick method is modified to call handleEndGame after a move.
+
+### Analyse de sa réponse
+
+L'IA a dirctement compris qu'il s'agissait d'un jeu de **morpion** (Tic-Tac-Toe en anglais). Sa proposition de code est tout à fait cohérente, elle respecte les règles du jeu et elle est complètement en phase avec le code existant (nom de variables, etc)
+
+{% enddetails %}
+
+GitHub Copilot est excellent pour l'auto-completion, il m'a devancé à de nombreuses reprises. Il m'a été d'une grande utilité pour implémenter le design du jeu, en me proposant des feuilles CSS toutes faites ! Quel grand gain de temps.
+
+Je sais dorénavant que j'utiliserai GitHub Copilot sur d'autres projets !
+
 ## Sources utiles
 
 {% lien %}
@@ -550,5 +644,6 @@ suite à venir (en cours de rédaction)
 - [A Practical Example using Test Driven Development. Source : Vandan Gogna, an IBM Garage expert, sur Medium (2021)](https://vandangogna.medium.com/a-practical-example-using-test-driven-development-88b4536ac574)
 - [*Test-Driven Development by example* de Kent Beck (2003)](https://github.com/test-driven-development/kent-beck-money-example/blob/master/kent-beck-test-driven-development-by-example.pdf)
 - [Doc officielle du framework Jasmine](https://jasmine.github.io/)
+- [Vidéo Youtube : Apprendre GitHub COPILOT en juste 5 MINUTES (2024) de Melvynx](https://www.youtube.com/watch?v=2CzwdX3jLX4)
 
 {% endlien %}

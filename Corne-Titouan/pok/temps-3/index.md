@@ -5,10 +5,10 @@ title: "Angular - Front-End Framework (2/2)"
 authors:
   - Titouan Corne
 
-date: 2025-01-04
+temps: 3
 
+date: 2025-01-04
 tags:
-  - "temps 3"
   - "vert"
   - "Dev"
   - "Web"
@@ -128,13 +128,203 @@ J'ai également vu la limite de la maquette Figma (cf POK 2). Celle-ci est très
 
 ## Table des matières
 
-1. [Partie 1](#section1)
+1. [Tester mon application](#section1)
 2. [Partie 2](#section2)
 3. [Conclusion](#section3)
 
-## Partie 1 <a id="section1"></a>
-
 suite à venir (en cours de rédaction)
+
+## Tester mon application <a id="section1"></a>
+
+Après avoir réalisé mon MON 3.1, j'ai pris conscience de l'importance des tests. J'ai donc décidé de tester mon application **Miam'Miam**.
+Pour ce faire, j'ai revu chaque fichier de test de chaque composant, dans lesquels des tests de base avaient été automatiquement implémentés lors de la création du composant.
+
+J'ai modifié ces tests pour qu'ils soient en phase avec le code déjà écrit lors de mon POK 2.
+
+J'ai rapidement réalisé que je devais trouver une manière de tester non seulement chaque composant, mais aussi leurs interactions entre eux, notamment pour ceux qui consomment des données (présentes dans le fichier db.json).
+
+Je me suis alors intéressé au principe de **mock**.
+
+### Mocker un service pour les tests unitaires
+
+En anglais **'to mock'** signifie **'simuler'**.
+Dans mon application web, je dois **mocker certains services injectables** pour tester un composant.
+Les composants angular sont des petites parties de code réutilisées, qui remplissent des fonctions spécifiques.
+Souvent, ces composants se font injecter des services tel que **recepe-service** pour mon cas. C'est grâce à ces services que les composants accèdent aux données.
+Ainsi pour tester un composant qui dispose d'un service, il faut simuler ce service (il faut le **mocker**).
+
+Dans la documentation de [**Jasmine**](https://jasmine.github.io/tutorials/module_mocking) : *"Le module mocking est une technique de test où un test remplace partiellement ou totalement un module importé dans un autre, sans que les modules impliqués n’aient à coopérer. Dans la plupart des cas, l'injection de dépendances est une meilleure approche que le module mocking, car elle rend le code plus flexible et maintenable."*
+
+Avantages et inconvénients du **module mocking** :
+
+| Avantages | inconvénients |
+| -------- | -------- |
+| Permet de tester facilement du code fortement couplé à ses dépendances | Encourage le couplage excessif en supprimant le retour d'information des tests sur ce problème |
+| Utile pour tester du code existant (*legacy code*) qui n'a pas été conçu pour être facilement testable | Modifie l'état global, rendant les tests instables (flaky) si les mocks ne sont pas réinitialisés entre les tests |
+| Peut être pratique si l'on préfère utiliser des dépendances fortement intégrées (hard-wired) | Fonctionne à contre-courant du langage JavaScript en permettant à un fichier de modifier des variables globales d'un autre fichier, ce qui peut être source de confusion |
+| . | Dépend souvent d'APIs instables ou de détails internes de Node, des transpileurs ou des bundlers, ce qui augmente le risque de dysfonctionnements futurs |
+
+{% details "Exemple : comment mocker un service Angular en test unitaire avec un objet espion (spy) ?" %}
+
+#### Création d'un service Angular (UserService)
+
+Lorsque on "mock" un service en Angular, on simule son comportement à l'aide d'un objet espion (spy). Cela signifie qu'on remplace le service réel par un faux service qui a des méthodes contrôlées. Ces méthodes ne réalisent aucune logique réelle, mais elles retournent des résultats simulés pour le test.
+
+```typescript
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class UserService {
+  getUser() {
+    return { name: 'Titouan', age: 25 };
+  }
+}
+```
+
+#### Création du composant utilisant ce service (UserComponent)
+
+```typescript
+import { Component } from '@angular/core';
+import { UserService } from './user.service';
+
+@Component({
+  selector: 'app-user',
+  template: `&lt;p&gt; &#123;&#123; user?.name &#125;&#125; (&#123;&#123; user?.age &#125;&#125 ans)&lt;/p&gt;`,
+})
+export class UserComponent {
+  user: any;
+
+  constructor(private userService: UserService) {}
+
+  ngOnInit() {
+    this.user = this.userService.getUser();
+  }
+}
+```
+
+#### Écriture du test unitaire avec un mock du service
+
+```typescript
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { UserComponent } from './user.component';
+import { UserService } from './user.service';
+import { of } from 'rxjs'; // Permet de créer des valeurs observables simulées
+
+describe('UserComponent', () => {
+  let component: UserComponent;
+  let fixture: ComponentFixture&lt;UserComponent&gt;;
+  let mockUserService: jasmine.SpyObj&lt;UserService&gt;;
+
+  beforeEach(() =&gt; {
+    // Création d’un mock du UserService
+    mockUserService = jasmine.createSpyObj('UserService', ['getUser']);
+
+    // Simulation d'une réponse du service
+    mockUserService.getUser.and.returnValue({ name: 'Mocked User', age: 99 });
+
+    TestBed.configureTestingModule({
+      declarations: [UserComponent],
+      providers: [{ provide: UserService, useValue: mockUserService }], // On remplace le vrai service par le mock
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(UserComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should display mocked user data', () => {
+    // Vérifie que les données affichées sont celles du mock
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('p').textContent).toContain('Mocked User (99 ans)');
+  });
+
+  it('should call getUser() from UserService', () => {
+    // Vérifie que la méthode getUser() du service a bien été appelée
+    expect(mockUserService.getUser).toHaveBeenCalled();
+  });
+});
+```
+
+#### Explications
+
+- On crée un "spy object" (jasmine.createSpyObj) pour simuler le UserService et on lui donne une fausse méthode getUser().
+- On remplace le vrai UserService dans TestBed avec notre version mockée (useValue: mockUserService).
+- On simule la réponse du service en forçant une valeur ({ name: 'Mocked User', age: 99 }).
+- On teste que les valeurs affichées correspondent bien aux valeurs mockées.
+- On vérifie que getUser() a bien été appelé par le composant.
+
+{% enddetails %}
+
+{% details "Fake Service en Angular" %}
+
+Un **Fake Service** est une classe qui imite le vrai service, mais elle est écrite **directement dans le code du test** et **ne fait pas d'appels externes**. Son but est de **remplacer** le vrai service tout en gardant une logique réaliste.
+
+### Création d'un service
+
+```typescript
+@Injectable({
+  providedIn: 'root'
+})
+export class UserService {
+  constructor(private http: HttpClient) {}
+
+  getUser(): Observable&lt;User&gt; {
+    return this.http.get&lt;User&gt;('https://api.example.com/user'); // Appel HTTP réel
+  }
+}
+```
+
+Dans un test unitaire, on ne veut pas appeler l'API, car :
+
+- Ça rendrait les tests **lents** et instables (si l’API est en panne).
+- On veut **contrôler** ce que l’API retourne pour tester différents cas.
+
+#### Création de la classe FakeUserService dans le test
+
+```typescript
+class FakeUserService {
+  getUser(): Observable&lt;User&gt; {
+    return of({ name: 'Titouan', age: 24 }); // Retourne une donnée simulée
+  }
+}
+```
+
+Ici, on crée une classe qui imite le vrai service. La méthode getUser() retourne une fausse réponse (un *Observable* avec un utilisateur simulé). Il n'y a pas d’appel HTTP,ce qui rend le test rapide et stable.
+
+#### Utiliser le Fake Service dans le test
+
+Dans le fichier d'implémentation du test, on remplace UserService par FakeUserService dans le TestBed :
+
+```typescript
+TestBed.configureTestingModule({
+  providers: [{ provide: UserService, useClass: FakeUserService }]
+});
+```
+
+Puis on écrit les tests :
+
+```typescript
+it('should get user data', () =&gt; {
+  userService.getUser().subscribe(user =&gt; {
+    expect(user.name).toBe('Titouan');
+    expect(user.age).toBe(25);
+  });
+});
+//... autres tests
+```
+
+Ainsi on teste la vraie logique du composant, sans dépendre de l’API (pas d'appel => test fiable & rapide). On garde une logique réaliste, contrairement à un simple mock.
+
+{% enddetails %}
+
+{% info %}
+Dans le cas où la structure ou la logique du service change, il faut mettre à jour le Fake Service pour qu'il reste cohérent avec le vrai service.
+
+Mais un Fake Service **n’a pas besoin d’être aussi complet que le vrai service**. Il doit juste fournir les fonctionnalités nécessaires aux tests.
+{% endinfo %}
+Mais comme nous l'explique la documentation de Jasmine, les mocks ont leur limite... En effet avec les mocks, les tests deviennent trop dépendants des implémentations internes. Si on change la structure du service, il faudra aussi mettre à jour tous les mocks.
 
 ## Partie 2 <a id="section2"></a>
 
