@@ -140,7 +140,7 @@ Ce POK détaille le développement du backend pour le site **Dark Kitchen**. Il 
 | 01/11  | 3H             | Mise en place de MongoDB et connexion               |
 | 02/11  | 2H             | Création des modèles de données (User, Product)     |
 | 07/11  | 2H             | Développement des routes API pour l'authentification |
-| 07/12  | 3H             | Création du middleware d'authentification JWT       |
-| 08/12  | 3H             | Tests manuels des routes et ajustements |
+| 07/11  | 3H             | Création du middleware d'authentification JWT       |
+| 08/11  | 3H             | Tests manuels des routes et ajustements |
 | 12/11  | 4H             | Intégration des produits dynamiques au backend      |
 | 14/11  | 4H             | Connexion du frontend au backend (authentification et produits) |
