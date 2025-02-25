@@ -50,11 +50,10 @@ Au cours de mon cursus j'ai déjà eu l'occasion de travailler sur des modèles 
 
 #### Sprint 2
 
-- [ ] Implémentation du modèle de recommandation avec ALS (Alternating Least Squares) (4h)
+- [x] Implémentation du modèle de recommandation avec ALS (Alternating Least Squares) (4h)
 - [ ] Optimisation des hyperparamètres du modèle (3h)
-- [ ] Évaluation des performances (précision, rappel, RMSE) (2h)
 - [ ] Génération de recommandations pour les utilisateurs (2h)
-- [ ] Documentation finale et présentation des résultats (1h)
+- [ ] Documentation finale (1h)
 
 
 ### Horodatage
@@ -70,6 +69,7 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 | Dimanche 26/01  | 2h  | Exploration initiale des données (analyse des colonnes et visualisation) |
 | Dimanche 26/01  | 1h  | Nettoyage et transformation des données (gestion des valeurs manquantes, typage) |
 | Dimanche 26/01  | 1h  | Rédaction |
+| Mardi 25/02  | 3h  | Implémentation du modèle de recommandation avec ALS |
 
 ## Contenu
 
@@ -197,3 +197,47 @@ Pour garantir une exploitation optimale des données, des vérifications ont ét
 Les données sont désormais prêtes pour la création des matrices utilisateurs-films et l’implémentation du modèle.  
 
 
+### Second Sprint
+
+#### Implémentation du modèle de recommandation avec ALS
+
+Après avoir compris la théorie du modèle ALS, créé l'environnement pyspark, importé, nettoyé et exploré les données de MovieLens nous pouvons implémenter une première fois le modèle ALS.
+
+La première étape à réaliser est de diviser notre dataset **ratings**  en deux dataset, un dataset d'entrainement et un dataset de test. Comme il est coutume de le faire pour ce type de sujet, nous allons prendre aléatoirement 80% des lignes du dataset pour constituer le dataset d'entrainement et 20% pour le dataset de test.
+Le modèle va donc être appliqué sur le set d'entrainement et calculer de la même façon que définit dans la partie 1 du premier  sprint les matrices \\( U \\) et \\( M \\).
+
+{% details "Le code" %}
+
+```python
+from pyspark.ml.recommendation import ALS
+from pyspark.ml.evaluation import RegressionEvaluator
+
+rating = rating.select("userId", "movieId", "rating")
+train, test = rating.randomSplit([0.8, 0.2], seed=42)
+
+als = ALS(
+    userCol="userId",
+    itemCol="movieId",
+    ratingCol="rating",
+    coldStartStrategy="drop"
+)
+
+model = als.fit(train)
+```
+
+{% enddetails %}
+
+Pour évaluer notre modèle, on va l'appliquer au set de test et calculer l'erreur quatratique moyenne RMSE (Root Mean Squared Error) qui est une métrique d'évaluation qui mesure l'écart moyen entre les prédictions du modèle et les valeurs réelles. Plus la valeur de RMSE est proche de 0, plus la prédiction est bonne.
+Le calcul de la valeur du RMSE pour cette première application du modèle nous donne **RMSE = 0.84**. Ce qui signifie que, en moyenne, l'écart entre la note prédite et la note réelle est de 0.84 points.
+
+Pour mieux visualiser la performance de cette première appliquation du modèle, voici  un histogramme montrant les écarts entre les notes prédites et les notes réelles :
+
+{% details "Histogramme des écarts" %}
+
+![Ecarts](./images/hist_ecarts-1.png)
+
+{% enddetails %}
+
+Le système semble être globalement performant, cependant il existe certains paramètres appelés hyperparamètres clés. Un hyperparamètre est une valeur définie avant l'entraînement d’un modèle de machine learning. Contrairement aux paramètres (qui sont appris par le modèle), les hyperparamètres contrôlent la manière dont le modèle apprend et se généralise. Dans la partie qui suit, nous allons explorer ces différents paramètres et en modifier certains afin de voir s'il est possible de faire diminuer la valeur de RMSE.
+
+#### Optimisation des hyperparamètres du modèle
