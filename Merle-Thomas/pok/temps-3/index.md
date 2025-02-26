@@ -27,10 +27,9 @@ résumé: "Détection de lignes de voie sur Images et Vidéos : application à l
 - Notions de base en traitement d'image (filtres, détection de contours, seuillage).
 - Compréhension des concepts de segmentation et de détection de formes.
 {% endprerequis %}
+
 {% lien %}
-
 ['Repo Github'](https://github.com/ThomasMerle25/Lane_Detection_Pipeline)
-
 {% endlien %}
 
 Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce POK. On oubliera pas de donner :
@@ -39,6 +38,25 @@ Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de 
 - les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
 
 # POK3 - Computer Vision - Lane Detection Pipeline
+
+---
+## Table des matières<a name="table-des-matières"></a>
+
+- [POK3 - Computer Vision - Lane Detection Pipeline](#pok3---computer-vision---lane-detection-pipeline)
+  - [Table des matières](#table-des-matières)
+  - [Objectifs principaux](#objectifs-principaux)
+  - [Rappels théoriques et justification des choix techniques](#rappels-théoriques-et-justification-des-choix-techniques)
+  - [Sprints](#sprints)
+    - [Sprint 1 : Exploration des données](#sprint-1--exploration-des-données)
+    - [Sprint 2 : Mise en place des outils et bibliothèques](#sprint-2--mise-en-place-des-outils-et-bibliothèques)
+    - [Sprint 3 : Développement des fonctions de traitement d'image](#sprint-3--développement-des-fonctions-de-traitement-dimage)
+    - [Sprint 4 : Construction du pipeline de traitement d'image](#sprint-4--construction-du-pipeline-de-traitement-dimage)
+    - [Sprint 5 : Application aux images et vidéos](#sprint-5--application-aux-images-et-vidéos)
+    - [Retour d’expérience](#retour-dexpérience)
+    - [Conclusion](#conclusion)
+  - [Horodateur](#horodateur)
+
+---
 
 Ce travail vise à développer un pipeline de Computer Vision capable de détecter les lignes de voie sur des images et des vidéos. Ce projet permet de mettre en pratique de nouveaux concepts de Machine Learning que nous ne voyons pas à Centrale, en s'appuyant sur la bibliothèque OpenCV de Python. Les données utilisées proviennent du programme "Self Driving Car Engineer Nanodegree" d'Udacity. J'ai créer un notebook Python développé sur Jupyter via l'environnement Anaconda.
 
@@ -85,7 +103,7 @@ D'autres méthodes comme la segmentation sémantique par réseaux de neurones au
   - [x] Visualisation des données pour comprendre les caractéristiques des lignes de voie.
   - [x]Analyse des difficultés potentielles : variations d'éclairage, différents types de routes, présence de bruit.
 
-## Sprint 2 : Mise en place des outils et bibliothèques
+### Sprint 2 : Mise en place des outils et bibliothèques
 
 - **Tâches** :
   - [x] Installation et importation des bibliothèques Python nécessaires : OpenCV, NumPy, Matplotlib.
@@ -98,8 +116,6 @@ D'autres méthodes comme la segmentation sémantique par réseaux de neurones au
   - [x] Développement d'un filtre gaussien pour réduire le bruit de l’image.
   - [x] Mise en place de la détection des contours avec l’algorithme de Canny.
   - [x] Définition d’une région d’intérêt (ROI) pour se concentrer sur la zone utile.
-
---
 
 ### Sprint 4 : Construction du pipeline de traitement d'image
 
@@ -138,6 +154,8 @@ D'autres méthodes comme la segmentation sémantique par réseaux de neurones au
 ### Conclusion
 
 Ce projet met en application plusieurs techniques de Computer Vision pour résoudre un problème concret de détection de lignes de voie. L’approche basée sur OpenCV permet d’obtenir un résultat efficace tout en minimisant la complexité computationnelle. D'autres méthodes, comme l'apprentissage profond, auraient pu être envisagées mais nécessitent des ressources et une annotation de données plus importantes. Ce pipeline peut être étendu et optimisé pour des applications avancées, notamment en conduite autonome.
+
+---
 
 ## Horodateur
 
