@@ -51,8 +51,9 @@ Au cours de mon cursus j'ai déjà eu l'occasion de travailler sur des modèles 
 #### Sprint 2
 
 - [x] Implémentation du modèle de recommandation avec ALS (Alternating Least Squares) (4h)
-- [ ] Optimisation des hyperparamètres du modèle (3h)
-- [ ] Génération de recommandations pour les utilisateurs (2h)
+- [x] Optimisation des hyperparamètres du modèle (3h)
+- [x] Analyse du modèle optimisé (1h)
+- [ ] Génération de recommandations pour les utilisateurs (1h)
 - [ ] Documentation finale (1h)
 
 
@@ -70,6 +71,10 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 | Dimanche 26/01  | 1h  | Nettoyage et transformation des données (gestion des valeurs manquantes, typage) |
 | Dimanche 26/01  | 1h  | Rédaction |
 | Mardi 25/02  | 3h  | Implémentation du modèle de recommandation avec ALS |
+| Mercredi 26/02 matin | 2h  | Optimisation des hyperparamètres du modèle |
+| Mercredi 26/02 soir | 2h  | Optimisation des hyperparamètres du modèle |
+| Mercredi 26/02 soir | 1h  | Analyse du modèle optimisé  |
+
 
 ## Contenu
 
@@ -241,3 +246,30 @@ Pour mieux visualiser la performance de cette première appliquation du modèle,
 Le système semble être globalement performant, cependant il existe certains paramètres appelés hyperparamètres clés. Un hyperparamètre est une valeur définie avant l'entraînement d’un modèle de machine learning. Contrairement aux paramètres (qui sont appris par le modèle), les hyperparamètres contrôlent la manière dont le modèle apprend et se généralise. Dans la partie qui suit, nous allons explorer ces différents paramètres et en modifier certains afin de voir s'il est possible de faire diminuer la valeur de RMSE.
 
 #### Optimisation des hyperparamètres du modèle
+
+Après avoir essayer d'agrandir le set d'entrainement (90% du set total), l'erreur n'est diminuée de façon significative. De plus,
+le set de test doit être suffisamment grand afin de pouvoir correctement tester notre modèle. Cherchons maintenant quels hyperparamètres changer afin de potentiellement réduire l'erreur.
+
+Voici les principaux paramètres ajustables dans le modèle ALS de pyspark :
+
+1. **rank :**
+   - Définit le nombre de facteurs latents dans la factorisation de la matrice utilisateur-item.
+   - Valeurs typiques : entre 10 et 50.
+2. **maxIter :**
+   - Nombre maximum d'itérations pour la convergence de l'algorithme.
+   - Valeurs typiques : 10 à 20.
+3. **regParam :**
+   - Paramètre de régularisation (L2) pour éviter le surajustement.
+   - Valeurs typiques : 0.01 à 0.1.
+4. **alpha (uniquement si implicitPrefs=True) :**
+   - Contrôle l'importance des préférences implicites.
+   - Valeurs typiques : 10 à 40.
+
+Après avoir recherché les valeurs optimales pour chacuns de ces paramètres par dichotomie, voici les valeurs que nous avons trouvé :
+
+| Paramètres | Valeurs |
+| -------- | -------- |
+| **rank**  | 16 | 
+| **maxIter**  | 15 | 
+| **regParam** | 0.055 | 
+| **alpha** | 25 | 
