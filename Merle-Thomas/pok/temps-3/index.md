@@ -68,7 +68,7 @@ Pour les personnes n'ayant pas de connaissance préalable des techniques utilis�
 
 - **Définition d'une région d'intérêt (ROI)** : Pour se concentrer uniquement sur la route et les lignes de voie, on applique un masquage qui exclut les zones non pertinentes de l’image. Cela réduit la quantité d’informations à traiter et améliore la précision de la détection.
 
-- **Transformée de Hough pour la détection des lignesv : Cet algorithme permet de détecter des formes géométriques dans une image. Il est idéal pour identifier les lignes de marquage routier, car il recherche des alignements de pixels formant des lignes droites.
+- **Transformée de Hough pour la détection des lignes** : Cet algorithme permet de détecter des formes géométriques dans une image. Il est idéal pour identifier les lignes de marquage routier, car il recherche des alignements de pixels formant des lignes droites.
 
 D'autres méthodes comme la segmentation sémantique par réseaux de neurones auraient pu être utilisées, mais elles nécessitent un entraînement complexe et des ressources de calcul importantes.
 
@@ -77,7 +77,6 @@ D'autres méthodes comme la segmentation sémantique par réseaux de neurones au
 ---
 
 ## Sprints
-
 
 ### Sprint 1 : Exploration des données
 
@@ -117,7 +116,6 @@ D'autres méthodes comme la segmentation sémantique par réseaux de neurones au
   - [x] Extension du pipeline aux vidéos : lecture frame par frame et traitement en temps réel.
   - [x] Ajustement des paramètres de détection (seuils de Canny, paramètres de Hough) pour améliorer la robustesse et la précision.
   - [x] Comparaison des résultats obtenus sur différentes conditions de routes.
-
 
 ---
 
