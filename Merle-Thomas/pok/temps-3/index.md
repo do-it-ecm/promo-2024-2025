@@ -78,6 +78,7 @@ D'autres méthodes comme la segmentation sémantique par réseaux de neurones au
 
 ## Sprints
 
+
 ### Sprint 1 : Exploration des données
 
 - **Tâches** :
@@ -116,6 +117,7 @@ D'autres méthodes comme la segmentation sémantique par réseaux de neurones au
   - [x] Extension du pipeline aux vidéos : lecture frame par frame et traitement en temps réel.
   - [x] Ajustement des paramètres de détection (seuils de Canny, paramètres de Hough) pour améliorer la robustesse et la précision.
   - [x] Comparaison des résultats obtenus sur différentes conditions de routes.
+
 
 ---
 
