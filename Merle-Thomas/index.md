@@ -45,4 +45,4 @@ Cours suivis :
 
 ## Projet 3A
 
-[Notre Projet : Direct Live Radio](../_projets/jukebox)
+[Notre Projet : Jukebox](../_projets/jukebox)
