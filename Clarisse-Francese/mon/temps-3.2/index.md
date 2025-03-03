@@ -26,15 +26,13 @@ Les lien utiles pour la compréhension de celui-ci.
 
 {% endlien %}
 
-## Sommaire
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-- [Truc](#t)
-- [Bidule](#b)
-- [Conclusion](#ccl)
+## Truc
 
-<h2 id=t> Truc</h2>
-
-<h2 id=ccl> 👍Conclusion</h2>
+## 👍Conclusion
 
 Blabla
 

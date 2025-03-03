@@ -21,7 +21,7 @@ résumé: Optimisation des tableaux de comptabilité de ma soeur artiste
 POK débutant : aucun prérequis
 
 {% endprerequis %}
-{% details "Ressources mentionnées dans ce POK" %}
+{% lien %}
 
 - [POK : Un peu d'Excel/Google Sheets pour mourir moins idiot](/promos/2023-2024/TAING-Henri/mon/temps-2.1/)
 - [Formation sheets-Pratique.com](https://sheets-pratique.com/fr/cours)
@@ -30,7 +30,7 @@ POK débutant : aucun prérequis
 - [Sheets-Pratique : Cours Apps Script](https://sheets-pratique.com/fr/apps-script)
 - [Find inspiration with Apps Script samples](https://developers.googleblog.com/en/getting-started-is-the-hardest-part-find-inspiration-with-apps-script-samples/)
 
-{% enddetails %}
+{% endlien %}
 
 Ma **grande sœur illustratrice** s’est lancée il y a moins d'un an dans la vente de carte postale qu’elle dessine et vend à des librairies qui les revendent à des clients. Son talent en art est immense, mais ses connaissances en bureautique sont proches du néant. Or, elle doit gérer de nombreux intermédiaires, comptabiliser les stocks dans chaque librairie, suivre l’évolution de ses ventes et aimerait **savoir plus facilement quelles librairies sont les plus rentables**.
 Ainsi je veux utiliser ce POK pour dans un premier temps mieux me former à la suite **Google Sheets** (GS) et améliorer les tableaux que je lui avais déjà créé il y a un an. Puis je compte apprendre **Google Apps Script** (GAS) pour voir si je peux automatiser des fonctions grâce à cet outil.
@@ -86,13 +86,11 @@ Dimanche 06/10  | 2h30  | Etat de l'art ressources apps script et début formati
 
 {% enddetails %}
 
-## Sommaire
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-- [POK : sprint 1](#POK1)
-- [POK : sprint 2](#POK2)
-- [Conclusion de ce POK 1](#conclusion)
-
-<h2 id=POK1> 1️⃣POK : sprint 1</h2>
+## 1️⃣POK : sprint 1
 
 ### 📖Ressources déjà existantes
 
@@ -242,10 +240,9 @@ Vous pouvez accéder aux modifications effectuées en cliquant sur le tableau [s
 3. **Adresse** : grace au tableau intermédiaire contenant le nom des librairies et leur ville ainsi, j'utilise la formule =SIERREUR(RECHERCHEV(C3;$J$3:$K$101;2;0);" ") et le tour est joué !
 4. **Produit facturés** : je créé rapidement 3 colonnes et une ligne des totaux avec la fonction SOMME.
 5. **Bilan des factures par librairie** : je créé un TCD sur une nouvelle feuille que je nomme "Créé bilan 2024".
+<img src="bilan_factures.png" width="90%" alt="Image description">
 
-<img src="Factures 2024.png" width="90%" alt="Image description">
-
-<img src="TCD 2024.png" width="50%" alt="Image description">
+<img src="TCD_2024.png" width="50%" alt="Image description">
 
 #### Amélioration tableau calendrier et compta
 
@@ -255,13 +252,13 @@ Vous pouvez accéder aux modifications effectuées en cliquant sur le tableau [c
 2. **Graphique sparkline** : en regardant plus précisément le tableau de Laura, je réalise que ces graphiques n’auraient pas d’intérêt car elle reçoit les virements à des moments variées et non tous les mois.
 3. **Feuille graphique** : je déplace facilement les graphiques sur une nouvelle feuille que je nomme "Créé graphique 2024".
 
-<img src="Graphique 2024.png" width="70%" alt="Image description">
+<img src="graphique1.png" width="70%" alt="Image description">
 
 ### 👍Retours de Laura
 
 Elle est **très contente** de ces améliorations et a **immédiatement adopté cette nouvelle version**. Elle aussi regrette l'affichage du TCD dans la feuille "créé bilan 2024" car elle le trouve pas instinctif (on voit mal les séparations entre les villes) mais c'est un modèle imposé par GS donc je ne peux pas améliorer ce point là.
 
-<h2 id=POK2> 2️⃣POK : sprint 2</h2>
+## 2️⃣POK : sprint 2
 
 ### 📖Ressources déjà existantes
 
@@ -517,7 +514,7 @@ Ci-dessous un screen d'un des bugs qui me donne encore des cauchemars :
 
 Si on retient le positif, ce projet non fini m'a quand même permis de **mieux comprendre l'intérêt des Google groupes** pour envoyer plus facilement des emails à un groupe ou donner plus facilement accès à des ressources.
 
-<h2 id=conclusion> 👍 Conclusion de ce POK 1</h2>
+## 👍 Conclusion de ce POK 1
 
 A travers ce POK 1, je peux confirmer que **mon amour pour la bureautique est inversement proportionnel à la complexité du code utilisé**. Ainsi, j'adore utiliser des petites formules sur Google Sheet avec des listes déroulantes, des recherches verticales, des mises en formes conditionnelles etc. Mais je déteste travailler sur des codes compliqués sur Google Apps Script car il y a trop de fois où le code que j'écris ou copie ne fonctionne pas et je me sens plus facilement démunie face aux bugs.
 C'était quand même intéressant de découvrir ce langage et en vrai je l'utiliserai sûrement encore, mais à petite dose.

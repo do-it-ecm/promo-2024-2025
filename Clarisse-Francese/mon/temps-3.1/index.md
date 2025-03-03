@@ -38,22 +38,17 @@ MON débutant, aucun prérequis
 
 {% endlien %}
 
-## Sommaire
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-- [Introduction](#intro)
-- [Communication Non Violente](#cnv)
-- [Négociation & engagement](#n)
-- [Les sophismes](#so)
-- [Faire un bon discours](#d)
-- [Conclusion](#ccl)
-
-<h2 id=intro> 🔎Introduction</h2>
+## 🔎Introduction
 
 L'**éloquence** désigne don de la parole, **la facilité de bien s’exprimer**. Et comme l’éloquence vient souvent servir une demande ou une cause, c’est aussi l’art de toucher et de persuader par le discours.  
 Ayant fait une césure entre ma 2A et 3A, je fais partie des élèves qui n'ont jamais eu la semaine de tronc commun de Centrale pendant laquelle on parle de leadership et d'éloquence. Or, **j'ai toujours été fascinée par le langage**, j'avais d'ailleurs écrit une [mini thèse sur l'influence du langage](https://docs.google.com/document/d/1mdGBEknpjgtIS8IaHEqQSoOL_zh2B8KgVLG04pKsFTA/edit?usp=sharing) en 2A pendant l'électif de Philosophie économique de l’anthropocène par Guillaume Quiquerez.  
 Ainsi, je profite de ce MON pour apprendre et mettre au propre tous les conseils pertinents sur l'éloquence avec des parties sur la **CNV**, comment **négocier et obtenir un engagement** d'une personne, les **procédés réthoriques** dont il faut se méfier et **comment faire un bon discours**.
 
-<h2 id=cnv> ☮️Communication Non Violente</h2>
+## ☮️Communication Non Violente
 
 ### 💡Création et définition de la CNV
 
@@ -138,7 +133,7 @@ En utilisant notre intelligence relationnelle et émotionnelle, la CNV participe
 C'est une image souvent employée en CNV. Elle décrit cette situation où deux personnes, chacune sur sa colline, observent un pommier dans la vallée qui les sépare. Comme le soleil brille toujours du même côté, seulement la moitié des pommes sont mûres. Quand la personne qui voit les pommes mûres propose à l’autre de faire un gâteau aux pommes, l’autre rétorque que ce n’est pas possible car les pommes ne sont pas mûres. Tant que chacun reste sur sa colline (= sa vision partielle de la réalité) il peut s’ensuivre une dispute sans fin. Aller sur la colline de l’autre, c’est aller constater qu’effectivement, du point de vue de l’autre, les pommes sont mûres : **c’est vouloir comprendre sa réalité**.
 {% endinfo %}
 
-<h2 id=n> 🤝Négociation & engagement </h2>
+## 🤝Négociation & engagement
 
 Cette partie correspond à un résumé de la partie sur le langage du **cours "Equipe Performante"** donné en Do_It par **Leonardo Santarelli** le 25/11/24. En effet, il avait donné plein d'astuces de langage très intéressantes qui ont leur place dans ce MON.
 
@@ -190,7 +185,7 @@ Poser les **questions en mode Player** ≠ Victim
     <img src="victim.png" alt="Image 3" style="width: 50%; height: auto;">
 </div>
 
-<h2 id=so> 💬Les sophismes </h2>
+## 💬Les sophismes
 
 Un **sophisme** est selon le dictionnaire Larousse un "**argument qui, partant de prémisses vraies, ou jugées telles, aboutit à une conclusion absurde et difficile à réfuter**". Voici ci-dessous les principaux sophismes dont il faut se méfier. Ils sont **notamment très utilisés dans les discours des politiques**.  
 
@@ -344,7 +339,7 @@ Là, il y a un super combo : **généralisation hâtive** + **pente glissante** 
 {% enddetails %}
 {% endnote %}
 
-<h2 id=d> 🗣️Faire un bon discours</h2>
+## 🗣️Faire un bon discours
 
 Pour rédiger cette partie, je me suis beaucoup inspirée du diaporama du **cours "Prise de parole et éloquence"** donné lors du tronc commun de 2A de Centrale Méditerranée mais auquel je n'avais pas assisté comme tous les autres élèves en césure. J'ai mélangé les conseils dedans avec d'autres sources d'internet et mon expérience personnelle pour rédiger les conseils ci-dessous.  
 
@@ -431,7 +426,7 @@ Les visuels doivent être un complément à votre présentation et non un substi
 - Demander du **feedback**
 - Repérer les **points à améliorer**
 
-<h2 id=ccl> 👍Conclusion</h2>
+## 👍Conclusion
 
 J'ai **adoré travailler sur ce sujet** ! Cela faisant longtemps que je voulais en savoir plus sur la CNV, c'était un palsir de remettre au propre les conseils vu en cours "équipe performante" et je suis contente de mieux savoir repérer les sophismes dans des argumentations. Je pense que je regarderai souvent ce MON quand j'aurai besoin d'écrire un discours. J'espère qu'il vous servira aussi !
 

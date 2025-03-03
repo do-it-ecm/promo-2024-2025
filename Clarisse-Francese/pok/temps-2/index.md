@@ -88,14 +88,11 @@ Dimanche 15/12  | 2h  | Excel et Microsoft |
 
 {% enddetails %}
 
-## Sommaire
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-- [POK : sprint 1](#POK1)
-- [POK : sprint 2](#POK2)
-- [Comparaison des logiciels](#comp)
-- [Conclusion de ce POK 2](#conclusion)
-
-<h2 id=POK1> 1️⃣POK : sprint 1</h2>
+## 1️⃣POK : sprint 1
 
 ### 📖Ressources déjà existantes
 
@@ -184,7 +181,7 @@ Il s'agit d'un **tableau de bord interactif** donc on peut cliquer directement s
 
 Ainsi, je suis largement convaincue par la **supériorité de PowerBI version gratuite sur Looker Studio quand on veut juste créer des projets pour soi** sans l'intention de les partager à d'autres utilisateur. De plus, **Power Bi est aussi plus souvent utilisé que Looker Studio par les entreprises**, donc je trouve ça plus pertinent de me former à ce logiciel. Ainsi, je ne vais utiliser que Power BI pour le deuxième sprint.
 
-<h2 id=POK2> 2️⃣POK : sprint 2</h2>
+## 2️⃣POK : sprint 2
 
 ### 🧳 Projet 2 : tableau de bord de mes voyages en Europe
 
@@ -263,13 +260,13 @@ Puis j'ai **créer 2 nouvelles mesures** à l'aide de l'onglet Modéalisation, *
 
 Il me restait encore 2h pour ce sprint 2 après avoir fini ces 2 projets. Ayant l'impression d'avoir plutôt **bien compris comment utiliser Power BI**, j'ai préféré utiliser ce temps pour **améliorer mes compétences sur Excel et PowerPoint**, 2 logiciels de la suite Microsoft que j'ai téléchargé au cours de ce POK. N'étant pas le sujet principal du POK, je n'ai pas détaillé ici ce que j'ai fait mais pour résumer : j'ai exploré les possibilités qu'offrent ces logiciels et j'ai recopié des modèles trouvés sur Internet.
 
-<h2 id=comp> Comparaisons des logiciels </h2>
+## Comparaisons des logiciels
 
-J'ai comparé les logiciels sur différents critères résumé dans ce tableau ci-dessous :
-![alt text](image.png)
+J'ai comparé les logiciels sur différents critères résumés dans ce tableau ci-dessous :
+<img src="image.png" width="70%" alt="Image description">
 
 Ainsi, si on veut des **visualisations simples** et gratuites, **Looker Studio** est un excellent choix. Mais pour des besoins professionnels plus poussés avec des **données complexes**, **Power BI** est quand même préférable (avec des licences payantes pour le partage).
 
-<h2 id=conclusion> 👍 Conclusion de ce POK 2</h2>
+## 👍 Conclusion de ce POK 2
 
 Au cours de ces 2 sprints, j'ai bien **compris ce qu'est la data visualisation** et j'ai appris à **maîtriser les logiciels Looker Studio** de Google et **Power BI** de Microsoft. En plus, je me suis bien amusée à créer des statistiques sur mes voyages dans le deuxième sprint. Ainsi, je considère avoir **rempli les objectifs** que je m'étais fixés initialement et je suis **très satisfaite de ce POK** !
