@@ -29,6 +29,7 @@ POK débutant : aucun prérequis
 - [ISO.org](https://www.iso.org/fr/iso-26000-social-responsibility.html)
 - Wikipédia
 - [Novethic](https://www.novethic.fr/lexique.html)
+- [Bon Pote](https://bonpote.com/)
 - La Fresque du Climat
 
 {% endlien %}
@@ -43,10 +44,10 @@ Objectif général : **avoir une meilleure culture sur l'environnement** en me r
 #### Sprint 1
 
 - [x] regarder les cours de TREO et le site Transition Journey pour lister les sujets pertinents : 30min (30min)
-- [] étudier les sujets trouvés et en faire des résumés sur GitHub : 9h30 (7h30)
+- [x] étudier les sujets trouvés et en faire des résumés sur GitHub : 9h30 (9h30)
 
-**Total d'heures sprint 1 : 8h**, il me reste encore 2h à faire que je rattraperai au temps 2 car j'aurai moins de cours Do_It  
-**Etude post mortem** : pas encore fini
+**Total d'heures sprint 1 : 10h**
+**Etude post mortem** : en réalité j'ai fini mes 2h dernières heures du sprint 1 lors du sprint 2 car cette période était moins chargée.
 
 #### Sprint 2
 
@@ -61,23 +62,22 @@ Objectif général : **avoir une meilleure culture sur l'environnement** en me r
 | Date | Heures passées | Indications |
 | -------- | -------- |-------- |
 | **Sprint 1**
-19/01/25  | 2h  | Lectures ressources et rédaction développement durable et RSE, limites planétaires et théorie du donut|
-25/01/25  | 2h  | Lectures ressources et rédaction Instances et accords importants, GES bilan carbone et décarbonation|
-26/01/25  | 3h  | Lectures ressources et rédaction CSRD, ESRS, économie et environnement|
-29/01/25  | 1h  | Lectures ressources et rédaction low tech, shift project, HCC|
+19/01/25  | 2h  | Rédaction développement durable et RSE, limites planétaires et théorie du donut|
+25/01/25  | 2h  | Rédaction Instances et accords importants, GES bilan carbone et décarbonation|
+26/01/25  | 3h  | Rédaction CSRD, ESRS, économie et environnement|
+29/01/25  | 1h  | Rédaction low tech, shift project, HCC|
 
 | **Sprint 2**
-Date  | xh  | Truc |
+27/02/25  | 2h  | Rédaction biodiversité, ordre de grandeurs |
+03/03/25  | 3h  | Rédaction bio, énergie, amélioration des autres parties et mise en page |
 
 {% enddetails %}
 
-## Sommaire
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-- [POK : sprint 1](#POK1)
-- [POK : sprint 2](#POK2)
-- [Conclusion de ce POK 3](#conclusion)
-
-<h2 id=POK1> 1️⃣POK : sprint 1</h2>
+## Récap des notions clés sur l'environnement
 
 J'ai commencé par parcourir sur Moodle les ressources de la **filière métier TREO** (Transformation Environnementale des Organisations) et j'ai regardé le site [Transition Journey](https://transitionjourney.notion.site/Transition-Journey-7bb72c81669343c38516b370c98d79f9) qui m'a été recommandé par Inès. J'ai ainsi listé plein de notions que je veux résumer dans ce POK. Puis j'ai creusé ces notions à partir de ces sites, wikipédia, ceux du gouvernement, d'autres sites web etc afin de me faire **mon propre récap des** <b style="color: green;">notions essentielles sur l'environnement</b>.
 
@@ -94,7 +94,7 @@ J'ai commencé par parcourir sur Moodle les ressources de la **filière métier 
 📅L'<b style="color: green;">Agenda 2030</b> (2015) est un **programme de développement durable à l’horizon 2030**, adopté par les 193 États membres des Nations unies. Il prend la suite de l'Agenda 21 et définit un ensemble d'objectifs et de cibles que les pays sont libres de choisir et de prioriser en fonction des spécificités de leurs circonstances nationales.
 
 📜La <b style="color: green;">CSRD</b> (2024) signifiant **Corporate Sustainability Reporting Directive** est une **directive euopréenne** impose aux grandes entreprises et aux PME cotées en bourse de fournir un **reporting extra-financier annuel de durabilité**.  
-Le socle de la CSRD repose sur l'<b style="color: green;">analyse de double matérialité</b>.  Les entreprises doivent rendre compte à la fois de :
+Le socle de la CSRD repose sur l'**analyse de double matérialité**. Les entreprises doivent rendre compte à la fois de :
 - l'**impact** de la société et de l’environnement **sur la performance financière** de leur entreprise
 - l'**impact** de leurs activités **sur la société et l'environnement**.  
 
@@ -107,7 +107,7 @@ L’**Agenda 2030** a fixé <b style="color: green;">17 objectifs de développem
 
 <img src="ODD.png" width="45%" alt="17 ODD">
 <div align="center">
-    Illustration trouvée sur google image
+    Illustration trouvée sur Google image
 </div>
 
 🤝La <b style="color: green;">RSE = responsabilité sociétale des entreprises</b>, également appelée responsabilité sociale des entreprises, est la **contribution des entreprises au développement durable**. Une entreprise qui pratique la RSE va donc chercher à avoir un impact positif sur la société tout en étant économiquement viable.  
@@ -124,7 +124,7 @@ Elle permet également d’adopter un **nouveau modèle**, celui de <b style="co
 
 🌍Les <b style="color: green;">9 limites planétaires</b> sont des **points de bascule du climat**. Ce sont des **seuils que l'humanité ne devrait pas dépasser** pour ne pas compromettre les conditions favorables dans lesquelles elle a pu se développer et pour pouvoir durablement vivre dans un écosystème sûr sans modifications brutales et imprévisibles de l'environnement planétaire. Chaque limite est ainsi fixée en amont d’un éventuel point de bascule.  
 
-<img src="limites.png" width="45%" alt="17 ODD">
+<img src="limites.png" width="45%" alt="limites planétaires">
 <div align="center">
     Illustration trouvée sur le site Agence Lucie
 </div>
@@ -137,7 +137,7 @@ Le **dépassement de cette limite** nous fait entrer dans <b style="color: green
 🍩Selon la <b style="color: green;">théorie du Donut</b> (2014), ou "économie du donut", une **économie** est considérée comme **prospère** lorsque les **12 fondements sociaux sont réunis sans dépasser aucun des 9 plafonds écologiques**.  
 L’autrice **Kate Raworth** définit ainsi au coueur du donut 12 besoin de bases dont personne ne devrait manquer qui constitue un « **plancher social** » pour assurer l’épanouissement de tous. Mais cet épanouissement ne peut se faire au-delà d’un cercle extérieur qu'elle appelle le « **plafond environnemental** ». Collectivement, nous ne pouvons utiliser les ressources de manière trop intensive, au risque de soumettre l’équilibre de la planète à une trop grande pression.
 
-<img src="donut.png" width="45%" alt="17 ODD">
+<img src="donut.png" width="45%" alt="donut">
 <div align="center">
     Illustration trouvée sur Wikipédia - Économie du Donut (modèle)
 </div>
@@ -148,9 +148,9 @@ L’autrice **Kate Raworth** définit ainsi au coueur du donut 12 besoin de base
 Ainsi, les <b style="color: green;">gaz à effet de serre (GES)</b> désignent les **gaz présents dans l’atmosphère** qui contribuent à cet **effet de serre**. Ils garantissent les conditions de la vie sur notre planète : **sans GES**, la température moyenne de la terre serait de **-18°C** et là, elle est de **15°C**.  
 Malheureusement, l’**activité humaine a fait croître énormément la concentration de certains GES**, tel le dioxyde de carbone CO₂, ce qui a créé l’**effet de serre additionnel**. On a déjà gagné **+1°C par rapport à l’ère pré industrielle 1750**.
 
-<img src="effet_de_serre.jpg" width="45%" alt="17 ODD">
+<img src="effet_de_serre.jpg" width="45%" alt="effet de serre">
 <div align="center">
-    Illustration trouvée sur Save4Planet - Effet de Serre
+    Illustration trouvée sur le site Save4Planet - Effet de Serre
 </div>
 
 Tous les gaz à effet de serre n’ont pas le même pouvoir réchauffant. Le <b style="color: green;">potentiel de réchauffement global (PRG)</b> ou Global Warming Potential (GWP) en anglais, d’un gaz est sa **capacité à garder la chaleur dans l’atmosphère** pendant une période de temps déterminée. Le **CO₂**, parce qu’il sert de référence, a reçu la valeur de **1**. Afin de pouvoir comparer les gaz entre eux, on convertit le potentiel de réchauffement de chaque gaz en <b style="color: green;">équivalent CO₂</b> sur une **période de cent ans** (période de référence utilisée par le GIEC).  
@@ -173,6 +173,30 @@ En **France**, la **loi Grenelle II** (2010) a rendu obligatoire la réalisation
 Depuis **2016**, il est obligatoire de le **déposer sur la plateforme gérée par l’ADEME** et un contrôle doit être réalisé.
 
 📊L'<b style="color: green;">empreinte carbone</b> est une mesure de la **quantité de GES émis par l'activité humaine dans l'atmosphère** généralement exprimée en tonnes de CO2 équivalent.
+
+**Empreinte carbone citoyen Français** : **10t CO2eq/an** dont **alimentation = 20%**
+<img src="empreinte_carbone_francais.png" width="50%" alt="empreinte carbone français">
+<div align="center">
+    Illustration trouvée sur le site Carbone 4 (le site cofondé par Jancovici)
+</div>
+
+**Budget carbone** cible citoyen Français d'ici **2050** : **2t CO2eq/an**. Je recommande de faire l'[atelier 2 tonnes](https://www.2tonnes.org/) pour comprendre comment cet objectif est réalisable.
+
+{% details "Empreinte carbone des moyens de transport" %}
+**Impact carbone** des moyens de transport pour faire **1 000 km** (distance Paris-Madrid à vol d'oiseau)
+<img src="transport_1000km.png" width="70%" alt="transport 1000km">
+<div align="center">
+    Illustration trouvée sur le site Impact CO2
+</div>
+
+L’**avion** représente **2,5% de GES** mondiaux, mais **5% du réchauffement climatique** (car les traînées de condensation, la formation de nuages cirrus et le rejet de vapeur d’eau et de NOx à haute altitude ont un effet positif sur le forçage radiatif)
+
+**1 tonne de CO2e**, c'est :
+- 1 **aller-retour Paris/New-York en avion** pour une personne (environ 12 000 km)
+- **6 allers-retours Paris/Marseille en avion** pour une personne
+- les émissions **annuelles** moyennes d'un Français pour le **chauffage** de son domicile
+- les émissions d'une **voiture** moyenne en France pour effectuer 5 000 Km (soit **200g CO2e/km**)
+{% enddetails %}
 
 🦘L'<b style="color: green;">effet rebond</b> aussi appelé « **paradoxe de Jevons** » désigne un **accroissement de la consommation** provoqué par l'**amélioration des performances énergétiques** d'un bien. Ex : l’amélioration des performances énergétiques des voitures n’a pas réduit la demande en carburant. Les automobilistes ont fait plus de kilomètres, avec de plus grosses voitures et plus de voitures ont été vendues et au final l’impact sur les émissions de CO2 de l’automobile n’a pas diminué.
 
@@ -232,7 +256,7 @@ Ex : pour l'objectif de la **fin du plastique jetable d’ici 2040**, la loi int
 
 Ainsi, l'ACV vise à repérer les étapes ayant le plus d’impact sur l’environnement afin de les optimiser et de réduire les émissions de GES ainsi que d’autres effets écologiques. En comparant différentes solutions, elle sert d’**outil d’aide à la décision stratégique** pour choisir l’option la moins coûteuse sur le plan environnemental.  
 L'ADEME a mis en place le site [base empreinte](https://base-empreinte.ademe.fr/) qui est la **base de données publique officielle de facteurs d'émission et de jeux de données** d'inventaire nécessaires à la réalisation d'exercices de comptabilité carbone des organisations et d'affichage environnemental des produits et services de grande consommation.  
-Pour réaliser une ACV il y a le  site [OpenLCA](https://www.openlca.org/) qui est gratuit et bien pour débuter (je l'avais personnellement utilisé en Erasmus)
+Pour réaliser une ACV il y a le  site [OpenLCA](https://www.openlca.org/) qui est gratuit et bien pour débuter (je l'avais personnellement utilisé en Erasmus).
 
 ### Divers
 
@@ -244,13 +268,91 @@ Pour réaliser une ACV il y a le  site [OpenLCA](https://www.openlca.org/) qui e
 
 Son **président** est <b style="color: green;">Jean-Marc Jancovici</b>. Cet ancien élève de l’Ecole polytechnique et de Telecom ParisTech est également le co-fondateur de **Carbone 4** (société qui fournit conseil et données au monde économique pour se confronter au défi énergie climat) et membre depuis 2018 du **Haut Conseil pour le Climat**. Il est aussi auteur de 7 livres, du site internet [jancovici.com](jancovici.com) et de nombreux articles pour **vulgariser les questions relatives à l’énergie et au changement climatique**.
 
-### Sujets à regarder, à définir
+🧠 La <b style="color: green;">Fresque du climat</b> est un **atelier collaboratif** qui sensibilise aux enjeux climatiques en s'appuyant sur les données du **GIEC**. À travers un jeu de cartes, les participants relient les **causes et conséquences du changement climatique** pour mieux comprendre ses mécanismes.
 
-- ordres de grandeur
-- biodiversité
-- écosystème
+⚠️ Le <b style="color: green;">triangle de l'inaction</b> explique pourquoi, malgré la connaissance des enjeux climatiques, les individus et organisations **tardent à agir**. **Chacun rejette la responsabilité** de lancer les actions sur les autres.
 
+<img src="triangle_inaction.png" width="45%" alt="triangle inaction">
+<div align="center">
+    Illustration trouvée sur le site Studioreset
+</div>
 
-<h2 id=POK2> 2️⃣POK : sprint 2</h2>
+🌡️ Les <b style="color: green;">bandes de réchauffement</b> (warmings stripes) créées par **Ed Hawkins** permettent de comprendre la rapidité avec laquelle le climat s’est déréglé ces dernières années. Les couleurs affichent l’**écart à la température moyenne** mondiale, de 1850 à 2018.
 
-<h2 id=conclusion> 👍 Conclusion de ce POK 3</h2>
+<img src="warming_stripes.png" width="45%" alt="warming stripes">
+<div align="center">
+    Illustration trouvée sur Wikipédia - Bandes du réchauffement climatique
+</div>
+
+On peut retrouver les warming stripes et d'autres **graphiques intéressants** sur le site [show your stripes](https://showyourstripes.info/c/europe/france/all) comme celui sur le France ci-dessous : 
+
+<img src="warming_stripes_france.png" width="35%" alt="warming stripes france">
+<div align="center">
+    Illustration trouvée sur le site Show your stripes
+</div>
+
+### Biodiversité
+
+🐦 Inspirées des rayures du réchauffement, l'expert **Miles Richardson** a développé les <b style="color: green;">rayures de la biodiversité</b> (biodiversity stripes) allant du vert au gris, signe de la perte de couleur et de biodiversité de la nature.
+
+<img src="biodiversity_stripes.png" width="40%" alt="biodiversity stripes">
+<div align="center">
+    Illustration trouvée sur le site Biodiversity stripes
+</div>
+
+📉 Le spécialiste s’est basé sur l’<b style="color: green;">IPV = Indice Planète vivante</b> (en anglais LPI = living planet index) qui est un **indicateur d'état de la biodiversité**, utilisé pour l'évaluation environnementale, en particulier par l'ONU. L’indice compare l’évolution d’une population en prenant celle de **1970 comme référence (IPV = 1)** et mesure le taux de croissance ou de décroissance à une année donnée par rapport à cette valeur initiale.  
+L'IPV montre qu'au cours des **50 dernières années** (1970-2020), la **taille moyenne des populations d’animaux sauvages** suivies a **diminué de 73 %**. Les populations d’**espèces d’eau douce** affichent le plus fort déclin, avec une **baisse de 85 %**.
+
+<img src="Indice_planete_vivante_2024.jpg" width="45%" alt="ipv 2024">
+<div align="center">
+    Illustration trouvée sur le site WWF
+</div>
+
+### Bio, biosourcé, biodégradable... ça veut dire quoi ?
+
+Tout d"abord, le préfixe **"bio" signifie vivant**. Ainsi, le terme bio sans aucun label ne veut **pas forcément dire que le produit est inoffensif** et sans impact pour l’environnement mais simplement qu’il **vient du vivant (végétal ou animal)**.
+
+👩‍🌾 L'<b style="color: green;">agriculture biologique</b> se définit comme un système de gestion agricole et de production alimentaire qui allie les **meilleures pratiques environnementales**, un haut degré de biodiversité, la préservation des ressources naturelles, l’application de **normes élevées** en matière de bien-être animal et une méthode de production recourant à des substances et des produits naturels. Tous les opérateurs doivent notifier leur activité à l’**Agence BIO** qui tient à jour un annuaire pour les autorités de contrôle.
+
+Concrètement, un <b style="color: green;">"produit "bio"/"biologique"</b>, est un produit agricole ou une denrée alimentaire issu de l’agriculture biologique qui répond aux exigences de la législation européenne, notamment :
+- **aucune utilisation de produits chimiques de synthèse** (pesticides, engrais, désherbants…)
+- **aucune utilisation d’OGM**
+- respect du **bien-être animal** (transport, conditions d’élevage, abattage…)
+- pour les produits transformés, une quantité de **95 % au moins des ingrédients issus de l’agriculture biologique**.
+
+<div style="display: flex; align-items: center;">
+  <p style="margin-right: 10px;">Le logo AB est le label français bio, il est facultati. L'eurofeuille à droite est le logo bio européen qui est obligatoire sur tous les produits bio alimentaires pré-emballés dans l’Union européenne.
+  </p>
+  <img src="logos_bio.png" alt="logos bio" style="width: 200px;">
+</div>
+
+🐑 Un <b style="color: green;">produit biosourcé</b> est **fabriqué avec de la matière issue de la biomasse** donc à partir de **végétaux** (blé, colza, lin, chanvre, sciure de bois…) ou de **matière venant des animaux** (laine de mouton, déchets organiques…).  
+Les produits biosourcés, utilisés notamment dans la **construction**, visent à **préserver les ressources non renouvelables** en intégrant des matières naturelles. Toutefois, leur **caractère biosourcé ne garantit ni une production biologique ni une innocuité environnementale**. Le label « Produit Biosourcé » distingue trois niveaux (**bronze, argent, or**) selon la proportion de biomasse intégrée, avec des seuils spécifiques par famille de produits.
+
+<img src="logo_biosource.png" width="55%" alt="label biosourcé">
+<div align="center">
+    Illustration trouvée sur le site Label produit Biosourcé
+</div>
+
+🪱 Un <b style="color: green;">produit biodégradable</b> se décompose grâce aux organismes vivants en un temps relativement court. Cette biodégradation peut être naturelle ou accélérée par l’homme, comme avec le compostage. Le terme s’applique souvent aux déchets organiques, issus de matières végétales ou animales.
+
+### Énergie
+
+🔋 Le <b style="color: green;">mix énergétique</b> (ou bouquet énergétique) désigne la **répartition des sources d’énergie** utilisées dans une région donnée. Il inclut les **énergies fossiles** (pétrole, gaz naturel, charbon), le **nucléaire** et les **énergies renouvelables** (biomasse, hydraulique, éolien, solaire).  
+Aujourd’hui, le mix énergétique français dépend encore à plus de 60% des énergies fossiles. Pour atteindre ses objectifs climatiques, **la France doit décarboner son mix** et remplacer les sources fossiles par de l’électricité.
+
+⚡ Le <b style="color: green;">mix électrique</b> représente l’éventail des **combustibles utilisés pour produire de l'électricité** dans une région donnée.
+
+On retrouve sur le site Ecologie.gouv ci-dessous le mix énergétique à gauche et le mix électrique à droite pour l'année 2020.
+<div style="display: flex; justify-content: space-between;">
+    <img src="mix-energetique.png" alt="mix énergétique" style="width: 35%; height: auto;">
+    <img src="mix_electrique.jpg" alt="mix électrique" style="width: 35%; height: auto;">
+</div>
+
+J'ai également regardé le graphique de la production d’électricité par filière sur les 8 dernières semaines sur **RTE**, le gestionnaire du réseau de transport d'électricité français. On y voit bien la différence de production entre le jour et la nuit et la variabilité de production de l'énergie éolienne selon les semaines.
+<img src="mix_RTE.png" width="75%" alt="mix énergétique RTE">
+<div align="center">
+    Illustration trouvée sur le site RTE France
+</div>
+
+## 👍 Conclusion de ce POK 3

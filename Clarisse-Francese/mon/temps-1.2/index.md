@@ -22,17 +22,11 @@ MON débutant, aucun prérequis
 
 {% endprerequis %}
 
-## Sommaire
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-- [Le Design Thinking](#DT)
-- [La démarche double diamant](#DD)
-- [Les outils du Design Thinking](#outils)
-- [Le facilitateur en design thinking](#ldt)
-- [Regard critique sur le design thinking](#RC)
-- [Echanges sur le métier de consultant](#ITW)
-- [Sources](#sources)
-
-<h2 id=DT> 💡Le Design Thinking</h2>
+## 💡Le Design Thinking
 
 ### Recherches préliminaires
 
@@ -86,11 +80,11 @@ Grâce à sa démarche soucieuce de résoudre des problèmes complexes d’une m
 - **Leadership**
 - **Changement organisationnel**
 
-<h2 id=DD> 💎La démarche double diamant</h2>
+## 💎La démarche double diamant
 
 À l’heure actuelle, il existe de nombreuses méthodes pour le DT car tout dépend du projet et du but poursuivi. Cependant, toutes ces techniques relèvent d’une approche expérimentale centrée sur l’utilisateur et qui mettent l’**intelligence collective au service de l’innovation**. Je présente ci-dessous la méthode du double diamant qui est l’une des plus populaires en DT.
 
-<img src="double diamant.png" width="50%" alt="Image description">
+<img src="double_diamant.png" width="50%" alt="Image description">
 
 Le double diamant comportent plusieurs étapes qui alternent :
 
@@ -119,7 +113,7 @@ Le prototype sert de support pour réaliser ensuite les **tests auprès des util
 
 On remarque que les étapes de la démarche double diamants coorespondant aux 5 grandes étapes du Design Thinking selon la D-School de l'université de Stanford : Empathize (empathy), Define (définir), Ideate (imaginer), Prototype (prototyper) et Test (tester).
 
-<h2 id=outils> 🧰Les Outils du Design Thinking</h2>
+## 🧰Les Outils du Design Thinking
 
 De nombreux outils sont utilisés à chaque étape et ils exploitent souvent la **visualisation pour stimuler l’intelligence collective**. Il est donc important de maitriser cette notion que vous pouvez découvrir dans [mon MON sur l’intelligence collective]({{ site.url }}/promos/2024-2025/Clarisse-Francese/mon/temps-1.1/).
 Bien que j'ai mis une liste d'outils ci-dessous, n’y a pas d’outil ultime. Un **bon outil doit convenir à la fois au facilitateur et au groupe**.
@@ -213,7 +207,7 @@ C’est un exercice d’observation dans lequel on demande à des utilisateurs d
 Selon Mickael Lavallée qui nous a fait le cours sur l'UX Design, **5 utilisateurs suffisent pour avoir 80% des retours**. Ainsi, il est inutile de multipler les tests avec des dizaines d'utilisateurs.
 {% endinfo %}
 
-<h2 id=ldt> 🙋Le facilitateur en design thinking</h2>
+## 🙋Le facilitateur en design thinking
 
 ### Les qualités nécessaires
 
@@ -239,7 +233,7 @@ Etre facilitateur en design thinking est très compliqué car la **frontière av
 Le salaire moyen pour les emplois liés au Design Thinking en France, est de **45 k€ par an**.
 Le salaire moyen varie entre 40 k€ pour les postes de niveau débutant à 50 k€ pour les travailleurs les plus expérimentés
 
-<h2 id=RC> 👀Regard critique sur le design thinking</h2>
+## 👀Regard critique sur le design thinking
 
 ✅ Ses atouts :
 
@@ -256,7 +250,7 @@ Le salaire moyen varie entre 40 k€ pour les postes de niveau débutant à 50 k
 - **Des compétences spécifiques requises** : Pour être pleinement efficace, le design thinking nécessite une maîtrise particulière des outils d’empathie, de problématisation et de prototypage.
 - **Un choc culturel potentiel** : Pour les entreprises traditionnelles, l’adoption de cette méthode peut être déstabilisante, nécessitant un réel changement de culture et de mode de fonctionnement.
 
-<h2 id=ITW> 💬Echanges sur le métier de consultant</h2>
+## 💬Echanges sur le métier de consultant
 
 J'ai eu l'occasion de discuter avec **Duc et Céline**, tous 2 anciens élèves de Centrale qui ont réalisé leur stage de fin d'étude **dans des boîtes de conseils**. Céline est chez **Oresys** et Duc est chez **Onepoint**. Voilà un résumé de ce que j'ai appris ou compris lors de mes échanges avec eux :
 
@@ -292,7 +286,7 @@ J'y vois aussi plus clair sur ce qu'il me reste à faire :
 | Mardi 01/10 | 0h30 | échange avec Céline sur le métier de consultant |
 | Mercredi 16/09 | 1h | mise au propre des échanges sur le métier de consultant et mise au propre sur GitHub |
 
-<h2 id=sources> 📖 Sources</h2>
+## 📖 Sources
 {% lien %}
 
 - [MON d'Ossama Abdane MOOC Design thinking for innovation]({{ site.url }}/promos/2022-2023/Abdane-Ossama/mon/mon1.2/)

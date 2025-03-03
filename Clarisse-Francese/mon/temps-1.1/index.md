@@ -38,20 +38,15 @@ Ressources mentionnées dans ce MON :
 
 {% endlien %}
 
-## Sommaire
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-- [C'est quoi l'intelligence collective ?](#definition)
-- [Exemples d'intelligence collective](#exemples)
-- [Quelles sont les conditions d’émergence de l’IC ?](#conditions)
-- [Comment créer ces conditions ?](#creation)
-- [Boîte à outils d’IC](#outils)
-- [Exemple de temps collectif pour lancer l’année Do_It](#exemple)
-
-<h2 id=definition> 🧠C'est quoi l'intelligence collective ?</h2>
+## 🧠C'est quoi l'intelligence collective ?
 
 L'intelligence collective (souvent abrégée IC dans la suite) est une **méthode de travail qui vise à mobiliser et impliquer chaque membre d’une équipe** dans la mise en place d'un processus d'innovation. Elle se met en place grâce à de **nombreux outils** qui permettent de faciliter la coopération et repose sur le postulat qu'une équipe de personnes travaillant ensemble peut résoudre des problèmes plus efficacement que lorsque ces personnes travaillent isolément.
 
-<h2 id=exemples> 🔎Exemples d'intelligence collective </h2>
+## 🔎Exemples d'intelligence collective
 
 ### ♟️Partie d’échec entre Garry Kasparov et la foule
 
@@ -90,7 +85,7 @@ On retrouve le concept d’IC dans le règne animal. Les **fourmis** et les abei
 
 Bref, tout ça pour dire qu’on retrouve l’IC un peu partout, depuis toujours et que c’est un concept ultra puissant !
 
-<h2 id=conditions> 💡Quelles sont les conditions d’émergence de l’IC ?</h2>
+## 💡Quelles sont les conditions d’émergence de l’IC ?
 
 ### ✅3 pré-requis pour faire émerger l’IC
 
@@ -136,7 +131,7 @@ Ainsi, il est essentiel de garder en tête que l’intelligence collective d’u
 [Gardner et sa théorie – Intelligences Multiples](https://www.intelligences-multiples.org/intelligences-multiples2/les-8-types-dintelligences/)
 {% endlien %}
 
-<h2 id=creation> ❓Comment créer ces conditions ?</h2>
+## ❓Comment créer ces conditions ?
 
 Maintenant que j’ai présenté quelles étaient les conditions d'émergence de l’IC, **comment faire concrètement pour être sûr qu’un groupe respecte ces conditions ?** On peut citer les 4 ingrédients suivants : une **intention claire**, des **postures individuelles**, le rôle de la **facilitation** et un **cadre et des processus** clairs.
 
@@ -166,7 +161,7 @@ Ainsi le facilitateur doit non seulement accompagner les personnes vers une conv
 
 Le rôle de facilitateur est différent de celui d’un formateur, ou coach ou consultant comme le résume le schéma ci-dessous :
 
-<img src="role facilitateur.png" width="50%" alt="Image description">
+<img src="role_facilitateur.png" width="50%" alt="role facilitateur">
 
 Le facilitateur va notamment endosser ou attribuer à d’autres membres **2 rôles essentiels** lors de temps collectif type réunions :
 
@@ -184,9 +179,9 @@ Voir l’outil : **cadre de confiance** dans la partie “Boîte à outils”
 Ensuite, les **processus** permettent de **passer plus facilement et sereinement de la phase de divergence à la phase de convergence** lors d’une décision de groupe.
 On retrouve ces phases dans le **diamant de la participation**, un modèle de processus participatif élaboré par **Sam Kaner**, un facilitateur aux USA. Ce diamant visible ci-dessous illustre les étapes qu’on traverse quand, devant une question ou un problème, on quitte ce qu’on connaît (divergence) pour explorer de nouvelles possibilités (émergence), puis qu’on sélectionne ensuite l’option la plus pertinente (convergence).
 
-<img src="diamant participation.png" width="90%" alt="Image description">
+<img src="diamant_participation.png" width="70%" alt="Image description">
 
-<h2 id=outils> 📦Boîte à outils d’IC</h2>
+## 📦Boîte à outils d’IC
 
 Maintenant que j’ai précisé comment créer théoriquement des conditions optimales pour un temps collectif, voici ci-dessous une liste de plein d’outils d’IC que j’ai tous personnellement eu l'occasion de vivre au cours de mon stage de 6 mois au Tiers-Lab des Transitions à Marseille. C'est au cours de ce stage que j'ai suivi une **formation de 2 jours nommée "*Inititation à l'intelligence collective*" du LICA**, le Laboratoire d'Intelligence Collective et Artificielle.
 Ces outils peuvent sembler en apparence assez simples mais leur utilisation apporte une grande différence dans le vécu d’un temps collectif !  
@@ -237,7 +232,7 @@ Une fois le cadre fini, il faut **l’afficher dans la salle** pour pouvoir s’
 
 Voici le cadre de confiance qui avait été construit lors d’une formation que j’ai suivi au LICA, le Laboratoire d’Intelligence Collective et Artificielle à Marseille.
 
-<img src="cadre confiance.png" width="50%" alt="Image description">
+<img src="cadre_confiance.png" width="50%" alt="Image description">
 
 ### 👂Le pense écoute
 
@@ -286,7 +281,7 @@ Idéalement, le **facilitateur prend en note** les arguments des 2 équipes pour
 
 Voici la restitution visuelles d'un débat mouvant auquel j’avais participé au LICA, le Laboratoire d’Intelligence Collective et Artificielle à Marseille. Le thème était “*On peut coopérer avec tout le monde*”.
 
-<img src="debat mouvant.png" width="40%" alt="Image description">
+<img src="debat_mouvant.png" width="40%" alt="Image description">
 
 ### 💬Le tour de déclusion
 
@@ -351,7 +346,7 @@ Ex de séquence sur la question générale : ***Comment faire évoluer nos réun
 5. Chapeau vert 6 min : Quels sont tous les changements que l'on pourrait imaginer pour mieux vivre nos réunions ?
 6. Chapeau bleu, en dehors de l'atelier : en petit groupe de travail se réunir pour faire une proposition au reste du groupe à partir de ce qui a émergé.
 
-<h2 id=exemple> 🏫Exemple de temps collectif pour lancer l’année Do_It</h2>
+## 🏫Exemple de temps collectif pour lancer l’année Do_It
 
 Maintenant que j’ai présenté plusieurs outils d’IC, je me suis amusée à **imaginer à quoi aurait pu ressembler la première matinée de Do_It lors de la rentrée.** Pour ce temps, je décide que l’intention est d’**apprendre aux élèves de la promo et aux professeurs à se connaître** et ainsi commencer à **créer du lien** entre tout ce beau monde ! Pour ceci, j'ai séparé ce temps d'environ 1h en 4 phases.  
 J’emploie le mot facilitateur en imaginant que Laetitia et François se familiarisent avec les outils d’IC et qu’ils endossent successivement ce rôle au sein des différents temps.
@@ -365,7 +360,8 @@ Laetitia et François se **présentent**, **félicitent** les élèves d’être
 
 Puis l’un des facilitateurs commence par placer des **feuilles A4 plastifiées colorées** de manière espacée sur le sol avec des **émotions marquées dessus** (joie, sérénité, motivation, fatigue…) comme sur la photo ci-dessous.  
 
-<img src="inclusion sentiment.png" width="40%" alt="Image description">
+<img src="inclusion_sentiment.png" width="40%" alt="Image description">
+
 
 Il explique alors les consignes : les **élèves ont 2 min pour regarder les feuilles et se positionner à côté de l’émotion qu’ils ressentent ce matin** lors de cette rentrée en Do_It.  
 Un **tour de parole** s’installe où chaque élève doit dire **son prénom et dire le nom de l’émotion choisie en expliquant pourquoi en 1 phrase** (pas plus car il y a beaucoup d’élèves). Quand un élève a fini, il **désigne l’élève qui enchaîne** pour que la parole circule vite sans blanc.

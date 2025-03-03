@@ -27,13 +27,11 @@ MON débutant, aucun prérequis
 
 {% endlien %}
 
-## Sommaire
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-- [Rappels et exos de bases](#rappels)
-- [Exercice inventé : groupes aléatoires en Do_It](#exi)
-- [Conclusion](#ccl)
-
-<h2 id=rappels> 📘Rappels et exos de bases</h2>
+## 📘Rappels et exos de bases
 
 J'ai d'abord **créé mon propre espace Github** sur Visual studio code puis consacré 1h à relire mes fiches sur mes **cours informatiques en prépa**. J'ai ainsi pris le temps d'écrire les fonctions les plus utiles en python sur un fichier nommé **Rappels Python** que je garde sur mon Github perso. J'ai surtout révisé la déclaration de variables, les listes, les boucles for, while et les fonctions.
 
@@ -66,7 +64,7 @@ Les combinaisons de dés possibles pour faire 7 sont [(1, 1, 5), (1, 2, 4), (1, 
 {% enddetails %}
 
 
-<h2 id=exi> 🎲Exercice inventé : groupes alétoires en Do_It</h2>
+## 🎲Exercice inventé : groupes alétoires en Do_It
 
 Après avoir fait 13 exercices trouvés sur internet, j'ai eu envie de résoudre un exercice qui répond à une poblématique que j'ai eu l'autre jour. En effet, je pense que la **restitition des POK&MON serait très intéressante à faire en 3 groupe de 8 élèves** chacun. Mais pour que l'échange soit optimale, il faudrait que ces groupes soit créé aléatoirement (pour éviter de choisir d'être avec ses copains) et avec une répartition équitable des différents profils vert, bleu et saumon dans chaque groupe.  
 Ainsi, je vais **créér un programme** qui prend en **entrée un dictionnaire contenant la liste des élèves de Do_It et la couleur par laquelle ils se définissent** et qui renvoie en **sortie 3 groupes de 8 élèves répartis aléatoirement en respectant la proportion des couleurs**.  
@@ -150,7 +148,7 @@ Groupe 3: bleu: 2 - vert: 2 - saumon: 3
 On a donc bien répondu à l'objectif ! J'étais assez i**mpressionnée de la facilité avec laquelle on peut coder des petites fonctions grâce à ChatGPT** maintenant.
 En retravaillant sur ce MON plus tard, j'ai réalisé que la fonction créé ne répondait en réalité pas pleinement à l'objectif car les 3 groupes ne sont pas équilibrés en nombre (9, 9 et 7 élèves au lieu de 9, 8 et 8 élèves). J'ai donc tenté de corriger avec l'aide de ChatGPT ce problème mais impossible d'y arriver. Soit il répartit bien en nombre, soit il répartit bien en couleur mais je n'arrive pas à créer une fonction qui prenne en compte les 2 critères. Ainsi, **j'ai vu les limites de ChatGPT**.
 
-<h2 id=ccl> 👍Conclusion</h2>
+## 👍Conclusion
 
 Ce MON m'a bien permis de **dépoussiérer mes connaissances sur Python** pour être plus à l'aise dans mon projet de groupe donc **l'objetif est atteint**. Je pense avoir plutôt bien organisé mon temps et ma manière d'apprendre car si c'était à refaire je ne changerai rien à mon organisationce pendant ce MON.
 
