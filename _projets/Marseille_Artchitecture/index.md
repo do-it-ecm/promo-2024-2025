@@ -12,12 +12,16 @@ Ce projet a pour but de faire découvrir l'architecture de Marseille et l'histoi
 
 {% lien %}
 
+- ✨[App finale Bubble](https://jeannemenager.bubbleapps.io/version-test)✨
 - [Canva de l'UX Design](https://www.canva.com/design/DAGS_cyzG8E/nXSwpYAMsJBjibVLob1-UA/edit?utm_content=DAGS_cyzG8E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- [Maquette Figma]([/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-2.2/](https://www.figma.com/proto/WJOUM8vqwIua6D9li4bCwS/Art'chitecture?node-id=3-42&p=f&t=BGbKFixNioSXnLWb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A42&show-proto-sidebar=1))
-- [Prototype Buble](https://jeannemenager.bubbleapps.io/version-test)
-- [Prototype Airtable](https://airtable.com/invite/l?inviteId=invgZCrNfrcYO8E88&inviteToken=ed6b9a8f0d6d42cf7f96e74ff25ab67c93d7d9f8a916261058adf51cc9fe437a&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts)
+- [Maquette Figma](https://www.figma.com/proto/WJOUM8vqwIua6D9li4bCwS/Art'chitecture?node-id=3-42&p=f&t=BGbKFixNioSXnLWb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A42&show-proto-sidebar=1)
+- [Base de données Airtable](https://airtable.com/invite/l?inviteId=invgZCrNfrcYO8E88&inviteToken=ed6b9a8f0d6d42cf7f96e74ff25ab67c93d7d9f8a916261058adf51cc9fe437a&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts)
 
 {% endlien %}
+
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
 ## Introduction
 
@@ -36,10 +40,17 @@ Cette expérience unique de voyage vous invite à renouer avec le passé et à i
 Voici un petit exemple du principe de l'application :
 
 - L'utilisateur a sur son téléphone la photo actuelle qu'il doit retrouver dans la ville grace aux coordonnées GPS :
-![Photo ancienne](./PictureNew.png)
+
+<div style="display:flex">
+<div><img src="PictureNew.png" style="width:30%;"></div>
+</div>
+
 
 - S'il parvient à reproduire la photo réel au bon endroit et l'envoyer dans l'application, la photo ancienne se révèle :
-![Photo Récente](./PictureOld.png)
+
+<div style="display:flex">
+<div><img src="PictureOld.png" style="width:30%;"></div>
+</div>
 
 Il est possible de retrouver une démonstration plus complète dans les liens de cette page.
 
@@ -85,6 +96,12 @@ Grâce aux retours des utilisateurs, nous avons pu apporter plusieurs améliorat
 - Mise en place d’un indicateur de chargement pour signaler les temps d’attente lorsque les pages sont longues à charger. Bien que cette fonctionnalité ait été intégrée dans la maquette Figma, elle n’a finalement pas été ajoutée dans Bubble, car la plateforme dispose déjà de son propre indicateur de chargement sous forme d’une barre progressive colorée.
 - Ajout de flèches "Retour", permettant de naviguer plus intuitivement sans passer par la barre de navigation.
 
+<div style="display:flex">
+<div><img src="Zoom_carte.png"></div>
+<div><img src="Erreur_localisation.png"></div>
+<div><img src="Fleches_retour.png"></div>
+</div>
+
 ## Développement
 
 ### Airtable
@@ -99,7 +116,11 @@ La connexion entre Bubble et Airtable s’est avérée très simple à mettre en
 À l’origine, notre base Airtable comportait trois tables : “Utilisateurs”, “Lieux_Librairie” et “Mes_Lieux”, cette dernière servant de table de jonction entre les deux premières. Nous avons finalement constaté que cette table intermédiaire était inutile, Airtable assurant la liaison entre les 2 tables facilement.
 Sa suppression a permis d’alléger la base de données, de simplifier les requêtes entre Bubble et Airtable, et d’améliorer la clarté de notre structure.
 
-### Buble
+<div style="display:flex">
+<div><img src="BDD_Airtable.png"></div>
+</div>
+
+### Bubble
 
 En raison de nos faibles connaissances en développement web, nous avons choisi d'utiliser Bubble, un outil de programmation low-code que nous avions déjà un peu utilisé lors d'un cours en début d'année. Ce langage nous a permis de créer le front-end plus facilement et de le lier à une base de données Airtable.
 
@@ -149,13 +170,24 @@ Finalement, après avoir fait quelques tests et découvert que la précision des
   
   Initialement, nous avions prévu que la photo prise par l’utilisateur soit enregistrée directement dans l’application, lui permettant ainsi de la retrouver dans sa galerie de Lieux flashés. Toutefois, pour des raisons de gestion de mémoire et d’optimisation de la base de données, nous avons finalement choisi une autre approche : offrir la possibilité d’enregistrer la photo sur le téléphone de l’utilisateur, sans stockage dans l’application. Cette alternative permet tout de même de conserver un souvenir du moment, de la lumière, et du partage avec des amis.
 
+<div style="display:flex">
+<div><img src="im_telechargement.png" style="width:50%;"></div>
+</div>
+
 - *Classement des amis*
 
   Dans la maquette Figma, un classement des amis et un classement mondial des utilisateurs étaient prévus. Cependant, cette fonctionnalité n’a pas été implémentée, car nous n’avons pas encore intégré de distinction entre amis et non-amis.
 
+
 - *Ajouts d'amis*
 
   Dans la continuité de cette décision, la fonctionnalité “Ajout d'amis” n'a pas encore été développée à ce stade.
+
+
+<div style="display:flex">
+<div><img src="Classement_Amis.png" style="width:60%;"></div>
+<div><img src="Ajouts_Amis.png" style="width:60%;"></div>
+</div>
 
 **Objectifs futurs**
 
