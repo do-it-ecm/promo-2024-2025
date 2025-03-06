@@ -68,6 +68,9 @@ Ensuite, nous avons priorisé ces fonctionnalités en sélectionnant chacun troi
 - **Une carte avec les différents points de repère pour les identifier et les rejoindre**
 - **Une galerie permettant de consulter l’inventaire des images d’archives déjà collectées**
 
+Et les fonctionnalités autres :
+![Fonctionnalités de l'application](fonctionnalite.png)
+
 Puis, une fois l’application bien cadrée dans nos esprits, nous nous sommes penchés sur les attentes et besoins de nos futurs utilisateurs afin de définir leurs usages. Nous avons alors créé trois personaes, chacun présentant des profils et des motivations différentes (voir document en annexe des personas).
 Une fois ces personnages bien définis, nous avons retracé leur parcours utilisateur afin d’anticiper la manière dont ils allaient utiliser notre application. Nous avons ainsi identifié que certains seraient plus orientés statistiques et nombre de points, cherchant à dépasser leurs amis. D’autres, en revanche, privilégieraient l’apprentissage et la découverte, préférant se concentrer sur leur historique d’images et lire les informations historiques à chaque capture. Il était donc essentiel de garder en tête ces différentes user stories pour proposer une solution aboutie et adaptée à tous. Tout ceci est retrouvable [ici](https://www.canva.com/design/DAGS_cyzG8E/nXSwpYAMsJBjibVLob1-UA/edit?utm_content=DAGS_cyzG8E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
@@ -88,6 +91,14 @@ Voici quelques concepts appris en cours que nous avons appliqués systématiquem
 - Variables globales : pour les couleurs et les styles de texte, garantissant une cohérence visuelle.
 - Composants réutilisables : par exemple, la barre de navigation, créée une seule fois et utilisée sur chaque page.
 
+<div style="text-align: center;">
+<div><img src="PU1.png" style="width:70%;" ></div>
+<div><img src="PU2.png" style="width:70%;" position=center></div>
+*Exemple d'un parcours utilisateurs sur la maquette Figma*
+</div>
+
+<br>
+
 Grâce aux retours des utilisateurs, nous avons pu apporter plusieurs améliorations :
 
 - Sur la carte d’accueil, possibilité de voir en grand la photo du lieu souhaité.
@@ -96,11 +107,16 @@ Grâce aux retours des utilisateurs, nous avons pu apporter plusieurs améliorat
 - Mise en place d’un indicateur de chargement pour signaler les temps d’attente lorsque les pages sont longues à charger. Bien que cette fonctionnalité ait été intégrée dans la maquette Figma, elle n’a finalement pas été ajoutée dans Bubble, car la plateforme dispose déjà de son propre indicateur de chargement sous forme d’une barre progressive colorée.
 - Ajout de flèches "Retour", permettant de naviguer plus intuitivement sans passer par la barre de navigation.
 
+<br>
+
+<div style="text-align: center;">
 <div style="display:flex">
 <div><img src="Zoom_carte.png"></div>
 <div><img src="Erreur_localisation.png"></div>
 <div><img src="Fleches_retour.png"></div>
 </div>
+</div>
+<br>
 
 ## Développement
 
@@ -116,8 +132,10 @@ La connexion entre Bubble et Airtable s’est avérée très simple à mettre en
 À l’origine, notre base Airtable comportait trois tables : “Utilisateurs”, “Lieux_Librairie” et “Mes_Lieux”, cette dernière servant de table de jonction entre les deux premières. Nous avons finalement constaté que cette table intermédiaire était inutile, Airtable assurant la liaison entre les 2 tables facilement.
 Sa suppression a permis d’alléger la base de données, de simplifier les requêtes entre Bubble et Airtable, et d’améliorer la clarté de notre structure.
 
+<div style="text-align: center;">
 <div style="display:flex">
-<div><img src="BDD_Airtable.png"></div>
+<div><img src="BDD_Airtable.png" style="width:90%;"></div>
+</div>
 </div>
 
 ### Bubble
@@ -170,8 +188,10 @@ Finalement, après avoir fait quelques tests et découvert que la précision des
   
   Initialement, nous avions prévu que la photo prise par l’utilisateur soit enregistrée directement dans l’application, lui permettant ainsi de la retrouver dans sa galerie de Lieux flashés. Toutefois, pour des raisons de gestion de mémoire et d’optimisation de la base de données, nous avons finalement choisi une autre approche : offrir la possibilité d’enregistrer la photo sur le téléphone de l’utilisateur, sans stockage dans l’application. Cette alternative permet tout de même de conserver un souvenir du moment, de la lumière, et du partage avec des amis.
 
+<div style="text-align: center;">
 <div style="display:flex">
 <div><img src="im_telechargement.png" style="width:50%;"></div>
+</div>
 </div>
 
 - *Classement des amis*
@@ -183,11 +203,16 @@ Finalement, après avoir fait quelques tests et découvert que la précision des
 
   Dans la continuité de cette décision, la fonctionnalité “Ajout d'amis” n'a pas encore été développée à ce stade.
 
+<br>
 
+<div style="text-align: center;">
 <div style="display:flex">
 <div><img src="Classement_Amis.png" style="width:60%;"></div>
 <div><img src="Ajouts_Amis.png" style="width:60%;"></div>
 </div>
+</div>
+
+<br>
 
 **Objectifs futurs**
 
@@ -203,7 +228,8 @@ Ces évolutions permettront d’offrir une expérience plus complète et d’ouv
 
 ### Retour sur l'organisation et capitalisation des résultats et apprentissages
 
-L'expérience de travailler sur un projet digital tel que celui-ci en partant de rien au début nous a énormément appris. En effet, dans nos projets habituels on a souvent déjà un sujet assez cadré et la c’était suffisamment vague pour laisser libre cours à notre imagination. Puis, nous avons dû découvrir et appliquer différentes méthodes de gestion de projet mais aussi de brainstorming afin de parvenir à une solution aboutie. 
+L'expérience de travailler sur un projet digital tel que celui-ci en partant de rien au début nous a énormément appris. En effet, dans nos projets habituels on a souvent déjà un sujet assez cadré et la c’était suffisamment vague pour laisser libre cours à notre imagination. Puis, nous avons dû découvrir et appliquer différentes méthodes de gestion de projet mais aussi de brainstorming afin de parvenir à une solution aboutie.
+
 Il a été aussi très important de bien s’organiser pour prioriser les tâches afin d’avoir quelque chose d’abouti dans le temps imparti et de bien prendre en compte les dépendances de chaque action. Nous avons ainsi pu apprendre énormément sur la gestion de projet.
 
 Coté résultat, nous sommes très content de notre application et travailler dessus nous a fait aussi développé nos compétences en Bubble et en Figma.
