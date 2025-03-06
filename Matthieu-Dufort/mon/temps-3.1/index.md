@@ -152,9 +152,9 @@ Le management algorithmique permet donc aux entreprises de mieux analyser et gé
 
 ## Bibliographie
 
-- Bunzel, C. (2023, September 20). Algorithmic Management in Organizations: Benefits, challenges, and best practices. AIHR. *https://www.aihr.com/blog/algorithmic-management/*
-- Management by algorithms. (n.d.). LIGS University. *https://ligsuniversity.com/management-by-algorithms/*
-- Quignon, C. (2022, February 21). Dans les entreprises, l’essor du management par les algorithmes. Le Monde.fr. *https://www.lemonde.fr/economie/article/2022/02/20/dans-les-entreprises-l-algorithme-prend-la-direction_6114517_3234.html*
-- Teboul, B. (2021, August 10). Les enjeux du management algorithmique et de sa régulation. European Scientist. *https://www.europeanscientist.com/fr/opinion/les-enjeux-du-management-algorithmique-et-de-sa-regulation/*
-- Larher, Y. (n.d.). Management algorithmique : quelles conséquences en droit du travail ? *https://blog.predictice.com/actualites-juridiques/management-algorithmique-consequences-droit-du-travail*
-- Forestier, F., Dufour, M., Campanini, E., Giniaux-Kats, J., & Giniaux-Kats, F. F. D. C. (2023, February 2). Le management algorithmique : nouveau paradigme d’organisation du travail ? AOC Media - Analyse Opinion Critique. *https://aoc.media/opinion/2021/04/27/le-management-algorithmique-nouveau-paradigme-dorganisation-du-travail/*
+- Bunzel, C. (2023, September 20). Algorithmic Management in Organizations: Benefits, challenges, and best practices. [AIHR](https://www.aihr.com/blog/algorithmic-management/)
+- Management by algorithms. (n.d.). [LIGS University](https://ligsuniversity.com/management-by-algorithms/)
+- Quignon, C. (2022, February 21). Dans les entreprises, l’essor du management par les algorithmes. [Le Monde.fr](https://www.lemonde.fr/economie/article/2022/02/20/dans-les-entreprises-l-algorithme-prend-la-direction_6114517_3234.html)
+- Teboul, B. (2021, August 10). Les enjeux du management algorithmique et de sa régulation. [European Scientist](https://www.europeanscientist.com/fr/opinion/les-enjeux-du-management-algorithmique-et-de-sa-regulation/)
+- [Larher](https://blog.predictice.com/actualites-juridiques/management-algorithmique-consequences-droit-du-travail), Y. (n.d.). Management algorithmique : quelles conséquences en droit du travail ?
+- Forestier, F., Dufour, M., Campanini, E., Giniaux-Kats, J., & Giniaux-Kats, F. F. D. C. (2023, February 2). Le management algorithmique : nouveau paradigme d’organisation du travail ? [AOC Media](https://aoc.media/opinion/2021/04/27/le-management-algorithmique-nouveau-paradigme-dorganisation-du-travail/) - Analyse Opinion Critique
