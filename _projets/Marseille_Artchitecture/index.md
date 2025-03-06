@@ -15,6 +15,7 @@ Ce projet a pour but de faire découvrir l'architecture de Marseille et l'histoi
 - ✨[App finale Bubble](https://jeannemenager.bubbleapps.io/version-test)✨
 - [Canva de l'UX Design](https://www.canva.com/design/DAGS_cyzG8E/nXSwpYAMsJBjibVLob1-UA/edit?utm_content=DAGS_cyzG8E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Maquette Figma](https://www.figma.com/proto/WJOUM8vqwIua6D9li4bCwS/Art'chitecture?node-id=3-42&p=f&t=BGbKFixNioSXnLWb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A42&show-proto-sidebar=1)
+- [Specifications fonctionnelles de la maquette](https://docs.google.com/presentation/d/1sy3HVC5WTgDq-TgAo58hm1nuXv2vNO2w/edit?usp=sharing&ouid=116971710093552311266&rtpof=true&sd=true)
 - [Base de données Airtable](https://airtable.com/invite/l?inviteId=invgZCrNfrcYO8E88&inviteToken=ed6b9a8f0d6d42cf7f96e74ff25ab67c93d7d9f8a916261058adf51cc9fe437a&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts)
 
 {% endlien %}
@@ -69,12 +70,14 @@ Ensuite, nous avons priorisé ces fonctionnalités en sélectionnant chacun troi
 - **Une galerie permettant de consulter l’inventaire des images d’archives déjà collectées**
 
 Et les fonctionnalités autres :
-![Fonctionnalités de l'application](fonctionnalite.png)
-
+<div style="text-align: center;">
+<div><img src="fonctionnalite.png" style="width:80%;" position=center></div>
+</div>
+<br>
 Puis, une fois l’application bien cadrée dans nos esprits, nous nous sommes penchés sur les attentes et besoins de nos futurs utilisateurs afin de définir leurs usages. Nous avons alors créé trois personaes, chacun présentant des profils et des motivations différentes (voir document en annexe des personas).
 Une fois ces personnages bien définis, nous avons retracé leur parcours utilisateur afin d’anticiper la manière dont ils allaient utiliser notre application. Nous avons ainsi identifié que certains seraient plus orientés statistiques et nombre de points, cherchant à dépasser leurs amis. D’autres, en revanche, privilégieraient l’apprentissage et la découverte, préférant se concentrer sur leur historique d’images et lire les informations historiques à chaque capture. Il était donc essentiel de garder en tête ces différentes user stories pour proposer une solution aboutie et adaptée à tous. Tout ceci est retrouvable [ici](https://www.canva.com/design/DAGS_cyzG8E/nXSwpYAMsJBjibVLob1-UA/edit?utm_content=DAGS_cyzG8E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-Avec ces éléments en tête, nous sommes passés à la construction d’une première maquette sur [Figma](https://www.figma.com/proto/WJOUM8vqwIua6D9li4bCwS/Art'chitecture?node-id=3-42&p=f&t=BGbKFixNioSXnLWb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A42&show-proto-sidebar=1). Une fois la maquette finalisée, nous l’avons fait tester à notre entourage afin de recueillir des retours. Cela nous a permis de corriger de nombreux détails, mais aussi d’opérer des ajustements plus conséquents. Par exemple, au départ, nous pensions proposer aux utilisateurs une image d’archive à retrouver en ville pour débloquer l’image réelle. Cependant, de nombreux retours nous ont amenés à inverser cette logique : l’image réelle est désormais capturée en premier, ce qui favorise une meilleure découverte du monument sur place et rend la collection d’images plus intéressante.
+Avec ces éléments en tête, nous sommes passés à la construction d’une première maquette sur [Figma](https://www.figma.com/proto/WJOUM8vqwIua6D9li4bCwS/Art'chitecture?node-id=3-42&p=f&t=BGbKFixNioSXnLWb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A42&show-proto-sidebar=1). Une fois la maquette finalisée, nous avons détaillé nos [spécifications fonctionnelles et surtout nos parcours utilisateurs](https://docs.google.com/presentation/d/1sy3HVC5WTgDq-TgAo58hm1nuXv2vNO2w/edit?usp=sharing&ouid=116971710093552311266&rtpof=true&sd=true) afin de vérifier que cela correspondait bien à nos attentes. Puis, nous l’avons fait tester à notre entourage afin de recueillir des retours. Cela nous a permis de corriger de nombreux détails, mais aussi d’opérer des ajustements plus conséquents. Par exemple, au départ, nous pensions proposer aux utilisateurs une image d’archive à retrouver en ville pour débloquer l’image réelle. Cependant, de nombreux retours nous ont amenés à inverser cette logique : l’image réelle est désormais capturée en premier, ce qui favorise une meilleure découverte du monument sur place et rend la collection d’images plus intéressante.
 
 Une fois la maquette aboutie, nous avons lancé la construction de l’application réelle. Après plusieurs réflexions sur la meilleure approche technique, nous avons choisi d’utiliser [Bubble](https://jeannemenager.bubbleapps.io/version-test) pour le développement et [Airtable](https://airtable.com/invite/l?inviteId=invgZCrNfrcYO8E88&inviteToken=ed6b9a8f0d6d42cf7f96e74ff25ab67c93d7d9f8a916261058adf51cc9fe437a&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts) pour gérer notre base de données. Ce choix nous est apparu pertinent compte tenu de nos compétences limitées en développement d’applications, mais aussi du fait qu’il s’agit d’une version 0, qui n’a pas vocation à être déployée à grande échelle. Nous ne serons donc pas contraints par les performances du low-code. (Voir lien de l’application.)
 
@@ -94,7 +97,7 @@ Voici quelques concepts appris en cours que nous avons appliqués systématiquem
 <div style="text-align: center;">
 <div><img src="PU1.png" style="width:70%;" ></div>
 <div><img src="PU2.png" style="width:70%;" position=center></div>
-*Exemple d'un parcours utilisateurs sur la maquette Figma*
+<i>Exemple d'un parcours utilisateurs sur la maquette Figma</i>
 </div>
 
 <br>
