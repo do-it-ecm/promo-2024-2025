@@ -27,6 +27,7 @@ POK débutant : aucun prérequis
 - Cours de la filière métier TREO (Transformation Environnementale des Organisations) disponibles sur Moodle
 - [Economie.gouv.fr](https://www.economie.gouv.fr/)
 - [Ecologie.gouv.fr](https://www.ecologie.gouv.fr/)
+- [Budget.gouv.fr](https://www.budget.gouv.fr/)
 - [ISO.org](https://www.iso.org/fr/iso-26000-social-responsibility.html)
 - Wikipédia
 - [Bon Pote](https://bonpote.com/)
@@ -45,16 +46,16 @@ Objectif général : **avoir une meilleure culture sur l'environnement** en me r
 - [x] regarder les cours de TREO et le site Transition Journey pour lister les sujets pertinents : 30min (30min)
 - [x] étudier les sujets trouvés et en faire des résumés sur GitHub : 9h30 (9h30)
 
-**Total d'heures sprint 1 : 10h**
+**Total d'heures sprint 1 : 10h**  
 **Etude post mortem** : en réalité j'ai fini mes 2h dernières heures du sprint 1 lors du sprint 2 car cette période était moins chargée.
 
 #### Sprint 2
 
-- [] étudier les sujets restant et en faire des résumés sur GitHub : 7h ()
-- [] faire un mini bilan carbone ou une ACV ou une étude de cas : 3h ()
+- [x] étudier les sujets restant et en faire des résumés sur GitHub : 7h (10h)
+- [ ] ~~faire une mini étude de cas type bilan carbone ou ACV : 3h~~
 
-**Total d'heures sprint 2 : xh**   
-**Etude post mortem** : blabla
+**Total d'heures sprint 2 : 10h**  
+**Etude post mortem** : j'ai changé un peu mon programme en remplaçant l'étude de cas par continuer mes recherches sur des notions sur l'environnement. En effet, je trouvais ça plus intéressant car en pratique j'ai déjà fait des petits ACV ou bilan carbone dans ma scolarité.
 
 ### ⌛Horodatage
 
@@ -68,8 +69,8 @@ Objectif général : **avoir une meilleure culture sur l'environnement** en me r
 27/02/25  | 2h  | Rédaction biodiversité, ordre de grandeurs |
 
 | **Sprint 2**
-03/03/25  | 7h  | Rédaction fin biodiversité, énergie, climat, compléter toutes les parties et mise en page |
-05/03/25  | h  | voir à partir de lettre F Novethic |
+03/03/25  | 7h  | Rédaction fin biodiversité, énergie, climat, compléter toutes les parties |
+07/03/25  | 3h  | Rédaction taxe verte, greenwashing, affaire du siècle, ombre climatique etc et mise en page |
 
 {% enddetails %}
 
@@ -165,6 +166,11 @@ Depuis **2016**, il est obligatoire de le **déposer sur la plateforme gérée p
     Illustration trouvée sur le site Carbone 4 (le site cofondé par Jancovici)
 </div>
 
+{% note %}
+🌩️ L'<b style="color: green;">ombre climatique</b> (2021), inventé par la journaliste anglaise Emma Pattee, est un **indicateur** visant à évaluer l'**impact d'un individu sur le changement climatique**, en tenant compte de son **empreinte carbone** mais aussi des aspects difficilement mesurables de son **comportement**. Elle inclut ainsi des éléments comme le lieu de travail, les choix de carrière, le choix de sa banque, le discours écologique, le vote politique...
+
+{% endnote %}
+
 Le <b style="color: green;">budget carbone</b> des citoyens Français d'ici **2050** est de **2t CO2eq/an**. C'est la quantité max de CO2 à émettre pour tenir l'objectif des +1,5°C de réchauffement climatique. Je recommande de faire l'[atelier 2 tonnes](https://www.2tonnes.org/) pour comprendre comment cet objectif est réalisable.
 
 {% details "Empreinte carbone des moyens de transport" %}
@@ -174,16 +180,19 @@ Le <b style="color: green;">budget carbone</b> des citoyens Français d'ici **20
     Illustration trouvée sur le site Impact CO2
 </div>
 
-L’**avion** représente **2,5% de GES** mondiaux, mais **5% du réchauffement climatique** (car les traînées de condensation, la formation de nuages cirrus et le rejet de vapeur d’eau et de NOx à haute altitude ont un effet positif sur le forçage radiatif)
-
 **1 tonne de CO2e**, c'est :
 - 1 **aller-retour Paris/New-York en avion** pour une personne (environ 12 000 km)
 - **6 allers-retours Paris/Marseille en avion** pour une personne
 - les émissions **annuelles** moyennes d'un Français pour le **chauffage** de son domicile
 - les émissions d'une **voiture** moyenne en France pour effectuer 5 000 Km (soit **200g CO2e/km**)
+
+L’**avion** représente **2,5% de GES** mondiaux, mais **5% du réchauffement climatique** (car les traînées de condensation, la formation de nuages et le rejet de vapeur d’eau et de NOx à haute altitude ont un effet positif sur le forçage radiatif).
+
+Le <b style="color: green;">flygskam</b> (2018) né en Suède et popularisé par **Greta Thunberg** exprime la **honte de prendre l’avion** en raison de son impact environnemental. Il encourage l’abandon des vols courts et internes, responsables d’une part significative des émissions du transport aérien, au profit de solutions plus durables comme le train.
+
 {% enddetails %}
 
-🦘 L'<b style="color: green;">effet rebond</b> aussi appelé « **paradoxe de Jevons** » désigne un **accroissement de la consommation** provoqué par l'**amélioration des performances énergétiques** d'un bien. Ex : l’amélioration des performances énergétiques des voitures n’a pas réduit la demande en carburant. Les automobilistes ont fait plus de kilomètres, avec de plus grosses voitures et plus de voitures ont été vendues et au final l’impact sur les émissions de CO2 de l’automobile n’a pas diminué.
+🦘 L'<b style="color: green;">effet rebond</b> aussi appelé « **paradoxe de Jevons** » désigne un **accroissement de la consommation** provoqué par l'**amélioration des performances énergétiques** d'un bien.   Ex : l’amélioration des performances énergétiques des voitures n’a pas réduit la demande en carburant. Les automobilistes ont fait plus de kilomètres, avec de plus grosses voitures et plus de voitures ont été vendues et au final l’impact sur les émissions de CO2 de l’automobile n’a pas diminué.
 
 ⚖️ La <b style="color: green;">neutralité carbone</b> consiste à viser l’**équilibre entre** les **émissions de GES** et **ce que notre territoire est capable d’absorber** via les écosystèmes gérés par l’être humain (forêts, prairies, sols agricoles, zones humides…). Cela correspond à **diviser par 6 les émissions de GES d’ici 2050**.  
 Ex : la <b style="color: green;">compensation carbone</b> permet aux entreprises, particuliers et collectivités de compenser leurs émissions de CO2 en **finançant des projets réduisant ou absorbant une quantité équivalente de GES** et ainsi d'atteindre la neutralité carbone. Ces initiatives, comme la reforestation ou les énergies renouvelables, génèrent des **crédits carbone**, achetables et échangeables sur le marché du carbone.
@@ -226,17 +235,11 @@ On peut retrouver les warming stripes et d'autres **graphiques intéressants** s
 Par exemple, on voit sur le schéma que le **changement climatique a déjà dépassé la limite planétaire** et est dans une zone de forte augmentation des risques : les changements initiés par le réchauffement vont continuer à s’amplifier même si les émissions de gaz à effet de serre sont stoppées.  
 Le **dépassement de cette limite** nous fait entrer dans <b style="color: green;">l’Anthropocène</b>, la nouvelle époque géologique qui se caractérise par l'avènement des **hommes comme principale force de changement sur Terre**, surpassant les forces géophysiques.
 
-📆 Il ne faut pas confondre les limites planétaires avec <b style="color: green;">le jour de dépassement</b> qui est le **jour où l’humanité a "consommé" l’ensemble des ressources que la terre peut reconstituer en une année** calculée tous les ans par l’ONG Global Footprint Network.
+📆 Il ne faut pas confondre les limites planétaires avec <b style="color: green;">le jour du dépassement</b> qui est le **jour où l’humanité a "consommé" l’ensemble des ressources que la terre peut reconstituer en une année** calculée tous les ans par l’ONG Global Footprint Network.
+
+🧠 La <b style="color: green;">Fresque du climat</b> (2018) est un **atelier collaboratif** qui sensibilise aux enjeux climatiques en s'appuyant sur les données du **GIEC**. À travers un jeu de cartes, les participants relient les **causes et conséquences du changement climatique** pour mieux comprendre ses mécanismes.
 
 ### Production et environnement
-
-💡 L'<b style="color: green;">éco-conception</b> consiste à intégrer la **protection de l’environnement dès la conception** des biens ou services. Elle a pour objectif de **réduire les impacts environnementaux des produits tout au long de leur cycle de vie** : extraction des matières premières, production, distribution, utilisation et fin de vie.
-
-🔨 La <b style="color: green;">low tech</b> désigne toutes les technologies respectant ces 3 piliers : 
-
-1. **Utile** : la low-tech répond à des besoins essentiels (énergie, alimentation, eau, habitat, transport…).
-2. **Accessible** : elle doit avoir un coût adapté à une large part de la population et être compréhensible, réparable et fabriquée localement. Cela favorise une plus grande autonomie des population et une meilleure répartition du travail et des ressources.  
-3. **Durable** : elle est conçue pour minimiser son impact écologique et social tout au long de son cycle de vie. Elle privilégie la robustesse, la réparabilité et la collaboration plutôt que l’accumulation technologique. Elle s'oppose ainsi au principe d'obsolescence programmée. 
 
 📊 L'<b style="color: green;">ACV = analyse de cycle de vie</b> appelée Life Cycle Analysis (**LCA**) en anglais, est la méthode de référence en matière d’**évaluation des impacts environnementaux d'un produit pendant toute sa durée d'existence**. L’ACV se fonde sur une **approche fonctionnelle multicritère** du produit en 5 étapes :
 - L'**extraction des matières premières** nécessaires à la fabrication du produit
@@ -249,20 +252,41 @@ Ainsi, l'ACV vise à repérer les étapes ayant le plus d’impact sur l’envir
 L'ADEME a mis en place le site [base empreinte](https://base-empreinte.ademe.fr/) qui est la **base de données publique officielle de facteurs d'émission et de jeux de données** d'inventaire nécessaires à la réalisation d'exercices de comptabilité carbone des organisations et d'affichage environnemental des produits et services de grande consommation.  
 Pour réaliser une ACV il y a le  site [OpenLCA](https://www.openlca.org/) qui est gratuit et bien pour débuter (je l'avais personnellement utilisé en Erasmus).
 
+💡 L'<b style="color: green;">éco-conception</b> consiste à intégrer la **protection de l’environnement dès la conception** des biens ou services. Elle a pour objectif de **réduire les impacts environnementaux des produits tout au long de leur cycle de vie** : extraction des matières premières, production, distribution, utilisation et fin de vie.
+
+🔨 La <b style="color: green;">low tech</b> désigne toutes les technologies respectant ces 3 piliers : 
+
+1. **Utile** : la low-tech répond à des besoins essentiels (énergie, alimentation, eau, habitat, transport…).
+2. **Accessible** : elle doit avoir un coût adapté à une large part de la population et être compréhensible, réparable et fabriquée localement. Cela favorise une plus grande autonomie des population et une meilleure répartition du travail et des ressources.  
+3. **Durable** : elle est conçue pour minimiser son impact écologique et social tout au long de son cycle de vie. Elle privilégie la robustesse, la réparabilité et la collaboration plutôt que l’accumulation technologique. Elle s'oppose ainsi au principe d'obsolescence programmée. 
+
+Le <b style="color: green;">greenwashing</b> ou **éco-blanchiment**, est une **stratégie marketing trompeuse** visant à **verdir l’image d’une entreprise** en mettant en avant des engagements écologiques souvent éloignés de la réalité. Fréquemment dénoncé par les ONG, il nuit aux véritables efforts de sensibilisation et peut induire les consommateurs en erreur.
+
+{% note %}
+Les **types de greenwashing** les plus courants incluent :  
+
+- **Greenlabelling (marketing trompeur)** : utilisation de termes vagues comme *"naturel"* ou *"écologique"*, sans preuves tangibles ni certifications vérifiables.  
+- **Greenlighting (exagération des réalisations)** : mise en avant de petites initiatives pour détourner l’attention des impacts environnementaux réels.  
+- **Greenhushing (minimisation des impacts négatifs)** : prétendre être *"neutre en carbone"* ou *"zéro déchet"* sans considérer l’ensemble de la chaîne de valeur. Ex : une compagnie aérienne qui dit être "neutre en carbone" sur ses activités sur le sol  
+- **Greenrinsing (multiplication des engagements changeants)** : modifier fréquemment ses engagements écologiques pour semer la confusion sur son engagement réel.  
+- **Greencrowding (se cacher derrière des coalitions)** : signer des pactes environnementaux ou rejoindre des alliances pour donner l'impression d'être investi sans véritable engagement.
+{% endnote %}
+
 ### Biodiversité et agriculture
 
 🐾 Un <b style="color: green;">écosystème</b> désigne un ensemble d'organismes vivants (plantes, animaux, micro-organismes) qui intéragissent avec leur environnement physique (sol, eau, air) et entre eux.  
 Par ailleurs, la diversité de ces écosystèmes présents sur Terre et des organismes vivants forme ce qu'on appelle la <b style="color: green;">biodiversité</b>.
 
 📉 L’<b style="color: green;">IPV = Indice Planète vivante</b> (en anglais LPI = living planet index) est un **indicateur d'état de la biodiversité** utilisé pour l'évaluation environnementale, en particulier par l'ONU. Cet indice compare l’évolution d’une population en prenant celle de **1970 comme référence (IPV = 1)** et mesure le taux de croissance ou de décroissance à une année donnée par rapport à cette valeur initiale.  
-L'IPV montre qu'au cours des **50 dernières années** (1970-2020), la **taille moyenne des populations d’animaux sauvages** suivies a **diminué de 73 %**. Les populations d’**espèces d’eau douce** affichent le plus fort déclin, avec une **baisse de 85 %**.
+L'IPV montre qu'au cours des **50 dernières années** (1970-2020), la **taille moyenne des populations d’animaux sauvages** suivies a **diminué de 73 %**. Les populations d’espèces d’eau douce affichent le plus fort déclin, avec une baisse de 85 %.  
+Certains scientifiques parlent même de **"sixième extinction"** ou "extinction de l’Holocène" pour définir cette disparition massive des espèces, mais le terme **"crise de la biodiversité"** fait plus l'unanimité.
 
 <img src="Indice_planete_vivante_2024.jpg" width="45%" alt="ipv 2024">
 <div align="center">
     Illustration trouvée sur le site WWF
 </div>
 
-🐦 Inspirées des "bandes de réchauffement climatique", l'expert **Miles Richardson** s'est basé sur l'**IPV** pour développer les "<b style="color: green;">rayures de la biodiversité</b>" (biodiversity stripes) allant du vert au gris, signe de la perte de couleur et de biodiversité de la nature.
+🐦 Les "<b style="color: green;">rayures de la biodiversité</b>" (biodiversity stripes) basées sur l'**IPV** ont été créées par l'expert **Miles Richardson** qui s'est inspiré des "bandes de réchauffement climatique".
 
 <img src="biodiversity_stripes.png" width="40%" alt="biodiversity stripes">
 <div align="center">
@@ -297,6 +321,8 @@ Les produits biosourcés, utilisés notamment dans la **construction**, visent �
 
 🧑‍🌾 L’<b style="color: green;">agriculture raisonnée</b> est une démarche française qui **se positionne entre l’agriculture intensive et l’agriculture biologique**. Elle propose une vision intermédiaire du système de gestion des productions agricoles, en se fixant comme objectif premier d’**optimiser le résultat économique**, tout en **limitant l’utilisation des substances chimiques** pouvant être nuisible pour les écosystèmes et la biodiversité.
 
+🧑‍🌾 La <b style="color: green;">permaculture</b> repose sur l'idée de **s'inspirer du fonctionnement de la nature** pour **créer des systèmes agricoles diversifiés, résilients** et capables de se **développer naturellement**.
+
 🧺 Une <b style="color: green;">AMAP</b> = Association pour le Maintien d’une Agriculture Paysanne, est un **partenariat entre des consommateurs et un agriculteur local**, basé sur un engagement mutuel. Les consommateurs paient à l’avance une part de la production sous forme de **paniers de fruits, légumes, œufs** et ont ainsi des produits frais et locaux tout en garantissant un revenu stable à l’agriculteur. Ce modèle favorise une **agriculture durable, locale et sans intermédiaire**.
 
 ### Economie et environnement
@@ -328,6 +354,7 @@ L’autrice **Kate Raworth** définit ainsi au coueur du donut 12 besoin de base
 ♻️ L'<b style="color: green;">économie circulaire</b> est l’une des composante de l’économie verte. Cette notion désigne un modèle économique dont l’objectif est de **produire des biens et des services de manière durable**, en **limitant la consommation** et les gaspillages de ressources **et la production de déchets**. Elle vise à passer d’une société du tout jetable, basé sur une économie linéaire (extraire, fabriquer, consommer, jeter) vers un modèle économique plus circulaire.
 
 🚯 La <b style="color: green;">loi AGEC = loi anti-gaspillage pour une économie circulaire</b> (2020) vise l'**économie circulaire** autour de 5 grands axes : **sortir du tout jetable**, mieux **informer les consommateurs**, lutter contre le gaspillage et pour le **réemploi solidaire**, agir **contre l’obsolescence programmée** et mieux produire.  
+Ex : cette loi veut instauré l'**indice de durabilité** qui vise à **lutter contre l’obsolescence programmée** en attribuant un score aux produits selon leur longévité. Une première étape a été franchie avec l’**indice de réparabilité** en 2022.  
 Ex : pour l'objectif de la **fin du plastique jetable d’ici 2040**, la loi introduit des interdictions progressives pour réduire l’utilisation du plastique à usage unique.
 
 🌊 L'<b style="color: green;">économie bleue</b> englobe toutes les **activités économiques associées aux ressources marines** et aux écosystèmes aquatiques. L’économie bleue cherche à favoriser une croissance économique durable en **protégeant les milieux marins et aquatiques**. Contrairement à l’économie verte et à l’économie circulaire, l'économie bleu ne consiste pas juste à polluer moins, mais à **ne plus polluer du tout** en éliminant la production de déchets au moyen d’un changement dans les méthodes de production.
@@ -337,6 +364,10 @@ Ex : pour l'objectif de la **fin du plastique jetable d’ici 2040**, la loi int
 🪴 L'<b style="color: green;">économie régénérative</b> est un modèle économique émergent qui vise non seulement à réduire les impacts négatifs d'une entreprise sur l'environnement ou la société à des seuils incompressibles, mais aussi à **créer un impact positif global**. Toutefois, le **manque de normes** et de cadre clairs peut rendre difficile pour les entreprises de déclarer qu'elles sont régénératives de manière crédible et transparente.
 
 📈 L'<b style="color: green;">écolomie</b> est un concept qui vise à **conjuguer écologie et économie**, en montrant qu’il est possible de réduire son impact environnemental tout en réalisant des économies et en créant de la valeur.
+
+💰 La <b style="color: green;">fiscalité environnementale</b> ou écologique vise à encourager des comportements écologiques en appliquant des **taxes et impôts sur les activités polluantes** selon le **principe pollueur payeur**. Elle concerne notamment les **émissions de GES**, l’**exploitation des ressources naturelles** et la gestion des **déchets**. La <b style="color: green;">taxe verte</b>, incluant la **taxe carbone** et la **TGAP** (taxe générale sur les activités polluantes) est un outil clé mais critiqué pour son impact sur les ménages modestes et ses exemptions pour certains secteurs polluants.
+
+✅ Le <b style="color: green;">budget vert</b> (2020) est un outil de transparence qui évalue l’**impact environnemental des dépenses publiques**. Il classe chaque dépense selon **6 critères environnementaux** (atténuation climat, adaptation climat, eau, déchet, pollution, biodiversité) et attribue une cotation **favorable, défavorable, mixte ou neutre**.
 
 🎣 Les <b style="color: green;">communs</b> désignent des **ressources partagées** avec un **collectif d’acteur** qui disposent de droit et d’obligations et une **structure de gouvernance propre** où les utilisateurs ont leur mot à dire. Ex : zone de pêche, frigo, forêts, jardin partagés, systèmes d’irrigation, brevets, logiciel libres open, boîte de Do_It, boîte à livres, supermarché coopératif...  
 Toutefois, l'article **La tragédie des communs** (1968) de Garrett Hardin a diffusé l’idée que l'absence de propriété privée mènerait inévitablement à la **surexploitation des ressources**. Cette approche a marqué la pensée environnementale contemporaine, encourageant la création de **trusts caritatifs environnementaux** qui promeuvent une **gestion privée des communs**, avec pour objectif exclusif leur préservation.
@@ -360,7 +391,11 @@ J'ai également regardé le graphique de la production d’électricité par fil
     Illustration trouvée sur le site RTE France
 </div>
 
+💡 La <b style="color: green;">transition énergétique</b> est un processus global visant à **transformer les systèmes de production et de consommation d’énergie vers des modèles plus durables**, en réponse aux enjeux écologiques. Elle cherche à réduire les émissions de GES, diminuer la dépendance aux combustibles fossiles en électrifiant les usages, optimiser l'efficacité énergétique, encourager la **sobriété énergétique** et développer de nouvelles formes d’énergie bas carbone comme le biométhane et l'hydrogène vert.
+
 ## Divers
+
+⚖️ L’<b style="color: green;">Affaire du siècle</b> (2018) est une **campagne de justice climatique** lancée par **4 ONG** dont Greenpeace France qui a pour but de **poursuivre l’État français pour inaction climatique**. La pétition associée atteint 2 millions de signatures en 1 mois et face à l’insuffisance des réponses du gouvernement, les ONG déposent un **recours devant le tribunal administratif de Paris** en 2019. En 2021, le tribunal reconnaît la faute de l’État dans une décision qualifiée de **« victoire historique pour le climat »** et lui ordonne de réparer le préjudice climatique.
 
 💥 La <b style="color: green;">collapsologie</b> est un courant de pensée s’appuyant sur des données scientifiques pour montrer que le progrès technologique et l’exploitation des ressources pourraient mener à un **effondrement global de la civilisation**. Ses origines remontent au **rapport Meadows** de 1972, qui alertait déjà sur les risques liés au dérèglement climatique, à la perte de biodiversité et aux crises énergétique, économique et politique menaçant la stabilité des sociétés humaines.
 
@@ -373,9 +408,9 @@ J'ai également regardé le graphique de la production d’électricité par fil
     Illustration trouvée sur le site Studioreset
 </div>
 
-🧠 La <b style="color: green;">Fresque du climat</b> est un **atelier collaboratif** qui sensibilise aux enjeux climatiques en s'appuyant sur les données du **GIEC**. À travers un jeu de cartes, les participants relient les **causes et conséquences du changement climatique** pour mieux comprendre ses mécanismes.
-
 🏢 Les <b style="color: green;">bâtiments passifs</b> consomment **moins de 15 kWh/m²/an pour le chauffage**, ce qui permettrait selon le Passiv Haus Institut de bénéficier de plus de 70% des besoins en chauffage gratuitement. Au total, ils consomment moins de 120 kWh/m²/an.  
 En pratique, les bâtiments passifs **ne disposent pas d'un système de chauffage actif**. Le concept est basé sur l'**isolation** des logements, additionnée à une **orientation tournée vers le sud**, et à l’utilisation d’apports internes, c'est-à-dire la chaleur dégagée par les occupants et leurs activités, ce qui permet de réduire les besoins thermiques du bâtiment. Ils sont également conçus dans l'optique de **limiter la consommation d'eau et d'électricité**. En France, le label Bâtiment Basse Consommation énergétique (BBC) s'inspire de ce **concept allemand d'origine**, « Passivhaus ». A titre personnel, j'ai vécu dans une Passivhzus lors de mon erasmus en AUtriche et c'était effectivement super niveau isolation.
 
 ## 👍 Conclusion de ce POK 3
+
+J'ai beaucoup **aimé en apprendre plus sur toutes ces notions** et mettre au propre toutes les connaissances que j'avais apprise sur les dernières années. Je sais déjà que je relirai à nouveau cette fiche récap dans le futur et je suis contente de me dire que certains lecteurs y apprendront sûrement quelques notions.
