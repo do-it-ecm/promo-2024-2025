@@ -19,7 +19,7 @@ authors:
   - [MON 2.1 : rappels en Python](./mon/temps-2.1)
   - [MON 2.2 : les entreprises opales](./mon/temps-2.2)
   - [MON 3.1 : l'éloquence](./mon/temps-3.1)
-  - [MON 3.2 : mindmap, lean et gestion de projet](./mon/temps-3.2)
+  - [MON 3.2 : mindmap (lean) puis dactylographie](./mon/temps-3.2)
 
 ## Projet
 

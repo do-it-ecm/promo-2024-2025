@@ -23,7 +23,7 @@ MON débutant, aucun prérequis
 {% lien %}
 
 **Partie lean** :  
-Cours sur le lean de la filière métier "production et logistique"
+Cours sur le lean de la filière métier "production et logistique"  
 
 **Partie dactylographie** :  
 - [edclub](https://www.edclub.com/sportal/)
@@ -47,7 +47,7 @@ Je suis super satisfaite du résultat et je pense réutiliser Canva par la suite
 
 ## ⌨️ Dactylographie
 
-Je n'ai jamais appris à bien écrire sur un clavier d'ordinateur sans regarder et en utilisant efficacement mes 10 doigts. Résultat, alors que je vais avoir un BAC+5 j'écris encore en devant regarder souvent mes doigts et je n'utilisais que mes index (oui c'est la honte, je sais...). J'ai donc décidé de changer celà en **apprenant la dactylographie** ! La dactylographie est l'**action de saisir un texte sur un clavier** mais celà sous entend souvent que l'on utilise efficacement ses 10 doigts.
+Je n'ai jamais appris à bien écrire sur un clavier d'ordinateur sans regarder et en utilisant efficacement mes 10 doigts. Résultat, alors que je vais avoir un BAC+5, j'écris encore en regardant souvent mes doigts et je n'utilise que mes index (oui c'est la honte, je sais...). J'ai donc décidé de changer celà en **apprenant la dactylographie** ! La dactylographie est l'**action de saisir un texte sur un clavier** mais celà sous entend souvent que l'on utilise efficacement ses 10 doigts.
 
 ### Placement des doigts
 
@@ -99,7 +99,7 @@ Voici quelques conseils vus sur Youtube ou des forums qui m'ont aidé à progres
 
 ### Raccourcis clavier
 
-J'en ai profité pour récapituler tous les raccourcis pratiques sur clavier dans le tableau ci-dessous afin de plus souvent avoir le réflexe d'utiliser le clavier au lieu d'une souris ou de multiples boutons.
+J'en ai profité pour récapituler tous les raccourcis pratiques sur clavier dans le tableau ci-dessous afin de plus souvent avoir le **réflexe d'utiliser le clavier** au lieu d'une souris ou de multiples boutons.
 
 | Commandes                 | Actions |
 |---------------------------|---------|
@@ -167,11 +167,11 @@ Je trouve que ce screen du site [nabiraem.ru](https://solo.nabiraem.ru/fr/overvi
 
 ## 👍Conclusion
 
-Je suis **très contente** de ce MON car il m'a permis d'enfin prendre le temps de réaliser une mindmap proprement et de progresser en dactylographie : **2 compétences qui me seront utiles** par la suite.
+Je suis **très contente** de ce MON car il m'a permis d'enfin prendre le temps de réaliser une mindmap proprement et de progresser en dactylographie : **2 compétences qui me seront très utiles** par la suite. D'ailleurs, je précise que tout ce MON a été écrit en tappant bien avec mes 10 doigts et sans regarder mon clavier contrairement aux précédents !
 
 ## ⌛Horodatage
 
 | Date | Heures passées | Indications |
 | -------- | -------- |-------- |
 | Jeudi 06/03 | 4h30 | Relecture de mes cours de production et logistique et réalisation de la mindmap |
-| Depuis début janvier | +6h | Apprentissage de la dactylographie |
+| Depuis début janvier | +6h | Apprentissage de la dactylographie et rédaction de ce MON |
