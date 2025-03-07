@@ -159,7 +159,7 @@ Nous avons aussi dû faire face à des contraintes techniques liées à l'utilis
 <div style="text-align: center;">
 <div style="display:flex">
 <div><img src="V1_figma.png"></div>
-<div><img style="width:92%" src="V1_bubble+POK.png"></div>
+<div><img style="width:92%" src="V1_bubblePOK.png"></div>
 <div><img style="width:58%" src="V2_bubble.jpeg"></div>
 </div>
 </div>
