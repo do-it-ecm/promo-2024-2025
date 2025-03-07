@@ -167,7 +167,7 @@ Je trouve que ce screen du site [nabiraem.ru](https://solo.nabiraem.ru/fr/overvi
 
 ## 👍Conclusion
 
-Je suis **très contente** de ce MON car il m'a permis d'enfin prendre le temps de réaliser une mindmap proprement et de progresser en dactylographie : **2 compétences qui me seront très utiles** par la suite. D'ailleurs, je précise que tout ce MON a été écrit en tappant bien avec mes 10 doigts et sans regarder mon clavier contrairement aux précédents !
+Je suis **très contente** de ce MON car il m'a permis d'enfin prendre le temps de réaliser une mindmap proprement et de progresser en dactylographie : **2 compétences qui me seront très utiles** par la suite. D'ailleurs, je précise que tout ce MON a été écrit en tappant avec mes 10 doigts et sans regarder mon clavier contrairement aux précédents !
 
 ## ⌛Horodatage
 
