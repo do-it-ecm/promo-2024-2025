@@ -53,13 +53,12 @@ Au cours de mon cursus j'ai déjà eu l'occasion de travailler sur des modèles 
 - [x] Implémentation du modèle de recommandation avec ALS (Alternating Least Squares) (4h)
 - [x] Optimisation des hyperparamètres du modèle (3h)
 - [x] Analyse du modèle optimisé (1h)
-- [ ] Génération de recommandations pour les utilisateurs (1h)
-- [ ] Documentation finale (1h)
+- [x] Génération de recommandations pour les utilisateurs (1h)
+- [x] Documentation finale (1h)
 
 
 ### Horodatage
 
-Toutes les séances et le nombre d'heure que l'on y a passé.
 
 | Date | Heures passées | Indications |
 | -------- | -------- |-------- |
@@ -74,6 +73,8 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 | Mercredi 26/02 matin | 2h  | Optimisation des hyperparamètres du modèle |
 | Mercredi 26/02 soir | 2h  | Optimisation des hyperparamètres du modèle |
 | Mercredi 26/02 soir | 1h  | Analyse du modèle optimisé  |
+| Vendredi 07/03 | 1h  | Génération de recommandations pour les utilisateurs |
+| Vendredi 07/03| 1h  | Documentation finale  |
 
 
 ## Contenu
@@ -273,3 +274,33 @@ Après avoir recherché les valeurs optimales pour chacuns de ces paramètres pa
 | **maxIter**  | 15 | 
 | **regParam** | 0.055 | 
 | **alpha** | 25 | 
+
+
+
+#### Choix du modèle finale
+
+Après avoir testé l’ensemble des hyperparamètres optimaux trouvés par dichotomie (rank=16, maxIter=15, regParam=0.055, alpha=25), nous avons constaté une forte augmentation de l’erreur RMSE (supérieur à 3). Ce phénomène est un signe de surentraînement (ou overfitting), ce qui signifie que le modèle s'est trop ajusté aux données d'entraînement et ne généralise plus bien aux nouvelles données du test.
+En ne gardant que rank=16 et regParam=0.055, nous avons observé une légère diminution de l'erreur RMSE par rapport à notre première tentative avec les paramètres par défaut.  Nous utiliserons donc ces paramètres pour la dernière partie.
+
+#### Recommandation avec l'algorithme
+
+Le but de cette dernière partie est de créer une fonction qui prend en argument l'id d'un utilisateur et qui renvoie les 5 films les plus recommandés par notre algorithme parmis ceux qu'il n'a pas vu.
+
+{% details "La fonction" %}
+
+```python
+from pyspark.sql.functions import col
+
+def recommend_movies(user_id, nb_reco=5):
+    seen_movies = rating.filter(col("userId") == user_id).select("movieId")
+    unseen_movies = movie.select("movieId").subtract(seen_movies)
+    user_unseen_movies = unseen_movies.withColumn("userId", col("movieId") * 0 + user_id)
+    recommendations = model.transform(user_unseen_movies)
+    top_movies = recommendations.orderBy(col("prediction").desc()).limit(nb_reco)
+    final_recommendations = top_movies.join(movie, "movieId").select("title")
+
+    return final_recommendations
+```
+{% enddetails %}
+
+Cette fonction nous renvoie donc le titre et la date des films les plus recommandés pour l'utilisateur.
