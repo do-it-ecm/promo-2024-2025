@@ -16,4 +16,4 @@ authors:
 
 ## Temps 3
 
-- [POK 3 - ](./temps-3)
+- [POK 3 - Poésie Learn - App](./temps-3)
