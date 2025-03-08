@@ -7,7 +7,10 @@ authors:
 
 date: 2025-03-01
 temps: 3
-tags: Freelance, Auto-entrepreneur
+tags: 
+- Saumon
+- Freelance
+- Auto-entrepreneur
 
 résumé: "Devenir freelance en tant que jeune ingénieur : mode d'emploi"
 ---
