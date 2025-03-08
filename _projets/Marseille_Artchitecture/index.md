@@ -53,7 +53,11 @@ Voici un petit exemple du principe de l'application :
 <div><img src="PictureOld.png" style="width:30%;"></div>
 </div>
 
-Il est possible de retrouver une démonstration plus complète dans les liens de cette page.
+Voici une démonstration complète:
+
+<video controls autoplay loop>
+  <source src="./demo.MP4" type="video/mp4"/>
+</video>
 
 ## UI/UX Design
 
@@ -151,7 +155,15 @@ Lors de nos premiers tests, nous nous sommes vite rendu compte que le rendu n'é
 
 Nous avons aussi dû faire face à des contraintes techniques liées à l'utilisation de Bubble : nous avions prévu de faire une page avec la caméra visible, mais cela s'est avéré impossible. Nous avons d'abord mis sur une page un bouton qui ouvrait l'appareil photo, mais finalement, nous avons conditionné l'ouverture de l'appareil photo au bouton d'appareil photo directement sur le menu.
 
-**Mettre une photo du figma + une photo de la V1 et une photo de la V2**
+
+<div style="text-align: center;">
+<div style="display:flex">
+<div><img src="V1_figma.png"></div>
+<div><img style="width:92%" src="V1_bubblePOK.png"></div>
+<div><img style="width:58%" src="V2_bubble.jpeg"></div>
+</div>
+</div>
+
 
 ### Point clé technique : la Géolocalisation
 
