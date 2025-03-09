@@ -18,7 +18,7 @@ Aucun
 
 {% endprerequis %}
 {% lien %}
-Lien vers le [`MON 3.1`](https://do-it.aioli.ec-m.fr/promos/2023-2024/Khaoula-Belaaziz/mon/temps-3.1/) de Khaoula BELAAZIZ intitulé "Replonger dans le monde d'Excel.
+Lien vers le [`MON 3.1`](https://do-it.aioli.ec-m.fr/promos/2023-2024/Khaoula-Belaaziz/mon/temps-3.1/) de Khaoula BELAAZIZ intitulé "Replonger dans le monde d'Excel. \
 Lien vers le [`MON 1.1`](https://do-it.aioli.ec-m.fr/promos/2024-2025/Charles-Cook/mon/temps-1.1/) de Charles Cook sur la découverte de VBA.
 
 {% endlien %}
@@ -69,6 +69,11 @@ En revanche, j’ai beaucoup apprécié cette série de quatre vidéos, que je r
 [`Formation Power Query`](https://www.youtube.com/watch?v=4rCgZX9jEnA)
 
 #### Exercice
+
+{% attention %}
+Toutes les données utilisées dans ces exercices sont fictives.
+{% endattention %}
+
 Pour mettre en pratique ce que j’ai appris, j’ai choisi de reproduire exactement le même résultat que Charles dans son [`MON`](https://do-it.aioli.ec-m.fr/promos/2024-2025/Charles-Cook/mon/temps-1.1/), mais en utilisant Power Query plutôt que VBA.
 
 L’implémentation des deux requêtes suivantes dans Power Query n’a pris que 10-15 minutes, contre quelques heures en VBA :
@@ -92,13 +97,18 @@ L’implémentation des deux requêtes suivantes dans Power Query n’a pris que
 </div>
 
 Les requêtes s'actualisent automatiquement en temps réel dès que de nouvelles lignes de données concernant les centraliens sont ajoutées au fichier Excel initial, comme illustré dans la vidéo ci-dessous. Ainsi, les tables manipulées par Power Query se mettent à jour sans intervention manuelle.
-⚠️ Important : N'oubliez pas d' "Enregistrer" le fichier Excel avant de cliquer sur "Actualiser" dans l'onglet **Données**, comme montré dans la vidéo. Sinon, l'actualisation ne fonctionnera pas. J'ai mis un certain temps à réaliser que j'avais commis cette erreur, ce qui expliquait pourquoi l'actualisation ne fonctionnait pas.
 
+⚠️ Important : N'oubliez pas d' "Enregistrer" le fichier Excel avant de cliquer sur "Actualiser" dans Excel dans l'onglet **Données**, comme montré dans la vidéo. Sinon, l'actualisation ne fonctionnera pas. J'ai mis un certain temps à réaliser que j'avais commis cette erreur, ce qui expliquait pourquoi l'actualisation ne fonctionnait pas.
+
+<video controls autoplay loop>
+  <source src="./output.mov" type="video/mp4"/>
+  <i>Actualisation automatique en temps réel des données dans Excel avec Power Query</i>
+</video>
 
 
 #### Bonus : Power Query remplace-t-il VBA ?
 
-J’aurais aimé approfondir la question de savoir si Power Query peut réellement remplacer VBA. Fa faute de temps, je partage ici une requête rapide effectuée avec ChatGPT, car ce sujet m'intéresse particulièrement.
+J’aurais aimé approfondir la question de savoir si Power Query peut réellement remplacer VBA. Faute de temps, je partage ici une requête rapide effectuée avec ChatGPT, car ce sujet m'intéresse particulièrement.
 
 {% details "⚙️ Requête ChatGPT: Power Query remplace-t-il VBA ?" %}
 
