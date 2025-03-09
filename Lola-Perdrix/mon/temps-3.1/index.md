@@ -2,12 +2,14 @@
 layout: layout/mon.njk
 
 title: "Projet Numérologie pour notions de back-end"
+
+temps: 3
+
 authors:
   - Lola Perdrix
 
-date: 1971-03-01
+date: 2025-02-02
 tags: 
-  - "temps 3"
   - "vert"
   - "back"
 
