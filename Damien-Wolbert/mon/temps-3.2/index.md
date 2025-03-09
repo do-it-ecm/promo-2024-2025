@@ -80,6 +80,7 @@ D'après le site de l'ISO **[4]**, l'ISO 9001 permet de :
 1. Garantir une aptitude à fournir des produits et services conformes aux exigences des clients et aux exigences légales et règlementaires.
 2. Permettre et facilitéerune amélioration de la satisfaction clients
 3. Maitriser les risques et opportunités de l'organisation
+4. Forcer les collaborateur à suivre une politique qualité grâce à une contrainte d'audit externe.
 
 **Raisons commerciales :**  
 L'ISO 9001 permet donc de : 
