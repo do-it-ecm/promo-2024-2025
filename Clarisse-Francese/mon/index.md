@@ -13,4 +13,4 @@ Ensemble des MON réalisés par Clarisse Francese.
 - [MON 2.1 : rappels en Python](./temps-2.1)
 - [MON 2.2 : les entreprises opales](./temps-2.2)
 - [MON 3.1 : l'éloquence](./temps-3.1)
-- [MON 3.2 : mindmap (lean) puis dactylographie](./temps-3.2)
+- [MON 3.2 : dactylographie et mindmap (lean)](./temps-3.2)

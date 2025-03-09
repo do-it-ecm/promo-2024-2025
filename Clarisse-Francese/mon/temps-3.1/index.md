@@ -35,6 +35,7 @@ MON débutant, aucun prérequis
 - [Guide du débrouillard - rhétorique fallacieuse](https://guide-du-debrouillard.fr/rhetorique-fallacieuse/)
 - [Top 10 des arguments fallacieux et comment s'en protéger - Panache](https://www.avecpanache.co/post/top-10-des-arguments-fallacieux-et-comment-sen-proteger)
 - Diaporama "Prise de parole et éloquence" - Tronc commun de 2A Centrale Méditerranée
+- [The conversation - Entreprise : la valeur (ajoutée), si profondément humaine, de la conversation](https://theconversation.com/entreprise-la-valeur-ajoutee-si-profondement-humaine-de-la-conversation-246694) consulté lé 09/03/25
 
 {% endlien %}
 
@@ -45,7 +46,11 @@ MON débutant, aucun prérequis
 ## 🔎Introduction
 
 L'**éloquence** désigne don de la parole, **la facilité de bien s’exprimer**. Et comme l’éloquence vient souvent servir une demande ou une cause, c’est aussi l’art de toucher et de persuader par le discours.  
+
 Ayant fait une césure entre ma 2A et 3A, je fais partie des élèves qui n'ont jamais eu la semaine de tronc commun de Centrale pendant laquelle on parle de leadership et d'éloquence. Or, **j'ai toujours été fascinée par le langage**, j'avais d'ailleurs écrit une [mini thèse sur l'influence du langage](https://docs.google.com/document/d/1mdGBEknpjgtIS8IaHEqQSoOL_zh2B8KgVLG04pKsFTA/edit?usp=sharing) en 2A pendant l'électif de Philosophie économique de l’anthropocène par Guillaume Quiquerez.  
+
+De plus, à l’ère du travail hybride, la **conversation est un élément essentiel du management par le care** en permettant d’éviter que les individus ne deviennent invisibles aux yeux des autres. Elle joue un rôle clé dans le maintien du lien social, la prévention des conflits liés aux espaces de travail et la construction d’un collectif.
+
 Ainsi, je profite de ce MON pour apprendre et mettre au propre tous les conseils pertinents sur l'éloquence avec des parties sur la **CNV**, comment **négocier et obtenir un engagement** d'une personne, les **procédés réthoriques** dont il faut se méfier et **comment faire un bon discours**.
 
 ## ☮️Communication Non Violente
