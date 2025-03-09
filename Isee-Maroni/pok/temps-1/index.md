@@ -25,7 +25,7 @@ Connaitre les bases de Airtable et Softr.
 {% endprerequis %}
 {% lien %}
 
-[`MON Apprentissage Airtable & Softr `](https://francoisbrucker.github.io/do-it/promos/2024-2025/Isee-Maroni/mon/temps-1.1/)
+[`MON Apprentissage Airtable & Softr `]({{ site.url }}/promos/2024-2025/Isee-Maroni/mon/temps-1.1/)
 
 {% endlien %}
 
@@ -155,7 +155,7 @@ Airtable
 Softr
 - [x] Rajouts de filtres : lieu, secteur, profil étudiant
 - [ ] Rajouter date de publication ?
-- [ ] Page Home 
+- [ ] Page Home
 - [x] Page Details offre ( offres cliquables)
 - [x] Ajouter header
 - [ ] Ajouter footer
@@ -178,9 +178,9 @@ Je ne suis pas allée jusqu'à la publication de l'application web car je n'ai p
 
 Pour améliorer la page **Offres** j'ai ajouté plusieurs filtres basés sur la localisation, le secteur d'activité et le type de travail proposé. Cela a nécessité l'importation de la base de données des villes de France dans *Airtable* avec une automatisation pour associer chaque ville à son département et sa région.
 
-Il est possible de sélectionner plusieurs villes pour une même offre. 
+Il est possible de sélectionner plusieurs villes pour une même offre.
 
-J'ai également mis en place une barre de recherche où l'on peut rechercher les résultats par entreprise, intitulé de l'offre, type de contrat, spécialité, ainsi que par ville ou département. 
+J'ai également mis en place une barre de recherche où l'on peut rechercher les résultats par entreprise, intitulé de l'offre, type de contrat, spécialité, ainsi que par ville ou département.
 
 Enfin, un menu déroulant a été ajouté, affichant uniquement les villes proposées parmi les offres à disposition, pour simplifier la recherche.
 
@@ -194,7 +194,7 @@ Voilà à quoi ressemble la nouvelle page **Offres** du côté de sa constructio
 Pour la page **Offres-Details**, j'ai conçu une mise en page présentant les informations principales de l'offre, accompagnée d'un lien direct vers l'annonce sur le site de l'entreprise pour obtenir plus de détails.
 
 Voilà un aperçu de l'expérience utilisateur étape par étape :
- 
+
 ![Exp_utilisateur1](./Exp_utilisateur1.png)
 
 ![Exp_utilisateur2](./Exp_utilisateur2.png)

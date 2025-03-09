@@ -1,7 +1,7 @@
 ---
 layout: layout/pok.njk
 
-title: "Angular - Front-End Framework"
+title: "Angular - Front-End Framework (1/2)"
 authors:
   - Titouan Corne
 
@@ -126,7 +126,7 @@ Il faut préalablement avoir Node.js, un IDE (Environnement de Développement In
 Dans un premier temps, il faut installer Angular CLI (Command Line Interface) qui facilite le développement d'applications avec le framework Angular. Angular CLI permet de générer, configurer, développer, tester et déployer des applications Angular de manière efficace, sans se soucier des configurations complexes ou des tâches répétitives.
 ```npm install -g @angular/cli```
 
-Ensuite, il faut créer un nouveau projet Angular à l'aide de la commande : ```ng new <project-name>```
+Ensuite, il faut créer un nouveau projet Angular à l'aide de la commande : ```ng new &lt;project-name&gt;```
 Il est alors possible de choisir les configurations souhaitées pour le projet.
 
 Le projet est alors créé. Une fois dans le dossier du projet, vous pouvez lancer votre site en local en utilisant la commande ```ng serve```.
@@ -141,7 +141,7 @@ Un composant ou **component** est une unité modulaire de code qui combine un te
 
 Chaque composant Angular est associé à une partie spécifique de l'interface de l'application, et ces composants peuvent être imbriqués les uns dans les autres pour construire des interfaces complexes.
 
-Pour créer un composant, il existe la commande : ```ng generate component <nom-composant>```.
+Pour créer un composant, il existe la commande : ```ng generate component &lt;nom-composant&gt;```.
 
 Par exemple, lorsqu'on crée un composant *hello*, on obtient un nouveau dossier comme suit :
 
@@ -150,7 +150,7 @@ Par exemple, lorsqu'on crée un composant *hello*, on obtient un nouveau dossier
 Pour définir le comportement d'un composant ou encore ses données, on utilise l'**état** ou **state**. Ce state représente tout ce que le composant "sait" à un moment donné et qui est susceptible de changer au fil du temps, en réponse à des événements utilisateur, des interactions avec des services, ou d'autres actions.
 Voici, un exemple avec les deux propriétés *taskTitle* et *isComplete* :
 
-```
+```javascript
 @Component({ ... })
 export class TodoListItem {
   taskTitle = '';
@@ -160,8 +160,7 @@ export class TodoListItem {
 
 Pour modifier cet état, on peut définir des méthodes à l'intérieur de ce *'class component'* en veillant à bien utiliser le mot **this** :
 
-{% raw %}
-```
+```javascript
 @Component({ ... })
 export class TodoListItem {
   taskTitle = '';
@@ -174,38 +173,34 @@ export class TodoListItem {
   }
 }
 ```
-{% endraw %}
 
-Pour afficher du contenu dynamique dans le template (i.e. le rendu html), on utilise des doubles accolades :{% raw %} `<p> Title : {{taskTitle}} </p>` {% endraw %}. Ainsi lorsque la valeur de *taskTitle* changera, Angular modifiera le DOM (Document Object Model) pour que le fichier HTML affiche correctement la nouvelle valeur.
+Pour afficher du contenu dynamique dans le template (i.e. le rendu html), on utilise des doubles accolades :{% raw %} `&lt;p&gt; Title : &#123;&#123taskTitle&#125;&#125 &lt;/p&gt;` {% endraw %}. Ainsi lorsque la valeur de *taskTitle* changera, Angular modifiera le DOM (Document Object Model) pour que le fichier HTML affiche correctement la nouvelle valeur.
 
 Similairement, on peut définir des propriétés CSS de façon dynamique en utilisant des crochets :
 
-{% raw %}
-```
+```javascript
 @Component({
   selector: 'sign-up-form',
   template: `
-    <button type="submit" [disabled]="formIsInvalid">Submit</button>
+    &lt;button type="submit" [disabled]="formIsInvalid"&gt;Submit&lt;/button&gt;
   `
 })
 export class SignUpForm {
   formIsInvalid = true;
 }
 ```
-{% endraw %}
 
 Il est également possible d'utiliser des conditions **if**, voici un exemple :
 
-{% raw %}
-```
+```javascript
 @Component({
   standalone: true,
   selector: 'user-controls',
   template: `
     @if (isAdmin) {
-      <button>Erase database</button>
+      &lt;button&gt;Erase database&lt;/button&gt;
     } @else {
-      <p>You are not authorized.</p>
+      &lt;p&gt;You are not authorized.&lt;/p&gt;
     }
   `,
 })
@@ -213,21 +208,19 @@ export class UserControls {
   isAdmin = true;
 }
 ```
-{% endraw %}
 
 Il est aussi possible d'utiliser des boucles **for** :
 
-{% raw %}
-```
+```javascript
 @Component({
   standalone: true,
   selector: 'user-controls',
   template: `
-    <ul>
+    &lt;ul&gt;
       @for (ingredient of ingredientList; track ingredient.name) {
-        <li> {{ ingredient.quantity }} - {{ ingredient.name }}</li>
+        &lt;li&gt; &#123;&#123 ingredient.quantity &#125;&#125 - &#123;&#123 ingredient.name &#125;&#125&lt;/li&gt;
       }
-    </ul>
+    &lt;/ul&gt;
   `,
 })
 export class IngredientList {
@@ -238,34 +231,30 @@ export class IngredientList {
   ];
 }
 ```
-{% endraw %}
 
-On remarque la présence de la propriété **track** qui correspond à un identifiant unique qu'il faut préciser pour qu'Angular traite correctement chaque élément d'une liste. Nous avions vu qu'il y avait cette même propriété en React, présente sous le nom **key** (cf projets de mon [MON 2.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Corne-Titouan/mon/temps-2.1/)).
+On remarque la présence de la propriété **track** qui correspond à un identifiant unique qu'il faut préciser pour qu'Angular traite correctement chaque élément d'une liste. Nous avions vu qu'il y avait cette même propriété en React, présente sous le nom **key** (cf projets de mon [MON 2.1]({{ site.url }}/promos/2024-2025/Corne-Titouan/mon/temps-2.1/)).
 
 J'ai églament appris de nouveaux concepts sur lesquels, je ne vais pas m'attarder :
 
 - les **vues différées** (**deferrable views**) qui permettent d'optimiser le chargement des différents composants en indiquant à certains qu'ils n'ont pas besoin d'être chargés immediatement pour divers raisons. Illustration :
 
-{% raw %}
-```
+```javascript
 @defer (on viewport) {
-      <comments />
+      &lt;comments /&gt;
       } @placeholder {
-      <p>Future comments</p>
+      &lt;p&gt;Future comments&lt;/p&gt;
       } @loading (minimum 2s) {
-      <p>Loading comments...</p>
+      &lt;p&gt;Loading comments...&lt;/p&gt;
       }
 ```
-{% endraw %}
 
 - la **communication intercomposants** avec `@Input` (parent --> enfant) et `@Output` (enfant --> parent)
 - la gestion des événements (**Event Handling**) permettant de répondre aux actions des utilisateurs, comme les pressions sur les boutons, les soumissions de formulaires, etc.
 
-{% raw %}
-```
+```javascript
 @Component({
     ...
-    template: `<button (click)="greet()">`
+    template: `&lt;button (click)="greet()"&gt;`
 })
 class AppComponent {
     greet() {
@@ -273,7 +262,6 @@ class AppComponent {
     }
 }
 ```
-{% endraw %}
 
 - le chargement les images de façon optimisée avec la directive **NgOptimizedImage**. Par exemple, on décidera de charger l'élément LCP (Largest Contentful Paint) en premier.
 - le **routage** pour les applications nécessitant plusieurs pages.
@@ -281,28 +269,24 @@ class AppComponent {
 - la création d'**interfaces** qui permet de générer un nouveau type de données (utiliser la commande ``ng generate interface <nom-interface>``). J'utilise une interface nommée *housinglocation* dans le projet *fristApp* disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp).
 - la directive **ngFor** qui permet d'afficher dynamiquement les données sur un template Angular (i.e. fichier html). Voici un exemple que l'on peut également retrouver dans le projet *fristApp* disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp).
 
-{% raw %}
-```
-<section class="results">
-    <app-housing-location
+```javascript
+&lt;section class="results"&gt;
+    &lt;app-housing-location
     *ngFor="let housingLocation of housingLocationList"
     [housingLocation]="housingLocation"
-    ></app-housing-location>
-</section>
+    &gt;&lt;/app-housing-location&gt;
+&lt;/section&gt;
 ```
-{% endraw %}
 
-- la création de classes **services** qui sont utilisées pour transmettre les données à l'application. Les services récupèrent les données depuis un point de terminaison d'API (Application Programming Interface). Les services sont **injectables**  à l'aide du **système d'injection de dépendances (DI) d'Angular** et on peut faire appel à eux depuis différents composants (=> centralisation). Pour générer un nouveau service il faut utiliser la commande ``ng generate service <nom-service>``. Là encore, un exemple (*housing.service.ts*) est présent dans le projet *fristApp* disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp).
+- la création de classes **services** qui sont utilisées pour transmettre les données à l'application. Les services récupèrent les données depuis un point de terminaison d'API (Application Programming Interface). Les services sont **injectables**  à l'aide du **système d'injection de dépendances (DI) d'Angular** et on peut faire appel à eux depuis différents composants (=> centralisation). Pour générer un nouveau service il faut utiliser la commande ``ng generate service &lt;nom-service&gt;``. Là encore, un exemple (*housing.service.ts*) est présent dans le projet *fristApp* disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp).
 - l'utilisation de **template reference variables** qui permettent d'accéder à la valeur saisie dans un input. Illustration avec la variable *#filter* :
 
-{% raw %}
+```html
+  &lt;form&gt;
+    &lt;input type="text" placeholder="Filter by city" #filter/&gt;
+    &lt;button class="primary" type="button" (click)="filterResults(filter.value)"&gt;Search&lt;/button&gt;
+  &lt;/form&gt;
 ```
-  <form>
-    <input type="text" placeholder="Filter by city" #filter/>
-    <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
-  </form>
-```
-{% endraw %}
 
 ### 3. Cahier des charges du site de cuisine **Miam'Miam** <a id="section3"></a>
 
@@ -314,15 +298,15 @@ class AppComponent {
 Pour choisir quel composants créer, il faut se poser les bonnes questions :
 
 - Est-ce que cette section peut être réutilisée à plusieurs endroits de mon application ?
-  
+
   Ceci améliore la modularité et réduit la duplication de code. Exemple qui s'applique à **Miam'Miam** : une carte de recette (affichant une image, le titre de la recette et le propriétaire de la recette) apparaît plusieurs fois au sein du site. En effet, ces cartes de recettes sont listées sur la page regroupant toutes les recettes. Mais elles apparaissent également lorsqu'on consulte son espace personnel avec ses recettes enregistrées. Ainsi, au lieu de coder cette carte de recette dans plusieurs fichiers, il vaut mieux créer un composant unique. Ce composant sera ensuite personnalisé avec des `@Input()` pour afficher différentes données.
 
 - Est-ce que cette section a une logique ou un comportement distinct ?
-  
+
   Une partie d'une interface ayant une logique distincte et spécifique mérite d'être déclarée en tant que composant. Cela permet d’isoler cette logique pour la rendre facile à comprendre et à tester.
 
 - Est-ce que diviser cette section en plusieurs sous-sections améliore la lisibilité ?
-  
+
   Lorsqu'une section de code est trop longue ou complexe, il est préférable de la scinder en composants plus petits pour une meilleure lisibilité. Par exemple, pour afficher le détail d'une recette, il vaut mieux utiliser plusieurs sous-composants pour les ingrédients, les étapes à réaliser, ...
 
 - Est-ce que cette section pourrait devenir complexe avec le temps ?
@@ -345,7 +329,7 @@ Les NgModule permettaient d'optimiser le chargement de l'application en utilisan
 
 Depuis Angular 14 (i.e. depuit juin 2022), la bonne pratique change et devient d'utiliser essentiellement  des **standalone components**. Ces composants sont plus autonomes, ils n'ont pas besoin d'être inclus dans un NgModule. Cela simplifie le développement et réduit la complexité des applications Angular, surtout pour les petites applications ou pour des composants réutilisables.
 
-Angular évolue vers une structure plus légère et moderne, dans l’esprit des autres frameworks comme React (cf. mon [MON2.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Corne-Titouan/mon/temps-2.1/)) ou Vue.
+Angular évolue vers une structure plus légère et moderne, dans l’esprit des autres frameworks comme React (cf. mon [MON2.1]({{ site.url }}/promos/2024-2025/Corne-Titouan/mon/temps-2.1/)) ou Vue.
 
 ### 6. Visualisation du site **Miam'Miam**  <a id="section6"></a>
 
@@ -361,7 +345,7 @@ Angular évolue vers une structure plus légère et moderne, dans l’esprit des
 {% info %}
 
 Le projet est disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/CuisineWebSite), à la fin de ce POK, j'ai fait un commit avec le message "Fin POK2".
-  
+
 {% endinfo %}
 
 ## Conclusion du POK
@@ -378,5 +362,5 @@ Je vais continuer à développer **Miam'Miam** pour transformer ces notions de b
 - Projets Github :
   - [firstApp](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp) - projet dédié à la prise en main d'Angular via les tutos.
   - [Miam'Miam](https://github.com/TitouanCorne/ApprendreAngular/tree/main/CuisineWebSite) - projet du site de cuisine.
-  
+
 {% endlien %}

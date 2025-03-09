@@ -36,14 +36,14 @@ Il permet d’ajouter de l’intéractivité aux pages (sliders, allertes, bouto
 
 Pour résumer rapidement, le langage a été crée par Brendan Eich of NetScape en 1995. Il a été crée dans le but de rendre les sites web dynamiques. Au début, il avait été nommé Mocha, puis LiveScript. En 1996, il a été renommé JavaScript dans le but de capitaliser sur la communauté de Java. En 1997, le langage a été standardisé pour la première fois.
 
-Les sources suivantes sont intéressantes pour en apprendre plus sur le sujet : 
+Les sources suivantes sont intéressantes pour en apprendre plus sur le sujet :
 - [Historique des différentes versions du langage](https://roadmap.sh/guides/history-of-javascript)
 - [Histoire du langage et des stratégies mises en place pour son développement](https://dev.to/codediodeio/the-weird-history-of-javascript-2bnb)
 - [Historique des versions et de leurs apports](https://www.educative.io/blog/javascript-versions-history)
 
 ### Comment intégrer le fichier JS dans la structure HTML et CSS ?
 
-Pour en apprendre plus sur le sujet, j'ai lu les pages : 
+Pour en apprendre plus sur le sujet, j'ai lu les pages :
 - [Où placer le code JS](https://www.w3schools.com/js/js_whereto.asp)
 - [Lier JS au code HTML](https://www.digitalocean.com/community/tutorials/how-to-add-javascript-to-html)
 
@@ -51,7 +51,7 @@ Pour intégrer le JS dans le reste du code pour le front, il y a 2 solutions
 
 #### Placer le JS dans le code HTML
 
-On peut placer le code JS dans le code HTML, entre les balises `<script></script>`. 
+On peut placer le code JS dans le code HTML, entre les balises `<script></script>`.
 
 ```html
 <script>
@@ -110,8 +110,8 @@ On peut condenser les deux action ensemble :
 ```JS
 let message = 'Hello!';
 
-let user = 'John', 
-	age = 25, 
+let user = 'John',
+	age = 25,
 	message = 'Hello';
 ```
 
@@ -153,7 +153,7 @@ Mes sources pour cette partie sont les suivantes :
 - [Définition des Objects](https://www.w3schools.com/js/js_object_definition.asp)
 - [Travailler avec les objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects)
 
-Cela fait référence au type de donnée que peut contenir une variable. Il décrit un ensemble de valeurs et les opérations possibles sur ces valeurs. 
+Cela fait référence au type de donnée que peut contenir une variable. Il décrit un ensemble de valeurs et les opérations possibles sur ces valeurs.
 
 JS est un langage dynamique. Une variable n’est pas assigné à un certain type et on peut donc lui assigner n’importe quel type de données.
 
@@ -212,7 +212,7 @@ var utils = [
 
 Seule la première façon de déclarer une fonction permet d’appeler une fonction avant de l’avoir déclarer.
 
-La deuxième façon à d'autres avantages : 
+La deuxième façon à d'autres avantages :
 - avoir des fonctions anonymes ou non
 - référer à la fonction à l’intérieur d’elle même
 - utiliser la fonction comme paramètre d’une autre fonction
@@ -240,7 +240,7 @@ Mes sources principales pour cette partie du MON ont été :
 
 ### Comment créer un nouveau projet React ?
 
-Pour cela le MON de Thomas Duroy [Débuter avec React.js](https://francoisbrucker.github.io/do-it/promos/2022-2023/Duroy-Thomas/mon/MON_3.1/) explique bien comment créer un projet.
+Pour cela le MON de Thomas Duroy [Débuter avec React.js]({{ site.url }}/promos/2022-2023/Duroy-Thomas/mon/MON_3.1/) explique bien comment créer un projet.
 
 ### Que contient le code d'une application React ?
 
@@ -321,7 +321,7 @@ Pour intégrer des variables JS dans le css pour le style, il faut utiliser l’
 
 ### Peut-on afficher une information sous certaines conditions ?
 
-Il n’y a pas de syntaxe particulière dans React pour cela. Ainsi, on utilise la syntaxes JS pour cela. Voici plusieurs exemples : 
+Il n’y a pas de syntaxe particulière dans React pour cela. Ainsi, on utilise la syntaxes JS pour cela. Voici plusieurs exemples :
 
 ```
 let content;

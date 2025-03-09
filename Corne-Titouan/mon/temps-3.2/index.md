@@ -1,33 +1,55 @@
 ---
 layout: layout/mon.njk
 
-title: "Titre du second MON du temps 3"
+title: "Les enjeux du numérique dans le domaine de la santé"
 authors:
   - Titouan Corne
 
-date: 1971-03-01
 temps: 3
-tags:
 
-résumé: "Un MON traitant d'un sujet."
+date: 2025-01-06
+tags: 
+  - "temps 3"
+  - "e-santé"
+  - "vert"
+
+résumé: "En avril, je débuterai mon TFE à l'ANS (Agence du Numérique en Santé). Pour aborder mon stage dans les meilleures conditions, j'ai décidé d'effectuer un MON pour identifier et comprendre les enjeux du numériques dans le domaine de la santé. Il me permettra d'identifier les limites de la e-santé. Exceptionnellement, ce MON sera constitué de 15 heures de travail."
 ---
 
 {% prerequis %}
 
-Liste des prérequis du POK ET/OU MON
+Aucun prérequis nécessaire
 
 {% endprerequis %}
+
 {% lien %}
 
 Les lien utiles pour la compréhension de celui-ci.
 
 {% endlien %}
 
-Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce MON. On oubliera pas de donner :
+## Table des matières
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
+1. Le RGPD
 
-## Contenu
+## 1. Le RGPD <a id="section1"></a>
 
-Le contenu du MON.
+Avant de parler de données médiacales ou encore de numérique, il faut commencer avec les bases : le **Règlement Général de Protection de Données (RGPD)**. Durant ma formation centralienne, j'ai souvent entendu parler du RGPD, mais je n'ai jamais pris le temps d'explorer en détail ce texte réglementaire.
+
+"Le **RGPD** est un texte de réglementaire **européen** qui encadre le traitement des données de manière égalitaire sur tout le territoire de l'Union Européenne. Il est entré en application le 25 mai 2018" (d'après le *Ministère de l'économie des finances et de la souveraineté industrielle et économique*).
+
+Le **RGPD** a été conçu pour répondre aux trois objectifs suivants :
+
+- renforcer les droits des personnes
+- responsabiliser les acteurs traitant des données
+- crédibiliser la régulation grâce à une coopération renforcée entre les autorités de protection des données.
+
+Le RGPD s’adresse à toute structure privée ou publique effectuant de la collecte et/ou du traitement de données, et ce quel que soit son secteur d'activité et sa taille. Le règlement s’applique à tous les organismes établis sur le territoire de l’UE, mais aussi à tout organisme implanté hors de l’UE mais dont l’activité cible directement des résidents européens.
+
+1. **Les données personnelles**
+
+Une **donnée personnelle** = "toute information se rapportant à une personne physique identifiée ou identifiable" (CNIL - Comité National de l'Information et des Libertés)
+
+Une identification peut être **directe** (nom, prénom, adresse email perso, numéro de tel, ...) ou indirecte (identifiant, numéro de sécurité sociale, adresse IP, etc.).
+
+*EN COURS DE REDACTION*

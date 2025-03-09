@@ -6,8 +6,12 @@ authors:
   - Isée Maroni
 
 date: 2025-01-22
-tags: 
+tags:
   - "temps 3"
+  - "Apps Script"
+  - "Google Sheet"
+  - "Google Docs"
+  - "Automatisations"
 
 résumé: "Découvrir les bases de Apps Script pour automatiser l'envoie de certificats chaque trimestre nécessaire à la réception des paiements et le suivi"
 ---
@@ -24,12 +28,16 @@ Aucun
 
 {% details "💡 MON en lien" %}
 
-- [`MON 2.1 de Mathis ADINOLFI : Création d'un EDT automatique avec Sheet et Appscript`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Adinolfi-Mathis/mon/temps-2.1/)
-- [`MON 2.1 de Matthieu DUFORT : Automatisation avec Google App Script`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Matthieu-Dufort/mon/temps-2.1/)
+- [`MON 2.1 de Mathis ADINOLFI : Création d'un EDT automatique avec Sheet et Appscript`]({{ site.url }}/promos/2024-2025/Adinolfi-Mathis/mon/temps-2.1/)
+- [`MON 2.1 de Matthieu DUFORT : Automatisation avec Google App Script`]({{ site.url }}/promos/2024-2025/Matthieu-Dufort/mon/temps-2.1/)
 {%enddetails%}
 
 
 L’objectif de ce MON est de me former à Google Apps Script afin d’automatiser les interactions entre Google Sheets, Google Docs, et Google Drive, tout en gérant l’envoi d’emails pour des tâches récurrentes et identiques. Cette démarche vise à optimiser les workflows et à réduire le temps consacré aux tâches répétitives.
+
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
 ## Contexte
 
@@ -69,7 +77,7 @@ La première étape consistait à construire une feuille Google Sheets pour gér
 Lorsqu’un paiement est reçu et ajouté dans la colonne "Somme reçue", si celui-ci est complet, la ligne correspondante passe automatiquement en vert.
 
 
-Cette étape m'a également permis de découvrir l'utilisation des *Logger*, un outil pratique pour consigner des traces dans le Journal d'exécution.
+Cette étape m'a également permis de découvrir l'utilisation des *Logger*, un outil pratique pour consigner des traces dans le Journal d'exécution. (cf *Annexe*)
 
 {% details "function onEdit(e)"%}
 
@@ -131,7 +139,7 @@ Voici 2 versions successives du template :
 
 {% details "fillTemplate(row)" %}
 ``````
-{% raw %} 
+{% raw %}
 
 function fillTemplate(row) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
@@ -274,7 +282,7 @@ function processTrimestre(trimestre) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
   var trimestreIndex = headers.indexOf("Trimestre") + 1; // Colonne "Trimestre"
-  
+
   // Parcours des lignes
   var lastRow = sheet.getLastRow();
   for (var row = 2; row <= lastRow; row++) {
@@ -381,7 +389,7 @@ Une fois le mail contenant les certificats envoyé, la ligne correspondante est 
 ![ScriptTermine](./ScriptTermine.png)
 
 
-#### Exemple de Logger
+## Annexe : Exemple de Logger
 
 ![Logger](./Logger.png)
 

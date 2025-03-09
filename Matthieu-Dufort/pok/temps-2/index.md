@@ -23,7 +23,7 @@ Pas de prérequis particuliers sont nécessaires mais il peut être intéressant
 {% lien %}
 
 - [Cours d'Openclassroom](https://openclassrooms.com/fr/courses/19980-apprenez-a-programmer-en-c)
-- [MON de Cassandra Ledins](https://francoisbrucker.github.io/do-it/promos/2023-2024/Ledins-Cassandra/mon/temps-1.2/)
+- [MON de Cassandra Ledins]({{ site.url }}/promos/2023-2024/Ledins-Cassandra/mon/temps-1.2/)
 - [Code créé au cours de l'apprentissage](CodeEntrainement.zip)
 - [Code pour jouer au Moprion](Morpion.zip)
 
@@ -69,7 +69,7 @@ Le but final de ce POK et de parvenir a comprendre du code en C et d'être capab
 
 ## Premier Sprint
 
-Après avoir fait l'inventaire des POK et MON traitant du langage C : j'ai choisi de suivre le cours d'open ClassRoom qui est fortement recommandé par Cassandra et qui lui a permis d'acquérir de bonnes bases. Je vais essayer de compléter son MON en abordant d'autres points du langage C. Je recommande donc au futur personne voulant apprendre ce langage de lire aussi son [MON](https://francoisbrucker.github.io/do-it/promos/2023-2024/Ledins-Cassandra/mon/temps-1.2/).
+Après avoir fait l'inventaire des POK et MON traitant du langage C : j'ai choisi de suivre le cours d'open ClassRoom qui est fortement recommandé par Cassandra et qui lui a permis d'acquérir de bonnes bases. Je vais essayer de compléter son MON en abordant d'autres points du langage C. Je recommande donc au futur personne voulant apprendre ce langage de lire aussi son [MON]({{ site.url }}/promos/2023-2024/Ledins-Cassandra/mon/temps-1.2/).
 
 ## Ecrire du C avec VSCode
 
@@ -230,7 +230,7 @@ struct Coordonnees
 Il est ensuite possible d'utiliser cette structure comme un format de variable :
 
 ```C
-struct Coordonnees point; 
+struct Coordonnees point;
     point.x = 10;
     point.y = 20;
 ```
@@ -258,7 +258,7 @@ typedef struct Coordonnees Coordonnees
 De la même manière, il est possible de définir une énumération, ce qui reviendrait à définir une liste de choix pour un variable. La variable ne peut alors prendre que les valeurs définies dans l'énumération.
 
 ```C
-enum Status 
+enum Status
 {
   High, Medium, Low
 }
@@ -280,17 +280,17 @@ Faisons un exercice avec un programme qui recopie des lignes dans un fichier pou
 int main(int argc, char *argv[])
 {
     FILE* fichier = NULL; // créer le pointeur du fichier
- 
+
     fichier = fopen("test.txt", "w+"); // ouvre le fichier en le vidant au préalable
     char ligne[240] ;
     int nombreLigne = 0 ;
 
     printf("Que devez vous recopier ? (max 238 caractères)");
     fgets(ligne, sizeof(ligne), stdin); //Récupère la ligne à recopier
-    
+
     printf("Combien de ligne avez vous à écrire ?");
     scanf("%d", &nombreLigne); // Récupère le nombre de ligne à recopier
- 
+
     if (fichier != NULL)
     {
         for (int i = 0; i < nombreLigne ; i++) // répète l'écriture de la ligne
@@ -304,7 +304,7 @@ int main(int argc, char *argv[])
     {
       printf("Veuillez créer le fichier avant d'écrire dessus.");
     }
- 
+
     return 0;
 }
 ```
@@ -341,7 +341,7 @@ Il est possible de resérver de la place en mémoire à l'aide d'une fonction : 
 int taille = 0;
 int *tableau = NULL ;
 printf("Combien de lignes voulez vous ?");
-Scanf("%d", &taille ); 
+Scanf("%d", &taille );
 
 tableau = malloc(taille * sizeof(int))
 ```
@@ -356,14 +356,14 @@ Il est impossible de modifier la taille d'un tableau dynamiquement. Cependant, i
 
 ```C
 typedef struct Chaine Chaine
-struct Chaine 
+struct Chaine
 {
   char caractere ; // élément de la chaine
   Chaine *caracteresuivant ; // pointeur vers l'élément suivant
 }
 
 typedef struct Liste Liste
-struct Liste 
+struct Liste
 {
   Chaine *premierCaractere //pointeur vers le début de la chaine
 }
@@ -420,7 +420,7 @@ int main(int argc, char *argv[])
             tour --;
         }
         affiche(&tab); // On affiche la grille
-        result = gagner(&tab); // On vérifie qu'il n'y a pas encore de gagnant      
+        result = gagner(&tab); // On vérifie qu'il n'y a pas encore de gagnant
         tour ++;
     }
     if(result == 1) // On affiche le résultat

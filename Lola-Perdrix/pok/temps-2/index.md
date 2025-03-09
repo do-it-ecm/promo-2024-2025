@@ -31,7 +31,7 @@ Bases de HTML, CSS, et Javascript. Il y a beaucoup de MON à ce sujet.
 
 L'objectif de ce POK est de reprendre le site web que j'avais commencé à développer pendant le cours de dev web de 2A là où il en était resté. Je souhaite améliorer le style tout en refaisant la mécanique du jeu en javascript.
 
-Il existe un autre POK sur le sujet, [celui de William Lalanne](https://francoisbrucker.github.io/do-it/promos/2023-2024/William%20Lalanne/pok/temps-1/), en revanche je n'ai pas trouvé tant de points communs entre nos deux façons de faire, je ne me suis donc pas vraiment appuyé dessus mais cela peut constituer une ressource complémentaire.
+Il existe un autre POK sur le sujet, [celui de William Lalanne]({{ site.url }}/promos/2023-2024/William%20Lalanne/pok/temps-1/), en revanche je n'ai pas trouvé tant de points communs entre nos deux façons de faire, je ne me suis donc pas vraiment appuyé dessus mais cela peut constituer une ressource complémentaire.
 
 ## Lien vers le code du site
 

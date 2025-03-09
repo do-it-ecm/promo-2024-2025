@@ -20,7 +20,7 @@ résumé: Dans ce POK je compte découvrir JavaScript et me repolonger dans les 
 Pas de prérequis particuliers.
 {% endprerequis %}
 {% lien %}
- - [Site Do_it](https://francoisbrucker.github.io/do-it/)
+ - [Site Do_it]({{ site.url }}/)
  - [Cours DevWeb](https://francoisbrucker.github.io/cours_informatique/enseignements/ecm/2A/option-web/)
  - [Developer mozilla](https://developer.mozilla.org/en-US/)
  - [Jeu snake](https://www.snake.fr)
@@ -43,7 +43,7 @@ Pas de prérequis particuliers.
 
 Ce premier sprint est surtout consacré à des révisions et découvertes des bases des langages dont j'aurais besoin pour ce projet.
 
-Dans un premier temps j'ai repris [le cours de deuxième année](https://francoisbrucker.github.io/cours_informatique/enseignements/ecm/2A/option-web/) afin de pouvoir par la suite créer un premier visuel pour jeu. 
+Dans un premier temps j'ai repris [le cours de deuxième année](https://francoisbrucker.github.io/cours_informatique/enseignements/ecm/2A/option-web/) afin de pouvoir par la suite créer un premier visuel pour jeu.
 Après ce cours j'ai réalisé une "maquette" afin de définir un premier visuel simple de ma page web que je prévois de faire évoluer en fonction de mes avancées durant les prochaines étapes.
 
 {% details "Maquette" %}
@@ -56,7 +56,7 @@ Après cette maquette j'ai commencé à réaliser le visuel, en voici le résult
 
  <div><img src="./images/snake_visuel_1.png"></div>
 
-Pour le reste du temps de ce premier sprint j'ai regardé les anciens projets similaires sur le site do_it et notamment le [memory](https://francoisbrucker.github.io/do-it/promos/2023-2024/William%20Lalanne/pok/temps-1/). J'ai ensuite commencé à découvrir et m'exercer sur JavaScript notamment avec le site web [developer mozilla](https://developer.mozilla.org/en-US/).
+Pour le reste du temps de ce premier sprint j'ai regardé les anciens projets similaires sur le site do_it et notamment le [memory]({{ site.url }}/promos/2023-2024/William%20Lalanne/pok/temps-1/). J'ai ensuite commencé à découvrir et m'exercer sur JavaScript notamment avec le site web [developer mozilla](https://developer.mozilla.org/en-US/).
 
 Le prochain sprint sera consacré au code du jeu en JavaScript puis, en fonction du temps passé, j'aimerais ajouter des fonctionnalités supplémentaires comme des niveaux différents en jouant sur la vitesse de déplacement mais aussi des calculs de record.
 
@@ -71,13 +71,13 @@ Le prochain sprint sera consacré au code du jeu en JavaScript puis, en fonction
 
 ## Second Sprint
 
-Pour ce second sprint le but était d'implémenter le code JavaScript du jeu, après avoir trouvé le code "simple" du [jeu](https://www.snake.fr) sur un blog j'ai compris la logique à suivre et les différents éléments indispensables pour réussir mon projet. Après avoir compris ce code j'ai défini toutes les améliorations que je voulais faire afin d'ajouter des éléments à ce premier exemple : 
+Pour ce second sprint le but était d'implémenter le code JavaScript du jeu, après avoir trouvé le code "simple" du [jeu](https://www.snake.fr) sur un blog j'ai compris la logique à suivre et les différents éléments indispensables pour réussir mon projet. Après avoir compris ce code j'ai défini toutes les améliorations que je voulais faire afin d'ajouter des éléments à ce premier exemple :
 
  - 1. Accélération progressive
  - 2. Calcul de record
  - 3. Apparition d'obstacles
  - 4. Création de 2 ou 3 modes différents avec interface
- 
+
 ### 1. Accélération progressive
 
 Pour ce premier point, j'ai choisi d'augmenter la vitesse à chaque fois que le serpent mangeait la pomme. Dans le code, ce qui créé le mouvement est l'exécution répétitive du code, l'initialisation se fait à *120ms*, ce qui signifie que toutes les 120ms le serpent avance. Pour augmenter cette vitesse et après plusieurs tests j'ai décidé de réaliser le calcul suivant à chaque rencontre avec une pomme : *speed* = *speed* *-* *0.1* * *score*.

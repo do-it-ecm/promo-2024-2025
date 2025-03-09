@@ -175,14 +175,14 @@ C'est cette dernière option que j'ai choisie d'utiliser :
 
 Les chaînes de caractères ne sont pas codées en dur dans la page xml dédiée à l'activité (activity_main.xml). Les chaînes sont définies dans /res/values/strings.xml puis sont appelées à partir du layout. Ainsi dans le fichier strings.xml on retrouve la définition de notre string :
 
-``` xml
-<string name="choose_number"> Choisis un nombre entre 1 et 10 :</string>
+```xml
+&lt;string name="choose_number"&gt; Choisis un nombre entre 1 et 10 :&lt;/string&gt;
 ```
 
 Et dans le fichier activity_main.xml, on fait référence au string défini :
 
-``` xml
-<TextView
+```xml
+&lt;TextView
         android:text="@string/choose_number"
 ```
 
@@ -248,69 +248,69 @@ Une fois la vision du futur rendu de notre application établie (grâce aux wire
 
 De même, j'ai saisi le contenu textuel (dans le fichier ./res/values/string.xml)   :
 
-``` kotlin
-<resources>
-    <string name="app_name">Evasion</string>
-    <string name="app_name_capital_letters">EVASION</string>
+```kotlin
+&lt;resources&gt;
+    &lt;string name="app_name"&gt;Evasion&lt;/string&gt;
+    &lt;string name="app_name_capital_letters"&gt;EVASION&lt;/string&gt;
 
     <!-- Main page -->
-    <string name="main_page_exp_title">Title of the experience</string>
-    <string name="main_page_exp_author">Surname and name</string>
-    <string name="main_page_summary">Few lines for a short description</string>
-    <string name="main_page_search_bar">Search for an experience</string>
+    &lt;string name="main_page_exp_title"&gt;Title of the experience&lt;/string&gt;
+    &lt;string name="main_page_exp_author"&gt;Surname and name&lt;/string&gt;
+    &lt;string name="main_page_summary"&gt;Few lines for a short description&lt;/string&gt;
+    &lt;string name="main_page_search_bar"&gt;Search for an experience&lt;/string&gt;
 
     <!-- Detail one experience -->
-    <string name="detail_one_experience_page_button_delete">Delete this experience</string>
-    <string name="detail_one_experience_page_title">Title of the experience</string>
-    <string name="detail_one_experience_page_author">Surname and name</string>
-    <string name="detail_one_experience_page_description">Long description</string>
+    &lt;string name="detail_one_experience_page_button_delete"&gt;Delete this experience&lt;/string&gt;
+    &lt;string name="detail_one_experience_page_title"&gt;Title of the experience&lt;/string&gt;
+    &lt;string name="detail_one_experience_page_author"&gt;Surname and name&lt;/string&gt;
+    &lt;string name="detail_one_experience_page_description"&gt;Long description&lt;/string&gt;
 
     <!-- Log in -->
-    <string name="login_page_label_email">Email</string>
-    <string name="login_page_input_email">surname.name@centrale-med.fr</string>
-    <string name="login_page_label_password">Password</string>
-    <string name="login_page_input_password">Enter your password</string>
-    <string name="login_page_button_login">Log in</string>
-    <string name="login_page_link_to_signup">Don\'t have an account ? Sign up !</string>
+    &lt;string name="login_page_label_email"&gt;Email&lt;/string&gt;
+    &lt;string name="login_page_input_email"&gt;surname.name@centrale-med.fr&lt;/string&gt;
+    &lt;string name="login_page_label_password"&gt;Password&lt;/string&gt;
+    &lt;string name="login_page_input_password"&gt;Enter your password&lt;/string&gt;
+    &lt;string name="login_page_button_login"&gt;Log in&lt;/string&gt;
+    &lt;string name="login_page_link_to_signup"&gt;Don\'t have an account ? Sign up !&lt;/string&gt;
 
     <!-- Sign up -->
-    <string name="signup_page_label_name">Name</string>
-    <string name="signup_page_input_name">Enter your name</string>
-    <string name="signup_page_label_surname">Surname</string>
-    <string name="signup_page_input_surname">Enter your surname</string>
-    <string name="signup_page_label_email">Email</string>
-    <string name="signup_page_input_email">surname.name@centrale-med.fr</string>
-    <string name="signup_page_label_password">Password</string>
-    <string name="signup_page_input_password">Enter your password</string>
-    <string name="signup_page_label_password_confirmation">Password confirmation</string>
-    <string name="signup_page_input_password_confirmation">Confirm your password</string>
-    <string name="signup_page_button_signup">Sign up</string>
-    <string name="signup_page_link_to_login">Already have an account ? Log in !</string>
+    &lt;string name="signup_page_label_name"&gt;Name&lt;/string&gt;
+    &lt;string name="signup_page_input_name"&gt;Enter your name&lt;/string&gt;
+    &lt;string name="signup_page_label_surname"&gt;Surname&lt;/string&gt;
+    &lt;string name="signup_page_input_surname"&gt;Enter your surname&lt;/string&gt;
+    &lt;string name="signup_page_label_email"&gt;Email&lt;/string&gt;
+    &lt;string name="signup_page_input_email"&gt;surname.name@centrale-med.fr&lt;/string&gt;
+    &lt;string name="signup_page_label_password"&gt;Password&lt;/string&gt;
+    &lt;string name="signup_page_input_password"&gt;Enter your password&lt;/string&gt;
+    &lt;string name="signup_page_label_password_confirmation"&gt;Password confirmation&lt;/string&gt;
+    &lt;string name="signup_page_input_password_confirmation"&gt;Confirm your password&lt;/string&gt;
+    &lt;string name="signup_page_button_signup"&gt;Sign up&lt;/string&gt;
+    &lt;string name="signup_page_link_to_login"&gt;Already have an account ? Log in !&lt;/string&gt;
 
     <!-- Personal page -->
-    <string name="personal_page_button_add_new_experience">Add a new experience</string>
-    <string name="personal_page_exp_title">Title of the expérience</string>
-    <string name="personal_page_exp_author">Surname and name</string>
-    <string name="personal_page_summary">Few lines for a short description</string>
-    <string name="personal_page_search_bar">Search for an experience</string>
+    &lt;string name="personal_page_button_add_new_experience"&gt;Add a new experience&lt;/string&gt;
+    &lt;string name="personal_page_exp_title"&gt;Title of the expérience&lt;/string&gt;
+    &lt;string name="personal_page_exp_author"&gt;Surname and name&lt;/string&gt;
+    &lt;string name="personal_page_summary"&gt;Few lines for a short description&lt;/string&gt;
+    &lt;string name="personal_page_search_bar"&gt;Search for an experience&lt;/string&gt;
 
     <!-- About one of my experiences page -->
-    <string name="detail_my_experience_page_button_modify">Modify this experience</string>
-    <string name="detail_my_experience_page_button_delete">Delete this experience</string>
-    <string name="detail_my_experience_page_title">Title of the experience</string>
-    <string name="detail_my_experience_page_author">Surname and name</string>
-    <string name="detail_my_experience_page_description">Long description</string>
-    <string name="detail_my_experience_page_summary">Long description</string>
+    &lt;string name="detail_my_experience_page_button_modify"&gt;Modify this experience&lt;/string&gt;
+    &lt;string name="detail_my_experience_page_button_delete"&gt;Delete this experience&lt;/string&gt;
+    &lt;string name="detail_my_experience_page_title"&gt;Title of the experience&lt;/string&gt;
+    &lt;string name="detail_my_experience_page_author"&gt;Surname and name&lt;/string&gt;
+    &lt;string name="detail_my_experience_page_description"&gt;Long description&lt;/string&gt;
+    &lt;string name="detail_my_experience_page_summary"&gt;Long description&lt;/string&gt;
 
     <!-- Modify my experience page -->
-    <string name="modify_my_experience_page_button_confirm">Confirm modifications</string>
-    <string name="modify_my_experience_page_label_title">Title</string>
-    <string name="modify_my_experience_page_input_title">@string/detail_my_experience_page_title</string> <!-- On récupère le titre de l'expérience -->
-    <string name="modify_my_experience_page_label_summary">Short description</string>
-    <string name="modify_my_experience_page_input_summary">@string/detail_my_experience_page_summary</string> <!-- On récupère le résumé de l'expérience -->
-    <string name="modify_my_experience_page_label_description">Long description</string>
-    <string name="modify_my_experience_page_input_description">@string/detail_my_experience_page_description</string> <!-- On récupère la description complète de l'expérience -->
-    <string name="modify_my_experience_page_change_picture">Click to upload or change the picture</string>
+    &lt;string name="modify_my_experience_page_button_confirm"&gt;Confirm modifications&lt;/string&gt;
+    &lt;string name="modify_my_experience_page_label_title"&gt;Title&lt;/string&gt;
+    &lt;string name="modify_my_experience_page_input_title"&gt;@string/detail_my_experience_page_title&lt;/string&gt; <!-- On récupère le titre de l'expérience -->
+    &lt;string name="modify_my_experience_page_label_summary"&gt;Short description&lt;/string&gt;
+    &lt;string name="modify_my_experience_page_input_summary"&gt;@string/detail_my_experience_page_summary&lt;/string&gt; <!-- On récupère le résumé de l'expérience -->
+    &lt;string name="modify_my_experience_page_label_description"&gt;Long description&lt;/string&gt;
+    &lt;string name="modify_my_experience_page_input_description"&gt;@string/detail_my_experience_page_description&lt;/string&gt; <!-- On récupère la description complète de l'expérience -->
+    &lt;string name="modify_my_experience_page_change_picture"&gt;Click to upload or change the picture&lt;/string&gt;
 
 </resources>
 ```

@@ -22,8 +22,8 @@ Languages HTML/CSS
 {% lien %}
 
 [`W3School`](https://www.w3schools.com/js/default.asp)
-[`MON1: HTML/CSS`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/mon/temps-1.1/)
-[`POK1: Asian Fried Rice - FrontEnd`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/pok/temps-1/)
+[`MON1: HTML/CSS`]({{ site.url }}/promos/2024-2025/Merle-Thomas/mon/temps-1.1/)
+[`POK1: Asian Fried Rice - FrontEnd`]({{ site.url }}/promos/2024-2025/Merle-Thomas/pok/temps-1/)
 
 {% endlien %}
 

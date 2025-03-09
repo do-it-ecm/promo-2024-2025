@@ -1,66 +1,88 @@
 ---
 layout: layout/pok.njk
 
-title: "Titre du POK du temps 3"
+title: "Interface graphique"
 authors:
   - ADINOLFI Mathis
 
-date: 1971-03-01
+date: 2025-29-01
 
 temps: 3
 tags:
+  - "Vue"
+  - "Vert"
+  - "Front"
 
-résumé: Un POK traitant d'un sujet.
+résumé: Ce POK a pour but de présenter mes avancées sur ma simulation du trafic routier en ville.
 ---
 
-{% prerequis %}
-
-Liste des prérequis du POK ET/OU MON
-
-{% endprerequis %}
 {% lien %}
 
-Les lien utiles pour la compréhension de celui-ci.
+- [GitHub du projet](https://github.com/Mathisadi/CTZ)
+- [UI / UX](https://www.figma.com/proto/dopHqMIiH66xRPQrgtlRmr/CTZ?node-id=116-7&p=f&t=Zi46zE4Hgid765ho-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A5)
+- [Figma de l'interface](https://www.figma.com/proto/dopHqMIiH66xRPQrgtlRmr/CTZ?node-id=1-4&p=f&t=Zi46zE4Hgid765ho-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
 
 {% endlien %}
 
-Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce POK. On oubliera pas de donner :
+{% details "✏️ TO-DO Sprint 1"%}
 
-- le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/contribuer/shortcodes/#prerequis)
-- les autres POK & MON en rapport en utilisant la balise [`lien`](/contribuer/shortcodes/#lien)
+- [x] Faire la maquette Figma
+- [ ] Front
+- [x] Menu
+- [x] Edition : Toolbar
+- [x] Edition : Parametre
+- [x] Edition : Grid
+- [x] Edition : Drag
+- [ ] Edition : Zoom
+- [ ] Lecture
+- [ ] Simulation
 
-## Tâches
+{%enddetails%}
 
-### Sprints
+{% details "⌛ Horodatage sprint 1"%}
 
-But final.
+| Date           | Heures passées | Indications              |
+| -------------- | -------------- | ------------------------ |
+| Samedi 11/01   | 2H             | Maquette Figma           |
+| Dimanche 12/01 | 2H             | Initialisation du projet |
+| Samedi 18/01   | 2H             | Menu                     |
+| Dimanche 19/01 | 1H30           | Toolbar                  |
+| Mercredi 22/01 | 2H30           | Grid + drag              |
+| Mercredi 29/01 | 0H30           | Rédaction POK            |
+|                |                |                          |
+| Total          | 10H30          |                          |
 
-#### Sprint 1
+Sur ce sprint, j'ai essayé d'anticiper le fait que le développement de l'appli serait long. En revanche, c'est toujours frustrant de voir que cet exercice avance lentement. Je vais me concentrer sur mon sprint 2 afin de finir le développement de l'application.
+{%enddetails%}
 
-Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la fin du sprint on fait une petite étude post-mortem pour voir ce qui s'est passé et les ajustement à faire pour le prochain sprint, pok.
+## ✅ Obejectifs du POK
 
-- [ ] Une tâche non réalisée
-- [x] Une tâche réalisée
+Pour rappel j'ai créé une simulation du trafic routier en python lors du [POK 1](../temps-1) et [POK 2](../temps-2). Cependant, il est actuellement difficile de créer de nouvelles routes, il faut pour cela modifier à la main tout le fichier var. L'objectif est donc de concevoir une application facilitant la création de nouvelles routes.
 
-#### Sprint 2
+## Etape 1 - Maquette Figma
 
-- [ ] Une tâche non réalisée
-- [x] Une tâche réalisée
+Grâce aux bases aquises lors du cours UI/UX et de mon [MON 2.2](./../mon/temps-2.2) j'ai pu réaliser la maquette de l'interface graphique sur Figma. J'ai opté pour un mode sombre (possibilité de faire un mode clair) aux apparences de l'application AutoCad.
 
-Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la fin du sprint on fait une petite étude post-mortem pour voir ce qui s'est passé et les ajustement à faire pour le prochain sprint, pok.
+Afin de gagner du temps, j'ai réalisé seulement les deux premières pages de l'application, les suivantes étant du même style.
 
-### Horodatage
+Menu : Cette page a pour but de présenter les projets en cours, il doit être possible de créer ou d'ouvrir un projet facilement. Et l'on doit pouvoir visualiser un aperçu des projets récents sans les ouvrir.
 
-Toutes les séances et le nombre d'heure que l'on y a passé.
+<div style="text-align: center;">
+    <img src="Menu.png" width="500"/>
+</div>
 
-| Date | Heures passées | Indications |
-| -------- | -------- |-------- |
-| Mardi 27/08  | 1H  | Travail sur la trame du site |
+Edition : Une fois le projet ouvert, il doit être possible de modifier ses éléments. Pour cela l'ensemble des éléments sont listés dans la toolbar à gauche, et un menu listant les paramètres doit s'ouvrir. Le dessin de la route se fera sur une grille centrale.
 
-## Contenu
+<div style="text-align: center;">
+    <img src="Appli.png" width="500"/>
+</div>
 
-Le contenu du POK.
+Lecture : Vue permettant de vérifier un projet sans le modifier, non accés aux outils mais grille plus large.
 
-### Premier Sprint
+Simulation : Une fois une route créée l'on doit pouvoir visualiser le mouvement des voitures, avancer plus vite stopper reculer (comme un lecteur audio).
 
-### Second Sprint
+## Etape 2 - Frontend
+
+Une fois la maquette réalisée il faut la rendre vivante. Pour cela j'utilise le framework vue. Etant novice avec ce framework et en front dev, le développement me prend du temps. Actuellement j'ai terminé le menu et la page édition. Petite démo :
+
+<video controls src="Demo.mp4"></video>

@@ -21,14 +21,14 @@ Maîtriser les bases de python et l’utilisation des bibliothèques (ou lire mo
 {% endprerequis %}
 {% lien %}
 
-[Mon MON 1.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Esther-Henry/mon/temps-1.1/)
+[Mon MON 1.1]({{ site.url }}/promos/2024-2025/Esther-Henry/mon/temps-1.1/)
 
 {% endlien %}
 
 ## Objectifs
 
-1. Apprendre les bases de l’analyse de données sous Python  
-2. Apprendre les fonctions de base spécifiques à l’analyse de données textuelles  
+1. Apprendre les bases de l’analyse de données sous Python
+2. Apprendre les fonctions de base spécifiques à l’analyse de données textuelles
 3. Réaliser une analyse de données textuelles pour pratiquer sur un exemple
 
 ## Introduction
@@ -49,9 +49,9 @@ Il existe deux catégories de données dans un programme :
 - **Données internes** : celles nécessaires au bon fonctionnement du programme
 
 {% attention %}
-Lorsque l’on manipule des données, il peut être tentant d’effectuer des modifications à la main sur les données brutes. Cependant, cela est fortement déconseillé ; il est préférable de le faire directement dans le code, car cela permet :  
+Lorsque l’on manipule des données, il peut être tentant d’effectuer des modifications à la main sur les données brutes. Cependant, cela est fortement déconseillé ; il est préférable de le faire directement dans le code, car cela permet :
 
-- De garder une trace des modifications effectuées  
+- De garder une trace des modifications effectuées
 - Si les données d’entrée changent, il n’y aura pas besoin de tout refaire
 {% endattention %}
 
@@ -65,12 +65,12 @@ Le format d’un fichier est défini par la manière dont est organisée l’inf
 
 Il est en effet nécessaire de connaître le format d’un fichier afin de passer d’un fichier binaire (composé de 0 et de 1) à un fichier lisible. On reconnaît généralement le format à l’extension du fichier :
 
-- **.txt** : informations textuelles de base  
-- **.csv** : tableaux de données brutes  
-- **.png** : images  
-- **.docx** : textes mis en forme par Word ou LibreOffice  
-- **.xlsx** : tableur Excel ou LibreOffice  
-- **.html** : pages internet  
+- **.txt** : informations textuelles de base
+- **.csv** : tableaux de données brutes
+- **.png** : images
+- **.docx** : textes mis en forme par Word ou LibreOffice
+- **.xlsx** : tableur Excel ou LibreOffice
+- **.html** : pages internet
 - **.md** : textes en format markdown
 
 {% info %}
@@ -85,8 +85,8 @@ Par ailleurs, **écrire** dans un fichier permet de conserver l’information. S
 
 Pour ouvrir un fichier, il faut alors :
 
-- Créer un lien vers le fichier correspondant à l’aide de la fonction **open( )**. Cette fonction indique que le fichier est actuellement utilisé et interdit son utilisation par d'autres programmes.  
-- Réaliser les actions de lecture et d’écriture détaillées par la suite.  
+- Créer un lien vers le fichier correspondant à l’aide de la fonction **open( )**. Cette fonction indique que le fichier est actuellement utilisé et interdit son utilisation par d'autres programmes.
+- Réaliser les actions de lecture et d’écriture détaillées par la suite.
 - Une fois nos actions terminées, il faut fermer le fichier avec la fonction **close( )**.
 
 ##### Lire un fichier
@@ -99,9 +99,9 @@ Ici, je vais travailler avec une base de données fictive que je vais nommer **m
 
 Ainsi, pour lire notre fichier, nous allons utiliser :
 
-- La fonction **open** en donnant le chemin du fichier ainsi que le mode de lecture **“r”**, que nous stockerons dans la variable `fichier`.  
-- La méthode **.read( )** nous permet de lire tout le contenu du fichier, que nous allons stocker dans la variable `contenu`.  
-- La méthode **close** nous permet de fermer le fichier.  
+- La fonction **open** en donnant le chemin du fichier ainsi que le mode de lecture **“r”**, que nous stockerons dans la variable `fichier`.
+- La méthode **.read( )** nous permet de lire tout le contenu du fichier, que nous allons stocker dans la variable `contenu`.
+- La méthode **close** nous permet de fermer le fichier.
 - Nous affichons les 50 premiers éléments de `contenu` (afin de vérifier que l’opération a bien fonctionné).
 
 ```python
@@ -140,7 +140,7 @@ print(lignes[0:5])
 
 Afin d’écrire dans un fichier texte, il suffit de préciser dans la fonction **open**, le mode d’écriture **“w”** ou **“a”**.
 
-- **“w”** (write) : pour remplacer ou créer. Le mode **“w”** crée un fichier s'il n’existe pas et supprime l’existant pour le remplacer sinon.  
+- **“w”** (write) : pour remplacer ou créer. Le mode **“w”** crée un fichier s'il n’existe pas et supprime l’existant pour le remplacer sinon.
 - **“a”** (append) : pour ajouter. Le mode **“a”** ajoute l’information à la fin du fichier s'il existe déjà, ou le crée sinon.
 
 De plus, la fonction **write( )** permet d’écrire dans notre fichier.
@@ -163,7 +163,7 @@ La bibliothèque **os** contient la majorité des outils permettant de manipuler
 
 ```python
 #Créer un nouveau répertoire dans lequel on crée un fichier texte
-import os 
+import os
 os.mkdir("Eleves")
 with open("Eleves/effectif.txt","w") as fichier :
     fichier.write("L’effectif d’élèves en Do-It est : 25")
@@ -211,11 +211,11 @@ Afin de pouvoir manipuler des données plus complexes, il est essentiel d’appr
 
 Avant de travailler sur les listes, il est essentiel de maîtriser ces fonctions de base :
 
-- **len(liste)** : longueur de la liste  
-- **liste[x]** : valeur de l’élément de rang x  
-- **liste.index(v)** : premier indice de la valeur v  
-- **liste[x:y]** : valeur entre les indices x et y (y non inclus)  
-- **liste[-1]** : dernier élément de la liste  
+- **len(liste)** : longueur de la liste
+- **liste[x]** : valeur de l’élément de rang x
+- **liste.index(v)** : premier indice de la valeur v
+- **liste[x:y]** : valeur entre les indices x et y (y non inclus)
+- **liste[-1]** : dernier élément de la liste
 
 Une autre fonction un peu moins connue, mais aussi très utile, est la méthode **.sort( )** qui permet de trier une liste par ordre alphabétique ou numérique.
 
@@ -306,8 +306,8 @@ Pour rappel, un texte est un ensemble de symboles (lettres, chiffres, ponctuatio
 **Fonctions utiles**
 Il existe des méthodes permettant de mettre le texte en majuscule, minuscule, ou uniquement avec la première lettre en majuscule :
 
-- **lower( )** : permet de mettre en minuscule  
-- **upper( )** : permet de mettre en majuscule  
+- **lower( )** : permet de mettre en minuscule
+- **upper( )** : permet de mettre en majuscule
 - **capitalize( )** : permet de mettre une majuscule uniquement à la première lettre
 
 Par exemple :
@@ -422,7 +422,7 @@ L’objectif ici est de pratiquer un petit peu en autonomie sur les notions abor
 
 ### Trouver une base de données à analyser
 
-En m’inspirant du MON de Lola sur les Pokémon [Étude statistique des Pokémons avec les outils Excel](https://francoisbrucker.github.io/do-it/promos/2024-2025/Lola-Perdrix/pok/temps-1/), j’ai décidé de me rendre sur [Kaggle](https://www.kaggle.com/datasets) afin de trouver une base de données à analyser.
+En m’inspirant du MON de Lola sur les Pokémon [Étude statistique des Pokémons avec les outils Excel]({{ site.url }}/promos/2024-2025/Lola-Perdrix/pok/temps-1/), j’ai décidé de me rendre sur [Kaggle](https://www.kaggle.com/datasets) afin de trouver une base de données à analyser.
 
 Afin d’avoir une base de données qui contient du texte, l’idée était de trouver une base de données contenant des avis ou des critiques, car ce seront bien des données textuelles.
 
@@ -444,20 +444,20 @@ with open(".data/reviews.csv", "r") as file:
 colonnes_deux = []
 colonnes_quatre = []
 
-for ligne in lignes: 
-    colonnes = ligne.strip().split(",")  
-    if len(colonnes) > 3:  
-        colonnes_deux.append(colonnes[1])  
-        colonnes_quatre.append(colonnes[3])  
+for ligne in lignes:
+    colonnes = ligne.strip().split(",")
+    if len(colonnes) > 3:
+        colonnes_deux.append(colonnes[1])
+        colonnes_quatre.append(colonnes[3])
 
 ## Fonction pour créer une nouvelle base de données à partir de deux colonnes
 def creation_bdd(c1, c2):
-    bdd = [[0, 0] for _ in range(len(c1))]  
+    bdd = [[0, 0] for _ in range(len(c1))]
     if len(c1) == len(c2):
-        for i in range(len(c1)):  
-            bdd[i][0] = c1[i]  
+        for i in range(len(c1)):
+            bdd[i][0] = c1[i]
         for l in range(len(c2)) :
-            bdd[l][1] = c2[l]  
+            bdd[l][1] = c2[l]
     return bdd
 
 ## Appel de la fonction pour créer la base de données
@@ -497,22 +497,22 @@ def texte_par_note(b_d_d, score, nom_fichier_texte):
                 fichier.write(ligne[0] + "\n")
 
 # Appliquer la fonction pour chaque score
-texte_score_0 = "avis_score_0.txt"  
+texte_score_0 = "avis_score_0.txt"
 texte_par_note(base_de_donnees_propre, 0, texte_score_0)
 
-texte_score_1 = "avis_score_1.txt"  
+texte_score_1 = "avis_score_1.txt"
 texte_par_note(base_de_donnees_propre, 1.0, texte_score_1)
 
-texte_score_2 = "avis_score_2.txt"  
+texte_score_2 = "avis_score_2.txt"
 texte_par_note(base_de_donnees_propre, 2.0, texte_score_2)
 
-texte_score_3 = "avis_score_3.txt"  
+texte_score_3 = "avis_score_3.txt"
 texte_par_note(base_de_donnees_propre, 3.0, texte_score_3)
 
-texte_score_4 = "avis_score_4.txt"  
+texte_score_4 = "avis_score_4.txt"
 texte_par_note(base_de_donnees_propre, 4.0, texte_score_4)
 
-texte_score_5 = "avis_score_5.txt"  
+texte_score_5 = "avis_score_5.txt"
 texte_par_note(base_de_donnees_propre, 5.0, texte_score_5)
 ```
 
@@ -534,13 +534,13 @@ with open("stop_words_spanish.txt","r") as lexique :
 # Créer une fonction qui permet à partir d'un fichier texte de retirer la ponctuation, puis les stop words
 def sans_stop_word(texte, mot_inutile, texte_filtre):
     with open(texte, "r") as f:
-        contenu = f.read()  
-    mots = contenu.lower().split()  
+        contenu = f.read()
+    mots = contenu.lower().split()
     ponctuation = ".,;:!¡?¿'\"()[]{}-"
     mots_sans_ponctuation = [''.join(char for char in mot if char not in ponctuation) for mot in mots]
     mots_filtres = [mot for mot in mots_sans_ponctuation if mot not in mot_inutile]
     with open(texte_filtre, "w") as fichier:
-        fichier.write(" ".join(mots_filtres))  
+        fichier.write(" ".join(mots_filtres))
     return texte_filtre
 
 # Appliquer la fonction à chaque fichier
@@ -593,7 +593,7 @@ for score in range(6):
 ```
 
 {% note %}
-On utilise ici la notion de dictionnaire pour stocker les résultats de notre comptage. Cette notion est abordée plus en détail dans mon [MON 1.1](https://francoisbrucker.github.io/do-it/promos/2024-2025/Esther-Henry/mon/temps-1.1/).
+On utilise ici la notion de dictionnaire pour stocker les résultats de notre comptage. Cette notion est abordée plus en détail dans mon [MON 1.1]({{ site.url }}/promos/2024-2025/Esther-Henry/mon/temps-1.1/).
 {% endnote %}
 
 {% info %}

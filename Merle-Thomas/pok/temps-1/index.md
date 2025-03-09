@@ -32,8 +32,8 @@ résumé: "Codage du FrontEnd du site de ma Dark Kitchen avec HTML/CSS/JavaScrip
 {% lien %}
 
 - [`W3School`](https://www.w3schools.com/js/default.asp)
-- [`MON1: HTML/CSS`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/mon/temps-1.1/)
-- [`MON2: JavaScript`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/mon/temps-1.2/)
+- [`MON1: HTML/CSS`]({{ site.url }}/promos/2024-2025/Merle-Thomas/mon/temps-1.1/)
+- [`MON2: JavaScript`]({{ site.url }}/promos/2024-2025/Merle-Thomas/mon/temps-1.2/)
 
 - [`GitHub Projet Dark Kitchen v1`](https://github.com/SofianeOuadda/dark-kitchen)
 - [`GitHub Projet Dark Kitchen v2`](https://github.com/SofianeOuadda/dark-kitchen-v2)

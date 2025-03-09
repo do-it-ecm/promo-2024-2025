@@ -13,4 +13,8 @@ authors:
 ## Temps 2
 
 - [POK 2 - Dark Kitchen - BackEnd](./temps-2)
+
+## Temps 3
+
+- [POK 3 - Computer Vision - Lane Detection Pipeline](./temps-3)
   

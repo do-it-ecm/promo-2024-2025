@@ -248,7 +248,7 @@ Go a été développé par des ingénieurs de Google en 2007 pour créer des log
 
 **Utilisation réelle** : \
 Docker, la plateforme populaire de conteneurisation, est écrit en Go.
-[GoAuth2](https://francoisbrucker.github.io/do-it/promos/2024-2025/Billa-Valentin/pok/temps-1/) est aussi un exemple.
+[GoAuth2]({{ site.url }}/promos/2024-2025/Billa-Valentin/pok/temps-1/) est aussi un exemple.
 
 {% info %}
 La petite créature que j'ai utilisée est en réalité la mascotte de Go, voici le vrai logo
