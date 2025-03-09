@@ -5,9 +5,9 @@ title: "C'est quoi une API ?"
 authors:
   - ADINOLFI Mathis
 
-date: 2025-03-09
+date: 2025-09-03
 temps: 3
-tags: python, API
+tags: "API"
 
 résumé: "Ce Mon a pour but de découvrir ce qu'est une API, et de faire quelque mise en pratique afin de mieux comprendre."
 ---
