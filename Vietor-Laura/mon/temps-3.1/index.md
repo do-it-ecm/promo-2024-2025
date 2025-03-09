@@ -9,6 +9,7 @@ date: 2025-03-12
 tags:
   - "intermédiaire"
   - "temps 3"
+  - "informatique"
   - "hash"
   - "intégrité des données"
   - "signature numérique"
@@ -49,7 +50,7 @@ En pratique, les méthodes de la cryptographie détectent aussi bien les erreurs
 
 ### Les idées de base
 
-Le principe général de la détection d'erreurs va être de donner une information supplémentaire sur les données, en général le résultat d'un calcul sur ces données. Ainsi, à la réception, le destinataire peut effectuer le calcul et vérifier s'il obtient le même résultat.  
+Le principe général de la détection d'erreurs va être de donner une information supplémentaire sur les données, en général le résultat d'un calcul sur ces données. Ainsi, à la réception, le destinataire peut effectuer le calcul et vérifier s'il obtient le même résultat. On parle alors de *redondance*, puisque ces informations peuvent se déduire des données.  
 Selon le contexte, cela peut se faire de deux façons :
 - soit en ajoutant une "clef" aux données afin que le résultat attendu soit indépendant des données. Ce sont par exemple les deux derniers chiffres du numéro de sécurité sociale en France, ou le dernier chiffre des ISBN, les numéros d'identification des livres.
 - soit en présentant ce résultat "à côté" des données. En général, c'est employé par exemple pour les téléchargements de fichiers, tels que des images disques de ditributions Linux. (Par exemple Debian ci-dessous, les fichiers SHA256SUMS ET SHA512SUMS contiennent ce résultat pour les 3 autres fichiers. Il y a également deux fichiers floutés, qui nous serviront plus tard...)
