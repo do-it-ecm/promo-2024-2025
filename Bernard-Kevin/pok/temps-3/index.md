@@ -17,6 +17,7 @@ tags:
   - "Spring Data JPA"
   - "API REST"
   - "React Three Fiber"
+  - "Aioli"
 
 résumé: Un POK où je crée un site web attirant en React pour gérer mes tâches avec des animations 3D.
 ---
@@ -54,9 +55,9 @@ Le but de ce POK est de réaliser un site en React pour gérer mes tâches avec 
 
 #### Sprint 2
 
-- [] Migrer le back sur le serveur aioli
+- [x] Migrer le back sur le serveur aioli
 <!-- Changer les get pour les tâches par réalisation et par domaine ou un seul get et filtrer dans le front-->
-- [] Faire le front la partie front de To do
+- [x] Faire le front la partie front de To do
 
 ### Horodatage
 
@@ -68,6 +69,12 @@ Le but de ce POK est de réaliser un site en React pour gérer mes tâches avec 
 | Samedi 18/01 | 2H | Connection back-front et création méthode post |
 | Lundi 20/01 | 2H | Création de Domain.java + Implementation des méthodes HTTP de TO DO (suppression de tâches, chronomètre, marquer comme fait, catégoriser par domaine et par réalisation) |
 | Total | 10H30 |
+| **Début Sprint 2** |
+|Jeudi 30/01 | 1H40 | Création des éléments du model dans le back |
+|Jeudi 06/03 | 3H30 | Clone du git sur Aioli et lancement sur le port 1102 + installation de maven et jdk + essaie d'installation de sqlite, mysql|
+| Vendredi 07/03 | 2H10 | Modification de la page to_do, centralisation des hooks |
+| Dimanche 09/03 | 2H20 | addTasks qui marche et useEffect qui marche avec les fonctions que l'on crée dans le hook |
+| Total | 9H40 |
 
 ## Contenu
 
@@ -99,7 +106,7 @@ J'ai enfin pu créer une méthode post pour créer une tâche dans ma base de do
 J'avais déjà créé la méthode post pour créer une tâche et get pour avoir la liste des tâches.
 J'ai donc créé les méthodes delete et patch pour marquer une tâche comme faite, supprimer une tâche, ajouter le temps passé sur cette tâche et catégoriser par domaine et par réalisation.
 
-Pour cela, j'ai d'abord ajouté les attributs (à partir du diagramme de classe de mon [POK 2]()) :
+Pour cela, j'ai d'abord ajouté les attributs (à partir du diagramme de classe de mon [POK 2](../temps-2/index.md)) :
 
 ```java
     private LocalTime timePassedOnIt;
@@ -147,4 +154,45 @@ J'ai également mis plusieurs routes get pour récupérer les tâches par réali
 
 ### Second Sprint
 
+#### Finalisation du model du backend
+
+Dans mon backend, j'ai fini mon model et les relations entre mes classes.
+
+#### Migration du back sur le serveur Aioli
+
+J'ai d'abord cloné le git sur Aioli et j'ai lancé le serveur sur le port 1102.
+
+Comme je n'avais pas Maven et le Java sur Aioli, j'ai dû les installer.
+Je n'avais pas les droits suffisants pour simplement les installer avec apt-get donc je les ai installé manuellement.
+
+J'ai télécharger le tar.gz sur mon ordinateur et l'ai envoyé sur Aioli avec la commande scp.
+Il ne restait plus qu'à décompresser le fichier et à ajouter les variables d'environnement dans le fichier .bashrc.
+
+J'avais un souci avec la base de données, je n'arrivais pas à installer sqlite3 et mysql et le tar.gz de la base de données ne fonctionnait pas. Donc pour éviter de ne passer que du temps sur ça, j'ai décidé de continuer le développement de mon frontend.
+
+J'ai trouver les commandes dans le cours de Linux.
+
+#### Développement de la partie front de To do
+
+J'ai modifié la page de To do pour qu'elle soit plus jolie et plus fonctionnelle. J'ai centralisé les hooks dans un fichier hooks.js pour que ce soit plus lisible et plus facile à modifier.
+
+J'avais un souci parce que j'essayais d'utiliser mes hooks dans mon useEffect, pour résoudre le problème je retourne des fonctions dans mes hooks et je les appelle dans mon useEffect.
+
+J'ai eu le temps de faire la fonction addTasks, le getTasks et l'affichage des tâches.
+
+Je me suis documenté sur Stack Overflow pour les problèmes d'utilisation de hooks dans useEffect.
+
 ### Retour sur expérience
+
+**Difficultés :**
+
+- Installation de Maven et du JDK sur Aioli
+- Installation de SQLite3 et MySQL sur Aioli
+- Utilisation de hooks dans useEffect
+
+**Bilan**
+
+Pour le sprint 1, je voulais initialement me concentrer sur le frontend mais j'ai fait plus de backend. Je suis un peu dessus mais j'ai vraiment bien pris en main Sring.
+Pour le sprint 2, je me suis rendu compte que je ne peux pas avancer sur mon frontend sans un Mockup final.
+
+De manière globale, je réalise mieux l'importance du Mockup et je pense pouvoir dire que j'ai les bases de Spring Boot.
