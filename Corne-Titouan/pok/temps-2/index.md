@@ -266,7 +266,7 @@ class AppComponent {
 - le chargement les images de façon optimisée avec la directive **NgOptimizedImage**. Par exemple, on décidera de charger l'élément LCP (Largest Contentful Paint) en premier.
 - le **routage** pour les applications nécessitant plusieurs pages.
 - la gestion de formulaires. Il existe deux sortes de formulaires : **template-driven** ou **reactive**. Angular met à disposition un ensemble d'outils de validation.
-- la création d'**interfaces** qui permet de générer un nouveau type de données (utiliser la commande ``ng generate interface &lt;nom-interface&gt;``). J'utilise une interface nommée *housinglocation* dans le projet *fristApp* disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp).
+- la création d'**interfaces** qui permet de générer un nouveau type de données (utiliser la commande ``ng generate interface <nom-interface>``). J'utilise une interface nommée *housinglocation* dans le projet *fristApp* disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp).
 - la directive **ngFor** qui permet d'afficher dynamiquement les données sur un template Angular (i.e. fichier html). Voici un exemple que l'on peut également retrouver dans le projet *fristApp* disponible sur mon [GitHub](https://github.com/TitouanCorne/ApprendreAngular/tree/main/firstApp).
 
 ```javascript
