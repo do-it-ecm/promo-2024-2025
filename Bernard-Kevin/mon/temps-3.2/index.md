@@ -9,22 +9,15 @@ date: 2025-03-01
 tags: 
   - "temps 3"
   - "saumon"
-  - "Angular"
-  - "TypeScript"
-  - "Frontend"
-  - "HttpClient"
-  - "Dependency Injection"
-  - "Module"
-  - "Directive"
-  - "Pipe"
+  - "UI/UX"
+  - "interface"
+  - "Design"
 
 résumé: ""
 ---
 
 {% prerequis %}
 
-- Connaissances de ce qu'est un Frontend : 2/3 📶
-- Connaissances de ce qu'est un Système de composants : 1/3 📶
 {% endprerequis %}
 
 {% lien %}
@@ -40,20 +33,14 @@ résumé: ""
 
 {% endlien %}
 
-| Date | Heures passées | Indications |
-| -------- | -------- |-------- |
-| Mardi 09/03 | 1H15 + 3H15 + 17H45-18H | Création de la problématique, partie 2 et début partie 3, partie 3, 4 et 5 |
-| Total | 4H30 |
-
 ## Table des matières
 
 1. [Introduction](#section1)
 2. [Qu'elles sont les grandes étapes pour créer une interface répondant à des besoins ?](#section2)
-3. [Créer un projet Angular](#section3)
-4. [Comment ça marche ?](#section4)
-5. [Que sont les directives et les pipes ?](#section5)
-6. [Comment récupérer des données ?](#section6)
-7. [Conclusion](#section7)
+3. [Quel est le cadre du projet ? ses limites ?](#section3)
+4. [Quel est le public cible ?](#section4)
+5. [Comment utilisé les informations et les ressources ?](#section5)
+6. [Conclusion](#section6)
 
 ## 1. Introduction <a id="section1"></a>
 
@@ -70,7 +57,7 @@ Je vais m'inspirer des cours (UI/UX, UI/UX avancé, UX design/expression du beso
 
 La première chose que je me demande c'est quelles sont les étapes pour créer une interface ? Qu'est-ce que l'on retrouve dans les différentes approches du design UI/UX.
 
-En me basant sur les cours j'ai identifié 6 étapes :
+En me basant sur les cours j'ai identifié 5 étapes :
 
 1. **Pourquoi ?** : Etape la plus importante qui consiste à savoir qu'est-ce qui fait que l'on crée l'interface
 2. **Qu'elles sont les limites ?** : Maintenant que l'on sait pourquoi, il faut savoir quand est-ce que l'on s'arrête et quelles sont les limites du projet, nos ressources (charte graphique préexistante...)
@@ -238,7 +225,7 @@ Site recommandé : [Figma](https://www.figma.com/)
 
 On a tout ce qu'il nous faut pour réaliser la maquette de l'interface.
 
-On reprend les Zonings/Wireframes et on icorporre les éléments du Kit UI pour avoir l'interface.
+On reprend les Zonings/Wireframes et on incorpore les éléments du Kit UI pour avoir l'interface.
 
 Il faut toujours essayer de respecter les principes suivants :
 
@@ -253,21 +240,17 @@ Il faut toujours essayer de respecter les principes suivants :
 
 ---
 
-Attention balise
+{% attention "**Test/Validation de l'interface**" %}
 Il faut TOUJOURS faire valider ses progressions surtout pour la construction de l'interface (User Flow, Zoning, Wireframe, Mockup) pour être sûr que l'on est sur la bonne voie.
+{% endattention %}
 
-## Conclusion <a id="section7"></a>
+## Conclusion <a id="section6"></a>
 
 Pour répondre à ma question :
 
 <center><b>Comment construire une interface répondant aux besoins d'une entreprise ?</b></center>
 
-> Pour moi les bases d'Angular à maîtriser se divisent en 3 parties :
->
-> - Compréhension et implémentation du système de composants, modules, directives et pipes
-> - Gestion des données avec les services et l'injection de dépendances
-> - Récupération des données depuis un serveur avec les requêtes HTTP et les observables
->
-> Avec cela on peut récupérer les données, les manipuler et les afficher à l'utilisateur en fonction de ses actions ce qui est le but d'un frontend.
-
-En parallèle, j'ai pu améliorer mes bases en Angular, je ne pense pas cependant avoir assez de connaissances pour dire que je maîtrise les bases d'Angular.
+> Je pense qu'il faut prendre conscience du besoin derrière l'interface.
+> Il faut avoir une approche méthodique pour collecter et répondre aux besoins de l'entreprise et des utilisateurs.
+> En partant de leur utilisation on construit facilement l'interface.
+> Et l'outil le plus efficace reste de faire valider ses progressions pour être sûr de répondre aux besoins.
