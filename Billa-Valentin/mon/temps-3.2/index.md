@@ -18,7 +18,7 @@ tags:
 résumé: "Organisation du Barbecue de fin d'option Do-IT"
 ---
 
-{% sommaire "**Titre du sommaire**" %}
+{% sommaire %}
 ${toc}
 {% endsommaire %}
 
@@ -56,8 +56,6 @@ De la même manière que mes prédécesseurs, j'établis ma todo pour ce MON.
 ## Organisation interne
 L'entièreté de la communication entre les élèves de l'option s'est faite via le groupe
 Messenger que nous avons créé en début d'année.
-
-![Screenshot des messages envoyés en interne](messages-internes.webp)
 
 Je me suis inspiré des messages de communication associative qui prennent généralement
 le format suivant pour être reconnaissables et sortir du lot :
