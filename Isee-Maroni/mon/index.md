@@ -13,4 +13,4 @@ Ensemble des MON réalisés par Isée Maroni.
 - [MON 2.1 : L'hypersensibilité, un sujet à la mode](./temps-2.1)
 - [MON 2.2 : Datavisualisation et Sémiologie](./temps-2.2)
 - [MON 3.1 : Google Apps Script - Gestion & suivi de Paiements](./temps-3.1)
-- [MON 3.2 : Transition pour les villages-stations](./temps-3.2)
+- [MON 3.2 : Excel et Power Query](./temps-3.2)
