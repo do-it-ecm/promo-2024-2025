@@ -53,7 +53,7 @@ Ce MON n'a pas vocation à être un cours sur le C++ moderne, mais plutôt de co
 permettant d'apprendre par soit même. J'ai mis quelques examples de fonctionnalités intéressantes comme par exemples
 les smart pointers, les attributs et enums cependant il me semble contre productif de tenter par moi-même de
 retranscrire la richesse du langage surtout au vu de la grande qualité de certaines ressources cités dans ce MON.
-{% sizedImage "pipe.webp", "Pipe de 'La Trahison des images' de Magritte", "smallIcon" %}
+{% sizedImage "images/pipe.webp", "Pipe de 'La Trahison des images' de Magritte", "smallIcon" %}
 {% endnote %}
 
 ## Rappels de C++
@@ -379,7 +379,7 @@ particulièrement puissant, par exemple vous pouvez en trouver une liste sur le 
 [Terminal Root](https://terminalroot.com/top-10-static-analyzers-for-c-and-cpp/)
 
 *Voici un exemple de résultats d'inspection du code sur l'IDE CLion :*
-![Screenshot de resultats d'inspection sur CLion](clion_inspection_results.webp)
+![Screenshot de resultats d'inspection sur CLion](images/clion_inspection_results.webp)
 
 Plus généralement, rester au courant peut se faire sur pleins de canaux différents :
 

@@ -80,7 +80,7 @@ aussi jouer ensemble.
 J'ai utilisé les résultats du sondage pour estimer le nombre de participants. Suite à deux relances sur le groupe,
 j'ai dû contacter quelques élèves individuellement pour confirmer leur présence.
 
-![Screenshot du sondage](sondage-participants.webp)
+![Screenshot du sondage](images/sondage-participants.webp)
 
 Aussi, nous avons décidé de proposer aux tuteurs projets présents physiquement de participer avec nous, cependant
 ils ne seront pas nombreux, pas besoin de s'inquiéter sur les quantités.
@@ -160,7 +160,7 @@ J'ai contacté le responsable matériel de l'UA pour lui faire valider la liste 
 Le matériel est ensuite autorisé à travers le dossier COMA. L'UA fait payer 20€ de frais de prêt, et 1000€ de caution.
 
 {% chemin "Dossier COMA" %}
-[Dossier COMA rempli à partir du template de l'UA](coma_barbecue-do_it.pdf)
+[Dossier COMA rempli à partir du template de l'UA](files/coma_barbecue-do_it.pdf)
 {% endchemin %}
 
 En parlant de COMA, j'ai aussi contacté le responsable event de l'UA pour faire transmettre la demande. Ils
