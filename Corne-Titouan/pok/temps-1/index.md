@@ -109,7 +109,7 @@ J'en tire plusieurs enseignements :
 7. [Ajout des ressources de l'application](#section7)
 8. [Implémenter l'interface en respectant les wireframes](#section8)
 
-### 1. Les bases en Kotlin <a id="section1"&gt;</a>
+### 1. Les bases en Kotlin <a id="section1"></a>
 
 Pour commencer un petit mot sur Kotlin :
 
@@ -140,7 +140,7 @@ Extensible : en XML, les utilisateurs peuvent créer leurs propres balises pour 
 
 {% endinfo %}
 
-### 2. Mise en place de l'environnement de travail <a id="section2"&gt;</a>
+### 2. Mise en place de l'environnement de travail <a id="section2"></a>
 
 Il faut télécharger l'IDE [Android Studio]() qui permet d'écrire du code mais aussi d'avoir un appercu de l'application et un émulateur (appareil Android fictif).
 
@@ -164,14 +164,14 @@ Cette structure d'application permet de centraliser certains éléments (dans *r
 
 ![Texte par défaut](./img/defaultText.png) *Capture d'écran commentée*
 
-### 3. Créer un émulateur (machine virtuelle) <a id="section3"&gt;</a>
+### 3. Créer un émulateur (machine virtuelle) <a id="section3"></a>
 
 Pour tester son application, il est possible de connecter via USB un appareil Android. Mais il est également possible de créer une machine virtuelle dont on choisit les caractéristiques (type de machine, taille d'écran, résolution, version d'Android, ...).
 C'est cette dernière option que j'ai choisie d'utiliser :
 
 ![Machine Virtuelle](./img/machineVirtuelle.png) *Capture d'écran depuis Android Studio*
 
-### 4. Apprendre à coder sur Android Studio <a id="section4"&gt;</a>
+### 4. Apprendre à coder sur Android Studio <a id="section4"></a>
 
 Les chaînes de caractères ne sont pas codées en dur dans la page xml dédiée à l'activité (activity_main.xml). Les chaînes sont définies dans /res/values/strings.xml puis sont appelées à partir du layout. Ainsi dans le fichier strings.xml on retrouve la définition de notre string :
 
@@ -215,7 +215,7 @@ Cette petite application est un jeu d'estimation. Il faut trouver un nombre entr
 Le sprint 1 s'achève à ce niveau.
 {% endinfo %}
 
-### 5. Réaliser le cahier des charges <a id="section5"&gt;</a>
+### 5. Réaliser le cahier des charges <a id="section5"></a>
 
 Avant dans se lancer dans les phases de conception et de réalisation, il est important de bien identifier le besoin client. Celui-ci peut être restitué sous forme de cahier des charges. Il est important que ce document soit clair et complet pour que le besoin client soit bien compris et que l'équipe de dev puisse correctement faire son travail.
 
@@ -228,7 +228,7 @@ Voici le cahier des charges consacré à l'application *EVASION* que j'ai décid
 ![Cahier des charges - client (partie 1)](./img/CahierDesCharges-client-1.jpg)
 ![Cahier des charges - client (partie 1)](./img/CahierDesCharges-client-2.jpg)
 
-### 6. Réaliser des wireframes <a id="section6"&gt;</a>
+### 6. Réaliser des wireframes <a id="section6"></a>
 
 Pour réaliser des wireframes, j'ai décidé d'utiliser le logiciel d'UI design [Figma](https://www.figma.com). Ce logiciel permet de créer des prototypes de sites web ou d'application.
 
@@ -240,7 +240,7 @@ Après avoir découvert l'outil Figma, voici les wireframes créées :
 
 Ces wireframes peuvent encore grandement être améliorés mais, par manque de temps, je ne pouvais pas m'attarder dessus... Dans une situation professionnelle, il aurait été intéressant de montrer ces wireframes au client pour qu'il donne un feedback avant le lancement de la phase de développement.
 
-### 7. Ajout des ressources de l'application <a id="section7"&gt;</a>
+### 7. Ajout des ressources de l'application <a id="section7"></a>
 
 Une fois la vision du futur rendu de notre application établie (grâce aux wireframes), j'ai commencé à coder le visuel de l'application. J'ai ainsi commencé par définir toutes les couleurs utilisées dans mes wireframes :
 
@@ -335,7 +335,7 @@ Le nom de fichier des ressources doit être écrit en **minuscules** et seul le 
   
 {% endattention %}
 
-### 8. Implémenter l'interface en respectant les wireframes <a id="section8"&gt;</a>
+### 8. Implémenter l'interface en respectant les wireframes <a id="section8"></a>
 
 Ensuite, j'ai commencé à coder l'application en disposant les ressources correctement sur les layouts. Puis, j'ai appelé ces layouts depuis la MainActivity. Cette partie a été (beaucoup) plus longue que prévue parce que, bien que la création de layout semble triviale, c'est en réalité assez dur de prendre en main l'outil lors d'une première utilisation. De plus, j'ai eu du mal à comprendre comment appeler le layout au bon endroit. J'ai aussi eu des difficultés à implémenter la liste variable d'expériences. En effet, dans mes wireframes, sur la page principale, j'ai décidé que l'utilisateur pouvait consulter un nombre variable d'expériences en défilant vers le bas. Pour cette partie, un peu plus technique, j'ai utilisé une vidéo youtube : [créer une application mobile sur Android](https://www.youtube.com/watch?v=WlDzTh4WXek&t=2714s)
 

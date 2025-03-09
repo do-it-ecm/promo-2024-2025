@@ -73,7 +73,7 @@ résumé: Ce dernier POK est consacré à l'approfondissement des connaissances 
 
 {% attention %}
 
-Faire attention à ne pas sous-estimer le temps passé à coder. C'est souvent ce que j'ai tendance à faire... Pour les nouvelles fonctionnalités implémentées lors de ce sprint, je me suis mis une limite à 4h max. Mon code fonctionne mais peut être grandement amélioré ... avec plus de temps (et de pratique !!)
+Faire attention à ne pas sous-estimer le temps passé à coder. C'est souvent ce que j'ai tendance à faire... Pour les nouvelles fonctionnalités implémentées lors de ce sprint, je me suis mis une limite de 4h max. Mon code fonctionne mais peut être grandement amélioré ... avec plus de temps (et de pratique !!)
 
 {% endattention %}
 
@@ -81,23 +81,30 @@ Faire attention à ne pas sous-estimer le temps passé à coder. C'est souvent c
 
 {% details "Sprint 2" %}
 
-- [] Implémenter les parties manquantes du site :
-  - [] Implémenter la fonctionnalité permettant d'ajouter une recette
-  - [] Implémenter la fonctionnalité permettant de supprimer une recette
-- [] Tester le site :
-  - [] Tester *ajout d'une recette*
-  - [] Tester *suppression d'une recette*
-- [] Déployer le site sur aioli
+- [x] Implémenter les parties manquantes du site :
+  - [x] Implémenter une fonctionnalité permettant de gérer les utilisateurs
+  - [x] Implémenter une fonctionnalité permettant à chaque utilisateur d'avoir sa propre liste de recettes favorites
+  - [x] Implémenter la fonctionnalité permettant d'ajouter une recette
+  - [x] Implémenter la fonctionnalité permettant de supprimer une recette
+- [x] Tester le site :
+  - [x] Tester *ajout d'une recette*
+  - [x] Tester *suppression d'une recette*
+- [x] Déployer le site sur aioli
 
 | Date | Temps passé | Commentaire |
 | -------- | -------- | -------- |
-| . | . | . |
+| 15/02 | 3H15 | Implémenter la fonctionnalité permettant d'ajouter une recette |
+| 16/02 | 1H20 | Gestion des users + leurs recettes favorites |
+| 19/02 | 2H00 | Ajouts de tests |
+| 22/02 | 1H50 | Implémenter la fonctionnalité permettant de supprimer une recette |
+| 22/02 | 0H45 | Amélioration CSS global |
+| 08/03 | 1H00 | Déploiement sur aoili |
 
-***Temps total passé sur ce sprint :*** *temps total*
+***Temps total passé sur ce sprint :*** 10H10
 
 {% attention %}
 
-Possibles points d'attention
+Il faut savoir trouver un juste milieu en ce qui concerne les fonctionnalités à tester. Dans l'idéal, il faudrait tout tester, ce qui permettrait d'avoir une application robuste et bien documentée (car test = documentation). Mais ce n'est pas possible car on n'a pas un temps infini.
 
 {% endattention %}
 
@@ -105,14 +112,14 @@ Possibles points d'attention
 
 {% faire %}
 
-**QUOTA HORAIRE TOTAL POK 3 :** temps total cumulé avec ces deux sprints
+**QUOTA HORAIRE TOTAL POK 3 :** 21H10
 {% endfaire %}
 
 #### Analyse post-morterm
 
 {% details "Sprint 1" %}
 
-Après avoir réalisé mon MON 3.1 sur la méthodologie Test-Driven Development, j'ai été content et satisfait de voir que les connaissances acquises peuvent être facilement réutilisées. Il faut que je veille à bien documenter mon code (les tests peuvent là aussi servir), car après quelques semaines, il est difficile de se familiariser à nouveau avec du code existant.
+Après avoir réalisé mon MON 3.1 sur la méthodologie Test-Driven Development, j'ai été content et satisfait de voir que les connaissances acquises peuvent être facilement réutilisées. Il faut que je veille à bien documenter mon code (les tests peuvent là aussi servir), car après quelques semaines, il est difficile de se familiariser de nouveau avec du code existant.
 
 J'ai également vu la limite de la maquette Figma (cf POK 2). Celle-ci est très pratique pour avoir une idée du rendu final. Cependant, elle ne tient pas compte de la faisabilité des fonctionnalités souhaitées. Pour illustrer cela, je peux parler du header, qui change constamment dans ma maquette (certains icônes apparaissent seulement sur des pages spécifiques). Ce header, bien que pratique sur la maquette, est affreusement compliqué, long et énervant à coder !
 
@@ -129,7 +136,7 @@ J'ai également vu la limite de la maquette Figma (cf POK 2). Celle-ci est très
 ## Table des matières
 
 1. [Tester mon application](#section1)
-2. [Partie 2](#section2)
+2. [Ajout de fonctionnalités](#section2)
 3. [Conclusion](#section3)
 
 suite à venir (en cours de rédaction)
@@ -139,7 +146,7 @@ suite à venir (en cours de rédaction)
 Après avoir réalisé mon MON 3.1, j'ai pris conscience de l'importance des tests. J'ai donc décidé de tester mon application **Miam'Miam**.
 Pour ce faire, j'ai revu chaque fichier de test de chaque composant, dans lesquels des tests de base avaient été automatiquement implémentés lors de la création du composant.
 
-J'ai modifié ces tests pour qu'ils soient en phase avec le code déjà écrit lors de mon POK 2.
+J'ai modifié ces tests pour qu'ils soient en accord avec le code déjà écrit lors de mon POK 2.
 
 J'ai rapidement réalisé que je devais trouver une manière de tester non seulement chaque composant, mais aussi leurs interactions entre eux, notamment pour ceux qui consomment des données (présentes dans le fichier db.json).
 
@@ -326,6 +333,33 @@ Mais un Fake Service **n’a pas besoin d’être aussi complet que le vrai serv
 {% endinfo %}
 Mais comme nous l'explique la documentation de Jasmine, les mocks ont leur limite... En effet avec les mocks, les tests deviennent trop dépendants des implémentations internes. Si on change la structure du service, il faudra aussi mettre à jour tous les mocks.
 
-## Partie 2 <a id="section2"></a>
+## Ajout de fonctionnalités <a id="section2"></a>
 
-## Conclusion <a id="section3"></a>
+### Implémentation du component Header
+
+Comme expliqué dans mon POK2, j'ai dans un premier temps créé une maquette figma pour avoir une image du rendu final vers lequel je voulais me diriger. Dans un second temps, j'ai codé mon application Angular en suivant les caractéristiques de la maquette. Cependant, pour le **Header**, j'ai décidé de ne plus suivre la maquette, car ce que j'avais dessiné sur Figma n'était vraiment pas facile à mettre en place du point de vue du code.
+
+C'est à ce moment-là que j'ai compris qu'il est réellement important d'avoir un point de vue critique sur ce qu'on imagine sur Figma. Il faut que ce soit simple et facile à coder.
+
+Ainsi, j'ai créé un unique Header qui ne dépend pas de la page visitée et qui reste valide pour chacune d'entre elles. Ce Header est divisé en deux parties :
+
+1. Le logo de l'application qui permet de retourner rapidement au menu.
+2. La div contenant les icônes : une icône (flèche) pour revenir à la page précédente et une icône (+) pour ajouter une nouvelle recette
+
+### Gestion des utilisateurs et des recettes favorites
+
+Ce site se veut d'être un site familial, sans aucune donnée sensible. Ainsi, j'ai trouvé inutile de coder un système de log in classique avec identifiant + mot de passe. J'ai seulement inséré une dropdown list accessible à la première page qui permet de choisir le bon utilisateur.
+
+Derrière ce système de gestion d'utilisateurs, j'ai créé une seconde interface (`ng generate interface Users`) et un service dédié aux users (`ng generate service Users`). Ce service expose des méthodes permettant notamment de savoir quel est l'utilisateur actuellement sélectionné, et ce, quelle que soit la page visitée.
+
+Ensuite, j'ai ajouté un nouveau champ pour mes objets de type *Recepe*. Ce champ, dénommé *favorite*, est un tableau de *boolean* de longueur 5 (car il y a 5 utilisateurs). Ce tableau, propre à chaque recette, permet de retrouver les utilisateurs ayant cette recette en favoris. Lorsqu'on crée une nouvelle recette, et qu'on est donc propriétaire de cette dernière, cette recette est automatiquement placée dans les favoris.
+
+### Implémentation de méthodes pour supprimer/ajouter une recette
+
+Comme expliqué précédemment, le *Header* expose une icône *"plus"* (+) pour ajouter une nouvelle recette. Pour cela, j'ai créé un nouveau composant *newRecepe*, qui est associé à une nouvelle route. Ce composant affiche un formulaire permettant de saisir toutes les informations nécessaires à la création d'une nouvelle recette.
+
+Pour cela, j'ai utilisé `NgForm` et `FormsModule`. Je vous invite à aller voir ça sur mon [GitHub]("https://github.com/TitouanCorne/ApprendreAngular/tree/main/CuisineWebSite/src/app/new-recepe") (fichiers new-recepe.component.html & new-recepe.component.ts) si ça vous intéresse ;)
+
+Ensuite, j'ai implémenté la fonctionnalité permettant de supprimer une recette. Cette fonctionnalité peut être utilisée seulement pour les recettes dont l'user est propriétaire.
+
+## Déploiement sur aioli <a id="section3"></a>
