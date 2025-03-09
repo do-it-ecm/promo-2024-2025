@@ -5,7 +5,7 @@ title: "Accessibilité"
 authors:
   - Valentin Billa
 
-date: 2024-09-05
+date: 2024-10-16
 
 temps: 2
 
@@ -19,9 +19,8 @@ résumé: Étude de l'accessibilité du site DataSud
 ---
 
 {% prerequis %}
-
 - Quelques bases en HTML / CSS
-  {% endprerequis %}
+{% endprerequis %}
 
 ## Objectifs
 
