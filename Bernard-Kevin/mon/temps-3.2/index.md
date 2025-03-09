@@ -198,6 +198,7 @@ On cherche à une disposition des éléments, on n'a pas besoin de détails simp
 [Ricard, S. (2024, 14 mars). Comment créer un wireframe d& # 8217 ; application mobile ?  Graphiste.com.](https://graphiste.com/blog/wireframe-application-mobile/)
 
 En faisant les Zonings, il faut prendre en compte :
+
 - la **hiérarchie de l'information** : les éléments les plus importants doivent être mis en avant
 - **l'unité, le rythme et l'harmonie** : les éléments doivent être alignés, espacés de manière régulière
 - le **chemin du regard**
