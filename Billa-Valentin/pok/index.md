@@ -6,7 +6,6 @@ authors:
     - Valentin Billa
 ---
 
-## Temps 1
-
-- [POK 1 - GoAuth2](./temps-1)
-- [POK 2 - Accessibilité](./temps-2)
+- [POK 1 - GoAuth2](temps-1)
+- [POK 2 - Accessibilité](temps-2)
+- [POK 3 - Optimization](temps-3)

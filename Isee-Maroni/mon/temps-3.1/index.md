@@ -8,6 +8,10 @@ authors:
 date: 2025-01-22
 tags:
   - "temps 3"
+  - "Apps Script"
+  - "Google Sheet"
+  - "Google Docs"
+  - "Automatisations"
 
 résumé: "Découvrir les bases de Apps Script pour automatiser l'envoie de certificats chaque trimestre nécessaire à la réception des paiements et le suivi"
 ---
@@ -30,6 +34,10 @@ Aucun
 
 
 L’objectif de ce MON est de me former à Google Apps Script afin d’automatiser les interactions entre Google Sheets, Google Docs, et Google Drive, tout en gérant l’envoi d’emails pour des tâches récurrentes et identiques. Cette démarche vise à optimiser les workflows et à réduire le temps consacré aux tâches répétitives.
+
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
 ## Contexte
 
@@ -69,7 +77,7 @@ La première étape consistait à construire une feuille Google Sheets pour gér
 Lorsqu’un paiement est reçu et ajouté dans la colonne "Somme reçue", si celui-ci est complet, la ligne correspondante passe automatiquement en vert.
 
 
-Cette étape m'a également permis de découvrir l'utilisation des *Logger*, un outil pratique pour consigner des traces dans le Journal d'exécution.
+Cette étape m'a également permis de découvrir l'utilisation des *Logger*, un outil pratique pour consigner des traces dans le Journal d'exécution. (cf *Annexe*)
 
 {% details "function onEdit(e)"%}
 
@@ -381,7 +389,7 @@ Une fois le mail contenant les certificats envoyé, la ligne correspondante est 
 ![ScriptTermine](./ScriptTermine.png)
 
 
-#### Exemple de Logger
+## Annexe : Exemple de Logger
 
 ![Logger](./Logger.png)
 

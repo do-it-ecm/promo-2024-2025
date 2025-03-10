@@ -6,13 +6,13 @@ authors:
     - "Isée Maroni"
 ---
 
-Étudiant fictif, utilisé pour le template de nouveaux élèves.
+Étudiante en Do_It
 
 ## POK & MON
 
-- [POK](./pok)
-- [MON](./mon)
+- [Mes POK](./pok)
+- [Mes MON](./mon)
 
 ## Projet
 
-[Notre Projet](../../20XX-20YY/_projets/notre-projet)
+[Marseille Art'chitecture](../../2024-2025/_projets/Marseille_Artchitecture)

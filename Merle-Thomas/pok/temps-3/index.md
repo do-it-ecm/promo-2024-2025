@@ -1,38 +1,35 @@
 ---
 layout: layout/pok.njk
 
-title: "Dark Kitchen - BackEnd Suite"
+title: "POK 3 - Computer Vision - Lane Detection Pipeline"
 authors:
   - Thomas Merle
 
-date: 2025-01-06
+date: 2025-02-25
 
 tags:
   - 'temps 3'
-  - 'BackEnd'
-  - 'Node.js'
-  - 'Express.js'
-  - 'MongoDB'
-  - 'API REST'
-  - 'Dark Kitchen'
+  - 'Computer Vision'
+  - 'Automative Technology'
+  - 'Notebook'
+  - 'Python'
+  - 'OpenCV'
+  - 'bibiothèques'
+  
 
-résumé: "Codage du BackEnd du site de ma Dark Kitchen - Passage des commandes et Système de Paiement"
+résumé: "Détection de lignes de voie sur Images et Vidéos : application à l'automobile"
 ---
 {% prerequis %}
-**Niveau :** Très Technique
+**Niveau :** Technique
 **Pré-requis:**
 
-- Connaissances de base en JavaScript.
-- Familiarité avec Node.js et npm.
-- Familiarités avec les bases de données et leur gestion avec MangoDB.
-- Notions d’API REST et endpoints.
-
+- Connaissance de Python et des bibliothèques OpenCV, NumPy et Matplotlib.
+- Notions de base en traitement d'image (filtres, détection de contours, seuillage).
+- Compréhension des concepts de segmentation et de détection de formes.
 {% endprerequis %}
+
 {% lien %}
-
-- [`GitHub Projet Dark Kitchen v2`](https://github.com/SofianeOuadda/dark-kitchen-v2)
-- [GitHub Backend Dark Kitchen](https://github.com/SofianeOuadda/dark-kitchen-v2)
-
+['Repo Github'](https://github.com/ThomasMerle25/Lane_Detection_Pipeline)
 {% endlien %}
 
 Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce POK. On oubliera pas de donner :
@@ -40,133 +37,125 @@ Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de 
 - le niveau et les prérequis nécessaires en utilisant la balise [`prerequis`](/cs/contribuer-au-site/#prerequis)
 - les autres POK & MON en rapport en utilisant la balise [`lien`](/cs/contribuer-au-site/#lien)
 
-# <span style="color: green">POK3 - Dark Kitchen - BackEnd Suite
+# POK3 - Computer Vision - Lane Detection Pipeline
 
-Codage en JS (NodeJS).
+---
+## Table des matières<a name="table-des-matières"></a>
 
-Ce POK décrit les étapes du développement du site web de notre Dark Kitchen de Fried Rice et de Noodles **S&T Goreng**. Il comprend la mise en place d'une **API REST**, la connexion à une base de données **MongoDB** et des fonctionnalités essentielles côté serveur. Ce POK est la suite logique du précédent. Nous ajoutons de nouevlles fonctionnalités comme la possibilité de passer des commandes et l'implémentation d'un système de paiement en ligne.
+- [POK3 - Computer Vision - Lane Detection Pipeline](#pok3---computer-vision---lane-detection-pipeline)
+  - [Table des matières](#table-des-matières)
+  - [Objectifs principaux](#objectifs-principaux)
+  - [Rappels théoriques et justification des choix techniques](#rappels-théoriques-et-justification-des-choix-techniques)
+  - [Sprints](#sprints)
+    - [Sprint 1 : Exploration des données](#sprint-1--exploration-des-données)
+    - [Sprint 2 : Mise en place des outils et bibliothèques](#sprint-2--mise-en-place-des-outils-et-bibliothèques)
+    - [Sprint 3 : Développement des fonctions de traitement d'image](#sprint-3--développement-des-fonctions-de-traitement-dimage)
+    - [Sprint 4 : Construction du pipeline de traitement d'image](#sprint-4--construction-du-pipeline-de-traitement-dimage)
+    - [Sprint 5 : Application aux images et vidéos](#sprint-5--application-aux-images-et-vidéos)
+    - [Retour d’expérience](#retour-dexpérience)
+    - [Conclusion](#conclusion)
+  - [Horodateur](#horodateur)
+
+---
+
+Ce travail vise à développer un pipeline de Computer Vision capable de détecter les lignes de voie sur des images et des vidéos. Ce projet permet de mettre en pratique de nouveaux concepts de Machine Learning que nous ne voyons pas à Centrale, en s'appuyant sur la bibliothèque OpenCV de Python. Les données utilisées proviennent du programme "Self Driving Car Engineer Nanodegree" d'Udacity. J'ai créer un notebook Python développé sur Jupyter via l'environnement Anaconda.
 
 ---
 
 ## Objectifs principaux
 
-1. Conception des API: construire une API REST avec **Node.js** et **Express.js** pour gérer les produits, commandes et le panier. Création des endpoints et de l'architecture API.
-2. Modéliser les données : définir les modèles nécessaires avec **MongoDB** comme base de données pour stocker les informations de manière persistante.
-3. Refactoriser et structurer le code pour une meilleure maintenabilité.
-4. Rendre le backend fonctionnel pour intégration avec le frontend.
+1. Concevoir un pipeline de traitement d'image capable de détecter les lignes de voie.
 
-### 1. Initialisation du projet
+2. Appliquer des techniques de traitement d'image et d'analyse de contours.
 
-- **Tâches :**
-  - [Sofiane](#)&[Thomas](#) Initialiser un projet Node.js avec `npm init`.
-  - [Sofiane](#)&[Thomas](#) Installer les dépendances principales : `express`, `mongoose`, `dotenv`.
-  - [Sofiane](#)&[Thomas](#) Configurer un fichier `.env` pour stocker les variables sensibles comme le port et l’URI **MongoDB**.
-  - [Sofiane](#)&[Thomas](#) Créer un serveur Express.js fonctionnel qui écoute sur un port donné.
+3. Automatiser l'application du pipeline sur des images et des vidéos.
 
-### 2. Connexion à MongoDB
+4. Expérimenter les fonctions d'OpenCV pour la vision par ordinateur.
 
-- **Tâches :**
-  - [Thomas](#) Créer un cluster MongoDB sur **MongoDB Atlas**.
-  - [Thomas](#) Configurer la connexion entre le serveur Node.js et MongoDB à l’aide de `mongoose`.
-  - [Thomas](#) Définir les schémas et modèles pour :
-    - **Produits** (nom, description, prix, image).
-    - **Users** (nom, eamil, passwords).
-  - [Thomas](#) Ajouter des données de test pour les produits.
+## Rappels théoriques et justification des choix techniques
 
-  ### 3. Création des routes API REST
+Pour les personnes n'ayant pas de connaissance préalable des techniques utilisées, voici quelques rappels essentiels ainsi qu'une explication des choix technologiques :
 
-- **Tâches :**
-  - [Sofiane](#) Implémenter les routes suivantes :
-    - `GET /api/products` : Liste tous les produits.
-    - `GET /api/products/:id` : Détaille un produit spécifique.
-    - `POST /api/products/` : Création un produit spécifique.
-    - `PUT /api/products/:id` : Update un produit spécifique.
-    - `DELETE /api/products/:id` : Suprimer un produit spécifique.
-    - `POST /api/login` : Se connecter
-    - `POST /api/register` : Créaction d'un nouveau compte
-  - Structurer les routes pour qu'elles utilisent les méthodes **CRUD** associées.
+- **Traitement d'image** : Ensemble des techniques permettant d'améliorer, modifier ou extraire des informations d'une image. La vision par ordinateur repose fortement sur ce domaine pour analyser et comprendre les images.
 
-### 4. Refactorisation et modularisation du code
+- **Filtrage et réduction du bruit** : Un filtre gaussien est appliqué pour lisser l’image et éliminer les variations de pixels parasites dues au bruit. Ce choix est pertinent car il permet de préserver les contours tout en supprimant les informations inutiles.
 
-- **Tâches :**
-  - [Sofiane](#)&[Thomas](#) Organiser le projet en modules :
-    - `routes/` : Fichiers pour les routes (`products.js`, `orders.js`).
-    - `controllers/` : Logique métier séparée des routes.
-    - `models/` : Définition des schémas **Mongoose**.
-  - Ajouter un fichier `utils/` pour des fonctions utilitaires (exemple : formatage des données).
+- **Conversion en niveaux de gris** : Transformer une image couleur en niveaux de gris simplifie son traitement tout en conservant les informations essentielles sur les contrastes et les contours.
 
-### 5. Ajout des données et validation simple
+- **Détection de contours avec l’algorithme de Canny** : L'algorithme de Canny est utilisé pour détecter les bords des objets présents dans l’image. Ce choix est motivé par sa robustesse : il permet d’obtenir des contours nets et exploitables tout en supprimant les artefacts liés au bruit.
 
-- **Tâches :**
-  - [Sofiane](#)&[Thomas](#) Ajouter des produits par défaut directement dans MongoDB: données **Product** notamment.
-  - [Sofiane](#)&[Thomas](#) Vérifier que les produits sont bien récupérés via les routes `GET /api/products` et `GET /api/products/:id`.
+- **Définition d'une région d'intérêt (ROI)** : Pour se concentrer uniquement sur la route et les lignes de voie, on applique un masquage qui exclut les zones non pertinentes de l’image. Cela réduit la quantité d’informations à traiter et améliore la précision de la détection.
 
-### 6. Intégration du Backend avec le Frontend
+- **Transformée de Hough pour la détection des lignes** : Cet algorithme permet de détecter des formes géométriques dans une image. Il est idéal pour identifier les lignes de marquage routier, car il recherche des alignements de pixels formant des lignes droites.
 
-- **Tâches :**
-  - [Sofiane](#)&[Thomas](#) Connecter le frontend en **Vue.js** avec l'API backend en utilisant **Axios** ou **Fetch** pour effectuer des appels API.
-  - [Sofiane](#)&[Thomas](#) Tester les appels aux différentes routes API (produits, panier, commandes) depuis le frontend pour vérifier que les données sont correctement affichées et manipulées.
-  - [Sofiane](#)&[Thomas](#) Implémenter des actions sur le frontend comme l'ajout de produits au panier via l'API `POST /api/cart` et l'affichage des produits depuis `GET /api/products`.
-  - [Sofiane](#)&[Thomas](#) Vérifier que les pages du frontend, comme le panier et le menu, interagissent correctement avec le backend pour mettre à jour les données de manière dynamique.
+D'autres méthodes comme la segmentation sémantique par réseaux de neurones auraient pu être utilisées, mais elles nécessitent un entraînement complexe et des ressources de calcul importantes.
+
+- **Superposition des résultats sur l'image originale** : Une fois les lignes détectées, elles sont dessinées sur l’image initiale pour obtenir un affichage intuitif et compréhensible.
 
 ---
 
-## Sprints de développement
+## Sprints
 
---
+### Sprint 1 : Exploration des données
 
-### Sprint 1 : Initialisation et serveur Express
-
-- **Objectif :** Créer un serveur **Express.js** fonctionnel.
 - **Tâches** :
-  - [x] [Sofiane](#)&[Thomas](#) Initialisation du projet et installation des dépendances.
-  - [x] [Sofiane](#)&[Thomas](#) Configuration du serveur avec **express**.
+  - [x] Chargement des images et vidéos fournies par Udacity.
+  - [x] Visualisation des données pour comprendre les caractéristiques des lignes de voie.
+  - [x]Analyse des difficultés potentielles : variations d'éclairage, différents types de routes, présence de bruit.
 
-## Sprint 2 : Connexion à MongoDB et création des modèles
+### Sprint 2 : Mise en place des outils et bibliothèques
 
-- **Objectif :** Configurer MongoDB et définir les schémas des données.
 - **Tâches** :
-  - [x] [Thomas](#) Création du cluster **MongoDB Atlas**.
-  - [x] [Thomas](#) Connexion avec **mongoose**.
-  - [x] [Thomas](#) Création des modèles **Product**, **Order** et **User**.
-  - [x] [Thomas](#) Ajout de données de test pour les **Product**.
-  - [x] [Sofiane](#) Connexion à MongoDB pour l'authentification : création des données **Users** via script.
+  - [x] Installation et importation des bibliothèques Python nécessaires : OpenCV, NumPy, Matplotlib.
+  - [x] Configuration de l'environnement de travail et vérification du bon chargement des données.
 
-### Sprint 3 : Développement des routes API
+### Sprint 3 : Développement des fonctions de traitement d'image
 
-- **Objectif :** Implémenter les fonctionnalités principales de l’API.
 - **Tâches** :
-  - [x] [Thomas](#) Création route pour les produits (`GET`, `POST`, `PUT`, `DELETE`)..
-  - [x] [Sofiane](#) Création routes pour l'authentification.
-  - [x] [Sofiane](#)&[Thomas](#) Validation basique des données entrantes.
+  - [x] Implémentation d'une fonction de conversion en niveaux de gris pour simplifier l'analyse.
+  - [x] Développement d'un filtre gaussien pour réduire le bruit de l’image.
+  - [x] Mise en place de la détection des contours avec l’algorithme de Canny.
+  - [x] Définition d’une région d’intérêt (ROI) pour se concentrer sur la zone utile.
 
---
+### Sprint 4 : Construction du pipeline de traitement d'image
 
-### Sprint 4 : Refactorisation et modularisation
-
-- **Objectif :** Organiser le projet pour faciliter la maintenance et les futures évolutions.
 - **Tâches** :
-  - [x] [Sofiane](#)&[Thomas](#) Séparation des routes, contrôleurs et modèles dans des dossiers dédiés.
-  - [x] [Sofiane](#)&[Thomas](#) Structuration du code en modules clairs (`routes/`, `models/`).
+  - [x] Intégration des différentes étapes (filtrage, détection de contours, ROI) dans une fonction unique
+  - [x] Implémentation de la transformée de Hough pour identifier les lignes de voie.
+  - [x] Superposition des lignes détectées sur l’image d’origine.
+  - [x] Vérification du bon fonctionnement du pipeline sur des images tests.
 
-### Sprint 5 : Ajout des données et validation simple
+### Sprint 5 : Application aux images et vidéos
 
-- **Objectif :** Ajouter des données de test et vérifier le fonctionnement des routes API.
 - **Tâches** :
-  - [x] [Sofiane](#)&[Thomas](#) Ajout manuel des produits par défaut dans la base de données MongoDB.
-  - [ ] Validation des données récupérées avec **Postman**.
+  - [x] Application du pipeline à une série d'images pour vérifier la robustesse du modèle.
+  - [x] Extension du pipeline aux vidéos : lecture frame par frame et traitement en temps réel.
+  - [x] Ajustement des paramètres de détection (seuils de Canny, paramètres de Hough) pour améliorer la robustesse et la précision.
+  - [x] Comparaison des résultats obtenus sur différentes conditions de routes.
 
-### Sprint 6 : Intégration du Backend avec le Frontend
+---
 
-- **Objectif :** Assurer la communication entre le frontend **Vue.js** et le backend **Node.js** via des API.
-- **Tâches** :
-  - [x] [Sofiane](#)&[Thomas](#) Implémentation des appels API pour récupérer les produits et gérer le panier.
-  - [x] [Sofiane](#) Implémentation des appels API pour enregistrer des **User**.
-  - [x] [Sofiane](#) Mise à jour du FrontEnd avec les popups **LogIn** et **SignIn**.
-  - [x] [Sofiane](#)&[Thomas](#) Vérification de l'affichage dynamique des produits dans le frontend.
-  - [x] [Sofiane](#)&[Thomas](#) Tester connexion/l'enregistrement d'un user et ajout à la base de donnée.
+### Retour d’expérience
 
---
+1. **Ce que j’ai appris:**
+
+- Compréhension approfondie des étapes du traitement d'image appliquées à la détection de lignes.
+- Importance du réglage des hyperparamètres pour obtenir des résultats optimaux.
+- Adaptation du pipeline aux variations de conditions de route (lumière, bruit, obstacles).
+- Manipulation avancée des fonctions OpenCV pour la vision par ordinateur.
+
+2. **Difficultés rencontrées:**
+
+- Ajustement des seuils de Canny et des paramètres de la transformée de Hough pour obtenir une détection fiable sans faux positifs.
+- Gestion des conditions de lumière variables, qui impactent la qualité de la détection des contours.
+- Détection de lignes interrompues ou discontinues dues à l’usure des marquages au sol.
+- Optimisation du pipeline pour garantir un bon compromis entre performance et temps de calcul sur des vidéos.
+
+### Conclusion
+
+Ce projet met en application plusieurs techniques de Computer Vision pour résoudre un problème concret de détection de lignes de voie. L’approche basée sur OpenCV permet d’obtenir un résultat efficace tout en minimisant la complexité computationnelle. D'autres méthodes, comme l'apprentissage profond, auraient pu être envisagées mais nécessitent des ressources et une annotation de données plus importantes. Ce pipeline peut être étendu et optimisé pour des applications avancées, notamment en conduite autonome.
+
+---
 
 ## Horodateur
 
@@ -174,4 +163,9 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 
 | Date       | Heures passées | Indications                                    |
 |------------|----------------|------------------------------------------------|
-|  |           | |
+| 16/01 |       4H    | Définition du sujet et des objectifs : Documentation sur les techniques de Computer Vision |
+| 17/01 |       2H    | Exploration des données : Chargement et analyse des images/vidéos. |
+| 20/01 |       2H    | Mise en place des outils : Installation et test des bibliothèques. |
+| 29/01 - 14/02 |     6H      | Développement des fonctions de traitement d'image : Implémentation et tests des différentes étapes (conversion, filtrage, Canny, ROI). |
+| 24/02 |      4H     | Construction du pipeline : Intégration des étapes et ajustement des paramètres. |
+| 25/02 |     4H      | Application aux images et vidéos : Tests et ajustements sur plusieurs conditions. |

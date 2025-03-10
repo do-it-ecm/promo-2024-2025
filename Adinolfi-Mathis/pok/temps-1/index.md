@@ -1,18 +1,18 @@
 ---
 layout: layout/pok.njk
 
-title: "Simuler le traffic routier avec python"
+title: "Simuler le trafic routier avec python"
 authors:
   - ADINOLFI Mathis
 
 date: 2024-16-09
 
 tags:
-  - "Traffic routier"
+  - "trafic routier"
   - "Simulation"
   - "Python"
 
-résumé: Mon POK a pour but de simuler le traffic routier à l'aide de python afin d'analyser la formation d'embouteillage en ville
+résumé: Mon POK a pour but de simuler le trafic routier à l'aide de python afin d'analyser la formation d'embouteillage en ville
 ---
 
 {% prerequis %}
@@ -62,7 +62,7 @@ Bonne gestion de mon temps mais beaucoup de tâches à faire dans le prochain sp
 
 {% details "✏️ TO-DO Sprint 2"%}
 
-- [x] Définir les régles du traffic
+- [x] Définir les régles du trafic
 - [x] GitHub
 - [x] Coder la simulation
 - [x] Coder les priorités
@@ -97,7 +97,7 @@ J'ai sous-estimé le temps de débogage, j'ai donc privilégié le fonctionnemen
 
 {%enddetails%}
 
-## Objectif : Modéliser et visualiser le traffic sur un cas donné
+## Objectif : Modéliser et visualiser le trafic sur un cas donné
 
 <div style="text-align: center;">
     <img src="Cas_etude_feux.png" width="800"/>
@@ -219,12 +219,12 @@ Fin = ['Fin']
 <br>
 {% endnote %}
 
-Cependant, ces éléments ne permettent pas de représenter ni de traiter l'évolution du trafic. C'est pourquoi il faut joindre à cette matrice une matrice 'traffic' permettant de modéliser l'évolution du trafic en temps réel.
+Cependant, ces éléments ne permettent pas de représenter ni de traiter l'évolution du trafic. C'est pourquoi il faut joindre à cette matrice une matrice 'trafic' permettant de modéliser l'évolution du trafic en temps réel.
 
 Pour chaque élément, on associera une liste qui représentera le trafic de la manière suivante :
 
 ```python
-Traffic_élément = [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1]
+trafic_élément = [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1]
 ```
 
 Les 0 sont des espaces vides et les 1 des emplacements occupés.
@@ -285,22 +285,22 @@ Route_24 = ["Feu", 3, 30, False]
 Route_34 = ["Route", 3]
 Route_44 = ["Depart", 3, 5]
 
-Traffic_02 = [0]
-Traffic_03 = [0]
-Traffic_04 = [0]
-Traffic_05 = [0]
-Traffic_06 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Traffic_07 = [0]
-Traffic_10 = [0]
-Traffic_11 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Traffic_12 = [0]
-Traffic_13 = [0]
-Traffic_14 = [0]
-Traffic_15 = [0]
-Traffic_23 = [0]
-Traffic_24 = [0]
-Traffic_34 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Traffic_44 = [0]
+trafic_02 = [0]
+trafic_03 = [0]
+trafic_04 = [0]
+trafic_05 = [0]
+trafic_06 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+trafic_07 = [0]
+trafic_10 = [0]
+trafic_11 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+trafic_12 = [0]
+trafic_13 = [0]
+trafic_14 = [0]
+trafic_15 = [0]
+trafic_23 = [0]
+trafic_24 = [0]
+trafic_34 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+trafic_44 = [0]
 
 Direction_02 = []
 Direction_03 = []
@@ -327,12 +327,12 @@ Route_etude = [
     [0, 0, 0, 0, Route_44, 0, 0, 0],
 ]
 
-Traffic_etude = [
-    [0, 0, Traffic_02, Traffic_03, Traffic_04, Traffic_05, Traffic_06, Traffic_07],
-    [Traffic_10, Traffic_11, Traffic_12, Traffic_13, Traffic_14, Traffic_15, 0, 0],
-    [0, 0, 0, Traffic_23, Traffic_24, 0, 0, 0],
-    [0, 0, 0, 0, Traffic_34, 0, 0, 0],
-    [0, 0, 0, 0, Traffic_44, 0, 0, 0],
+trafic_etude = [
+    [0, 0, trafic_02, trafic_03, trafic_04, trafic_05, trafic_06, trafic_07],
+    [trafic_10, trafic_11, trafic_12, trafic_13, trafic_14, trafic_15, 0, 0],
+    [0, 0, 0, trafic_23, trafic_24, 0, 0, 0],
+    [0, 0, 0, 0, trafic_34, 0, 0, 0],
+    [0, 0, 0, 0, trafic_44, 0, 0, 0],
 ]
 
 Direction_etude = [
@@ -348,7 +348,7 @@ duree = 0
 
 {% enddetails %}
 
-## Partie 2 : 🚗 Modélisation du traffic
+## Partie 2 : 🚗 Modélisation du trafic
 
 Avant toute chose, maintenant que nous avons une route, nous devons la faire vivre. Cela consiste à faire évoluer les différents éléments de la route au fil du temps. Notamment, il faut mettre à jour les feux rouges à la fin de leur cycle. Pour cela, on peut considérer le programme suivant :
 
@@ -420,23 +420,23 @@ def update_direction(route, direction):
 Ce code met à jour les directions choisies pour les éléments de la route à chaque itération. Le choix des directions se fait de manière aléatoire parmi les directions possibles, en respectant leur poids. Enfin, il faut créer des voitures sur les blocs de départ en respectant le débit.
 
 {% faire %}
-**Création d'un traffic flows**
+**Création d'un trafic flows**
 {% endfaire %}
 
 {% details "Update_depart" %}
 
 ```python
 
-def update_départ(route, traffic):
+def update_départ(route, trafic):
     """Cette fonction permet de générer des voitures dans les cases départ de manière aléatoire,
     tout en respectant le débit d'entrée
 
     Args:
         route (2D list): Liste des élements de notre route
-        traffic (2D list): Liste resprésentant le traffic de notre route 0 = vide / 1 = voiture
+        trafic (2D list): Liste resprésentant le trafic de notre route 0 = vide / 1 = voiture
 
     Returns:
-        traffic (2D list): Ajoute les voitures générées sur les cases départs
+        trafic (2D list): Ajoute les voitures générées sur les cases départs
     """
 
     for i in range(len(route)):
@@ -444,9 +444,9 @@ def update_départ(route, traffic):
             if route[i][j] != 0:
                 if route[i][j][0] == "Depart":
                     if random.random() <= route[i][j][2] / 60:
-                        traffic[i][j][0] += 1
+                        trafic[i][j][0] += 1
 
-    return traffic
+    return trafic
 ```
 
 {% enddetails %}
@@ -456,7 +456,7 @@ Maintenant que notre route est vivante, nous pouvons commencer à manipuler les 
 <div style="text-align: center;">
     <img src="Schema_cas_etude.jpg" width="800"/>
     <br>
-    <u> Image 9 : Diagramme en blocs traffic routier </u>
+    <u> Image 9 : Diagramme en blocs trafic routier </u>
 </div>
 <br>
 
@@ -483,7 +483,7 @@ L'objectif est de concevoir une fonction qui prend en argument une route avec de
 
 ```python
 
-def intentions(route, direction, traffic):
+def intentions(route, direction, trafic):
     """Cette fonction permet de faire la liste de l'ensemble des mouvement entre les différents éléments de la route
     possible, pour cela les utilisateurs doivents respecter des régles : le code de la route. Ainsi cette fonction
     retranscrit ces règles.
@@ -491,7 +491,7 @@ def intentions(route, direction, traffic):
     Args:
         route (2D list): Liste des élements de notre route
         direction (2D list): Liste des préferences de direction des utilisateur pour chaque élement et la direction choisie
-        traffic (2D list): Liste resprésentant le traffic de notre route 0 = vide / 1 = voiture
+        trafic (2D list): Liste resprésentant le trafic de notre route 0 = vide / 1 = voiture
 
     Returns:
         res (2D list): Retourne l'ensemble des changement de blocs en indiquant le point de départ et l'arrivée
@@ -502,7 +502,7 @@ def intentions(route, direction, traffic):
     for i in range(len(route)):
         for j in range(len(route[i])):
             if route[i][j] != 0:
-                if traffic[i][j][-1] >= 1:
+                if trafic[i][j][-1] >= 1:
                     # * Pour la route et les départ la voiture voudra toujour suivre la direction aucune perturbation n'est à prévoir
                     # ! Les questions de priorité se pose généralement sur les bloc intersections ou feu rouge ou priorité
                     if route[i][j][0] == "Route" or route[i][j][0] == "Depart":
@@ -522,7 +522,7 @@ def intentions(route, direction, traffic):
                     # * Ou alors c'est une route non occupée
                     # * Dépend de la direction et c'est la où c'est plus chaud matrice des chemins
                     if route[i][j][0] == "Intersection":
-                        if traffic[i][j][0] == 1:
+                        if trafic[i][j][0] == 1:
                             dir_inter = direction[i][j][0]
                             if dir_inter == 0:
                                 if 0 <= i - 1 <= len(route) and 0 <= j - 1 <= len(
@@ -531,7 +531,7 @@ def intentions(route, direction, traffic):
                                     if route[i - 1][j - 1] != 0:
                                         if route[i - 1][j - 1][0] != "Route":
                                             res.append([i, j, i, j - 1])
-                                        elif traffic[i - 1][j - 1][-1] == 0:
+                                        elif trafic[i - 1][j - 1][-1] == 0:
                                             res.append([i, j, i, j - 1])
                                     else:
                                         res.append([i, j, i, j - 1])
@@ -544,7 +544,7 @@ def intentions(route, direction, traffic):
                                     if route[i + 1][j - 1] != 0:
                                         if route[i + 1][j - 1][0] != "Route":
                                             res.append([i, j, i + 1, j])
-                                        elif traffic[i + 1][j - 1][-1] == 0:
+                                        elif trafic[i + 1][j - 1][-1] == 0:
                                             res.append([i, j, i + 1, j])
                                     else:
                                         res.append([i, j, i + 1, j])
@@ -557,7 +557,7 @@ def intentions(route, direction, traffic):
                                     if route[i + 1][j + 1] != 0:
                                         if (
                                             route[i + 1][j + 1][0] != "Route"
-                                            or traffic[i + 1][j + 1][-1] == 0
+                                            or trafic[i + 1][j + 1][-1] == 0
                                         ):
                                             res.append([i, j, i, j + 1])
                                     else:
@@ -571,7 +571,7 @@ def intentions(route, direction, traffic):
                                     if route[i - 1][j + 1] != 0:
                                         if (
                                             route[i - 1][j + 1][0] != "Route"
-                                            or traffic[i - 1][j + 1][-1] == 0
+                                            or trafic[i - 1][j + 1][-1] == 0
                                         ):
                                             res.append([i, j, i - 1, j])
                                     else:
@@ -592,7 +592,7 @@ def intentions(route, direction, traffic):
                                     if route[i][j - 1] != 0:
                                         if (
                                             route[i][j - 1][0] == "Intersection"
-                                            and traffic[i + 1][j - 1][-1] == 0
+                                            and trafic[i + 1][j - 1][-1] == 0
                                         ):
                                             res.append([i, j, i, j - 1])
                                     else:
@@ -606,7 +606,7 @@ def intentions(route, direction, traffic):
                                     if route[i + 1][j] != 0:
                                         if (
                                             route[i + 1][j][0] == "Intersection"
-                                            and traffic[i + 1][j + 1][-1] == 0
+                                            and trafic[i + 1][j + 1][-1] == 0
                                         ):
                                             res.append([i, j, i + 1, j])
                                     else:
@@ -620,7 +620,7 @@ def intentions(route, direction, traffic):
                                     if route[i][j + 1] != 0:
                                         if (
                                             route[i][j + 1][0] == "Intersection"
-                                            and traffic[i - 1][j + 1][-1] == 0
+                                            and trafic[i - 1][j + 1][-1] == 0
                                         ):
                                             res.append([i, j, i, j + 1])
                                     else:
@@ -634,7 +634,7 @@ def intentions(route, direction, traffic):
                                     if route[i - 1][j] != 0:
                                         if (
                                             route[i - 1][j][0] == "Intersection"
-                                            and traffic[i - 1][j - 1][-1] == 0
+                                            and trafic[i - 1][j - 1][-1] == 0
                                         ):
                                             res.append([i, j, i - 1, j])
                                     else:
@@ -658,9 +658,9 @@ def intentions(route, direction, traffic):
                                     and 0 <= j - 1 <= len(route[i])
                                 ):
                                     if (
-                                        traffic[i + 1][j - 1][-1] == 0
-                                        and traffic[i + 2][j - 1][-1] == 0
-                                        and traffic[i + 2][j - 1][-2] == 0
+                                        trafic[i + 1][j - 1][-1] == 0
+                                        and trafic[i + 2][j - 1][-1] == 0
+                                        and trafic[i + 2][j - 1][-2] == 0
                                     ):  # ! ATTENTION NE MARCHE QUE POUR NOTRE CAS A MODIFIER SI GENERALISATION
                                         res.append([i, j, i, j - 1])
                             elif sens_prio == 1:
@@ -670,9 +670,9 @@ def intentions(route, direction, traffic):
                                     and 0 <= j + 2 <= len(route[i])
                                 ):
                                     if (
-                                        traffic[i + 1][j + 1][-1] == 0
-                                        and traffic[i + 1][j + 2][-1] == 0
-                                        and traffic[i + 1][j + 2][-2] == 0
+                                        trafic[i + 1][j + 1][-1] == 0
+                                        and trafic[i + 1][j + 2][-1] == 0
+                                        and trafic[i + 1][j + 2][-2] == 0
                                     ):  # ! ATTENTION NE MARCHE QUE POUR NOTRE CAS A MODIFIER SI GENERALISATION
                                         res.append([i, j, i + 1, j])
                             elif sens_prio == 2:
@@ -682,9 +682,9 @@ def intentions(route, direction, traffic):
                                     and 0 <= j + 1 <= len(route[i])
                                 ):
                                     if (
-                                        traffic[i - 1][j + 1][-1] == 0
-                                        and traffic[i - 2][j + 1][-1] == 0
-                                        and traffic[i - 2][j + 1][-2] == 0
+                                        trafic[i - 1][j + 1][-1] == 0
+                                        and trafic[i - 2][j + 1][-1] == 0
+                                        and trafic[i - 2][j + 1][-2] == 0
                                     ):  # ! ATTENTION NE MARCHE QUE POUR NOTRE CAS A MODIFIER SI GENERALISATION
                                         res.append([i, j, i, j + 1])
                             else:
@@ -694,9 +694,9 @@ def intentions(route, direction, traffic):
                                     and 0 <= j - 2 <= len(route[i])
                                 ):
                                     if (
-                                        traffic[i - 1][j - 1][-1] == 0
-                                        and traffic[i - 1][j - 2][-1] == 0
-                                        and traffic[i - 1][j - 2][-2] == 0
+                                        trafic[i - 1][j - 1][-1] == 0
+                                        and trafic[i - 1][j - 2][-1] == 0
+                                        and trafic[i - 1][j - 2][-2] == 0
                                     ):  # ! ATTENTION NE MARCHE QUE POUR NOTRE CAS A MODIFIER SI GENERALISATION
                                         res.append([i, j, i - 1, j])
 
@@ -727,31 +727,31 @@ On met à jour la route, puis nous prenons la liste des intentions et vérifions
 
 ```python
 
-def mouvement(route, direction, traffic, temps):
-    """Cette fonction a pour but de faire avancer les voitures et de mettre à jour le traffic,
+def mouvement(route, direction, trafic, temps):
+    """Cette fonction a pour but de faire avancer les voitures et de mettre à jour le trafic,
     1 itération correspond à 1 seconde.
 
     Args:
         route (2D list): Liste des élements de notre route
         direction (2D list): Liste des préferences de direction des utilisateur pour chaque élement et la direction choisie
-        traffic (2D list): Liste resprésentant le traffic de notre route 0 = vide / 1 = voiture
+        trafic (2D list): Liste resprésentant le trafic de notre route 0 = vide / 1 = voiture
         temps (int): Temps depuis début de la simulation en seconde
 
     Returns:
         route (2D list): Element de la route mis à jour à t = temps
-        traffic (2D list): Traffic mis à jour aprés mouvement des voitures
+        trafic (2D list): trafic mis à jour aprés mouvement des voitures
         direction (2D list): Mise à jour des directions dans les intersections
     """
 
     # Update des éléments
     direction = update_direction(route, direction)
-    traffic = update_départ(route, traffic)
+    trafic = update_départ(route, trafic)
     route = update_feux_rouges(route, temps)
 
-    # On garde en copie le traffic
-    ref_traffic = copy.deepcopy(traffic)
+    # On garde en copie le trafic
+    ref_trafic = copy.deepcopy(trafic)
 
-    intention = intentions(route, direction, traffic)
+    intention = intentions(route, direction, trafic)
 
     for i in range(len(intention)):
         x = intention[i][0]
@@ -761,59 +761,59 @@ def mouvement(route, direction, traffic, temps):
 
         # Cas particulier départ autres blocs
         if route[x][y][0] == "Depart":
-            if traffic[nx][ny][0] == 0:
-                traffic[nx][ny][0] += 1
-                traffic[x][y][-1] -= 1
+            if trafic[nx][ny][0] == 0:
+                trafic[nx][ny][0] += 1
+                trafic[x][y][-1] -= 1
 
         # Cas particulier intersection->intersection
         elif route[nx][ny][0] == "Intersection" and route[x][y][0] == "Intersection":
-            if traffic[nx][ny][0] == 0 and ref_traffic[nx][ny][0] == 0:
+            if trafic[nx][ny][0] == 0 and ref_trafic[nx][ny][0] == 0:
                 direction[nx][ny] = direction[x][y][1::]
                 direction[x][y] = []
-                traffic[nx][ny][0] += 1
-                traffic[x][y][-1] -= 1
+                trafic[nx][ny][0] += 1
+                trafic[x][y][-1] -= 1
 
             # Cas particulier non/intersection->intersection
         elif route[nx][ny][0] == "Intersection" and route[x][y][0] != "Intersection":
-            if traffic[nx][ny][0] == 0 and ref_traffic[nx][ny][0] == 0:
+            if trafic[nx][ny][0] == 0 and ref_trafic[nx][ny][0] == 0:
                 direction[nx][ny] = chemin_intersection(route, direction, x, y)
-                traffic[nx][ny][0] += 1
-                traffic[x][y][-1] -= 1
+                trafic[nx][ny][0] += 1
+                trafic[x][y][-1] -= 1
 
         # Cas particulier intersection->non-intersection
         elif route[nx][ny][0] != "Intersection" and route[x][y][0] == "Intersection":
             if route[nx][ny][0] == "Fin":
                 direction[x][y] = []
-                traffic[nx][ny][0] += 1
-                traffic[x][y][-1] -= 1
-            elif traffic[nx][ny][0] == 0 and ref_traffic[nx][ny][0] == 0:
+                trafic[nx][ny][0] += 1
+                trafic[x][y][-1] -= 1
+            elif trafic[nx][ny][0] == 0 and ref_trafic[nx][ny][0] == 0:
                 direction[x][y] = []
-                traffic[nx][ny][0] += 1
-                traffic[x][y][-1] -= 1
+                trafic[nx][ny][0] += 1
+                trafic[x][y][-1] -= 1
 
             # Cas général
         else:
             if route[nx][ny][0] == "Fin":
-                traffic[nx][ny][0] += 1
-                traffic[x][y][-1] -= 1
-            elif traffic[nx][ny][0] == 0 and ref_traffic[nx][ny][0] == 0:
-                traffic[nx][ny][0] += 1
-                traffic[x][y][-1] -= 1
+                trafic[nx][ny][0] += 1
+                trafic[x][y][-1] -= 1
+            elif trafic[nx][ny][0] == 0 and ref_trafic[nx][ny][0] == 0:
+                trafic[nx][ny][0] += 1
+                trafic[x][y][-1] -= 1
 
     for i in range(len(route)):
         for j in range(len(route[i])):
             if route[i][j] != 0:
                 if route[i][j][0] == "Route":
-                    for k in range(2, len(traffic[i][j]) + 1):
+                    for k in range(2, len(trafic[i][j]) + 1):
                         if (
-                            traffic[i][j][-k] == 1
-                            and traffic[i][j][-k + 1] == 0
-                            and ref_traffic[i][j][-k + 1] == 0
+                            trafic[i][j][-k] == 1
+                            and trafic[i][j][-k + 1] == 0
+                            and ref_trafic[i][j][-k + 1] == 0
                         ):
-                            traffic[i][j][-k + 1] += 1
-                            traffic[i][j][-k] -= 1
+                            trafic[i][j][-k + 1] += 1
+                            trafic[i][j][-k] -= 1
 
-    return route, direction, traffic
+    return route, direction, trafic
 ```
 
 {% enddetails %}
@@ -840,13 +840,13 @@ Afin de pouvoir vérifier la cohérence de notre programme, il faut avoir une in
 
 ```python
 
-def simulation(frame, ax, traffic_matrix, n_rows, n_cols):
+def simulation(frame, ax, trafic_matrix, n_rows, n_cols):
     ax.clear()  # Effacer l'axe pour le prochain frame
 
     # Parcourir la matrice et ajouter des éléments graphiques
     for i in range(n_rows):
         for j in range(n_cols):
-            value = traffic_matrix[i][j]
+            value = trafic_matrix[i][j]
 
             # Si c'est une case vide (0)
             if value == 0:
@@ -906,34 +906,34 @@ def simulation(frame, ax, traffic_matrix, n_rows, n_cols):
     ax.grid(True)
 
     ax.set_aspect("equal", adjustable="box")
-    ax.set_title("Simulation du traffic au temps : " + str(frame))
+    ax.set_title("Simulation du trafic au temps : " + str(frame))
 
 
 # Fonction pour générer une animation en mettant à jour la matrice de trafic
-def update(frame, ax, route, direction, traffic):
+def update(frame, ax, route, direction, trafic):
     # Simuler le mouvement des véhicules (fonction fictive)
-    r = Modele.mouvement(route, direction, traffic, frame)
-    direction, traffic = r[1], r[2]
+    r = Modele.mouvement(route, direction, trafic, frame)
+    direction, trafic = r[1], r[2]
 
     # Taille de la matrice
-    n_rows = len(traffic)
-    n_cols = len(traffic[0])
+    n_rows = len(trafic)
+    n_cols = len(trafic[0])
 
     # Appeler la fonction de simulation pour mettre à jour le graphique
-    simulation(frame, ax, traffic, n_rows, n_cols)
+    simulation(frame, ax, trafic, n_rows, n_cols)
 
 
 # Initialisation de la simulation
 fig, ax = plt.subplots()
-n_rows = len(traffic_etude)
-n_cols = len(traffic_etude[0])
+n_rows = len(trafic_etude)
+n_cols = len(trafic_etude[0])
 
 # Créer l'animation
 ani = FuncAnimation(
     fig,
     update,
     frames=duree,
-    fargs=(ax, route_etude, direction_etude, traffic_etude),
+    fargs=(ax, route_etude, direction_etude, trafic_etude),
     repeat=False,
 )
 
@@ -955,6 +955,6 @@ On lance le programme et on obtient le résulat final suivant :
 
 **[3] -** [Longeur moyenne d'une voiture](https://journalauto.com/constructeurs/la-taille-et-le-poids-des-voitures-ont-explose-en-vingt-ans)
 
-**[4] -** [Traffic Flow Theory - A State-of-the-Art Report](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjskb-gtJGJAxUfT6QEHWrGDDgQFnoECBkQAQ&url=https%3A%2F%2Frosap.ntl.bts.gov%2Fview%2Fdot%2F35775%2Fdot_35775_DS1.pdf&usg=AOvVaw2Q359lomip20POa9pRyv5C&opi=89978449)
+**[4] -** [trafic Flow Theory - A State-of-the-Art Report](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjskb-gtJGJAxUfT6QEHWrGDDgQFnoECBkQAQ&url=https%3A%2F%2Frosap.ntl.bts.gov%2Fview%2Fdot%2F35775%2Fdot_35775_DS1.pdf&usg=AOvVaw2Q359lomip20POa9pRyv5C&opi=89978449)
 
 {% endlien %}

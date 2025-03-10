@@ -13,7 +13,7 @@ tags:
   - "Vert"
   - "Simulation"
 
-résumé: Ce POK a pour but de présenter mes avancées sur ma simulation du traffic routier en ville.
+résumé: Ce POK a pour but de présenter mes avancées sur ma simulation du trafic routier en ville.
 ---
 
 {% lien %}
@@ -82,7 +82,7 @@ Bonne gestion des objectifs j'ai pût finaliser ce que je n'avais pas eu le temp
 
 ## ✅ Obejectifs du POK
 
-L'objectif de ce POK est d'améliorer la simulation du traffic routier réalisée lors du [POK 1](../temps-1) qui n'est adpatée qu'à un seul type de situation, afin que mon programme puisse traiter tous les cas possibles. Pour cela, j'ai d'abord identifié l'ensemble des actions qui ne sont pas effectuées automatiquement :
+L'objectif de ce POK est d'améliorer la simulation du trafic routier réalisée lors du [POK 1](../temps-1) qui n'est adpatée qu'à un seul type de situation, afin que mon programme puisse traiter tous les cas possibles. Pour cela, j'ai d'abord identifié l'ensemble des actions qui ne sont pas effectuées automatiquement :
 
 1) Dans les intersections, trouver le chemin en fonction du point de départ et d'arrivée.
 2) Ajouter les passages piétons.

@@ -50,16 +50,15 @@ Au cours de mon cursus j'ai déjà eu l'occasion de travailler sur des modèles 
 
 #### Sprint 2
 
-- [ ] Implémentation du modèle de recommandation avec ALS (Alternating Least Squares) (4h)
-- [ ] Optimisation des hyperparamètres du modèle (3h)
-- [ ] Évaluation des performances (précision, rappel, RMSE) (2h)
-- [ ] Génération de recommandations pour les utilisateurs (2h)
-- [ ] Documentation finale et présentation des résultats (1h)
+- [x] Implémentation du modèle de recommandation avec ALS (Alternating Least Squares) (4h)
+- [x] Optimisation des hyperparamètres du modèle (3h)
+- [x] Analyse du modèle optimisé (1h)
+- [x] Génération de recommandations pour les utilisateurs (1h)
+- [x] Documentation finale (1h)
 
 
 ### Horodatage
 
-Toutes les séances et le nombre d'heure que l'on y a passé.
 
 | Date | Heures passées | Indications |
 | -------- | -------- |-------- |
@@ -70,6 +69,13 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 | Dimanche 26/01  | 2h  | Exploration initiale des données (analyse des colonnes et visualisation) |
 | Dimanche 26/01  | 1h  | Nettoyage et transformation des données (gestion des valeurs manquantes, typage) |
 | Dimanche 26/01  | 1h  | Rédaction |
+| Mardi 25/02  | 3h  | Implémentation du modèle de recommandation avec ALS |
+| Mercredi 26/02 matin | 2h  | Optimisation des hyperparamètres du modèle |
+| Mercredi 26/02 soir | 2h  | Optimisation des hyperparamètres du modèle |
+| Mercredi 26/02 soir | 1h  | Analyse du modèle optimisé  |
+| Vendredi 07/03 | 1h  | Génération de recommandations pour les utilisateurs |
+| Vendredi 07/03| 1h  | Documentation finale  |
+
 
 ## Contenu
 
@@ -197,3 +203,104 @@ Pour garantir une exploitation optimale des données, des vérifications ont ét
 Les données sont désormais prêtes pour la création des matrices utilisateurs-films et l’implémentation du modèle.  
 
 
+### Second Sprint
+
+#### Implémentation du modèle de recommandation avec ALS
+
+Après avoir compris la théorie du modèle ALS, créé l'environnement pyspark, importé, nettoyé et exploré les données de MovieLens nous pouvons implémenter une première fois le modèle ALS.
+
+La première étape à réaliser est de diviser notre dataset **ratings**  en deux dataset, un dataset d'entrainement et un dataset de test. Comme il est coutume de le faire pour ce type de sujet, nous allons prendre aléatoirement 80% des lignes du dataset pour constituer le dataset d'entrainement et 20% pour le dataset de test.
+Le modèle va donc être appliqué sur le set d'entrainement et calculer de la même façon que définit dans la partie 1 du premier  sprint les matrices \\( U \\) et \\( M \\).
+
+{% details "Le code" %}
+
+```python
+from pyspark.ml.recommendation import ALS
+from pyspark.ml.evaluation import RegressionEvaluator
+
+rating = rating.select("userId", "movieId", "rating")
+train, test = rating.randomSplit([0.8, 0.2], seed=42)
+
+als = ALS(
+    userCol="userId",
+    itemCol="movieId",
+    ratingCol="rating",
+    coldStartStrategy="drop"
+)
+
+model = als.fit(train)
+```
+
+{% enddetails %}
+
+Pour évaluer notre modèle, on va l'appliquer au set de test et calculer l'erreur quatratique moyenne RMSE (Root Mean Squared Error) qui est une métrique d'évaluation qui mesure l'écart moyen entre les prédictions du modèle et les valeurs réelles. Plus la valeur de RMSE est proche de 0, plus la prédiction est bonne.
+Le calcul de la valeur du RMSE pour cette première application du modèle nous donne **RMSE = 0.84**. Ce qui signifie que, en moyenne, l'écart entre la note prédite et la note réelle est de 0.84 points.
+
+Pour mieux visualiser la performance de cette première appliquation du modèle, voici  un histogramme montrant les écarts entre les notes prédites et les notes réelles :
+
+{% details "Histogramme des écarts" %}
+
+![Ecarts](./images/hist_ecarts-1.png)
+
+{% enddetails %}
+
+Le système semble être globalement performant, cependant il existe certains paramètres appelés hyperparamètres clés. Un hyperparamètre est une valeur définie avant l'entraînement d’un modèle de machine learning. Contrairement aux paramètres (qui sont appris par le modèle), les hyperparamètres contrôlent la manière dont le modèle apprend et se généralise. Dans la partie qui suit, nous allons explorer ces différents paramètres et en modifier certains afin de voir s'il est possible de faire diminuer la valeur de RMSE.
+
+#### Optimisation des hyperparamètres du modèle
+
+Après avoir essayer d'agrandir le set d'entrainement (90% du set total), l'erreur n'est diminuée de façon significative. De plus,
+le set de test doit être suffisamment grand afin de pouvoir correctement tester notre modèle. Cherchons maintenant quels hyperparamètres changer afin de potentiellement réduire l'erreur.
+
+Voici les principaux paramètres ajustables dans le modèle ALS de pyspark :
+
+1. **rank :**
+   - Définit le nombre de facteurs latents dans la factorisation de la matrice utilisateur-item.
+   - Valeurs typiques : entre 10 et 50.
+2. **maxIter :**
+   - Nombre maximum d'itérations pour la convergence de l'algorithme.
+   - Valeurs typiques : 10 à 20.
+3. **regParam :**
+   - Paramètre de régularisation (L2) pour éviter le surajustement.
+   - Valeurs typiques : 0.01 à 0.1.
+4. **alpha (uniquement si implicitPrefs=True) :**
+   - Contrôle l'importance des préférences implicites.
+   - Valeurs typiques : 10 à 40.
+
+Après avoir recherché les valeurs optimales pour chacuns de ces paramètres par dichotomie, voici les valeurs que nous avons trouvé :
+
+| Paramètres | Valeurs |
+| -------- | -------- |
+| **rank**  | 16 | 
+| **maxIter**  | 15 | 
+| **regParam** | 0.055 | 
+| **alpha** | 25 | 
+
+
+
+#### Choix du modèle finale
+
+Après avoir testé l’ensemble des hyperparamètres optimaux trouvés par dichotomie (rank=16, maxIter=15, regParam=0.055, alpha=25), nous avons constaté une forte augmentation de l’erreur RMSE (supérieur à 3). Ce phénomène est un signe de surentraînement (ou overfitting), ce qui signifie que le modèle s'est trop ajusté aux données d'entraînement et ne généralise plus bien aux nouvelles données du test.
+En ne gardant que rank=16 et regParam=0.055, nous avons observé une légère diminution de l'erreur RMSE par rapport à notre première tentative avec les paramètres par défaut.  Nous utiliserons donc ces paramètres pour la dernière partie.
+
+#### Recommandation avec l'algorithme
+
+Le but de cette dernière partie est de créer une fonction qui prend en argument l'id d'un utilisateur et qui renvoie les 5 films les plus recommandés par notre algorithme parmis ceux qu'il n'a pas vu.
+
+{% details "La fonction" %}
+
+```python
+from pyspark.sql.functions import col
+
+def recommend_movies(user_id, nb_reco=5):
+    seen_movies = rating.filter(col("userId") == user_id).select("movieId")
+    unseen_movies = movie.select("movieId").subtract(seen_movies)
+    user_unseen_movies = unseen_movies.withColumn("userId", col("movieId") * 0 + user_id)
+    recommendations = model.transform(user_unseen_movies)
+    top_movies = recommendations.orderBy(col("prediction").desc()).limit(nb_reco)
+    final_recommendations = top_movies.join(movie, "movieId").select("title")
+
+    return final_recommendations
+```
+{% enddetails %}
+
+Cette fonction nous renvoie donc le titre et la date des films les plus recommandés pour l'utilisateur.

@@ -94,7 +94,7 @@ Pour réaliser cela, il a fallu que je m'intéresse au système de projection. L
 
 Pour transformer les coordonnées du centre de l'Australie de la projection EPSG:3857 à la projection EPSG:4326, j'ai utilisé *Proj4* et *fromLonLat*. *Proj4* est une bibliothèque JavaScript utilisée pour la conversion entre différents systèmes de projection cartographique. Elle permet de transformer des coordonnées d'une projection à une autre. *fromLonLat* est une fonction fournie par OpenLayers qui facilite la conversion de coordonnées géographiques (exprimée en longitude et latitude dans le système EPSG:4326) en coordonnées projetées dans le système EPSG:3857.
 
-``` javascript
+```javascript
 import proj4 from 'proj4'; //pour convertir les coordonnées d'une projection à une autre
 import {fromLonLat} from 'ol/proj';
 
@@ -120,7 +120,7 @@ J'ai modifié le fichier GeoJson pour ajouter des informations personnelles. J'a
 
 Pour aller plus loin, j'ai créé mon propre fichier GeoJson reprennant d'autres informations telles que les villes visitées, les hôtes qui m'ont accueilli, etc. Voici une partie du fichier créé :
 
-``` json
+```javascript
 {
     "type": "FeatureCollection",
     "features": [
