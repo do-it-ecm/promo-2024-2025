@@ -20,6 +20,10 @@ Liste des prérequis du POK ET/OU MON
 {% endprerequis %}
 {% lien %}
 
+{% sommaire "Sommaire" %}
+[toc]
+{% endsommaire %}
+
 **PRINCE2** :
 - Qu’est-ce que la méthodologie PRINCE2 ? https://www.planzone.fr/blog/quest-ce-que-la-methodologie-prince2.
 - Elaborer le Projet :: PRINCE2® wiki. https://prince2.wiki/fr/processus/elaborer-le-projet/.
@@ -46,22 +50,22 @@ Liste des prérequis du POK ET/OU MON
 - [x] Brainstorming personnel sur les problèmes rencontrés dans des cas de choix d'outils de GdP.
 - [x] Brainstorming général d'identification des axes de travail, des questionnements et des enjeux.
 - [x] Recherches bibliographiques :
-  - [ ] Les outils existants. **EN PARTIE**
-  - [ ] Le choix des outils **EN PARTIE**
+  - [ ] Les outils existants. **<span style="color: red;">EN PARTIE</span>**
+  - [ ] Le choix des outils **<span style="color: red;">EN PARTIE</span>**
   - [x] Problématiques ?
-- [ ] Conception d'un formulaire : **ABANDONNEE EN COURS DE ROUTE**
+- [ ] Conception d'un formulaire : **<span style="color: red;">ABANDONNEE EN COURS DE ROUTE</span>**
   - [ ] Aspect typologie de projet
     - [x] Différenciation tâche/projet
-    - [ ] Typologie temporelle **SUPPRIMEE**
+    - [ ] Typologie temporelle **<span style="color: red;">SUPPRIMEE</span>**
     - [x] Typologie par importance (strat ? € ?...)
-    - [ ] Typologie par taille **SUPPRIMEE**
-    - [ ] Typologie par équipe projet  **EN PARTIE**
+    - [ ] Typologie par taille **<span style="color: red;">SUPPRIMEE</span>**
+    - [ ] Typologie par équipe projet  **<span style="color: red;">EN PARTIE</span>**
   - [x] Aspect besoin de gestion
   - [x] Aspect outils utilisés et pourquoi ?
   - [ ] Aspect pression extérieur
-- [x] Révision du formulaire avec L.Piet **DECISION D'ABANSON APRES SOLLICITATION**
-- [ ] Envoie du formulaire **SUPPRIMEE**
-- [ ] Rédaction des présupposés **SUPPRIMEE**
+- [x] Révision du formulaire avec L.Piet **<span style="color: red;">DECISION D'ABANDON APRES SOLLICITATION</span>**
+- [ ] Envoie du formulaire **<span style="color: red;">SUPPRIMEE</span>**
+- [ ] Rédaction des présupposés **<span style="color: red;">SUPPRIMEE</span>**
 
 | Date | Heures passées | Indications | Niveau d'efficacité |
 | -------- | -------- | -------- | -------- |
@@ -79,27 +83,29 @@ Liste des prérequis du POK ET/OU MON
 
 {% details "Sprint 2" %}
 
-- [ ] Conception d'une grille de caractérisation des outils
+- [x] Conception d'une grille de caractérisation des outils
   - [x] Brainstorming caractéristiques à utiliser
-  - [ ] Format de la grille
-- [ ] Terminer la caractérisation de chaque outil
-- [ ] Conception d'une grille caractérisation de projet utilisant la grille précédente
-- [ ] Tests de la grille sur des projets déjà réalisés
-- [ ] Construction d'un outil de REX efficace
-- [ ] Construction d'une boite à outil
-  - [ ] Identifier des templates pour chacun des outils
-  - [ ] Identifier des méthodes de création de templates pour chacun des outils
+  - [x] Format de la grille
+- [x] Terminer la caractérisation de chaque outil
+- [x] Conception d'une grille caractérisation de projet utilisant la grille précédente
+- [x] Tests de la grille sur des projets déjà réalisés
+- [x] Construction d'un outil de REX efficace
+- [ ] Construction d'une boite à outil **<span style="color: red;">SUPPRIMEE</span>**
+  - [ ] Identifier des templates pour chacun des outils <span style="color: red;">SUPPRIMEE</span>
+  - [ ] Identifier des méthodes de création de templates pour chacun des outils <span style="color: red;">SUPPRIMEE
+  </span>
 
 | Date | Heures passées | Indications | Niveau d'efficacité |
 | -------- | -------- | -------- | -------- |
-| dd/mm/yyy  | xxh | Lorem ipsum | Lorem Ipsum |
-| dd/mm/yyy | xxh | Lorem ipsum | Lorem Ipsum |
+| 07/03/2025 | 05:10 | Complétion des informations concernant les différents outils | Faible |
+| 08/03/2025 | 03:30 | Complétion des infromations concernant les différents outils et création des grilles finales | Moyen |
+| 09/03/2025 | 02:00 | Outil de REX et rédaction sur site Do-it | Faible |
 
-***Total du sprint 2 :*** *__h soit*
+*Total du sprint 2 :* **10.6h**
 {% enddetails %}
 {% faire %}
 
-**QUOTA HORAIRE TOTAL POK 2 :** ___h
+**QUOTA HORAIRE TOTAL POK 3 :** 21.1h
 {% endfaire %}
 
 #### Analyse post-morterm
@@ -110,23 +116,23 @@ Liste des prérequis du POK ET/OU MON
 
 **DIMENSIONNEMENT DU PROJET :** Bon dimensionnement général des objectifs du projet.
 
-**DIMENSIONNEMENT DES TACHES :** Les tâches ont été définies trop tôt par rapport à la compréhension du projet et de ses enjeux. Il aurait fallu réaliser dans ce cas 2 à 3 heures de recherches bibliographiques et dessaies avant de pouvoir avoir une idées réelle du contenu pertinent.
+**DIMENSIONNEMENT DES TACHES :** Les tâches ont été définies trop tôt par rapport à la compréhension du projet et de ses enjeux. Il aurait fallu réaliser dans ce cas 2 à 3 heures de recherches bibliographiques et d'essaies avant de pouvoir avoir une idées réelle du contenu pertinent.
 {% enddetails %}
 
 {% details "Sprint 2" %}
-**GESTION GENERALE DU TEMPS :** Lorem Ipsum
+**GESTION GENERALE DU TEMPS :** Bien que tardifs, les créneaux prévus pour la réalisation du sprint étaient suffisants.
 
-**GESTION GENERALE :** Lorem Ipsum
+**GESTION GENERALE :** Méthode générale correcte. L'efficacité des temsp de travail était globalement faible du fait du baisse de motivation et d'intérêt en fin de semestre.
 
-**DIMENSIONNEMENT DU PROJET :** Lorem Ipsum
+**DIMENSIONNEMENT DU PROJET :** Sousestimation du temps nécessaire pour découvrir et catégoriser les outils. Problème général d'estimation du temps de la recherche documentaire.
 
 {% enddetails %}
 
 {% details "POK complet" %}
 
-**DIMENSIONNEMENT PROJET :** Lorem Ipsum
-**DIMENSIONNEMENT TÂCHES:** Lorem Ipsum
-**APPROCHE METHODOLOGIQUE :** Lorem Ipsum
+**DIMENSIONNEMENT PROJET :** Projet bien dimensionné du point de vu des livrables. Certaines tâches ont été supprimées pour des raisons stratégiques.
+**DIMENSIONNEMENT TÂCHES:** Les premières heures de projet ayant fait office de conception de projet, certaines tâches ont été ajournées ou supprimées en cours de route afin de répoondre au besoin réel.
+**APPROCHE METHODOLOGIQUE :** Méthodologie générale affinée. Moins de rigidité dans la gestion et la réalisation. Plus d'agilité et meilleure proportion de la technicité par rapport à la plannification.
 
 {% enddetails %}
 
@@ -268,7 +274,30 @@ Dans la méthode Prince2, la communication avec les parties prenantes est inclue
 Bien que celà soit cohérent avec l'importance des tâches reliées, il faut à mon sens prendre particlièrement garde à ne pas la négliger car c'est un sous-thème et un sous-processus de plusieurs éléments !
 {% endinfo %}
 
-## 3. Choisir les outils adéquats
+## 3. Choisir les outils adéquats au projet
 
+### 3.1. Méthodologie
 
+Mise en place d'une grille de caractétisation des outils en fonction du projet, des besoins, des thèmes et des processus projet.
 
+Pour chaque outil, j'ai listé les différentes questions à se poser afin de statuer sur son utilisation. **Elles devront être mises à jour en fonction des différents REX au fil du temps.**
+
+### 3.2. Les outils retenus
+
+**<span style="color: red;">Livrable :</span>** <span style="color: red;">[Outils et REX](https://github.com/DamienWolbert/POK-3-Outils-de-gestion-de-projet)</span>
+
+Afin de choisir les bons outils, il suffit d'effectuer différents filtres sur les colonnes de caractérisation en fonction de : 
+- Le thème de gestion de projet (selon Prince2)
+- Le processus de gestion de projet (selon Prince2)
+- La typologie d'outil
+- Les cas d'utilisation
+- Les questionnements à avoir pour choisir ou non chacun des outils.
+
+### 3.3. Outil de REX
+
+Afin d'améliorer cet outil et de le mettre à jour, il est nécessaire de mettre en place un outil de REX pour chacun d'entre eux.
+
+ **Objectifs du REX :**
+ 1. Identifier pour chaque projet, les outils utilisés.
+ 2. Identifier pour chaque outil les points positifs et les points d'amélioration.
+ 3. Identifier l'état des différents points d'amélioration pour garantir l'amélioration continue.
