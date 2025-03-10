@@ -137,9 +137,8 @@ J'ai également vu la limite de la maquette Figma (cf POK 2). Celle-ci est très
 
 1. [Tester mon application](#section1)
 2. [Ajout de fonctionnalités](#section2)
-3. [Conclusion](#section3)
+3. [Déploiement sur aioli](#section3)
 
-suite à venir (en cours de rédaction)
 
 ## Tester mon application <a id="section1"></a>
 
@@ -363,3 +362,7 @@ Pour cela, j'ai utilisé `NgForm` et `FormsModule`. Je vous invite à aller voir
 Ensuite, j'ai implémenté la fonctionnalité permettant de supprimer une recette. Cette fonctionnalité peut être utilisée seulement pour les recettes dont l'user est propriétaire.
 
 ## Déploiement sur aioli <a id="section3"></a>
+
+Après avoir build mon application, j'ai compressé mon dossier de build (dist) et ma base de donnée (db.json).
+
+Puis à l'aide de la commande `scp .\mon_dossier_compresse.tar basilic@aioli.ec-m.fr:`, j'ai copié ces dossiers compressé à la racine de mon espace de travail sur le serveur distant aioli. Une fois les dossier dézippés (`tar -xvf mon_fichier.tar`), il a fallu executer le build de mon application (`npm run start`) sur le port 1104, qui correspond, pour basilic, au port servi par nginx et également lancer le service de base de données.
