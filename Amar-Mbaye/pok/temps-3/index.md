@@ -26,8 +26,8 @@ résumé: Ce POK vise à créer une application graphique de gestion des tâches
 {% endprerequis %}
 {% lien %}
 
-- [MON de Duc]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1/)
-- [POK de Duc]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/pok/temps-1/)
+- [MON de Duc DANG VU]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1/)
+- [POK de Duc DANG VU]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/pok/temps-1/)
 
 {% endlien %}
 
@@ -489,7 +489,7 @@ Pour cette partie, j’ai regroupé les compétences acquises lors du sprint 1 s
  ## Sources :
 {% lien %}
 - [Documentation officielle PyQt ](https://doc.qt.io/qtforpython-6/)
-- [MON de Duc]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1/)
-- [POK de Duc]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/pok/temps-1/)
+- [MON de Duc DANG VU]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1/)
+- [POK de Duc DANG VU]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/pok/temps-1/)
 - [Learn Python PyQt5 in 1 hour!](https://www.youtube.com/watch?v=92zx_U9Nzf4&t=1753s)
 {% endlien %}
