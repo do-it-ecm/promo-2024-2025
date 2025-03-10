@@ -18,10 +18,10 @@ résumé: "Un MON traitant des agents IA et de leurs applications"
 
 {% lien %}
 [Amazon AI Agents](https://aws.amazon.com/fr/what-is/ai-agents/)
-[Wikipédia : Les Agents intelligents](https://fr.wikipedia.org/wiki/Agent_intelligent)
-{% endlien %}
 
-Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de ce MON. Niveau débutant à intermédiaire.
+[Wikipédia : Les Agents intelligents](https://fr.wikipedia.org/wiki/Agent_intelligent)
+
+{% endlien %}
 
 ## Contenu
 
@@ -74,7 +74,7 @@ Selon le PDG de ServiceNow, Bill McDermott, les agents IA permettent actuellemen
 Source : Cloudwars.com
 
 ServiceNow a également lancé une galerie d’agents IA, présentant plus de 60 cas d’usage, compétences IA et solutions développés par la société. Cette ressource fournit des exemples concrets de la manière dont les agents IA peuvent être mis en œuvre pour résoudre des défis professionnels et atteindre les objectifs organisationnels.
-Source : CRN.com
+
 
 En tirant parti des agents IA, les entreprises peuvent automatiser des tâches routinières, améliorer leur productivité et permettre aux employés de se concentrer sur des activités à plus forte valeur ajoutée.
 ![alt text](image-2.png)
