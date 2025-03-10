@@ -292,7 +292,7 @@ Les bases de données ("The Substance" et pour le bar) et les fichiers de travai
 {% enddetails %}
 {% details "Résultats Analyse Sentimentale" %}
 - Ci-dessous les résultats de corrélation entre les notes laissés par les spectateurs du film "The Substance" et la polarité associée à chaque commentaire.<br>
-![alt text](./Images/polarite_substance.png)
+![alt text](./Images/substance.png)
 La corrélation n'est pas évidente, lié, d'après-moi, au style du film (body horror)<br>
 
 - Ci-après, la même corrélation pour un bar sur le Vieux Port :<br>
