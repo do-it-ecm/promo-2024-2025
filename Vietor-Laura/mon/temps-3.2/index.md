@@ -49,14 +49,14 @@ function demo_hamming() {
     var result_elem = document.querySelector("#hamming_result");
     var lie_div = document.querySelector("#hamming_lie_div");
     var lie_elem = document.querySelector("#hamming_lie");
-    
+
     result_elem.innerHTML = 8 * answers[0] + 4 * answers[1] + 2 * answers[2] + answers[3];
-    
+
     result_div.hidden = false;
-    
+
     if (error) {
       lie_elem.innerHTML = error;
-      
+
       lie_div.hidden = false;
     } else {
       lie_div.hidden = true;
@@ -103,7 +103,7 @@ Ce type de codes est bien évidemment très lourd : on multiplie la quantité d'
 
 ### Codes de Hamming
 
-Avant d'expliquer le principe des codes de Hamming, je vous propose une petite activité très classique : 
+Avant d'expliquer le principe des codes de Hamming, je vous propose une petite activité très classique :
 
 {% details "Activité" %}
 <div id="hamming_demo">
@@ -117,7 +117,7 @@ Avant d'expliquer le principe des codes de Hamming, je vous propose une petite a
     <li>Votre nombre est-il 1, 2, 5, 6, 8, 11, 12 ou 15 ? <input id="hamming_ans_6" type="checkbox"/></li>
     <li>Votre nombre est-il 1, 3, 4, 6, 8, 10, 13 ou 15 ? <input id="hamming_ans_7" type="checkbox"/></li>
   </ol>
-  
+
   <button id="hamming_demo_button" type="button" onclick="demo_hamming()" class="btn">Deviner !</button>
 
   <div id="hamming_result_div" hidden>
@@ -129,13 +129,13 @@ Avant d'expliquer le principe des codes de Hamming, je vous propose une petite a
 </div>
 {% enddetails %}
 
-Vous l'aurez peut-être deviné, si on est capable de retrouver la bonne réponse malgré le mensonge, c'est grâce à un code correcteur, et en particulier grâce à un code de Hamming !  
+Vous l'aurez peut-être deviné, si on est capable de retrouver la bonne réponse malgré le mensonge, c'est grâce à un code correcteur, et en particulier grâce à un code de Hamming !
 En théorie, pour deviner un nombre entre 0 et 15, il suffit de 4 questions. Mais si l'on autorise un mensonge, ces 4 questions ne suffisent plus, donc on doit en poser trois de plus pour obtenir plus d'informations.
 
 Les codes de Hamming sont donc des codes qui opèrent avec des bits, et reposent sur le principe de *parité* expliqué dans mon MON précédent : un message encodé sera d'une longueur de `2^n - 1` bits, dont `n` bits de parités, qui sont calculés de sorte à ce que, dans le message final, pour chacun de ces bits, le calcul de la parité d'une moitié spécifique du message qui inclue un et un seul de ces bits donne 0. Cela nous permet de corriger un unique bit d'erreur.
 
 {% note "Choix des moitiés à regarder" %}
-Pour choisir quelle moitié du message doit être prise en compte pour calculer un bit de parité, on va en fait regarder l'écriture binaire des nombres de `1` à `2^n-1`, et chacun des bits sera calculé à partir de la parité des bits dont les positions dans le message ont un `1` à un endroit particulier dans leur écriture binaire : pour un message de 7 bits, un des bits de parité sera pour les bits aux position 1, 3, 5 et 7, qui s'écrivent en binaire `xx1` ou `x` peut être remplacé par `0` ou `1`, un autre pour les bits aux positions 2, 3, 6 et 7 (`x1x` en binaire), et un dernier pour les bits aux position 4, 5, 6 et 7 (`1xx` en binaire).  
+Pour choisir quelle moitié du message doit être prise en compte pour calculer un bit de parité, on va en fait regarder l'écriture binaire des nombres de `1` à `2^n-1`, et chacun des bits sera calculé à partir de la parité des bits dont les positions dans le message ont un `1` à un endroit particulier dans leur écriture binaire : pour un message de 7 bits, un des bits de parité sera pour les bits aux position 1, 3, 5 et 7, qui s'écrivent en binaire `xx1` ou `x` peut être remplacé par `0` ou `1`, un autre pour les bits aux positions 2, 3, 6 et 7 (`x1x` en binaire), et un dernier pour les bits aux position 4, 5, 6 et 7 (`1xx` en binaire).
 Pour que chacun des bits de parités n'interviennent qu'une fois, il faut donc qu'ils soient aux positions 1, 2 et 4. Plus généralement, on utilisera les bits dont la position est une puissance de 2.
 {% endnote %}
 
@@ -145,14 +145,14 @@ De nos jours, les codes de Hamming sont utilisés par exemple dans la mémoire R
 
 On peut montrer que les codes de Hamming non-étendus sont ce que l'on appelle des codes *parfaits*. Concrètement, cela veut dire qu'on ne peut pas faire de code capable de corriger une unique erreur en utilisant moins de redondance que ces codes.
 
-{% detail %}
+{% details %}
 
-Les codes dont j'ai parlé ici sont les codes de Hamming *binaires*, qui opèrent sur des bits comme éléments du corps fini à deux éléments.  
+Les codes dont j'ai parlé ici sont les codes de Hamming *binaires*, qui opèrent sur des bits comme éléments du corps fini à deux éléments.
 Si vous vous souvenez des groupes finis du MON précédent, les corps finis sont un concept similaire, sauf qu'au lieu d'avoir uniquement une opération qui se comporte comme l'addition, on a deux opérations qui se comportent comme l'addition et la multiplication.
 
 Il est possible de généraliser les codes de Hamming à d'autres corps finis, mais on les retrouve alors généralement sous le nom de codes BCH (pour Bose-Chaudhuri-Hocquenghem).
 
-{% enddetail %}
+{% enddetails %}
 
 ### Codes de Hadamard
 
@@ -164,12 +164,12 @@ Pour cela, il faut s'intéresser aux messages en tant que vecteurs de bits : pou
 
 ### Codes de Reed-Solomon
 
-Le dernier exemple que je vais aborder va être celui des codes de Reed-Solomon. Contrairement aux codes de Hamming et de Hadamard, ils sont souvent utilisés avec des symboles autres que seulement 0 et 1.  
+Le dernier exemple que je vais aborder va être celui des codes de Reed-Solomon. Contrairement aux codes de Hamming et de Hadamard, ils sont souvent utilisés avec des symboles autres que seulement 0 et 1.
 Cette fois-ci, les messages sont vu comme des polynômes, comme pour les CRC vus dans le MON précédent, mais avec des coefficients allant en général jusqu'à 255, et les codes de Reed-Solomon reposent sur le fait que `n+1` points d'abscisses distinctes définissent un unique polynôme de degré `n` ou moins.
 
 Dans leur formulation d'origine, un code de Reed-Solomon correspondait à choisir un nombre de points `n` plus grand que la longueur `l` du message à encoder, calculer la valeur du polynôme à ces points, et envoyer ces valeurs. Pour décoder, il fallait alors, pour chaque ensemble de `l` points, calculer le polynôme de degré `l-1` passant par ces points, et là encore prendre celui qui ressortait le plus souvent, ce qui permet de corriger au plus `(n - l)/2` erreurs. Cependant, c'est très coûteux, à cause du nombre de polynômes à calculer, et le message d'origine n'apparaissait pas directement dans le message codé. D'autres méthodes reposant sur le même principe ont donc été développées depuis, mais font appel à des mathématiques encore plus avancées donc je préfère ne pas les détailler ici. Simplement, je mentionnerai que, en général, on envoie alors un polynôme dont les coefficients de plus haut degré sont les symboles d'origine et dont les coefficients de plus bas degrés sont calculés de sorte à ce que le polynôme final ait des racines connues.
 
-Ces codes ont un intérêt majeur : en plus de corriger des modifications du message, ils permettent également de retrouver des symboles effacés, et sont optimaux parmi les codes ayant cette propriété. C'est pour cette raison qu'ils sont très utilisés, notamment dans les codes QR, les CD et les DVD. 
+Ces codes ont un intérêt majeur : en plus de corriger des modifications du message, ils permettent également de retrouver des symboles effacés, et sont optimaux parmi les codes ayant cette propriété. C'est pour cette raison qu'ils sont très utilisés, notamment dans les codes QR, les CD et les DVD.
 
 {% note "CIRC" %}
 Pour les CD et les DVD, ce qui est utilisé est en fait un "CIRC", pour *cross-interleaved Reed-Solomon code*. Cela consiste en fait à encoder une première fois les données avec un code de Reed-Solomon, les entrelacer pour mélanger les blocs de données, puis réencoder avec un second code de Reed-Solomon. Sur les disques optiques, une rayure pourrait effacer beaucoup de données adjacentes, donc le fait de les entrelacer permet qu'une telle rayure affecte peu un grand nombre de blocs, chacun parfaitement capable de réparer les quelques erreurs engendrées, au lieu d'effacer un bloc entier de données qui seraient alors irrécupérables.
@@ -181,10 +181,10 @@ Parmi les codes correcteurs, on retrouve différentes catégories qui ont chacun
 
 ### Les codes linéaires et leurs descendants
 
-Les codes linéaires tirent leur nom de l'algèbre linéaire : ils consistent à faire de l'ensemble des messages valides un sous-espace vectoriel de tous les messages possibles.  
+Les codes linéaires tirent leur nom de l'algèbre linéaire : ils consistent à faire de l'ensemble des messages valides un sous-espace vectoriel de tous les messages possibles.
 Ils constituent en fait la grande majorité des codes correcteurs, et tous les codes présentés ci-dessus sont linéaires, à l'exception des codes de Hadamard qui ne le sont que sous certaines conditions.
 
-Cette formulation leur apporte deux propriétés intéressantes : ils sont faciles à décrire, puisque le codage est une application linéaire, à laquelle correspond donc une matrice, et il existe une méthode systématique, bien que souvent trop lourde en pratique, pour corriger les erreurs, le décodage par syndrome.  
+Cette formulation leur apporte deux propriétés intéressantes : ils sont faciles à décrire, puisque le codage est une application linéaire, à laquelle correspond donc une matrice, et il existe une méthode systématique, bien que souvent trop lourde en pratique, pour corriger les erreurs, le décodage par syndrome.
 Ce dernier consiste à calculer une certaine valeur qui est là encore une fonction linéaire du message codé, appelé syndrome, que l'on peut ensuite utiliser directement pour trouver les erreurs à l'aide d'une table de correspondances. Le problème, c'est que la taille de cette table croît extrêmement vite.
 
 Cependant, cette formulation extrêment simple pose quelques inconvénients : j'ai évoqué plus haut l'idée de code *parfait*. La théorie des codes linéaires en général ne donne pas d'algorithme permettant de construire des codes parfaits.
