@@ -56,10 +56,10 @@ Lorsque l’on cherche le terme “*Open Source*” sur le site de Do_<span styl
 
 Parmi eux certains ont étudié particulièrement d’*Open Source* au travers de ses communautés, comme dans le **MON de Jeffrey** :
 
-{% lieninterne "/promos/2022-2023/Edisah-Jeffrey/mon/openSource/" %}
+{% lienInterne "/promos/2022-2023/Edisah-Jeffrey/mon/temps-3.2/" %}
 
 ou bien ont simplement détaillé les définitions des outils utilisés comme dans le **MON de Lucie** _(“1. Découverte de WordPress”)_ :
-{% lieninterne "/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-3.1/"%}
+{% lienInterne "/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-3.1/"%}
 
 <br />
 
@@ -167,7 +167,7 @@ Meta décrit sa contribution à l’Open Source selon trois axes :
 Et vous pouvez en savoir plus en suivant le lien ci-dessous.
 {% endinfo %}
 
-{% lieninterne "./conference" %}
+{% lienInterne "./conference" %}
 
 Ensuite, il faut considérer que les entreprises ont un intérêt significatif à ne pas être dépendantes de solutions propriétaires pour leurs usages, faisant valoir l'importance de leur souveraineté technologique. En adoptant et en contribuant à des solutions *Open Source*, les entreprises peuvent mieux contrôler leur infrastructure informatique, réduire leur dépendance vis-à-vis de prestataires uniques ou encore se rendre plus flexible dans les réponses technologiques aux besoins clients. Par exemple, dans le domaine du marketing numérique, WordPress est un outil *Open Source* omniprésent (presque 43% du web selon les dernières études, en progression par rapport au [MON de Lucie]({{ site.url }}/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-3.1/) sur le sujet daté d’il y a un an).
 
