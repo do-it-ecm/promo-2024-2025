@@ -35,15 +35,13 @@ Pas de prérequis.
 
 | Date       | Heures passées | Indications                                             | 
 |------------|----------------|--------------------------------------------------------|
-| 17/01/2025 | 2h             | Lecture sur les concepts de Scrum et Fibonacci. |
-| 18/01/2025 | 2h             | Étude des cas pratiques pour appliquer le Planning Poker. |
-| 24/01/2025 | 2h             | Rédaction d'exemples concrets pour l'application dans les POK et MON. |
-| 24/01/2025 | 2h             | Analyse critique et synthèse des résultats|
-| 25/01/2025 | 1.5h           | Préparation de recommandations |
+| 17/01/2025 | 3h             | Se documenter sur la méthodologie Agile et Waterfall |
+| 18/01/2025 | 3h             | Étude sur la méthodologie Scrum le Planning Poker. |
+| 24/01/2025 | 2h             | Analyse et synthèse sur les notions apprises|
+| 24/01/2025 | 1h             | Rédaction d'exemples concrets pour l'application dans les POK et MON. |
+| 25/01/2025 | 1.5h           | Préparation de recommandations et restitution |
 
-**Total : 9.5h.** 
-
-
+**Total : 9.5h** 
 
 ### Présentation des Méthodes de Gestion de Projet 
 
@@ -67,7 +65,7 @@ Dans la construction d’une maison, le client précise à l’avance ses attent
 
 ![image](./wa.png)
 
-[image recupérée sur ici](https://geniorama.com/methode-cascade-waterfall-methode-gestion-projet-agile/)
+[Source de l'image](https://geniorama.com/methode-cascade-waterfall-methode-gestion-projet-agile/)
 
 ---  
 
@@ -87,12 +85,12 @@ Dans le développement logiciel, un client peut demander une fonctionnalité auj
 
 ![image](./ag.png)
 
-[image recupérée sur ici ](https://etcdigital.fr/blog/quest-ce-que-la-methodologie-agile/)
+[Source de l'image](https://etcdigital.fr/blog/quest-ce-que-la-methodologie-agile/)
 
 
 **Pourquoi Agile pour les POK et MON ?**  
 
-Les projets POK et MON sont souvent réalisés dans un temps limité, avec des ajustements possibles en cours de route. Agile permet de travailler de manière itérative, en s'adaptant aux imprévus et en livrant des résultats après chaque cycle.  
+Les projets POK et MON sont souvent réalisés dans un temps limité, avec des ajustements possibles en cours de route. Agile permet de travailler de manière itérative, s'adaptant aux imprévus et en livrant des résultats après chaque cycle.  
 
 
 Pour cette partie, j'ai consulté l'article "Scrum vs. waterfall: which methodology is right for your project?" sur le site de Float lien au niveau des sources.
