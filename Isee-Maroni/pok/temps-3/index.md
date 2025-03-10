@@ -50,8 +50,6 @@ En analyse de données, ne jamais modifier les données initiales !
 
 # Contenu
 
-Le contenu du POK.
-
 ## Premier Sprint
 
 J'ai trouvé des données sur les permis de construire en explorant les sites gouvernementaux d'OpenData. Elles se composent de deux jeux : l'un concernant des *autorisations d'urbanisme créant des locaux non résidentiels* et l'autre concernant les *autorisations d'urbanisme créant des logements*.
@@ -340,6 +338,23 @@ Malheureusement, l’analyse s’est révélée décevante : aucune corrélation
 
 💡 Pour quelques rappels et un approfondissement sur la corrélation et les régressions linéaires en analyse de données, ce [`cours`](https://github.com/FrancoisBrucker/cours_informatique/blob/main/docs/src/cours/analyse-donn%C3%A9es/notebooks-analyse/2_2_1_cours_r%C3%A9gression_et_corr%C3%A9lation.ipynb) offre une explication très complète.
 
+### Exploration de de visualisation de données
+
+Maintenant que j'avais commencé à explorer cette table, j’ai voulu tester différentes représentations visuelles avec les bibliothèques de pandas.
+
+J’ai d’abord réalisé une carte de chaleur, qui permet d’identifier rapidement les années où le plus grand nombre de permis de construire ont été délivrés, ainsi que celles où ils ont été moins nombreux.
+
+![Carte_Chaleur_2](./Carte_Chaleur_2.png)
+
+Ensuite, j’ai opté pour une répartition des permis de construire entre les différents départements, en cumulant les données de 2013 à 2024. Les différences entre les permis de construire pour les logements et ceux pour les bâtiments non résidentiels sont particulièrement intéressantes, notamment en fonction des départements : les zones les plus sollicitées ne sont pas les mêmes selon la catégorie de permis.
+
+
+<div style="text-align: center;">
+<div><img src="Carte_non_resid_2.png" style="width:70%;" ></div>
+<div><img src="Carte_logements_2.png" style="width:70%;" position=center></div>
+<i>Densité des permis de construire par département en France de 2013 à 2024</i>
+</div>
+
 ### Etude post mortem
 
 L’objectif de ce POK était avant tout de manipuler des jeux de données, d’effectuer des analyses et des visualisations, tout en réalisant de nombreux tests. Ainsi, même si la conclusion n’apporte ni réponse concrète ni réelle plus-value, l’objectif principal a été pleinement atteint.
@@ -383,3 +398,9 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 | Mardi 28/01/25  | 45min | Separate density plots with transparent gray shape at the back |
 | Mardi 28/01/25  | 45min | Rédaction |
 | Mercredi 29/01/25  | 2H | Rédaction |
+
+| Dimanche 02/03/25  | 2H30| Données fictives chatGPT et analyse |
+| Dimanche 09/03/25  | 2H30 | Corrélation & Régression |
+| Dimanche 09/03/25  | 1H | Rédaction |
+| Dimanche 09/03/25  | 2H | Autres visualisations |
+| Lundi 10/03/25  | 1H | Rédaction et Github |
