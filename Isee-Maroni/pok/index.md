@@ -10,4 +10,4 @@ Ensemble des POK réalisés par Isée Maroni.
 
 - [POK 1 : Application web - Offres de stages](./temps-1)
 - [POK 2 : Datavisualisation & Infographie](./temps-2)
-- [POK 3 : Analyse de données](./temps-3)
+- [POK 3 : Analyse de données avec python](./temps-3)

@@ -1,7 +1,7 @@
 ---
 layout: layout/pok.njk
 
-title: "Analyse de données"
+title: "Analyse de données avec python"
 authors:
   - Isée Maroni
 
@@ -12,6 +12,7 @@ tags:
   - "analyse de données"
   - "histogrammes"
   - "densités"
+  - "carte de chaleur"
 
 résumé: Analyse de données - La vente de casques et baudriers est-elle corrélée au nombre de permis de construire délivrés chaque année ?
 ---
