@@ -15,4 +15,4 @@ authors:
 
 ## Projet
 
-[Notre Projet](../../20XX-20YY/_projets/notre-projet)
+[Marseille Art'chitecture](../../2024-2025/_projets/Marseille_Artchitecture)
