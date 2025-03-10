@@ -25,8 +25,8 @@ ${toc}
 ## Prédécesseurs
 Je me suis inspiré du travail effectué les années précédentes pour organiser le barbecue.
 
-{% lieninterne "/promos/2022-2023/Giraud-Telme-Eugenie/mon/temps-3.2" %}
-{% lieninterne "/promos/2023-2024/Beguier-Benoit/mon/temps-3.2" %}
+{% lienInterne "/promos/2022-2023/Giraud-Telme-Eugenie/mon/temps-3.2" %}
+{% lienInterne "/promos/2023-2024/Beguier-Benoit/mon/temps-3.2" %}
 
 ## Todo liste
 De la même manière que mes prédécesseurs, j'établis ma todo pour ce MON.

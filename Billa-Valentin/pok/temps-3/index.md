@@ -40,7 +40,7 @@ apprendre plus sur les techniques d'optimisation ainsi que les structures de don
 
 Aussi, j'ai aussi utilisé les connaissances acquises lors de ce POK pour réécrire un algorithme initialement
 rédigé en Python vers Rust, pour générer des mosaïques à la vitesse de la lumière (ou presque) pour notre projet 3A.
-{% lieninterne "/promos/2024-2025/_projets/mosaiques/#frontend" %}
+{% lienInterne "/promos/2024-2025/_projets/mosaiques/#frontend" %}
 
 {% note "**Mauvaises pratiques**" %}
 Ce sera abordé dans la partie [Optimisation](#Optimisation), mais il faut savoir que généralement optimiser juste
@@ -53,8 +53,8 @@ Plusieurs POK&MONs ont déjà été réalisés sur les rudiments de Rust, je ne 
 Entre autres, je peux recommander la lecture des deux suivants (non pas que je ne
 recommande pas les autres, je ne les ai simplement pas tous lus).
 
-{% lieninterne "/promos/2023-2024/Diouf-Asssane/mon/Rust/" %}
-{% lieninterne "/promos/2023-2024/Victor-Ory/pok/temps-1/" %}
+{% lienInterne "/promos/2023-2024/Diouf-Asssane/mon/Rust/" %}
+{% lienInterne "/promos/2023-2024/Victor-Ory/pok/temps-1/" %}
 
 ## Sprint 1
 ### Planning Prévisionnel
