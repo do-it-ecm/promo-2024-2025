@@ -178,6 +178,10 @@ Pour la suite et finir ce projet, mon but va être de préparer une notice à de
 
 #### Résultat final
 
+Le code produit est disponible sur le lien suivant :
+
+[Github des exercices et du projet](https://github.com/AlixDureault/Scraping-pour-bilan-carbone)
+
 La page pour les séminaires donne ceci :
 
 ![Résultat final du scraping de données](./Resultat.jpg)
