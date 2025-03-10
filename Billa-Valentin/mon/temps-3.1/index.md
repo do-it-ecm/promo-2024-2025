@@ -53,7 +53,7 @@ Ce MON n'a pas vocation à être un cours sur le C++ moderne, mais plutôt de co
 permettant d'apprendre par soit même. J'ai mis quelques examples de fonctionnalités intéressantes comme par exemples
 les smart pointers, les attributs et enums cependant il me semble contre productif de tenter par moi-même de
 retranscrire la richesse du langage surtout au vu de la grande qualité de certaines ressources cités dans ce MON.
-{% sizedImage "pipe.webp", "Pipe de 'La Trahison des images' de Magritte", "smallIcon" %}
+{% sizedImage "images/pipe.webp", "Pipe de 'La Trahison des images' de Magritte", "smallIcon" %}
 {% endnote %}
 
 ## Rappels de C++
@@ -63,10 +63,10 @@ Souvent en x2, par moment en passant certains chapitres (sur les opérateurs mat
 Honnêtement, c'est une plutôt bonne ressource, elle m'a permis de m'assurer d'être au jus sur les bases des bases.
 
 Voici une liste de POK&MON intéressants sur le sujet :
-{% lieninterne "/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-1.1/" %}
-{% lieninterne "/promos/2024-2025/Kebbab-Ines/mon/temps-2.2/" %}
-{% lieninterne "/promos/2023-2024/Vietor-Paul/pok/temps-1/" %}
-{% lieninterne "/promos/2024-2025/Matthieu-Dufort/pok/temps-2/" %}
+{% lienInterne "/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-1.1/" %}
+{% lienInterne "/promos/2024-2025/Kebbab-Ines/mon/temps-2.2/" %}
+{% lienInterne "/promos/2023-2024/Vietor-Paul/pok/temps-1/" %}
+{% lienInterne "/promos/2024-2025/Matthieu-Dufort/pok/temps-2/" %}
 
 
 ## Versions de C++
@@ -351,8 +351,8 @@ Je vous invite à lire les MONs suivants sur LeetCode pour plus d'informations. 
 plateforme sur laquelle on peut résoudre des problèmes d'algorithmique qui se rapprochent beaucoup de ce qui est
 proposé en entretiens techniques.
 
-{% lieninterne "/promos/2022-2023/Gissler-Nathan/mon/temps-3.2/" %}
-{% lieninterne "/promos/2022-2023/Barbotteau-Leonard/mon/temps-3.1/" %}
+{% lienInterne "/promos/2022-2023/Gissler-Nathan/mon/temps-3.2/" %}
+{% lienInterne "/promos/2022-2023/Barbotteau-Leonard/mon/temps-3.1/" %}
 
 Pour ma part, je suis déjà OK sur le sujet (~150 problèmes résolus) mais pas en C++.
 C'est pourquoi je me suis concentré à essayer de travailler un peu mon écriture de solutions en C++.
@@ -379,7 +379,7 @@ particulièrement puissant, par exemple vous pouvez en trouver une liste sur le 
 [Terminal Root](https://terminalroot.com/top-10-static-analyzers-for-c-and-cpp/)
 
 *Voici un exemple de résultats d'inspection du code sur l'IDE CLion :*
-![Screenshot de resultats d'inspection sur CLion](clion_inspection_results.webp)
+![Screenshot de resultats d'inspection sur CLion](images/clion_inspection_results.webp)
 
 Plus généralement, rester au courant peut se faire sur pleins de canaux différents :
 
