@@ -10,13 +10,28 @@ temps: 3
 tags: 
   - "temps 3"
   - "vert"
+  - "bleu"
+  - "débutant"
 
 résumé: "Un MON traitant de l'éthique de l'intelligence artificielle dans le secteur de la santé."
 ---
 
-Je vais faire mon TFE sur un sujet combinant intelligence artificielle et développement web dans le secteur de la santé. Après les recommandations de Laetitia Piet, j'ai lu le [livre blanc](https://www.hub-franceia.fr/wp-content/uploads/2024/12/Guide_pratique_IA_ethique_version-2.pdf) de France Hub IA sur lequel elle a travaillé, qui est un guide pratique sur l'éthique de l'Intelligence artificielle. 
+{% prerequis %}
 
-Ce livre blanc énonce les 7 points clés de l'IA éthique : 
+Aucun
+
+{% endprerequis %}
+{% lien %}
+- [1] [Guide pratique IA éthique V2 France Hub IA](https://www.hub-franceia.fr/wp-content/uploads/2024/12/Guide_pratique_IA_ethique_version-2.pdf)
+- [2] Un article super intéressant sur comment l'IA explicable peut bénéficier aux développeurs, aux cliniciens, aux patients du point de vue éthique et légal : [Explainability for artificial intelligence in healthcare: a multidisciplinary perspective](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01332-6)
+- [3] [Zahra Sadeghi et al., A review of Explainable Artificial Intelligence in healthcare](https://www.sciencedirect.com/science/article/pii/S0045790624002982)
+- [4] [Survey of Explainable AI Techniques in Healthcare](https://pmc.ncbi.nlm.nih.gov/articles/PMC9862413/)
+- [5] [Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV), Been Kim et al.](https://arxiv.org/pdf/1711.11279)
+{% endlien %}
+
+Je vais faire mon TFE sur un sujet combinant intelligence artificielle et développement web dans le secteur de la santé. Après les recommandations de Laetitia Piet, j'ai lu le [livre blanc](https://www.hub-franceia.fr/wp-content/uploads/2024/12/Guide_pratique_IA_ethique_version-2.pdf) de France Hub IA sur lequel elle a travaillé, qui est un guide pratique sur l'éthique de l'Intelligence artificielle. [1]
+
+Ce livre blanc énonce les 7 points clés de l'IA **éthique** : 
 * Sûreté
 * Impact durable
 * Autonomie
@@ -28,29 +43,56 @@ Ce livre blanc énonce les 7 points clés de l'IA éthique :
 Il y a de multiples utilisations de l'IA dans le domaine de la santé, pour n'en citer que quelques unes, la segmentation d'images médicales pour détecter une ou des tumeurs (mon sujet de stage), le suivi des signes vitaux d'un patient avec des dispositifs portés par le patient, l'automatisation de tâches répétitives effectuées par les médecins (création de rapports médicaux)... Des données sensibles sont utilisées pour entraîner ces IA, et la question de l'éthique est d'autant plus essentielle quant au traitement de ces données et des résultats fournis par les IA. Après avoir lu le livre blanc, j'ai décidé d'aller plus loin pour un des points énoncés ci-dessus : l'explicabilité. En effet, je me suis posée une question : **Comment les praticiens (médecins...) et les patients, qui sont les utilisateurs finaux de l'IA, peuvent non seulement comprendre les résultats fournis par l'IA mais aussi croire à leur fiabilité ?** Qu'est-ce qui prouve qu'une tumeur détectée par une IA sur une image médicale est vraiment une tumeur ? Quel fût le raisonnement de l'IA pour affirmer que ce qui est difficilement détectable par l'homme humain, est bien une tumeur ? D'ailleurs, à quel niveau d'incertitude affirme-t'elle l'existence de cette tumeur ? Nous allons voir dans ce MON quelques pistes pour décortiquer plus facilement la **"boîte noire"** (ou Black box) qu'est l'IA pour permettre aux utilisateurs finaux de comprendre.
 
 
-## Transparence, justifiabilité et intelligibilité : les maîtres-mots de l'intelligence artificielle explicable
+## Introduction
 
 On peut distinguer deux types de modèles d'IA : ceux qui sont dit *"interprétables"*, appelés également "white-box" et les autres qui sont dit *"non-interprétables"*. Ce qui rend un algorithme interprétable est la **clarté de la relation entre les données d'entrée et les données de sortie**. Par exemple, les modèles de régression linéaire et les arbres de décision font partis des modèles interprétables : ils ont des caractéristiques claires qui expliquent l'influence des variables sur les résultats fournis par l'IA. En revanche, les modèles non-interprétables sont des structures complexes avec des poids, des paramètres qui sont inconnus ! Les algorithmes de Deep Learning font partis de ces "black-box models". Ils sont également sujets à des *biais* qui faussent les résultats et qui sont problématiques aux yeux des cliniciens. 
 
 Les recherches sur l'intelligence artificielle explicable ont explosé ces dernières années !
 
+## Challenges et limites de l'IA dite "opaque"
+
+L'explicabilité des modèles d'IA est essentielle pour s'assurer que leur performance repose sur des données pertinentes et non sur des facteurs externes, comme des métadonnées. Un exemple célèbre est celui d'un modèle qui classait des huskies et des loups en se basant sur la neige en arrière-plan, plutôt que sur les animaux eux-mêmes. En médecine, un modèle d'IA utilisé pour détecter des patients à haut risque à partir de radiographies a échoué lorsqu'il a été testé en dehors de son hôpital d'origine, car il avait appris à identifier le type de machine utilisée plutôt que des informations cliniques pertinentes ! [2]
+
+Il est important de mentionner les *biais* dans l'IA : l’ingénieur que j'ai interviewé souligne que l'IA peut être biaisée si elle est entraînée sur des données limitées ou homogènes (par exemple, provenant d'un seul hôpital). Ce type de biais pourrait affecter la capacité du modèle à généraliser à des cas réels et variés. La **transparence** d'une IA explicable permet de détecter en amont et comprendre ces biais, ce qui aide à ajuster les modèles pour éviter des erreurs cliniques.
+
+## Transparence, justifiabilité et intelligibilité : les maîtres-mots de l'intelligence artificielle explicable
+
 ![intérêt de l'xai](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ee9e/9862413/b7e22e073325/sensors-23-00634-g001.jpg)
 
-Cette figure provenant de [cet article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9862413/) représente l'intérêt de l'IA explicable sur la détection d'une infection de Covid-19. Le premier modèle est une black box, l'utilisateur a juste en sortie le résultat "infecté" mais ne sait pas le pourquoi du comment. Le second output est une carte de chaleur qui montre les parties qui sont probablement infectées : l'utilisateur comprend et vérifie que les parties détectées par l'IA sont bien infectées, il sait où aller chercher l'information. Le troisième output est une comparaison entre la donnée d'entrée (input) et une donnée labelisée avec laquelle l'IA a comparé la donnée d'entrée. L'utilisateur alors peut avoir une confiance plus grande dans le résultat de l'IA.
+Cette figure provenant de [cet article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9862413/) représente l'intérêt de l'IA explicable sur la détection d'une infection de Covid-19. 
+* Le premier modèle est une _black box_, l'utilisateur a juste en sortie le résultat "infecté" mais ne sait pas le pourquoi du comment. Le modèle est opaque et la confiance de l'utilisateur envers ce modèle chute.
+* Le second output est une _carte de chaleur_ qui montre les parties qui sont probablement infectées : l'utilisateur comprend et vérifie que les parties détectées par l'IA sont bien infectées, il sait où aller chercher l'information. 
+* Le troisième output est une _comparaison entre la donnée d'entrée (input) et une donnée labelisée_ avec laquelle l'IA a comparé la donnée d'entrée. L'utilisateur alors peut avoir une confiance plus grande dans le résultat de l'IA.
 
-Les cliniciens ne sont pas toujours intéressés par le fonctionnement technique de l'IA, mais veulent s'assurer que les résultats sont **fiables**. L'IA explicable permet aux cliniciens de comprendre sur quels *critères* le modèle se base pour prendre des décisions, renforçant ainsi leur confiance dans l'outil. En effet, l'explicabilité peut aider les cliniciens à **évaluer les recommandations d'un système** en les comparant à leur propre expérience et jugement clinique : cela leur permet de décider s'ils doivent ou non se fier aux recommandations du système et renforce ainsi leur confiance en celui-ci. En particulier, lorsque l'IA fait des recommandations qui diffèrent fortement des attentes du clinicien, l'explicabilité permet de vérifier si les paramètres pris en compte par le système sont pertinents d'un point de vue clinique.
+Les cliniciens ne sont pas toujours intéressés par le fonctionnement technique de l'IA, mais veulent s'assurer que les résultats sont **fiables**. L'IA explicable permet aux cliniciens de comprendre sur quels *critères* le modèle se base pour prendre des décisions, renforçant ainsi leur confiance dans l'outil. En effet, l'explicabilité peut aider les cliniciens à **évaluer les recommandations d'un système** en les comparant à leur propre expérience et jugement clinique : cela leur permet de décider s'ils doivent ou non se fier aux recommandations du système et renforce ainsi leur confiance en celui-ci. En particulier, lorsque l'IA fait des recommandations qui diffèrent fortement des attentes du clinicien, l'explicabilité permet de vérifier si les paramètres pris en compte par le système sont **pertinents** d'un point de vue clinique.
 
-Concernant les images médicales, des techniques telles que des **cartes d'attention** (attention map) ou des **Grad-CAM** qui mettent en valeur les régions de l'images qui ont le plus influencé la décision du modèle, sont utilisées pour augmenter la confiance des radiologues dans le résultat de l'algorithme. Les **cartes de chaleur** peuvent également faire parti des techniques utilisées. En effet, un ingénieur qui travaille dans le domaine médical nous raconte, dans une interview que j'ai mis en annexe, qu'"une carte de chaleur peut être utilisée sur les limites de la segmentation pour montrer l'incertitude dans les frontières [...]. Par exemple, pour les détections de tumeurs, cela permet aux cliniciens d'analyser plus de données provenant des résultats de l'IA et d'avoir un indice pour vérifier plus en détail où la tumeur pourrait se trouver. La variabilité des résultats est plus grande." Ces cartes de chaleur affinent le résultat et permettent peut-être à l'utilisateur final d'avoir une segmentation plus précise après un post-processing de l'image. 
+## Techniques de l'IA explicable
+
+* Concernant les images médicales, des techniques telles que des **cartes d'attention** ou **cartes de chaleur**, qui mettent en valeur les régions de l'image qui ont le plus influencé la décision du modèle, sont utilisées pour augmenter la confiance des radiologues dans le résultat de l'algorithme. En effet, un ingénieur qui travaille dans le domaine médical nous raconte, dans une interview que j'ai mis en annexe, qu'"une carte de chaleur peut être utilisée sur les limites de la segmentation pour montrer l'incertitude dans les frontières [...]. Par exemple, pour les détections de tumeurs, cela permet aux cliniciens d'*analyser plus de données* provenant des résultats de l'IA et d'avoir un **indice** pour vérifier plus en détail où la tumeur pourrait se trouver. La variabilité des résultats est plus grande." Ces cartes de chaleur affinent le résultat et permettent peut-être à l'utilisateur final d'avoir une segmentation plus précise après un post-processing de l'image. 
 
 
 ![xai dans segmentation de gliome du cerveau](https://www.mdpi.com/applsci/applsci-13-03438/article_deploy/html/images/applsci-13-03438-g007.png)
 
 La figure ci-dessus inclut l'image originale, les résultats prédits par l'IA (Seg-Pre), la ground-truth (Seg-True) qui est l'image témoin considérée comme étant la vérité, une carte de chaleur qui représente les zones où s'est focalisé le modèle (CAM++) ainsi que la superposition des segmentations données par le modèle et les cartes de chaleur explicables (C+Pre). Concernant la carte de chaleur, le bleu indique que la prépondérence est faible tandis que le rouge indique que la zone a fortement contribué au raisonnement du modèle.
 
+* Pour expliquer le comportement interne d'un réseau de neurones avec une description compréhensible par l'humain, des **Concept Activator Vectors** peuvent être utilisés. [3]
+![CAV](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F-y0oghbEHMM%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=ac68d5955139290c46221769b654cd504989074f3d4d487fc0db1fb56b2e09dd&ipo=images)
+Les Concept Activator Vector d'un concept sont des vecteurs dans la direction des valeurs (par exemple les valeurs d'activation) des exemples du concept [5]. Les auteurs du papier [5] définissent un CAV tel que "la normale d'un hyperplan séparant les exemples sans concept et les exemples avec un concept dans l'activation du modèle". C'est un peu complexe mais je cite cet outil pour montrer qu'il existe des fonctions, des concepts, permettant de modéliser des modèles de Machine Learning complexes pour les rendre interprétables par un humain.
 
-L'explicabilité des modèles d'IA est essentielle pour s'assurer que leur performance repose sur des données pertinentes et non sur des facteurs externes, comme des métadonnées. Un exemple célèbre est celui d'un modèle qui classait des huskies et des loups en se basant sur la neige en arrière-plan, plutôt que sur les animaux eux-mêmes. En médecine, un modèle d'IA utilisé pour détecter des patients à haut risque à partir de radiographies a échoué lorsqu'il a été testé en dehors de son hôpital d'origine, car il avait appris à identifier le type de machine utilisée plutôt que des informations cliniques pertinentes ! [Lien de la source](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01332-6)
+* Des **librairies open-source** ont été développées pour visualiser, débugger, analyser les biais des modèles de Machine Learning. En voici quelques noms : 
+  * _ELI5_ sur Python pour visualiser et débugger les modèles de ML (développé par le MIT);
+  * _AI Fairness 360_ sur Python et R pour analyser et détecter les biais dans les modèles d'IA et les datasets (développé par IBM);
+  * _What If Tool_ (WIT) pour visualiser les comportements de modèles de ML déjà entraînés (développé par Google);
+  * _Skater_ analyse le comportement de modèles de ML déjà entraînés (développé par Oracle);
 
-Il est important de mentionner les *biais* dans l'IA : l’ingénieur que j'ai interviewé souligne que l'IA peut être biaisée si elle est entraînée sur des données limitées ou homogènes (par exemple, provenant d'un seul hôpital). Ce type de biais pourrait affecter la capacité du modèle à généraliser à des cas réels et variés. La **transparence** d'une IA explicable permet de détecter en amont et comprendre ces biais, ce qui aide à ajuster les modèles pour éviter des erreurs cliniques.
+* Dans le cas d'aide au diagnostic, des **arbres de décisions** peuvent expliquer pas-à-pas comment le modèle en arrive au diagnostic en fonction des symptômes du patient et de ses résultats.
+
+![xai](https://ars.els-cdn.com/content/image/1-s2.0-S0045790624002982-gr5_lrg.jpg)
+
+Une image qui résume les différentes utilisations possibles de l'IA explicable dans la santé [3]
+
+
+## Conclusion
 
 En conclusion, l'IA explicable dans le contexte médical vise à rendre les décisions de l'IA plus transparentes et compréhensibles, permettant aux cliniciens de vérifier et valider les résultats en s'appuyant sur leur expertise clinique. Cela renforce la confiance et aide à minimiser les risques associés à l'usage de l'IA en médecine. Je vous encourage à jeter un coup d'oeil aux articles que j'ai listé dans les sources ainsi qu'aux différents outils d'explicabilité pour avoir une idée de quel outil appliquer à votre modèle d'IA. 
 
@@ -59,15 +101,15 @@ En conclusion, l'IA explicable dans le contexte médical vise à rendre les déc
 
 _____ **You are an engineer developping a platform that helps surgeons to plan a cardiac surgery (called Left Atrial Appendage Occlusion). You also have a master co-directed by 5 universities in Barcelona in Computer Vision. Can you tell us a bit more about the use of AI in your work ?**
 
-We do segmentations of the left atrial of the heart in order to get a 3D reconstruction to determine the size of occluder devices to treat atrial fibrillations-derived thrombus with a minimally-invasive intervention (called Left atrial appendage occlusion). 
+We do **segmentations** of the left atrial of the heart in order to get a **3D reconstruction** to determine the size of occluder devices to treat atrial fibrillations-derived thrombus with a minimally-invasive intervention (called _Left atrial appendage occlusion_). 
 
 We use AI for these segmentations of medical images, I did my TFM (_note from the interviewer : it's a master thesis in Spain_) on that with the pipeline nnU-Net. It's a pipeline containing a pre-trained model for segmentations with pre-processing that reduce the need of hyperparametrisation, it's designed to work well with medical images like CT, MRIs...
 
-We use another algorithm using Machine Learning to detect where the ostium (part of the heart) and the mitral valves on medical images.
+We use another algorithm using Machine Learning to detect the position of the ostium (part of the heart) and the mitral valves on medical images.
 
 We compute hemo-dynamics simulations manually, without AI. Well, a PhD student tried to predict the 4D MRI flows with AI but we do most of them by hand. 
 
-We also use ChatGpt and Copilot for coding as assistance-tools for error solving and making templates for problems that we encounter.  
+We also use ChatGpt and Copilot for coding as **assistance-tools** for error solving and making templates for problems that we encounter.  
 
 _____**What type of data do you use to train the model ? How do you collect it ?**
 
@@ -80,9 +122,9 @@ It's just because the format is easier to handle ! DICOM is a folder with a lot 
 _____**You work hand-to-hand with clinicians in this academical context. Are they familiar with how the AI models work ? How do you explain to them how it works ? (meetings ?)**
 
 I would say that there are two things : 
-I didn't have to explain [how it works] because a clinician isn't interested in specifically how it works but only in the fact that it's working. In a segmentation, they see the result and check that the segmentation makes sense. In the case of an AI they have the tools to verify it. The AI can never take responsability of a medical decision, in any aspect from segmentation to diagnosis so they have to verify it themselves.
+I didn't have to explain [how it works] because a clinician isn't interested in specifically how it works but only in the fact *that it's working*. In a segmentation, they see the result and check that the segmentation makes sense. In the case of an AI they have the tools to verify it. The AI can **never** take responsability of a medical decision, in any aspect from segmentation to diagnosis so they have to verify it themselves.
 
-Well, explainable AI isn't mostly to explain how the AI works by itself but more on which the decisions it takes and on what things it's based to take the decision. You want to avoid the neural network to be a Black Box.
+Well, explainable AI isn't mostly to explain how the AI works by itself but more on **which the decisions it takes** and on what things it's based to take the decision. You want to avoid the neural network to be a Black Box.
 
 In the segmentation, the heatmap can be useful, for example a heatmap can be use on the borders to show the confidence in the borders because there are some irregularities. For exemple, for tumor detections, it allows the clinicians to analyse more data that come from the output of the AI and to have a hint to check in more details where the tumor could be. You have more variability in the output.
 
@@ -90,11 +132,11 @@ The literal result of the AI is always processed, the output layer usually have 
 
 _____**For your TFM, you wanted to fine-tune a model, do you have an example of bias and tendencies in the data that could have affected the results ?**
 
-Yes, a lot. First of all, all the patients were from the same hospital. All the images came from the same machine while images from different machines could have had slightly different qualities... It would have make the AI potentially worst with inputs from other hospital. The contrast and other things used to emphasize the borders of the organ could be different and affect the results of the AI reasoning.
+Yes, a lot. First of all, all the patients were **from the same hospital**. All the images came from the same machine while images from different machines could have had slightly different qualities... It would have make the AI potentially **worst** with inputs from other hospital. The contrast and other things used to emphasize the borders of the organ could be different and affect the results of the AI reasoning.
 
-We had 300 medical images but only 100 of them were segmented. I realized when I analysed them that the ones that were segmented were the ones that were easier to segment. The human segmentators chose the easiest ones, that's logical but the AI is going to be worst for the images with more difficulty to segment, for example low contrasted images. The clinician can put contrast to detect in a more easy way the organ but if the image was acquired without contrast, the AI isn't used to detect the organ without color or contrast so the results would be bad.
+We had 300 medical images but only 100 of them were segmented. I realized when I analysed them that the ones that were segmented were the ones that were **easier** to segment. The human segmentators chose the easiest ones, that's logical but the AI is going to be worst for the images with more difficulty to segment, for example **low contrasted images**. The clinician can put contrast to detect in a more easy way the organ but if the image was acquired without contrast, the AI isn't used to detect the organ without color or contrast so the results would be bad.
 
-I have to say that we shouldn't confound biais and intented fine-tuning. We can fine-tune a model with data of people from a similar demographics for specific reasons but you tend to aim for generalization. 
+I have to say that we shouldn't confound **biais** and **intented fine-tuning**. We can fine-tune a model with data of people from a similar demographics for specific reasons but you tend to aim for generalization. 
 
 _____**Thank you so much for your time !**
 
@@ -143,9 +185,3 @@ Je dois dire qu'il ne faut pas confondre le biais et le réglage fin intentionne
 
 _____**Merci pour le temps que tu m'as accordé !**
 
-## Ressources
-
-- [Guide pratique IA éthique V2 France Hub IA](https://www.hub-franceia.fr/wp-content/uploads/2024/12/Guide_pratique_IA_ethique_version-2.pdf)
-- Un article super intéressant sur comment l'IA explicable peut bénéficier aux développeurs, aux cliniciens, aux patients du point de vue éthique et légal : [Explainability for artificial intelligence in healthcare: a multidisciplinary perspective](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01332-6)
-- [Zahra Sadeghi et al., A review of Explainable Artificial Intelligence in healthcare](https://www.sciencedirect.com/science/article/pii/S0045790624002982)
-- [Survey of Explainable AI Techniques in Healthcare](https://pmc.ncbi.nlm.nih.gov/articles/PMC9862413/)
