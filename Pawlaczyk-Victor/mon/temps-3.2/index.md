@@ -17,9 +17,9 @@ résumé: "Devenir freelance en tant que jeune ingénieur : mode d'emploi"
 
 {% prerequis %}
 
-Motivation
-Détermination
-Compétences exploitables en Freelance
+- Motivation
+- Détermination
+- Compétences exploitables en Freelance
 
 {% endprerequis %}
 
@@ -122,10 +122,10 @@ En tant qu'auto-entrepreneur, il faut s'inscrire au régime général de la Séc
 En freelance, on choisit soi-même le prix auquel on "vend" notre travail ou nos prestations. On parle souvent du **TJM** (Tarif Journalier Moyen). Pour le calculer, la méthode la plus conseillée est de prendre en compte son salaire cible ainsi que les différentes charges mentionnées précédemment et de diviser ce chiffre par le nombre de jours facturables (généralement aux alentours de 220 jours par an). Une fois cette première estimation obtenue, il est important de comparer son TJM avec ceux pratiqués par vos concurrents sur le marché. L'objectif est d'être compétitif tout en s'assurant une bonne rentabilité. 
 
 {% info %}
-Pour se comparer aux pris du marché, il est nécessaire de cerner précisément son propre profil et d'être honnête avec soi même. Il faut particulièrement s'interroger sur son expérience, la rareté de ses compétences et la demande dans son domaine. Ces critères dictent le marché et influent fortement sur les tarifs pratiqués par chacun.
+Pour se comparer aux prix du marché, il est nécessaire de cerner précisément son propre profil et d'être honnête avec soi-même. Il faut particulièrement s'interroger sur son expérience, la rareté de ses compétences et la demande dans son domaine. Ces critères dictent le marché et influent fortement sur les tarifs pratiqués par chacun.
 {% endinfo %}
 
-Par ailleurs, le TJM n'est pas l'unique méthode de tarification. Vous pouvez faire des prix à la mission par exemple ou pour chaque livrable réalisé. En revanche, il faut porter une attention particulière à la rédaction du contrat ! Si vous êtes payé à la mission, mais que vous assurez une "garantie" sur le travail fait, définissez dès le contrat les limites de cette garantie, ou le tarif horaire de la maintenance éventuelle post mission.
+Par ailleurs, le TJM n'est pas l'unique méthode de tarification. Vous pouvez faire des prix à la mission par exemple, ou pour chaque livrable réalisé. En revanche, il faut porter une attention particulière à la rédaction du contrat ! Si vous êtes payé à la mission, mais que vous assurez une "garantie" sur le travail fait, définissez dès le contrat les limites de cette garantie, ou le tarif horaire de la maintenance éventuelle post-mission.
 
 ## Le portage salariale : une alternative sécurisée.
 
