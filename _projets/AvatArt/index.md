@@ -27,6 +27,7 @@ Concrètement, quand le combattant A donne un coup de poing dans la direction du
 Grâce à des **capteurs** nous pouvons comparer le mouvement du combattant à une **base de données** qui nous donnera alors l'animation adaptée au mouvement.
 
 **TO DO :**
+
 - Faire un budget prévisionnel (liste du 'matos')
 - Choix de l'art martial
 - Choix du capteur (statique, dynamique)
@@ -80,7 +81,7 @@ Dans le thème **Informatique dans l’art et art dans l’informatique**, nous 
 <center>Schéma du dispositif</center>  
 
 <div style="margin: auto; width: fit-content">
-  <video src="media/Video demo (1).mp4" style="max-height: min(50vh, 300px)" controls loop>
+  <video src="media/Video_demo.mp4" style="max-height: min(50vh, 300px)" controls loop>
     Votre navigateur ne supporte pas la balise video.
   </video>
   <center>Vidéo de démonstration du dispositif</center>
