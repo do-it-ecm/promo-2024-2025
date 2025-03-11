@@ -110,7 +110,7 @@ $$
 #### Fonctionnement d'ALS
 
 1. Fixer la matrice \\( M \\) et calculer \\( U \\).
-2. Fixer la matrice \( U \) et calculer \( M \).
+2. Fixer la matrice \\( U \\) et calculer \\( M \\).
 
 Le processus alterne entre ces deux étapes jusqu'à ce que l'erreur soit suffisamment basse.
 
