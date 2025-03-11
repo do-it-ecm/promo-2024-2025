@@ -24,7 +24,7 @@ Aucun prérequis nécessaire
 
 {% lien %}
 
-Les lien utiles pour la compréhension de celui-ci.
+Le [MON3.2](https://do-it.aioli.ec-m.fr/promos/2024-2025/Gonin-Emma/mon/temps-3.2/) réalisé par Emma traite également du sujet des données médicales, notamment sur l'aspect législatif.
 
 {% endlien %}
 
@@ -144,13 +144,31 @@ Le **RGPD** a été conçu pour répondre aux trois objectifs suivants :
 
 Le RGPD s’adresse à toute structure privée ou publique effectuant de la collecte et/ou du traitement de données, et ce quel que soit son secteur d'activité et sa taille. Le règlement s’applique à tous les organismes établis sur le territoire de l’UE, mais aussi à tout organisme implanté hors de l’UE mais dont l’activité cible directement des résidents européens.
 
-### Les données personnelles
+### Les données de santé
 
 Une **donnée personnelle** = "toute information se rapportant à une personne physique identifiée ou identifiable" (CNIL - Comité National de l'Information et des Libertés)
 
 Une identification peut être **directe** (nom, prénom, adresse email perso, numéro de tel, ...) ou indirecte (identifiant, numéro de sécurité sociale, adresse IP, etc.).
 
-SUITE EN COURS DE REDACTION
+Les données de santé sont des données à caractère personnel particulières selon le RGPD. Elles sont dites **sensibles**.
+
+Il existe trois catégories de données de santé :
+
+- Les données de santé par **nature** (antécédents médicaux, maladies, prestations de soins réalisées, résultats d’examens, traitements, handicap, …)
+- Les données de santé **par croisement**, qui permettent de tirer des conclusions sur l’état de santé ou les risques pour la santé d’une personne. Par exemple le croisement entre la mesure du poids avec le nombre de pas, et la mesure des apports caloriques
+- Les données qui deviennent des données de santé **en raison de leur destination**, c’est-à-dire de l’utilisation qui en est faite sur le plan médical. Par exemple, une photographie échangée entre amis devient une donnée de santé si elle est utilisée dans un dossier médical.
+
+Les 5 phases du cycle de vie de la donnée de santé :
+
+- La collecte
+- L’échange et partage
+- La conservation
+- La suppression
+- La Réutilisation
+
+Ainsi, les données de santé ne peuvent pas être conservées indéfiniment. Il y a des règles définissant leur période de validité et à partir de quand elles doivent être supprimées.
+
+La CNIL (Commission Nationale Informatique & Libertés) a notamment élaboré des référentiels pour déterminer les durées de conservation adéquates des données médicales, en identifiant celles obligatoires et non obligatoires.
 
 {% info %}
 
@@ -169,5 +187,6 @@ Ce MON m'a été utile pour mieux comprendre l'écosystème du domaine de la san
 - [Site de l'ANS](https://esante.gouv.fr/)
 - [TESIS - E-SANTE : Le Ségur du numérique en santé](https://www.tesis.re/projets/le-segur-du-numerique-en-sante)
 - [Vidéo Youtube : *Comprendre le Ségur du numérique en santé* de Tesis e-sante (2023)](https://www.youtube.com/watch?v=xsQEEbwu9JY)
+- [Site de la CNIL](https://www.cnil.fr/fr)
 
 {% endlien %}
