@@ -31,19 +31,20 @@ La formation se divise en quatre temps de jeu et chaque temps permet de revoir 3
 
 Quelques exemples de slides :
 
-<img src="./image32/slide1.png" width="40%">
-<img src="./image32/slide2.png" width="40%">
-<img src="./image32/slide3.png" width="40%">
-<img src="./image32/slide4.png" width="40%">
+| ![Slide 1](./image32/slide1.png) | ![Slide 2](./image32/slide2.png) |
+|------------------------------------|------------------------------------|
+| ![Slide 3](./image32/slide3.png) | ![Slide 4](./image32/slide4.png) |
 
 Quelques retour de cours :
 
-<img src="./image32/cours1.png" width="40%">
-<img src="./image32/cours2.png" width="40%">
-<img src="./image32/cours3.png" width="40%">
-<img src="./image32/cours4.png" width="40%">
-<img src="./image32/cours5.png" width="40%">
-<img src="./image32/cours6.png" width="40%">
+<img src="./image32/cours1.png" width="35%">
+
+| ![Cours 2](./image32/cours2.png) | ![Cours 3](./image32/cours3.png) |
+|------------------------------------|------------------------------------|------------------------------------|
+
+
+| ![Cours 4](./image32/cours4.png) | ![Cours 5](./image32/cours5.png) | ![Cours 6](./image32/cours6.png) |
+|------------------------------------|------------------------------------|------------------------------------|
 
 ## Conclusion
 
