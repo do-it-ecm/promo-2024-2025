@@ -20,7 +20,7 @@ résumé: "Ce MON explore la tokenisation des actifs réels (RWA pour Real World
 {% prerequis %}
 
 - Une connaissance de base en blockchain et en finance traditionnelle.
-- Des notions fondamentales sur les smart contracts et la décentralisation.
+- Des notions fondamentales sur les smart contracts et la décentralisation (voir mon MON2.2).
 - Une familiarité avec les actifs réels (immobilier, matières premières, crédits) et leur marché traditionnel.
 
 {% endprerequis %}
@@ -35,6 +35,8 @@ résumé: "Ce MON explore la tokenisation des actifs réels (RWA pour Real World
 {% endlien %}
 
 # Introduction
+
+Je vais au cours de ce rendu essayer de définir des chapitres pour séparer de façon bien distincteles notions abordées. 
 
 La tokenisation des actifs réels représente une avancée majeure dans le domaine de la finance, de l'investissement et de la gestion des biens. Cette technologie repose sur l'utilisation de la blockchain pour convertir des actifs physiques ou réels, tels que l'immobilier, les œuvres d'art, ou les matières premières, en tokens numériques. Ces tokens peuvent ensuite être échangés, fractionnés et transférés de manière plus fluide, transparente et sécurisée.
 
