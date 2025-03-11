@@ -199,15 +199,18 @@ Les principales difficultés rencontrées ont été :
 ## Livrables
 {% details "GitHub" %}
 Le GitHub est disponible au lien suivant. 
+https://github.com/guillaumeeeeeeeee/MusiCoach
 {% enddetails %}
 {% details "Poster" %}
 Le poster suivant présente le projet de manière synthétique. 
 {% enddetails %}
 {% details "Maquette Figma" %}
 Le travail préalable réalisé sur le visuel de la  maquette MusiCoach est disponible au lien suivant. 
+https://www.figma.com/design/NDTguwFNrAT1nlXU8WpYvQ/MusiCoach?node-id=0-1&p=f&t=8PYw28xQvDkmQYgJ-0
 {% enddetails %}
 {% details "Vidéo de présentation du site" %}
 Une vidéo de présentation du site est disponible au lien suivant. 
+https://github.com/guillaumeeeeeeeee/MusiCoach
 {% enddetails %}
 
 ## Analyse Post Mortem
@@ -285,6 +288,11 @@ Après avoir testé ces différentes approches, nous avons retenu **CREPE** comm
 - **CREPE est monophonique**. Si nous voulons ajouter des exercices avec des accords ou plusieurs notes simultanées, il faudra explorer d’autres modèles.
 - **Il ne détecte pas directement les erreurs rythmiques**, une fonctionnalité essentielle à améliorer pour évaluer la précision du timing des notes.
 {% enddetails %}
-| Méthode | Avantages | Inconvénients | |--------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------| | **Transformée de Fourier (FFT/STFT)** | - Rapide et simple à implémenter <br> - Pas besoin d'entraîner un modèle | - Sensible au bruit et à l’acoustique <br> - Difficulté à détecter le timing précis <br> - Moins précis sur les sons de piano (harmoniques) | | **CREPE (CNN pour estimation du pitch)** | - Haute précision sur la détection de notes <br> - Robuste face au bruit <br> - Fonctionne en temps réel, idéal pour l'interactivité | - Ne gère que la monophonie <br> - Modèle pré-entraîné, peu personnalisable | | **Onset and Frames (Modèle Google AI pour transcription de piano)** | - Gère la polyphonie <br> - Détecte le début des notes et leur durée <br> - Précis sur des enregistrements professionnels | - Nécessite un GPU puissant <br> - Temps de traitement trop long <br> - Moins performant avec des enregistrements de micro basiques | 
+| Méthode                                | Avantages                                                                 | Inconvénients                                                              |
+|----------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Transformée de Fourier (FFT/STFT)**  | - Rapide et simple à implémenter <br> - Pas besoin d'entraîner un modèle  | - Sensible au bruit et à l’acoustique <br> - Difficulté à détecter le timing précis <br> - Moins précis sur les sons de piano (harmoniques) |
+| **CREPE (CNN pour estimation du pitch)** | - Haute précision sur la détection de notes <br> - Robuste face au bruit <br> - Fonctionne en temps réel, idéal pour l'interactivité | - Ne gère que la monophonie <br> - Modèle pré-entraîné, peu personnalisable |
+| **Onset and Frames (Modèle Google AI pour transcription de piano)** | - Gère la polyphonie <br> - Détecte le début des notes et leur durée <br> - Précis sur des enregistrements professionnels | - Nécessite un GPU puissant <br> - Temps de traitement trop long <br> - Moins performant avec des enregistrements de micro basiques |
+
 
 
