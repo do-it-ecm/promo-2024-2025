@@ -6,6 +6,8 @@ authors:
   - BERNARD Kévin
   - FRANCESE Clarisse
   - WOLBERT Damien
+
+résumé: Sublimer les arts martiaux en déclenchant des animations projetées sur un écran derrière les combattants en fonction de leurs mouvements.
 ---
 
 Comment sublimer les arts martiaux avec l'informatique ?
@@ -14,7 +16,7 @@ Comment sublimer les arts martiaux avec l'informatique ?
 [Github](https://github.com/KevinBERNARD1901/Avat-Art)
 {%endlien%}
 
-{% details "Idée initial (septembre)" %}
+{% details "Idée initiale (septembre)" %}
 ## Speech
 
 Qui n'a jamais rêvé de contrôler les éléments (feu🔥, air🌀, eau💧, terre🏔️) en donnant son meilleur coup droit 👊 ?
@@ -56,15 +58,15 @@ La partie **informatique** de ce projet vient de la détection et du traitement 
 
 Le but du projet est de **sublimer les arts martiaux** en déclenchant des **animations projetées sur un écran** derrière les combattants en fonction de **leurs mouvements**.
 
-Pour cela nous utilisons la **Kinect** de la Xbox One qui **capte les mouvements** du combattant. Puis nous récupérons ces données et vérifions certaines **conditions** dans un **fichier python**qui **déclenche** alors les **animations** associées (mp4) projetées sur le mur/tableau derrière les combattants.
+Pour cela nous utilisons la **Kinect** de la Xbox One qui **capte les mouvements** du combattant. Puis nous récupérons ces données et vérifions certaines **conditions** dans un **fichier python** qui **déclenche** alors les **animations** associées (mp4) projetées sur le mur/tableau derrière les combattants.
 
 ## Contexte
 
-Nous avons eu cette idée en partant d’un **rêve d’enfant** commun issu du dessin animé **Avatar le dernier maître de l’air**. Nous avons tous les 3 un jour rêvés de voir des boules de feu jaillir de nos coups de poings.
+Nous avons eu cette idée en partant d’un **rêve d’enfant** commun issu du dessin animé **Avatar le dernier maître de l’air**. Nous avons tous les 3 un jour rêvé de voir des boules de feu jaillir de nos coups de poing.
 
 ## Cadrage
 
-Dans le thème **Informatique dans l’art et art dans l’informatique**, nous avons lié **arts martiaux** et **art audio-visuels**. Appuyés et conseillés par Guillaume LAURIE, nous avons d'abord fixé nos **principales deadlines** ce qui nous a permis de fonctionner sous forme d'**itérations** en fixant chaque semaine les **objectifs pour la réunion suivante** ; ainsi que sur les compétences et appétences de chacun :  
+Dans le thème **Informatique dans l’art et l'art dans l’informatique**, nous avons lié **arts martiaux** et **art audio-visuels**. Appuyés et conseillés par Guillaume LAURIE, nous avons d'abord fixé nos **principales deadlines** ce qui nous a permis de fonctionner sous forme d'**itérations** en fixant chaque semaine les **objectifs pour la réunion suivante** ; ainsi que sur les compétences et appétences de chacun :  
 
 - Kévin : Animation & Responsable programmation  
 - Clarisse : Etude de mouvements, Programmation & Responsable de séance  
