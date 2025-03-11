@@ -40,8 +40,8 @@ Quelques phrases permettant de connaître, sans jargon ni blabla, le contenu de 
 
 #### Sprint 2
 
-- [ ] Continuer documentation libraries Python
-- [ ] Analyse de données et réponse aux questions formulées
+- [x] Continuer documentation libraries Python
+- [x] Analyse de données et réponse aux questions formulées
 - [ ] Data Visualisation
 
 ### Horodatage
@@ -54,8 +54,12 @@ Toutes les séances et le nombre d'heure que l'on y a passé.
 | Mercredi 22/01 | 2H             | Recherche données et nettoyage / préparation                       |
 | Dimanche 26/01 | 3H             | Nettoyage / préparation données et documentation librairies Python |
 | Mercredi 29/01 | 1H             | Documentation Python et début code                                 |
-
-Il n'y a pas 10h et mon demi-POK n'est pas aussi avancé que ce que je souhaiterai car je dois trouver un stage, ça me stresse mais ça va aller.
+| Mercredi 19/02 | 2H             | Documentation Bibliothèques Python                                 |
+| Jeudi 20/02    | 2H             | Premiers graphes                                                   |
+| Vendredi 21/02 | 2H             | Suites graphes                                                     |
+| Samedi 01/03   | 3H             | Suite graphes et autres jeux de données                            |
+| Vendredi 07/03 | 2H             | Suite                                                              |
+| Mardi 11/03    | 1H             | Rédaction                                                          |
 
 ## Contenu
 
@@ -122,3 +126,89 @@ Une fois que j'ai refait mes tableaux tout beaux et bien structurés, je me suis
 L’objectif est maintenant d’appliquer ces outils à mon jeu de données et de produire mes premières visualisations et analyses.
 
 ### Second Sprint
+
+Dans ce second sprint, j'ai continué la documentation sur les différentes librairies python utiles pour l'analyse de données. J'ai notamment regader les cours de M. Brucker pour me guider car je ne savais pas par où commencer.
+
+Ensuite, je suis passée aux graphiques. En voici deux exemples:
+
+```
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+
+dares_path = "./DARES"
+insee_path = "./INSEE"
+
+
+def load_csv_from_folder(folder_path):
+    dataframes = {}
+    for filename in os.listdir(folder_path):
+        if filename.endswith('.csv'):
+            file_path = os.path.join(folder_path, filename)
+            df = pd.read_csv(file_path, sep=';')
+            df.replace('NR', pd.NA, inplace=True)
+            for col in df.columns:
+                try:
+                    df[col] = pd.to_numeric(df[col].str.replace(',', '.'), errors='raise')
+                except (ValueError, AttributeError):
+                    pass
+            dataframes[filename[:-4]] = df
+    return dataframes
+
+dares_data = load_csv_from_folder(dares_path)
+insee_data = load_csv_from_folder(insee_path)
+
+
+# Nombre de grèves en fonction de la taille de l'entreprise
+
+greve_taille = dares_data['Grève taille entreprise']
+
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Taille', y='2022', data=greve_taille, color='#DB7093')
+plt.title('Nombre de grèves en fonction de la taille de l\'entreprise en 2022')
+plt.xlabel('Taille de l\'entreprise')
+plt.ylabel("% d'entreprises ayant déclaré au moins une grève")
+plt.show()
+
+# Comparaison entre les différents secteurs d'activité
+
+greve_construction = dares_data['Grève secteur construction']
+greve_industrie = dares_data['Grève secteur industrie']
+greve_tertiaire = dares_data['Grève secteur tertiaire']
+
+greve_construction_2022 = greve_construction[['Entreprises', '2022']]
+greve_industrie_2022 = greve_industrie[['Entreprises', '2022']]
+greve_tertiaire_2022 = greve_tertiaire[['Entreprises', '2022']]
+
+industrie_total_2022 = greve_industrie_2022[greve_industrie_2022['Entreprises'] == 'Industrie total']
+tertiaire_total_2022 = greve_tertiaire_2022[greve_tertiaire_2022['Entreprises'] == 'Activités tertiaires total']
+
+greve_construction_2022['Secteur'] = 'Construction'
+industrie_total_2022['Secteur'] = 'Industrie'
+tertiaire_total_2022['Secteur'] = 'Tertiaire'
+
+greve_secteurs_2022 = pd.concat([greve_construction_2022, industrie_total_2022, tertiaire_total_2022], ignore_index=True)
+
+
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Secteur', y='2022', data=greve_secteurs_2022, palette=['#FF69B4', '#C71585', '#DB7093'])
+plt.title('Comparaison des taux de grèves par secteur en 2022')
+plt.xlabel('Secteur')
+plt.ylabel('Taux de grèves (%)')
+plt.show()
+```
+
+Ce qui nous donne les graphes suivants:
+
+![Graphe 1](greve_taille_entreprise.png)
+On voit bien que plus l'entreprise compte de salariés, plus elle compte de grèves
+
+![Graphe 2](greve_secteur.png)
+Comme historiquement, le secteur de l'industrie est celui qui compte le plus de grèves.
+
+Aussi, j'ai touché à d'autres jeux de données et notamment ceux de la SNCF qui sont présentés différemments et plus précis.
+
+## Analyse Post-Mortem
+
+J'ai pas du tout aimé mon POK, j'ai eu du mal à m'y mettre à chaque fois et à avancer. Je pense que l'une des raisons est que je n'y connaissais rien et je ne savais pas par où commencer, j'avais 0 bases. Je m'y suis mal prise j'aurais dû demander de l'aide. Sinon juste je pense que ça ne m'a pas intéressée aussi et c'est pour ça que c'était compliqué d'avancer. Enfin, le thème des données était intéressant et j'ai aimé avoir des chiffres en tête sur ces sujets là et en apprendre plus mais pas faire avec Python.
