@@ -207,11 +207,15 @@ Le poster suivant présente le projet de manière synthétique.
 {% enddetails %}
 {% details "Maquette Figma" %}
 Le travail préalable réalisé sur le visuel de la  maquette MusiCoach est disponible au lien suivant. 
-[Maquete Figma](https://www.figma.com/design/NDTguwFNrAT1nlXU8WpYvQ/MusiCoach?node-id=0-1&p=f&t=8PYw28xQvDkmQYgJ-0)
-{% enddetails %}
+[Maquette Figma](https://www.figma.com/design/NDTguwFNrAT1nlXU8WpYvQ/MusiCoach?node-id=0-1&p=f&t=8PYw28xQvDkmQYgJ-0)
+{% enddetails %} 
 {% details "Vidéo de présentation du site" %}
 Une vidéo de présentation du site est disponible au lien suivant. 
 [Repo GitHub](https://github.com/guillaumeeeeeeeee/MusiCoach)
+{% enddetails %}
+{% details "Diaporama soutenance" %}
+Le diaporama de notre soutenance est disponible au lien suivant. 
+[Diaporama soutenance](https://www.canva.com/design/DAGgOoE4Ae0/ia-werx5Q6OiIxmsPuBlhg/edit)
 {% enddetails %}
 
 ## Analyse Post Mortem
