@@ -199,18 +199,19 @@ Les principales difficultés rencontrées ont été :
 ## Livrables
 {% details "GitHub" %}
 Le GitHub est disponible au lien suivant. 
-https://github.com/guillaumeeeeeeeee/MusiCoach
+[Repo GitHub](https://github.com/guillaumeeeeeeeee/MusiCoach)
 {% enddetails %}
 {% details "Poster" %}
 Le poster suivant présente le projet de manière synthétique. 
+![Poster](Images/481334068_2062262480904416_2587754589746254155_n.png)
 {% enddetails %}
 {% details "Maquette Figma" %}
 Le travail préalable réalisé sur le visuel de la  maquette MusiCoach est disponible au lien suivant. 
-https://www.figma.com/design/NDTguwFNrAT1nlXU8WpYvQ/MusiCoach?node-id=0-1&p=f&t=8PYw28xQvDkmQYgJ-0
+[Maquete Figma](https://www.figma.com/design/NDTguwFNrAT1nlXU8WpYvQ/MusiCoach?node-id=0-1&p=f&t=8PYw28xQvDkmQYgJ-0)
 {% enddetails %}
 {% details "Vidéo de présentation du site" %}
 Une vidéo de présentation du site est disponible au lien suivant. 
-https://github.com/guillaumeeeeeeeee/MusiCoach
+[Repo GitHub](https://github.com/guillaumeeeeeeeee/MusiCoach)
 {% enddetails %}
 
 ## Analyse Post Mortem
