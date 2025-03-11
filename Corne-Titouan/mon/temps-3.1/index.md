@@ -564,7 +564,7 @@ GitHub Copilot m'a grandement aidé pour développer la fin du jeu de **morpion*
 
 ### Ma question
 
-For the moment I didn't write anything to end the game ... What do you suggest ?
+For now, I haven't written anything to end the game ... What do you suggest ?
 
 ### La réponse de GitHub Copilot Chat
 
