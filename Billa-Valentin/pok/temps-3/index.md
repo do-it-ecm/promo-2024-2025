@@ -536,7 +536,7 @@ puis au fur et à mesure que le coin se rempli, j'élargis la fenêtre. Cet ajou
 une grille 1000x1000 en quelques secondes.
 
 {% chemin "**GROS Labyrinthe**" %}
-Voici un [labyrinthe 1000x1000](images/maze_1000x1000.png) généré par mon algorithme.
+Voici un [labyrinthe 1000x1000](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/refs/heads/main//Billa-Valentin/pok/temps-3/images/maze_1000x1000.png) généré par mon algorithme.
 J'ai ensuite fait passer l'image dans l'utilitaire `pngcrush` pour réduire la taille de
 l'image de 4Mo à 700ko.
 
