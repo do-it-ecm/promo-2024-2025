@@ -160,7 +160,7 @@ J'ai contacté le responsable matériel de l'UA pour lui faire valider la liste 
 Le matériel est ensuite autorisé à travers le dossier COMA. L'UA fait payer 20€ de frais de prêt, et 1000€ de caution.
 
 {% chemin "Dossier COMA" %}
-[Dossier COMA rempli à partir du template de l'UA](files/coma_barbecue-do_it.pdf)
+[Dossier COMA rempli à partir du template de l'UA](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/refs/heads/main//Billa-Valentin/mon/temps-3.2/files/coma_barbecue-do_it.pdf)
 {% endchemin %}
 
 En parlant de COMA, j'ai aussi contacté le responsable event de l'UA pour faire transmettre la demande. Ils
