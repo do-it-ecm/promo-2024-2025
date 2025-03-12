@@ -550,12 +550,15 @@ L'intérêt d'Alpine est que c'est un OS ultra léger, qui ne contient que le st
 Ce script permet d'exécuter d'une traite toutes les configurations pour la machine virtuelle (en supposant que le `setup-alpine` est déjà **fait**).
 ```sh
 #!/bin/sh
-apk update && \
-apk upgrade && \
-apk add --no-cache nginx git python3 openrc && \
-rm -rf /var/cache/apk/* && \
-mkdir -p /opt/do-it/jobs && \
-echo "Creating the nginx configuration file in /etc/nginx/nginx.conf" && \
+
+set -e
+
+apk update
+apk upgrade
+apk add --no-cache nginx git python3 openrc
+rm -rf /var/cache/apk/*
+mkdir -p /opt/do-it/jobs
+echo "Creating the nginx configuration file in /etc/nginx/nginx.conf"
 cat <<'EOF' > /etc/nginx/nginx.conf
 user nginx;
 worker_processes auto;
@@ -636,7 +639,7 @@ http {
 }
 EOF
 
-echo "Creating the synchronizer script in /opt/do-it/jobs/synchronizer.sh" && \
+echo "Creating the synchronizer script in /opt/do-it/jobs/synchronizer.sh"
 cat <<'EOF' > /opt/do-it/jobs/synchronizer.sh
 #!/bin/sh
 
@@ -654,14 +657,14 @@ log_with_timestamp() {
   done
 }
 
-cd ${DO_IT_PATH} && \
-GIT_ORIGIN_URL="$(git remote get-url origin)" && \
-git fetch origin ${REMOTE_BRANCH} 2>&1 | log_with_timestamp | tee -a ${LOG_FILE} && \
-git reset --hard origin/${REMOTE_BRANCH} 2>&1 | log_with_timestamp | tee -a ${LOG_FILE} && \
+cd ${DO_IT_PATH}
+GIT_ORIGIN_URL="$(git remote get-url origin)"
+git fetch origin ${REMOTE_BRANCH} 2>&1 | log_with_timestamp | tee -a ${LOG_FILE}
+git reset --hard origin/${REMOTE_BRANCH} 2>&1 | log_with_timestamp | tee -a ${LOG_FILE}
 echo "Synchronized with the remote origin ${GIT_ORIGIN_URL} ${REMOTE_BRANCH} branch" 2>&1 | log_with_timestamp | tee -a ${LOG_FILE}
 EOF
 
-echo "Creating the server script in /opt/do-it/jobs/server.py" && \
+echo "Creating the server script in /opt/do-it/jobs/server.py"
 cat <<'EOF' > /opt/do-it/jobs/server.py
 # coding: utf-8
 """
@@ -823,7 +826,7 @@ if __name__ == "__main__":
     main()
 EOF
 
-echo "Creating the init script in /etc/init.d/do-it-webserver" && \
+echo "Creating the init script in /etc/init.d/do-it-webserver"
 cat <<'EOF' > /etc/init.d/do-it-webserver
 #!/sbin/openrc-run
 name="do-it-webserver"
@@ -844,22 +847,22 @@ error_log="${logfile}"
 command_background="yes"
 EOF
 
-echo "Creating the web server service script in /usr/local/bin/do-it-webserver.sh" && \
+echo "Creating the web server service script in /usr/local/bin/do-it-webserver.sh"
 cat <<'EOF' > /usr/local/bin/do-it-webserver.sh
 #!/bin/sh
 python3 /opt/do-it/jobs/server.py --update-script /opt/do-it/jobs/synchronizer.sh --github-repo-owner do-it-ecm --github-repo do-it --github-branch gh-pages --secret-token EXAMPLETOKEN --log-file /opt/do-it/logs/server.log --port 3001
 EOF
 
-echo "Cloning the do-it repository" && \
-git clone --branch gh-pages --single-branch https://github.com/do-it-ecm/do-it.git /opt/do-it/do-it && \
-echo "Setting permissions" && \
-rc-update add nginx default && \
-chmod +x /usr/local/bin/do-it-webserver.sh && \
-chmod +x /etc/init.d/do-it-webserver && \
-rc-update add do-it-webserver default && \
+echo "Cloning the do-it repository"
+git clone --branch gh-pages --single-branch https://github.com/do-it-ecm/do-it.git /opt/do-it/do-it
+echo "Setting permissions"
+rc-update add nginx default
+chmod +x /usr/local/bin/do-it-webserver.sh
+chmod +x /etc/init.d/do-it-webserver
+rc-update add do-it-webserver default
 (crontab -l 2>/dev/null; echo "*/15 * * * * sh /opt/do-it/jobs/synchronizer.sh") | crontab -
-sleep 5 && \
-echo "Starting the services" && \
+sleep 5
+echo "Starting the services"
 rc-service nginx start
 rc-service do-it-webserver start
 ```
