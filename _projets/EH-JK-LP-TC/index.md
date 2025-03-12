@@ -48,9 +48,9 @@ Nous proposons notamment une visualisation de celles-ci via notre site internet,
 
 Enfin, nous fournissons notre code, qui permet à chacun disposant d’un compte Météo France (gratuit) de réaliser les œuvres pour la ville et la date de son choix.
 
-## Organisation du projet 
+## Organisation du projet
 
-### Méthode projet 
+### Méthode projet
 
 Nous avons réalisé ce projet en mode **agile**, car c’est ce qui nous a paru le plus adapté à ce projet informatique, qui devait être réalisé dans un temps limité de 6 mois. Nous avons réalisé des runs d’une durée moyenne de 1 à 2 semaines. Au début de chaque run, nous avons fait le bilan du run précédent et nous avons défini nos objectifs pour le run en cours.  
 
@@ -62,16 +62,16 @@ Le bien-être au travail étant essentiel pour notre équipe, chaque réunion de
 
 {% endinfo %}
 
-### Planning 
+### Planning
 
 Travaillant en mode agile, nous n’avions pas défini de planning strict pour chaque semaine, mais plutôt de grandes deadlines avec, à chaque fois, un objectif à atteindre pour pouvoir obtenir le résultat final mi-mars.  
 
 - Fin octobre : avoir une première version du code fonctionnel (visuel des oeuvres)
 - Fin novembre : être capable d’exploiter la base de données  
-- Fin décembre : avoir une première œuvre présentable via requête API 
-- Fin du projet : rendu final (site web) 
+- Fin décembre : avoir une première œuvre présentable via requête API
+- Fin du projet : rendu final (site web)
 
-### Outils de travail 
+### Outils de travail
 
 Nous avons travaillé majoritairement avec deux outils collaboratifs, à savoir **GitHub** et **Google Drive**.  
 
@@ -93,9 +93,9 @@ Notre premier livrable concerne nos œuvres générées dans un premier temps po
 
 #### Nos premières idées
 
-Pour l’aspect ésthétique de nos œuvres, nous avons fait plusieurs propositions à notre tuteur, avant de nous décider au sein de l’équipe projet sur le visuel définitif. 
+Pour l’aspect ésthétique de nos œuvres, nous avons fait plusieurs propositions à notre tuteur, avant de nous décider au sein de l’équipe projet sur le visuel définitif.
 
-Voici une galerie non exhaustive des idées que nous avons pu proposer en jouant avec nos différents paramètres et les différentes fonctionnalités de Python : 
+Voici une galerie non exhaustive des idées que nous avons pu proposer en jouant avec nos différents paramètres et les différentes fonctionnalités de Python et de la bibliothèque Pillow :
 
 | ![Visuel 1](./images/visuel1.png) | ![Visuel 2](./images/visuel2.png) | ![Visuel 3](./images/visuel3.png) |
 |------------------------------------|------------------------------------|------------------------------------|
@@ -124,13 +124,13 @@ Le **vent** est représenté moyenné sur la journée. En effet, on va venir moy
 
 La **pluie** est représentée par la somme de millimètres de pluie sur la journée. Selon cette somme, on va venir blanchir ou ajouter des traits blancs sur un certain pourcentage de l’image du jour via une proportionnalité préalablement établie.
 
-La succession de ces différents paramètres donne par exemple les résultats suivants, rapidement décryptés : 
+La succession de ces différents paramètres donne par exemple les résultats suivants, rapidement décryptés :
 
-11/08/2024 Marseille : temperature élévée, lumineux, vent orienté Est léger, pas de pluie 
+11/08/2024 Marseille : temperature élévée, lumineux, vent orienté Est léger, pas de pluie
 
 ![Marseille_1](./images/marseille_2024_08_11.png)
 
-19/11/2024 Paris : temperature plutôt basse, sombre, vent orienté Est plus fort, pluie modérée 
+19/11/2024 Paris : temperature plutôt basse, sombre, vent orienté Est plus fort, pluie modérée
 
 ![Paris_1](./images/paris_2024_11_19.png)
 
@@ -142,7 +142,7 @@ La succession de ces différents paramètres donne par exemple les résultats su
 
 ![Marseille_2](./images/marseille_2024_04_10.png)
 
-### Le code 
+### Le code
 
 En plus de ces images, nous fournissons le code qui permet de générer séparément chacune d’entre elles.
 
@@ -260,13 +260,14 @@ Nous avons pu fortement progresser sur nos compétences techniques, notamment su
 - **API et token**  
 - **HTML**  
 - **CSS**  
-- **GitHub** pour le travail collaboratif 
+- **GitHub** pour le travail collaboratif
 
 **Pour Titouan :**
 Le fait de décortiquer et d'utiliser les endpoints exposés par Météo-France m'a permis de me sentir plus à l'aise avec les concepts d'API. J'ai également été amené à réfléchir pour trouver la solution la plus adaptée à notre situation. Par exemple, pour la génération automatique des œuvres, j'ai d'abord choisi d'écrire une tâche CRON exécutée chaque jour. Bien que cette solution n'ait finalement pas été retenue, cette idée m'a permis d'acquérir de nouvelles compétences.
-Ensuite, le fait de générer les œuvres en Python en utilisant la bibliothèque *Pillow* m'a permis de réactiver et de renforcer mes connaissances dans ce langage de programmation. À cela s'ajoute la découverte de FastAPI qui, comme son nom l'indique, permet de créer une API en Python de manière rapide et efficace. J'ai beaucoup appris en codant le backend et en déployant le site sur le serveur *aioli*. 
+Ensuite, le fait de générer les œuvres en Python en utilisant la bibliothèque *Pillow* m'a permis de réactiver et de renforcer mes connaissances dans ce langage de programmation. À cela s'ajoute la découverte de FastAPI qui, comme son nom l'indique, permet de créer une API en Python de manière rapide et efficace. J'ai beaucoup appris en codant le backend et en déployant le site sur le serveur *aioli*.
 Par ailleurs, je me sens désormais bien plus à l'aise avec la gestion d'un environnement virtuel ainsi qu'avec l'utilisation des outils ssh et tmux.
-**Pour Lola : **
+
+**Pour Lola :**
 Tout comme Titouan, la première partie du projet fut l’occasion pour moi de renforcer mes connaissances en **Python** et de me familiariser avec la **notion d’API** qui était nouvelle pour tout le monde.
 Quant à la deuxième partie, ayant déjà réalisé plusieurs projets web se limitant au front-end, ce fut pour moi l’occasion d’aller plus loin dans mon apprentissage en m’initiant à la pratique du développement **back-end**. Ces nombreuses heures de pratique (dont beaucoup de débogage) m’ont permis de me sentir bien plus à l’aise avec ces notions.
 
@@ -293,7 +294,7 @@ Ce projet était le dernier d’une longue liste de projets réalisés pendant n
 - **Un projet plus abstrait** : ce qui peut parfois être démotivant. Passer 4 heures à essayer de corriger un bug sans succès peut donner l’impression de perdre son temps.  
 - **Application de la méthodologie agile** : nous connaissions déjà bien l’agile, mais ce projet nous a permis de l’expérimenter dans son domaine d’origine : l’informatique.
 
-**Pour Lola :** 
+**Pour Lola :**
 
 Bien qu’ayant déjà eu des projets informatiques en équipes, celui-ci se distinguait par sa durée et par la quantité de travail à fournir. La collaboration sur GitHub a été plus difficile à mettre en place que nous avions imaginé, et même si le travail est aussi en quelque sorte personnel, nous avons tout de même bien réussi à nous entraider pour résoudre les problèmes des uns et des autres grâce aux forces et aux faiblesses de chacun. Le sérieux de chacun et la régularité que nous avons appliqué à notre travail tout au long du projet est une réussite vis-à-vis de la gestion de celui-ci, mais aussi, nous avons pu bénéficier de l’expérience un peu plus fournie de Esther et Juliette sur les méthodologies de gestion de projet qui nous ont aidé à bien cadrer les choses dès le début.
 
