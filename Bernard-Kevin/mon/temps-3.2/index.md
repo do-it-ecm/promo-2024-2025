@@ -36,7 +36,7 @@ résumé: ""
 ## Table des matières
 
 1. [Introduction](#section1)
-2. [Qu'elles sont les grandes étapes pour créer une interface répondant à des besoins ?](#section2)
+2. [Quelles sont les grandes étapes pour créer une interface répondant à des besoins ?](#section2)
 3. [Quel est le cadre du projet ? ses limites ?](#section3)
 4. [Quel est le public cible ?](#section4)
 5. [Comment utilisé les informations et les ressources ?](#section5)
@@ -53,7 +53,7 @@ Ce MON retrace ma démarche pour répondre à cette question. Je le fais pour un
 
 Je vais m'inspirer des cours (UI/UX, UI/UX avancé, UX design/expression du besoin et Services Design) que j'ai eu sur le sujet avant d'approfondir le contenu avec mes recherches. Je m'intéresse seulement à la partie UI/UX et non pas au développement frontend.
 
-## 2. Qu'elles sont les grandes étapes pour créer une interface répondant à des besoins ? <a id="section2"></a>
+## 2. Quelles sont les grandes étapes pour créer une interface répondant à des besoins ? <a id="section2"></a>
 
 La première chose que je me demande c'est quelles sont les étapes pour créer une interface ? Qu'est-ce que l'on retrouve dans les différentes approches du design UI/UX.
 
@@ -173,7 +173,7 @@ Elle est composée de 3 parties : As a **type of user**, I want **action** so th
 
 Plus de détails [ici](https://userpilot.com/blog/user-journey-vs-user-story/#:~:text=A%20user%20journey%20is%20represented,%2C%20%5Bso%20that%5D.%E2%80%9D).
 
-## 5. Comment utilisé les informations et les ressources ? <a id="section5"></a>
+## 5. Comment utiliser les informations et les ressources ? <a id="section5"></a>
 
 On a les informations, les ressources, les contraintes, les objectifs, les personas et les user stories. Il est temps de passer à la création de l'interface.
 
@@ -238,6 +238,10 @@ Il faut toujours essayer de respecter les principes suivants :
 - Feedback : donne un retour à l'utilisateur sur ses actions
 
 <!-- ![alt text](media/image.png "Graphique de la création d'une interface de Jesse James Garrett dans son article The Elements of User Experience") -->
+
+### Outils
+
+Pour la création du Zoning/Wireframe, du Kit UI et du Mockup, je recommande [Figma](https://www.figma.com/) et pour le User Flow vous pouvez prendre ce que vous voulez, je conseille des sites similaire à [Mermaid](https://www.sketch.com/) ou bien [Miro](https://miro.com/).
 
 ---
 
