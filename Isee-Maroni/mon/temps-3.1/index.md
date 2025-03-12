@@ -53,10 +53,16 @@ Cette procédure, très répétitive et impliquant de nombreuses lignes de donn�
 
 En cas de retard accumulé sur l’année précédente, il devient crucial de prioriser les envois. Par exemple, il peut être nécessaire d’organiser l’envoi par vagues, en traitant d’abord toutes les demandes du deuxième trimestre 2024. Une fois les paiements reçus, les demandes des troisième et quatrième trimestres peuvent être envoyées progressivement. Ce mécanisme garantit une gestion plus fluide et évite les retards supplémentaires.
 
+## Vidéo de démonstration de la version finale
+
+<video controls autoplay loop>
+  <source src="./MON3.1_Facturation_fonctionnalites_V2.mov" type="video/mp4"/>
+</video>
+
 
 ## Premiers Pas
 
-Pour découvrir les premières fonctionnalités utiles d'APPS Script, ainsi qu'un aperçu des diverses applications possibles, j'ai visionné cette vidéo.
+Pour découvrir les premières fonctionnalités utiles d'Apps Script, ainsi qu'un aperçu des diverses applications possibles, j'ai visionné cette vidéo.
 
 {% lien %}
 - [`Google Apps Script Comment ça marche ?`](https://www.youtube.com/watch?v=peE-2UrqEbI) de *Bande de Codeurs*
