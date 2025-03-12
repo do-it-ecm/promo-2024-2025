@@ -14,7 +14,8 @@ tags:
 - Python
 - SQLite
 
-résumé: Ce POK vise à créer une application graphique de gestion des taches avec PyQt, où je vais apprendre à concevoir une interface utilisateur, y intégrer une base de données SQLite pour gérer des données dynamiques Personnaliser l'apparence avec des styles QSS.
+résumé: Ce POK vise à créer une application graphique de gestion des tâches avec PyQt et SQLite, en adoptant le modèle Kanban. L'application permet de gérer des tableaux, des listes et des cartes, avec des fonctionnalités comme le glisser-déposer, la gestion des échéances et l'ajout d'éléments visuels (étiquettes, checklists, pièces jointes). L'architecture du projet repose sur un modèle MVC qui permet une séparation entre la gestion des données, la logique métier et l'interface utilisateur. L'affichage est personnalisé avec QSS dans un thème dark moderne.
+
 ---
 
 {% prerequis %}
@@ -25,20 +26,20 @@ résumé: Ce POK vise à créer une application graphique de gestion des taches 
 {% endprerequis %}
 {% lien %}
 
-- [MON de Duc]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1/)
-- [POK de Duc]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/pok/temps-1/)
+- [MON de Duc DANG VU]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1/)
+- [POK de Duc DANG VU]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/pok/temps-1/)
 
 {% endlien %}
 
 
 ### Objectifs principaux
 
-1. **Créer une interface utilisateur avec PyQt**, permettant la gestion de tableaux et de cartes dynamiques.
+1. Développer une interface avec PyQt en structurant le projet selon l’architecture MVC pour séparer l’interface graphique la gestion des données et la logique métier.
 
-3. **Implémenter la base de données SQLite** pour assurer la conservation des données entre les sessions.
-
-4. **Ajouter du design** à l’aide de QSS pour la personnalisation des interfaces.
-
+3. Implémenter un système de glisser-déposer (drag & drop) permettant de déplacer les cartes entre les listes sans bloquer l’interface.
+4. Gérer les données avec SQLite pour stocker les tableaux, listes, cartes, étiquettes et échéances.
+5. Avoir un design responsive avec QSS pour la personnalisation.
+   
 ---
 
 ### Recueil des besoins
@@ -58,7 +59,7 @@ résumé: Ce POK vise à créer une application graphique de gestion des taches 
 
 {% note %}
 
-Les fonctionnalités minimales identifiées incluent la gestion de tableaux dynamiques et la possibilité d’ajouter et modifier des cartes associées.
+Parmi les fonctionnalités minimales on a la gestion de tableaux dynamiques et la possibilité d’ajouter et modifier des cartes associées.
 
 {% endnote %}
 
@@ -70,6 +71,13 @@ Les fonctionnalités minimales identifiées incluent la gestion de tableaux dyna
 - La gestion des cartes et des tableaux doit rester rapide et réactive.
 
 - Le design doit être uniforme.
+
+---
+
+{% faire "Quelques réglages a faire avant le début" %}
+- Installer PyQt 5 et SQLite sur ma machine.
+- Installer la dernière version de Python
+{% endfaire %}
 
 ---
 
@@ -117,19 +125,24 @@ Chaque sprint répond à une **question principale**.
 
 #### Activités réalisées
 
-1. **Étude et expérimentation des composants de PyQt**
+1. **Étude des composants de PyQt**
 
- Découverte des **widgets** et de leur rôle dans la construction d'interfaces graphiques.
+<!-- {% attention %}
+Avant de commencer ce sprint, je me suis assuré d'avoir environnement correctement configuré :
+- **Python** (>= 3.13.2)
+- **SQLite3** (inclus avec Python, mais qu'on peut vérifier avec `sqlite3 --version`)
 
- **Widgets étudiés sont** :
+{% endattention %} -->
+
+ Pour cette partie, j'ai fait une découverte des **widgets** et de leur rôle dans la construction d'interfaces graphiques.
+
+ **Nous avons comme Widgets** :
 
 - `QWidget`  qui est le conteneur de base.
 
 - `QPushButton` qui sont les boutons interactifs.
 
 - `QLabel` qui affiche les textes et les images.
-
- **Objectif :** Comprendre comment assembler ces widgets pour structurer une interface.
 
 {% details "Exemple - Création de widgets de base" %}
 
@@ -155,11 +168,11 @@ Ce code crée une fenêtre simple avec un bouton et un label empilés verticalem
 
 {% enddetails %}
 
-1. **Création d’un layout structuré pour afficher des tableaux**
+#### 1. **Création d’un layout structuré pour afficher des tableaux**
 
-- Utilisation de `QHBoxLayout` pour organiser les widgets horizontalement (exemple : plusieurs tableaux).
+- On utilise `QHBoxLayout` pour organiser les widgets horizontalement (exemple : plusieurs tableaux).
 
-- Mise en place d’un **conteneur** qui permet d’ajouter ou de supprimer des widgets.
+- Puis on met en place d’un **conteneur** qui permet d’ajouter ou de supprimer des widgets.
 
 {% details "Exemple - Organisation de widgets avec QHBoxLayout" %}
 
@@ -183,9 +196,9 @@ Chaque bouton représente un tableau dans l’interface utilisateur.
 
 {% enddetails %}
 
-1. **Gestion des événements utilisateur avec les signaux et slots**
+#### 2. **Point sur la gestion des événements utilisateur avec les signaux et slots**
 
-- Connexion des actions utilisateur aux fonctions Python via des **signaux**.
+- Pour une meilleur gestion des événements, on effectue une connexion des actions utilisateur aux fonctions Python via des **signaux**.
 
  Exemple : Ajouter un tableau lorsqu’un bouton est cliqué.
 
@@ -205,11 +218,15 @@ Lorsque le bouton est cliqué, la fonction `ajouter_tableau` est déclenchée.
 
 {% enddetails %}
 
-1. **Apprentissage et application des styles QSS**
+#### 3. **Apprentissage et application des styles QSS (Qt Style Sheets)**
 
-- Utilisation de QSS pour personnaliser l’apparence des boutons, labels, et arrière-plans.
+- QSS fonctionne comme du CSS, permettant de styliser des widgets PyQt de manière plus détaillée. Cela permet de personnaliser les boutons, labels, arrière-plans et autres composants sans toucher directement au code PyQt.
 
-- Définition d’un fichier `main.qss` pour centraliser les styles.
+- On peut modifier l’apparence des boutons (QPushButton), en appliquant des couleurs personnalisées, des bordures arrondies ainsi que d'autres effets.
+
+- On peut aussi utilisé un pseudo-classes, comme :hover, pour modifier l’apparence des boutons lorsqu’un utilisateur passe la souris dessus. 
+
+- J’ai vu l’intérêt de séparer les styles QSS dans un fichier externe plutôt que de les définir directement dans le code PyQt, ce qui facilite les modifications et la maintenance du design sans impacter la logique métier.
 
 {% details "Exemple - Stylisation avec QSS" %}
 
@@ -239,21 +256,23 @@ Le bouton change de couleur lorsque la souris passe dessus.
 
 {% enddetails %}
 
+- Pour ce projet, j'ai définition un fichier `main.qss` pour centraliser les styles.
+
 ---
 
-{% details "Ce que j'ai appris avec PyQt et les layouts" %}
+{% details "Ce que j'ai appris sur ce Sprint" %}
 
 1. **Composants de base PyQt :**
 
 - **QWidget**, le composant de base pour créer une fenêtre ou un conteneur.
 
-- **QHBoxLayout**,  permet d’organiser les widgets horizontalement, ce qui est idéal pour une interface basée sur des ligne, comme Trello.
+- **QHBoxLayout**  permet d’organiser les widgets horizontalement, ce qui est idéal pour une interface basée sur des ligne, comme sur mon projet Pytrello.
 
-- **QPushButton** et **QLabel**, utilisés pour les interactions utilisateur de base.
+- **QPushButton** et **QLabel** sont utilisés pour les interactions utilisateur de base.
 
 2. **Gestion des layouts :**
 
-- Si on utilise un `QVBoxLayout` imbriqué dans un `QHBoxLayout`, on peut organiser efficacement des colonnes dynamiques, par exemple pour afficher des listes de cartes sous forme de tableaux.
+- Si on utilise un `QVBoxLayout` imbriqué dans un `QHBoxLayout`, on peut organiser des colonnes de maniere dynamique, par exemple pour afficher des listes de cartes sous forme de tableaux.
 
 - Les marges et les espacements (`setContentsMargins`, `setSpacing`) permettent d'ajuster précisément l'apparence.
 
@@ -267,29 +286,36 @@ Le bouton change de couleur lorsque la souris passe dessus.
 
 - **POK et Mon de Duc** pour comprendre comment structurer les interfaces de manière modulaire (lien au niveau des sources).
 
-- **Vidéos YouTube sur PyQt** pour les démonstrations pratiques des layouts et widgets (lien, voir la partie sources).
-
 {% enddetails %}
 
----
 
 ### Analyse post-mortem
 
 - **Points forts :** Maîtrise des bases de PyQt et de QSS, premier prototype fonctionnel.
 
-- **Points faibles :** Temps sous-estimé pour la personnalisation des styles.
+- **Points faibles :** Temps sous-estimé pour la personnalisation des styles pour le premier prototype fonctionnel.
 
-- **Amélioration :** Prévoir un temps supplémentaire pour ajuster le design.
+- **Amélioration :** Prévoir un temps supplémentaire pour ajuster le design pour le sprint 2.
 
 {% info "Objectif clé réussi" %}
    Comprendre comment organiser et structurer une interface graphique avec PyQt.
    {% endinfo %}
 
-   {% note %} Les connaissances acquises dans ce sprint serviront de base pour intégrer des fonctionnalités dans les sprints futurs. {% endnote %}
+   {% note %} Les connaissances acquises dans ce sprint serviront de base pour intégrer des fonctionnalités dans le sprint futur. {% endnote %}
 
 ---
 
+A la fin de ce sprint, mon code a ete organise ainsi(architecture MVC) : 
+  
+ - **main. py** le point d'entrée de l'application
+- **main_window.py** la fenêtre principale qui gère les différentes vues
+- **Dossier components/** les Widgets réutilisables (cartes, listes, etc.)
+- **Dossier views/** les vues principales de l'application
+- **Dossier models/** les modèles de données
+- **Dossier utils/** les utilitaires divers
+- **Dossier assets/** les ressources (styles, images, polices)
 
+  
 {% details "Livrable du sprint 1" %}
 
 La page de connexion:
@@ -302,14 +328,11 @@ La première page:
 
 {% enddetails %}
 
- ## Sources :
-{% lien %}
-- [Documentation officielle PyQt ](https://doc.qt.io/qtforpython-6/)
-- [MON de Duc]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1/)
-- [POK de Duc]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/pok/temps-1/)
-- [PyQt5 tutorial - login Form](https://www.youtube.com/watch?v=SfeqGZ_x9kc)
-{% endlien %}
-<!--
+{% note %}
+L'un des défis majeurs de ce sprint a été l'optimisation du placement des widgets. J'avais besoin d'une bonne gestion des layouts pour éviter des problèmes d'affichage.
+{% endnote %}
+
+
 ### Sprint 2 : **Comment intégrer une base de données SQLite et gérer les événements utilisateur ?**
 
 **Objectifs :**
@@ -334,328 +357,139 @@ La première page:
 
 {% details "Détails des activités du Sprint 2" %}
 
-| Date | Heures passées | Indications |
+| Date       | Heures passées | Indications                          |
+|-----------|---------------|--------------------------------------|
+| 24/02/2025 | 2.0h          | Configuration de la base SQLite.    |
+| 27/02/2025 | 3h          | Gestion des tableaux de maniere dynamique.     |
+| 28/02/2025 | 3.0h          | Gestion des cartes dans les tableaux. |
+| 03/03/2025 | 3h          | Tests et ajustements des styles.    |
 
-|--------------|----------------|-----------------------------------------------|
-
-| 19/01/2025 | 2.0h | Configuration de la base SQLite. |
-
-| 20/01/2025 | 2.5h | Gestion dynamique des tableaux. |
-
-| 21/01/2025 | 3.0h | Gestion des cartes dans les tableaux. |
-
-| 22/01/2025 | 2.5h | Tests unitaires et ajustements des styles. |
-
-**Total du sprint 2 :** 10h.
+**Total du sprint 2 :** 12h.
 
 {% enddetails %}
 
-**Réponse à la question :**
+#### 1. **Conception de la base de données SQLite :**
 
-{% details "Ce que j'ai appris avec SQLite et les événements utilisateur" %}
+- La base de données repose sur plusieurs tables interconnectées qui permettent de structurer les tableaux, listes et cartes, avec des fonctionnalités comme l’étiquetage, les listes de vérification et les pièces jointes.
 
-1. **Base de données SQLite :**
+Ainsi : 
 
-- Créer une table pour les tableaux (`CREATE TABLE boards`) et une table pour les cartes associées (`CREATE TABLE cards`).
+**a.** *J'ai crée une table `boards` pour stocker les tableaux de gestion des tâches, contenant un identifiant unique, un nom et une date de création.*  
+**b.** *Puis une table `cards` pour stocker les cartes associées aux listes, avec un titre, une description, une échéance et une référence à la liste correspondante.*
 
-- Utilisation des relations entre tableaux et cartes via une clé étrangère (`board_id` dans la table `cards`).
+Ainsi que d'autres tables telle que :
 
-- Gestion des opérations CRUD (Create, Read, Update, Delete) pour manipuler les données dynamiquement.
+**c.** *users pour la gestion des utilisateurs*   
+**d.** *lists pour stocker les listes dans les tableaux*    
+**e.** *labels pour stocker les etiquettes pour les cartes*   
+**f.** *card_labels qui fait Association entre cartes et étiquettes*    
+**g.** *checklists pour stocker les listes de vérification*   
+**h.** *checklist_items pour stocker Éléments des listes de vérification*   
+**i.** *attachments pour stocker les pièces jointes*
+  
+  {% info "Les clés étrangèresi" %}
+  Chaque tableau peut contenir plusieurs listes, et chaque liste peut contenir plusieurs cartes. Pour établir ces relations, des clés étrangères sont utilisées afin de lier les cartes à leurs tableaux respectifs.
+{% endinfo %}
 
-2. **Gestion des signaux et événements utilisateur :**
+- En suite j'ai utilisé les relations entre les différentes entités avec des **clés étrangères** pour lier les cartes aux listes (`list_id`) et les listes aux tableaux (`board_id`).  
+  
+{% details "Explication technique des relations" %}
 
-- Utilisation des signaux `clicked` pour connecter les boutons d’ajout et suppression aux actions correspondantes.
-
-- Implémentation de slots personnalisés pour mettre à jour l'interface et la base de données simultanément.
-
-3. **Stylisation via QSS :**
-
-- Amélioration de l’esthétique de l’application avec des styles comme :
-
-```css
-
-QPushButton {
-
-background-color: #0079BF;
-
-color: white;
-
-border-radius: 3px;
-
-}
-
-QPushButton:hover {
-
-background-color: #026AA7;
-
-}
-
-```
-
-- Simplification du design en regroupant les styles dans un fichier unique `main.qss`.
-
-**Ressources utilisées :**
-
-- **POK et Mon de Duc** pour structurer la gestion des données dans un projet logiciel.
-
-- **Vidéos YouTube sur SQLite avec PyQt** pour la configuration des bases de données.
-
+- Un tableau (board) peut contenir plusieurs listes (lists).
+- Une liste (list) peut contenir plusieurs cartes (cards).
+- Une carte (card) peut être associée à plusieurs étiquettes (labels).
+- Une étiquette (label) peut être appliquée à plusieurs cartes (card_labels).
 {% enddetails %}
 
-{% attention %}
+- Pour permettre l’ajout, la modification, la lecture et la suppression des tableaux, listes et cartes., j'ai implémenté des opérations CRUD.  
+  
+  {% info "ON DELETE CASCADE ?" %}
+  Les operations gérées de manière transactionnelle pour assurer la cohérence des données, en utilisant des clauses ON DELETE CASCADE dans les clés étrangères.
+{% endinfo %}
+- J'ai intégré en suite une **suppression en cascade (`ON DELETE CASCADE`)** pour assurer qu’en supprimant un tableau, toutes les listes et cartes associées soient supprimées automatiquement pour éviter les incohérences et garantir qu’aucune donnée orpheline ne reste dans la base de données après suppression.
 
-Lors de la suppression d’un tableau, il est important de supprimer également toutes les cartes associées dans la base de données pour éviter les incohérences.
+- Les dates d’échéance (`due_date`) stockagé en **format UTC** pour assurer une gestion cohérente des tâches à travers différents fuseaux horaires.  
 
-{% endattention %}
+- J'ai ajout d’une vérification automatique des tâches en retard via une requête SQL, permettant d’afficher des alertes ou des rappels à l’utilisateur.  
+- En fin, une requête SQLite qui vérifie chaque jour les tâches en retard. 
 
+#### 2. **Gestion des signaux et événements utilisateur :**
+   
+L’implémentation s’appuie sur le système de signaux et de slots de PyQt pour assurer une interaction fluide entre l’interface et la base de données.
+Pour se faire : 
+
+- J'ai utilisé des signaux `clicked` pour connecter les boutons d’aujout et de suppression aux actions correspondantes.  
+- Des slots personnalisés ont été implémenté aussi pour mettre à jour l'interface et la base de données simultanément.  
+- Le déplacement des cartes entre les listes repose sur le système de signaux et slots de PyQt.  
+- Chaque carte est un widget PyQt personnalisé, activant l’événement `dragEnterEvent` lorsqu’elle est déplacée.  
+- Lorsqu’une carte est déplacée, sa position est mise à jour dans SQLite pour la persistance après fermeture de l’application.  
+- Si une tâche a une échéance dépassée, une alerte visuelle est affichée dans l’interface PyQt.  
+- j'ai utilisé  `QMessageBox` pour notifier l’utilisateur des échéances importantes.  
+
+#### 3. **Stylisation via QSS :**
+Pour cette partie, j’ai regroupé les compétences acquises lors du sprint 1 sur l’utilisation de QSS pour la mise en forme de l’interface :
+
+- J'ai appliqué une couleur d’arrière-plan spécifique `#0079BF` pour les boutons, pour avoir une lisibilité du texte en blanc.  
+- Y a aussi un **effet de survol** en modifiant la couleur du bouton (`#026AA7`) lorsque l’utilisateur passe la souris dessus.
+-  Les bords sont arrondi avec **(`border-radius: 3px`)**. 
+  
 ---
 
 ### Analyse post-mortem
 
-#### Sprint 1
-
-- **Points forts :** Maîtrise des bases de PyQt et de QSS, premier prototype fonctionnel.
-
-- **Points faibles :** Temps sous-estimé pour la personnalisation des styles.
-
-- **Amélioration :** Prévoir un temps supplémentaire pour ajuster le design.
-
-#### Sprint 2
-
 - **Points forts :** Bonne avancée dans la gestion des données et la persistance avec SQLite.
 
-- **Points faibles :** La gestion des cartes a été plus complexe que prévu.
+- **Points faibles :** La gestion des cartes a été plus complexe que prévu, les performances de l’interface ralentissaient lorsque de nombreuses cartes étaient chargées simultanément.  
 
 - **Amélioration :** Intégrer des tests unitaires dès le début pour détecter les incohérences.
 
+- **Le plus grand problème rencontré :** La suppression d’un tableau ne supprimait pas toujours correctement les cartes associées.
+  
+- **Solution :** Ajout de contraintes ON DELETE CASCADE dans la base de données SQLite pour une suppression complète.
 ---
 
 ### Livrable final
 
-{% details "Fonctionnalités principales" %}
+{% details "Vidéo - Fonctionnalités importantes" %}
 
-1. **Gestion des tableaux** : Ajouter, modifier et supprimer des tableaux.
+1. Modifier et supprimer des tableaux.
 
-2. **Gestion des cartes** : Ajouter, déplacer et supprimer des cartes dans les tableaux.
+2. Ajouter, déplacer et supprimer des cartes dans les tableaux.
 
-3. **Persistance des données** : Les données sont stockées dans une base SQLite.
+3. Les données sont stockées dans une base SQLite.
 
-4. **Interface personnalisée** : Utilisation de QSS pour un design moderne et uniforme.
+4. Utilisation de QSS pour un designe uniforme.
+   
+   <video controls>
+    <source src="./Resultat.mp4" type="video/mp4">
+   </video>
 
 {% enddetails %}
 
----
-
-### Conclusions méthodologiques
-
-1. **Prototypage rapide** : Le recours à un prototype initial a permis d’identifier rapidement les problèmes techniques.
-
-2. **Planification par sprints** : Décomposer le projet en sprints avec des questions précises a permis de garder le cap sur les objectifs.
-
-3. **Documentation continue** : Noter les décisions techniques et les problématiques rencontrées a simplifié l’intégration des fonctionnalités.
-
-{% note %}
-
-Les retours utilisateurs après le premier prototype ont été très utiles pour affiner le design et les fonctionnalités principales.
-
-{% endnote %}
+{% info "Le savais-tu ?" %}
+   Mon readme sur github donne une explication tres claire sur le  projet. 
+   Voici le lien vers [le code source](https://github.com/MbayeSyAmar/Pok3)
+   {% endinfo %}
 
 ---
+
 
 ### Pistes d'amélioration
 
 - Automatiser les tests pour éviter des bugs liés à la gestion des événements utilisateur.
 
-- Explorer davantage les fonctionnalités avancées de PyQt comme les animations ou les graphiques.
-
-- Ajouter une fonctionnalité de "drag and drop" pour déplacer les cartes entre les tableaux.
-
----
-
-Si vous avez d'autres éléments spécifiques à inclure ou des détails à approfondir, faites-le-moi savoir !
-
----
-
-### Sprint 1 : **Créer une interface fonctionnelle et ergonomique avec PyQt**
-
-**Durée :** 10 heures
-
-**Objectifs spécifiques :**
-
-1. Étudier et comprendre les concepts fondamentaux de PyQt.
-
-2. Créer une interface de base pour afficher les tableaux.
-
-3. Apprendre et intégrer les styles QSS pour personnaliser l’apparence.
-
----
-
-
-
-### Sprint 2 : **Ajouter une base de données SQLite et gérer les interactions**
-
-**Durée :** 10 heures
-
-**Objectifs spécifiques :**
-
-1. Ajouter une base de données SQLite pour stocker les données des tableaux et cartes.
-
-2. Créer des fonctionnalités d’ajout, suppression, et modification.
-
-3. Synchroniser les données entre l’interface utilisateur et la base de données.
-
----
-
-#### Activités réalisées
-
-1. **Configuration de SQLite pour stocker les données (2 heures)**
-
-- Création de deux tables : une pour les tableaux (`boards`) et une pour les cartes associées (`cards`).
-
-{% details "Exemple - Structure des tables SQLite" %}
-
-- **Table des tableaux** :
-
-```sql
-
-CREATE TABLE boards (
-
-id INTEGER PRIMARY KEY,
-
-title TEXT NOT NULL
-
-);
-
-```
-
-- **Table des cartes** :
-
-```sql
-
-CREATE TABLE cards (
-
-id INTEGER PRIMARY KEY,
-
-title TEXT NOT NULL,
-
-board_id INTEGER,
-
-FOREIGN KEY (board_id) REFERENCES boards (id)
-
-);
-
-```
-
-Les deux tables sont liées par la clé étrangère `board_id`.
-
-{% enddetails %}
-
-2. **Connexion entre PyQt et SQLite (3 heures)**
-
-- Utilisation de `sqlite3` pour interagir avec la base de données.
-
-- Insertion et récupération des données dynamiquement.
-
-{% details "Exemple - Insérer des données dans SQLite" %}
-
-```python
-
-conn = sqlite3.connect('database.db')
-
-cursor = conn.cursor()
-
-cursor.execute("INSERT INTO boards (title) VALUES (?)", ("Tableau 1",))
-
-conn.commit()
-
-conn.close()
-
-```
-
-Ce code insère un tableau nommé "Tableau 1" dans la base de données.
-
-{% enddetails %}
-
-3. **Gestion des événements utilisateur (2 heures)**
-
-- Implémentation d’une fonction pour afficher dynamiquement les tableaux depuis SQLite.
-
-- Chaque tableau est représenté par un bouton.
-
-{% details "Exemple - Charger les tableaux depuis SQLite" %}
-
-```python
-
-def charger_tableaux(self):
-
-self.layout.clear() # Nettoyer le layout
-
-tableaux = self.db.get_boards() # Récupérer les tableaux depuis SQLite
-
-for tableau in tableaux:
-
-bouton = QPushButton(tableau['title']) # Créer un bouton pour chaque tableau
-
-self.layout.addWidget(bouton) # Ajouter le bouton au layout
-
-```
-
-Les tableaux sont affichés dynamiquement en fonction des données présentes dans SQLite.
-
-{% enddetails %}
-
-4. **Finalisation des styles et tests (3 heures)**
-
-- Ajustement des styles pour les rendre cohérents.
-
-- Tests des fonctionnalités principales (ajout, suppression, et modification).
-
-{% details "Exemple - Personnalisation avancée avec QSS" %}
-
-```css
-
-QPushButton#delete-button {
-
-background-color: #EB5A46;
-
-color: white;
-
-}
-
-QPushButton#delete-button:hover {
-
-background-color: #CF513D;
-
-}
-
-```
-
-Le style distingue visuellement les boutons de suppression des autres actions.
-
-{% enddetails %}
-
----
-
-### Analyse finale
-
-#### Points forts :
-
-1. PyQt a permis une création rapide d'une interface graphique fonctionnelle.
-
-2. SQLite a facilité la gestion et la persistance des données.
-
-3. Les styles QSS ont amélioré l’apparence de l’application.
-
-#### Points faibles :
-
-1. Le temps consacré à l’apprentissage des signaux et slots a été légèrement sous-estimé.
-
-#### Pistes d’amélioration :
-
-- Ajouter des tests unitaires pour valider automatiquement les fonctionnalités.
-
-- Explorer des fonctionnalités avancées de PyQt, comme le **drag-and-drop** pour déplacer les cartes entre les tableaux.
-
----
-
-  -->
+- Implémenter un chargement asynchrone des données SQLite pour éviter les ralentissements.
+  
+- Réduire les redessins inutiles des widgets PyQt pour améliorer la fluidité de l’interface
+  
+- Intégrer une option de personnalisation des alertes, permettant aux utilisateurs de définir leurs propres rappels.
+
+
+
+ ## Sources :
+{% lien %}
+- [Documentation officielle PyQt ](https://doc.qt.io/qtforpython-6/)
+- [MON de Duc DANG VU]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1/)
+- [POK de Duc DANG VU]({{ site.url }}/promos/2023-2024/Dang-Vu-Duc/pok/temps-1/)
+- [Learn Python PyQt5 in 1 hour!](https://www.youtube.com/watch?v=92zx_U9Nzf4&t=1753s)
+{% endlien %}

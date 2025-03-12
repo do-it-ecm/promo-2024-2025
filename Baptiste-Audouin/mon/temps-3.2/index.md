@@ -79,19 +79,19 @@ Ce nouveau dataset (df_daily) a servi de base pour les analyses et visualisation
 
 J'ai utilisé ggplot2 pour tracer l'évolution de la température et de l'humidité au fil du temps. Par exemple, voici la courbe d'évolution de la température :
 
-![Evolution de la température](./images/evolution_temp.png)
+![Evolution de la température](./image/evolution_temp.png)
 
 ### Histogramme
 
 Pour comprendre la répartition de l'humidité, j'ai créé un histogramme :
 
-![Evolution de l'humidité](./images/evolution_humidite.png)
+![Evolution de l'humidité](./image/evolution_humidite.png)
 
 ### Relations entre variables
 
 J'ai exploré la relation entre l'humidité et la température à l'aide d'un graphique de dispersion. La ligne rouge représente la régression linéaire, qui montre une tendance positive :
 
-![Relation humidité/température](./images/relation_humidite_temp.png)
+![Relation humidité/température](./image/relation_humidite_temp.png)
 
 On observe une légère tendance positive indiquée par la droite de régression rouge, ce qui voudrait dire que l'humidité augmente légèrement avec la température. Cependant, la dispersion des points est importante, ce qui indique une corrélation très faible entre ces deux variables.
 
@@ -125,7 +125,7 @@ forecast_prophet <- predict(model_prophet, future)
 
 4. Visualisation des prévisions
 
-![Prévisions](./images/prev_temp.png)
+![Prévisions](./image/prev_temp.png)
 
 ## Conclusion
 

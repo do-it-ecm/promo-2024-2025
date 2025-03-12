@@ -93,15 +93,80 @@ Pour avoir un algorithme plus rapide et pour pallier ce problème de définition
 
 _[TODO] * Deuxième version et version finale de l’algorithme de génération des mosaïques en Rust avec OpenSeaDragon_  
 
-## FastApi (backend)
+## FastApi (le backend du site web)
 
 Le lien du projet sur Github est le suivant : https://github.com/ManuelaBarreto/Projet_Mosart
+
+Le backend du projet a été développé en utilisant la bibliothèque *FastAPI*, un framework moderne et performant pour la création d'APIs RESTful. Le backend est responsable de la gestion des opérations liées au stockage et à la récupération des données.  
+En comparaison avec d'autres bibliothèques comme *Flask* ou *Django*, *FastAPI* offre une syntaxe plus moderne, une meilleure gestion des performances et une validation plus robuste des données. Ces caractéristiques ont fait de FastAPI un choix idéal pour ce projet.
+
+L'architecture du système a été organisée de manière simple, avec un répertoire d'images, un fichier de base de données au format JSON, et un fichier principal contenant la logique de l'API. La structure du backend est la suivante :
+
+```lua
+backend/  
+│--- images/  
+│    └── image.png  
+│--- .gitignore  
+│--- data.json  
+│--- main.py  
+│--- requirements.txt
+```
+
+* *images/* : Répertoire où sont stockées les images qui seront servies par l'API.  
+* *data.json* : Fichier JSON servant de base de données pour stocker les informations sur les éléments, telles que l'URL de l'image, le titre, les étiquettes et la description.  
+* *main.py* : Fichier principal du backend où est définie la logique de l'API, y compris les routes et les fonctions de manipulation des données.  
+* *requirements.txt* : Fichier qui liste les dépendances nécessaires au bon fonctionnement du projet.
+
+### Structure du Modèle de Données
+
+```python
+class Item(BaseModel):  
+    id: Optional\[int\] \= None  
+    img\_url: str  
+    title: Optional\[str\] \= None  
+    label: Optional\[list\] \= None  
+    description: Optional\[str\] \= None
+```
+
+La classe **Item** est un modèle de données qui utilise Pydantic pour valider les champs d'entrée. La classe comprend des champs tels que **img_url**, **title**, **label** et **description**, permettant la création d'éléments détaillés avec des informations sur les images et les descriptions.
+
+### Exécution du Backend
+
+Pour que le frontend fonctionne correctement, il est nécessaire de démarrer d'abord le backend. Voici les étapes pour faire fonctionner le backend :
+
+*Installer les dépendances* : 
+`pip install -r requirements.txt`
+
+*Lancer le serveur FastAPI* :  
+`fastapi dev main.py`
+
+Le backend sera alors accessible à l'adresse http://127.0.0.1:8000.
+
+Cela permettra au frontend de se connecter à l'API pour récupérer et afficher les données.
 
 ## Frontend
 
 Nous avons initialisé le projet avec Node et create-react-app puis nous avons commencé à coder le frontend avec ReactJs. Dans un premier temps, nous nous sommes basés sur la maquette Figma du cours d’UX puis nous avons mis à jour notre code pour l’adapter à notre maquette UI finale, plus moderne.
 
-_[TODO] * Affichage des mosaïques avec OpenSeaDragon_
+### Utilisation de la bibliothèque *OpenSeadragon* pour le zoom des images
+
+L'une des fonctionnalités les plus importantes du frontend est la possibilité de permettre aux utilisateurs de zoomer sur les images du mosaïque pour explorer ses détails. Cela est rendu possible grâce à l'intégration de la bibliothèque *OpenSeadragon*. Cette bibliothèque JavaScript est spécialement conçue pour visualiser de grandes images en permettant des niveaux de zoom élevés et une navigation fluide.
+
+*OpenSeadragon* est utilisée dans le projet pour offrir une vue détaillée des images du mosaïque. Lorsqu'un utilisateur souhaite explorer une image à un niveau de zoom plus élevé, la bibliothèque charge des "tuiles" (petites sections de l'image), permettant une expérience de zoom rapide et fluide sans charger l'image entière en une seule fois. Cela améliore considérablement les performances, surtout avec des images de grande taille.
+
+Les fonctionnalités clés de *OpenSeadragon* incluent :
+
+1. *Zoom interactif* : Les utilisateurs peuvent zoomer et dézoomer sur l'image en utilisant la souris ou les gestes tactiles.  
+2. *Navigation fluide* : En déplaçant l'image, le contenu est chargé dynamiquement, permettant une exploration détaillée sans délai perceptible.  
+3. *Affichage d'images haute résolution* : *OpenSeadragon* prend en charge des images très grandes, offrant une expérience de visualisation de haute qualité sans sacrifier la performance.
+
+Cette bibliothèque est particulièrement adaptée aux applications où les utilisateurs ont besoin d'explorer des images avec un niveau de détail élevé, ce qui est exactement le cas pour le projet de mosaïques, où chaque image peut comporter de nombreux petits éléments à explorer.
+
+![alt text](image-1.png)
+Image de base
+
+![alt text](image.png)
+Image après plusieurs zooms : elle reste d'excellente qualité
 
 ## Certaines de nos mosaïques
 
@@ -121,4 +186,13 @@ Le premier défi serait d'héberger le site web sur le serveur dédié à do-it,
 
 De plus, nous n'avons pas implémenté la fonctionnalité pour que les utilisateurs puissent eux-mêmes créer leurs propres mosaïques avec les images de la base de données, ce serait la prochaine étape après l'hébergement de la galerie. 
 
+Enfin, il serait intéressant d'améliorer l'algorithme de génération pour réduire le nombre d'utilisation d'une même image au sein de la mosaïque. 
+
 ## Retour d'expérience
+
+Tout d'abord, nous nous sommes séparés les tâches assez vite dans le projet selon nos affinités et ce que l'on voulait apprendre lors de ce projet. On a pû communiquer assez facilement entre nous pour régler les problèmes que l'on rencontrait dans le code et optimiser notre travail. Les réunions régulières avec Adèle nous ont réellement aidé à ajuster notre travail en fonction des attentes. En revanche, nous avons sous-estimé le temps nécessaire pour certaines tâches, en particulier la mise en place des fonctionnalités du backend et l'intégration de la bibliothèque OpenSeadragon dans le frontend. Cela a nécessité des ajustements dans notre planning et de revoir le livrable final.
+
+Concernant les technologies abordées, le projet nous a permis d'acquérir une expérience pratique avec **FastAPI**, une technologie que l'équipe développement du site n’avait pas utilisée auparavant. Nous avons découvert comment créer une API RESTful performante, gérer les bases de données locales en JSON, et assurer une communication fluide entre le frontend et le backend.
+L’utilisation de **OpenSeadragon** pour permettre le zoom sur les images était une nouveauté pour beaucoup d'entre nous. Bien qu'il y ait eu quelques défis lors de l'intégration, cela nous a permis d'apprendre une bibliothèque très puissante pour la gestion des images haute résolution. Par rapport à l'algorithme de génération des mosaïques, nous avons usé de créativité pour pouvoir faire des mosaïques qui ressemblent le plus possible à l'image de base.
+
+Pour conclure, ce projet nous a beaucoup plu et nous avons beaucoup appris lors de ces quelques mois.
