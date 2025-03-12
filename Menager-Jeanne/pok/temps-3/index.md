@@ -57,9 +57,16 @@ J'ai donc du installer cette librairie mais je me suis rendue compte que l'initi
 J'ai commencé par créer la page d'accueil (avec les tracker du jour) d'abords sans utiliser de donner du backend puis j'ai lié mon frontend à mon backend. 
 J'ai ensuite ajouté le bouton pour ajouter un nouveau tracker.
 J'ai ensuite implémenter les flèches pour passer de 'Aujourd'hui' à 'Demain', 'Hier' et aux autres dates, pour cela, j'ai utilisé la librairie 'moment js'. J'ai eu du mal à géré la réactivité mais grâce à un watcheur, j'ai pu régler le problème. 
+
+![Page d'acceuil](./homePage.png)
+
 J'ai ensuite implémenté les choix du tracker pour que ca s'enregistre dans la db. 
 
+![Page d'acceuil avec choix](./homePageWithSelection.png)
+
 Enfin, j'ai implémenté la page de récap, pour laquel, j'ai pu réutilisé des composents que j'avais déjà créer. 
+
+![Page de récap](./Recap.png)
 
 J'ai en effet créer un composant pour les petits carrés afin de pouvoir le réutiliser facilement mais aussi un pour les noms des options. Cela m'a grandement aidé à avoir un code plus clair. 
 
