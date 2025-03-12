@@ -241,7 +241,7 @@ Il faut toujours essayer de respecter les principes suivants :
 
 ### Outils
 
-Pour la création du Zoning/Wireframe, du Kit UI et du Mockup, je recommande [Figma](https://www.figma.com/) et pour le User Flow vous pouvez prendre ce que vous voulez, je conseille des sites similaire à [Mermaid](https://www.sketch.com/) ou bien [Miro](https://miro.com/).
+Pour la création du Zoning/Wireframe, du Kit UI et du Mockup, je recommande [Figma](https://www.figma.com/) et pour le User Flow vous pouvez prendre ce que vous voulez, je conseille des sites similaires à [Mermaid](https://www.sketch.com/) ou bien [Miro](https://miro.com/).
 
 ---
 
