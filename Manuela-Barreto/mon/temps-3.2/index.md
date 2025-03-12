@@ -1,5 +1,3 @@
-
-
 ---
 layout: layout/mon.njk
 
