@@ -62,7 +62,65 @@ Enfin, nos livrables principaux restent l'application en elle-même avec son sit
 [Pour accéder au site de getsion des parcours de visite](https://gerart.vercel.app/)
 
 {% endlien %}
+## Spécification technique de l'application et du site web
 
+Le projet repose sur une architecture client-serveur, utilisant Firebase comme backend, Next.js pour l'interface web d'administration, Flutter pour l'application mobile des joueurs, et Imgur API pour le stockage des images.
+
+L'architecture est divisée en deux parties principales:  
+- Le Backend : Gestion des données, de l'authentification et du stockage  
+- Le Frontend : Interface utilisateur pour les administrateurs et les joueurs  
+
+### Présentation Générale du Fonctionnement de l'Application
+L’application fonctionne de la manière suivante :
+
+1. Les administrateurs créent des parcours composés d’instructions, de questions et de quizz via l’interface web (développée en Next.js).  
+2. Les données des parcours sont stockées dans Firestore, qui permet de gérer ces informations de manière centralisée.  
+3. Les joueurs accèdent aux parcours via l’application mobile (développée en Flutter), qui récupère les informations depuis Firebase.  
+4. L’authentification est gérée par Firebase Authentication qui permet un contrôle sécurisé des accès.  
+5. Les images associées aux parcours, aux questions et aux quizz sont hébergées sur Imgur API, évitant ainsi les coûts liés à Firebase Storage.  
+
+### Backend : Firebase et Imgur API
+Le backend repose principalement sur Firebase pour la gestion des données et l’authentification, ainsi que sur Imgur API pour le stockage des images.
+
+#### Pourquoi Firebase ?
+Firebase a été choisi pour trois raisons techniques majeures :
+
+1. Adaptabilité avec Flutter 
+2. Base de Données en Temps Réel et Scalabilité Automatique  
+3. Déploiement et Hébergement Simplifiés
+
+#### Pourquoi Imgur API ?
+1. Firebase Storage facture chaque Go utilisé, alors qu’Imgur permet d’héberger les images gratuitement avec un quota très élevé.
+
+2. Gestion simplifiée du stockage
+   
+   - Un fichier est simplement envoyé via une requête API REST.  
+   - L’API retourne une URL directe de l’image, qui est ensuite stockée dans Firestore, évitant ainsi toute gestion de fichiers côté serveur.  
+
+### Frontend : Flutter et Next.js
+
+#### Pourquoi Flutter ?
+Flutter a été choisi car il permet une migration facile vers une version web et fonctionne nativement sur Android et iOS.
+
+#### Pourquoi Next.js ?
+L’administration des parcours est réalisée via une application web Next.js, qui qui permet une exécution rapide et un support Firebase. 
+Aussi, l’intégration des API Routes de Next.js permet d’exécuter certaines logiques côté serveur sans configurer un backend supplémentaire.
+
+
+| Technologie | Raison principale |
+|------------|----------------|
+| Firebase | Facilité d’intégration avec Flutter, scalabilité automatique |
+| Imgur API | Alternative gratuite à Firebase Storage |
+| Flutter | Développement multiplateforme, rendu natif, compatibilité Firebase |
+| Next.js | Exécution rapide, Server-Side Rendering, intégration fluide avec Firebase |
+
+![Diagram](./Diagram.png)
+
+
+Voici les repos du projet : 
+
+- App mobile : [GerArt-Visiteur](https://github.com/MbayeSyAmar/Museum)
+- Site Web : [GerArt-Admin](https://github.com/MbayeSyAmar/museum-admin--1-)
 ## Organisation de projet et retours d'expérience
 
 ### L'organisation du groupe
@@ -75,13 +133,13 @@ Au sein du groupe, chacun était référent sur une partie spécifique mais nous
 
 ### Les Objectifs
 
-- ✅ Carte interactive avec les musées
-- ✅ Page de collection
-- ✅ Parcours avec quizz et explications (1 seul)
-- ❌ Lien avec les oeuvres déjà vues
-- ✅ possibilité de “liker” une oeuvre vue dans un parcours
-- ❌ Contacter des conservateurs de musée pour affiner le concept
-- ❌ Implémenter un moyen de vérifier que l’utilisateur “n’arnaque pas l’application” comme un scan de QR code ou la vérification des coordonnées GPS pour attester qu’il est bien dans le musée concerné ou sur le lieu de l’exposition.
+- [X] Carte interactive avec les musées
+- [X] Page de collection
+- [X] Parcours avec quizz et explications (1 seul)
+- [ ] Lien avec les oeuvres déjà vues
+- [X] possibilité de “liker” une oeuvre vue dans un parcours
+- [ ] Contacter des conservateurs de musée pour affiner le concept
+- [ ] Implémenter un moyen de vérifier que l’utilisateur “n’arnaque pas l’application” comme un scan de QR code ou la vérification des coordonnées GPS pour attester qu’il est bien dans le musée concerné ou sur le lieu de l’exposition.
 
 ### Analyse des écarts entre nos objectifs et nos réalisations
 
