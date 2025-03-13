@@ -55,7 +55,7 @@ Voici un petit exemple du principe de l'application :
 
 Voici une démonstration complète:
 
-<video controls autoplay loop>
+<video controls autoplay loop style="width: 50%">
   <source src="./demo.MP4" type="video/mp4"/>
 </video>
 
@@ -159,7 +159,7 @@ Nous avons aussi dû faire face à des contraintes techniques liées à l'utilis
 <div style="text-align: center;">
 <div style="display:flex">
 <div><img src="V1_figma.png"></div>
-<div><img style="width:92%" src="V1_bubblePOK.png"></div>
+<div><img style="width:92%" src="V1_bubble+POK.png"></div>
 <div><img style="width:58%" src="V2_bubble.jpeg"></div>
 </div>
 </div>
@@ -176,12 +176,11 @@ Pour pouvoir valider une photo de lieu, nous avons fait le choix de nous baser u
 Nous avons donc commencé par un **PoC** (Proof of Concept) afin de tester cette fonctionnalité dans un cas simple : cliquer sur un bouton pour afficher les coordonnées GPS de la position. L’objectif était de vérifier que nous pouvions récupérer ces données et qu’elles étaient précises.
 
 Finalement, cette étape s’est révélée plus simple que prévu, car l’accès aux données de position GPS est natif sur tous les smartphones, et Bubble propose une fonctionnalité intégrée permettant de les récupérer facilement.
+Nous avons d'abord fait un POC pour vérifier que nous arrivions bien à récupérer la latitude et la longitude ainsi qu'à prendre une photo : 
 
-**SCREEN**
+<div><img style="width:60%" src="POC_localisation.PNG"></div>
 
 Nous avons ensuite dû choisir la marge d'erreur que nous souhaitions accorder aux utilisateurs, car il est impossible de leur demander d'être au point GPS exact de la photo. Nous avons donc choisi de donner comme marge un carré de 20 mètres de côté. Pour trouver l'équivalent de 20 mètres en degrés de latitude et de longitude, nous avons demandé à une intelligence artificielle de faire le calcul. Ainsi, nous avons trouvé que, en latitude, 10 mètres équivalent à 0,00009° et, en longitude, 10 mètres équivalent à 0,00012°.
-
-**SCREEN**
 
 Finalement, après avoir fait quelques tests et découvert que la précision des GPS intégrés à nos téléphones n'est pas très fiable (jusqu'à 100 mètres d'incertitude), nous avons décidé de doubler notre marge pour obtenir un carré de 40 mètres de côté. Cela donne donc une marge de 0,0002° à la fois pour la latitude et la longitude.
 
