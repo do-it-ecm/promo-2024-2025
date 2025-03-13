@@ -26,7 +26,7 @@ Ce travail n'a pas été spécialement compliqué car mes connaissances sur l'ag
 
 La formation se divise en quatre temps de jeu et chaque temps permet de revoir 3 parmi les 12 principes de l'Agile. Le cours se concentre donc sur les 4 valeurs de l'Agile et les 12 principes qui en découlent, associés à des petits quiz pour bien ancrer les notions.
 
-<a href="./image32/CoursAGILE.pdf"
+<a href="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/refs/heads/main/Juliette-Kocupyr/mon/temps-3.2/image32/CoursAGILE.pdf"
    download="Cours AgiLEGO.pdf">Voici les slides de cours !</a>
 
 Quelques exemples de slides :
