@@ -72,3 +72,9 @@ Le backend est développé en **Golang**, il expose une **API REST** pour rempli
 - Filtrage des messages du chat
 - Communication avec l'IA générateur de musique
 - Réceptions des requêtes frontend et envoi des réponses
+
+## Un geste pour la planète
+
+Le code est optimisé pour utiliser un minimum de bande passante et de ressources serveur.\
+Les fichiers audios générés sont compressés pour réduire leur taille et leur impact sur l'environnement.\
+Il y a des déconnexions automatiques des utilisateurs inactifs pour réduire la consommation de ressources serveur.
