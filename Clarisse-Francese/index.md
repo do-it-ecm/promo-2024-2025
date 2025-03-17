@@ -23,7 +23,7 @@ authors:
 
 ## Projet
 
-[Projet Avat'Art](../_projets/Avat'Art/)
+[Projet Avat'Art](../_projets/AvatArt/)
 
 ## Mon Github
 
