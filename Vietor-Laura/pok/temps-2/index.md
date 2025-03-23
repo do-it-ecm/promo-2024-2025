@@ -17,7 +17,7 @@ tags:
   - "diesel"
   - "orm"
 
-résumé: Un POK traitant d'un sujet.
+description: Un POK traitant d'un sujet.
 ---
 
 {% prerequis %}

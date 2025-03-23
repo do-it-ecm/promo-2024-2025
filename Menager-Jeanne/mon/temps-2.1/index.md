@@ -9,12 +9,12 @@ date: 1970-11-01
 temps: 2
 tags:
 
-résumé: "Je vais suivre le projet numérologie afin de découvrir les bases du développement de serveur web"
+description: "Je vais suivre le projet numérologie afin de découvrir les bases du développement de serveur web"
 ---
 
 {% prerequis %}
 
-Avoir quelques notions de html et javascript 
+Avoir quelques notions de html et javascript
 
 {% endprerequis %}
 {% lien %}
@@ -26,8 +26,8 @@ Avoir quelques notions de html et javascript
 
 ## Contenu
 
-Ce MON a pour but de revoir les différentes étapes nécessaires à la réalisation d'un site web. 
-Pour cela, j'ai suivi le projet numérologie disponible sur le site de François Brucker. 
+Ce MON a pour but de revoir les différentes étapes nécessaires à la réalisation d'un site web.
+Pour cela, j'ai suivi le projet numérologie disponible sur le site de François Brucker.
 
 Le but du projet est de faire un site sur lequel, l'utilisateur rentre son prénom et découvre ainsi le nombre qui lui est associé ainsi qu'une petite phrase du style horoscope liée à son numéro
 
@@ -39,7 +39,7 @@ Ce projet se décompose en 5 partie :
 5. [La maintenace et les tests](https://francoisbrucker.github.io/cours_informatique/cours/web/projet-numérologie/partie-5-maintenance/)
 
 ### Partie 1 : Le front
-  Dans cette partie, nous avons définit l'algorithme qui nous permet d'associer à chaque chaine de caractère un chiffre. 
+  Dans cette partie, nous avons définit l'algorithme qui nous permet d'associer à chaque chaine de caractère un chiffre.
   On y apprend notamment à écrire **des fonctions en JS** et faire des log dans la console grâce à **console.log()**
   On crée ensuite une page en **html**, sur laquelle on rajoute du **css**.
   Enfin, on intègre la fonction en JS à la page html pour calculer le chiffre lorsque l'utilisateur clique sur 'entrée'
@@ -48,19 +48,19 @@ Ce projet se décompose en 5 partie :
 
 ### Partie 2 : Le back
 
-  L'objectif est de faire les calculs dans le **backend**. Pour cela on apprend dans cette partie notemment à créer une **route** en JS dans le backend puis à l'appeler dans le frontend 
+  L'objectif est de faire les calculs dans le **backend**. Pour cela on apprend dans cette partie notemment à créer une **route** en JS dans le backend puis à l'appeler dans le frontend
 
 ### Partie 3 : La gestion de données
 
   Dans cette partie, nous créons une **base de données** dans laquelle nous allons associer à chaque chiffre un message.
-  Nous avons ensuite créé une route **get** et plus précisement une méthode **findOne** afin de récupérer dans la base de données le message correspondant à un chiffre en particulier. 
-  Nous avons ensuite apporté les modifications nécessaires au frontend pour récupérer ces informations. 
+  Nous avons ensuite créé une route **get** et plus précisement une méthode **findOne** afin de récupérer dans la base de données le message correspondant à un chiffre en particulier.
+  Nous avons ensuite apporté les modifications nécessaires au frontend pour récupérer ces informations.
 
   Enfin, nous avons créé un autre modèle afin d'enregister en base les prénoms déjà demandés par l'utilisateur grâce à une méthode **create** pous pouvoir ensuite tous les afficher grâce à une méthode **getAll**
 
-### Partie 4 : Rendre le code propre 
+### Partie 4 : Rendre le code propre
 
-  Pour savoir comment rendre son **code plus propre et plus facile à maintenir**, il faut s'intéresser à cette partie du projet. 
+  Pour savoir comment rendre son **code plus propre et plus facile à maintenir**, il faut s'intéresser à cette partie du projet.
   On a notamment séparer les routes et les modèles et différents fichiers afin de les regrouper par thème.
   Ceci permet de ne pas avoir des fichiers trop long dans lesquels il est difficile de trouver l'information que l'on cherche
 

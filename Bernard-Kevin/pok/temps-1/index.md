@@ -15,7 +15,7 @@ tags:
   - "css"
   - "figma"
 
-résumé: Un POK où je crée un site web pour mon portfolio.
+description: Un POK où je crée un site web pour mon portfolio.
 ---
 
 {% prerequis %}
@@ -306,8 +306,8 @@ label {
     font-weight: 300;
     margin: 10px 0;
     width: 100%;
-} 
-    
+}
+
 input, textarea {
     display: block;
     margin: 10px 0;
@@ -532,7 +532,7 @@ function send_mail(){
     }).catch(function(error) {
         console.error("Échec de l'envoi : ", error);
         alert("Échec de l'envoi, veuillez réessayer.");
-    });    
+    });
 }
 ```
 {% enddetails %}
@@ -729,5 +729,5 @@ J'avais au début un problème parce que l'accès à la référence de l'image n
 
 **Bilan**
 
-Très satisfait de la qualité de ce que j'ai pu faire et à l'avenir j'ai envie de me faire mon propre serveur backend pour gérer mes mails et déjà me renseigner comment gérer les spams et attaques de sites...  
+Très satisfait de la qualité de ce que j'ai pu faire et à l'avenir j'ai envie de me faire mon propre serveur backend pour gérer mes mails et déjà me renseigner comment gérer les spams et attaques de sites...
 J'ai pu me démystifier de JavaScript ce qui était une des raisons du choix de ce POK.

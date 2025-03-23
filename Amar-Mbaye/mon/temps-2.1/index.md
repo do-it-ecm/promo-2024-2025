@@ -10,7 +10,7 @@ temps: 2
 tags:
   - "NestJs"
 
-résumé: "Le but de ce MON est de faire une étude sur NestJS. NestJS est un framework de développement web Node.js qui permet de créer des applications web. Il est basé sur TypeScript et utilise les concepts de modèles de conception de l'architecture de l'application. "
+description: "Le but de ce MON est de faire une étude sur NestJS. NestJS est un framework de développement web Node.js qui permet de créer des applications web. Il est basé sur TypeScript et utilise les concepts de modèles de conception de l'architecture de l'application. "
 ---
 
 {% prerequis %}

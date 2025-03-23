@@ -14,7 +14,7 @@ tags:
 - Protocoles
 - Gestion d'incidents
 
-résumé: "Ce MON présente une analyse des cyberattaques, depuis les protocoles réseau jusqu'aux vulnérabilités applicatives, en passant par la gestion des incidents. Il couvre également les différentes équipes de sécurité (Red Team, Blue Team, SOC) et leurs rôles spécifiques dans la protection des systèmes d'information."
+description: "Ce MON présente une analyse des cyberattaques, depuis les protocoles réseau jusqu'aux vulnérabilités applicatives, en passant par la gestion des incidents. Il couvre également les différentes équipes de sécurité (Red Team, Blue Team, SOC) et leurs rôles spécifiques dans la protection des systèmes d'information."
 
 ---
 
@@ -56,7 +56,7 @@ Une cyberattaque est une action malveillante visant à compromettre la **disponi
 - **Attaques réseau**, un déni de service distribué (DDoS), interception de données (Man-in-the-Middle), empoisonnement du cache DNS.
 - **Malwares**, des logiciels malveillants tels que les ransomwares, chevaux de Troie et rootkits.
 - **Espionnage et sabotage**, des cyberattaques organisées par des États ou des groupes pour voler des informations ou causer des dommages.
-  
+
 Pour cette partie, j'ai consulté le site [fortinet](https://www.fortinet.com/fr/resources/cyberglossary/types-of-cyber-attacks)
 
 ### **1.2 Acteurs impliqués**
@@ -112,7 +112,7 @@ ping -s 65527 <cible>   # Unix
 
 
 {% details "En savoir plus ?" %}
-Le **Ping of Death** consiste à envoyer un **paquet ICMP** (ping) d’une taille anormalement grande (supérieure à 65 535 octets).  
+Le **Ping of Death** consiste à envoyer un **paquet ICMP** (ping) d’une taille anormalement grande (supérieure à 65 535 octets).
 - Les anciennes implémentations du protocole ICMP ne pouvaient pas gérer des paquets aussi gros, ce qui provoquait un **crash ou un redémarrage** de la machine cible.
 - Cette attaque est aujourd’hui **moins efficace**, car les systèmes modernes ont mis en place des protections.
 {% enddetails %}
@@ -127,10 +127,10 @@ Attaquant n'envoie jamais d'ACK
 {% details "En savoir plus ?" %}
 Une attaque **SYN Flood** consiste à envoyer un grand nombre de **paquets SYN** au serveur cible pour saturer sa file d’attente de connexions TCP.
 - Normalement, une connexion TCP suit ce processus (**Three-Way Handshake**) :
-  
-  **a.** ***Client envoie un SYN** (demande d’ouverture de connexion).*   
-  **b.** ***Serveur répond avec SYN-ACK** (accusé de réception). *  
-  **c.** ***Client envoie un ACK**, et la connexion est établie.*   
+
+  **a.** ***Client envoie un SYN** (demande d’ouverture de connexion).*
+  **b.** ***Serveur répond avec SYN-ACK** (accusé de réception). *
+  **c.** ***Client envoie un ACK**, et la connexion est établie.*
 
 - **Dans une attaque SYN Flood**, l’attaquant **ne répond jamais au SYN-ACK**. Le serveur garde alors la connexion en attente, ce qui peut **épuiser ses ressources** et provoquer un déni de service.
 {%enddetails%}
@@ -201,7 +201,7 @@ Le **IP Spoofing** consiste à **usurper une adresse IP** en modifiant les en-t�
 
 ### **3.1 Vulnérabilités Courantes**
 
-1. **Cross-Site Scripting (XSS)** 
+1. **Cross-Site Scripting (XSS)**
 
 Injection de scripts malveillants dans les pages web.
 
@@ -215,7 +215,7 @@ Le **Cross-Site Scripting (XSS)** est une attaque où un attaquant injecte du **
   - **Détourner des sessions utilisateur.**
   - **Afficher de fausses informations**.
 {%enddetails%}
- 
+
 {% details "Types de XSS" %}
 
 - **Stocké** : Le script est enregistré dans la base et affiché à d'autres.
@@ -273,9 +273,9 @@ Une faille **Format String** survient lorsque l’entrée utilisateur est utilis
 ./vuln "%x %x %x"
 ```
 {% details "En savoir plus ?" %}
-- Cette commande injecte `"%x %x %x"` dans un programme vulnérable (`vuln`) qui utilise `printf()` **sans format sécurisé**.   
-- Chaque `%x` **affiche une valeur mémoire** au format hexadécimal.   
-- Un attaquant peut **fouiller la mémoire** pour récupérer des informations sensibles (ex: adresses mémoire, mots de passe en clair). 
+- Cette commande injecte `"%x %x %x"` dans un programme vulnérable (`vuln`) qui utilise `printf()` **sans format sécurisé**.
+- Chaque `%x` **affiche une valeur mémoire** au format hexadécimal.
+- Un attaquant peut **fouiller la mémoire** pour récupérer des informations sensibles (ex: adresses mémoire, mots de passe en clair).
 {%enddetails%}
 
 2. **Ecriture mémoire avec %n**
@@ -285,8 +285,8 @@ int i;
 printf("Hello%n", &i); // i == 5 (nombre de caractères imprimés)
 ```
 {% details "En savoir plus ?" %}
-- `%n` **écrit en mémoire** le nombre de caractères imprimés avant son appel.   
-- Un attaquant peut **modifier une variable ou une adresse mémoire critique**, entraînant un **comportement malveillant**. 
+- `%n` **écrit en mémoire** le nombre de caractères imprimés avant son appel.
+- Un attaquant peut **modifier une variable ou une adresse mémoire critique**, entraînant un **comportement malveillant**.
 {%enddetails%}
 
 ### **4.3 Contre-mesures**
@@ -337,7 +337,7 @@ Un **buffer overflow** se produit lorsqu’une entrée utilisateur dépasse la m
 ### **6.2 Activation de la Cellule de Crise**
 
 - **Analyse et réponse technique (SOC, analystes sécurité).**
-- **Prise de décisions stratégiques** 
+- **Prise de décisions stratégiques**
 - **Communication et logistique**
 
 ### **6.3 Contenir l'Attaque et Protéger les Données**
@@ -379,7 +379,7 @@ Je me suis basé sur le cours de Gilles TROSSEVIN.
 - Le **SOC** est un centre de surveillance qui collecte et analyse en continu les données de sécurité.
 - La **Cyber Threat Intelligence** analyse les tendances et nouvelles méthodes d'attaques.
 - La **Purple Team** favorise la collaboration entre Red et Blue Team.
-  
+
 {% endinfo %}
 
 

@@ -13,7 +13,7 @@ tags:
   - "CSS"
   - "Git"
 
-résumé: "Durant cette première phase d'apprentissage, j'ai étudié les bases du HTML, du CSS et de Git, principalement via des vidéos YouTube et un cours GitHub. Cet apprentissage m'a permis de poser les fondations pour développer un site web et de comprendre les concepts clés du versionnage de code avec Git. J'ai également commencé à apprendre les bonnes pratiques pour structurer un projet de développement avec du HTML et CSS."
+description: "Durant cette première phase d'apprentissage, j'ai étudié les bases du HTML, du CSS et de Git, principalement via des vidéos YouTube et un cours GitHub. Cet apprentissage m'a permis de poser les fondations pour développer un site web et de comprendre les concepts clés du versionnage de code avec Git. J'ai également commencé à apprendre les bonnes pratiques pour structurer un projet de développement avec du HTML et CSS."
 
 ---
 
@@ -100,7 +100,7 @@ Exemple d'image :
 
 ### CSS
 
-En parallèle, j'ai étudié le CSS à travers une autre vidéo YouTube, qui portait sur la mise en forme des pages HTML. Le CSS est utilisé pour styliser les pages en ajustant les couleurs, les polices, les tailles, les marges, et la disposition des éléments sur la page. J'ai appris à utiliser les sélecteurs CSS pour cibler des éléments précis et appliquer des styles. J'ai aussi découvert comment gérer la mise en page en utilisant des concepts comme le "box model", ainsi que la gestion des marges, des bordures et des espacements pour créer des designs plus avancés. 
+En parallèle, j'ai étudié le CSS à travers une autre vidéo YouTube, qui portait sur la mise en forme des pages HTML. Le CSS est utilisé pour styliser les pages en ajustant les couleurs, les polices, les tailles, les marges, et la disposition des éléments sur la page. J'ai appris à utiliser les sélecteurs CSS pour cibler des éléments précis et appliquer des styles. J'ai aussi découvert comment gérer la mise en page en utilisant des concepts comme le "box model", ainsi que la gestion des marges, des bordures et des espacements pour créer des designs plus avancés.
 
 #### Qu'est-ce que CSS ?
 
@@ -131,7 +131,7 @@ Le CSS permet de modifier l'apparence du texte et des éléments HTML. Voici que
 * Marges : margin
 * Padding (espacement intérieur) : padding
 
-Exemple : 
+Exemple :
 ```
 h1 {
     color: blue;

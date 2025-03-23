@@ -10,7 +10,7 @@ temps: 2
 tags:
   - "info"
 
-résumé: "Le but de ce MON est de comprendre comment s'inscrit le langage TypeScript dans la lignée de JavaScript."
+description: "Le but de ce MON est de comprendre comment s'inscrit le langage TypeScript dans la lignée de JavaScript."
 ---
 
 {% prerequis %}

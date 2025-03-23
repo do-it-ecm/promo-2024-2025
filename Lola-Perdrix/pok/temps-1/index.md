@@ -14,7 +14,7 @@ tags:
   - "vert"
   - "données"
 
-résumé: "Prise en main des outils d'Excel pour la gestion et l'analyse d'un dataset à travers la réalisation d'un rapport d'analyse statistique complet sur les Pokémons"
+description: "Prise en main des outils d'Excel pour la gestion et l'analyse d'un dataset à travers la réalisation d'un rapport d'analyse statistique complet sur les Pokémons"
 
 ---
 

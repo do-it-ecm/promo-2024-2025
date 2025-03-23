@@ -6,7 +6,7 @@ authors:
   - Kévin BERNARD
 
 date: 2025-01-07
-tags: 
+tags:
   - "temps 3"
   - "vert"
   - "Angular"
@@ -18,7 +18,7 @@ tags:
   - "Directive"
   - "Pipe"
 
-résumé: ""
+description: ""
 ---
 
 {% prerequis %}
@@ -40,7 +40,7 @@ résumé: ""
 {% endlien %}
 
 {% chemin %}
-<b> POK & MON </b>  
+<b> POK & MON </b>
 
 - [MON 3.1 : Angular de Arthur Louradou](../../../../2023-2024/Louradou-Arthur/mon/temps-3.1/index.md)
 {% endchemin %}
@@ -258,19 +258,19 @@ Comment sont gérées les données dans Angular ? Comment récupérer des donné
 
 ### Les services
 
-Les services sont des classes décorés par @Injectable qui permettent de récupérer des données depuis un serveur, de les manipuler et de les partager entre les composants.  
-Par convention, elles sont nommées : `nom-du-service.service.ts`.  
+Les services sont des classes décorés par @Injectable qui permettent de récupérer des données depuis un serveur, de les manipuler et de les partager entre les composants.
+Par convention, elles sont nommées : `nom-du-service.service.ts`.
 Le service va créer une dépendance pour les composants qui vont l'utiliser (dépendance = quelque chose dont a besoin le composant pour fonctionner).
 
 Le mécanisme qui permet l'échange de dépendances entre différentes parties de l'application (par exemple, service et composant) est appelé **l'injection de dépendances**.
 
 ### L'injection de dépendances/Dependency Injection
 
-**Comment ça marche ?**  
+**Comment ça marche ?**
 Pour gérer l'échange de dépendance, l'**injecteur** vérifie qu'il n'existe pas déjà une instance de la classe service à fournir et si ce n'est pas le cas, il crée une nouvelle instance et la fournit. Et on a souvent **dépendance = service**.
 
-**Comment fournir une dépendance ?**  
-On utilise le décorateur `@Injectable` pour indiquer que la classe est un service et avec le décorateur `providedIn: 'root'`, on indique que le service est fourni à l'ensemble de l'application.  
+**Comment fournir une dépendance ?**
+On utilise le décorateur `@Injectable` pour indiquer que la classe est un service et avec le décorateur `providedIn: 'root'`, on indique que le service est fourni à l'ensemble de l'application.
 Il existe d'autres possibilités voir [documention Angular](https://angular.dev/guide/di/dependency-injection).
 
 ```typescript
@@ -284,8 +284,8 @@ export class DataService {
 }
 ```
 
-**Comment utiliser une dépendance ?**  
-La [documentation](https://angular.dev/guide/di/dependency-injection) offre 2 méthodes, j'ai choisi la recommandée qui est de déclarer le service dans le constructeur du composant.  
+**Comment utiliser une dépendance ?**
+La [documentation](https://angular.dev/guide/di/dependency-injection) offre 2 méthodes, j'ai choisi la recommandée qui est de déclarer le service dans le constructeur du composant.
 Ainsi quand le composant est créé, Angular va automatiquement injecter le service.
 
 ```typescript
@@ -298,12 +298,12 @@ export class AppComponent {
 }
 ```
 
-Il y a plus d'explications dans la documentation d'Angular sur la [Dependency Injection](https://angular.dev/guide/di).  
+Il y a plus d'explications dans la documentation d'Angular sur la [Dependency Injection](https://angular.dev/guide/di).
 Maintenant je sais comment gérer les données dans Angular, comment récupérer les données dans le composant depuis le service mais je ne sais toujours pas comment récupérer des données depuis un serveur.
 
 ### Les requêtes HTTP
 
-Pour récupérer des données depuis un serveur, on utilise le service `HttpClient` qui permet de faire des requêtes HTTP.  
+Pour récupérer des données depuis un serveur, on utilise le service `HttpClient` qui permet de faire des requêtes HTTP.
 On doit d'abord importer le module `HttpClientModule` dans le module principal de l'application.
 
 ```typescript

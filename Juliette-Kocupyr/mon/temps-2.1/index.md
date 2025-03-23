@@ -11,7 +11,7 @@ tags:
   - "UX"
   - "UI"
 
-résumé: "Avec ce MON, je veux explorer les tendances UX/UI de 2024 pour favoriser l'expérience utilisateur."
+description: "Avec ce MON, je veux explorer les tendances UX/UI de 2024 pour favoriser l'expérience utilisateur."
 ---
 
 {% prerequis %}

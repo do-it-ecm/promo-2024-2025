@@ -16,7 +16,7 @@ tags:
   - 'programmation-fonctionnelle'
   - 'haskell'
 
-résumé: Introduction à la programmation fonctionnelle
+description: Introduction à la programmation fonctionnelle
 ---
 
 {% prerequis %}

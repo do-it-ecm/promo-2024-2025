@@ -12,7 +12,7 @@ tags:
   - "Python - Finance"
   - "Portfolio Analysis"
 
-résumé: "Un MON reprenant les bases de l'analyse de portefeuille d'actions avec Python"
+description: "Un MON reprenant les bases de l'analyse de portefeuille d'actions avec Python"
 ---
 
 {% prerequis %}
@@ -46,7 +46,7 @@ Les liens utiles pour la compréhension de ce projet.
 
 # 1. Optimisation de Portefeuille
 
-## 1.1 Concepts de base 
+## 1.1 Concepts de base
 
 L'optimisation de portefeuille est une méthode qui permet de sélectionner les meilleurs actifs pour maximiser le rendement attendu tout en minimisant le risque. Le principe fondamental est basé sur la théorie moderne du portefeuille développée par **Harry Markowitz** en 1952, connue sous le nom de **modèle de Markowitz**.
 
@@ -235,10 +235,10 @@ rendements = data.pct_change().dropna()
 jours_bourse_par_an = 252
 
 # Calcul du rendement moyen annuel
-rendement_moyen_annuel = rendements.mean() * jours_bourse_par_an * 100 
+rendement_moyen_annuel = rendements.mean() * jours_bourse_par_an * 100
 
 # Calcul de la volatilité annuelle
-volatilite_annuelle = rendements.std() * np.sqrt(jours_bourse_par_an) * 100 
+volatilite_annuelle = rendements.std() * np.sqrt(jours_bourse_par_an) * 100
 # Taux sans risque (par exemple, 1 % par an)
 taux_sans_risque_annuel = 0.01  # 1% par an
 
@@ -342,7 +342,7 @@ for rendement_cible in np.linspace(rendement_annuel.min(), rendement_annuel.max(
     contraintes = ({'type': 'eq', 'fun': lambda x: np.sum(x) - 1},
                    {'type': 'eq', 'fun': lambda x: np.sum(x * rendement_annuel) - rendement_cible})
     result = sco.minimize(objectif_volatilite, len(actions) * [1./len(actions)], method='SLSQP', bounds=limites, constraints=contraintes)
-    
+
     rendements_portefeuille.append(rendement_cible)
     volatilites_portefeuille.append(np.sqrt(np.dot(result.x.T, np.dot(cov_matrix_annuelle, result.x))))
     poids_optimal.append(result.x)

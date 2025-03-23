@@ -13,7 +13,7 @@ tags:
   - "figma"
   - "UI"
 
-résumé: "Je souhaite découvrir l'utilisation de figma, une application de design d'UI et d'UX,  dont j'ai seulement vu mes amis utiliser pour pouvoir réussir à faire le joli Mock-up lié à mon POK1."
+description: "Je souhaite découvrir l'utilisation de figma, une application de design d'UI et d'UX,  dont j'ai seulement vu mes amis utiliser pour pouvoir réussir à faire le joli Mock-up lié à mon POK1."
 ---
 
 {% prerequis %}
@@ -60,7 +60,7 @@ Il n'y a pas de code, simplement des composants (rectangles, textes, icônes...)
 Pourquoi c'est utile ?
 **On sait où on va!**
 
-Donc 
+Donc
 - On réfléchit indirectement à notre code en plaçant les éléments en avance.
 - On ne fait pas mille et un aller-retour parce qu'on n'est pas satisfait de l'apparence de nos pages.
 

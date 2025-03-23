@@ -10,7 +10,7 @@ date: 2025-01-23
 temps: 3
 tags:
 
-résumé: Ce projet a pour objectif de développer un système de recommandation de films en utilisant le modèle de machine learning ALS (Alternating Least Squares) de PySpark, librairie d'analyse de données et de machine learning.
+description: Ce projet a pour objectif de développer un système de recommandation de films en utilisant le modèle de machine learning ALS (Alternating Least Squares) de PySpark, librairie d'analyse de données et de machine learning.
 ---
 
 {% prerequis %}
@@ -82,20 +82,20 @@ Au cours de mon cursus j'ai déjà eu l'occasion de travailler sur des modèles 
 
 ### Premier Sprint
 
-#### Le modèle ALS (Alternating Least Squares) 
+#### Le modèle ALS (Alternating Least Squares)
 
 Le modèle **ALS (Alternating Least Squares)** est utilisé pour les systèmes de recommandation. Il cherche à décomposer une matrice \\( R \\), qui représente les interactions entre utilisateurs et éléments (comme les notes attribuées à des films pour ce POK), en deux matrices plus petites :
 
 - \\( U \\) : matrice des préférences des utilisateurs.
 - \\( M \\) : matrice des caractéristiques des éléments (comme les films).
 
-L'approximation se fait avec la relation suivante :  
+L'approximation se fait avec la relation suivante :
 $$
 R \\approx U \\cdot M^T
 $$
 
 L'objectif est de minimiser l'erreur entre les valeurs prédites \\( U_u^T \\cdot M_i \\) et les notes réelles \\( R_{ui} \\)
-tout en ajoutant une régularisation pour éviter le surapprentissage. La fonction d'optimisation est :  
+tout en ajoutant une régularisation pour éviter le surapprentissage. La fonction d'optimisation est :
 
 $$
 \\min_{U, M} \\sum_{(u, i) \\in R} \\left( R_{ui} - U_u^T M_i \\right)^2 + \\lambda \\left( ||U_u||^2 + ||M_i||^2 \\right)
@@ -116,13 +116,13 @@ Le processus alterne entre ces deux étapes jusqu'à ce que l'erreur soit suffis
 
 #### Exemple simple
 
-Supposons une matrice \\( R \\) comme celle-ci (notes données par des utilisateurs) :  
+Supposons une matrice \\( R \\) comme celle-ci (notes données par des utilisateurs) :
 
-| Utilisateur / Film | Film 1 | Film 2 | Film 3 |  
-|---------------------|--------|--------|--------|  
-| Utilisateur 1       | 5      | ?      | 3      |  
-| Utilisateur 2       | ?      | 4      | ?      |  
-| Utilisateur 3       | 1      | ?      | 2      |  
+| Utilisateur / Film | Film 1 | Film 2 | Film 3 |
+|---------------------|--------|--------|--------|
+| Utilisateur 1       | 5      | ?      | 3      |
+| Utilisateur 2       | ?      | 4      | ?      |
+| Utilisateur 3       | 1      | ?      | 2      |
 
 Le modèle utilise \\( U \\) et \\( M \\) pour prédire les notes manquantes (notées "?"). En ajustant itérativement \\( U \\) et \\( M \\), ALS minimise l'erreur entre les prédictions et les notes réelles.
 
@@ -134,27 +134,27 @@ Pour ce projet , j'ai choisi le dataset **MovieLens** disponible sur Kaggle, un 
 - **ratings.csv** : Contient les évaluations des utilisateurs pour les films, avec l'ID de l'utilisateur, l'ID du film, la note attribuée et la date de l'évaluation.
 - **tags.csv** : Contient des informations sur les tags associés aux films, qui peuvent être utiles pour l'analyse des préférences.
 
-Dans la suite du projet je ne suis pas certains d'utiliser toutes ces données, je vais dans un premier temps travailler avec le dataset **ratings.csv**. 
+Dans la suite du projet je ne suis pas certains d'utiliser toutes ces données, je vais dans un premier temps travailler avec le dataset **ratings.csv**.
 
 #### Préparation de l'environnement PySpark
 
 Avant de pouvoir analyser les données, il est nécessaire de configurer un environnement pour travailler avec PySpark. Suite à me documentation sur le site [PySpark](https://spark.apache.org/docs/latest/api/python/index.html) voici les étapes principales de la configuration de PySpark :
 
-**Étapes principales :** 
-1. Installer PySpark :  
+**Étapes principales :**
+1. Installer PySpark :
    ```bash
    pip install pyspark
    ```
-2. Configurer une SparkSession dans le code. Exemple minimal :  
+2. Configurer une SparkSession dans le code. Exemple minimal :
    ```python
    from pyspark.sql import SparkSession
-   
+
    spark = SparkSession.builder \
        .appName("Recommandation de films") \
        .getOrCreate()
    ```
 
-**Test de connexion avec les données :**  
+**Test de connexion avec les données :**
 Une fois l’environnement configuré, on peut charger quelques lignes du fichier `ratings.csv` :
 ```python
 df = spark.read.csv("ratings.csv", header=True, inferSchema=True)
@@ -171,7 +171,7 @@ Une fois l’environnement prêt, nous pouvons d’explorer les données pour mi
   - `rating` : note attribuée (échelle de 0.5 à 5, par pas de 0.5).
   - `timestamp` : date et heure de l’évaluation.
 
-- **Statistiques descriptives :**  
+- **Statistiques descriptives :**
    - Nombre total de lignes dans le dataset : 20 millions.
    - Nombre d’utilisateurs uniques : 138 493.
    - Nombre de films uniques : 26 744.
@@ -182,25 +182,25 @@ Une fois l’environnement prêt, nous pouvons d’explorer les données pour mi
 
 {% enddetails %}
 
-#### Nettoyage et transformation des données  
+#### Nettoyage et transformation des données
 
-Pour garantir une exploitation optimale des données, des vérifications ont été réalisées :  
+Pour garantir une exploitation optimale des données, des vérifications ont été réalisées :
 
-1. **Gestion des valeurs manquantes**  
-   Une analyse des colonnes a confirmé l'absence de valeurs nulles dans le dataset. Aucun nettoyage supplémentaire n'était requis.  
+1. **Gestion des valeurs manquantes**
+   Une analyse des colonnes a confirmé l'absence de valeurs nulles dans le dataset. Aucun nettoyage supplémentaire n'était requis.
 
-2. **Transformation du timestamp**  
-   La colonne `timestamp` a été convertie en une date lisible pour faciliter les analyses temporelles :  
+2. **Transformation du timestamp**
+   La colonne `timestamp` a été convertie en une date lisible pour faciliter les analyses temporelles :
    ```python
    from pyspark.sql.functions import from_unixtime
-   
+
    df = df.withColumn("date", from_unixtime(f.col("timestamp")))
-   ```  
+   ```
 
-3. **Typage des données**  
-   Les types de colonnes (`userId`, `movieId`, `rating`, `timestamp`) ont été validés comme appropriés pour les traitements envisagés.  
+3. **Typage des données**
+   Les types de colonnes (`userId`, `movieId`, `rating`, `timestamp`) ont été validés comme appropriés pour les traitements envisagés.
 
-Les données sont désormais prêtes pour la création des matrices utilisateurs-films et l’implémentation du modèle.  
+Les données sont désormais prêtes pour la création des matrices utilisateurs-films et l’implémentation du modèle.
 
 
 ### Second Sprint
@@ -270,10 +270,10 @@ Après avoir recherché les valeurs optimales pour chacuns de ces paramètres pa
 
 | Paramètres | Valeurs |
 | -------- | -------- |
-| **rank**  | 16 | 
-| **maxIter**  | 15 | 
-| **regParam** | 0.055 | 
-| **alpha** | 25 | 
+| **rank**  | 16 |
+| **maxIter**  | 15 |
+| **regParam** | 0.055 |
+| **alpha** | 25 |
 
 
 

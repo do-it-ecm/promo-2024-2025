@@ -12,7 +12,7 @@ tags:
   - "dev"
   - "cyber"
 
-résumé: Déploiement automatisé d'un environnement de développement sécurisé pour une équipe de développement moderne
+description: Déploiement automatisé d'un environnement de développement sécurisé pour une équipe de développement moderne
 ---
 
 <head>

@@ -11,7 +11,7 @@ tags:
   - "Saumon"
   - "Intelligence collective"
 
-résumé: "La réunionite est une épidémie qui sévit dans le monde du travail. C’est devenu très commun de sortir d’une réunion persuadé qu’elle aurait pu se résumer en un échange de mail ou que notre présence y était parfaitement inutile. Les réunions sont pourtant nécessaires au bon déroulement d’un projet. Pour quelles raisons il est intéressant ou non de convoquer une réunion, qui convier, comment l’animer ? L’objectif est de trouver les clefs pour organiser des réunions ou y participer de manière efficace."
+description: "La réunionite est une épidémie qui sévit dans le monde du travail. C’est devenu très commun de sortir d’une réunion persuadé qu’elle aurait pu se résumer en un échange de mail ou que notre présence y était parfaitement inutile. Les réunions sont pourtant nécessaires au bon déroulement d’un projet. Pour quelles raisons il est intéressant ou non de convoquer une réunion, qui convier, comment l’animer ? L’objectif est de trouver les clefs pour organiser des réunions ou y participer de manière efficace."
 ---
 
 {% prerequis %}

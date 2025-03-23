@@ -9,7 +9,7 @@ date: 2025-01-01
 temps: 2
 tags:
 
-résumé: "Ampli, bafle, subwoofer, impédance, actif, passif, préampli, etc. Vous êtes perdus ? Moi aussi, mais plus pour longtemps"
+description: "Ampli, bafle, subwoofer, impédance, actif, passif, préampli, etc. Vous êtes perdus ? Moi aussi, mais plus pour longtemps"
 ---
 
 ## Sommaire

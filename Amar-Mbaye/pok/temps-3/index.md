@@ -14,7 +14,7 @@ tags:
 - Python
 - SQLite
 
-résumé: Ce POK vise à créer une application graphique de gestion des tâches avec PyQt et SQLite, en adoptant le modèle Kanban. L'application permet de gérer des tableaux, des listes et des cartes, avec des fonctionnalités comme le glisser-déposer, la gestion des échéances et l'ajout d'éléments visuels (étiquettes, checklists, pièces jointes). L'architecture du projet repose sur un modèle MVC qui permet une séparation entre la gestion des données, la logique métier et l'interface utilisateur. L'affichage est personnalisé avec QSS dans un thème dark moderne.
+description: Ce POK vise à créer une application graphique de gestion des tâches avec PyQt et SQLite, en adoptant le modèle Kanban. L'application permet de gérer des tableaux, des listes et des cartes, avec des fonctionnalités comme le glisser-déposer, la gestion des échéances et l'ajout d'éléments visuels (étiquettes, checklists, pièces jointes). L'architecture du projet repose sur un modèle MVC qui permet une séparation entre la gestion des données, la logique métier et l'interface utilisateur. L'affichage est personnalisé avec QSS dans un thème dark moderne.
 
 ---
 
@@ -39,7 +39,7 @@ résumé: Ce POK vise à créer une application graphique de gestion des tâches
 3. Implémenter un système de glisser-déposer (drag & drop) permettant de déplacer les cartes entre les listes sans bloquer l’interface.
 4. Gérer les données avec SQLite pour stocker les tableaux, listes, cartes, étiquettes et échéances.
 5. Avoir un design responsive avec QSS pour la personnalisation.
-   
+
 ---
 
 ### Recueil des besoins
@@ -224,7 +224,7 @@ Lorsque le bouton est cliqué, la fonction `ajouter_tableau` est déclenchée.
 
 - On peut modifier l’apparence des boutons (QPushButton), en appliquant des couleurs personnalisées, des bordures arrondies ainsi que d'autres effets.
 
-- On peut aussi utilisé un pseudo-classes, comme :hover, pour modifier l’apparence des boutons lorsqu’un utilisateur passe la souris dessus. 
+- On peut aussi utilisé un pseudo-classes, comme :hover, pour modifier l’apparence des boutons lorsqu’un utilisateur passe la souris dessus.
 
 - J’ai vu l’intérêt de séparer les styles QSS dans un fichier externe plutôt que de les définir directement dans le code PyQt, ce qui facilite les modifications et la maintenance du design sans impacter la logique métier.
 
@@ -305,8 +305,8 @@ Le bouton change de couleur lorsque la souris passe dessus.
 
 ---
 
-A la fin de ce sprint, mon code a ete organise ainsi(architecture MVC) : 
-  
+A la fin de ce sprint, mon code a ete organise ainsi(architecture MVC) :
+
  - **main. py** le point d'entrée de l'application
 - **main_window.py** la fenêtre principale qui gère les différentes vues
 - **Dossier components/** les Widgets réutilisables (cartes, listes, etc.)
@@ -315,7 +315,7 @@ A la fin de ce sprint, mon code a ete organise ainsi(architecture MVC) :
 - **Dossier utils/** les utilitaires divers
 - **Dossier assets/** les ressources (styles, images, polices)
 
-  
+
 {% details "Livrable du sprint 1" %}
 
 La page de connexion:
@@ -372,27 +372,27 @@ L'un des défis majeurs de ce sprint a été l'optimisation du placement des wid
 
 - La base de données repose sur plusieurs tables interconnectées qui permettent de structurer les tableaux, listes et cartes, avec des fonctionnalités comme l’étiquetage, les listes de vérification et les pièces jointes.
 
-Ainsi : 
+Ainsi :
 
-**a.** *J'ai crée une table `boards` pour stocker les tableaux de gestion des tâches, contenant un identifiant unique, un nom et une date de création.*  
+**a.** *J'ai crée une table `boards` pour stocker les tableaux de gestion des tâches, contenant un identifiant unique, un nom et une date de création.*
 **b.** *Puis une table `cards` pour stocker les cartes associées aux listes, avec un titre, une description, une échéance et une référence à la liste correspondante.*
 
 Ainsi que d'autres tables telle que :
 
-**c.** *users pour la gestion des utilisateurs*   
-**d.** *lists pour stocker les listes dans les tableaux*    
-**e.** *labels pour stocker les etiquettes pour les cartes*   
-**f.** *card_labels qui fait Association entre cartes et étiquettes*    
-**g.** *checklists pour stocker les listes de vérification*   
-**h.** *checklist_items pour stocker Éléments des listes de vérification*   
+**c.** *users pour la gestion des utilisateurs*
+**d.** *lists pour stocker les listes dans les tableaux*
+**e.** *labels pour stocker les etiquettes pour les cartes*
+**f.** *card_labels qui fait Association entre cartes et étiquettes*
+**g.** *checklists pour stocker les listes de vérification*
+**h.** *checklist_items pour stocker Éléments des listes de vérification*
 **i.** *attachments pour stocker les pièces jointes*
-  
+
   {% info "Les clés étrangèresi" %}
   Chaque tableau peut contenir plusieurs listes, et chaque liste peut contenir plusieurs cartes. Pour établir ces relations, des clés étrangères sont utilisées afin de lier les cartes à leurs tableaux respectifs.
 {% endinfo %}
 
-- En suite j'ai utilisé les relations entre les différentes entités avec des **clés étrangères** pour lier les cartes aux listes (`list_id`) et les listes aux tableaux (`board_id`).  
-  
+- En suite j'ai utilisé les relations entre les différentes entités avec des **clés étrangères** pour lier les cartes aux listes (`list_id`) et les listes aux tableaux (`board_id`).
+
 {% details "Explication technique des relations" %}
 
 - Un tableau (board) peut contenir plusieurs listes (lists).
@@ -401,50 +401,50 @@ Ainsi que d'autres tables telle que :
 - Une étiquette (label) peut être appliquée à plusieurs cartes (card_labels).
 {% enddetails %}
 
-- Pour permettre l’ajout, la modification, la lecture et la suppression des tableaux, listes et cartes., j'ai implémenté des opérations CRUD.  
-  
+- Pour permettre l’ajout, la modification, la lecture et la suppression des tableaux, listes et cartes., j'ai implémenté des opérations CRUD.
+
   {% info "ON DELETE CASCADE ?" %}
   Les operations gérées de manière transactionnelle pour assurer la cohérence des données, en utilisant des clauses ON DELETE CASCADE dans les clés étrangères.
 {% endinfo %}
 - J'ai intégré en suite une **suppression en cascade (`ON DELETE CASCADE`)** pour assurer qu’en supprimant un tableau, toutes les listes et cartes associées soient supprimées automatiquement pour éviter les incohérences et garantir qu’aucune donnée orpheline ne reste dans la base de données après suppression.
 
-- Les dates d’échéance (`due_date`) stockagé en **format UTC** pour assurer une gestion cohérente des tâches à travers différents fuseaux horaires.  
+- Les dates d’échéance (`due_date`) stockagé en **format UTC** pour assurer une gestion cohérente des tâches à travers différents fuseaux horaires.
 
-- J'ai ajout d’une vérification automatique des tâches en retard via une requête SQL, permettant d’afficher des alertes ou des rappels à l’utilisateur.  
-- En fin, une requête SQLite qui vérifie chaque jour les tâches en retard. 
+- J'ai ajout d’une vérification automatique des tâches en retard via une requête SQL, permettant d’afficher des alertes ou des rappels à l’utilisateur.
+- En fin, une requête SQLite qui vérifie chaque jour les tâches en retard.
 
 #### 2. **Gestion des signaux et événements utilisateur :**
-   
-L’implémentation s’appuie sur le système de signaux et de slots de PyQt pour assurer une interaction fluide entre l’interface et la base de données.
-Pour se faire : 
 
-- J'ai utilisé des signaux `clicked` pour connecter les boutons d’aujout et de suppression aux actions correspondantes.  
-- Des slots personnalisés ont été implémenté aussi pour mettre à jour l'interface et la base de données simultanément.  
-- Le déplacement des cartes entre les listes repose sur le système de signaux et slots de PyQt.  
-- Chaque carte est un widget PyQt personnalisé, activant l’événement `dragEnterEvent` lorsqu’elle est déplacée.  
-- Lorsqu’une carte est déplacée, sa position est mise à jour dans SQLite pour la persistance après fermeture de l’application.  
-- Si une tâche a une échéance dépassée, une alerte visuelle est affichée dans l’interface PyQt.  
-- j'ai utilisé  `QMessageBox` pour notifier l’utilisateur des échéances importantes.  
+L’implémentation s’appuie sur le système de signaux et de slots de PyQt pour assurer une interaction fluide entre l’interface et la base de données.
+Pour se faire :
+
+- J'ai utilisé des signaux `clicked` pour connecter les boutons d’aujout et de suppression aux actions correspondantes.
+- Des slots personnalisés ont été implémenté aussi pour mettre à jour l'interface et la base de données simultanément.
+- Le déplacement des cartes entre les listes repose sur le système de signaux et slots de PyQt.
+- Chaque carte est un widget PyQt personnalisé, activant l’événement `dragEnterEvent` lorsqu’elle est déplacée.
+- Lorsqu’une carte est déplacée, sa position est mise à jour dans SQLite pour la persistance après fermeture de l’application.
+- Si une tâche a une échéance dépassée, une alerte visuelle est affichée dans l’interface PyQt.
+- j'ai utilisé  `QMessageBox` pour notifier l’utilisateur des échéances importantes.
 
 #### 3. **Stylisation via QSS :**
 Pour cette partie, j’ai regroupé les compétences acquises lors du sprint 1 sur l’utilisation de QSS pour la mise en forme de l’interface :
 
-- J'ai appliqué une couleur d’arrière-plan spécifique `#0079BF` pour les boutons, pour avoir une lisibilité du texte en blanc.  
+- J'ai appliqué une couleur d’arrière-plan spécifique `#0079BF` pour les boutons, pour avoir une lisibilité du texte en blanc.
 - Y a aussi un **effet de survol** en modifiant la couleur du bouton (`#026AA7`) lorsque l’utilisateur passe la souris dessus.
--  Les bords sont arrondi avec **(`border-radius: 3px`)**. 
-  
+-  Les bords sont arrondi avec **(`border-radius: 3px`)**.
+
 ---
 
 ### Analyse post-mortem
 
 - **Points forts :** Bonne avancée dans la gestion des données et la persistance avec SQLite.
 
-- **Points faibles :** La gestion des cartes a été plus complexe que prévu, les performances de l’interface ralentissaient lorsque de nombreuses cartes étaient chargées simultanément.  
+- **Points faibles :** La gestion des cartes a été plus complexe que prévu, les performances de l’interface ralentissaient lorsque de nombreuses cartes étaient chargées simultanément.
 
 - **Amélioration :** Intégrer des tests unitaires dès le début pour détecter les incohérences.
 
 - **Le plus grand problème rencontré :** La suppression d’un tableau ne supprimait pas toujours correctement les cartes associées.
-  
+
 - **Solution :** Ajout de contraintes ON DELETE CASCADE dans la base de données SQLite pour une suppression complète.
 ---
 
@@ -459,7 +459,7 @@ Pour cette partie, j’ai regroupé les compétences acquises lors du sprint 1 s
 3. Les données sont stockées dans une base SQLite.
 
 4. Utilisation de QSS pour un designe uniforme.
-   
+
    <video controls>
     <source src="./Resultat.mp4" type="video/mp4">
    </video>
@@ -467,7 +467,7 @@ Pour cette partie, j’ai regroupé les compétences acquises lors du sprint 1 s
 {% enddetails %}
 
 {% info "Le savais-tu ?" %}
-   Mon readme sur github donne une explication tres claire sur le  projet. 
+   Mon readme sur github donne une explication tres claire sur le  projet.
    Voici le lien vers [le code source](https://github.com/MbayeSyAmar/Pok3)
    {% endinfo %}
 
@@ -479,9 +479,9 @@ Pour cette partie, j’ai regroupé les compétences acquises lors du sprint 1 s
 - Automatiser les tests pour éviter des bugs liés à la gestion des événements utilisateur.
 
 - Implémenter un chargement asynchrone des données SQLite pour éviter les ralentissements.
-  
+
 - Réduire les redessins inutiles des widgets PyQt pour améliorer la fluidité de l’interface
-  
+
 - Intégrer une option de personnalisation des alertes, permettant aux utilisateurs de définir leurs propres rappels.
 
 

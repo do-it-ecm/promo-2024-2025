@@ -14,7 +14,7 @@ tags:
   - "Web"
   - "Angular"
 
-résumé: Une des missions de mon stage de fin d'études consistera à développer une plateforme web en Angular. Ce framework proposé par les équipes de Google permet de faire du développement Front-End. C'est pourquoi, je vais consacrer ce POK au développement Angular en créant un site internet de cuisine appelé Miam'Miam (mes recettes, feedback, ...).
+description: Une des missions de mon stage de fin d'études consistera à développer une plateforme web en Angular. Ce framework proposé par les équipes de Google permet de faire du développement Front-End. C'est pourquoi, je vais consacrer ce POK au développement Angular en créant un site internet de cuisine appelé Miam'Miam (mes recettes, feedback, ...).
 ---
 {% prerequis %}
 

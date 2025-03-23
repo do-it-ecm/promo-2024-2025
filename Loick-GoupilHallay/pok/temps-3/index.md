@@ -14,7 +14,7 @@ tags:
   - "scaling"
   - "gitops"
 
-résumé: Rework du site Do-It pour apporter la possibilité de scaling et l'utilisation de GitHub Actions pour le CI/CD.
+description: Rework du site Do-It pour apporter la possibilité de scaling et l'utilisation de GitHub Actions pour le CI/CD.
 ---
 
 {% sommaire %}

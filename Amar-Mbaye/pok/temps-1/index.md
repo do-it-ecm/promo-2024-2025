@@ -7,11 +7,11 @@ authors:
 
 date: 2024-16-09
 
-tags: 
+tags:
   - "développement web"
   - "Laravel "
 
-résumé: Un POK traitant de la création d'une plateforme de certification en ligne où les utilisateurs peuvent suivre des cours en vidéo et obtenir un certificat après évaluation.
+description: Un POK traitant de la création d'une plateforme de certification en ligne où les utilisateurs peuvent suivre des cours en vidéo et obtenir un certificat après évaluation.
 
 ---
 {% prerequis %}
@@ -53,15 +53,15 @@ résumé: Un POK traitant de la création d'une plateforme de certification en l
 3. [Tâches](#section-3)
 4. [Résultats ](#section-4)
 
-   
+
 ## Pourquoi créer une plateforme d'apprentissage en ligne 🌍📚?
 
 Dans un monde où l'éducation et le développement personnel sont de plus en plus numérisés, la création d'une plateforme d'apprentissage en ligne présente de nombreux avantages. Elle permet de démocratiser l'accès à la connaissance, de briser les barrières géographiques et de permettre à quiconque, où qu'il soit, d'accéder à des formations de qualité. Voici quelques raisons clés pour lesquelles ce projet est non seulement pertinent, mais également porteur d'avenir.
 
    D'abord une plateforme de cours en ligne permet aux étudiants du monde entier d'accéder à des connaissances spécialisées. Que ce soit pour des étudiants dans des régions reculées ou pour des professionnels qui cherchent à acquérir de nouvelles compétences, ce type de plateforme est un levier pour la formation continue.
-  
+
    Ensuite, contrairement aux méthodes traditionnelles d'enseignement, une plateforme en ligne permet aux apprenants de progresser à leur rythme. Ils peuvent visionner des vidéos, revoir des leçons et passer des évaluations selon leur propre emploi du temps, rendant l'apprentissage flexible et adapté aux besoins de chacun.
- 
+
    Enfin, grâce à la flexibilité de la plateforme, le contenu peut être mis à jour régulièrement. De nouveaux cours peuvent être ajoutés, permettant aux étudiants d'accéder aux dernières innovations dans leur domaine. L'apprentissage devient ainsi un processus continu, en phase avec les évolutions du marché.
 
 [Voici un article sur les plaformes de certifications en ligne](https://bienvenum.org/plateforme-de-formation-en-ligne/#:~:text=Elles%20permettent%20aux%20apprenants%20d,et%20adapt%C3%A9%20%C3%A0%20chaque%20individu).
@@ -72,18 +72,18 @@ Dans un monde où l'éducation et le développement personnel sont de plus en pl
 
 Laravel, un des frameworks PHP les plus populaires, est un bon choix pour le développement d'une telle plateforme. C'est grace a ces raison qu'il est un bon choix:
 
-1. **Sécurité renforcée**  
+1. **Sécurité renforcée**
 
-2. **Système d'authentification intégré**  
-  
-3. **Flexibilité et évolutivité**  
-   
-4. **Écosystème riche**  
-   
-5. **Architecture MVC claire**  
-  
-6. **Gestion des bases de données simplifiée**  
-   
+2. **Système d'authentification intégré**
+
+3. **Flexibilité et évolutivité**
+
+4. **Écosystème riche**
+
+5. **Architecture MVC claire**
+
+6. **Gestion des bases de données simplifiée**
+
    [Voici un tutoriel rapide sur Laravel](https://grafikart.fr/tutoriels/introduction-laravel-2112#autoplay)
 
 ---
@@ -104,21 +104,21 @@ Ce sprint est dédié à la création de l'interface utilisateur de la plateform
 | Implémenter le système d'authentification      | 2h            |
 
 
-***Étude post-mortem :***  
+***Étude post-mortem :***
 À la fin de ce sprint, Je vais évaler la fonctionnalité des pages développées et corriger les bugs éventuels.
 
 
 ***À la fin de du sprint***
 
-- [x] Développer les pages d'accueil   
+- [x] Développer les pages d'accueil
 
-- [x] Créer les formulaires d'inscription   
+- [x] Créer les formulaires d'inscription
 
-- [x] Mettre en place la structure des pages vidéos   
+- [x] Mettre en place la structure des pages vidéos
 
-- [x] Implémenter le système d'authentification  
-   
-#### Sprint 2 : 
+- [x] Implémenter le système d'authentification
+
+#### Sprint 2 :
 
 Ce sprint est dédié à l'ajout de fonctionnalités permettant aux instructeurs de créer des cours, aux étudiants de les suivre et de passer des évaluations.
 | Tâche                                      | Durée estimée |
@@ -131,27 +131,27 @@ Ce sprint est dédié à l'ajout de fonctionnalités permettant aux instructeurs
 
 ***À la fin de du sprint***
 - [x] Développer un tableau de bord(Toutes les pages visibles) pour les admins
-  
+
 - [x] Assurer la sécurité
-  
+
 - [x] Permettre la création de cours(gérer les permissions)
-  
-- [x] Intégrer un lecteur vidéo 
-  
+
+- [x] Intégrer un lecteur vidéo
+
 - [x] Recherche sur le systeme de payement
-  
-- [ ] Implémentation d'un filtre de recherche par catégorie pour les cours (non terminé). 
 
-- [ ] Liaison correcte pour le paiement en ligne  
+- [ ] Implémentation d'un filtre de recherche par catégorie pour les cours (non terminé).
 
-- [ ] Gestion de la progression de l'étudiant dans la base de données (non terminé). 
-  
-***Étude post-mortem :***  
+- [ ] Liaison correcte pour le paiement en ligne
+
+- [ ] Gestion de la progression de l'étudiant dans la base de données (non terminé).
+
+***Étude post-mortem :***
 Je vais évaler la fluidité de la gestion des cours et ajuster les problèmes liés à la gestion des données.
 
 ---
 
-## Résultats 
+## Résultats
 Pour avoir une meilleure présentation des résultats, j'ai téléchargé l'extension [Simulateur téléphone mobile - test site responsive](https://www.webmobilefirst.com/).
 
 <div class="tip">
@@ -234,7 +234,7 @@ Là, je n'ai pas réussi à lier correctement le paiement en ligne, même si j'a
 {%enddetails%}
 
 <div class="hint">
-  <strong>💡</strong> Maintenant, du côté admin, je vais essayer de me connecter en premier lieu comme admin simple (instructeur). 
+  <strong>💡</strong> Maintenant, du côté admin, je vais essayer de me connecter en premier lieu comme admin simple (instructeur).
 </div>
 {% details "Comme instructeur"%}
 <img src="images/7.PNG" alt="image" />

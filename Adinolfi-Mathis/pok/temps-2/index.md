@@ -13,7 +13,7 @@ tags:
   - "Vert"
   - "Simulation"
 
-résumé: Ce POK a pour but de présenter mes avancées sur ma simulation du trafic routier en ville.
+description: Ce POK a pour but de présenter mes avancées sur ma simulation du trafic routier en ville.
 ---
 
 {% lien %}

@@ -10,7 +10,7 @@ date: 1971-03-01
 temps: 3
 tags:
 
-résumé: Un POK traitant d'un sujet.
+description: Un POK traitant d'un sujet.
 ---
 
 {% prerequis %}
@@ -74,7 +74,7 @@ Pour comprendre un peut mieux de quoi il en retourne, j’ai commencer par lire 
 
 Ainsi, le craping de données est une technique qui permet, à l’aide d’un programme informatique, d’extraire des données d’un autre programme, généralement celui d’un site web.
 
-Il y a trois étapes clés au scraping : 
+Il y a trois étapes clés au scraping :
 
 1. Envoie d’une requette http GET à un site web
 2. Analyse du document HTML reçu
@@ -88,7 +88,7 @@ Pour comprendre ce sujet, j’ai lu l’article de datadome : [Le web scraping e
 
 Dans la plupart des pays, le web scraping n’est pas illégal. Cependant l’utilisation des données récoltées peut être punissable juridiquement. Et il faut rester attentif, certains sites restreignent ou interdisent explicitement le web scraping sur leurs données.
 
-Les activités liées au webscrping qui sont à la limite de la légalité sont les suivantes : 
+Les activités liées au webscrping qui sont à la limite de la légalité sont les suivantes :
 
 - Se connecter à un site web et télécharger des données
 - La collecte de données personnelles ou des informations sensibles sans consentement
@@ -117,17 +117,17 @@ Pour cela, j'ai étudié la structure du site afin de bien comprendre comment al
 
 Le premier défi auquel j'ai du faire face a été de gérer le scroll infini de la page évènement. En effet, tous les évènements ne s’affiche pas d’un coup sur la page et il faut scroller pour les afficher, ils ne sont même pas loader dans le code html
 
-Ce qu’il se passe sur le site c'est que à chaque fois que l’on scroll, c’est comme si le site cliquait sur le lien de la page suivante et envoyait une requête pour l’obtenir mais les informations s’affichent directement sur la page initiale pour donner une impression de scroll infini. Ce qui me pose problème pour aller récupérer d'un coup toutes les données sur les séminaires. 
+Ce qu’il se passe sur le site c'est que à chaque fois que l’on scroll, c’est comme si le site cliquait sur le lien de la page suivante et envoyait une requête pour l’obtenir mais les informations s’affichent directement sur la page initiale pour donner une impression de scroll infini. Ce qui me pose problème pour aller récupérer d'un coup toutes les données sur les séminaires.
 
 Pour résoudre ce problème, j'ai utilisé la structure de la page. En effet, le lien de la sous-page suivante est contenu dans le code html de la page, ainsi, je peux le sélectionner et envoyer une requête pour cette nouvelle page. Cela marche pour toutes les pages sauf pour la dernière qui ne possède pas ce lien. Ainsi, il suffit de faire une fonction qui va chercher ce lien pour chaque page et traiter le cas où cette fonction ne peut rien renvoyer.
 
-Pour cela, j'ai utilisé la fonction suivante : 
+Pour cela, j'ai utilisé la fonction suivante :
 ```python
 def next_page_url (soup) :
     next_page_link_div = soup.find('li', class_="pager__item").find('a')
     if next_page_link_div == None :
         return (None)
-    else : 
+    else :
         next_page_link_half = next_page_link_div['href']
         next_page_full_url = urljoin(url_AMSE,next_page_link_half)
         return(next_page_full_url)

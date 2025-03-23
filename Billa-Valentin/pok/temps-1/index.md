@@ -8,20 +8,20 @@ authors:
 date: 2024-09-05
 
 temps: 1
-tags: 
+tags:
   - 'vert'
   - 'avancé'
   - 'go'
   - 'authentification'
   - 'oauth2'
 
-résumé: Création d'un serveur d'authentification OAuth2.0 en Go.
+description: Création d'un serveur d'authentification OAuth2.0 en Go.
 ---
 
 {% prerequis %}
 - Bases relativement solides en programmation
 - Une idée des différences entre utilisateur, client, serveur
-- Quelques concepts d'authentification peuvent aider (token, hash...)  
+- Quelques concepts d'authentification peuvent aider (token, hash...)
 {% endprerequis %}
 
 ## Objectifs
@@ -85,11 +85,11 @@ et son support solide pour la concurrence grâce aux goroutines.
 
 ### Rétro
 
-J'ai un peu abusé... le sujet m'intéresse beaucoup et j'avais envie de bien travailler sur un projet pour 
+J'ai un peu abusé... le sujet m'intéresse beaucoup et j'avais envie de bien travailler sur un projet pour
 avoir des choses à mettre sur mon GitHub. Étant donné que j'ai tendance à hyper-focus, il va falloir que
 je me fixe des limites dures pour le prochain sprint pour éviter d'en faire trop.
 
-Néanmoins, j'ai pu faire le gros du travail de prototypage les 10 premières heures. Travail que j'ai 
+Néanmoins, j'ai pu faire le gros du travail de prototypage les 10 premières heures. Travail que j'ai
 ensuite raffiné les heures suivantes dont je parlerais dans des parties supplémentaires.
 
 Mon plan pour le sprint 2 ne change que très peu (encore très fourni) car je n'ai volontairement pas
@@ -157,11 +157,11 @@ mais aussi puisque c'est d'après moi le plus intéressant.
 >
 > Les clients confidentiels sont des applications qui sont capables de s'authentifier de manière sécurisée avec le serveur d'autorisation,
 > par exemple en étant capables de garder leur secret client \[équivalent d'un mot de passe\] enregistré en sécurité. \
-> Les clients publics ne peuvent pas utiliser de secrets clients enregistrés, 
+> Les clients publics ne peuvent pas utiliser de secrets clients enregistrés,
 > comme les applications s'exécutant dans un navigateur ou sur un appareil mobile.
 > *texte traduit à partir de https://oauth.net/2/client-types/*
 
-#### Protocole avec code autorisation et PKCE 
+#### Protocole avec code autorisation et PKCE
 
 Ce [playground](https://www.oauth.com/playground/authorization-code.html) est une petite merveille pour mieux comprendre
 le protocole utilisé, je conseille de faire une tour dessus avant la lecture des paragraphes suivants.
@@ -220,7 +220,7 @@ Le code que j'ai écrit lors de ce POK est disponible sur un [répository GitHub
 *J'y ai même mis un logo tout mignon, ça vaut le détour.*
 {% endinfo %}
 
-Au vu des étapes clés du flow code d'autorisation, je dois implémenter obligatoirement 3 endpoints 
+Au vu des étapes clés du flow code d'autorisation, je dois implémenter obligatoirement 3 endpoints
 1. `GET /authorize` (**Demande de l'autorisation**)
    Qui renvoie une page HTML de connection pour que l'utilisateur se connecte
    *un simple login suffira, je ne souhaite pas me concentrer sur la partie UI/UX*
@@ -266,7 +266,7 @@ func GetAuthorize(c *gin.Context) {
 }
 ```
 
-Ensuite, pour la génération de tokens j'ai préféré déléguer à un module existant (`github.com/golang-jwt/jwt/v5`), 
+Ensuite, pour la génération de tokens j'ai préféré déléguer à un module existant (`github.com/golang-jwt/jwt/v5`),
 car c'est une partie sensible qui n'est pas triviale à correctement implémenter, surtout la validation de tokens existants.
 
 Initialement, j'ai écrit le hashing et la validation des mots de passes mot même en utilisant Argon2ID un algorithme de
@@ -356,7 +356,7 @@ func Test_plus(t *testing.T) {
 ```
 
 ### Base de données
-Comme à son habitude, la librairie standard de Go est bien fournie, on peut utiliser 
+Comme à son habitude, la librairie standard de Go est bien fournie, on peut utiliser
 [`database/sql`](https://pkg.go.dev/database/sql) pour faire l'interfaçage avec les bases de données SQL.
 J'ai un peu bidouillé sur un projet à côté pour essayer de me connecter à un db existante et en sortir quelques données,
 une fois ça fait, j'ai commencé à configurer une base de donnée SQLite pour l'application, mais je me suis arrêté en

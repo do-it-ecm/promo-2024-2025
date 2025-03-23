@@ -9,7 +9,7 @@ date: 2024-11-20
 temps: 2
 tags:
 
-résumé: "L'objectif de ce travail est de suivre le « Projet Numérologie » créé par le Professeur François Brucker pour découvrir les bases du développement des services web."
+description: "L'objectif de ce travail est de suivre le « Projet Numérologie » créé par le Professeur François Brucker pour découvrir les bases du développement des services web."
 ---
 
 {% lien %}

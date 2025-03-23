@@ -10,7 +10,7 @@ date: 2024-09-18
 temps: 1
 tags:
 
-résumé: "À travers ce MON, j'aimerais étudier en détail le processus de transformation auquel de plus en plus d'entreprises font face aujourd'hui."
+description: "À travers ce MON, j'aimerais étudier en détail le processus de transformation auquel de plus en plus d'entreprises font face aujourd'hui."
 ---
 
 - Niveau : Débutant
@@ -93,17 +93,17 @@ Dans un environnement complexe caractérisé par de nombreuses incertitudes et u
 On peut alors citer setp grandes problématiques qui conduisent généralement les entreprises à cette transformation :
 
 - **L'adaptation aux exigences des clients** : répondre aux besoins changeants des clients pour maintenir leur fidélité et attirer de nouveaux segments de marché.
-  
+
 - **Intégrer des avancées technologiques** : exploiter les nouvelles technologies pour améliorer l’efficacité opérationnelle et innover dans les produits et services.
-  
+
 - **La pression concurrentielle** : faire face à une concurrence accrue en adoptant des stratégies proactives pour différencier ses offres.
-  
+
 - **Le changement de comportement des consommateurs** : ajuster les modèles d’affaires en fonction des nouvelles attentes des consommateurs.
-  
+
 - **Améliorer l'efficience opérationnelle** : rationaliser les processus pour réduire les coûts et optimiser les ressources disponibles.
-  
+
 - **Les nouveaux modèles économiques** : passer à des modèles plus innovants pour saisir de nouvelles opportunités et générer des revenus supplémentaires.
-  
+
 - **Anticiper les défis du marché** : agir de manière proactive pour s’adapter aux tendances émergentes et assurer la croissance future
 
 ### Réussir un plan de transformation
@@ -313,7 +313,7 @@ Outre le portefeuille de produits de Nokia, les modèles d’action de l’entre
 {% lien %}
 
 - [Autres exemples : Étude de la transformation agile de Spotify et LeroyMerlin](/promos/2024-2025/Juliette-Kocupyr/pok/temps-1/)
-  
+
 {% endlien %}
 
 ## Conclusion

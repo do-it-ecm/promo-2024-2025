@@ -11,7 +11,7 @@ tags:
   - "vert"
   - "unix"
 
-résumé: "MON sur la conteneurisation"
+description: "MON sur la conteneurisation"
 ---
 
 {% prerequis %}
@@ -27,7 +27,7 @@ Un MON pour faire de la conteneurisation avec les environnements jail.
 
 ## Introduction
 
-Je suis curieuse et cherche à monter en compétences notamment dans le domaine DevOps. Avant d'étudier Docker, je souhaite apprendre à quoi servent les conteneurs et m'exercer sur Linux grâce à ce MON !  
+Je suis curieuse et cherche à monter en compétences notamment dans le domaine DevOps. Avant d'étudier Docker, je souhaite apprendre à quoi servent les conteneurs et m'exercer sur Linux grâce à ce MON !
 
 ## C'est quoi le confinement de processus et à quoi ça sert ?
 
@@ -57,21 +57,21 @@ chmod +x install.sh
 sudo ./install.sh install
 
 sudo /opt/distrod/bin/distrod enable
-``` 
-Puis il nous montre pourquoi le wizard d'initialisation de lxd sous la version 22.04 d'Ubuntu ne marche pas alors qu'il fontionne parfaitement sous la version 18.04. Alors, je prends mon courage à deux mains et j'installe la version 18.04 d'Ubuntu et je suis le tutoriel. J'initialise lxd avec `lxd init`, tout va bien alors qu'on avait précédemment une erreur obscure au niveau de la création du `local network bridge`. Pour ce MON je pense que la version d'Ubuntu n'est pas très importante, donc je vais continuer mes expérimentations sous Ubuntu 18.04. 
+```
+Puis il nous montre pourquoi le wizard d'initialisation de lxd sous la version 22.04 d'Ubuntu ne marche pas alors qu'il fontionne parfaitement sous la version 18.04. Alors, je prends mon courage à deux mains et j'installe la version 18.04 d'Ubuntu et je suis le tutoriel. J'initialise lxd avec `lxd init`, tout va bien alors qu'on avait précédemment une erreur obscure au niveau de la création du `local network bridge`. Pour ce MON je pense que la version d'Ubuntu n'est pas très importante, donc je vais continuer mes expérimentations sous Ubuntu 18.04.
 
-La commande `sudo lxc launch ubuntu:20.04` me permet de créer et démarrer un conteneur (qui ici s'appelle saving-doberman) avec une image de distribution Ubuntu 20.04 ! Je vérifie quels sont mes conteneurs et quel est leur état avec la commande `sudo lxc ls --fast`. Pour me connecter à mon conteneur, je lance ` sudo lxc exec saving-doberman -- su --login ubuntu`. Et me voilà dans le conteneur ! Miracle. 
+La commande `sudo lxc launch ubuntu:20.04` me permet de créer et démarrer un conteneur (qui ici s'appelle saving-doberman) avec une image de distribution Ubuntu 20.04 ! Je vérifie quels sont mes conteneurs et quel est leur état avec la commande `sudo lxc ls --fast`. Pour me connecter à mon conteneur, je lance ` sudo lxc exec saving-doberman -- su --login ubuntu`. Et me voilà dans le conteneur ! Miracle.
 
 Pour plus tard : voir des scripts bash qui automatisent la gestion des conteneurs (démarrage, arrêt...).
 
-Ce que j'ai voulu faire, c'est copier mon application React de mon site web (la version de mon POK1) en suivant ce tutoriel https://medium.com/@anuragabcr/hosting-react-app-in-docker-container-a753ba2ec21d en adaptant le fait que j'utilise un conteneur LXC et non pas Docker, mais il me semble que je me suis trompée. 
-Ce que j'ai fait : 
+Ce que j'ai voulu faire, c'est copier mon application React de mon site web (la version de mon POK1) en suivant ce tutoriel https://medium.com/@anuragabcr/hosting-react-app-in-docker-container-a753ba2ec21d en adaptant le fait que j'utilise un conteneur LXC et non pas Docker, mais il me semble que je me suis trompée.
+Ce que j'ai fait :
 * copier tous les fichiers de mon application (sauf les node_modules) avec la commande `sudo lxc file push -r /home/egonin2/portfolio-art/ saving-doberman/portfolio-art/`
-* vérifier le contenu de mon conteneur avec ls 
-![ls](<image-2.png>)  
+* vérifier le contenu de mon conteneur avec ls
+![ls](<image-2.png>)
 * `npm install` pour installer les dépendances de mon projet
 * run mon application avec `npm start` comme je le fais dans mon PowerShell
-Cela m'a rendu une erreur car npm start souhaite lancer un powershell, j'aurais du build mon application en local et copier le dossier de build sur mon conteneur. Ce n'est pas grave ! J'ai pu installer nodejs, npm et nginx sur mon conteneur, cela me servira pour la deuxième partie de mon POK2. J'ai pu copier des fichiers de ma machine hôte à mon conteneur et me servir du conteneur comme d'une machine virtuelle classique. 
+Cela m'a rendu une erreur car npm start souhaite lancer un powershell, j'aurais du build mon application en local et copier le dossier de build sur mon conteneur. Ce n'est pas grave ! J'ai pu installer nodejs, npm et nginx sur mon conteneur, cela me servira pour la deuxième partie de mon POK2. J'ai pu copier des fichiers de ma machine hôte à mon conteneur et me servir du conteneur comme d'une machine virtuelle classique.
 
 ## Conclusion
 J'ai un peu tâtonner pour ce MON dans un monde où LXC est en train d'être remplacé par Docker donc le peu de documentation qui existe est noyée dans les millions d'articles sur les conteneurs Docker. Je vais pour le MON 2.2 m'intéresser à Docker et voir si c'est vraiment plus simple que Linux. Pour plus tard, m'intéresser aux Firejail et voir la différence avec LXC.

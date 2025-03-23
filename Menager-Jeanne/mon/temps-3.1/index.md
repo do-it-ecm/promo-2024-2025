@@ -9,7 +9,7 @@ date: 2025-01-29
 temps: 3
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+description: "Un MON traitant d'un sujet."
 ---
 
 {% prerequis %}
@@ -37,19 +37,19 @@ Je n'avais jamais créé de projet from scratch avec un backend et un frontend, 
 
 4) Rajouter la commande `start` pour utiliser nodemon et ne pas avoir à relancer notre server à chaque modification
 
-5) Découverte de Postman pour pouvoir tester les requêtes 
+5) Découverte de Postman pour pouvoir tester les requêtes
 
 ### Création des premières routes
 
-1) Création des route Get, Post, Put et Delete dans un dossier de route. Au début, elles renvoyaient juste un message pour voir que la commande fonctionnait bien mais sans base de données, elles n'avaient pas d'autre effet. 
+1) Création des route Get, Post, Put et Delete dans un dossier de route. Au début, elles renvoyaient juste un message pour voir que la commande fonctionnait bien mais sans base de données, elles n'avaient pas d'autre effet.
 
 `router.route("/:id").get((req, res) => {
   res.status(200).send({message: 'Get all contacts'})
 })`
 
-Pour les tester, on peut utiliser postman. 
+Pour les tester, on peut utiliser postman.
 
-2) Création de controllers pour que le code soit plus propre 
+2) Création de controllers pour que le code soit plus propre
 
 Dans le controller, on commmence à gere les erreurs pour pas qu'on contact à qui il manque une info soit créé
 
@@ -70,7 +70,7 @@ Grace à `new mongoose.Schema`, on définit les différents champs qui nous int�
 
 ### Modification de controller
 
-Maintenant, qu'on a une DB, on peut créer de vraies routes qui vont ajouter, modifier, supprimer ou lire des données. 
+Maintenant, qu'on a une DB, on peut créer de vraies routes qui vont ajouter, modifier, supprimer ou lire des données.
 
 Pour créer par exemple : `contact.create({name, email, phone, designation})`
 
@@ -88,17 +88,17 @@ La deuxième partie de la vidéo traitait de comment utiliser notre backend pour
 Le frontend se lance grâce à `npm run dev`
 
 
-2) Creation de plusieurs components pour avoir plusieurs pages sur le site. On crée aussi un header grâce à bootstrap. 
+2) Creation de plusieurs components pour avoir plusieurs pages sur le site. On crée aussi un header grâce à bootstrap.
 
 3) Utilisation de axios :
 Axios nous permet d'acceder aux routes du backend pour par exemple récuperer tous nos contacts. On fait tout ca en faisant attention à la gestion des erreurs grâce à des `try{...} catch(err) {...}`
 
 
-4) création de page pour ajouter et modifier les contacts: on utilise axios et pour la modification, il faut qu'on récupère l'id du contact 
+4) création de page pour ajouter et modifier les contacts: on utilise axios et pour la modification, il faut qu'on récupère l'id du contact
 
-5) La suppression : grâce à l'id aussi 
+5) La suppression : grâce à l'id aussi
 
-Remarques: On a utilisé `toast` pour envoyé des petites notification spour que l'utilisateur se rende compte des actions effectuées. 
+Remarques: On a utilisé `toast` pour envoyé des petites notification spour que l'utilisateur se rende compte des actions effectuées.
 On a aussi utilisé un loader de vue pour rendre la navigation plus agréable.
 
 ## Conclusion

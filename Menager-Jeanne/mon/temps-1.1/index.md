@@ -10,7 +10,7 @@ date: 1970-09-01
 temps: 1
 tags:
 
-résumé: "Je souhaite me former à l’utilisation du HTML et du CSS afin de développer un site internet joli et fonctionnel au cours de mon POK"
+description: "Je souhaite me former à l’utilisation du HTML et du CSS afin de développer un site internet joli et fonctionnel au cours de mon POK"
 ---
 
 {% prerequis %}
@@ -21,7 +21,7 @@ Aucun prérequis
 
 ## Qu'est-ce que le frontend ?
 
-HTLM et CSS sont 2 langages complémentaires et utiles pour le front-end, mais qu'est-ce que le frontend ? 
+HTLM et CSS sont 2 langages complémentaires et utiles pour le front-end, mais qu'est-ce que le frontend ?
 En developpement web, on parle souvent de frontend et de backend. Le frontend est souvent défini comme la partie visible par l'utilisateur, la partie avec laquelle, il interragit. Par exemple, les titres lu, les images visibles ou encore les boutons sur lesquels il peut cliquer. Le frontend doit donc être estétique pour donner à l'utilisateur l'envie d'utiliser notre site web, il a aussi un role dans la compréhension de notre site. \
 Le backend au contraire est invisible pour l'utilisateur, il permet de stocker les données utiles au site pour les transmettre à l'utilisateur via le frontend. \
 Le frontend et le backend sont codés avec des langages différents. Le HTML et le CSS peuvent être utilisés pour le frontend. \
@@ -30,7 +30,7 @@ Afin d'apprendre à utiliser ces 2 langages, j'ai suivi le cours [Créez votre s
 
 ## Qu'est-ce que l'HTML ?
 
-HTML signifie HyperText Markup Language et permet de créer et structurer les pages web. Pour se faire, il utilise différentes balises de cette manière : 
+HTML signifie HyperText Markup Language et permet de créer et structurer les pages web. Pour se faire, il utilise différentes balises de cette manière :
 
 ```
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ Elles vont souvent par paire, voici quelques exemples :
 ```<a></a>``` indiquent un lien vers un site externe ou une autre partie du site \
 ```<h1></h1>```indiquent un titre sur la page, il existe aussi ```<h2></h2>```, ```<h3></h3>``` ... ```<h6></h6>```, plus le chiffre augmente, plus le titre est petit.
 
-Dans le cours d'openClassRoom, un projet fil rouge était proposé afin d'appliquer directement les principes appris et voici le résultat à la fin de la partie d'htlm : 
+Dans le cours d'openClassRoom, un projet fil rouge était proposé afin d'appliquer directement les principes appris et voici le résultat à la fin de la partie d'htlm :
 
 ![Capture d'écran à la fin de la partie HTML](./HTML.png)
 
@@ -65,7 +65,7 @@ On voit ici le titre de la page ** À propos - Robbie Lens Photographie** est in
 
 ## Qu'est-ce que le CSS ?
 
-CSS signifie Cascading Style Sheets et permet de gérer l’apparence visuelle et le style des pages web. Cela permet notamment de définir les couleurs et arrière-plans, les styles typographiques ou la mise en page. Un fivhier CSS ressemble à ça : 
+CSS signifie Cascading Style Sheets et permet de gérer l’apparence visuelle et le style des pages web. Cela permet notamment de définir les couleurs et arrière-plans, les styles typographiques ou la mise en page. Un fivhier CSS ressemble à ça :
 
 ```
 a {
@@ -91,7 +91,7 @@ h1 {
 ````
 
 Ici, par exemple, on définit une police et une taille qui s'applique à tous les textes dans la balise <body> en HTML ainsi qu'une couleur d'arrière plan. \
-Dans la deuxième propriété, on définit une taille, une couleur et une police spécifique uniquement aux titres h1. 
+Dans la deuxième propriété, on définit une taille, une couleur et une police spécifique uniquement aux titres h1.
 
 ### Couleurs
 
@@ -111,7 +111,7 @@ Ici, le css s'applique à une ```<div>``` particulière, celle où la classe "ca
 
 ### Modifier le style suite à une action
 
-Il est possible de mofifier le style d'un élément au survol ou lors du clic: 
+Il est possible de mofifier le style d'un élément au survol ou lors du clic:
 
 ```
 a:hover {
@@ -119,11 +119,11 @@ a:hover {
 }
 ```
 
-Ici, le lien va se souligner lorsque l'utilisateur va passer la souris dessus. 
+Ici, le lien va se souligner lorsque l'utilisateur va passer la souris dessus.
 
-### La mise en page 
+### La mise en page
 
-Tout d'abord, on peut régler les marges externes appellées "margin" et les marges internes appelées "padding". Par exemple, ici, on règle la marge à gauche : 
+Tout d'abord, on peut régler les marges externes appellées "margin" et les marges internes appelées "padding". Par exemple, ici, on règle la marge à gauche :
 
 ```
 .lien-icone {
@@ -131,11 +131,11 @@ Tout d'abord, on peut régler les marges externes appellées "margin" et les mar
 }
 ```
 
-Ensuite, on peut utiliser ce qui s'appelle des flexbox pour aligner les éléments comme on le souhaite comme illustré sur cette image : 
+Ensuite, on peut utiliser ce qui s'appelle des flexbox pour aligner les éléments comme on le souhaite comme illustré sur cette image :
 
 ![Explication flexbox](./flexbox.png)
 
-Enfin, les CSS grids permetent de placer vos élément dans un tableau en précisant les tailles des colonnes et lignes comme fait ici : 
+Enfin, les CSS grids permetent de placer vos élément dans un tableau en précisant les tailles des colonnes et lignes comme fait ici :
 
 ```
 .grid-paysages {
@@ -146,7 +146,7 @@ Enfin, les CSS grids permetent de placer vos élément dans un tableau en préci
 }
 ```
 
-Ainsi, grace au CSS, nous avons pu rendre le site web de la photographe plus attractif : 
+Ainsi, grace au CSS, nous avons pu rendre le site web de la photographe plus attractif :
 
 ![Site après l'utilisation du CSS](./CSS1.png)
 ![Site après l'utilisation du CSS](./CSS2.png)

@@ -9,11 +9,11 @@ date: 2025-02-02
 
 temps: 3
 
-tags: 
+tags:
   - "Vue"
   - "web"
 
-résumé: Création d'une app web pour utiliser un pokédex en utilisant le framework Vue js.
+description: Création d'une app web pour utiliser un pokédex en utilisant le framework Vue js.
 ---
 
 {% prerequis %}

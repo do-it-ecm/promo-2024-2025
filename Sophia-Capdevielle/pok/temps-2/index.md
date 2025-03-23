@@ -10,7 +10,7 @@ date: 2024-01-01
 temps: 2
 tags:
 
-résumé: "L'objectif de ce POK est d'améliorer les processus, méthodes de travail et de simplifier les flux d'informations, notamment des autorisations de sortie, de l'association Échanges Phocéens. Travail sur les outils numériques utilisés, le tout sans code !"
+description: "L'objectif de ce POK est d'améliorer les processus, méthodes de travail et de simplifier les flux d'informations, notamment des autorisations de sortie, de l'association Échanges Phocéens. Travail sur les outils numériques utilisés, le tout sans code !"
 ---
 
 {% prerequis %}

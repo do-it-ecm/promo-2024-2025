@@ -11,7 +11,7 @@ temps: 1
 tags:
   - "info"
 
-résumé: Ce premier POK vise à créer un petit site web pour suivre l'avancée dans une liste d'objectifs dans un jeu vidéo (Les Sims 4).
+description: Ce premier POK vise à créer un petit site web pour suivre l'avancée dans une liste d'objectifs dans un jeu vidéo (Les Sims 4).
 ---
 
 L'objectif de ce POK est de revoir les notions de base de développement web en réalisant un POK.

@@ -13,7 +13,7 @@ tags:
   - 'dev'
   - 'documentation'
 
-résumé: "Comment documenter son logiciel / son infrastructure / sa plateforme pour qu'il soit maintenable et évolutif."
+description: "Comment documenter son logiciel / son infrastructure / sa plateforme pour qu'il soit maintenable et évolutif."
 ---
 
 <head>

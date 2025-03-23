@@ -12,7 +12,7 @@ tags:
   - "Vert"
   - "VBA"
 
-résumé: "Découverte du langage VBA"
+description: "Découverte du langage VBA"
 ---
 
 {% prerequis %}

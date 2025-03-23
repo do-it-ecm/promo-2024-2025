@@ -10,7 +10,7 @@ date: 2025-03-12
 temps: 3
 tags:
 
-résumé: Ce projet consiste à créer une application mobile similaire à Strava, mais destinée au suivi des sessions d'étude.
+description: Ce projet consiste à créer une application mobile similaire à Strava, mais destinée au suivi des sessions d'étude.
 ---
 
 {% prerequis %}
@@ -33,13 +33,13 @@ L'application **devait être créée avec Kotlin et Supabase**, en suivant une a
 Le projet était structuré en deux sprints :
 
 -   **Sprint 1** : Planification, design sur Figma, développement de l'écran de connexion et documentation initiale.
-    
+
 -   **Sprint 2** : Développement des autres écrans, tests utilisateurs, optimisation et finalisation.
 
 Le premier sprint s'est déroulé comme prévu, avec un bon avancement dans la mise en place de l'interface et des bases du projet. Mais après le premier sprint, un incident majeur a impacté la progression du projet :
 
 -   **Panne de l'ordinateur principal** : Tout le travail réalisé sous Android Studio a été perdu.
-    
+
 -   **Limitations matérielles** : Le seul ordinateur de secours disponible ne permettait pas d’installer des logiciels de développement comme Android Studio.
 
 Face à ces contraintes, il était impossible de poursuivre le développement natif sous Kotlin.
@@ -47,7 +47,7 @@ Face à ces contraintes, il était impossible de poursuivre le développement na
 Pour continuer le projet malgré ces obstacles, une nouvelle approche a été adoptée :
 
 -   **Passage à Bubble** : Bubble, étant une plateforme de développement no-code accessible via un navigateur, a permis de continuer le développement depuis l’ordinateur de secours.
-    
+
 -   **Utilisation de Airtable** : Au lieu de Supabase, Airtable a été choisi pour la gestion de la base de données en raison de sa compatibilité avec Bubble.
 
 Une fois expliqué le contexte du projet et les raisons pour lesquelles les changements étaient nécessaires, le document suivant ne parlera que du projet développé avec bubble et airtable.
@@ -149,11 +149,11 @@ Ce projet consiste en le développement d'une application mobile similaire à St
 
 ### Ce qui a bien fonctionné ✅
 -   **Bonne gestion de la base de données Airtable** : L'intégration avec Airtable s'est avérée être une réussite, bien que j’aie encore des domaines à explorer, notamment la gestion des relations entre les tables directement dans Airtable. Le travail sur la base de données a été effectué de manière fluide et a permis de structurer l'application de manière plus simple que prévue.
-    
+
 -   **Développement rapide des fonctionnalités de base avec Bubble** : L'utilisation de Bubble a été très productive. J’ai pu rapidement construire les principaux écrans de l’application, y compris les écrans "login", "home" et "recording".
-    
+
 -   **Résolution des problèmes techniques** : Un des plus grands succès a été la capacité à résoudre rapidement les problèmes, comme la suppression de la barre de défilement des repeating groups à l’aide de CSS dans Bubble. Bien que ce ne soit pas quelque chose que j'avais vu en cours, j’ai du m’adapter et trouver une solution, ce qui a enrichi mon expérience.
-    
+
 -   **Travail sur le chronomètre** : Le chronomètre, qui semblait être une tâche difficile au début, a finalement été mis en place grâce à une approche innovante, que ce soit via des vidéos ou des suggestions externes comme ChatGPT.
 
 ### Points d'amélioration 🔄
@@ -162,10 +162,10 @@ Ce projet consiste en le développement d'une application mobile similaire à St
 
 ### Leçons apprises 🎓
 -   **Transparence dans l’estimation du temps** : Bien que les estimations de temps aient été relativement précises, il est devenu évident que certains aspects du projet, comme le responsive design et les workflows complexes, demandent plus de temps que prévu. À l’avenir, il sera important d’allouer du temps supplémentaire pour ces tâches non seulement au niveau du design mais aussi pour la mise en place des fonctionnalités.
--   **Adaptabilité aux contraintes techniques** : Comme nous l'avons vu dans les cours de méthodologie agile tout au long du semestre, il est important d'être toujours ouvert au changement. La capacité d'adaptation est une compétence non technique importante et, bien que je me sois sentie nerveuse lorsque j'ai perdu le travail que j'avais effectué précédemment, j'ai réussi à rester calme et à accepter les changements qui étaient nécessaires à la portée du projet. 
-    
+-   **Adaptabilité aux contraintes techniques** : Comme nous l'avons vu dans les cours de méthodologie agile tout au long du semestre, il est important d'être toujours ouvert au changement. La capacité d'adaptation est une compétence non technique importante et, bien que je me sois sentie nerveuse lorsque j'ai perdu le travail que j'avais effectué précédemment, j'ai réussi à rester calme et à accepter les changements qui étaient nécessaires à la portée du projet.
+
 -   **Importance de tester avec des utilisateurs réels** : Un point clé pour le futur est de ne pas négliger les tests utilisateurs. Bien que le sprint ait été mené seul, l'absence de retours directs sur l'application empêche d’identifier certains problèmes d’expérience utilisateur qui pourraient exister. La phase de test avec des utilisateurs réels doit devenir une priorité dans les prochaines étapes de développement.
-    
+
 -   **Apprentissage continu** : Le projet a été une excellente occasion d’apprendre de nouvelles techniques et d’élargir mes compétences. J’ai appris à mieux comprendre le code dans Bubble, ce qui a ouvert de nouvelles possibilités d’adaptation de l'application. Je compte continuer à expérimenter avec ces compétences afin d'optimiser l’application pour mes amis et peut-être même la publier officiellement un jour.
 
 ## Conclusion

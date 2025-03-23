@@ -12,7 +12,7 @@ temps: 3
 tags:
   - "info"
 
-résumé: "Comprendre et découvrir différents outils de analyse et visualisation de données."
+description: "Comprendre et découvrir différents outils de analyse et visualisation de données."
 ---
 
 Tiraillée dans mon choix de filière métier, je souhaitais consacrer un MON sur ce qui peut être vu en ADAD : à partir des bases de données consituées lors de mon POK3, j'aimerais apprendre à utiliser quelques outils de data visualisation (type PowerBI).

@@ -12,7 +12,7 @@ tags:
   - 'Développement'
   - 'Environnement de développement'
 
-résumé: "Introduction à l'environnement de développement idéal pour une équipe"
+description: "Introduction à l'environnement de développement idéal pour une équipe"
 ---
 
 <head>

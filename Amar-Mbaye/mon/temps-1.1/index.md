@@ -6,11 +6,11 @@ authors:
   - Serigne Mbaye Sy AMAR
 
 date: 2024-09-15
-tags: 
+tags:
   - "développement web"
   - "React"
 
-résumé: "Après avoir passé 7h à apprendre React, j'ai décidé de faire une présentation de mon portfolio développé avec cette bibliothèque, en mettant l'accent sur les composants et les différentes sections de l'application en 3h."
+description: "Après avoir passé 7h à apprendre React, j'ai décidé de faire une présentation de mon portfolio développé avec cette bibliothèque, en mettant l'accent sur les composants et les différentes sections de l'application en 3h."
 
 ---
 {% prerequis %}
@@ -168,10 +168,10 @@ function Header() {
 
 export default Header;
 ```
- Ce morceau a pour but de gerer la navigation entre les diferentes pages. 
+ Ce morceau a pour but de gerer la navigation entre les diferentes pages.
 
 ---
-**Composants Principaux :** 
+**Composants Principaux :**
 
 
 ***1. Header.js***
@@ -256,7 +256,7 @@ function HomePage() {
           <p>Stage Simplon Sénégal (Août 2022 - Octobre 2022)</p>
 
         </div>
-        
+
         <div className="section">
           <h2>Compétences</h2>
           <p>Développement web (Laravel, ReactJS, PHP)</p>
@@ -283,7 +283,7 @@ export default HomePage;
 ---
 
 
-**Pages Principales :** 
+**Pages Principales :**
 
 
 ***1. HomePage.js***

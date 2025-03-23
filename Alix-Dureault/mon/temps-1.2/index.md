@@ -10,7 +10,7 @@ temps: 1
 tags:
   - "Knowledge Managment"
 
-résumé: "Un MON explorant la difficulté de la perte de savoir dans l'entreprise liée au départ d'employés."
+description: "Un MON explorant la difficulté de la perte de savoir dans l'entreprise liée au départ d'employés."
 ---
 
 Pendant la vie d'un projet, il arrive que des chefs de projet se succèdent les uns par rapport aux autres. Cette situation peut arriver pour des mutations internes, un départ ou encore par un besoin de changement. Ces situations peuvent mettre en péril le bon déroulement du projet car elles chausent souvent une perte d'informations concidérable.
@@ -74,7 +74,7 @@ La manière identifié afin de transférer c’est savoirs tacites est la commun
 
 Tout n’est pas aussi beau que d’avoir des connaissances tacites partagées par toute l’entreprise et que les connaissances qui peuvent être codifiés sont documentées de manière exhaustive. Dans la réalité des choses, malgré la mise en place de tactiques, certains savoirs ne sont pas partagés et ils restent la propriété d’une seule personne. Il est alors important de les détecter pour éviter de les perdre lors d’un départ.
 
-Ces connaissances “cachées” sont souvent le fruit de codifications non mises à jour où alors de savoirs tacites non identifiés. En effet, la plupart du temps les savoirs tacites ne sont même pas identifié en tant que tels par les travailleurs. Ils sont utilisés seulement inconsciemment. 
+Ces connaissances “cachées” sont souvent le fruit de codifications non mises à jour où alors de savoirs tacites non identifiés. En effet, la plupart du temps les savoirs tacites ne sont même pas identifié en tant que tels par les travailleurs. Ils sont utilisés seulement inconsciemment.
 
 Ainsi, les premières stratégies à mettre en place sont la mise à jour de la documentation régulièrement ainsi que l’observation des opérations afin de détecter les savoirs tacites.
 
@@ -124,6 +124,6 @@ Pour éviter de créer cette dette technique, il y a quelques bonnes habitudes �
 - Daghfous Abdelkader Belkhodja Omar C. Angell Linda , (2013),"Understanding and managing knowledge loss", Journal of Knowledge Management, Vol. 17 Iss 5 pp. 639 - 660
 - Erik S. Madsen, Jens O. Riis, Brian V. Waehrens, (2008) “The knowledge dimension of manufacturing transfers : A method for identifying hidden knowledge”, Strategic Outsourcing : An International Journal, Vol. 1 No.3, pp. 198 - 209
 - Hislop, D. (2013), “Knowledge Management in organizations - a critical introduction”
-- Parise, Salvatore & Cross, Rob & Davenport, Thomas. (2006). “Strategies for preventing a knowledge-loss crisis”. Sloan Management Review. 47. 
-- Olander, Heidi & Hurmelinna, Pia. (2015). PERCEPTIONS OF EMPLOYEE KNOWLEDGE RISKS IN MULTINATIONAL, MULTILEVEL ORGANISATIONS: MANAGING KNOWLEDGE LEAKING AND LEAVING. International Journal of Innovation Management. 19. pp15400. 
+- Parise, Salvatore & Cross, Rob & Davenport, Thomas. (2006). “Strategies for preventing a knowledge-loss crisis”. Sloan Management Review. 47.
+- Olander, Heidi & Hurmelinna, Pia. (2015). PERCEPTIONS OF EMPLOYEE KNOWLEDGE RISKS IN MULTINATIONAL, MULTILEVEL ORGANISATIONS: MANAGING KNOWLEDGE LEAKING AND LEAVING. International Journal of Innovation Management. 19. pp15400.
 - [Legacy Code](https://urbanlinker.com/fr/blog/10-feature-articles/les-enjeux-du-code-legacy)

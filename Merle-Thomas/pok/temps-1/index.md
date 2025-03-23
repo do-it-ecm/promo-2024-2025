@@ -16,7 +16,7 @@ tags:
   - 'JavaScript'
   - 'Dark Kitchen'
 
-résumé: "Codage du FrontEnd du site de ma Dark Kitchen avec HTML/CSS/JavaScript et transition vers Vue.js pour une structure dynamique."
+description: "Codage du FrontEnd du site de ma Dark Kitchen avec HTML/CSS/JavaScript et transition vers Vue.js pour une structure dynamique."
 ---
 {% prerequis %}
 **Niveau :** Basique

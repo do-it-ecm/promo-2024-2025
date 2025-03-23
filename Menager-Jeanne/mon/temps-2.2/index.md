@@ -9,7 +9,7 @@ date: 1971-01-01
 temps: 2
 tags:
 
-résumé: "Je cherche à m'intérésser à la façon dont les bookmakers gagnent de l'argent et à savoir ce qu'ils font de l'argent des utilisateurs sur leur site"
+description: "Je cherche à m'intérésser à la façon dont les bookmakers gagnent de l'argent et à savoir ce qu'ils font de l'argent des utilisateurs sur leur site"
 ---
 
 {% prerequis %}
@@ -23,7 +23,7 @@ Connaitre du vocabulaire des paris sportifs aide mais n'est pas indispensable. U
 
 {% endlien %}
 
-## Lexique 
+## Lexique
 - Paris sportif : le fait de miser une somme d'argent sur un élément de score ou sur une phase de jeu d'une rencontre sportive, dans le but est de gagner de l'argent si cet élément de score ou de phase de jeu se réalise
 - Bookmaker : Personne qui prend des paris et définit des côtes
 - Cotes : un nombre qui définit à la fois votre gain potentiel et vos chances de l'emporter, par exemple, si la cote est de 1,5, cela signifie que le joueur qui mise dessus 1€ gagnera 1,5€ si l'evenement se réalise (c'est donc une plus value de 0,5€)
@@ -50,29 +50,29 @@ En plus de la publicité, les bookmakers proposent aussi des "offres de bienvenu
 Mais avoir des nouveaux parieurs n'est pas suffisant, il faut aussi fideliser les clients afin qu'ils continuent de parier sur le même site (les français ont en moyenne 1,4 site actif chacun). Pour cela, les freebets vont de nouveau être utiles, pour les parrainages, comme nous l'avons déjà vu, mais aussi avec des défis qu'il faut régulièrement réaliser afin de gagner des freebets. Les joueurs vont ainsi placer un pari pour gagner des freebets (si il est gagnant, perdant ou dans les 2 cas en fonction des conditions du défis). Certains bookmakers comme Winamax vont même plus loin en offrant 5€ de freebets lors de l'anniversaire du joueur. \
 En addition, des points de fidélité sont aussi créés par certains site pour récompenser les parieurs réguliers avec des freebets ou pour qu'après un certains nombre de point atteint, il soit possible de convertir ceux-ci en freebet. \
 Enfin, certaines côtes sont volontairement hautes, elles sont appellées "cotes boostées" afin d'encourager les joueurs à parier. Ceux ci sont souvent prévenu par notification car les sites de paris existent aussi sous forme d'applications.
-Nous pourrions penser que toutes ces méthodes font perdre de l'argent aux bookmakers mais le nombre de clients qu'elles y gagnent est bien plus important : Winamax qui pratique toutes ces techniques est le premier bookmaker français. Et il existe des site comparant les avantages de bookmakers : 
+Nous pourrions penser que toutes ces méthodes font perdre de l'argent aux bookmakers mais le nombre de clients qu'elles y gagnent est bien plus important : Winamax qui pratique toutes ces techniques est le premier bookmaker français. Et il existe des site comparant les avantages de bookmakers :
 
 ![Critiques de Genybet](./GenyBet.png)
 ![Critiques de Betclic](./Betclic.png)
 
 
-Enfin, le système de cotation a un impact sur l'affluence sur le site : en effet, l'idée des joueurs est de gagner le plus d'argent possible donc d'avoir les meilleurs côtes : 
+Enfin, le système de cotation a un impact sur l'affluence sur le site : en effet, l'idée des joueurs est de gagner le plus d'argent possible donc d'avoir les meilleurs côtes :
 
 ![Côtes sur Genybet](./Cotes_GenyBEt.png)
 ![Côtes sur Betclic](./cotes_betclic.png)
 
 ## Que font les bookmakers de l'argent des parieurs
 
-Pour pouvoir parier sur les sites, les parieurs y déposent de l'argent, mais les bookmakers peuvent-ils l'utiliser ? 
+Pour pouvoir parier sur les sites, les parieurs y déposent de l'argent, mais les bookmakers peuvent-ils l'utiliser ?
 
 La loi est très stricte par rapport à l'argent des parieurs sur les sites de paris sportifs : en effet, la loi impose aux bookmakers de séparer leur comptes des comptes de parieurs car cet argent n'appartient en aucun cas aux bookmakers qui doivent pouvoir le restituer à tout moment. Ainsi, si le bookmaker fait faillite ou voit ses comptes se faire saisir, les parieurs pourront tout de même récuperer leur argent. \
-Cet argent est donc souvent placé sur des comptes en fiducie (c'est par exemple le cas chez Winamax). 
+Cet argent est donc souvent placé sur des comptes en fiducie (c'est par exemple le cas chez Winamax).
 La fiducie se définit comme un contrat par lequel un ou plusieurs constituants transfèrent des biens, des droits ou des sûretés à un ou plusieurs fiduciaires, qui en assurent la gestion au profit d'un ou plusieurs bénéficiaires. Ici, le constituant est Winamax qui transfert l'argent d'un parieur (le bénéficiaire) à une banque (pour Winamax, Equitis). Le compte de fiducie est controlé par l'ANJ. \
 Pour d'autres sites, l'information n'est pas forcément aussi claire mais Betclic m'a par exemple assuré par mail que " L’argent des parieurs sur Betclic est strictement séparé des fonds de l’entreprise, conformément aux exigences légales et réglementaires fixées par l’Autorité Nationale des Jeux (ANJ). Ces fonds sont conservés sur des comptes bancaires dédiés et ne sont en aucun cas utilisés pour des investissements ou d’autres activités commerciales."
 
 Ceci reponds donc à ma question pour savoir si les bookmakers utilisent l'argent des parieurs en France. \
 
-## Et dans le monde ? 
+## Et dans le monde ?
 
 En dehors de la france et donc de la législation de l'ANJ, les bookmakers ont moins de règles à suivre et ne sont pas toujours tenus par des règles claires et rigoureuses sur la gestion et la séparation des fonds des parieurs, ils pourraient donc l'utiliser pour des investissements ou pour des dépenses. Mais si c'est le cas, ce n'est ni confirmé ni transparent : en effet, un bookmakers qui avouerai utiliser l'argent des parieurs serait potentiellement vu comme non fiable ce qui nuirait à leur réputation. \
 

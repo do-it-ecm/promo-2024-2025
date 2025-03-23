@@ -11,7 +11,7 @@ tags:
   - "vert"
   - "Docker"
 
-résumé: "MON sur Docker, dockerisation d'un projet"
+description: "MON sur Docker, dockerisation d'un projet"
 ---
 
 {% prerequis %}

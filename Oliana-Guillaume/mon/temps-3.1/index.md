@@ -9,7 +9,7 @@ date: 2025-02-01
 temps: 3
 tags:
 
-résumé: "Un MON traitant des agents IA et de leurs applications"
+description: "Un MON traitant des agents IA et de leurs applications"
 ---
 
 {% prerequis %}

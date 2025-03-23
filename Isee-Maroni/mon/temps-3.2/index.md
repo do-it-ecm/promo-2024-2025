@@ -9,7 +9,7 @@ date: 2025-01-25
 temps: 3
 tags:
 
-résumé: "Power Query, une version No Code pour remplacer VBA ?"
+description: "Power Query, une version No Code pour remplacer VBA ?"
 ---
 
 {% prerequis %}
@@ -42,18 +42,18 @@ Les points suivants sont abordés :
 - Les POURCENTAGES, Fcts Max/Min
 - Créer un GRAPHIQUE avec EXCEL et l'améliorer
 - TRIER et FILTRER une LISTE (base de données)
-- Utiliser la MISE EN FORME automatique CONDITIONNELLE 
+- Utiliser la MISE EN FORME automatique CONDITIONNELLE
 - NBVAL et NB.SI
 - Les MINI-GRAPHIQUES d'une case (Graphiques Sparkline)
 - Utiliser la FONCTION SI Condition à 2 possibilités, à 3 possibilités ou PLUS (si imbriqués)
-- Les fonctions ET et OU + utilisation avec SI 
+- Les fonctions ET et OU + utilisation avec SI
 - ALEA, ALEA.ENTRE.BORNES et TABLEAU.ALEA (Les nombres aléatoires (tirage au sort))
 - Créer une LISTE DÉROULANTE
 - La VALIDATION des DONNÉES (Créer un formulaire sans erreur d'encodage)
-- Les fonctions RECHERCHEV et RECHERCHEH 
+- Les fonctions RECHERCHEV et RECHERCHEH
 - Créer un TABLEAU CROISÉ DYNAMIQUE + GRAPHIQUE
 - La fonction RANG (établir un classement)
-- Réaliser un CLASSEMENT AUTOMATIQUE 
+- Réaliser un CLASSEMENT AUTOMATIQUE
 - Créer une CARTE GÉOGRAPHIQUE automatique (statistiques par pays, régions et villes)
 - CONVERTIR des DEVISES (convertisseur de monnaie automatique)
 - L'ANALYSEUR de DONNÉES (Tableaux et graphiques automatiques)
@@ -65,7 +65,7 @@ En explorant le site de Do_It, j’ai remarqué que la plupart des MON sur Excel
 
 Pour découvrir son utilisation, j’ai d’abord regardé cette [`vidéo`](https://www.youtube.com/watch?v=zHHItICsN6k), qui présente rapidement les manipulations possibles avec Power Query. Cependant, je ne la trouve pas très convaincante et ne la recommande pas.
 
-En revanche, j’ai beaucoup apprécié cette série de quatre vidéos, que je recommande vivement : 
+En revanche, j’ai beaucoup apprécié cette série de quatre vidéos, que je recommande vivement :
 [`Formation Power Query`](https://www.youtube.com/watch?v=4rCgZX9jEnA)
 
 #### Exercice

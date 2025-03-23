@@ -6,10 +6,10 @@ authors:
   - Damien WOLBERT
 
 date: 2024-12-12
-tags: 
+tags:
   - "temps 3"
 
-résumé: "Ce MON se focalise sur les interactions possibles entre Python et Excel."
+description: "Ce MON se focalise sur les interactions possibles entre Python et Excel."
 ---
 
 {% lien %}
@@ -29,7 +29,7 @@ Afin de réaliser ce MON dans les temps, j'ai fait le choix de fortement m'appuy
 Excel est un logiciel polyvalent utilisé par un grand nombre de personnes et de structures dans le monde. Il permet donc de "programmer" facilement via VBA (Visual basic for Application) dans beaucoup d'entreprises du fait de sa présence. Parallèlement, le langage de programmation Python est actuellement le langage le plus utilisé dans le monde.
 
 {% details "Quelques chiffres" %}
-En 2024, l'**index TIOBE** (The Importance Of Being Earnest) présente Python comme le langage le plus utilisé. [Lien](https://www.tiobe.com/tiobe-index/). Cet indice prend en compte le nombre de pages web écrites dans un langage donnée.  
+En 2024, l'**index TIOBE** (The Importance Of Being Earnest) présente Python comme le langage le plus utilisé. [Lien](https://www.tiobe.com/tiobe-index/). Cet indice prend en compte le nombre de pages web écrites dans un langage donnée.
 En France, Python est le langage utilisé pour apprendre les fondamentaux de programmation dans les lycées et classes préparatoires entre autres.
 {% enddetails %}
 
@@ -44,16 +44,16 @@ Sub Appeler_python()
 
   Dim path_script As String
   Dim commande As String
-    
+
   ' Chemin vers le script Python
   path_script = "C:\Users\damie\Documents\GitHub\MON-3.1---Python-in-companies\A_lancer.py"  ' Chemin du scipt python
-  
+
   ' Commande à insérer dans le terminal
   commande = "python " & path_script
-  
+
   ' Ouverture d'un terminal et exécution de la commande
   Shell "cmd.exe /C" & commande '/C pour fermer le terminal après exécution | /K pour le garder ouvert
-  
+
 End Sub
 ```
 
@@ -104,7 +104,7 @@ fichier.save(path_excel)
 ```python/
 def lancement_macro_sans_argument(path_fichier, nom_macro):
     print("Lancement de la macro "+ nom_macro + " contenue dans le ficher" + path_fichier)
-    
+
     import win32com.client
 
     fichier_excel = path_fichier
@@ -115,10 +115,10 @@ def lancement_macro_sans_argument(path_fichier, nom_macro):
 
     # Ouvrir le fichier Excel
     wb = excel.Workbooks.Open(fichier_excel)
-    
+
     # Lancer la macro
     excel.Application.Run(nom_macro)
-    
+
     # Fermeture du fichier excel
     wb.Close(SaveChanges=True)
 
@@ -129,7 +129,7 @@ def lancement_macro_sans_argument(path_fichier, nom_macro):
 
 def lancement_macro_avec_argument(path_fichier, nom_macro, liste_arguments):
     print("Lancement de la macro "+ nom_macro + " contenue dans le ficher" + path_fichier)
-    
+
     import win32com.client
 
     fichier_excel = path_fichier
@@ -140,10 +140,10 @@ def lancement_macro_avec_argument(path_fichier, nom_macro, liste_arguments):
 
     # Ouvrir le fichier Excel
     wb = excel.Workbooks.Open(fichier_excel)
-    
+
     # Lancer la macro
     excel.Application.Run(nom_macro,*liste_arguments)
-    
+
     # Fermeture du fichier excel
     wb.Close(SaveChanges=True)
 
@@ -179,7 +179,7 @@ L'utilisation de python est-elle plus efficace que l'utilsation de VBA pour des 
 
 ### Tests
 
-**Fichier de travail :** Document Excel contenant 7 feuilles. Chaque feuille contient un certain nombre de données (des chaines de caractères et des nombres générés par ChatGPT).  
+**Fichier de travail :** Document Excel contenant 7 feuilles. Chaque feuille contient un certain nombre de données (des chaines de caractères et des nombres générés par ChatGPT).
 **Protocole :** Parcourir les différents tableaux de données par VBA puis python afin de compter at additionner les nombres rencontrés. Puis relever les temps d'éxécution des différentes étapes de deux programmes.
 
 ### Résultats
@@ -187,8 +187,8 @@ L'utilisation de python est-elle plus efficace que l'utilsation de VBA pour des 
 **Rapidité d'exécution :** On observe que le programme VBA reste globalement plus rapide que les programmes python, notamment à cause du temps d'ouverture et d'enregistrement du fichier Excel.
 {% details "Rapidités d'éxecution" %}
 ![Rapidité d'éxecution](./Delta_graph.png)
-**Poids =** Poids de la feuille Excel testée (en Ko)   
-**Annexe =** Correspond au temps d'ouverture et d'enregistrement du programme python.  
+**Poids =** Poids de la feuille Excel testée (en Ko)
+**Annexe =** Correspond au temps d'ouverture et d'enregistrement du programme python.
 **Delta =** Correspond à l'augmentation ou la diminution du temps d'éxécution du programme python par rapport au programme VBA.
 
 {% note %}

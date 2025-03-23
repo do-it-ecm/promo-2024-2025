@@ -9,7 +9,7 @@ date: 2024-12-17
 temps: 2
 tags:
 
-résumé: "Ce MON traite de la découverte du langage R"
+description: "Ce MON traite de la découverte du langage R"
 ---
 
 {% prerequis %}

@@ -8,13 +8,13 @@ authors:
 temps: 3
 
 date: 2025-01-06
-tags: 
+tags:
   - "test"
   - "vert"
   - "méthodologie"
   - "Test-Driven Development"
 
-résumé: "Avec ce MON, je compte étudier la méthodologie Test-Driven Development qui repose sur l'écriture de test en amont (généralement les tests sont implémentés après le code). Ainsi, je vais me former à l'écriture de tests. Enfin, j'aimerais me familiariser avec un outil de gestion de tests (Jenkins par exemple) et comprendre comment l'intelligence artificielle (Copilot, GPT) peut être un outil privilégié dans l'écriture de tests. Exceptionnellement, ce MON sera constitué de 15 heures de travail. "
+description: "Avec ce MON, je compte étudier la méthodologie Test-Driven Development qui repose sur l'écriture de test en amont (généralement les tests sont implémentés après le code). Ainsi, je vais me former à l'écriture de tests. Enfin, j'aimerais me familiariser avec un outil de gestion de tests (Jenkins par exemple) et comprendre comment l'intelligence artificielle (Copilot, GPT) peut être un outil privilégié dans l'écriture de tests. Exceptionnellement, ce MON sera constitué de 15 heures de travail. "
 ---
 
 {% prerequis %}
@@ -586,7 +586,7 @@ checkWin(): boolean {
     [0, 4, 8], [2, 4, 6]             // Diagonals
   ];
 
-  return winPatterns.some(pattern => 
+  return winPatterns.some(pattern =>
     pattern.every(index => this.board[index] === this.currentPlayer)
   );
 }

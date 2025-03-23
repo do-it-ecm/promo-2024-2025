@@ -13,7 +13,7 @@ tags:
   - "vert"
   - "bleu"
 
-résumé: "L'objectif de ces MON 1.1 et MON 1.2 est d'apprendre à utiliser Python pour l’analyse de données textuelles et de mettre en pratique ces compétences à travers un exemple concret.
+description: "L'objectif de ces MON 1.1 et MON 1.2 est d'apprendre à utiliser Python pour l’analyse de données textuelles et de mettre en pratique ces compétences à travers un exemple concret.
 
 Ce MON 1.1 a pour but de (ré)acquérir les bases de Python, afin de pouvoir développer par la suite du code plus avancé pour l’analyse de données textuelles dans le cadre d’une enquête en sciences humaines et sociales."
 
@@ -53,7 +53,7 @@ Plusieurs solutions existent, mais il est généralement nécessaire d'utiliser 
 Dans notre cas, nous avons choisi d'utiliser Visual Studio Code, qui nous permet à la fois d'écrire le code et de visualiser les résultats dans un seul et même outil.
 
 {% lien %}
-[une vidéo présentant comment installer VS Code](https://www.youtube.com/watch?v=V6NfiMu4eZ0) 
+[une vidéo présentant comment installer VS Code](https://www.youtube.com/watch?v=V6NfiMu4eZ0)
 {% endlien %}
 
 #### Les modules à installer
@@ -116,7 +116,7 @@ Si vous ne comprenez pas le message d’erreur, pas de panique ! Il est fort pro
 
 #### Les variables
 
-Lorsque l’on veut analyser des données, il nous faut des données à stocker quelque part. Dans le code, cela se traduit par des variables qui vont stocker une information (du texte ou des nombres, par exemple) que l’on appelle **objets**, que l’on associe à un nom pour les identifier. Une variable stocke alors un objet à un instant donné, mais celui-ci peut évoluer au fur et à mesure de l’avancement du code. 
+Lorsque l’on veut analyser des données, il nous faut des données à stocker quelque part. Dans le code, cela se traduit par des variables qui vont stocker une information (du texte ou des nombres, par exemple) que l’on appelle **objets**, que l’on associe à un nom pour les identifier. Une variable stocke alors un objet à un instant donné, mais celui-ci peut évoluer au fur et à mesure de l’avancement du code.
 
 Par exemple, on peut créer la variable :
 
@@ -154,7 +154,7 @@ nom = “Henry”
 age = 22
 ```
 
-- **float** : nombre à virgule 
+- **float** : nombre à virgule
 
 ```python
 pi = 3.14
@@ -221,11 +221,11 @@ Qui affichera : "Le bonheur, ce n'est pas d'avoir tout ce que l'on désire, mais
 {% endnote %}
 
 **Les caractères spéciaux**
-La gestion des caractères spéciaux est un autre point de vigilance lors de la saisi de données textuelles. En effet certains caractères ont deja un sens en python, il y à donc un risque de confusion si on les utilise. 
+La gestion des caractères spéciaux est un autre point de vigilance lors de la saisi de données textuelles. En effet certains caractères ont deja un sens en python, il y à donc un risque de confusion si on les utilise.
 
 {% note %}
-Pour eviter la confusion, la solution est de mettre un backslash devant le caractère en question. 
-Par exemple pour mettre un % sans un texte on ecrira : 
+Pour eviter la confusion, la solution est de mettre un backslash devant le caractère en question.
+Par exemple pour mettre un % sans un texte on ecrira :
 
 ```python
 print(“Le pourcentage de réussite au bac en 2019 est de 88.1\%”)
@@ -259,11 +259,11 @@ print (proportion)
 ```
 
 {% attention %}
-Les éléments d’une liste sont associés à leur position dans la liste, qui commence à 0 pour le premier élément, 1 pour le deuxième, et ainsi de suite… 
+Les éléments d’une liste sont associés à leur position dans la liste, qui commence à 0 pour le premier élément, 1 pour le deuxième, et ainsi de suite…
 Mais aussi -1 pour le dernier, -2 pour l'avant-dernier, etc.
 {% endattention %}
 
-Ainsi, si l’on veut afficher le troisième élément de notre liste, on notera : 
+Ainsi, si l’on veut afficher le troisième élément de notre liste, on notera :
 
 ```python
 print ( proportion [2] )
@@ -370,7 +370,7 @@ recette={“sucre” : 100, “farine” : 50, “beurre” : 100, “chocolat�
 
 #### Opérateurs de condition et de comparaison
 
-Lorsque l’on veut faire de l’analyse de données, il est important de maîtriser les opérateurs de condition et de comparaison, car ce sont eux qui vont nous permettre de s’adapter à telle ou telle situation. Ainsi, les principaux opérateurs de condition et de comparaison sont : 
+Lorsque l’on veut faire de l’analyse de données, il est important de maîtriser les opérateurs de condition et de comparaison, car ce sont eux qui vont nous permettre de s’adapter à telle ou telle situation. Ainsi, les principaux opérateurs de condition et de comparaison sont :
 
 | Opérations| Symboles| Exemples |
 | -------- | --------- | --------|
@@ -402,11 +402,11 @@ Pour tester une condition, on utilise les fonctions **if**, **else** et **elif**
 ```python
 #Regarder si en Do-It le nombre d’élève est pair et à defaut un multiple de 5
 pop_do_it = 25
-if pop_do_it % 2 == 0 : 
+if pop_do_it % 2 == 0 :
     print(“Le nombre d’éléve en Do It est pair”)
-elif pop_do_it % 5 ==0 : 
+elif pop_do_it % 5 ==0 :
     print(“Le nombre d’éléve en Do It est multiple de 5”)
-else : 
+else :
     print(“Le nombre d’élève en Do It n’est ni pair ni un multiple de 5”)
 
 ```
@@ -423,7 +423,7 @@ Par ailleurs, il est possible de cumuler des conditions grâce aux opérateurs *
 
 ##### Les boucles
 
-Les boucles sont très utiles lorsque l’on veut répéter une opération. En Python, les boucles **for** et **while** permettent de répéter des actions, mais elles s'utilisent différemment. 
+Les boucles sont très utiles lorsque l’on veut répéter une opération. En Python, les boucles **for** et **while** permettent de répéter des actions, mais elles s'utilisent différemment.
 
 La boucle **for** est généralement utilisée pour itérer sur une séquence (comme une liste, un tuple, ou une chaîne de caractères) ou un intervalle de valeurs prédéfini. Elle s'arrête automatiquement lorsque tous les éléments de la séquence ont été parcourus. Par exemple :
 
@@ -458,13 +458,13 @@ Une fonction est un bloc de code qui prend des données en entrée, les traite, 
 Quel que soit le contenu de la fonction, elle s’organise toujours de la même manière. Prenons l’exemple d’une fonction qui, peu importe notre liste d’ingrédients, nous renvoie si elle contient du chocolat :
 
 ```python
-def contient_chocolat (list_ingredient) : 
-    for i in list_ingredient : 
+def contient_chocolat (list_ingredient) :
+    for i in list_ingredient :
         if i == "chocolat" :
             return print("Il y a du chocolat")
     else :
         return print("Il n'y a pas de chocolat")
-    
+
 ingredient = ["lait","oeuf","beurre","farine","chocolat","levure"]
 contient_chocolat(ingredient)
 ```
@@ -506,10 +506,10 @@ La méthode la plus simple pour installer une nouvelle bibliothèque est la mét
 Pour ce faire, il faut ouvrir un terminal dans VS Code et taper l’instruction suivante, puis appuyer sur Entrée :
 
 ```
-pip install requests 
+pip install requests
 ```
 
-Une fois `requests` installé, il peut être utile de vérifier que l’installation a bien été effectuée et qu’il n’y a pas eu de bug. Pour cela, ouvrez une nouvelle fenêtre Python et saisissez le code suivant : 
+Une fois `requests` installé, il peut être utile de vérifier que l’installation a bien été effectuée et qu’il n’y a pas eu de bug. Pour cela, ouvrez une nouvelle fenêtre Python et saisissez le code suivant :
 
 ```python
 import requests as req
@@ -551,7 +551,7 @@ Lorsque l’on fait trop de requêtes sur la même page, il est possible que l�
 Pour vérifier qu’un mot est bien présent sur une page, on peut importer la page comme précédemment puis utiliser les fonctions **if** et **in** pour vérifier si le mot est présent ou non :
 
 ```python
-#Récupérer la page 
+#Récupérer la page
 url="https://www.lequipe.fr"
 reponse = req.get(url)
 contenu = reponse.text
@@ -591,7 +591,7 @@ Choisir trois sites internet de médias et deux mots, puis tester pour chaque pa
 pages = ["https://www.lemonde.fr","https://www.lequipe.fr","https://www.causette.fr"]
 mots = ["femme","santé"]
 resultats = {}
-for p in pages : 
+for p in pages :
     resultats[p]={}
     for j in mots :
         resultats[p][j]=presence_mot(j,p)
@@ -614,5 +614,5 @@ print (resultats)
 {% lien %}
 
 - [Python pour les SHS](https://pur-editions.fr/product/7857/python-pour-les-shs)
-- [Vidéo présentant comment installer VS Code pour python](https://www.youtube.com/watch?v=V6NfiMu4eZ0) 
+- [Vidéo présentant comment installer VS Code pour python](https://www.youtube.com/watch?v=V6NfiMu4eZ0)
 {% endlien %}

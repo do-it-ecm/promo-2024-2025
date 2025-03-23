@@ -9,7 +9,7 @@ date: 2024-10-16
 temps: 2
 tags:
 
-résumé: Reprise des cours de première année et suivi d'un cours en ligne.
+description: Reprise des cours de première année et suivi d'un cours en ligne.
 ---
 
 {% lien %}

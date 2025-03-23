@@ -10,7 +10,7 @@ date: 2025-03-12
 temps: 3
 tags:
 
-résumé: L'objectif de ce POK est de reprendre les bases de Figma, les compléter et pouvoir les appliquer sur un projet personnel, en réalisant une maquette.
+description: L'objectif de ce POK est de reprendre les bases de Figma, les compléter et pouvoir les appliquer sur un projet personnel, en réalisant une maquette.
 ---
 
 {% prerequis %}
@@ -28,7 +28,7 @@ Ce POK a pour but de reprendre les bases de Figma pour réaliser une maquette co
 - [x] Revoir les bases de Figma
 - [x] Etudier des fontcionnalités plus poussées
 - [x] Commencer à imaginer la maquette
-  
+
 ##### Horodatage
 
 | Date | Heures passées | Indications |

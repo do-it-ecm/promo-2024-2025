@@ -11,7 +11,7 @@ temps: 1
 tags:
   - "frontend"
 
-résumé: Le but de ce POK est de faire un portfolio web de mes peintures réalisées pendant ma césure.
+description: Le but de ce POK est de faire un portfolio web de mes peintures réalisées pendant ma césure.
 ---
 
 L'un de mes objectifs personnels de ma césure était de peindre à la gouache et de pouvoir partager mes peintures par la suite. Ce second objectif peut être atteint grâce à un site web que je peux développer à l'occasion de ce POK. Pour ce premier POK, je vais créer l'interface graphique du site avec ReactJs, une librairie que j'ai pu apprendre à utiliser lors de ma césure.
@@ -30,7 +30,7 @@ L'objectif à la fin de ces 20 heures est d'avoir réalisé l'interface graphiqu
 - [x] Créer l'environnement de travail sur cet ordinateur
 
 - [x] Créer la page d'accueil
-- [x] Créer la page portfolio carousel avec mes peintures, leurs titres et descriptifs 
+- [x] Créer la page portfolio carousel avec mes peintures, leurs titres et descriptifs
 - [x] Faire la page a propos
 - [x] Lier les différentes vues dans l'App.js
 
@@ -101,13 +101,13 @@ Cette commande crée directement mon application avec une architecture simple, �
 └── ./node_modules
 ```
 
-J'ai également installé les librairies dont j'avais besoin pour le design de mon projet, à savoir les librairies mui/material et emotion/styled. La librairie mui/material me permet d'avoir accès à des composants React qui sont interactifs, qui ont déjà un design avec une certaine charte graphique et dont je peux modifier le style grâce à emotion/styled. 
+J'ai également installé les librairies dont j'avais besoin pour le design de mon projet, à savoir les librairies mui/material et emotion/styled. La librairie mui/material me permet d'avoir accès à des composants React qui sont interactifs, qui ont déjà un design avec une certaine charte graphique et dont je peux modifier le style grâce à emotion/styled.
 
-J'ai dessiné une maquette rapidement sur une feuille avec les différentes vues de mon site. Cela m'a permis de savoir comment je vais devoir diviser mes différentes vues en composants. Par exemple, j'ai divisé ma page d'accueil en deux composants : le fond (background) qui sera défini dans le fichier Home.jsx et l'en-tête qui sera défini dans le fichier Header.jsx. Cet en-tête sera utilisé dans toutes mes autres pages. 
+J'ai dessiné une maquette rapidement sur une feuille avec les différentes vues de mon site. Cela m'a permis de savoir comment je vais devoir diviser mes différentes vues en composants. Par exemple, j'ai divisé ma page d'accueil en deux composants : le fond (background) qui sera défini dans le fichier Home.jsx et l'en-tête qui sera défini dans le fichier Header.jsx. Cet en-tête sera utilisé dans toutes mes autres pages.
 
 Après cette étape rapide de maquettage, j'ai entrepris le code des différents composants, notamment ceux qui composent la page Home, la page AboutMe et la page Portfolio, puisque c'était mes objectifs pour ce premier sprint.
 
-La partie qui m'a pris le plus de temps était la création du Carousel de la page Portfolio. Qu'est-ce qu'un carousel ? Un carousel est un dispositif qui permet de visualiser un ou plusieurs éléments en même temps et de changer les éléments visualisés lorsque l'utilisateur clique sur les boutons fléchés du carrousel. 
+La partie qui m'a pris le plus de temps était la création du Carousel de la page Portfolio. Qu'est-ce qu'un carousel ? Un carousel est un dispositif qui permet de visualiser un ou plusieurs éléments en même temps et de changer les éléments visualisés lorsque l'utilisateur clique sur les boutons fléchés du carrousel.
 
 A la fin de ce premier sprint, j'ai donc produit ces quatre pages :
 
@@ -117,27 +117,27 @@ A la fin de ce premier sprint, j'ai donc produit ces quatre pages :
 1. La page d'accueil "home" ressemble à ceci :
 ![home](home.png)
 <br>
-1. Le rendu de quelques vues du portfolio-carousel est le suivant : 
+1. Le rendu de quelques vues du portfolio-carousel est le suivant :
 ![flores](portfolio-1.png)
 ![flash](portfolio-2.png)
 ![porte divine](portfolio-3.png)
-J'ai créé un composant StackCarousel qui contient la mise en page image/texte et un Carousel qui affiche deux StackCarousel simultanément afin de montrer deux peintures à la fois. Pour l'instant la mise en forme est faite pour des peintures de format portrait, il faudra que je change le code pour inclure des peintures de format paysage afin de visualiser un seul paysage à la fois. 
+J'ai créé un composant StackCarousel qui contient la mise en page image/texte et un Carousel qui affiche deux StackCarousel simultanément afin de montrer deux peintures à la fois. Pour l'instant la mise en forme est faite pour des peintures de format portrait, il faudra que je change le code pour inclure des peintures de format paysage afin de visualiser un seul paysage à la fois.
 <br>
 1. La dernière page effectuée lors de ce sprint, une description du contexte de ce site et brève description de moi (avec un pseudonyme, ce nom de famille est celui de mon grand-père maternel)
 ![About me](about-me.png)
 
 ### Second Sprint
 
-J'ai démarré ce second sprint par la page galerie photo qui fût fort rapide à mettre en place à l'aide d'un composant React qui s'appelle [ImageList](https://mui.com/material-ui/react-image-list/). Voici des photos du rendu final : 
+J'ai démarré ce second sprint par la page galerie photo qui fût fort rapide à mettre en place à l'aide d'un composant React qui s'appelle [ImageList](https://mui.com/material-ui/react-image-list/). Voici des photos du rendu final :
 
 ![galerie-1](image.png)
 ![galerie-2](image-1.png)
 ![galerie-3](image-2.png)
 
-Pour la page Contact, je crée un formulaire grâce à la mise en page https://www.copycat.dev/blog/material-ui-form/. Pour éviter pour l'instant de faire un système back-end avec des API etc, j'ai suivi le tutoriel [React Contact Form w/ EmailJS](https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33) pour apprendre à utiliser EmailJS de manière temporaire afin de recevoir les messages via cette plateforme. 
+Pour la page Contact, je crée un formulaire grâce à la mise en page https://www.copycat.dev/blog/material-ui-form/. Pour éviter pour l'instant de faire un système back-end avec des API etc, j'ai suivi le tutoriel [React Contact Form w/ EmailJS](https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33) pour apprendre à utiliser EmailJS de manière temporaire afin de recevoir les messages via cette plateforme.
 
 ![Contact](contact.png)
 
-J'ai travaillé sur la navigation avec les flèches du clavier pour le portfolio. J'ai eu des problèmes avec la gestion des keyEvent et de la gestion du state de l'item courant. 
+J'ai travaillé sur la navigation avec les flèches du clavier pour le portfolio. J'ai eu des problèmes avec la gestion des keyEvent et de la gestion du state de l'item courant.
 
 <video controls src="demo.mp4" title="Demo"></video>

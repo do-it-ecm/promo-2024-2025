@@ -13,7 +13,7 @@ tags:
   - "Airtable"
   - "Softr"
 
-résumé: "Approfondir mes connaissances dans l'utilisation d'Airtable et découvrir Softr, en vue de faire une application web liée à la base de donnée (POK 1)."
+description: "Approfondir mes connaissances dans l'utilisation d'Airtable et découvrir Softr, en vue de faire une application web liée à la base de donnée (POK 1)."
 ---
 
 {% prerequis "Niveau débutant" %}
@@ -59,7 +59,7 @@ En parallèle, je créais ma propre base de données **Offres de stage** ayant p
 
 Dans Airtable, une base est l'élément fondamental où sont stockées et organisées les informations. Elle se compose de plusieurs tables, qui fonctionnent comme des feuilles de calcul dans un tableur, mais avec plus de puissance et de flexibilité.
 
-Une base est composée de plusieurs tables, chacune dédiée à une catégorie de données. 
+Une base est composée de plusieurs tables, chacune dédiée à une catégorie de données.
 Par exemple, dans ma base, j'ai fait une table pour les **Offres** et une autre pour les **Entreprises**.
 
 ![table_Offres](./Airtable_tableOffres.png)
@@ -81,7 +81,7 @@ La **Galerie** permet d'afficher les enregistrements sous forme de cartes visuel
 
 Airtable permet de configurer des automatisations afin d'effectuer des actions automatiquement, comme envoyer des emails, mettre à jour des enregistrements, ou déclencher des workflows dans d'autres applications, à partir de conditions spécifiques définies. Cependant, pour l'instant je n'ai pas encore utilisé d'automatisations avec d'autres applications.
 
-J'ai mis en place une petite automatisation au sein d'Airtable qui assure la liaison entre la table **Offres** et la table **Entreprises**. Lorsque un nouvelle entrée est créé dans la table **Offres** et que le nom de l'Entreprise y est renseigné, le champ "liaison à la table Entreprises" se remplit automatiquement. Ainsi, le champ "Structure" dans la table **Offres** se remplit automatiquement également. De plus, si l'entreprise n'existe pas encore dans la table **Entreprises**, une nouvelle entrée y est automatiquement ajoutée. 
+J'ai mis en place une petite automatisation au sein d'Airtable qui assure la liaison entre la table **Offres** et la table **Entreprises**. Lorsque un nouvelle entrée est créé dans la table **Offres** et que le nom de l'Entreprise y est renseigné, le champ "liaison à la table Entreprises" se remplit automatiquement. Ainsi, le champ "Structure" dans la table **Offres** se remplit automatiquement également. De plus, si l'entreprise n'existe pas encore dans la table **Entreprises**, une nouvelle entrée y est automatiquement ajoutée.
 
 ![Automatisation](./Airtable_Automatisation.png)
 
@@ -90,7 +90,7 @@ Airtable s'intègre avec de nombreux outils via des connecteurs tels que Zapier 
 les vidéos abordaient également ce qu'il est possible de faire avec les interfaces et formulaires sur Airtable. Je prévois de les mettre en pratique prochainement dans mon POK.
 
 
-Ayant déjà travaillé quelquefois avec Airtable, je maîtrisais quelques notions de base, mais j'avais la volonté de les approfondir pour optimiser mon utilisation. Pour réaliser mon POK, je prévoyais initialement d'explorer plus en détail les vues et les interfaces d'Airtable. Cependant, au cours de mon MON, j'ai rapidement découvert Softr, une plateforme vivement recommandée par la communauté Airtable. 
+Ayant déjà travaillé quelquefois avec Airtable, je maîtrisais quelques notions de base, mais j'avais la volonté de les approfondir pour optimiser mon utilisation. Pour réaliser mon POK, je prévoyais initialement d'explorer plus en détail les vues et les interfaces d'Airtable. Cependant, au cours de mon MON, j'ai rapidement découvert Softr, une plateforme vivement recommandée par la communauté Airtable.
 
 J'ai appris que Softr permettait de créer l'interface d'une application web connectée à une base de données Airtable. Cet outils correspondait exactement à mon besoin, et j'ai donc décidé de me renseigner au sujet de cette plateforme no-code pour développer mon projet.
 
@@ -118,7 +118,7 @@ Ces blocs sont entièrement personnalisables pour s'adapter à l'apparence et à
 
 L'un des points les plus importants est que Softr peut se connecter directement à une base Airtable. Les données sont alors synchronisées dynamiquement, ce qui signifie que chaque mise à jour dans Airtable se reflète automatiquement dans l'application. C'est très pratique !
 
-On peut ajouter des filtres dynamiques et des barres de recherche aux pages pour permettre aux utilisateurs de trouver rapidement des informations. Par exemple, dans le cas des offres de stage, les utilisateurs pourraient filtrer les produits par entreprise, types de stage, localisation ou secteur d'activité. 
+On peut ajouter des filtres dynamiques et des barres de recherche aux pages pour permettre aux utilisateurs de trouver rapidement des informations. Par exemple, dans le cas des offres de stage, les utilisateurs pourraient filtrer les produits par entreprise, types de stage, localisation ou secteur d'activité.
 
 ![Softr](./Softr_InterfaceList.png)
 ![Softr_Avancement](./Softr_OffresIntermediaire.png)
@@ -126,7 +126,7 @@ On peut ajouter des filtres dynamiques et des barres de recherche aux pages pour
 De plus, les formulaires peuvent alimenter directement Airtable pour stocker les données collectées.
 
 Voici d'autres fonctionnalités que j'ai vues mais que je n'ai pas encore pu tester.
-Softr propose des fonctionnalités d'authentification et de gestion des utilisateurs : créer des espaces membres, des portails sécurisés, ou des applications où les utilisateurs peuvent s’inscrire, se connecter, et accéder à du contenu personnalisé. 
+Softr propose des fonctionnalités d'authentification et de gestion des utilisateurs : créer des espaces membres, des portails sécurisés, ou des applications où les utilisateurs peuvent s’inscrire, se connecter, et accéder à du contenu personnalisé.
 
 La dernière étape est la publication du site web. Softr se charge de l'hébergement de l'application ou site web. Il est possible de choisir d’utiliser un sous-domaine fourni par Softr ou connecter son propre domaine personnalisé. Une fois l'application prête, elle est déployée en ligne et accessible aux utilisateurs sans qu'il y ait à gérer l’infrastructure technique.
 

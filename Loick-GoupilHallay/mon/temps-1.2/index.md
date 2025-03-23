@@ -12,7 +12,7 @@ tags:
   - 'dev'
   - 'cyber'
 
-résumé: "Guide de bonnes pratiques pour sécuriser l'environnement de développement des développeurs."
+description: "Guide de bonnes pratiques pour sécuriser l'environnement de développement des développeurs."
 ---
 
 <head>

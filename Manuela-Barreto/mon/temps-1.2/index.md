@@ -10,7 +10,7 @@ date: 2024-10-14
 temps: 1
 tags:
 
-résumé: "Un MON traitant de la compréhension du concept d'API et sa création."
+description: "Un MON traitant de la compréhension du concept d'API et sa création."
 ---
 
 {% prerequis %}
@@ -186,24 +186,24 @@ Les méthodes les plus courantes de versionnement des API RESTful sont les suiva
 
 ## Tests d'APIs <a id="tests-dapis"></a>
 
-Toujours dans le cadre du développement d'APIs, les **tests d'APIs** constituent une étape cruciale, garantissant que l'API fonctionne comme prévu, qu'elle soit fiable, sécurisée et évolutive. Étant donné que les APIs sont souvent la base de la communication entre différents services et applications, leur stabilité est essentielle pour assurer le bon fonctionnement de l'ensemble du système. 
+Toujours dans le cadre du développement d'APIs, les **tests d'APIs** constituent une étape cruciale, garantissant que l'API fonctionne comme prévu, qu'elle soit fiable, sécurisée et évolutive. Étant donné que les APIs sont souvent la base de la communication entre différents services et applications, leur stabilité est essentielle pour assurer le bon fonctionnement de l'ensemble du système.
 
 ### Types de Tests d'API
 
 Il existe plusieurs types de tests d'API, chacun se concentrant sur des aspects spécifiques de l'API. Explorons les principaux types de tests :
 
 ### **1. Tests Fonctionnels**
-Les tests fonctionnels vérifient si les points de terminaison (endpoints) de l'API répondent correctement aux requêtes et renvoient les résultats attendus. 
+Les tests fonctionnels vérifient si les points de terminaison (endpoints) de l'API répondent correctement aux requêtes et renvoient les résultats attendus.
 
 - **Exemple** : Tester si l'endpoint `/users/123` renvoie les informations correctes pour l'utilisateur ayant l'ID 123.
 
 ### **2. Tests d'Intégration**
-Les tests d'intégration garantissent que l'API peut communiquer correctement avec d'autres services, bases de données ou systèmes externes. 
+Les tests d'intégration garantissent que l'API peut communiquer correctement avec d'autres services, bases de données ou systèmes externes.
 
 - **Exemple** : Vérifier si une API de paiement interagit correctement avec un système bancaire pour traiter les transactions.
 
 ### **3. Tests de Performance (ou de Charge)**
-Ces tests évaluent comment l'API se comporte dans différentes conditions d'utilisation, y compris des pics de trafic. 
+Ces tests évaluent comment l'API se comporte dans différentes conditions d'utilisation, y compris des pics de trafic.
 
 - **Exemple** : Envoyer des milliers de requêtes simultanées à l'endpoint `/orders` et mesurer le temps de réponse.
 
@@ -278,7 +278,7 @@ Le traitement des exceptions est responsable de la capture des erreurs inattendu
 
 ## Documentation des APIs <a id="documentation-des-apis"></a>
 
-La documentation des APIs est un composant vital qui garantit l'utilisabilité et la compréhension du fonctionnement de l'API. 
+La documentation des APIs est un composant vital qui garantit l'utilisabilité et la compréhension du fonctionnement de l'API.
 
 ### **Importance de la Documentation**
 1. **Facilité d'Utilisation** : Permet aux développeurs de comprendre rapidement comment interagir avec l'API.

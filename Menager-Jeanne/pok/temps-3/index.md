@@ -10,7 +10,7 @@ date: 2025-01-29
 temps: 3
 tags:
 
-résumé: Un POK traitant d'un sujet.
+description: Un POK traitant d'un sujet.
 ---
 
 {% prerequis %}
@@ -38,9 +38,9 @@ Pour mon Pok, l'idée est de pouvoir quantifier certains événements de notre v
 - [X] Créer les premieres routes
 - [x] Créer un figma
 
-En suivant le même tutoriel que pour mon MON (mais avec cette fois l'expérience de ce qui fonctionne ou pas), j'ai pu créer le backend du projet et le lier au frontend. 
+En suivant le même tutoriel que pour mon MON (mais avec cette fois l'expérience de ce qui fonctionne ou pas), j'ai pu créer le backend du projet et le lier au frontend.
 
-Mon projet est donc initialisé mais pas du tout conforme à ce que je souhaite. 
+Mon projet est donc initialisé mais pas du tout conforme à ce que je souhaite.
 
 J'ai créé un [figma](https://www.figma.com/design/92Y5pzepo2KpIlzudtkAqI/POK3?node-id=0-1&p=f&t=oMjlGDYY29ltTzAK-0) pour avoir une première idée de ce que je souhaite comme fonctionnement.
 
@@ -51,32 +51,32 @@ J'ai réfléchis plus efficacement grâce à ce figma pour pouvoir créer le mod
 - [X] Créer le frontend
 - [ ] mettre en ligne le site
 
-Afin de coder le frontend, j'ai voulu utiliser la librairie 'quasar' qui permet d'avoir facilement des ici-ons, des pop-up et certains style pour le frontend. 
-J'ai donc du installer cette librairie mais je me suis rendue compte que l'initialisation que j'avais fait dans le sprint 1 du frontend n'était pas compatible. J'ai donc cu recréer le frontend de mon projet. 
+Afin de coder le frontend, j'ai voulu utiliser la librairie 'quasar' qui permet d'avoir facilement des ici-ons, des pop-up et certains style pour le frontend.
+J'ai donc du installer cette librairie mais je me suis rendue compte que l'initialisation que j'avais fait dans le sprint 1 du frontend n'était pas compatible. J'ai donc cu recréer le frontend de mon projet.
 
-J'ai commencé par créer la page d'accueil (avec les tracker du jour) d'abords sans utiliser de donner du backend puis j'ai lié mon frontend à mon backend. 
+J'ai commencé par créer la page d'accueil (avec les tracker du jour) d'abords sans utiliser de donner du backend puis j'ai lié mon frontend à mon backend.
 J'ai ensuite ajouté le bouton pour ajouter un nouveau tracker.
-J'ai ensuite implémenter les flèches pour passer de 'Aujourd'hui' à 'Demain', 'Hier' et aux autres dates, pour cela, j'ai utilisé la librairie 'moment js'. J'ai eu du mal à géré la réactivité mais grâce à un watcheur, j'ai pu régler le problème. 
+J'ai ensuite implémenter les flèches pour passer de 'Aujourd'hui' à 'Demain', 'Hier' et aux autres dates, pour cela, j'ai utilisé la librairie 'moment js'. J'ai eu du mal à géré la réactivité mais grâce à un watcheur, j'ai pu régler le problème.
 
 ![Page d'acceuil](./homePage.png)
 
-J'ai ensuite implémenté les choix du tracker pour que ca s'enregistre dans la db. 
+J'ai ensuite implémenté les choix du tracker pour que ca s'enregistre dans la db.
 
 ![Page d'acceuil avec choix](./homePageWithSelection.png)
 
-Enfin, j'ai implémenté la page de récap, pour laquel, j'ai pu réutilisé des composents que j'avais déjà créer. 
+Enfin, j'ai implémenté la page de récap, pour laquel, j'ai pu réutilisé des composents que j'avais déjà créer.
 
 ![Page de récap](./Recap.png)
 
-J'ai en effet créer un composant pour les petits carrés afin de pouvoir le réutiliser facilement mais aussi un pour les noms des options. Cela m'a grandement aidé à avoir un code plus clair. 
+J'ai en effet créer un composant pour les petits carrés afin de pouvoir le réutiliser facilement mais aussi un pour les noms des options. Cela m'a grandement aidé à avoir un code plus clair.
 
-Je n'ai pas eu le temps de finir mon projet : en effet, il faudrait y rajouter un moyen pour l'utilisateur de se connecter et deployer le site. 
+Je n'ai pas eu le temps de finir mon projet : en effet, il faudrait y rajouter un moyen pour l'utilisateur de se connecter et deployer le site.
 
-Quand à la partie statistique, je l'ai traitée dans mon MON. 
+Quand à la partie statistique, je l'ai traitée dans mon MON.
 
-### Difficultés rencontrées : 
+### Difficultés rencontrées :
 - Initialisation du projet différente si utilisation de quasar
-- gestion des fonctions asynchrones pas facile avec la composition API de vue 3 
+- gestion des fonctions asynchrones pas facile avec la composition API de vue 3
 
 ### Horodatage
 

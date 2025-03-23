@@ -12,7 +12,7 @@ tags:
   - "Machine learning"
   - "IA"
 
-résumé: "Aujourd'hui, nous ne faisons qu'entendre parler de l'intelligence artificielle, et nous la présentons comme une solution révolutionnaire, quasiment miraculeuse. Cependant, qu'en est-il dans la réalité des faits ? Quel est le champ d'action des IA ? Quelles sont leurs limites ? C'est à ces questions que je m'efforcerai de répondre dans ce mémoire, et je dresserai une bibliographie permettant d'en apprendre plus sur le sujet. "
+description: "Aujourd'hui, nous ne faisons qu'entendre parler de l'intelligence artificielle, et nous la présentons comme une solution révolutionnaire, quasiment miraculeuse. Cependant, qu'en est-il dans la réalité des faits ? Quel est le champ d'action des IA ? Quelles sont leurs limites ? C'est à ces questions que je m'efforcerai de répondre dans ce mémoire, et je dresserai une bibliographie permettant d'en apprendre plus sur le sujet. "
 ---
 
 ## Introduction : IA magie ou tromperie ?
@@ -48,7 +48,7 @@ Le machine learning est une sous-discipline de l'IA qui permet aux systèmes d'a
 
 - Apprentissage Supervisé
 - Apprentissage Semi-Supervisé
-- Apprentissage Non Supervisé 
+- Apprentissage Non Supervisé
 - Apprentissage par Renforcement
 
 Applications : Prédiction, trading, circulation.
@@ -74,7 +74,7 @@ Applications : Diagnostic médical, systèmes de gestion de la connaissance.
 
 **5. Robotique :**
 
-La robotique est une branche de l'intelligence artificielle qui se concentre sur la conception, la construction, l'exploitation et l'utilisation de robots. 
+La robotique est une branche de l'intelligence artificielle qui se concentre sur la conception, la construction, l'exploitation et l'utilisation de robots.
 
 Applications : Automatisation des lignes de production, robot
 
@@ -88,14 +88,14 @@ Applications : Planification des tâches et des ressources, tri et gestion des s
 
 La vision par ordinateur permet aux machines d'interpréter et d'analyser le contenu visuel de notre monde, en utilisant des techniques telles que la détection d'objets et l'analyse d'images.
 
-Applications : Véhicules autonomes, reconnaissance faciale, surveillance.  
+Applications : Véhicules autonomes, reconnaissance faciale, surveillance.
 
 ## Les limites de l'IA
 
 Malgré ses nombreux succès, l'IA présente plusieurs limites ce qui la rend moins efficace ou inadaptée dans certains contextes :
 
 **Manque de compréhension réelle**
-   
+
 L’une des plus grandes limites de l’IA est son incapacité à faire preuve de bon sens. En effet, les machines d'IA sont entraînées à l’aide d’ensembles de données et d’algorithmes spécifiques ; elles ne peuvent donc prendre des décisions qu’en fonction des informations sur lesquelles elles ont été formées. Elles sont incapables, en revanche, de prendre des initiatives sur des sujets sur lesquels elles n'ont pas été formées.
 
 Exemple : Une IA peut trés bien reconnaitre des éléments sur une image mais elle aura beaucoup plus de mal à comprendre pourquoi on lui a fourni cette image et dans quel but.
@@ -107,30 +107,30 @@ Comme expliqué précédemment, les IA ont besoin d'une grande base de données 
 Exemple : Détection de maladie rare
 
 **Absence de conscience et d'émotions**
-   
+
 Contrairement aux humains, l'IA n'a pas de conscience et ne peut donc pas ressentir d'émotions. Elle peut les simuler, mais elle ne peut pas les ressentir, ce qui limite son efficacité dans des contextes où l'intelligence émotionnelle est requise.
 
 Exemple : L'art est un domaine où l'expression émotionnelle de l'artiste au travers de son œuvre est essentielle. Ainsi, les œuvres générées par une machine manquent cruellement de vie et perdent donc de leur charme.
 
 **Complexité des tâches éthiques et morales**
-  
+
 À l'instar des émotions, l'IA a du mal à traiter des situations impliquant des questions éthiques complexes ou des décisions moralement ambiguës. Elle peut prendre des décisions basées sur des règles préprogrammées, mais ces règles peuvent ne pas couvrir toutes les nuances des dilemmes moraux.
 
 Exemple : Pour les voitures autonomes, quelle décision prendre dans le cas où un piéton traverse subitement la route : continuer tout droit et donc tuer le piéton mais sauver le passager, ou faire une sortie de route et tuer le passager mais sauver le piéton ?
 
 **Dépendance énergétique**
-   
+
 L'entraînement des grands modèles d'IA, notamment les deep learning, exige des ressources considérables en calcul et en énergie. Cette consommation suscite des préoccupations quant à leur durabilité et leur impact sur l'environnement.
 
-Pour aller plus loin : [MON 1.2 : Impact énergétique des IA](../temps-1.2)  
+Pour aller plus loin : [MON 1.2 : Impact énergétique des IA](../temps-1.2)
 
 ## Pour se former au machine learning :
 
-[1] N. Andrew, « MOOC - Spécialisation Deep learning ». Disponible sur: https://www.coursera.org/specializations/deep-learning  
-[2] N. Andrew, « MOOC - Spécialisation Apprentissage automatique ». Disponible sur: https://www.coursera.org/specializations/machine-learning-introduction#courses  
-[3] N. Andrew, « MOOC - L’IA pour tous ». Disponible sur: https://www.coursera.org/learn/ai-for-everyone  
-[4] G. Aurélien, Machine Learning avec Scikit-Learn - 3e édition. Disponible sur: https://www.dunod.com/sciences-techniques/machine-learning-avec-scikit-learn-mise-en-oeuvre-et-cas-concrets-1  
-[5] C.-A. Azencott, Introduction au Machine Learning. Dunot. Disponible sur: https://www.dunod.com/sciences-techniques/introduction-au-machine-learning-1  
-[6] E. Charniak, Introduction au Deep Learning. Dunot. Disponible sur: https://www.dunod.com/sciences-techniques/introduction-au-deep-learning  
-[7] G. Aurélien, Deep Learning avec Keras et TensorFlow - 3e édition. Disponible sur: https://www.dunod.com/sciences-techniques/deep-learning-avec-keras-et-tensorflow-mise-en-oeuvre-et-cas-concrets-0  
+[1] N. Andrew, « MOOC - Spécialisation Deep learning ». Disponible sur: https://www.coursera.org/specializations/deep-learning
+[2] N. Andrew, « MOOC - Spécialisation Apprentissage automatique ». Disponible sur: https://www.coursera.org/specializations/machine-learning-introduction#courses
+[3] N. Andrew, « MOOC - L’IA pour tous ». Disponible sur: https://www.coursera.org/learn/ai-for-everyone
+[4] G. Aurélien, Machine Learning avec Scikit-Learn - 3e édition. Disponible sur: https://www.dunod.com/sciences-techniques/machine-learning-avec-scikit-learn-mise-en-oeuvre-et-cas-concrets-1
+[5] C.-A. Azencott, Introduction au Machine Learning. Dunot. Disponible sur: https://www.dunod.com/sciences-techniques/introduction-au-machine-learning-1
+[6] E. Charniak, Introduction au Deep Learning. Dunot. Disponible sur: https://www.dunod.com/sciences-techniques/introduction-au-deep-learning
+[7] G. Aurélien, Deep Learning avec Keras et TensorFlow - 3e édition. Disponible sur: https://www.dunod.com/sciences-techniques/deep-learning-avec-keras-et-tensorflow-mise-en-oeuvre-et-cas-concrets-0
 

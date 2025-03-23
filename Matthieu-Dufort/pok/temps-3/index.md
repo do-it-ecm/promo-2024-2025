@@ -11,7 +11,7 @@ temps: 3
 tags:
   - "RGPD"
 
-résumé: Un POK traitant du Réglement Général sur la Protection des Données, de son évolution, et de son application dans le monde du digital.
+description: Un POK traitant du Réglement Général sur la Protection des Données, de son évolution, et de son application dans le monde du digital.
 ---
 
 {% lien %}
@@ -79,13 +79,13 @@ Le RGPD est basé sur trois grands axes en 2018 :
 Le RGPD place les citoyens au centre de la protection des données personnelles et leur offre plus de controle sur leurs données
 
 - **Droit à l’information** : Toute entreprise doit informer clairement les individus sur la manière dont leurs données sont collectées, utilisées et protégées.
-  
+
 - **Droit d’accès** : Tout individu peut demander à une entreprise une copie de ses données personnelles.
-  
+
 - **Droit à l’effacement** : Tout individu peut demander la suppression de ses données dans certaines conditions (Comme en cas de données obsolètes ou si elles ne sont plus nécessaires).
-  
+
 - **Droit à la portabilité des données** : Tout individu peut récupérer ses données dans un format structuré pour les transférer à un autre prestataire.
-  
+
 - **Droit d’opposition** : Tout individu peut s’opposer au traitement de ses données, notamment à des fins de prospection commerciale.
 
 ### Responsabilités des entreprises
@@ -93,11 +93,11 @@ Le RGPD place les citoyens au centre de la protection des données personnelles 
 Le RGPD impose aux entreprises des obligations strictes pour garantir la protection des données personnelles, avec un principe de responsabilité.
 
 - **Transparence et Consentement** : Toute organisation doit recueillir le consentement explicite des utilisateurs avant de collecter leurs données. Les termes et conditions doivent être clairs, compréhensibles et sans ambiguïté.
-  
+
 - **Obligation de sécurité** : Toutes entreprises doit protéger les données contre tout accès non autorisé, perte ou piratage en mettant en place des mesures techniques et organisationnelles adaptées. En cas de violation de données, elles doivent notifier l’incident à l’autorité compétente (comme la CNIL en France) dans les 72 heures.
-  
+
 - **Nomination d’un Délégué à la Protection des Données (DPO)** : Toute entreprise traitant des volumes importants de données sensibles (dépend de la nature des données) doit désigner un DPO chargé de veiller à la conformité au RGPD.
-  
+
 - **Documentation et analyses d’impact (PIA)** : Les entreprises doivent documenter leurs traitements de données et réaliser des analyses d’impact pour identifier et limiter les risques liés aux données personnelles.
 
 ### Harmonisation et sanctions dissuasives
@@ -177,7 +177,7 @@ Il existe cependant quelques différences comme :
 - Des règles très strictes pour les entreprises étrangères traitant des données de citoyens chinois
 - Les sanctions de ce texte reste plus faible
 - Le gouvernement chnois peut accéder à plus de données en raison de question de sécurité nationale
-  
+
 ### Général
 
 Dans l'ensemble, tous les pays du monde ont aujourd'hui des règles sur la régulations des données similaires qui sont souvent comparable à celui du RGPD. Cependant, bien qu'il ait influencé de nombreuses législations, chaque pays ou région adapte ses lois en fonction de ses besoins spécifiques, de sa culture et de ses priorités en matière de protection des données. L'une des différences majeures réside dans la manière dont les pays équilibrent la protection des données avec des préoccupations telles que la sécurité nationale ou l'innovation technologique. Il reste aussi un des plus sévère en matière de sanctions financières.
@@ -267,7 +267,7 @@ Les non-conformités concernaient essentiellement le fait qu'il n'était pas pos
 Mais la CNIL a reçu de nouvelles plaintes et a donc rouvert une étude pour :
 
 - Non-respect des modalités de refus des cookies
-  
+
 Ces longs procès sur le sujet des cookies ont duré plusieurs années avec différentes étapes résumées ci-dessous.
 
 ### Déroulement des procès
@@ -420,7 +420,7 @@ Le cas de Free est allé un peu plus vite que prévu (heureusement vu la complex
 - Transferts de données hors UE : le cadre général prévu par le RGPD. [CNIL](https://www.cnil.fr/fr/transferts-de-donnees-hors-ue-le-cadre-general-prevu-par-le-rgpd)
 - Novatek. Les sanctions avant et après RGPD. [Novatek Consulting](https://novatek-consulting.com/les-sanctions-avant-et-apres-rgpd/), Published April 3, 2020.
 - Comment se passe un contrôle de la CNIL ?  (s. d.). [CNIL](https://www.cnil.fr/fr/comment-se-passe-un-controle-de-la-cnil)
-  
+
 ### Sprint 2
 
 - Clôture de l’injonction prononcée à l’encontre de GOOGLE. [CNIL](https://www.cnil.fr/fr/cloture-de-linjonction-prononcee-lencontre-de-google-0)

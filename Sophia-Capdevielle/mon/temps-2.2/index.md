@@ -9,7 +9,7 @@ date: 2024-01-01
 temps: 2
 tags:
 
-résumé: "Ce MON a pour objectif d'explorer la possibilité de vivre dans une société sans hiérarchie, ni pouvoir vertical. L'objectif est en suite de déplacer cette réflexion sur les entreprises et les modes de management liés."
+description: "Ce MON a pour objectif d'explorer la possibilité de vivre dans une société sans hiérarchie, ni pouvoir vertical. L'objectif est en suite de déplacer cette réflexion sur les entreprises et les modes de management liés."
 ---
 
 {% prerequis %}

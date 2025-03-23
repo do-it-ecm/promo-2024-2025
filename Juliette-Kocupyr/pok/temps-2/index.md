@@ -11,7 +11,7 @@ temps: 2
 tags:
   - "UX"
 
-résumé: En travaillant sur mon MON 1.2, les fondamentaux de l'UX Design, j'ai découvert les enjeux éthiques de ce milieu. Aujourd'hui, il y a une nette tendance qui se démarque; utiliser l'UX en manipulant l'utilisateur, en l'attirant avec des choses qu'il aime, pour réaliser toujours plus de bénéfices. Ce POK a pour but de mettre en avant les différentes techniques de manipulation popularisées par les UX Designers.
+description: En travaillant sur mon MON 1.2, les fondamentaux de l'UX Design, j'ai découvert les enjeux éthiques de ce milieu. Aujourd'hui, il y a une nette tendance qui se démarque; utiliser l'UX en manipulant l'utilisateur, en l'attirant avec des choses qu'il aime, pour réaliser toujours plus de bénéfices. Ce POK a pour but de mettre en avant les différentes techniques de manipulation popularisées par les UX Designers.
 ---
 
 {% prerequis %}

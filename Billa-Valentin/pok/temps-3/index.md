@@ -16,7 +16,7 @@ tags:
   - 'benchmarking'
   - 'rust'
 
-résumé: Tentative d'optimisation d'un algorithme de génération de labyrinthe grâce à des structures de données appropriées en Rust. 
+description: Tentative d'optimisation d'un algorithme de génération de labyrinthe grâce à des structures de données appropriées en Rust.
 ---
 
 {% sommaire %}
@@ -35,7 +35,7 @@ Le code lié au POK est disponible sur mon Github
 
 ## Objectifs
 Je souhaite approfondir mes connaissances en rust et apprendre à mieux m'y prendre pour optimiser des algorithmes.
-L'objectif est de créer un générateur de labyrinthe pour ensuite utiliser ce projet comme prétexte pour en 
+L'objectif est de créer un générateur de labyrinthe pour ensuite utiliser ce projet comme prétexte pour en
 apprendre plus sur les techniques d'optimisation ainsi que les structures de données plus niches en Rust.
 
 Aussi, j'ai aussi utilisé les connaissances acquises lors de ce POK pour réécrire un algorithme initialement
@@ -117,16 +117,16 @@ pub enum Direction {
 pub trait Maze {
     /* Instancie un labyrinthe de taille données dont tout les murs sont dans un état par défaut. */
     fn new(size: usize, default_state: bool) -> Self;
-    
+
     /* Donne la taille du labyrinthe. */
     fn get_size(&self) -> usize;
-    
+
     /* Renvoie si un mur est activé ou désactivé en fonction de sa position */
     fn is_wall(&self, x: usize, y: usize, d: &Direction) -> bool;
-    
+
     /* Met le mur dans une position donnée dans l'état 'state' */
     fn change_wall(&mut self, x: usize, y: usize, d: &Direction, state: bool);
-    
+
     /* Implémentation par défaut pour rajouter un mur */
     fn add_wall(&mut self, x: usize, y: usize, d: &Direction) {
         self.change_wall(x, y, d, true);
@@ -219,7 +219,7 @@ et très complète.
 {% endinfo %}
 
 En tout cas, ce qu'il faut savoir, c'est que débugger une macro relativement complexe (et mal comprise par manque
-d'expérience), ce n'est pas forcément une mince affaire. Après avoir passé un LONG moment dessus, j'ai réussi à faire 
+d'expérience), ce n'est pas forcément une mince affaire. Après avoir passé un LONG moment dessus, j'ai réussi à faire
 marcher la macro disponible ci-dessous pour laquelle j'ai fait serment de ne plus toucher tant qu'elle fonctionne.
 J'ai pu au fur et à mesure y rajouter des tests plus avancés.
 
@@ -299,13 +299,13 @@ Ce test par exemple a été écrit pour essayer d'ajouter un mur dans CHACUN des
 
 {% details "**Off by One Errors**" %}
 LE type d'erreurs et bugs que j'ai le plus couramment écris lors de ce POK sont les
-[OBOE ou Off-By-One-Error](https://en.wikipedia.org/wiki/Off-by-one_error) traduisible par 
+[OBOE ou Off-By-One-Error](https://en.wikipedia.org/wiki/Off-by-one_error) traduisible par
 *"erreur de décalage unitaire"* et qui consiste en gros à mettre un `-1` à un endroit où il n'en fallait pas
 ou oublier un `+1` là où il était nécessaire.
 
 Voici un exemple en C++.
 ```cpp
-void foo (char *s) 
+void foo (char *s)
 {
     char buf[15];
     memset(buf, 0, sizeof(buf));
@@ -321,7 +321,7 @@ afin de tester la robustesse et la fiabilité du code face à des cas imprévus.
 Ils permettent ainsi de détecter des bugs difficiles à anticiper avec des tests classiques.
 
 En l'occurrence, je ne pouvais pas me permettre d'écrire un test case par mur possible du labyrinthe ainsi,
-j'ai plutôt choisi de générer des cas aléatoires à chaque `cargo test` ce qui me permettrait avec un peu 
+j'ai plutôt choisi de générer des cas aléatoires à chaque `cargo test` ce qui me permettrait avec un peu
 de chance de tout de même déceler quelques problèmes et edge cases en avance.
 
 ```rust
@@ -370,7 +370,7 @@ pub struct VecMaze {
 ```
 
 Pour un labyrinthe de 1000x1000 fait 4 bytes par `VecMazeCell`, soit 4 * 1000 * 1000 = 4 Mo par labyrinthe.
-On est loin de la valeur minimale en terme d'information à stocker : 2 * (n-1) * n < 200 ko. 
+On est loin de la valeur minimale en terme d'information à stocker : 2 * (n-1) * n < 200 ko.
 
 ### Visualisation
 J'ai créé une fonction `draw_maze_to_png` qui permet de dessiner un labyrinthe avec un nombre de pixels spécifiques
@@ -480,8 +480,8 @@ C'est un algorithme à priori relativement simple à décrire :
     <figcaption class="text-center">Labyrinthe généré avec <br/> l'algorithme de Wilson</figcaption>
 </figure>
 
-J'ai donc créé une fonction ayant la signature ci-dessous qui implémente l'algorithme de Wilson pour n'importe 
-quelle structure qui implémente le `trait Maze`. 
+J'ai donc créé une fonction ayant la signature ci-dessous qui implémente l'algorithme de Wilson pour n'importe
+quelle structure qui implémente le `trait Maze`.
 
 ```rust
 pub fn generate_maze<T: Maze>(size: usize) -> T {
@@ -490,10 +490,10 @@ pub fn generate_maze<T: Maze>(size: usize) -> T {
 ```
 
 J'ai pu générer un labyrinthe de 10x10 avec, puis 100x100 mais pour 1000x1000 la fonction semblait tourner infiniment.
-Pour y remédier, j'ai dû faire quelques améliorations de performance et prendre quelques libertés avec l'algorithme, 
+Pour y remédier, j'ai dû faire quelques améliorations de performance et prendre quelques libertés avec l'algorithme,
 que nous allons voir en suivant.
 
-{% info "**Fun Fact** &#127918;" %} 
+{% info "**Fun Fact** &#127918;" %}
 Certains joueurs de **Minecraft** sont aussi amateurs de labyrinthes. Ils se sont lancés le défi de créer
 des générateurs dans le jeu, ce qui a récemment mené à l'invention d'un algorithme que je trouve
 particulièrement élégant le ['Hilbert Lookahead'](https://www.youtube.com/watch?v=o7OhjEqCvSo)

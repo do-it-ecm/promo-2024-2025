@@ -11,7 +11,7 @@ temps: 1
 tags:
   - "golang"
 
-résumé: "Ce MON est une introduction au langage Golang."
+description: "Ce MON est une introduction au langage Golang."
 ---
 
 {% prerequis %}

@@ -13,7 +13,7 @@ tags:
   - "html"
   - "css"
 
-résumé: Dans ce POK je compte découvrir JavaScript et me repolonger dans les cours de DevWeb de deuxième année. Pour ce faire je prévois de coder le jeu populaire Snake.
+description: Dans ce POK je compte découvrir JavaScript et me repolonger dans les cours de DevWeb de deuxième année. Pour ce faire je prévois de coder le jeu populaire Snake.
 ---
 
 {% prerequis %}

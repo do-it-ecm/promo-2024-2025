@@ -9,7 +9,7 @@ date: 2025-09-03
 temps: 3
 tags: "API"
 
-résumé: "Ce Mon a pour but de découvrir ce qu'est une API, et de faire quelque mise en pratique afin de mieux comprendre."
+description: "Ce Mon a pour but de découvrir ce qu'est une API, et de faire quelque mise en pratique afin de mieux comprendre."
 ---
 
 {% lien %}

@@ -15,9 +15,9 @@ tags:
   - 'Python'
   - 'OpenCV'
   - 'bibiothèques'
-  
 
-résumé: "Détection de lignes de voie sur Images et Vidéos : application à l'automobile"
+
+description: "Détection de lignes de voie sur Images et Vidéos : application à l'automobile"
 ---
 {% prerequis %}
 **Niveau :** Technique

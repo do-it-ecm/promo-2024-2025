@@ -9,7 +9,7 @@ date: 2025-03-12
 temps: 3
 tags: GDP Agile
 
-résumé: "L'objectif de ce MON est d'apporter un complément théorique digeste à la formation pratique de gestion de projet agile avec les LEGO."
+description: "L'objectif de ce MON est d'apporter un complément théorique digeste à la formation pratique de gestion de projet agile avec les LEGO."
 ---
 
 {% prerequis %}

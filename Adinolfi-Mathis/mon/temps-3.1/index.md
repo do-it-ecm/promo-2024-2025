@@ -10,7 +10,7 @@ temps: 3
 tags:
   - "Linux"
 
-résumé: "Ce MON a pour but de partager mon expérience Linux"
+description: "Ce MON a pour but de partager mon expérience Linux"
 ---
 
 {% lien %}

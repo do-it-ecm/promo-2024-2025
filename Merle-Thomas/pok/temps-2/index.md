@@ -16,7 +16,7 @@ tags:
   - 'API REST'
   - 'Dark Kitchen'
 
-résumé: "Codage du BackEnd du site de ma Dark Kitchen avec NodeJS."
+description: "Codage du BackEnd du site de ma Dark Kitchen avec NodeJS."
 ---
 {% prerequis %}
 **Niveau :** Technique

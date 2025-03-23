@@ -12,7 +12,7 @@ tags:
   - "Innovation"
   - "Strategy"
 
-résumé: "Ce MON est une analyse des patterns que l'on retrouve dans le management de l'innovation d'un point de vue historique afin de mettre en lumière les meilleures pratiques du management de l'innovation. Nous tenterons de répondre à la question : sont-elles applicables aujourd'hui et qui sont les nouveaux acteurs de l'innovation?
+description: "Ce MON est une analyse des patterns que l'on retrouve dans le management de l'innovation d'un point de vue historique afin de mettre en lumière les meilleures pratiques du management de l'innovation. Nous tenterons de répondre à la question : sont-elles applicables aujourd'hui et qui sont les nouveaux acteurs de l'innovation?
 Ce MON sera aussi l'occasion de comparer les différentes strategies d'innovation mises en place par ces acteurs."
 ---
 

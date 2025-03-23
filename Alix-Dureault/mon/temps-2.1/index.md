@@ -12,7 +12,7 @@ tags:
   - "React"
   - "JS"
 
-résumé: "Ce MON a pour but de me former en Java Script et en React."
+description: "Ce MON a pour but de me former en Java Script et en React."
 ---
 
 {% prerequis %}

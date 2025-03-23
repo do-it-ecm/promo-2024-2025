@@ -12,7 +12,7 @@ tags:
   - "Vert"
   - "VBA"
 
-résumé: Au travail, certains collègues doivent effectuer des tâches qui me semblent plutôt basiques et surtout très répétitives sur Excel. Le but de ce POK est donc d’essayer d’utiliser les VBA pour automatiser certaines de ces tâches.
+description: Au travail, certains collègues doivent effectuer des tâches qui me semblent plutôt basiques et surtout très répétitives sur Excel. Le but de ce POK est donc d’essayer d’utiliser les VBA pour automatiser certaines de ces tâches.
 ---
 
 {% prerequis %}

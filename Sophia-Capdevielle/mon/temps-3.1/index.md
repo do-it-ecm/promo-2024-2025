@@ -10,7 +10,7 @@ temps: 3
 tags:
   - fastapi
 
-résumé: "L'objectif de ce MON est de découvrir et prendre en main FastAPI: comprendre son fonctionnement, ses avantages, et ses applications."
+description: "L'objectif de ce MON est de découvrir et prendre en main FastAPI: comprendre son fonctionnement, ses avantages, et ses applications."
 ---
 
 {% prerequis %}

@@ -12,7 +12,7 @@ tags:
   - "Data center"
   - "Innovation"
 
-résumé: "Un MON traitant de l'impact des data centers sur l'environnement et surtout des solutions pour le réduire"
+description: "Un MON traitant de l'impact des data centers sur l'environnement et surtout des solutions pour le réduire"
 ---
 
 {% lien %}

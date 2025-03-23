@@ -15,7 +15,7 @@ tags:
   - 'accessibilité'
   - 'datasud'
 
-résumé: Étude de l'accessibilité du site DataSud
+description: Étude de l'accessibilité du site DataSud
 ---
 
 {% prerequis %}

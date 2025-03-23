@@ -11,7 +11,7 @@ tags:
   - "management"
   - "pédagogie"
 
-résumé: "Création d'un atelier pour sensibiliser élèves ou enseignants sur les enjeux pédagogiques, outils et solutions possibles."
+description: "Création d'un atelier pour sensibiliser élèves ou enseignants sur les enjeux pédagogiques, outils et solutions possibles."
 ---
 
 L'objectif de ce MON est de créer un atelier afin de sensisibiliser les différentes parties prenantes dans une formation sur les enjeux complexes derrière les méthodes pédagogiques classiques. Cet atelier doit aussi permettre un temps de débat et de réflexion pour faire émerger des solutions pratiques et des actions concrètes à mettre en place.

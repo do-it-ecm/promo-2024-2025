@@ -13,7 +13,7 @@ tags:
   - 'dev'
   - 'philosophie'
 
-résumé: "Comment penser son logiciel / son infrastructure / sa plateforme pour qu'il soit maintenable et évolutif."
+description: "Comment penser son logiciel / son infrastructure / sa plateforme pour qu'il soit maintenable et évolutif."
 ---
 
 <head>

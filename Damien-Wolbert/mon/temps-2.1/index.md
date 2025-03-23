@@ -9,7 +9,7 @@ date: 2024-11-08
 temps: 2
 tags:
 
-résumé: L'objectif de ce MON est d'étudier les possibilités apportées par les requêtes relationnelles, les opérations sur les strings et les listes déroulantes, pour la maitrise d'Excel. Ces possibilités seront étudiées par le prisme de leur accessibilité.
+description: L'objectif de ce MON est d'étudier les possibilités apportées par les requêtes relationnelles, les opérations sur les strings et les listes déroulantes, pour la maitrise d'Excel. Ces possibilités seront étudiées par le prisme de leur accessibilité.
 ---
 
 {% prerequis %}

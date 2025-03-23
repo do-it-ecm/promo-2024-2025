@@ -14,7 +14,7 @@ tags:
   - "Database"
   - "HTML/CSS"
 
-résumé: "Un MON pour découvrir Firebase, comprendre ses fonctionnalités, et réaliser une mini-application d'authentification en JavaScript Vanilla avec une base de données."
+description: "Un MON pour découvrir Firebase, comprendre ses fonctionnalités, et réaliser une mini-application d'authentification en JavaScript Vanilla avec une base de données."
 ---
 
 {% prerequis %}
@@ -270,7 +270,7 @@ On va maintenant utiliser Firebase pour créer une mini-application où les util
 
 ### Étape 1 : Installez Vite
 
-Pour lancer notre projet rapidement, on utilise **Vite** 
+Pour lancer notre projet rapidement, on utilise **Vite**
 Vite est un outil qui permet de démarrer rapidement un projet JavaScript. Pour l’installer :
 ```bash
 npm create vite@latest mon-firebase-app --template vanilla
@@ -279,14 +279,14 @@ npm install firebase
 
 ```
 
-On a donc directement la structure de projet suivante : 
+On a donc directement la structure de projet suivante :
 
 <div style = "display : flex; flex-direction: column; align-items : center; margin : 20px">
   <img src= "/home/guillaumeoliana/Pictures/Screenshots/Screenshot_from_2024-11-17_18-11-42.png"></img>
   <h2>Structure du folder créé par Vite</h2>
 </div>
 
-On va ensuite effectuer deux commandes que Vite nous demande d'éxecuter, à savoir : 
+On va ensuite effectuer deux commandes que Vite nous demande d'éxecuter, à savoir :
 
 ```bash
 npm install
@@ -317,7 +317,7 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 ```
 
-Je viens ensuite créer mon fichier html **index.html** : 
+Je viens ensuite créer mon fichier html **index.html** :
 
 ```html
 <!DOCTYPE html>
@@ -350,11 +350,11 @@ Je viens ensuite créer mon fichier html **index.html** :
 ```
 
 
-Ensuite, nous allons écrire la logique de notre "application" dans le dossier **main.js** : 
+Ensuite, nous allons écrire la logique de notre "application" dans le dossier **main.js** :
 
 ```js
 
-import { 
+import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
@@ -405,7 +405,7 @@ onAuthStateChanged(auth, (user) => {
 
 Dans le détail, on va venir récupérer les informations dans les input que l'on a défini dans notre fichier **index.html**, et tout simplement utiliser les recettes magiques de firebase pour créer un utilisateur ou se connecter si l'utilisateur existe déjà.
 
-Reste encore le fichier **css** et la page d'authentification sera prête : 
+Reste encore le fichier **css** et la page d'authentification sera prête :
 
 ```css
 body {
@@ -476,11 +476,11 @@ button:hover {
 ```
 
 
-Une fois sign up, on voit ensuite l'utilisateur apparaitre dans notre **database firestore** sur la page de notre projet **firebase**. 
+Une fois sign up, on voit ensuite l'utilisateur apparaitre dans notre **database firestore** sur la page de notre projet **firebase**.
 
 C'est très facile à mettre en place et permet de gagner beaucoup de temps pour la création d'une maquette fonctionnelle pour un projet (comme le projet 3A au hasard).
 
-On a ici explorer qu'une infime partie des possibilités offertes par firebase utilisé comme backend, mais en restant seulement sur le sujet de l'authentification, on peut également parametrer l'authentification et l'inscription par des service tiers comme google, facebook, etc, et ce toujours de façon rapide et simple. 
+On a ici explorer qu'une infime partie des possibilités offertes par firebase utilisé comme backend, mais en restant seulement sur le sujet de l'authentification, on peut également parametrer l'authentification et l'inscription par des service tiers comme google, facebook, etc, et ce toujours de façon rapide et simple.
 
 
 
@@ -498,7 +498,6 @@ On a ici explorer qu'une infime partie des possibilités offertes par firebase u
 
 # Conclusion
 ---
-On a ainsi découvert firebase, ses possibilités, et créé rapidement un systeme d'authentification et de gestion de la base de données des utilisateurs sans se soucier une seule fois d'un quelconque serveur. 
+On a ainsi découvert firebase, ses possibilités, et créé rapidement un systeme d'authentification et de gestion de la base de données des utilisateurs sans se soucier une seule fois d'un quelconque serveur.
 
 
- 

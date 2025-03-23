@@ -6,14 +6,14 @@ authors:
   - Kévin BERNARD
 
 date: 2025-03-01
-tags: 
+tags:
   - "temps 3"
   - "saumon"
   - "UI/UX"
   - "interface"
   - "Design"
 
-résumé: ""
+description: ""
 ---
 
 {% prerequis %}
@@ -126,7 +126,7 @@ A la fin du brief graphique, on réunit toutes les informations sur une seule pa
 
 Ateliers de co-création :
 
-- **5W2H** : 
+- **5W2H** :
 
   - *Who* : qui sont les personnes responsables du projet ?
   - *What* : quels sont les objectifs SMART du projet ?
@@ -138,7 +138,7 @@ Ateliers de co-création :
 - **DOT Voting** : on définit une problématique à répondre et chaque personne écrit 3 objectifs principaux simples puis chacun vote avec ses 3 points pour ses objectifs préférés parmi les objectifs des autres.
 - **Goal Grid** : on a 4 catégories à remplir :
 
-  - *Preserve* : the user **has** and **wants** 
+  - *Preserve* : the user **has** and **wants**
   - *Achieve* : the user **hasn't** and **wants**
   - *Eliminate* : the user **has** and **doesn't want**
   - *Avoid* : the user **hasn't** and **doesn't want**

@@ -9,7 +9,7 @@ date: 2025-03-12
 temps: 3
 tags:
 
-résumé: "Un MON analysant le marché du travail pour les professionnels des données et du développement, en comparant le Brésil, l’Europe et les États-Unis."
+description: "Un MON analysant le marché du travail pour les professionnels des données et du développement, en comparant le Brésil, l’Europe et les États-Unis."
 ---
 
 {% prerequis %}
@@ -38,11 +38,11 @@ Il y a pas de prérequis pour ce MON
 # Contenu
 
 ## **1. Structure du Rapport**
-- **Objectif de l'Étude**  
-- **Aperçu du marché**  
-- **Technologies et outils les plus utilisés**  
-- **Compétences et exigences les plus demandées**  
-- **Comparaison des salaires**  
+- **Objectif de l'Étude**
+- **Aperçu du marché**
+- **Technologies et outils les plus utilisés**
+- **Compétences et exigences les plus demandées**
+- **Comparaison des salaires**
 - **Conclusions et tendances**
 
 ## **2. Objectif de l'Étude**
@@ -97,11 +97,11 @@ Ces données révèlent une demande croissante de professionnels des données et
 **Brésil**
 1. CI&T
 **Secteur** : Technologie et services informatiques
-**Note** : Société brésilienne d'envergure mondiale, spécialisée dans les solutions numériques et le développement de logiciels. 
+**Note** : Société brésilienne d'envergure mondiale, spécialisée dans les solutions numériques et le développement de logiciels.
 
 2. Capgemini Engineering
 **Secteur** : Conseil en innovation et ingénierie
-**Note** : Multinationale française avec une présence au Brésil, travaillant dans divers domaines de l'ingénierie et des technologies de l'information. 
+**Note** : Multinationale française avec une présence au Brésil, travaillant dans divers domaines de l'ingénierie et des technologies de l'information.
 
 3. TOTVS
 **Secteur** : Logiciels de gestion d'entreprise
@@ -119,19 +119,19 @@ Ces données révèlent une demande croissante de professionnels des données et
 
 1. Microsoft
 **Secteur** : Technologie et logiciels
-**Note** : Microsoft a choisi Barcelone pour accueillir un nouveau centre de vente numérique qui desservira les entreprises de 13 pays européens, dont l'Espagne, l'Allemagne, l'Italie et la Suède. 
+**Note** : Microsoft a choisi Barcelone pour accueillir un nouveau centre de vente numérique qui desservira les entreprises de 13 pays européens, dont l'Espagne, l'Allemagne, l'Italie et la Suède.
 
 2. Randstad Holding
 **Secteur** : Solutions de travail flexibles et ressources humaines
-**Note** : Randstad Digital propose des services spécialisés dans des domaines tels que le cloud et l'infrastructure, l'ingénierie numérique et de produits, les données et l'analyse et l'expérience client. 
+**Note** : Randstad Digital propose des services spécialisés dans des domaines tels que le cloud et l'infrastructure, l'ingénierie numérique et de produits, les données et l'analyse et l'expérience client.
 
 3. BairesDev
 **Secteur** : Services technologiques et développement de logiciels
-**Note** : BairesDev est une entreprise qui embauche des professionnels de l'informatique, notamment des Brésiliens, pour travailler sur des projets internationaux. 
+**Note** : BairesDev est une entreprise qui embauche des professionnels de l'informatique, notamment des Brésiliens, pour travailler sur des projets internationaux.
 
 4. Google
 **Secteur** : Technologie et services Internet
-**Note** : Google possède des succursales dans plusieurs pays, dont l'Europe, et recrute des professionnels de l'informatique pour différents postes. 
+**Note** : Google possède des succursales dans plusieurs pays, dont l'Europe, et recrute des professionnels de l'informatique pour différents postes.
 
 5. Amadeus
 **Secteur** : Technologie et solutions de voyage
@@ -140,19 +140,19 @@ Ces données révèlent une demande croissante de professionnels des données et
 **États-Unis**
 1. Microsoft
 **Secteur** : Technologie et logiciels
-**Note** : Microsoft continue d'étendre ses activités aux États-Unis, offrant des opportunités aux professionnels de l'informatique dans divers domaines. 
+**Note** : Microsoft continue d'étendre ses activités aux États-Unis, offrant des opportunités aux professionnels de l'informatique dans divers domaines.
 
 2. Amazon
 **Secteur** : Commerce électronique et services en nuage
-**Note** : Amazon a augmenté ses effectifs en 2024, reflétant la reprise du secteur technologique. 
+**Note** : Amazon a augmenté ses effectifs en 2024, reflétant la reprise du secteur technologique.
 
 3. Apple
 **Secteur** : Technologie et électronique grand public
-**Note** : Apple a enregistré une croissance en 2024, en augmentant son équipe de professionnels de l'informatique. 
+**Note** : Apple a enregistré une croissance en 2024, en augmentant son équipe de professionnels de l'informatique.
 
 4. Alphabet (Google)
 **Secteur** : Technologie et services Internet
-**Note** : Alphabet a dépassé les 100 milliards de dollars de bénéfices pour l'exercice 2024, excellant dans le secteur de la technologie. 
+**Note** : Alphabet a dépassé les 100 milliards de dollars de bénéfices pour l'exercice 2024, excellant dans le secteur de la technologie.
 
 5. Meta (Facebook)
 **Secteur** : Réseaux sociaux et publicité numérique
@@ -198,36 +198,36 @@ Ces données révèlent une demande croissante de professionnels des données et
 ### 5.1 Compétences et exigences des professionnels des données
 #### Compétences techniques
 - **Analyse des données et statistiques** : capacité à interpréter et à manipuler de grands volumes de données pour en extraire des informations pertinentes.
-- **Langages de programmation** : maîtrise de langages tels que Python et R, qui sont largement utilisés dans l'analyse des données et l'apprentissage automatique. 
-- **Base de données et SQL** : Connaissance des bases de données relationnelles et du langage SQL pour la gestion et l'interrogation des données. 
-- **Outils de veille stratégique (BI)** : expérience avec des outils tels que Tableau et Power BI pour la visualisation et la présentation des données. 
-- **Technologies Big Data et Cloud** : Familiarité avec les plateformes Big Data (telles que Hadoop et Spark) et les services Cloud (AWS, Azure) pour le traitement et le stockage de données à grande échelle. 
+- **Langages de programmation** : maîtrise de langages tels que Python et R, qui sont largement utilisés dans l'analyse des données et l'apprentissage automatique.
+- **Base de données et SQL** : Connaissance des bases de données relationnelles et du langage SQL pour la gestion et l'interrogation des données.
+- **Outils de veille stratégique (BI)** : expérience avec des outils tels que Tableau et Power BI pour la visualisation et la présentation des données.
+- **Technologies Big Data et Cloud** : Familiarité avec les plateformes Big Data (telles que Hadoop et Spark) et les services Cloud (AWS, Azure) pour le traitement et le stockage de données à grande échelle.
 
 #### Compétences non techniques
-- **Pensée analytique** : Capacité à aborder les problèmes de manière logique et structurée, essentielle pour analyser des données complexes. 
-- **Communication efficace** : capacité à traduire des données techniques en idées compréhensibles pour les parties prenantes non techniques. 
-- **Résolution de problèmes** : capacité à identifier les défis et à proposer des solutions basées sur des données. 
-- **Travail d'équipe** : capacité à collaborer avec différents services pour aligner les analyses de données sur les objectifs de l'entreprise. 
+- **Pensée analytique** : Capacité à aborder les problèmes de manière logique et structurée, essentielle pour analyser des données complexes.
+- **Communication efficace** : capacité à traduire des données techniques en idées compréhensibles pour les parties prenantes non techniques.
+- **Résolution de problèmes** : capacité à identifier les défis et à proposer des solutions basées sur des données.
+- **Travail d'équipe** : capacité à collaborer avec différents services pour aligner les analyses de données sur les objectifs de l'entreprise.
 
 ### 5.2 Compétences et exigences des professionnels du développement
 #### Compétences techniques
-- **Langages de programmation** : maîtrise de langages tels que JavaScript, Python, Java, C# et Go, utilisés dans le développement d'applications web, mobiles et d'entreprise. 
-- **Développement de logiciels** : connaissance des méthodologies agiles, du contrôle de version (Git) et des pratiques DevOps pour l'intégration et la livraison continue. 
-- **Sécurité de l'information** : Compréhension des pratiques de sécurité pour protéger les applications contre les vulnérabilités et les cyberattaques. 
-- **Cloud Computing** : Expérience des services cloud (AWS, Azure, Google Cloud) pour le développement et le déploiement d'applications évolutives. 
-- **Base de données** : Connaissance des bases de données relationnelles et non relationnelles pour un stockage et une récupération efficaces des données. 
+- **Langages de programmation** : maîtrise de langages tels que JavaScript, Python, Java, C# et Go, utilisés dans le développement d'applications web, mobiles et d'entreprise.
+- **Développement de logiciels** : connaissance des méthodologies agiles, du contrôle de version (Git) et des pratiques DevOps pour l'intégration et la livraison continue.
+- **Sécurité de l'information** : Compréhension des pratiques de sécurité pour protéger les applications contre les vulnérabilités et les cyberattaques.
+- **Cloud Computing** : Expérience des services cloud (AWS, Azure, Google Cloud) pour le développement et le déploiement d'applications évolutives.
+- **Base de données** : Connaissance des bases de données relationnelles et non relationnelles pour un stockage et une récupération efficaces des données.
 
 #### Compétences non techniques
-- **Résolution de problèmes** : Capacité à diagnostiquer et à résoudre des problèmes techniques de manière efficace. 
-- **Communication** : capacité à collaborer avec des équipes interfonctionnelles et à communiquer clairement des idées techniques. 
-- **Adaptabilité** : Flexibilité pour apprendre de nouvelles technologies et s'adapter aux changements rapides dans l'environnement de développement. 
-- **Souci du détail** : précision dans l'écriture du code et l'identification des bogues afin de garantir la qualité du logiciel. 
+- **Résolution de problèmes** : Capacité à diagnostiquer et à résoudre des problèmes techniques de manière efficace.
+- **Communication** : capacité à collaborer avec des équipes interfonctionnelles et à communiquer clairement des idées techniques.
+- **Adaptabilité** : Flexibilité pour apprendre de nouvelles technologies et s'adapter aux changements rapides dans l'environnement de développement.
+- **Souci du détail** : précision dans l'écriture du code et l'identification des bogues afin de garantir la qualité du logiciel.
 
 ### Observations régionales
 
-- **Brésil** : Il y a une demande croissante de professionnels ayant des compétences en analyse de données et en développement de logiciels, en particulier en ce qui concerne le big data et les technologies de cloud computing. 
-- **Europe** : Les compétences en matière de sécurité de l'information et d'analyse des données sont très appréciées, reflétant l'importance de la protection des données et de la conformité à des réglementations telles que le GDPR. 
-- **États-Unis** : L'expertise dans les langages de programmation modernes et les technologies cloud est très demandée, l'accent étant mis sur l'innovation et l'évolutivité des solutions. 
+- **Brésil** : Il y a une demande croissante de professionnels ayant des compétences en analyse de données et en développement de logiciels, en particulier en ce qui concerne le big data et les technologies de cloud computing.
+- **Europe** : Les compétences en matière de sécurité de l'information et d'analyse des données sont très appréciées, reflétant l'importance de la protection des données et de la conformité à des réglementations telles que le GDPR.
+- **États-Unis** : L'expertise dans les langages de programmation modernes et les technologies cloud est très demandée, l'accent étant mis sur l'innovation et l'évolutivité des solutions.
 
 ## 6. Comparaison des salaires
 NOTE : Les prix sont approximatifs et peuvent varier en fonction de l'expérience, du lieu et de l'entreprise.

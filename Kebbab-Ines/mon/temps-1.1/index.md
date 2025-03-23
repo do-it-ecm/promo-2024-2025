@@ -12,7 +12,7 @@ temps: 1
 tags:
   - "UI/UX"
 
-résumé: "Comprendre comment et réaliser une UI/UX inclusive."
+description: "Comprendre comment et réaliser une UI/UX inclusive."
 ---
 
 {% prerequis %}
@@ -23,13 +23,13 @@ Avoir déjà utilisé Figma ou une maquette d'interface.
 
 L'objectif de ce MON est de comprendre comment penser et adapter les interfaces pour une expérience plus inclusive, notamment pour les utilisateurs en situation de handicap.
 
-Le MON s'adresse aux débutants 
+Le MON s'adresse aux débutants
 
 ## Objectifs du MON
 
 L'étude se découpera en deux temps : comprendre et réaliser.
 
-1. **Comprendre :** 
+1. **Comprendre :**
 
    * **Les aspects théoriques :** typologie des différents handicaps et difficultés à prendre en compte (auditifs, visuels, troubles dys...), statistiques...
    * **Les bonnes pratiques :** comment rendre un site adapté aux différents utilisateurs et les erreurs à éviter ; [méthode FALC](https://www.culture.gouv.fr/Thematiques/developpement-culturel/Culture-et-handicap/Facile-a-lire-et-a-comprendre-FALC-une-methode-utile) ; design, notion de contraste, choix graphiques...
@@ -47,7 +47,7 @@ F
 
 Certains composants des interfaces web excluent les utilisateurs porteurs d’un handicap (permanent ou temporaire) : ce nombre est estimé à **15% des utilisateurs**… soit près d**’1 milliard d’internautes** pour lesquels le web n’est pas un long fleuve tranquille !
 
-Concrètement, le terme handicap désigne “la **limitation des possibilités d’interaction d’un individu avec son environnement, causée par une déficience provoquant une incapacité, permanente ou non**. Il exprime une déficience vis-à-vis d’un environnement, que ce soit en termes d**’accessibilité, d’expression, de compréhension ou d’appréhension**. Il s’agit donc plus d’une notion sociale que d’une notion médicale.” (source : Comité national Coordination Action Handicap - CCAH) 
+Concrètement, le terme handicap désigne “la **limitation des possibilités d’interaction d’un individu avec son environnement, causée par une déficience provoquant une incapacité, permanente ou non**. Il exprime une déficience vis-à-vis d’un environnement, que ce soit en termes d**’accessibilité, d’expression, de compréhension ou d’appréhension**. Il s’agit donc plus d’une notion sociale que d’une notion médicale.” (source : Comité national Coordination Action Handicap - CCAH)
 
 Un handicap est d’ailleurs le plus souvent **invisible** (80% des handicaps) et **s’acquiert au cours de la vie** (85% VS 15% à la naissance) : tout le monde pourrait donc un jour être concerné par ces sujets.
 
@@ -111,7 +111,7 @@ Néanmoins, cela ne permet ni de modifier l’apparence de l’élément, de mod
 
 Il se base sur :
 
-1. Les rôles (navigation, search,..) qui généralement définit ce que l’élément est ou fait ; 
+1. Les rôles (navigation, search,..) qui généralement définit ce que l’élément est ou fait ;
 2. Les propriétés qui définissent les éléments et ne changent pas selon l’interaction (ex. “`aria-required="true"` indiquera qu'un champ doit être renseigné afin que le formulaire soit valide);
 3. Les états qui définissent les conditions actuelles de l’élément (case cochée ou décochée par exemple). Comme ces conditions peuvent changer, les états sont généralement mis à jour à l’aide d’un script Javascript.
 
@@ -255,31 +255,31 @@ Le référentiel **RGAA propose notamment avec ces 106 critères des tests et de
     - **Les contrastes** ont **trois niveaux de lisibilité** : par défaut, renforcés et inversés.
     - **Le défilement horizontal** (swipe) peut être désactivé pour garder un seul mouvement vertical tout au long de la navigation
     - En plus des changements visuels, nous remarquons que la **navigation au clavier** (grâce aux touches : tabulation, espace et entrée) est **disponible**
-    
+
     ![Image des paramétrages de l'ancien site de la SCNF](./img/sncf.png "Exemple Ancien site SNCF")
-    
+
 - Hollister : réglages “Hauts Contraste” (correction de texte blanc sur fond noir). 👍
-    
+
     ![Réglages de constrastes sur le site Hollister](./img/hollister-contrast.png "Exemple Hollister 1-3")
 
     ![Réglages de constrastes sur le site Hollister](./img/hollister-contrast-1.png "Exemple Hollister 2-3")
 
     ![Réglages de constrastes sur le site Hollister](./img/hollister-contrast-2.png "Exemple Hollister 3-3")
-    
+
 - Amazon 👎
     - Grâce à **l’extension Chrome [Tanaguru](https://chrome.google.com/webstore/detail/tanaguru-webext/hhopdkekcmkdfpdjbpajmmfbheglcaac/related)**, nous pouvons voir qu’il y a un certain nombre de **conflits et d’éléments invalidés** par l’outil concernant l’accessibilité :
         - Par exemple, sur cette capture d’écran, il est précisé qu’il y a un **changement de sens de lecture non-conforme** qui peut amener à perdre l’utilisateur·rice lors de sa navigation sur le site.
     - En étudiant un peu plus le site, on peut remarquer que **les formulaires n’ont pas d’étiquettes associées**. Cette négligence entraîne une navigation et une **compréhension impossible** par les **personnes aveugles ou malvoyantes** qui utilisent des **lecteurs d’écran**.
-    
+
     ![Audit d'accessibilité du site Amazon, comme mauvais élève du web](./img/amazon.png "Amazon")
-    
+
 - **Un site promotionnel d’une [Renault Twingo](https://www.experience-nouvelletwingo.renault.fr/) 👎:** bien que primé à l’époque, le site propose un jeu qui n’est accessible qu’à la souris et avec un choix de couleurs très peu contrastés.
     - Même si ici le jeu est surtout une pub, il est intéressant aussi de se questionner sur les jeux en général et l’approche que l’on aura (notamment si l’on veut créer des jeux ludiques pour transmettre une information, pour gamifier des expériences).
 - **Le site de Centrale: quelles sont les améliorations à faire ?**
     - Après avoir fait passé un audit d’accessibilité au site de l’école avec le site [www.accessibilitychecker.org](http://www.accessibilitychecker.org/), l’évaluation semble nous indiquer 3 erreurs qui renderaient le site non conforme : qu’en est-il réellement ?
-        
+
         ![Image exemple du site de Centrale](./img/ecm.png "Exemple Site de Centrale")
-        
+
     - *“Ensures aria-hidden elements are not focusable nor contain focusable elements”* : on a un carrousel de photos pour la couverture avec deux flèches qui permettent de passer de l’image “bachelor” à l’image “Digital Lab” (au clavier si on clique sur Enter). Hors en naviguant au clavier, la navigation fait un aller retour entre les éléments focusables du carrousel et les flèches. On pourrait ne pas avoir de focus sur les flèches du carrousel pour améliorer la fluidité.
     - *“Ensures buttons have discernible text”* : comme il s’agissait des boutons cachés “Rechercher” et celui du Burger Menu (lorsque la fenêtre est plus petite), a priori on est bon ! Il faut simplement s’assurer que les boutons ont un label adapté qui indique l’action qu’il va faire, ce qui est aussi a priori bon.
     - *“Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds” :*  cela était indiqué pour le texte de l’inscription à la newsletter qui semble respecter les contrastes. Néanmoins, j’ai remarqué que dans la bannière d’accueil, le texte et le fond peuvent être difficile à distinguer (pour l’image avec le bachelor), de même que les flèches blanches que j’ai découvert en naviguant au clavier (et non visuellement). On pourrait proposer une option “Haut contraste” pour régler cela ou assombrir la photo en fond pour améliorer le contraste.

@@ -11,7 +11,7 @@ tags:
   - "Novice"
   - "Langage de programmation"
 
-résumé: "MON traitant des langages de programmation pour comprendre quand préférer un langage par rapport à un autre."
+description: "MON traitant des langages de programmation pour comprendre quand préférer un langage par rapport à un autre."
 ---
 
 {% lien %}

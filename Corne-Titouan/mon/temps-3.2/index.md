@@ -8,12 +8,12 @@ authors:
 temps: 3
 
 date: 2025-01-06
-tags: 
+tags:
   - "temps 3"
   - "e-santé"
   - "vert"
 
-résumé: "En avril, je débuterai mon TFE à l'ANS (Agence du Numérique en Santé). Pour aborder mon stage dans les meilleures conditions, j'ai décidé d'effectuer un MON pour identifier et comprendre les enjeux du numériques dans le domaine de la santé. Il me permettra d'identifier les limites de la e-santé. Exceptionnellement, ce MON sera constitué de 15 heures de travail."
+description: "En avril, je débuterai mon TFE à l'ANS (Agence du Numérique en Santé). Pour aborder mon stage dans les meilleures conditions, j'ai décidé d'effectuer un MON pour identifier et comprendre les enjeux du numériques dans le domaine de la santé. Il me permettra d'identifier les limites de la e-santé. Exceptionnellement, ce MON sera constitué de 15 heures de travail."
 ---
 
 {% prerequis %}

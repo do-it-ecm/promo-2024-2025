@@ -7,13 +7,13 @@ authors:
 
 date: 2025-01-02
 temps: 3
-tags: 
+tags:
   - "temps 3"
   - "Transformation numérique"
   - "Rssources humaines"
   - "Recrutement"
 
-résumé: "Ce MON à pour but d'étudier l'impact du numérique sur les ressources humaines et en particulier sur les nouvelles méthodes de recrutement."
+description: "Ce MON à pour but d'étudier l'impact du numérique sur les ressources humaines et en particulier sur les nouvelles méthodes de recrutement."
 ---
 
 {% lien %}
@@ -64,48 +64,48 @@ Réponse :
 Ton CV est bien structuré et pertinent pour un poste en conseil, mais il y a plusieurs points à améliorer pour optimiser son passage à travers un ATS (Applicant Tracking System), les logiciels de tri automatique utilisés par les recruteurs.
 
 ### **Points positifs** :
-✅ **Bonne structuration** : Les rubriques sont claires (compétences, expérience, formation, activités, etc.).  
-✅ **Expérience en alternance** : Ton poste chez SpringFive avec une expérience en Inde est un vrai atout.  
-✅ **Compétences techniques bien mises en avant** : Les technologies Salesforce, MuleSoft et les langages de programmation sont bien listés.  
-✅ **Engagement associatif fort** : Ton rôle dans plusieurs associations montre des qualités de leadership et d'organisation.  
-✅ **Langues et mobilité** : Ton TOEIC et ton expérience internationale sont bien mis en avant.  
+✅ **Bonne structuration** : Les rubriques sont claires (compétences, expérience, formation, activités, etc.).
+✅ **Expérience en alternance** : Ton poste chez SpringFive avec une expérience en Inde est un vrai atout.
+✅ **Compétences techniques bien mises en avant** : Les technologies Salesforce, MuleSoft et les langages de programmation sont bien listés.
+✅ **Engagement associatif fort** : Ton rôle dans plusieurs associations montre des qualités de leadership et d'organisation.
+✅ **Langues et mobilité** : Ton TOEIC et ton expérience internationale sont bien mis en avant.
 
 ---
 
 ### **Points à améliorer pour passer un ATS et attirer les recruteurs** :
 
-1️⃣ **Optimisation des mots-clés**  
-   - Les ATS analysent ton CV à la recherche de **mots-clés spécifiques** liés au poste visé.  
-   - Ajoute des termes spécifiques au consulting, tels que **"transformation digitale"**, **"gestion de projet agile"**, **"accompagnement au changement"**, **"optimisation des processus"**, etc.  
-   - Dans la section "Compétences", mets **des catégories claires** :  
-     - **Langages** : Python, Java, JavaScript, SQL...  
-     - **Outils et plateformes** : Salesforce, MuleSoft, CRM Analytics...  
-     - **Méthodologies** : Agile, Scrum, gestion de projet...  
+1️⃣ **Optimisation des mots-clés**
+   - Les ATS analysent ton CV à la recherche de **mots-clés spécifiques** liés au poste visé.
+   - Ajoute des termes spécifiques au consulting, tels que **"transformation digitale"**, **"gestion de projet agile"**, **"accompagnement au changement"**, **"optimisation des processus"**, etc.
+   - Dans la section "Compétences", mets **des catégories claires** :
+     - **Langages** : Python, Java, JavaScript, SQL...
+     - **Outils et plateformes** : Salesforce, MuleSoft, CRM Analytics...
+     - **Méthodologies** : Agile, Scrum, gestion de projet...
 
-2️⃣ **Expérience professionnelle : plus de détails et impact**  
-   - Les missions chez **SpringFive** sont bien résumées, mais il manque **des résultats concrets**. Ajoute des **données chiffrées** :  
-     - "Optimisation des processus CRM pour X clients"  
-     - "Automatisation de X workflows"  
-     - "Amélioration du taux d’adoption utilisateur de X%"  
-   - L'**expérience en Inde** est très valorisante : explique **ce que tu as appris et comment tu l’as appliqué** après ton retour.  
+2️⃣ **Expérience professionnelle : plus de détails et impact**
+   - Les missions chez **SpringFive** sont bien résumées, mais il manque **des résultats concrets**. Ajoute des **données chiffrées** :
+     - "Optimisation des processus CRM pour X clients"
+     - "Automatisation de X workflows"
+     - "Amélioration du taux d’adoption utilisateur de X%"
+   - L'**expérience en Inde** est très valorisante : explique **ce que tu as appris et comment tu l’as appliqué** après ton retour.
 
 3️⃣ **Mise en page et lisibilité pour un ATS**
 
-   - **Attention aux sauts de ligne et espacements irréguliers** (certaines parties sont un peu décousues, surtout "Atouts" et "Mobilités").  
-   - **Vérifie l’ordre des sections** :  
-     - "Expérience professionnelle" devrait être **avant** "Compétences" pour capter l’attention rapidement.  
-     - "Formation" après "Expérience".  
+   - **Attention aux sauts de ligne et espacements irréguliers** (certaines parties sont un peu décousues, surtout "Atouts" et "Mobilités").
+   - **Vérifie l’ordre des sections** :
+     - "Expérience professionnelle" devrait être **avant** "Compétences" pour capter l’attention rapidement.
+     - "Formation" après "Expérience".
 
 4️⃣ **Personnalisation pour le conseil**
 
-   - Mets en avant **tes compétences en analyse et en gestion de projet** (ex : analyse des besoins clients, gestion du changement, stratégie IT).  
-   - Insiste sur **ta capacité à résoudre des problèmes complexes et à travailler en équipe**.  
+   - Mets en avant **tes compétences en analyse et en gestion de projet** (ex : analyse des besoins clients, gestion du changement, stratégie IT).
+   - Insiste sur **ta capacité à résoudre des problèmes complexes et à travailler en équipe**.
 
 5️⃣ **Titre du CV plus percutant**
 
-   - "Étudiant alternant ingénieur centralien" est correct, mais un recruteur en conseil attend quelque chose de plus **impactant et ciblé** : 
-     ➡ **"Consultant Salesforce & Transformation Digitale | Ingénieur Centralien"**  
-     ➡ **"Consultant IT & Gestion de Projet | Spécialisation CRM"**  
+   - "Étudiant alternant ingénieur centralien" est correct, mais un recruteur en conseil attend quelque chose de plus **impactant et ciblé** :
+     ➡ **"Consultant Salesforce & Transformation Digitale | Ingénieur Centralien"**
+     ➡ **"Consultant IT & Gestion de Projet | Spécialisation CRM"**
 
 ---
 
@@ -113,14 +113,14 @@ Ton CV est bien structuré et pertinent pour un poste en conseil, mais il y a pl
 
 🟠 **Probabilité moyenne-haute**, mais améliorable.
 
-- Il contient **des mots-clés pertinents**, mais pourrait être **mieux optimisé pour le consulting**.  
-- Il est bien structuré, mais des ajustements de **mise en page et contenu** pourraient **augmenter tes chances d’entretien**.  
+- Il contient **des mots-clés pertinents**, mais pourrait être **mieux optimisé pour le consulting**.
+- Il est bien structuré, mais des ajustements de **mise en page et contenu** pourraient **augmenter tes chances d’entretien**.
 
-🔹 **Actions recommandées** :  
-✅ Ajouter des mots-clés métiers.  
-✅ Rendre tes expériences plus impactantes avec des résultats concrets.  
-✅ Améliorer la mise en page et la lisibilité.  
-✅ Adapter ton titre et ton intro à un poste en conseil.  
+🔹 **Actions recommandées** :
+✅ Ajouter des mots-clés métiers.
+✅ Rendre tes expériences plus impactantes avec des résultats concrets.
+✅ Améliorer la mise en page et la lisibilité.
+✅ Adapter ton titre et ton intro à un poste en conseil.
 
 Si tu veux, je peux aussi **te proposer une version améliorée** de ton CV. Dis-moi si tu es partant ! 🚀
 

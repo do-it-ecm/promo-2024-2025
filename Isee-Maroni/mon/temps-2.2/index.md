@@ -12,7 +12,7 @@ tags:
   - "sémiologie"
   - "la graphique"
 
-résumé: "Se former sur la datavisualisation et la représentation des données afin qu’elles soient percutantes et comprises sans erreurs d'interprétation."
+description: "Se former sur la datavisualisation et la représentation des données afin qu’elles soient percutantes et comprises sans erreurs d'interprétation."
 ---
 
 {% prerequis %}

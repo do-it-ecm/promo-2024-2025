@@ -9,7 +9,7 @@ date: 1971-02-01
 temps: 3
 tags:
 
-résumé: "Comment conjuguer IT et écologie ?"
+description: "Comment conjuguer IT et écologie ?"
 ---
 
 {% sommaire %}
@@ -23,21 +23,21 @@ Ce MON tournera autour de deux problématiques, est il possible de conjuguer les
 ## Empreinte environnemental du numérique
 
 Sources :
-    
+
 - [MON 3.2 Nicolas Ouzoulias](https://francoisbrucker.github.io/do-it/promos/2023-2024/Ouzoulias-Nicolas/mon/temps-3.2/)
-    
+
 - [Faits, Statistiques et Chiffres clés : Evolution du web de 1990 à 2024 - Stephen MESNILDREY](https://www.sales-hacking.com/fr/post/evolution-nombre-de-sites-web)
-    
+
 - [MON 3.2 Louise Gacoin](https://francoisbrucker.github.io/do-it/promos/2022-2023/Gacoin-Louise/mon/MON6/)
-    
+
 - [Et tout le monde s'en fout - La pollution numérique](https://www.youtube.com/watch?v=64EHipxEh9c)
-    
+
 - [Ecoindex](https://www.ecoindex.fr/)
 
 - [Modélisation, simulation et optimisation pour l’éco-fabrication - Thèse de Hichem Hassine](https://theses.hal.science/tel-01158561v1/file/These_HHassine_2015.pdf?)
 
 - [Sopra Steria - La frugalité numérique : une stratégie viable ?](https://www.soprasterianext.fr/docs/librariesprovider2/soprasteria-next-exploratoire-documents/notindexdocuments-l-exploratoire/note-analyse---l-exploratoire---frugalite-numerique.pdf?Status=Master&sfvrsn=7a29ffdc_3/)
-    
+
 
 Le but de ce MON n’est pas de s’attarder sur les enjeux environnementaux autour du numérique. Cependant, il peut quand même être intéressant de parler rapidement de celle-ci pour comprendre l’enjeu autour de la transformation digitale.
 
@@ -67,8 +67,8 @@ Ce n’est pas le but de ce MON de s’attarder sur ce sujet mais un travail à 
 
 ## Sobriété numérique
 
-Sources :   
-- [MON 3.2 de Louise Gacoin](https://francoisbrucker.github.io/do-it/promos/2022-2023/Gacoin-Louise/mon/MON6/) 
+Sources :
+- [MON 3.2 de Louise Gacoin](https://francoisbrucker.github.io/do-it/promos/2022-2023/Gacoin-Louise/mon/MON6/)
 - [Thibault Menz - C'est quoi la sobriété numérique](https://www.youtube.com/watch?v=pPzIANK4VmI)
 - [Sopra Steria - La frugalité numérique : une stratégie viable ?](https://www.soprasterianext.fr/docs/librariesprovider2/soprasteria-next-exploratoire-documents/notindexdocuments-l-exploratoire/note-analyse---l-exploratoire---frugalite-numerique.pdf?Status=Master&sfvrsn=7a29ffdc_3/)
 
@@ -87,7 +87,7 @@ Pour en aller plus loin sur le sujet, il peut être intéressant de consulter  l
 Sources :
 - [Green Algorithms: Quantifying the carbon footprint of computation - Loïc Lannelongue, Jason Grealey, Michael Inouye](https://arxiv.org/pdf/2007.07610)
 - [Outil Green Algrithms](https://www.green-algorithms.org/)
-    
+
 
 L’étude que j’ai lu vise à proposer une méthodologie pour mesurer l’impact carbone de n’importe quelle opération numérique. Cette étude a aussi produit un outil en ligne nommé Green Algorithms qui permet l’estimation de l’empreinte carbone d’un calcul. Même si l’étude et l’outil sont très concentrés sur le côté calcul numérique, il est intéressant de s’y plonger afin de comprendre comment le numérique et notamment les calculs des serveurs et ordinateurs impactent l’environnement.
 
@@ -112,7 +112,7 @@ Les questions que je me pose sur le sujet sont :
 
 ### Empreinte environnementale d’un site web
 
-Sources : 
+Sources :
 - [Ecoindex - Comment ça marche](https://www.ecoindex.fr/comment-ca-marche/)
 - [Comment mesurer l'empreinte carbone de son site internet ? - lemon-interactive](https://www.lemon-interactive.fr/actualites/eco-conception/outils-mesurer-empreinte-carbone-site-internet/)
 
@@ -124,19 +124,19 @@ L’analyse de l’empreinte physique dans le temps (évolution de la consommati
 
 Un site moyen aura un impact de 2 g.eq.CO2 et 3 cl. d’eau bleue par page web. Cette valeur provient d’une analyse cycle de vie effectué sur l’ensemble du cycle de vie du calcul, transport et affichage d’une page web.
 
-Quelques uns des éléments qui contribuent à l’empreinte environnementale d’un site web sont : 
+Quelques uns des éléments qui contribuent à l’empreinte environnementale d’un site web sont :
 - Transfert de données (chargement site web)
 - Intensité énergétique des données web
 
 ### Evaluer cette empreinte
 
-Sources : 
+Sources :
 - [Evaluer l'empreinte environnemantale de votre site Internet - France Num](https://www.francenum.gouv.fr/guides-et-conseils/pilotage-de-lentreprise/numerique-durable/evaluer-lempreinte-environnementale-de)
 - [Ecoindex](https://www.ecoindex.fr/)
 - [Ecoindex - Comment ça marche ?](https://www.ecoindex.fr/comment-ca-marche/)
 - [Comment mesurer l'empreinte carbone de son site internet ? - lemon-interactive](https://www.lemon-interactive.fr/actualites/eco-conception/outils-mesurer-empreinte-carbone-site-internet/)
 - [Modélisation, simulation et optimisation pour l’éco-fabrication - Thèse de Hichem Hassine](https://theses.hal.science/tel-01158561v1/file/These_HHassine_2015.pdf?)
-    
+
 
 La fiche gouvernementale écrite par Green IT présente l’outil EcoIndex. C’est un outil gratuit qui permet d’évaluer à partir de l’URL d’un site :
 
@@ -145,7 +145,7 @@ La fiche gouvernementale écrite par Green IT présente l’outil EcoIndex. C’
 - l’empreinte dite technique de la page (poids, complexité,…)
 - l’empreinte environnementale associée (gaz à effet de serre et eau)
 
-Pour effectuer le calcul, l’outil prend en compte : 
+Pour effectuer le calcul, l’outil prend en compte :
 
 - la complexité de la page (DOM) : un effort plus important à fournir de la part du processeur de votre ordinateur pour afficher la page quand la page est plus complexe
 - le poids des données transférées : le transport de ces données, plus ou moins lourdes, du serveur au navigateur nécessite de l’énergie
@@ -153,7 +153,7 @@ Pour effectuer le calcul, l’outil prend en compte :
 
 Si cela vous intéresse, le site de l’outil EcoIndex détaille la méthode de calcul et notamment la pondération des différents critères. Il détaille aussi l’api utilisée pour analyser une page web.
 
-D’autres outils sont disponibles comme : 
+D’autres outils sont disponibles comme :
 
 - **Website carbon calculator :** estime les émissions de CO2 à partir du transfert de données, de l'intensité énergétique des données web, de la source d’énergie du datacenter et du trafic du site web.
 - **Cimetrix :** évalue les performances web et notamment la vitesse de chargement d’une page web.
@@ -164,7 +164,7 @@ Pour cela, j’ai utilisé l’outil EcoIndex disponible ici : [Ecoindex](https:
 
 J’ai décidé de regarder l’impact du site de Do It.
 
-En faisant tourner l’algorithme, on obtient comme prévu les notes du site : 
+En faisant tourner l’algorithme, on obtient comme prévu les notes du site :
 
 - Efficacité environnementale absolue : **87/100**
 - Performance environnementale relative : **A**
@@ -186,7 +186,7 @@ Sources :
 - [Evaluer l'empreinte environnemantale de votre site Internet - France Num](https://www.francenum.gouv.fr/guides-et-conseils/pilotage-de-lentreprise/numerique-durable/evaluer-lempreinte-environnementale-de)
 - [Ecoindex](https://www.ecoindex.fr/)
 - [Modélisation, simulation et optimisation pour l’éco-fabrication - Thèse de Hichem Hassine](https://theses.hal.science/tel-01158561v1/file/These_HHassine_2015.pdf?)
-    
+
 
 Le site gouvernemental propose aussi des pistes pour améliorer son site et propose ainsi une brochure de conseils.
 
@@ -214,7 +214,7 @@ Le site EcoIndex donne quelques exemples concrets pour optimisez sa page web mai
 - Regroupez certaines feuilles de styles (CSS) et bibliothèques Javascript (JS).
 - Préférez les pages statiques
 
-Outre ces petits conseils à garder en tête, plusieurs outils sont aussi mis à disposition pour suivre sa démarche d'écoconception : 
+Outre ces petits conseils à garder en tête, plusieurs outils sont aussi mis à disposition pour suivre sa démarche d'écoconception :
 
 - Plugin GreenIT Analysis
 - Plugin Ecoindex
@@ -243,23 +243,23 @@ L’écoconception à 5 bases fondamentales :
 - selon **plusieurs indicateurs environnementaux**
 - dans une **démarche d’amélioration continue**
 
-Le collectif greenIT a établi une liste détailler de 115 bonnes pratiques d’écoconception des produits web sur l’ensemble de leurs cycles de vie, de la spécification au support / maintenance / fin de vie. Ces mesures peuvent aller de limiter les données collectées à combiner les fichiers CSS et Javascript. 
+Le collectif greenIT a établi une liste détailler de 115 bonnes pratiques d’écoconception des produits web sur l’ensemble de leurs cycles de vie, de la spécification au support / maintenance / fin de vie. Ces mesures peuvent aller de limiter les données collectées à combiner les fichiers CSS et Javascript.
 
 Quelques pratiques simples à mettre en place sont la modification du code pour en réduire la consommation, privilégier des plugs ins qui appellent toutes les données en une fois et simplifier les designs.
 
 ## Innovation frugale
 
 Sources :
-    
+
 - [Innovation frugale - page wikipédia](https://fr.wikipedia.org/wiki/Innovation_frugale)
-    
+
 - [Sopra Steria - La frugalité numérique : une stratégie viable ?](https://www.soprasterianext.fr/docs/librariesprovider2/soprasteria-next-exploratoire-documents/notindexdocuments-l-exploratoire/note-analyse---l-exploratoire---frugalite-numerique.pdf?Status=Master&sfvrsn=7a29ffdc_3/)
 
 Dans la démarche de créer des modèles économiques plus durables et des meilleurs moyens de fabriquer et d’innover, l’innovation frugale a été inventée. C’est une démarche cherchant à répondre à un besoin simplement et efficacement avec un minimum de ressources. Elle est intéressante d’un point de vue environnementale car elle permet d’économiser sur les ressources mais aussi d’un point de vue économique, elle permet d’offrir des solutions moins chers pour les personnes à plus faible pouvoir d’achat.
 
 Les solutions ont plusieurs caractéristiques, elles sont épurées au maximum, répondent précisément au besoin, ne possèdent pas d’ajouts superflus, leurs implémentations et moyens de réalisation sont allégés et efficaces.
 
-Cette innovation a été résumée par Mokter Hassain en 4 caractéristiques : 
+Cette innovation a été résumée par Mokter Hassain en 4 caractéristiques :
 
 → Une gestion prudente, parcimonieuse des ressources naturelles
 
@@ -276,11 +276,11 @@ Dans le numérique, il existe quelques exemples de la mise en place de ce type d
 ## Economie circulaire et digital
 
 Sources :
-    
+
 - [Le digital levier de l'économie circulaire - Oney](https://partners.oney.com/news/rse-et-mieux-consommer/le-digital-levier-de-leconomie-circulaire)
-    
+
 - [Définition de l'économie circulaire des appareils numériques - Circular Tech](https://circulartech.apc.org/books/guide-de-leconomie-circulaire-de-nos-appareils-numeriques/page/module-3-la-definition-de-leconomie-circulaire-des-appareils-numeriques)
-    
+
 
 L’économie circulaire reste un pilier important des pratiques pour réduire notre impact environnementale. Pour comprendre plus en détails ce que c’est, je recommande de lire cet article : [L'économie circulaire - Ecologie.gouv.fr](https://www.ecologie.gouv.fr/politiques-publiques/leconomie-circulaire)
 

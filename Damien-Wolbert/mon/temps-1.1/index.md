@@ -10,7 +10,7 @@ date: 2024-09-08
 temps: 1
 tags:
 
-résumé: "Ce MON vise à étudier les enjeux du déploiement d'un nouvel outil au sein d'une équipe : enjeux psychologiques, comportementaux, professionnels. Il me permettra d'aborder certain points de la conduite du changement et d'analyser les différentes ressouces rencontrées au regard d'un cas concret : la mise en place de l'outil destiné à remplacer Sérénade."
+description: "Ce MON vise à étudier les enjeux du déploiement d'un nouvel outil au sein d'une équipe : enjeux psychologiques, comportementaux, professionnels. Il me permettra d'aborder certain points de la conduite du changement et d'analyser les différentes ressouces rencontrées au regard d'un cas concret : la mise en place de l'outil destiné à remplacer Sérénade."
 ---
 
 {% details "Bibliographie" %}
@@ -136,7 +136,7 @@ Les méthodes et principes énoncés ci-dessous sont issus d'un certain nombre d
 
 ### Méthodologie générale
 
-Au vu des précédentes parties, la mise en place d'un nouvel outil doit être divisé en 3 grandes phases : 
+Au vu des précédentes parties, la mise en place d'un nouvel outil doit être divisé en 3 grandes phases :
 - Phase 1 : Préparation du déploiement
 - Phase 2 : Déploiement et transitions
 - Phase 3 : L'après déploiement
@@ -166,12 +166,12 @@ La communication doit être transparente. Il faut donc faire savoir à tous les 
 - Annoncer les raisons du changement
 - Les objectifs du changement
 - Les dates à partir desquelles les collaborateurs auront plus d'informations
-  
+
 #### Organiser et anticiper
 
 Il faut alors mettre en place des stratégies :
 
-**Stratégie de communication :** 
+**Stratégie de communication :**
 Définir les cannaux utilisés, le timing, les relais de l'information au sein de l'organigramme. L'information doit être transpatente et insister sur les bénéfices de la mise en place du nouvel outil comparativement à la situation actuelle, sans cacher l'effort que cela va demander. Il est globalement conseillé de communiquer juste avant, au lancement, au milieu et à la fin de chaque phase.
 
 **Prise en compte du besoin :**
@@ -209,7 +209,7 @@ A la suppression de l'ancien outil, il faut que tous les documents officiels (pr
 
 ### Après le déploiement
 
-Une fois que le déploiement est réalisé, il est impératif d'effectuer : 
+Une fois que le déploiement est réalisé, il est impératif d'effectuer :
 1. Une clôture significative du déploiement.
 2. Reconnaissance des efforts et du chemin parcouru.
 3. Félicitations nécessaires.

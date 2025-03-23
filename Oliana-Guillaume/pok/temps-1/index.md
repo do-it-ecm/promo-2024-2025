@@ -12,7 +12,7 @@ tags:
   - "low/no code"
   -
 
-résumé: Un POK sur la création d'une application web avec Bubble.io pour le suivi de course à pied et la personnalisation de plans d'entraînement.
+description: Un POK sur la création d'une application web avec Bubble.io pour le suivi de course à pied et la personnalisation de plans d'entraînement.
 
 ---
 
@@ -23,7 +23,7 @@ Aucun prérequis ici, je suis parti de zéro. L'idée est de prendre en main Bub
 {% endprerequis %}
 {% lien %}
 
-[Documentation Bubble.io](https://manual.bubble.io/)  
+[Documentation Bubble.io](https://manual.bubble.io/)
 [Applications de référence : Runna, Campus]
 
 {% endlien %}
@@ -54,7 +54,7 @@ Développer une application complète et fonctionnelle pour le suivi de course �
 
 
 **Étude post-mortem Sprint 1 :**
-Le premier sprint s'est bien déroulé, avec une prise en main efficace de Bubble.io et la mise en place des premières fonctionnalités essentielles (sign-up, base de données utilisateurs, dashboard). Les prochaines étapes se concentreront sur la personnalisation des plans d'entraînement et l'amélioration du dashboard. 
+Le premier sprint s'est bien déroulé, avec une prise en main efficace de Bubble.io et la mise en place des premières fonctionnalités essentielles (sign-up, base de données utilisateurs, dashboard). Les prochaines étapes se concentreront sur la personnalisation des plans d'entraînement et l'amélioration du dashboard.
 
 #### Sprint 2
 
@@ -66,7 +66,7 @@ Le premier sprint s'est bien déroulé, avec une prise en main efficace de Bubbl
 - [ ] Intégration d'API externes (Strava, Garmin)
 
 **Étude post-mortem Sprint 2 :**
-Le sprint 2 s'est concentré sur les plans d'entraînements personnalisés, beaucoup de temps a été perdu sur la façon dont les allures de courses doivent être calculées selon la distance. 
+Le sprint 2 s'est concentré sur les plans d'entraînements personnalisés, beaucoup de temps a été perdu sur la façon dont les allures de courses doivent être calculées selon la distance.
 **Avec un troisieme sprint de 10h, l'application pourrait être entierement fonctionnelle.**
 
 ### Horodatage
@@ -224,7 +224,7 @@ Le **Sprint 2** du développement de l'application de suivi de course à pied su
 def predict_time(reference_time, reference_distance, target_distance):
     """
     Prédit le temps de course pour une distance cible en fonction d'un temps de référence et de la distance correspondante.
-    
+
     :param reference_time: temps de référence (en minutes)
     :param reference_distance: distance de référence (en km)
     :param target_distance: distance cible (en km)
@@ -236,7 +236,7 @@ def predict_time(reference_time, reference_distance, target_distance):
 def pace_from_time(time_in_minutes, distance_km):
     """
     Calcule l'allure de course (minutes par km).
-    
+
     :param time_in_minutes: temps de course en minutes
     :param distance_km: distance en km
     :return: allure en minutes par km
@@ -246,7 +246,7 @@ def pace_from_time(time_in_minutes, distance_km):
 def endurance_pace(race_pace, factor=1.2):
     """
     Calcule l'allure d'endurance fondamentale en ajoutant un pourcentage à l'allure de course.
-    
+
     :param race_pace: allure de course (en min/km)
     :param factor: pourcentage par rapport à l'allure de course (1.2 = 120%, donc allure plus lente)
     :return: allure d'endurance fondamentale (en min/km)
@@ -256,7 +256,7 @@ def endurance_pace(race_pace, factor=1.2):
 def format_pace(pace):
     """
     Formatte l'allure de course en minutes:secondes par kilomètre.
-    
+
     :param pace: allure en minutes par km (ex: 3.5 pour 3 minutes 30 secondes)
     :return: string formaté sous la forme min:sec par km
     """
@@ -308,7 +308,7 @@ print(f"Allure d'endurance fondamentale : {format_pace(endurance_pace_value)}")
 3.  **Tests utilisateurs et ajustements UI/UX** :
 
     -   Des tests utilisateurs seront nécessaires pour ajuster l'interface utilisateur et améliorer l'expérience générale. Cela inclut la fluidité du parcours utilisateur lors de la validation des séances et la clarté des informations fournies sur le tableau de bord.
-   
+
 4.  **Interaction et validation des séances avec un pop-up personnalisé** :
 
 -   Une nouvelle fonctionnalité devrait être ajoutée pour permettre aux utilisateurs de **valider une séance d'entraînement**. Lorsqu'une séance est validée (marquée comme complétée), un **pop-up** s'ouvre automatiquement pour permettre à l'utilisateur de renseigner les détails spécifiques de la séance effectuée. Ce pop-up comprend les éléments suivants :

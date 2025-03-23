@@ -11,7 +11,7 @@ tags:
   - "SQL"
   - "vert"
 
-résumé: "Étude plus approfondie de tout ce que l'on peut faire avec SQL"
+description: "Étude plus approfondie de tout ce que l'on peut faire avec SQL"
 ---
 
 {% prerequis %}

@@ -14,7 +14,7 @@ tags:
   - 'intermédiaire'
   - 'cpp'
 
-résumé: "Apprentissage des concepts et paradigmes du C++ pour passer des entretiens"
+description: "Apprentissage des concepts et paradigmes du C++ pour passer des entretiens"
 ---
 
 {% sommaire %}
@@ -37,7 +37,7 @@ utilisé en pratique, au dela des cours d'informatique théorique.
 Cette citation, du créateur de C++, met bien en avant la complexité du langage. Aussi, elle m'a permis de relativiser
 et me donner envie d'apprendre, même si je ne pourrais jamais tout connaître sur le sujet.
 
-> Even I can’t answer every question about C++ without reference to supporting material 
+> Even I can’t answer every question about C++ without reference to supporting material
 > (e.g. my own books, online documentation, or the standard). I’m sure that if I tried to keep all of that
 > information in my head, I’d become a worse programmer. What I do have is a far less detailed – arguably higher
 > level – model of C++ in my head.
@@ -171,7 +171,7 @@ mais aussi regardé une conférence sur C++23 : [C++23: An Overview - Marc Grég
 Initialement, pour allouer de la mémoire, on le faisait avec `malloc` et `free`, mais cette méthode manuelle est sujette
 à des erreurs comme les fuites de mémoire ou la double libération (`double free`), causant des crashs imprévisibles.
 Ensuite, `new` et `delete` ont été introduits pour simplifier la gestion de mémoire, tout en restant vulnérables aux
-mêmes problèmes si mal utilisés. Aujourd'hui, on encourage vivement l'utilisation des smart pointers 
+mêmes problèmes si mal utilisés. Aujourd'hui, on encourage vivement l'utilisation des smart pointers
 qui apportent une gestion automatique et sécurisée de la mémoire, en s'assurant que les ressources soient
 libérées correctement lorsque plus aucune référence valide n'existe. Cela réduit considérablement les risques
 de bugs liés à la gestion mémoire manuelle.
@@ -373,7 +373,7 @@ que j'ai regardées (mais au dela des 10h du MON) qui parlent de sujets plutôt 
 - [Build systems](https://www.youtube.com/watch?v=Sh3uayB9kHs)
 
 De ce que j'ai pu remarquer au cours de mes recherches, il est difficile de repérer les sujets sur lesquels
-on peut s'améliorer en C++ tant ils sont nombreux. Un schéma que j'ai cependant souvent observé en vidéo est 
+on peut s'améliorer en C++ tant ils sont nombreux. Un schéma que j'ai cependant souvent observé en vidéo est
 celui de lire les suggestions de son éditeur de texte ! Aussi certains outils d'analyse statique de code sont
 particulièrement puissant, par exemple vous pouvez en trouver une liste sur le site
 [Terminal Root](https://terminalroot.com/top-10-static-analyzers-for-c-and-cpp/)

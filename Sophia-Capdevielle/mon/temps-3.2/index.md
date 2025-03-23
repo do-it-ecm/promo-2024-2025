@@ -12,7 +12,7 @@ tags:
   - "grève"
   - "management"
 
-résumé: "Ce MON a pour objectif d’explorer les liens entre le syndicalisme et le management moderne, en retraçant d’abord l’histoire des luttes sociales et des syndicats, puis en analysant les effets des nouvelles méthodes de gestion sur le travail et les collectifs. Enfin, nous examinerons les pistes d’adaptation pour un syndicalisme renouvelé, capable de répondre aux défis du XXIe siècle. "
+description: "Ce MON a pour objectif d’explorer les liens entre le syndicalisme et le management moderne, en retraçant d’abord l’histoire des luttes sociales et des syndicats, puis en analysant les effets des nouvelles méthodes de gestion sur le travail et les collectifs. Enfin, nous examinerons les pistes d’adaptation pour un syndicalisme renouvelé, capable de répondre aux défis du XXIe siècle. "
 ---
 
 {% prerequis %}

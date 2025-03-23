@@ -7,11 +7,11 @@ authors:
 
 date: 2025-02-01
 temps: 3
-tags: 
+tags:
 - Vert
 - Firebase
 
-résumé: "Découverte de Firebase"
+description: "Découverte de Firebase"
 ---
 
 {% lien %}

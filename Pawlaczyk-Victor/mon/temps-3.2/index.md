@@ -7,12 +7,12 @@ authors:
 
 date: 2025-03-01
 temps: 3
-tags: 
+tags:
 - Saumon
 - Freelance
 - Auto-entrepreneur
 
-résumé: "Devenir freelance en tant que jeune ingénieur : mode d'emploi"
+description: "Devenir freelance en tant que jeune ingénieur : mode d'emploi"
 ---
 
 {% prerequis %}
@@ -27,7 +27,7 @@ résumé: "Devenir freelance en tant que jeune ingénieur : mode d'emploi"
 
 Un jeune ingénieur a de nombreuses compétences, une capacité importante d'encaisser de la charge de travail, une aisance plus ou moins développée en communication, des connaissances développées en gestion de projet et des notions en comptabilité, gestion et formalités administratives. Pour toutes ces raisons, les ingénieurs ont des profils parfaitement propices au lancement dans une activité de freelance, que ce soit en complément de revenus ou en activité principale à temps plein. Ce mode de travail peut s'avérer très attirant pour la liberté qu'il apporte et les perspectives de rémunération qu'il peut permettre dans certains cas. En revanche, il implique aussi sa dose de défis que ce soit en gestion administrative, en démarchage de clients ou au niveau de la stabilité financière. L'objectif est de comprendre au fur et à mesure de ce MON les formalités et les modalités inhérents au mode de travail en freelance.
 
-## Peut-on cumuler freelance et salariat ? 
+## Peut-on cumuler freelance et salariat ?
 
 Il est assez courant d'avoir une activité en freelance tout en conservant son emploi salarié. C’est une stratégie prudente qui permet de tester le marché sans prendre de risques financiers ou simplement de mettre du beurre dans ses épinards. Cependant, quelques règles sont à respecter :
 
@@ -36,9 +36,9 @@ Il est assez courant d'avoir une activité en freelance tout en conservant son e
 - **Respecter les horaires de travail** et ne pas empiéter sur le temps de travail salarié.
 - **Informer son employeur** si nécessaire, certaines entreprises demandant une déclaration préalable. (Attention notamment dans la fonction publique)
 
-### Administrativement, comment je fais ? 
+### Administrativement, comment je fais ?
 
-Pour pouvoir exercer une activité professionnelle en freelance, il faut obligatoirement le faire dans le cadre d'une "entreprise". Dans le cas du freelance en parallèle d'une activité salariée, le statut d'entreprise le plus adapté est dans la majorité des cas le statut de **micro-entrepreuneur** : 
+Pour pouvoir exercer une activité professionnelle en freelance, il faut obligatoirement le faire dans le cadre d'une "entreprise". Dans le cas du freelance en parallèle d'une activité salariée, le statut d'entreprise le plus adapté est dans la majorité des cas le statut de **micro-entrepreuneur** :
 
 - Inscription simple et rapide (URSSAF en ligne),
 - Comptabilité simplifiée,
@@ -47,11 +47,11 @@ Pour pouvoir exercer une activité professionnelle en freelance, il faut obligat
 - Compte bancaire dédié obligatoire dès le lancement de l’activité, mais compte bancaire professionnel n'est requis uniquement si le chiffre d’affaires dépasse 10 000 € par an pendant deux années consécutives.
 - Possibilité d'opter pour l'impôt libératoire sous conditions de revenus, ce qui permet de payer directement l'impôt sur le chiffre d'affaires plutôt qu'en fin d'année. (souvent avantageux fiscalement)
 
-NB : En cas de revenus élevés, on peut assez rapidement envisager d'autres statuts comme l'EURL ou la SASU pour optimiser sa fiscalité notamment. 
+NB : En cas de revenus élevés, on peut assez rapidement envisager d'autres statuts comme l'EURL ou la SASU pour optimiser sa fiscalité notamment.
 
 ## Et si j'ai envie de passer en freelance à temps plein ?
 
-Quand le freelance devient plus rentable et stable, il est tentant de quitter le salariat pour s’y consacrer pleinement. Avant de sauter le pas, il y a pas mal de choses à prendre en compte. 
+Quand le freelance devient plus rentable et stable, il est tentant de quitter le salariat pour s’y consacrer pleinement. Avant de sauter le pas, il y a pas mal de choses à prendre en compte.
 
 ### Les aides financières pour la transition
 
@@ -119,7 +119,7 @@ En tant qu'auto-entrepreneur, il faut s'inscrire au régime général de la Séc
 
 ### Comment définir mon tarif ?
 
-En freelance, on choisit soi-même le prix auquel on "vend" notre travail ou nos prestations. On parle souvent du **TJM** (Tarif Journalier Moyen). Pour le calculer, la méthode la plus conseillée est de prendre en compte son salaire cible ainsi que les différentes charges mentionnées précédemment et de diviser ce chiffre par le nombre de jours facturables (généralement aux alentours de 220 jours par an). Une fois cette première estimation obtenue, il est important de comparer son TJM avec ceux pratiqués par vos concurrents sur le marché. L'objectif est d'être compétitif tout en s'assurant une bonne rentabilité. 
+En freelance, on choisit soi-même le prix auquel on "vend" notre travail ou nos prestations. On parle souvent du **TJM** (Tarif Journalier Moyen). Pour le calculer, la méthode la plus conseillée est de prendre en compte son salaire cible ainsi que les différentes charges mentionnées précédemment et de diviser ce chiffre par le nombre de jours facturables (généralement aux alentours de 220 jours par an). Une fois cette première estimation obtenue, il est important de comparer son TJM avec ceux pratiqués par vos concurrents sur le marché. L'objectif est d'être compétitif tout en s'assurant une bonne rentabilité.
 
 {% info %}
 Pour se comparer aux prix du marché, il est nécessaire de cerner précisément son propre profil et d'être honnête avec soi-même. Il faut particulièrement s'interroger sur son expérience, la rareté de ses compétences et la demande dans son domaine. Ces critères dictent le marché et influent fortement sur les tarifs pratiqués par chacun.

@@ -11,7 +11,7 @@ tags:
   - "bleu"
   - "cloud"
 
-résumé: "Comprendre les enjeux du cloud computing actuels."
+description: "Comprendre les enjeux du cloud computing actuels."
 ---
 
 {% prerequis %}

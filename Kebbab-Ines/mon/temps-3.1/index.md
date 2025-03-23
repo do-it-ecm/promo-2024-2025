@@ -6,13 +6,13 @@ authors:
   - Inès Kebbab
 
 date: 2024-12-17
-tags: 
+tags:
   - "temps 3"
   - "info"
   - "Java"
   - "Débutant"
 
-résumé: "Découverte des bases du développement web en Java. Pour quels cas d'usages utiliser ce langage ?"
+description: "Découverte des bases du développement web en Java. Pour quels cas d'usages utiliser ce langage ?"
 
 ---
 

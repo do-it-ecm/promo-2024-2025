@@ -6,14 +6,14 @@ authors:
   - "Sofiane Ouadda"
 date: 2024-10-20
 
-tags: 
+tags:
   - "Développement Web"
   - "Design Patterns"
   - "Refactoring"
   - "JavaScript"
   - "Node.js"
 
-résumé: "Ce cours explore les principaux design patterns utilisés dans le développement de sites internet. À travers des exemples pratiques en JavaScript et Node.js, vous apprendrez comment améliorer la maintenabilité, la scalabilité et la lisibilité de votre code."
+description: "Ce cours explore les principaux design patterns utilisés dans le développement de sites internet. À travers des exemples pratiques en JavaScript et Node.js, vous apprendrez comment améliorer la maintenabilité, la scalabilité et la lisibilité de votre code."
 
 ---
 
@@ -104,7 +104,7 @@ Le **Singleton** garantit qu'une classe n'a qu'une seule instance tout en fourni
 Le Factory Pattern permet de créer des objets sans spécifier leur classe exacte. Il délègue la logique d'instanciation à une "fabrique".
 
 ### Quand l'utiliser ?
-   
+
 - Pour éviter d'exposer la logique complexe de création.
 - Pour instancier différents types d'objets en fonction des paramètres.
 
@@ -148,7 +148,7 @@ console.log(admin1); // { name: 'Soso', role: 'Admin' }
 L’Observer Pattern permet à un objet (le sujet) de notifier automatiquement plusieurs autres objets (les observateurs) lorsque son état change.
 
 ### Quand l'utiliser ?
-   
+
 - Pour mettre en œuvre une communication entre objets sans couplage fort.
 - Pour réagir aux événements dans une application (ex. : interfaces utilisateur ou événements système).
 
@@ -206,7 +206,7 @@ subject.notify({ message: 'Second notification' });
 Le Decorator Pattern permet d’ajouter dynamiquement des fonctionnalités à un objet sans modifier sa structure originale.
 
 ### Quand l'utiliser ?
-   
+
 - Pour étendre les fonctionnalités d’un objet existant sans hériter de celui-ci.
 - Pour appliquer des fonctionnalités optionnelles sans multiplier les sous-classes.
 
@@ -233,9 +233,9 @@ enhancedFunctionality(); // "Fonctionnalité supplémentaire ajoutée"
 
 ## Horodateur
 
-| Date       | Heures passées | Indications                                                                  | 
+| Date       | Heures passées | Indications                                                                  |
 |------------|----------------|------------------------------------------------------------------------------|
-| 06/11      | 2H30           | Lecture sur le Singleton et implémentation d’exemples pratiques en Node.js  | 
+| 06/11      | 2H30           | Lecture sur le Singleton et implémentation d’exemples pratiques en Node.js  |
 | 06/11      | 2H30             | Étude approfondie et pratique sur le Factory Pattern                        |
 | 09/11      | 1H45             | Apprentissage du Observer Pattern et implémentation d’une maquette          |
 | 09/11      | 1H45           | Pratique sur le Decorator Pattern                                            |

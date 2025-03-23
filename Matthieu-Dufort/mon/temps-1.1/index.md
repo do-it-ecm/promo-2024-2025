@@ -13,7 +13,7 @@ tags:
   - "Traitement de données"
   - "Novice/intérmédiaire"
 
-résumé: "Le rattrapage de données consiste à corriger les données existantes d'une base afin de les aligner sur un format commun. Pour cela, on utilise beaucoup Excel. Le but de ce MON sera d'apprendre et de découvrir des formules Excel pour corriger des données."
+description: "Le rattrapage de données consiste à corriger les données existantes d'une base afin de les aligner sur un format commun. Pour cela, on utilise beaucoup Excel. Le but de ce MON sera d'apprendre et de découvrir des formules Excel pour corriger des données."
 ---
 
 {% prerequis %}

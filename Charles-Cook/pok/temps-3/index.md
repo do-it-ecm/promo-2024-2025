@@ -10,7 +10,7 @@ date: 1971-03-01
 temps: 3
 tags:
 
-résumé: L'objectif de ce POK est de découvrir le NLP (Natural Language Processing).
+description: L'objectif de ce POK est de découvrir le NLP (Natural Language Processing).
 ---
 
 {% prerequis %}
@@ -97,14 +97,14 @@ La compréhension et le choix des algorithmes mis en place dans la clusterisatio
 **REALISATIONS DES TACHES:** J'ai eu du mal à réaliser l'ensemble des tâches que je m'étais fixé notamment à cause d'une sous-réalisation de la difficulté derrière.
 {% enddetails %}
 {% details "POK GLOBAL" %}
-**REALISATIONS :** Ce POK m'a permis de découvrir des notions TRES utiles en entreprises, qui constituent un enjeu stratégiques aujourd'hui. En effet, après discussion avec Maxine BOURDEAU, j'ai pu réaliser que l'analyse de sentiment est encore très peu utilisée en France, à cause de la barrière du lanage. En effet, c'est quelque chose qui comment tout juste à être efficace en anglais, mais encore très peu en français. Seules les grandes entreprises commencent à en exploiter le potentiel. 
+**REALISATIONS :** Ce POK m'a permis de découvrir des notions TRES utiles en entreprises, qui constituent un enjeu stratégiques aujourd'hui. En effet, après discussion avec Maxine BOURDEAU, j'ai pu réaliser que l'analyse de sentiment est encore très peu utilisée en France, à cause de la barrière du lanage. En effet, c'est quelque chose qui comment tout juste à être efficace en anglais, mais encore très peu en français. Seules les grandes entreprises commencent à en exploiter le potentiel.
 
-**REDACTION :** Le changement du type de rédaction est en effet plus clair pour une relecture à posteriori mais demande plus de temps de réflexion et de travail. 
+**REDACTION :** Le changement du type de rédaction est en effet plus clair pour une relecture à posteriori mais demande plus de temps de réflexion et de travail.
 {% enddetails %}
 
 ## Analyse Textuelle
 ### Contexte
-Nous nous plaçons dans le cas d'une entrepise qui possède énormément de données textuelles (réponses à des questions ouvertes d'un sondage, commentaires laissés sur google, réseaux sociaux). L'objectif est donc de tirer des apprentissages de cette quantité de données et de mettre en place des plans d'action. 
+Nous nous plaçons dans le cas d'une entrepise qui possède énormément de données textuelles (réponses à des questions ouvertes d'un sondage, commentaires laissés sur google, réseaux sociaux). L'objectif est donc de tirer des apprentissages de cette quantité de données et de mettre en place des plans d'action.
 
 ### Démarche générale pour l'entreprise
 1. Analyse sentimentale afin de déterminer si l'échantillon textuel est positif ou négatif.
@@ -115,10 +115,10 @@ Nous nous plaçons dans le cas d'une entrepise qui possède énormément de donn
 {% details "Approche méthodologique" %}
 - Création d'une base de données comprenant les notes et commentaires associés laissés par les spectateurs sur le film "The Substance" par Coralie Fargeat.
 - Analyse sentimentale en attribuant un indice de positivité sur chacun des commentaires.
-- Etude de la corrélation entre les notes attribuées par les spectateurs et l'indice de positivité. 
+- Etude de la corrélation entre les notes attribuées par les spectateurs et l'indice de positivité.
 {% enddetails %}
 {% details "Nettoyage et standardisation des données" %}
-Cette préparation préalable se fait avec les étapes suivantes : 
+Cette préparation préalable se fait avec les étapes suivantes :
 - **Etape 1 : Suppression des données manquantes**<br>
 *Fonction employée :* `dropna`
 - **Etape 2 : Nettoyage du texte**<br>
@@ -154,12 +154,12 @@ On remarque alors que la corrélation est beaucoup plus éviente. Ce code permet
 - Classification des vecteurs par la méthode des k-means.
 {% enddetails %}
 {% details "Algorithme des k-means" %}
-- Initialisation avec k le nombre de cluster souhaité. 
+- Initialisation avec k le nombre de cluster souhaité.
 - Choix de k individus au hasard (représentant les k classes à ce stade).
 - Association de chacun des individus restant à la classe la plus proche.
 - Carcatérisation de chacune des classes par la moyennes de points qu'elle contient.
 - Evaluation de la distance physique de chacun des individus à chacune des k moyennes. Les individus peuvent alors changer de classe si une autre est plus proche.
-- Ré-itération de l'étape précédente jusqu'à ce qu'il n'y ait plus de changement de classe parmis les individus. 
+- Ré-itération de l'étape précédente jusqu'à ce qu'il n'y ait plus de changement de classe parmis les individus.
 - Obtention des k clusters.
 {% enddetails %}
 {% details "Code" %}
@@ -167,15 +167,15 @@ On remarque alors que la corrélation est beaucoup plus éviente. Ce code permet
 - *Avantage :* réalise le pré-traitement des données, encode les données (attribue un vecteur à chaque commentaire textuel), clustering intégré.
 {% enddetails %}
 {% details "Résultats" %}
-La base que j'ai utilisée est la base de 50 commentaires sur le bar avec les notes associées. Pour faire tourner le modèle j'ai choisi un k de 2 afin d'obtenir 2 clusters. Le problème est que l'lagorithme semble bien s'éxécuter mais lorsque j'essaie d'afficher les données dans un graphique (un graphique en barre par exemple pour obtenir la population de chacun des clusters), mon ordinateur plante avant d'afficher les résultats. Après recherche il semblerait que cela pourrait provenir de la capacité de l'environnement virtuel que j'utilise. Je vais tenter de trouver une solution lors du second Sprint. 
+La base que j'ai utilisée est la base de 50 commentaires sur le bar avec les notes associées. Pour faire tourner le modèle j'ai choisi un k de 2 afin d'obtenir 2 clusters. Le problème est que l'lagorithme semble bien s'éxécuter mais lorsque j'essaie d'afficher les données dans un graphique (un graphique en barre par exemple pour obtenir la population de chacun des clusters), mon ordinateur plante avant d'afficher les résultats. Après recherche il semblerait que cela pourrait provenir de la capacité de l'environnement virtuel que j'utilise. Je vais tenter de trouver une solution lors du second Sprint.
 {% enddetails %}
 {% details "Code V2" %}
-- *Problématique :* Je ne suis pas parvenu à faire fonctionner `Pycaret`sur ma machine, du fait de problèmes de compatibilités avec d'autres bibliothèques. 
+- *Problématique :* Je ne suis pas parvenu à faire fonctionner `Pycaret`sur ma machine, du fait de problèmes de compatibilités avec d'autres bibliothèques.
 - *Nouvelle bibliothèque utilisée :* `sklearn`
-- *Avantage :* Cette bibliothèque, selon la documentation, est flexible et contient des extension permettant de vectoriser les données textuelles, réaliser la clusterisation à l'aide de l'algorithme kmeans mais également d'extraire les thématiques principales. 
+- *Avantage :* Cette bibliothèque, selon la documentation, est flexible et contient des extension permettant de vectoriser les données textuelles, réaliser la clusterisation à l'aide de l'algorithme kmeans mais également d'extraire les thématiques principales.
 {% enddetails %}
 {% details "Résultats V2" %}
-L'application de ce code à la base de données contenant les commentaires sur le bar a permi de réaliser 2 clusters, dont les thématiques principales extraites sont les suivantes : 
+L'application de ce code à la base de données contenant les commentaires sur le bar a permi de réaliser 2 clusters, dont les thématiques principales extraites sont les suivantes :
 ```
 Mots-clés des thèmes identifiés par LDA :
 Thème 1: serveur, accueil, boisson, prix, qualite
@@ -184,14 +184,14 @@ Thème 2: bon, bar, service, cocktail, ambiance
  {% enddetails %}
  {% details "Analyse complète" %}
  - *Objectif :* Réaliser une clusterisation thématique des commentaires laissés par les clients (en assigannt chaque commentaire à un numéro de cluster) et faire correspondre une polarité *générale* à chaque cluster reflettant le sentiment général sur la thématique extraite.
- - *Premiers Résultats :* 
+ - *Premiers Résultats :*
  ```
 Moyenne de la polarité par cluster :
 Cluster
 0    30.025132
 1    11.171875
 ```
-- *Discussion et limites :* On observe que les clients sont plus notablement plus satisfaits des prix et de la qualité des boissons que du service et de l'ambiance du bar. Une limite que l'on peut noter est que nous n'avons exploité une information donnée par l'analyse sentimentale précédente : *le score de subjectivité*. Il serait donc intéressant d'utiliser ce score afin de donner plus de poids aux commentaires les plus objectifs. 
+- *Discussion et limites :* On observe que les clients sont plus notablement plus satisfaits des prix et de la qualité des boissons que du service et de l'ambiance du bar. Une limite que l'on peut noter est que nous n'avons exploité une information donnée par l'analyse sentimentale précédente : *le score de subjectivité*. Il serait donc intéressant d'utiliser ce score afin de donner plus de poids aux commentaires les plus objectifs.
 - *Nouveau calcul :* Les résultats obtenus en pondérant la polarité des commentaires par le score de subjectivité sont les suivants :
 ```
 Moyenne pondérée de la polarité par cluster :
@@ -199,7 +199,7 @@ Cluster
 0    27.507671
 1     8.538433
 ```
-Les résultats semblent se confirmer, avec cette fois-ci une priorisation pour les commentaires les plus objectifs. 
+Les résultats semblent se confirmer, avec cette fois-ci une priorisation pour les commentaires les plus objectifs.
 {% enddetails %}
 {% details "Limites" %}
 *Choix des thématiques :* La méthode kmeans utilisée précédemment ne permet pas de choisir au prélable les thématiques des clsuters que l'on souhaite former. Comme vu dans les résultats V2, les thématiques des clusters ne sont pas particulièrement aisés à analyser car des sujets apparaissent dans les deux clusters. Une méthode permettant de choisir au préalable les thèmes serait donc plus impactante à utiliser afin d'en tirer de réels apprentissages.
@@ -231,18 +231,18 @@ Cette requête comprend deux groupes de termes, qui peuvent être séparés de n
 
 ### IA Conversationnelle
 #### Définition
-Une IA conversationnelle est une technologie qui permet aux logiciels de comprendre et de répondre aux conversations humaines, en se basant sur la voix ou un texte. Cette technologie permet d'apporter une réponse, en imitant une interaction humaine. 
+Une IA conversationnelle est une technologie qui permet aux logiciels de comprendre et de répondre aux conversations humaines, en se basant sur la voix ou un texte. Cette technologie permet d'apporter une réponse, en imitant une interaction humaine.
 
 #### Application
 Les applications pour les entreprises sont nombreuses, notamment dans le secteur du service client, afin d'augmenter la satisfaction client. D'une part, cela permet aux utilisateurs d'obtenir de l'aide 24/7. D'une autre part, cela permet d'augmenter la quantité de "self capabilities", permettant ainsi aux clients de réaliser un certain nombre de tâches, sans avoir à attendre la disponibilité d'un opérateur. Ceci permet ainsi de réduire la frsutration client. <br>
 Pour ces raisons, la mise en place de chatbot fait donc partie intégrante du NLP.
 
 #### Méthode d'implémentation d'une IA conversationnelle
-Afin de pouvoir répondre à une plus grande partie possible des requêtes clientes, une IA conversationnelle doit être entraînée. Pour cela, on réaliser les étapes suivantes : 
+Afin de pouvoir répondre à une plus grande partie possible des requêtes clientes, une IA conversationnelle doit être entraînée. Pour cela, on réaliser les étapes suivantes :
 
 {% details "Définition des thèmes conversationnels" %}
 - *Objectif :* Déterminer les thématiques des principales requêtes clientes. Cela se rapproche un peu de la clusterisation vue précédemment, l'objectif étant d'assigner chaque demande client à une thématique particulière.
-- *Exemple :* En conservant notre exemple du bar, les principaux thèmes conversationnels serait donc : 
+- *Exemple :* En conservant notre exemple du bar, les principaux thèmes conversationnels serait donc :
   + Accueil
   + Boissons et Menu
   + Ambiance
@@ -274,14 +274,14 @@ Afin de pouvoir répondre à une plus grande partie possible des requêtes clien
 - *Diversification des questions :* L'objectif est ensuite, pour chaque question, de créer des variantes de formaulation. Ceci peut aisément être réalisé en demandant à une IA générative. Un exemple de base d'entrâinement pour la thématique *Accueil* est visible dans la partie *livrables*.
 
 {% attention %}
-Afin de couvrir le plus grand nombre de questions possibles, il est important de lister le plus grand nombre de questions et de thèmes possibles. Nous avons ici réalisé un exemple avec 4 thèmes et 4 questions associées à chaque thème mais un minimum serait de 7 questions par thèmes afin d'être le plus exhaustif possible. De même, pour la diversification des formulations, l'idéal est de demander 50 variantes au moins pour chaque question. 
+Afin de couvrir le plus grand nombre de questions possibles, il est important de lister le plus grand nombre de questions et de thèmes possibles. Nous avons ici réalisé un exemple avec 4 thèmes et 4 questions associées à chaque thème mais un minimum serait de 7 questions par thèmes afin d'être le plus exhaustif possible. De même, pour la diversification des formulations, l'idéal est de demander 50 variantes au moins pour chaque question.
 {% endattention %}
 {% enddetails %}
 {% details "Structuration de la base d’entraînement" %}
-- *Objectif :* Associer à chaque requête que pourrais formuler un client une intention mais également une entité. 
+- *Objectif :* Associer à chaque requête que pourrais formuler un client une intention mais également une entité.
 - *Intention :* Le but de la requête du client, comme obtenir un délais de livraison, une information sur le suivi d'une commande, la plage horaire d'ouverture,...
 - *Entité :* Information spécifique que l'on souhaite extraire de la demande client (lieu, nom de famille, numéro de commande, horaire, "ce soir",...)
-- *Entraînement de l'IA :* Chaque question de la base d'entraînement est étiquetée avec une intention et une entité. Cela permet ensuite au logiciel de pouvoir répondre de manière efficace et rapide à une demande client en pouvant extraire de manière automatisée une intention et les informations nécéssaires pour répondre à la demande. 
+- *Entraînement de l'IA :* Chaque question de la base d'entraînement est étiquetée avec une intention et une entité. Cela permet ensuite au logiciel de pouvoir répondre de manière efficace et rapide à une demande client en pouvant extraire de manière automatisée une intention et les informations nécéssaires pour répondre à la demande.
 {% enddetails %}
 
 

@@ -12,7 +12,7 @@ tags:
   - "smtp"
   - "vert"
 
-résumé: "Ce MON a pour objectif d'expliquer comment envoyer des emails dans différents langages de programmation et de garantir la sécurité dans les échanges."
+description: "Ce MON a pour objectif d'expliquer comment envoyer des emails dans différents langages de programmation et de garantir la sécurité dans les échanges."
 ---
 
 {% prerequis %}
@@ -44,7 +44,7 @@ Connaissances de base en programmation (HTML, JavaScript, PHP, Python).
 
 ## 1. Introduction <a id="section1"></a>
 
-L'objectif de ce MON est de découvrir les différentes façons d'envoyer un email dans différents langages de manière sécurisée. 
+L'objectif de ce MON est de découvrir les différentes façons d'envoyer un email dans différents langages de manière sécurisée.
 
 ### Qu'est-ce que SMTP ?
 
@@ -227,7 +227,7 @@ except Exception as e:
 
 ## 3. Sécurité <a id="section3"></a>
 
-L'envoi d'emails en programmation nécessite de manipuler des informations sensibles comme les identifiants d'accès au serveur SMTP.  
+L'envoi d'emails en programmation nécessite de manipuler des informations sensibles comme les identifiants d'accès au serveur SMTP.
 Comment sécuriser ses informations ?
 
 ### 3.1 Utilisation des variables d’environnement
@@ -274,7 +274,7 @@ En plus de l'envoi via SMTP, on peut utiliser des **API spécialisées** pour si
 
 #### Exemple avec EmailJS (en JavaScript) :
 
-**EmailJS** permet d'envoyer des emails directement depuis une application front-end, sans avoir besoin de serveur backend. 
+**EmailJS** permet d'envoyer des emails directement depuis une application front-end, sans avoir besoin de serveur backend.
 
 1. Créez un compte sur [EmailJS](https://www.emailjs.com/).
 2. Configurez votre service email (par exemple Gmail) et créez un **template** dans l'interface EmailJS.
@@ -352,7 +352,7 @@ function send_mail(){
     }).catch(function(error) {
         console.error("Échec de l'envoi : ", error);
         alert("Échec de l'envoi, veuillez réessayer.");
-    });    
+    });
 }
 ```
 

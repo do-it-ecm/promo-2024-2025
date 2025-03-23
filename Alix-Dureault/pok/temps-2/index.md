@@ -11,7 +11,7 @@ temps: 2
 tags:
   - "info"
 
-résumé: Ce second POK réalisé en collaboration avec Ines Kebbab a pour objectif de réaliser un SI pour suivre et communiquer les items de diplomation, en collaboration avec la formation de l'école.
+description: Ce second POK réalisé en collaboration avec Ines Kebbab a pour objectif de réaliser un SI pour suivre et communiquer les items de diplomation, en collaboration avec la formation de l'école.
 ---
 
 {% prerequis %}

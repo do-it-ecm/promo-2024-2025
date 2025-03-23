@@ -14,7 +14,7 @@ tags:
   - "stéréotype"
   - "genre"
 
-résumé: "Ce projet part d’une question que je me pose depuis quelque temps : Pourquoi les femmes sont-elles sous-représentées dans les métiers de développement et de management des systèmes d’information  ? Pour mieux comprendre et appréhender les mécanismes qui consolident ou déconstruisent les stéréotypes de genre associés aux métiers des SI, je souhaite étudier la littérature sur le sujet. Cette analyse me permettra de créer un support de sensibilisation destiné notamment aux élèves en école d’ingénieur, afin de les informer et de les sensibiliser à ces enjeux."
+description: "Ce projet part d’une question que je me pose depuis quelque temps : Pourquoi les femmes sont-elles sous-représentées dans les métiers de développement et de management des systèmes d’information  ? Pour mieux comprendre et appréhender les mécanismes qui consolident ou déconstruisent les stéréotypes de genre associés aux métiers des SI, je souhaite étudier la littérature sur le sujet. Cette analyse me permettra de créer un support de sensibilisation destiné notamment aux élèves en école d’ingénieur, afin de les informer et de les sensibiliser à ces enjeux."
 
 ---
 
