@@ -10,7 +10,7 @@ date: 2024-12-12
 temps: 3
 tags:
 
-résumé: L'objectif de ce POK est de construire un guide d'aide à la décision lors du cadrage d'opérations ou projets divers. Il permettra de choisir le type de documents à mettre en place et/ou à choisir pour réaliser le suivi d'un projet et/ou des activités.
+description: L'objectif de ce POK est de construire un guide d'aide à la décision lors du cadrage d'opérations ou projets divers. Il permettra de choisir le type de documents à mettre en place et/ou à choisir pour réaliser le suivi d'un projet et/ou des activités.
 ---
 
 {% prerequis %}
@@ -286,7 +286,7 @@ Pour chaque outil, j'ai listé les différentes questions à se poser afin de st
 
 **<span style="color: red;">Livrable :</span>** <span style="color: red;">[Outils et REX](https://github.com/DamienWolbert/POK-3-Outils-de-gestion-de-projet)</span>
 
-Afin de choisir les bons outils, il suffit d'effectuer différents filtres sur les colonnes de caractérisation en fonction de : 
+Afin de choisir les bons outils, il suffit d'effectuer différents filtres sur les colonnes de caractérisation en fonction de :
 - Le thème de gestion de projet (selon Prince2)
 - Le processus de gestion de projet (selon Prince2)
 - La typologie d'outil

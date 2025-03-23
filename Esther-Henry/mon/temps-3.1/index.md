@@ -7,12 +7,12 @@ authors:
 
 date: 1971-02-01
 temps : 3
-tags: 
+tags:
   - "html"
   - "css"
   - "débutant"
 
-résumé: "L’objectif de ce MON est de découvrir les langages HTML et CSS afin d’être capable de comprendre ces langages notamment pour comprendre de quoi parle les Dev."
+description: "L’objectif de ce MON est de découvrir les langages HTML et CSS afin d’être capable de comprendre ces langages notamment pour comprendre de quoi parle les Dev."
 ---
 
 {% prerequis %}
@@ -27,13 +27,13 @@ Aucun prérequis
 
 Dans le cadre de notre Projet 3A, il est nécessaire que j’acquière les bases en HTML et CSS afin de contribuer à la création de notre site internet. De plus, je pense que, pour travailler dans le milieu de l’IT, il est fort utile de comprendre les bases de ces langages afin de pouvoir échanger plus facilement avec les développeurs avec lesquels on peut être amenée à travailler, d’où mon choix de découvrir les bases de HTML et CSS pour ce MON 3.1.
 
-Pour notre Projet 3A, je veux réaliser la page de notre présentation et, pour cela, j’ai notamment besoin de savoir faire :  
+Pour notre Projet 3A, je veux réaliser la page de notre présentation et, pour cela, j’ai notamment besoin de savoir faire :
 
-- Une page internet (base des bases)  
-- Sur laquelle mettre en page :  
-- Différents blocs de textes (police, taille, couleur, disposition)  
-- Des images (taille, disposition)  
-- Des icônes  
+- Une page internet (base des bases)
+- Sur laquelle mettre en page :
+- Différents blocs de textes (police, taille, couleur, disposition)
+- Des images (taille, disposition)
+- Des icônes
 
 ### Cours suivi
 
@@ -59,18 +59,18 @@ J’ai donc choisi de commencer à coder la base d’un site internet qui pourra
 
 ### Réalisation
 
-J’ai commencé par faire un brouillon de la structure de mon site, qui comportera trois types de pages : 
+J’ai commencé par faire un brouillon de la structure de mon site, qui comportera trois types de pages :
 
-- Page de présentation  
-- Page par pays  
-- Page par destination/ville  
+- Page de présentation
+- Page par pays
+- Page par destination/ville
 
 J’ai ensuite créé un dossier (en local) dans lequel j’ai placé un **dossier “images”**, et j’ai créé mes fichiers **”index.html”**, **”style.css”** puis **”bolivie.html”** (comme exemple de fiche pays).
 
 Puis, j’ai repris les différentes notions vues dans les cours, notamment la structure d’un code HTML avec les notions de “header”, “body”, “main”, etc.
 
 {% info %}
-Comme il m’est arrivé plusieurs fois d’oublier : pensez bien à ajouter la ligne **```<link href="style.css" rel="stylesheet">```** dans les balises `<head>` de votre code HTML pour le lier avec le CSS.  
+Comme il m’est arrivé plusieurs fois d’oublier : pensez bien à ajouter la ligne **```<link href="style.css" rel="stylesheet">```** dans les balises `<head>` de votre code HTML pour le lier avec le CSS.
 Sinon, comme moi, vous allez perdre du temps à croire que vos modifications du CSS ne fonctionnent pas, alors que vous ne les avez juste pas appelées dans le HTML. 🥲
 {% endinfo %}
 

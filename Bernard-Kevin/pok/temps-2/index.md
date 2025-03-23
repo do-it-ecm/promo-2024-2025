@@ -17,7 +17,7 @@ tags:
   - "API REST"
   - "React Three Fiber"
 
-résumé: Un POK où je crée un site web attirant en React pour gérer mes tâches avec des animations 3D.
+description: Un POK où je crée un site web attirant en React pour gérer mes tâches avec des animations 3D.
 ---
 
 {% prerequis %}

@@ -10,7 +10,7 @@ date: 2024-09-11
 temps: 1
 tags:
 
-résumé: "Un MON traitant de l'initiation au développement d'applications mobiles pour les débutants absolus."
+description: "Un MON traitant de l'initiation au développement d'applications mobiles pour les débutants absolus."
 ---
 
 {% prerequis %}
@@ -136,7 +136,7 @@ Ses avantages sont :
 - **Performance supérieure** : Les applications natives ont un accès complet aux ressources et API de la plateforme, ce qui se traduit par de meilleures performances et une meilleure intégration.
 - **Expérience Utilisateur (UX)** : Amélioration de l'expérience utilisateur, car les applications suivent les directives de conception spécifiques à la plateforme, offrant une interface intuitive et familière.
 - **Accès complet aux ressources** : Permet d'utiliser toutes les fonctionnalités de l'appareil, telles que les capteurs et les services natifs, avec une grande efficacité.
-  
+
 Mais elle présente également des inconvénients :
 - **Coût de développement** : Plus coûteux et plus long, car il nécessite le développement de deux applications distinctes (une pour chaque plateforme). Autrement dit, il est nécessaire d'avoir une équipe pour chaque plateforme afin de développer une même application.
 - **Maintenance** : Les mises à jour et la maintenance doivent être effectuées séparément pour chaque plateforme, augmentant ainsi le coût et les efforts.
@@ -165,7 +165,7 @@ Les frameworks sont des structures de développement qui fournissent un **ensemb
 Les bibliothèques sont des collections de codes réutilisables que les développeurs appellent explicitement dans leur code pour exécuter une fonction spécifique. En d'autres termes, le contrôle est entre les mains du développeur, qui décide quand et comment utiliser la bibliothèque.
 Quant aux frameworks, ils définissent la structure et contrôlent le flux de l'application. Dans ce cas, c'est le framework qui « appelle » le code du développeur à des moments précis. Au lieu que le développeur contrôle le flux principal du programme, il met en œuvre des parties du code que le framework exécute en réponse à certains événements.
 
-Les deux principaux frameworks utilisés sur le marché pour le développement multiplateforme d'applications mobiles sont **React Native** (développé par FaceBook) et **Flutter** (développé par Google). 
+Les deux principaux frameworks utilisés sur le marché pour le développement multiplateforme d'applications mobiles sont **React Native** (développé par FaceBook) et **Flutter** (développé par Google).
 
 
 ### Comparation Final
@@ -194,9 +194,9 @@ Pour conclure, les principales différences entre ces approches de développemen
 
 Émuler quelque chose, c'est le copier ou le reproduire. Dans l'univers du développement d'applications, un émulateur est un matériel ou un logiciel qui **permet à un ordinateur d'en imiter un autre**. Les applications mobiles sont conçues pour fonctionner sur des appareils mobiles, mais elles sont codées à l'aide d'ordinateurs. Ainsi, afin de tester le code, les développeurs ont besoin d'un moyen d'**émuler les systèmes d'exploitation mobiles comme iOS ou Android sur leurs ordinateurs**.
 
-L'émulateur donne accès à toutes les capacités requises au niveau du système pour reproduire l'appareil mobile, y compris la quantité de RAM ou de mémoire de travail, le type et la vitesse du processeur, la taille et la résolution de l'écran et la quantité de stockage de fichiers locaux disponible. Les émulateurs font gagner du temps et de l'argent à l'équipe de développement en lui permettant de mettre en œuvre différents environnements de test qui reproduisent de manière fiable les appareils de l'utilisateur final. 
+L'émulateur donne accès à toutes les capacités requises au niveau du système pour reproduire l'appareil mobile, y compris la quantité de RAM ou de mémoire de travail, le type et la vitesse du processeur, la taille et la résolution de l'écran et la quantité de stockage de fichiers locaux disponible. Les émulateurs font gagner du temps et de l'argent à l'équipe de développement en lui permettant de mettre en œuvre différents environnements de test qui reproduisent de manière fiable les appareils de l'utilisateur final.
 
-Bien que les émulateurs soient une solution puissante, ils ont certaines limites, ce qui signifie que **même les meilleurs émulateurs ne peuvent pas émuler certains aspects de l'environnement mobile natif**. C'est pourquoi il est d'usage que les développeurs testent leurs applications à la fois sur l'environnement émulé et sur des appareils physiques, dans la mesure du possible. 
+Bien que les émulateurs soient une solution puissante, ils ont certaines limites, ce qui signifie que **même les meilleurs émulateurs ne peuvent pas émuler certains aspects de l'environnement mobile natif**. C'est pourquoi il est d'usage que les développeurs testent leurs applications à la fois sur l'environnement émulé et sur des appareils physiques, dans la mesure du possible.
 
 Généralement, les IDE's et frameworks incluent un émulateur ou en suggèrent un.
 

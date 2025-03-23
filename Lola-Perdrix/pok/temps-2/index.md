@@ -15,7 +15,7 @@ tags:
   - "site"
   - "javascript"
 
-résumé: Réalisation d'un site web sur lequel on peut jouer au mémory.
+description: Réalisation d'un site web sur lequel on peut jouer au mémory.
 ---
 
 {% prerequis %}

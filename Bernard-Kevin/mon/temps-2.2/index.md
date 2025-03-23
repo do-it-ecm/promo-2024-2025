@@ -17,7 +17,7 @@ tags:
   - "jpa"
   - "backend"
 
-résumé: ""
+description: ""
 ---
 
 {% prerequis %}

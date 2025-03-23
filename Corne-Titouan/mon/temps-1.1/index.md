@@ -8,14 +8,14 @@ authors:
 date: 2024-09-12
 
 temps: 1
-tags: 
+tags:
   - "vert"
   - "Web"
   - "cartographie"
   - "SIG"
   - "OpenLayers"
 
-résumé: "Ce MON est consacré à la représentation cartographique Web, en utilisant l'API JavaScript OpenLayers."
+description: "Ce MON est consacré à la représentation cartographique Web, en utilisant l'API JavaScript OpenLayers."
 ---
 
 {% prerequis %}
@@ -177,7 +177,7 @@ Pour aller plus loin, j'ai créé mon propre fichier GeoJson reprennant d'autres
         "geometry": {
           "type": "Point",
           "coordinates": [150.149994, -33.483334]
-        }   
+        }
       }
     ]
   }

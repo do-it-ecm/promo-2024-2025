@@ -6,10 +6,10 @@ authors:
 - Damien WOLBERT
 
 date: 2025-02-28
-tags: 
+tags:
 - "temps 3"
 
-résumé: "L'objectif de ce MON est d'énoncer les principes fondamentaux du management de la qualité au sein des organisations. Cette étude se fera par le prisme de la norme ISO 9001, attestant du niveau du SMQ (système de management de la qualité) d'une organisation."
+description: "L'objectif de ce MON est d'énoncer les principes fondamentaux du management de la qualité au sein des organisations. Cette étude se fera par le prisme de la norme ISO 9001, attestant du niveau du SMQ (système de management de la qualité) d'une organisation."
 ---
 {% prerequis %}
 - Notion de processus
@@ -39,7 +39,7 @@ résumé: "L'objectif de ce MON est d'énoncer les principes fondamentaux du man
 ### 1.1. Qu'est-ce que c'est ?
 D'après le site de l'ISO **[2]**, un SMQ est "[...] un ensemble clairement défini de processus et de responsabilités permettant à votre entreprise de fonctionner comme elle est censée le faire. Chaque organisation adapte en fonction de son contexte son SMQ, lequel repose sur un ensemble formalisé de politiques, de processus et de procédures visant à accroître la satisfaction des consommateurs."
 
-**Un SMQ permet de :** 
+**Un SMQ permet de :**
 1. Formaliser le fonctionnement et les réflexions d'une entreprise à propos de son environnmenent, son marché et ses clients.
 2. Pérenniser les connaissances et compétences d'une entreprise par l'amélioration continue.
 3. Identifier en amont les potentiels risques et opportunités ainsi que les méthodes pour les gérer.
@@ -55,7 +55,7 @@ D'après le site de l'ISO **[2]**, un SMQ est "[...] un ensemble clairement déf
 7. Management des relations avec les parties prenantes
 
 ### 1.3. Exemples
-Différentes structures adoptent des SMQ, souvent par le biais de la certification ISO 9001. On peut citer : 
+Différentes structures adoptent des SMQ, souvent par le biais de la certification ISO 9001. On peut citer :
 - KSI Centrale Marseille
 - Le Foceen
 - Airbus Atlantic **[3]**
@@ -69,27 +69,27 @@ Différentes structures adoptent des SMQ, souvent par le biais de la certificati
 L’ISO (international organisation for standradisation) "[...] est une organisation internationale indépendante et non gouvernementale. Elle réunit des experts du monde entier pour définir les meilleures pratiques à suivre." **[5]**
 
 **La norme ISO 9001 :**
-La norme ISO 9001 est un ensemble de principes régissant le fonctionnement d'une entreprise. Elle ... : 
-- ... Est basée sur des processus, l'amélioration continue, la gestion des risques et opportunités. 
+La norme ISO 9001 est un ensemble de principes régissant le fonctionnement d'une entreprise. Elle ... :
+- ... Est basée sur des processus, l'amélioration continue, la gestion des risques et opportunités.
 - ... Atteste qu'une entreprise veille à continuellement garantir une grande qualité de produits/services et qu'elle a les moyens de le prouver en détaillant sa démarche.
 
 ### 2.3. Pourquoi ?
 
-**Raisons organisationnelles : perénité de l'organisation**  
-D'après le site de l'ISO **[4]**, l'ISO 9001 permet de : 
+**Raisons organisationnelles : perénité de l'organisation**
+D'après le site de l'ISO **[4]**, l'ISO 9001 permet de :
 1. Garantir une aptitude à fournir des produits et services conformes aux exigences des clients et aux exigences légales et règlementaires.
 2. Permettre et facilitéerune amélioration de la satisfaction clients
 3. Maitriser les risques et opportunités de l'organisation
 4. Forcer les collaborateur à suivre une politique qualité grâce à une contrainte d'audit externe.
 
-**Raisons commerciales :**  
-L'ISO 9001 permet donc de : 
+**Raisons commerciales :**
+L'ISO 9001 permet donc de :
 1. Démontrer la maitrise des points précédents par des éléments concrets et certifiés
 2. Développer sa clientèle grâce à l'orientation clients. D'après une étude réalisée par la ***Chaire Paris Dauphine***, les entreprises certifiées augmentent en moyenne de 4% leur chiffre d'affaire et de 7% leur chiffre d'affaire à l'export. **[6]**
 3. Ouvrir de nouveaux marchés grâce à la gestion des opportunités.
 
 ### 2.4. Comment être certifié ?
-Afin d'obtenir la certification il faut : 
+Afin d'obtenir la certification il faut :
 1. Mettre en place un SMQ en suivant la dite norme
 
 {% note %}
@@ -128,7 +128,7 @@ Regroupe l'ensemble des exigences que l'entreprise se fixe. Elle :
 {% enddetails %}
 
 {% details "Objectif qualité" %}
-Un objectif qualité se caractérise par : 
+Un objectif qualité se caractérise par :
 - Cohérence avec la politique qualité (i.e. avec l'ensemble des objectifs qualité)
 - Prise en compte des exigences applicables (i.e. les exigences du SMQ, du client, légales et règlementaires)
 - Mesurabilité
@@ -142,7 +142,7 @@ Un objectif qualité est SMART, **mais pas seulement** !
 {% enddetails %}
 
 {% details "Action qualité" %}
-Une action qualité vise à remplir l'objectif qualité. Elle définit : 
+Une action qualité vise à remplir l'objectif qualité. Elle définit :
 - Ce qui doit être fait
 - Ressouces nécessaires
 - Responsable
@@ -151,7 +151,7 @@ Une action qualité vise à remplir l'objectif qualité. Elle définit :
 {% enddetails %}
 
 {% details "Gestion des opportunités et risques" %}
-Doit être proportionnelle à l'impact possible de ces risques et opportunités.  
+Doit être proportionnelle à l'impact possible de ces risques et opportunités.
 
 **Typologie d'actions face aux risques :**
 | Action | Réduction |
@@ -161,7 +161,7 @@ Doit être proportionnelle à l'impact possible de ces risques et opportunités.
 | Eliminer la source | Mise à 0 de la probabilité |
 | Réduire la criticité | Réduit la probabilité et/ou l'ampleur |
 | Partager les risques | Réduit l'ampleur |
-*On mesure un risque par sa criticité : criticité = probabilité x ampleur*  
+*On mesure un risque par sa criticité : criticité = probabilité x ampleur*
 {% enddetails %}
 
 {% details "Conformité des produits/services" %}
@@ -177,7 +177,7 @@ La conformité d'un produit et/ou d'un service correspond à sa compatibilité a
 Au vu des points précédents, le MQ invite à régulièrement utiliser les outils suivants :
 
 - PDCA
-- Processus 
+- Processus
 - SWOT
 - Matrice de gestion des risques
 
@@ -186,7 +186,7 @@ La création du SMQ se fait de manière itérative. Elle demande d'utiliser une 
 {% note %}
 Une fois qu'une élément d'un SMQ a été réalisé, il doit être **suivi et maintenu** !!
 {% endnote %}
-Lors de la mise en place, chaque chantier doit suivre et continuer le cycle de vie suivant : 
+Lors de la mise en place, chaque chantier doit suivre et continuer le cycle de vie suivant :
   - Déterminer le (sous-)système à mettre en place
   - Mettre en oeuvre le système
   - Documenter le système
@@ -194,7 +194,7 @@ Lors de la mise en place, chaque chantier doit suivre et continuer le cycle de v
 
 ### 3.5. Chantiers à mener
 
-La mise en place d'un SMQ revient à permettre l'utilisation d'un PDCA pour la plupart des activités de la structure. Elle nécessite un travail en profondeur sur les points suivants : 
+La mise en place d'un SMQ revient à permettre l'utilisation d'un PDCA pour la plupart des activités de la structure. Elle nécessite un travail en profondeur sur les points suivants :
 
 1. Compréhension et prise en compte de la structure, de son ecostyème
 2. Engagement de la direction et définition d'une politique qualité
@@ -211,7 +211,7 @@ La mise en place d'un SMQ revient à permettre l'utilisation d'un PDCA pour la p
 
 Le SMQ permet en effet de mieux maitriser son activité. Toutefois, si sa conception ou sa maitrise sont mal réalisées alors, il n'apporte plus à la structure et devient inutilement chronophage.
 
-Ayant participé à l'utilisation du SMQ d'une structure sans y avoir été formé, je discerne 4 points d'attention : 
+Ayant participé à l'utilisation du SMQ d'une structure sans y avoir été formé, je discerne 4 points d'attention :
 1. Sans formation, les collaborateurs peuvent ne pas voir l'intérêt du SMQ
 2. Sans formation, les collaborateurs peuvent ne pas comprendre le cadre d'application du SMQ (orientation client) et le confondre avec la gestion documentaire.
 3. Comme il est mentionné dans la norme ISO 9001, l'application du SMQ doit s'accompagner de matériels et cadre permettant sa mise en place : outils de suivi, identification claire des indicateurs, ritualisation et communication autours des démarches qualité.

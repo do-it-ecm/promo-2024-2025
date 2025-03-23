@@ -14,7 +14,7 @@ tags:
   - "densités"
   - "carte de chaleur"
 
-résumé: Analyse de données - La vente de casques et baudriers est-elle corrélée au nombre de permis de construire délivrés chaque année ?
+description: Analyse de données - La vente de casques et baudriers est-elle corrélée au nombre de permis de construire délivrés chaque année ?
 ---
 
 {% prerequis %}
@@ -63,7 +63,7 @@ J'ai trouvé des données sur les permis de construire en explorant les sites go
 {% endlien %}
 
 
-### Etape 1 
+### Etape 1
 
 Ma première étape a été d'analyser l'évolution temporelle de ces deux types de permis de construire.
 
@@ -122,7 +122,7 @@ Total permis Logements: 1743110
 
 Un premier problème avec cette représentation visuelle est qu'il n'est pas toujours évident de déterminer où commencent exactement les barres : au point où la couleur change ou bien à zéro ? Ici, toutes les barres débutent à zéro, et l'utilisation de la transparence permet de mieux le voir.
 
-### Etape 3 
+### Etape 3
 
 En suivant les instructions de ce livre, toujours le même, et plus particulièrement celles de [`Fundamentals of Data Visualization - Visualizing distributions`](https://clauswilke.com/dataviz/histograms-density-plots.html#multiple-histograms-densities)
 
@@ -155,39 +155,39 @@ def superpositionDensities():
     plt.figure(figsize=(12, 8))
 
     sns.kdeplot(
-        data=permis_data1, 
-        x='MOIS', 
-        weights='Nombre de Permis', 
-        label="Locaux non résidentiels", 
-        fill=True, 
-        alpha=0.5, 
-        color="blue", 
+        data=permis_data1,
+        x='MOIS',
+        weights='Nombre de Permis',
+        label="Locaux non résidentiels",
+        fill=True,
+        alpha=0.5,
+        color="blue",
         bw_adjust=0.5
     )
     sns.kdeplot(
-        data=permis_data2, 
-        x='MOIS', 
-        weights='Nombre de Permis', 
-        label="Logements", 
-        fill=True, 
-        alpha=0.5, 
-        color="orange", 
+        data=permis_data2,
+        x='MOIS',
+        weights='Nombre de Permis',
+        label="Logements",
+        fill=True,
+        alpha=0.5,
+        color="orange",
         bw_adjust=0.5
     )
-    
+
     # Ajuster les axes
     plt.title("Densités des autorisations d'urbanisme par mois", fontsize=16)
     plt.xlabel("Année", fontsize=14)
     plt.ylabel("Densité pondérée par nombre de permis", fontsize=14)
 ``````
 
-`````` 
+``````
 def superpositionDensities2():
    # Calculer les densités
     from scipy.stats import gaussian_kde
     kde1 = gaussian_kde(data1['MOIS'].map(pd.Timestamp.toordinal), bw_method=0.15)
     kde2 = gaussian_kde(data2['MOIS'].map(pd.Timestamp.toordinal), bw_method=0.15)
-    
+
     # Calculer les densités ajustées
     density1 = kde1(x_ordinal) * total_permis1
     density2 = kde2(x_ordinal) * total_permis2
@@ -230,7 +230,7 @@ Voici une première version qui montre les densités respectives de manière plu
 
 Ce que je retrouve dans les étapes 3 et 4, c'est que malgré une interprétation visuelle plus facile du contenu, il reste difficile de retrouver le chiffre exact de permis de construire pour les logements délivrés en 2020, par exemple, sans sortir une calculatrice et faire les calculs à la main.
 
-*Pour la suite* : 
+*Pour la suite* :
 Je vais continuer l'étape 4 afin d’obtenir enfin une version avec les zones grises représentant la distribution globale des permis de construire.
 
 ## Second Sprint
@@ -252,18 +252,18 @@ Estimating the annual sales of hard hats and safety harnesses in France since 20
 **Hard Hats (Casques de Sécurité):**
 
 - **Annual Sales Estimate**: Approximately 1.5 million units are sold annually in France.
-*Source*: A 2011 report indicated that the French market for head protection was valued at €22.2 million, with construction helmets accounting for about one-third (€6.7 million). This corresponded to nearly 1.5 million units sold annually, with an increasing trend in recent years. 
+*Source*: A 2011 report indicated that the French market for head protection was valued at €22.2 million, with construction helmets accounting for about one-third (€6.7 million). This corresponded to nearly 1.5 million units sold annually, with an increasing trend in recent years.
 [`BASELO PRESSE`](https://www.baselopresse.fr/batidistribution/produits/protection-de-la-tete/les-casques-de-securite-1333/pdf?utm_source=chatgpt.com)
 
-- **Market Growth**: The market for Personal Protective Equipment (PPE) in France has experienced steady growth over the past decade, surpassing €1.5 billion in 2023. This growth is driven by stricter regulations, innovation, and heightened attention to workplace safety and well-being. 
+- **Market Growth**: The market for Personal Protective Equipment (PPE) in France has experienced steady growth over the past decade, surpassing €1.5 billion in 2023. This growth is driven by stricter regulations, innovation, and heightened attention to workplace safety and well-being.
 [`MADEINFR.FR`](https://madeinfr.fr/etudes-de-marche/industrie/le-marche-des-equipements-de-protection-individuelle-epi-en-france/?utm_source=chatgpt.com)
 
 **Safety Harnesses (Harnais de Sécurité):**
 
-- **Market Size**: The global market for safety harnesses was valued at $1.41 billion in 2024 and is projected to reach $2.1 billion by 2032, with a Compound Annual Growth Rate (CAGR) of approximately 5.1% during the forecast period. 
+- **Market Size**: The global market for safety harnesses was valued at $1.41 billion in 2024 and is projected to reach $2.1 billion by 2032, with a Compound Annual Growth Rate (CAGR) of approximately 5.1% during the forecast period.
 [`BUSINESS RESEARCH INSIGHTS`](https://www.businessresearchinsights.com/fr/market-reports/safety-harnesses-market-107128?utm_source=chatgpt.com)
 
-- **French Market Trends**: The safety harness market in France has been evolving, reflecting growing concerns about workplace safety and technological innovation. There has been a significant increase in demand for PPE, particularly in sectors like construction, industry, and emergency services. 
+- **French Market Trends**: The safety harness market in France has been evolving, reflecting growing concerns about workplace safety and technological innovation. There has been a significant increase in demand for PPE, particularly in sectors like construction, industry, and emergency services.
 [`P MARKET RESEARCH`] (https://pmarketresearch.com/fr/rapports/rapport-detude-de-marche-mondial-et-francais-sur-les-harnais-de-protection-antichute/?utm_source=chatgpt.com)
 
 **Estimation Approach:**
@@ -371,7 +371,7 @@ L’objectif de ce POK était avant tout de manipuler des jeux de données, d’
 
 Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la fin du sprint on fait une petite étude post-mortem pour voir ce qui s'est passé et les ajustement à faire pour le prochain sprint, pok.
 
-- [x] Recherche d'open data sur les permis de construire en France 
+- [x] Recherche d'open data sur les permis de construire en France
 - [x] Manipulation des bases de données
 - [x] Amélioration des visualisations avec mon MON 2.2 et le livre Fundamentals of Data Visualization
 - [x] Jeux sur les Histogrammes et Density plots pour voir ce qui est possible
@@ -380,7 +380,7 @@ Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la
 
 - [ ] Obtenir les données de ventes de casque de l'entreprise
 - [ ] Nettoyage et tri des données
-- [x] Recherche d'une corrélation 
+- [x] Recherche d'une corrélation
 - [x] Analyse de la régression linéaire et interprétation
 - [ ] Expliquer le phénomène physiquement
 

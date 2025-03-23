@@ -9,12 +9,12 @@ date: 2024-10-01
 temps: 1
 tags:
 
-résumé: "Traduire un concept abstrait et complexe en une stratégie concrète et pratique pour une ville ou une entreprise. "
+description: "Traduire un concept abstrait et complexe en une stratégie concrète et pratique pour une ville ou une entreprise. "
 ---
 
-Cette étude de cas a pour but de comprendre comment traduire un concept abstrait et complexe en une stratégie concrète et pratique pour une ville ou une entreprise. 
+Cette étude de cas a pour but de comprendre comment traduire un concept abstrait et complexe en une stratégie concrète et pratique pour une ville ou une entreprise.
 
-Concrètement, il s'agira de : 
+Concrètement, il s'agira de :
 1. Décrypter les approches et méthodes présentées dans les ressources du ["Doughnut Economics Action Lab", ou DEAL](https://doughnuteconomics.org/) ;
 2. Identifier les enjeux, difficultés et différences d'un point de vue organisationnel (public VS privé) ;
 3. Questionner sur les éventuels besoins SI et d'outils digitaux pour simplifier l'appropriation du concept et/ou le suivi des indicateurs utiles dans les organisations dans le cadre de leurs stratégies RSE.
@@ -26,7 +26,7 @@ Il n'est pas nécessaire de connaître en profondeur le principe économique pou
 
 La Théorie du Donut est une conception de l'économiste Kate Raworth qui invite à repenser l'économie actuelle pour l'inscrire dans un cadre nouveau prenant en compte les limites planétaires et les "besoins" minimums sociaux à satisfaire pour une économie plus durable.
 
-Ce concept, bien que très intéressant pour comprendre les enjeux RSE/ESG, semble complexe à utiliser et reste encore marginal pour penser des stratégies ESG d'entreprises à cause du manque d'outils à disposition. Quelques villes, comme Amsterdam ou Bruxelles, se sont déjà lancés dans l'aventure... mais il n'y a pas encore de réel outil ou référentiel basé sur le Donut pour le traduire en une stratégie ESG concrète dans les entreprises. 
+Ce concept, bien que très intéressant pour comprendre les enjeux RSE/ESG, semble complexe à utiliser et reste encore marginal pour penser des stratégies ESG d'entreprises à cause du manque d'outils à disposition. Quelques villes, comme Amsterdam ou Bruxelles, se sont déjà lancés dans l'aventure... mais il n'y a pas encore de réel outil ou référentiel basé sur le Donut pour le traduire en une stratégie ESG concrète dans les entreprises.
 
 Comment expliquer cette différence entre la mise à l'échelle d'une ville et la mise à l'échelle dans une  entreprise ?
 
@@ -136,14 +136,14 @@ L’équipe a rendu publique son Data Portrait sous un format visuel de slides i
 L’exemple de Yerevan ([source](https://doughnuteconomics.org/stories/yerevan-embraces-doughnut-mindset)) :
 
 > During the process data challenges were faced both for designing local lenses and global ones. In case of local lenses there was available data at either country or city level but the challenges were mainly related to the quality of data (problems with timeliness, consistency, continuity, validity); in case of global lenses, lots of data is not available for Armenia on planetary boundaries, especially for forming global-ecological lense. So, Yerevan City Portrait has some missing or incomparable data on all of its lenses.
-> 
-> 
+>
+>
 > Nevertheless, these data challenges are not viewed as something negative and unsolvable but rather something to give a thought to, an adversity to be turned into opportunity; to move on with identification of further data challenges and *providing innovative solutions in achieving data-driven city development.*
-> 
+>
 
 **Base de données:**
 
-Des objectifs et des indicateurs sociaux pertinents au niveau local sont souvent disponibles sur les sites internet des autorités municipales et des services statistiques nationaux et internationaux, d’autres données (notamment sur le gloabl social et écologique) sont déjà collectées par certains organismes. 
+Des objectifs et des indicateurs sociaux pertinents au niveau local sont souvent disponibles sur les sites internet des autorités municipales et des services statistiques nationaux et internationaux, d’autres données (notamment sur le gloabl social et écologique) sont déjà collectées par certains organismes.
 
 Il y a donc un enjeu derrière de qualité des données et de centralisation d’un large set de données de différents ministères ou acteurs sur les aspects sociaux (l’égalité des genres, sur le travail, la santé, l’éducation, la justice…) mais aussi sur les aspects environnementaux (biodiversité, émissions de GES, océan, qualité de l’air, qualité des sols…) ainsi que ceux impactant les deux aspects (nourriture, énergie, eau…).
 
@@ -182,7 +182,7 @@ D'autres sujets SI peuvent être soulevés (outils de consultation des citoyens 
 
 Un outil est proposé par le DEAL pour les entreprises, tout en encadrant les conditions d'appropriation du concept du donut pour des enjeux business.
 
-Il comprend également des considérations clés pour certains types de participants : [start-ups](https://docs.google.com/presentation/d/1JD1GsVs8Iih16Wcx_rLWLfdAbQaUUDqDLXl-xMNXzOw/edit#slide=id.p84), [grandes entreprises](https://docs.google.com/presentation/d/1JD1GsVs8Iih16Wcx_rLWLfdAbQaUUDqDLXl-xMNXzOw/edit#slide=id.p85), [entreprises familiales](https://docs.google.com/presentation/d/1JD1GsVs8Iih16Wcx_rLWLfdAbQaUUDqDLXl-xMNXzOw/edit#slide=id.p86) et [entreprises éthiques](https://docs.google.com/presentation/d/1JD1GsVs8Iih16Wcx_rLWLfdAbQaUUDqDLXl-xMNXzOw/edit#slide=id.p87). 
+Il comprend également des considérations clés pour certains types de participants : [start-ups](https://docs.google.com/presentation/d/1JD1GsVs8Iih16Wcx_rLWLfdAbQaUUDqDLXl-xMNXzOw/edit#slide=id.p84), [grandes entreprises](https://docs.google.com/presentation/d/1JD1GsVs8Iih16Wcx_rLWLfdAbQaUUDqDLXl-xMNXzOw/edit#slide=id.p85), [entreprises familiales](https://docs.google.com/presentation/d/1JD1GsVs8Iih16Wcx_rLWLfdAbQaUUDqDLXl-xMNXzOw/edit#slide=id.p86) et [entreprises éthiques](https://docs.google.com/presentation/d/1JD1GsVs8Iih16Wcx_rLWLfdAbQaUUDqDLXl-xMNXzOw/edit#slide=id.p87).
 
 ### La méthode :
 
@@ -209,13 +209,13 @@ Pour le monde professionnel, l'outil semble pourtant pertinent pour sensibiliser
 
 Un dernier frein non négligeable à l'utilisation de la théorie du donut : la résistance au changement, notamment sur les enjeux socio-environnementaux.
 
-**Mais, comment faire travailler les entreprises et acteurs publiques en coalition ?** 
+**Mais, comment faire travailler les entreprises et acteurs publiques en coalition ?**
 Voici quelques pistes :
-- Des programmes d’open innovation, 
-- Des programmes de co-design de filières, 
-- L’auto-évaluation ESG obligatoire pour demander des subventions aux acteurs publiques (ex. Métropole de Lyon). 
+- Des programmes d’open innovation,
+- Des programmes de co-design de filières,
+- L’auto-évaluation ESG obligatoire pour demander des subventions aux acteurs publiques (ex. Métropole de Lyon).
 
-D’autres types d’acteurs comme des syndicats peuvent faire le lien entre les entreprises et les acteurs publiques locaux (ex. Bretagne et compétences RH). 
+D’autres types d’acteurs comme des syndicats peuvent faire le lien entre les entreprises et les acteurs publiques locaux (ex. Bretagne et compétences RH).
 
 De plus, les entreprises et les acteurs locaux ont des intérêts communs à discuter (formation et emplois, compétences nécessaires au local…)
 
@@ -224,7 +224,7 @@ Voir aussi : [article de Le Monde - 02/10/2024](https://www.lemonde.fr/emploi/ar
 
 ### Le mot de la fin
 
-Pour faire face aux enjeux socio-environnementaux de demain, la théorie du donut est un outil intéressant qui permet de questionner de nombreux enjeux en terme de management, gestion de projet et systèmes d'informations. 
+Pour faire face aux enjeux socio-environnementaux de demain, la théorie du donut est un outil intéressant qui permet de questionner de nombreux enjeux en terme de management, gestion de projet et systèmes d'informations.
 
 Certaines organisations s'en s'ont emparés pour créer les stratégies à l'échelle d'un territoire (d'une ville). Ils utilisent notamment des méthodes d'idéation proche de l'intelligence collective et proposent de mettre en relation toutes les parties prenantes (ce qui d'après moi, est une approche à la bonne échelle pour répondre aux enjeux de demain).
 

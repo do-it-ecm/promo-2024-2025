@@ -13,7 +13,7 @@ tags:
   - "Beginner"
   - "Basics"
 
-résumé: "Un MON reprenant les bases du HTML et CSS"
+description: "Un MON reprenant les bases du HTML et CSS"
 ---
 
 {% prerequis %}

@@ -13,7 +13,7 @@ tags:
   - "Android"
   - "Kotlin"
 
-résumé: Un POK pour apprendre les bases de la programmation Kotlin qui permet de coder des applications Android.
+description: Un POK pour apprendre les bases de la programmation Kotlin qui permet de coder des applications Android.
 ---
 
 {% prerequis %}
@@ -208,7 +208,7 @@ Cette petite application est un jeu d'estimation. Il faut trouver un nombre entr
 - [guide de style](https://developer.android.com/kotlin/style-guide?hl=fr)
 - [TUTO Android : Votre première application Android (mise en oeuvre avec Android Studio)](https://www.youtube.com/watch?v=TCJFoExOBUE)
 - [Simple Kotlin App | Android Studio | 2024](https://www.youtube.com/watch?v=XLt_moCoauw)
-  
+
 {% endlien %}
 
 {% info %}
@@ -318,7 +318,7 @@ De même, j'ai saisi le contenu textuel (dans le fichier ./res/values/string.xml
 {% info %}
 
 C'est à ce moment qu'on relève l'importance du temps passé à réaliser des wireframes qui permettent de ne pas se perdre et d'organiser au mieux son espace de travail.
-  
+
 {% endinfo %}
 
 Ensuite, j'ai importé tous les icons présents dans mes wireframes (dans le dossier ./res/drawable). J'ai également ajouté une photo pour l'afficher à l'emplacement prévu pour un retour d'expérience.
@@ -332,7 +332,7 @@ Enfin, après avoir créé un *Android Ressource Directory* pour stocker les dif
 {% attention "**Faites attention à vos noms de fichiers**" %}
 
 Le nom de fichier des ressources doit être écrit en **minuscules** et seul le caractère **underscore** est autorisé.
-  
+
 {% endattention %}
 
 ### 8. Implémenter l'interface en respectant les wireframes <a id="section8"></a>
@@ -350,5 +350,5 @@ Ce premier POK m'a été utile à la fois sur le plan technique et sur le plan g
 - [Cahier des charges, exemple simple à utiliser. Source : site Manager Go!, article rédigé par Laurent GRANGER (16/11/2023)](https://www.manager-go.com/gestion-de-projet/dossiers-methodes/elaborer-un-cdc)
 - [Vidéo youtube : Créer une application mobile sur Android (Formation débutant). Source : Graven - Développement (2021)](https://www.youtube.com/watch?v=WlDzTh4WXek&t=2714s)
 - [Site officiel Android Studio](https://developer.android.com/studio?hl=fr)
-  
+
 {% endlien %}

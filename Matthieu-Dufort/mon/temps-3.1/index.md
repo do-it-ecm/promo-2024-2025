@@ -7,11 +7,11 @@ authors:
 
 date: 2025-01-28
 temps: 3
-tags: 
+tags:
   - "Management"
   - "Management algorithmique"
 
-résumé: "Un mon ayant pour but de découvrir le management algorithmique en analysant la théorie et un cas pratique"
+description: "Un mon ayant pour but de découvrir le management algorithmique en analysant la théorie et un cas pratique"
 ---
 
 Le contenu de ce MON rassemblera la théorie sur ce type de management ainsi qu'un cas pratique sur une plateforme le mettant en place.
@@ -84,7 +84,7 @@ Cependant, d'autres pensent que le management algorithmique diffère fondamental
 Les algorithmes peuvent analyser de grandes quantités de données rapidement, permettant des décisions plus rapides.
 
 - Réduction des coûts :
-  
+
 En automatisant certaines fonctions de gestion, les entreprises peuvent économiser sur les ressources humaines.
 
 - Meilleure réactivité :
@@ -112,10 +112,10 @@ Le suivi en temps réel peut être perçu comme intrusif, suscitant des préoccu
 ## Que dit la loi
 
 1. La surveillance algorithmique pose des questions sur le RGPD et la loie française.
-  
+
 2. Les décisions de recrutement ne peuvent pas être basées   iquement sur des algorithmes ; une intervention humaine est obligatoire. Le RGPD limite les décisions fondées uniquement sur des algorithmes qui ont un impact juridique ou significatif. Il est de plus nécessaire de permettre aux personnes concernées de contester les décisions.
 
-3. Les travailleurs peuevnt être assimilés à être les subordonnées d'un algorithme et cela redéfini totalement la notion de subordination dans le travail et pose des questions sur les statuts d'indépendants. De nouveaux critères pour identifier les employeurs sont proposés par la commission européenne.  
+3. Les travailleurs peuevnt être assimilés à être les subordonnées d'un algorithme et cela redéfini totalement la notion de subordination dans le travail et pose des questions sur les statuts d'indépendants. De nouveaux critères pour identifier les employeurs sont proposés par la commission européenne.
 
 4. Les entreprises pratiquant ce management permettent à la fois l’autonomie des salariés et les moyens de surveillance des employeurs. Une surveillance constante et souvent invisible, influence les comportements et soulève des préoccupations sur le bien-être des travailleurs.
 

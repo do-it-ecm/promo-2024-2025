@@ -10,7 +10,7 @@ date: 2024-10-16
 temps: 1
 tags:
 
-résumé: Un POK traitant de la création d'un site web.
+description: Un POK traitant de la création d'un site web.
 ---
 
 {% prerequis %}

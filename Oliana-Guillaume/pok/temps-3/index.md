@@ -14,7 +14,7 @@ tags:
   - TypeScript
   - Normalisation de données
 
-résumé: Le but de ce POK est de créer une application facile à utiliser comme comparateur de pays pour l'expatriation, en prenant en compte divers critères tels que le salaire, les impôts, la qualité de vie, et bien d'autres.
+description: Le but de ce POK est de créer une application facile à utiliser comme comparateur de pays pour l'expatriation, en prenant en compte divers critères tels que le salaire, les impôts, la qualité de vie, et bien d'autres.
 ---
 
 {% prerequis %}
@@ -77,13 +77,13 @@ Toutes les séances et le nombre d'heures que j'y ai passé.
 
 #### Identification des paramètres
 
-Avant de commencer à réfléchir à l'application en elle-même, il me fallait créer ou trouver une base de données me permettant de faire ce comparatif entre pays. J'ai cherché pendant plusieurs heures mais n'ai pas trouvé de BDD complète qui répondait aux besoins de ce projet. 
-J'ai donc entrepris de la recréer moi-même, à partir de base de données plus spécifiques que j'avais trouvé pendant mes recherches. 
+Avant de commencer à réfléchir à l'application en elle-même, il me fallait créer ou trouver une base de données me permettant de faire ce comparatif entre pays. J'ai cherché pendant plusieurs heures mais n'ai pas trouvé de BDD complète qui répondait aux besoins de ce projet.
+J'ai donc entrepris de la recréer moi-même, à partir de base de données plus spécifiques que j'avais trouvé pendant mes recherches.
 J'ai identifié 28 paramètres clés qui influencent la décision de s'expatrier, tels que le salaire, les impôts sur le revenu, l'indice de développement humain (IDH), le taux de chômage, le coût de la vie, la qualité de l'air, le système de santé, les droits des expatriés, le régime politique, la sécurité, etc.
 
 #### Collecte des données
 
-Vu la quantité de données que j'avais à trouver et formater, j'ai commencé par faire des recherches sur les sources qui existaient pour les différents paramètres de ma BDD. J'ai ensuite télécharger toutes ces sources, et utiliser une IA pour les concaténer. 
+Vu la quantité de données que j'avais à trouver et formater, j'ai commencé par faire des recherches sur les sources qui existaient pour les différents paramètres de ma BDD. J'ai ensuite télécharger toutes ces sources, et utiliser une IA pour les concaténer.
 Cette tâche était vraiment très longue et fastidieuse du fait de la quantité de données manipulée, mais cela m'a permis de débuter le projet avec une base de donnée de paramètres bien définis et pertinents pour le calcul des scores des pays.
 Ci dessous la liste détaillée des sources utilisées ou consultées pour construire la base de données.
 
@@ -149,15 +149,15 @@ Il reste cependant des données approximées mais l'ensemble reste cohérent apr
 
 #### Normalisation des données
 
-Il a fallut ensuite normaliser les parametres pour pouvoir les comparer et leur attribuer les coefficients choisis par l'utilisateur de l'app. 
+Il a fallut ensuite normaliser les parametres pour pouvoir les comparer et leur attribuer les coefficients choisis par l'utilisateur de l'app.
 
-Pour comparer des paramètres hétérogènes, j'ai normalisé chaque paramètre sur une échelle de 0 à 100. 
+Pour comparer des paramètres hétérogènes, j'ai normalisé chaque paramètre sur une échelle de 0 à 100.
 
 Voici quelques exemples des formules ou règles utilisées pour normer ces données :
 
 ## Normalisation des paramètres numériques
 ### 1. Salaire
-Pour normaliser les salaires, une échelle linéaire a été utilisée en fonction des valeurs minimales et maximales de la base de données.  
+Pour normaliser les salaires, une échelle linéaire a été utilisée en fonction des valeurs minimales et maximales de la base de données.
 
 ### Formule utilisée :
 \[
@@ -204,12 +204,12 @@ Les scores sont attribués en fonction de l’accessibilité et de la qualité d
 
 ---
 
-Ces critères permettent une comparaison objective entre les pays en appliquant une normalisation cohérente.  
+Ces critères permettent une comparaison objective entre les pays en appliquant une normalisation cohérente.
 
-J'ai ensuite formaté tous ces paramètres dans un fichier tsx nommé data.tsx dans mon projet, le format est le suivant : 
+J'ai ensuite formaté tous ces paramètres dans un fichier tsx nommé data.tsx dans mon projet, le format est le suivant :
 
 
-```javascript 
+```javascript
 
 export const countriesData = [
   {
@@ -319,7 +319,7 @@ Ces pondérations sont ensuite utilisées dans **CountryList** pour évaluer et 
 
 ![alt text](image-2.png)
 
-### Déploiement de l'application 
+### Déploiement de l'application
 
 Lors de mes précédents POK&MON, j'avais pendant mes recherches découvert Netlify qui permet très simplement depuis un repo GitHub de déployer une app.
 

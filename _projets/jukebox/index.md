@@ -18,7 +18,7 @@ tags:
   - "musique"
   - "Vue.js"
 
-résumé: Génération interactive de musique en direct
+description: Génération interactive de musique en direct
 ---
 
 {%prerequis '**Projet avancé**'%}

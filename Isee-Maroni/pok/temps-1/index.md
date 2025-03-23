@@ -13,7 +13,7 @@ tags:
   - "Airtable"
   - "Softr"
 
-résumé: Je souhaite créer une application web permettant de mettre à disposition des stages pour les centraliens. Pour cela, j’utiliserai les plateformes de no-code Airtable et Softr liées.
+description: Je souhaite créer une application web permettant de mettre à disposition des stages pour les centraliens. Pour cela, j’utiliserai les plateformes de no-code Airtable et Softr liées.
 ---
 
 {% prerequis %}

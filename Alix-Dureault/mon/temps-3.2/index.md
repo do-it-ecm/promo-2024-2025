@@ -9,7 +9,7 @@ date: 1971-03-01
 temps: 3
 tags:
 
-résumé: "Comment modéliser la structure et les process d'une entreprise ?"
+description: "Comment modéliser la structure et les process d'une entreprise ?"
 ---
 
 Le but de ce MON est à la fois d'approfondir les notions que nous avons pu aborder dans le cours de Conception des SI sur la modélisation des process d'une entreprise notamment avec le logiciel Byzagi mais aussi d'explorer la notion d'architecture d'entreprise que j'ai pu entendre lors de mes entretiens pour des stages en conseils dans le digitale et la transformation digitale.
@@ -38,7 +38,7 @@ Elle vise à représenter l’entreprise sous forme de composants en se concentr
 
 L’architecture d’entreprise est aussi une logique pour les compétences en procédés commerciaux, data et IT qui permet de réfléchir à l’intégration et la standardisation des exigences d’un modèle d’opération d’une entreprise. Mais aussi elle permet d’obtenir un design d’une ou plusieurs plateformes digitales, elles contiennent des compétences essentielles permettant l’agilité. La plateforme digitale dont il est question est un ensemble cohérent de process commerciaux standardisés avec une infrastructure, des applications, des données qui assure sa qualité et la predictabilité des transactions principales.
 
-Les différents frameworks que l’on peut citer sont : 
+Les différents frameworks que l’on peut citer sont :
 
 - Le cadre Zachman : a posé les bases, pionnier, structure en matrice permettant de décrire l’entreprise à travers différentes perspectives et niveaux d'abstraction.
 - The Open Group Architecture Framework : le plus populaire, approche détaillée (outils, techniques et méthodologie claire), comprend quatre domaines (l'architecture métier, l'architecture des données, l'architecture applicative et l'architecture technique)
@@ -56,13 +56,13 @@ L’architecture peut contribuer à une meilleure agilité de l’entreprise et 
 #### The Open Group Architecture Framework (TOGAF)
 
 {% details "**Sources**" %}
-    
+
 - [The Open Group Architecture Framework](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)
-    
+
 - [TOGAF sur opengroup.org](https://www.opengroup.org/togaf)
-    
+
 - [TOGAF 10 simplified de Go Cloud Architects](https://www.youtube.com/watch?v=FG7e2fYCz80)
-    
+
 {% enddetails %}
 
 C’est le framework le plus utilisé en 2020. Il propose une démarche pour le design, la planification, l’implémentation et la gouvernance du système d’information et de son architecture. La structure de la méthode est représenté par le schéma suivant. La méthode est itérative et cyclique et surtout fais toujours le lien avec les demandes et enjeux.
@@ -83,15 +83,15 @@ Ce framework est critiqué pour des manquements à la méthode, une difficulté 
 #### The Sherwood Applied Business Security Architecture (SABSA)
 
 {% details "**Sources**" %}
-    
+
 - [Sherwood Applied Business Security Architecture](https://en.wikipedia.org/wiki/Sherwood_Applied_Business_Security_Architecture)
-    
+
 - [Understanding SABSA - medium.com](https://medium.com/@tahirbalarabe2/understanding-sabsa-the-sherwood-applied-business-security-architecture-d2b4e78679e5)
-    
+
 - [The SABSA Institute](https://sabsa.org/sabsa-executive-summary/)
 
 {% enddetails %}
-    
+
 
 Ce framework permet de développer une architecture de sécurité des informations d'entreprise axée sur le risque et une gestion des services. Sa particularité est que tout doit être dérivé d'une analyse des besoins métier en matière de sécurité. Le modèle est structuré en couches, la couche supérieure étant celle de la définition des besoins métier. À chaque couche inférieure, un nouveau niveau d'abstraction et de détail est développé.
 
@@ -104,13 +104,13 @@ Cette méthode présente plusieurs avantages, elle s’aligne avec les objectifs
 #### DYNAMAP
 
 {% details "**Sources**" %}
-    
+
 - [DYNAMAP](https://www.dynamap.fr/)
-    
+
 - [DYNAMAP - Le framework](https://www.dynamap.fr/le-framework/)
 
 {% enddetails %}
-    
+
 
 DYNAMAP est un framework qui cherche à offrir non pas un remplacement des autres frameworks mais plutôt une solution plus simple et incrémentale, moins complexe et plus rapide.
 
@@ -125,13 +125,13 @@ Ce sujet m’intéresse notamment car il se rapproche beaucoup à la conception 
 #### Transformation digitale et Architecture d’entreprise
 
 {% details "**Sources**" %}
-    
+
 - [Architecture d'entreprise au service de la transformation digitale](https://www.cesames.net/architecture-dentreprise/)
-    
+
 - [Mémoire de Jean-Marc Auvray - Définition et mise en œuvre de la transformation digitale au sein d’une entreprise de type PMI/PME, ETI : proposition d’une démarche d’analyse et de transformation](https://dumas.ccsd.cnrs.fr/dumas-01729148v1/file/2017.TH.Auvray.Jean-Marc.pdf)
 
 {% enddetails %}
-    
+
 En utilisant l’architecture d’entreprise au service des transformations digitales, cela permet de prendre cette transformation comme une transformation globale d’entreprise et de faciliter l’alignement des technologies, des objectifs stratégiques, des activités, des méthodes de travail et des besoins métiers. En décrivant l’entreprise comme un système avec des métiers et une partie technique interdépendants, cela permet des analyses plus complètes et des décisions plus éclairées.
 
 L’incorporation d’une stratégie d’architecture d’entreprise permettrait de garder en tête non seulement les objectifs mais aussi les personnes qui sont concernées par les modifications. L’architecture d’entreprise permet d’aligner les stratégies entreprise, SI et commercial.
@@ -143,15 +143,15 @@ De plus, la stratégie lié au SI et les stratégies liées aux transformations 
 ### Modélisation
 
 {% details "**Sources**" %}
-    
+
 - [Mémoire de Jean-Marc Auvray - Définition et mise en œuvre de la transformation digitale au sein d’une entreprise de type PMI/PME, ETI : proposition d’une démarche d’analyse et de transformation](https://dumas.ccsd.cnrs.fr/dumas-01729148v1/file/2017.TH.Auvray.Jean-Marc.pdf)
-    
+
 - [Comparaison de trois techniques de modélisation de processus: ADONIS, OSSAD et UML - Olivier Glassey et Jean-Loup Chappelet](https://serval.unil.ch/resource/serval:BIB_25583.P001/REF.pdf)
-    
+
 - [BPMN 2.0 - Blueway](https://www.blueway.fr/blog/norme-bpmn)
-    
+
 - [BPMN - Wikipédia](https://fr.wikipedia.org/wiki/Business_process_model_and_notation)
-    
+
 {% enddetails %}
 
 Il existe plusieurs méthodes de modélisation et langages de modélisation. Aucun n’est particulièrement complet et ne permet de modéliser tous les aspects d’un système.
@@ -182,15 +182,15 @@ Explorons certaines de ces méthodes.
 #### Office Support Systems Analysis and design (OSSAD)
 
 {% details "**Sources**" %}
-    
+
 - [OSSAD - page Wikipédia](https://fr.wikipedia.org/wiki/Office_support_systems_analysis_and_design)
-    
+
 - [L’importance de la méthode OSSAD pour documenter les processus d’affaire - ETS](https://publicationslist.org/data/a.april/ref-405/IIBAv2.pdf)
-    
+
 - [Comparaison de trois techniques de modélisation de processus: ADONIS, OSSAD et UML - Olivier Glassey et Jean-Loup Chappelet](https://serval.unil.ch/resource/serval:BIB_25583.P001/REF.pdf)
 
 {% enddetails %}
-    
+
 C’est une méthode ouverte, non propriétaire et standard d'analyse d'organisation par les processus des systèmes de management et des systèmes d'information associés. Elle est utilisée en tant qu’outil de modélisation et de description des processus organisationnels.
 
 Cette méthode respecte les normes ISO en systèmes de management (ISO 9001, 14001, 27001, …). Ces normes recommandent une représentation des organisations selon une approche processus, une approche par les risques et pilotée par des indicateurs permettant de corriger les non-conformités et défauts.
@@ -203,7 +203,7 @@ Ainsi, la méthode s’appuie sur 3 modèles qui représentent ces trois strates
 
 - Abstrait : modélisation graphique des processus, décrit les objectifs de l’organisation, représente les fonctions de l’organisation et les paquets d’information qu’elles échangent, permet de visualiser les flux, identifier les interactions à considérer lorsque des modifications sont envisagées dans une partie ou l'autre du modèle.
 
-- Descriptif : modélisation graphique des procédures, décrit les moyens humains et les ressources technologiques de l’organisation. Il se compose de trois types de formalismes graphiques (matrice activités/rôles, graphe de circulation des ressources d’informations, graphe d’opérations). 
+- Descriptif : modélisation graphique des procédures, décrit les moyens humains et les ressources technologiques de l’organisation. Il se compose de trois types de formalismes graphiques (matrice activités/rôles, graphe de circulation des ressources d’informations, graphe d’opérations).
 
 - Prescriptif : modélisation graphique des instructions de travail, facultatif, établir le pont avec des méthodes et outils de développement d’applications.
 
@@ -212,11 +212,11 @@ Quelques outils permettent d’utiliser cette méthode comme OSS@D Process Desig
 #### Adonis
 
 {% details "**Sources**" %}
-    
+
 - [Comparaison de trois techniques de modélisation de processus: ADONIS, OSSAD et UML - Olivier Glassey et Jean-Loup Chappelet](https://serval.unil.ch/resource/serval:BIB_25583.P001/REF.pdf)
 
 {% enddetails %}
-    
+
 Adonis est un logiciel de modélisation de processus opérationnel qui intègre sa propre technique de modélisation et son langage de description propriétaires.
 
 La méthode est propriétaire et totalement intégrée avec l’outil du même nom. Il contient un module d’acquisition de données qui permet par exemple d’importer des statistiques en format Excel ainsi qu’un module de modélisation graphique. L’outil Adonis permet par ailleurs d’effectuer des analyses poussées grâce à son langage d’interrogation intégré et de procéder à des simulations basées sur des algorithmes de calcul de chemin, de temps ou de coûts.
@@ -232,11 +232,11 @@ La modélisation standard d’Adonis repose sur trois types de modèles :
 #### Unified Modeling Language (UML)
 
 {% details "**Sources**" %}
-    
+
 - [Comparaison de trois techniques de modélisation de processus: ADONIS, OSSAD et UML - Olivier Glassey et Jean-Loup Chappelet](https://serval.unil.ch/resource/serval:BIB_25583.P001/REF.pdf)
 
 {% enddetails %}
-    
+
 UML est un langage de notation graphique standardisé qui peut être utilisé dans différents domaines de modélisation et notamment pour décrire des processus de gestion. Il existe des dizaines de logiciels qui supportent UML, comme Rational Rose ou UMLStudio.
 
 C’est un langage orienté objet. Il couvre les différentes phases d’un développement objet (analyse, conception et implémentation) avec 9 types de diagrammes :
@@ -262,19 +262,19 @@ C’est un langage orienté objet. Il couvre les différentes phases d’un dév
 #### Business Process Model and Notation (BPMN 2.0)
 
 {% details "**Sources**" %}
-    
+
 - [Norme BPMN 2.0 - Axelor](https://axelor.com/fr/la-norme-bpmn/)
-    
+
 - [Norme ISO 19410](https://www.iso.org/fr/standard/62652.html)
-    
+
 - [BPMN Specification - BPMN](https://www.bpmn.org/)
-    
+
 - [BPMN 2.0 - Blueway](https://www.blueway.fr/blog/norme-bpmn)
-    
+
 - [BPMN - Wikipédia][https://fr.wikipedia.org/wiki/Business_process_model_and_notation)
 
 {% enddetails %}
-    
+
 Les lettres BPM renvoient à la gestion des processus métier (analyse, amélioration, modélisation et automatisation des process de l’organisation et leur suivi dans le temps). La lettre N renvoie quant à elle à la notation. La norme  BPMN est une méthode de modélisation des processus métier à travers une représentation graphique.
 
 La norme BPMN est régie par la norme internationale ISO/CEI 19510.

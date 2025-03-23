@@ -9,7 +9,7 @@ date: 2025-01-29
 temps: 3
 tags: Informatique
 
-résumé: "L'objectif de ce MON est de comprendre le langage HTML et CSS et de pouvoir les appliquer pour créer des pages web."
+description: "L'objectif de ce MON est de comprendre le langage HTML et CSS et de pouvoir les appliquer pour créer des pages web."
 ---
 
 {% prerequis %}

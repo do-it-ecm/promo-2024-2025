@@ -10,7 +10,7 @@ temps: 2
 tags:
   - "API Rest"
 
-résumé: "Ce MON traite les APIs REST, Une API REST permet la communication entre systèmes via HTTP."
+description: "Ce MON traite les APIs REST, Une API REST permet la communication entre systèmes via HTTP."
 ---
 
 {% prerequis %}

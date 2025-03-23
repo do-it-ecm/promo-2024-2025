@@ -9,7 +9,7 @@ date: 2024-12-17
 temps: 2
 tags:
 
-résumé: "Ce MON est consacré à la prise en main de l'outil Figma, qui permet notamment de réaliser des prototypes d'application web en visant à avoir la meilleure UX (expérience utilisateur)"
+description: "Ce MON est consacré à la prise en main de l'outil Figma, qui permet notamment de réaliser des prototypes d'application web en visant à avoir la meilleure UX (expérience utilisateur)"
 ---
 
 {% prerequis %}

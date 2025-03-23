@@ -14,7 +14,7 @@ tags:
   - "power BI"
   - "power query"
 
-résumé: Je compte apprendre l'art de la data visualisation à travers plusieurs projets et en utilisant les logiciels Looker Studio et Power BI. Le projet 1 sera de créer un visuel avec les statistiques de vente de carte postale pour ma grande soeur illustratrice et notamment une carte de la France avec ses boutiques. Le projet 2 consistera à créer un visuel avec des statistiques sur mes voyages en Europe. Le projet 3 sera une carte des préfectures de France déjà visitées.
+description: Je compte apprendre l'art de la data visualisation à travers plusieurs projets et en utilisant les logiciels Looker Studio et Power BI. Le projet 1 sera de créer un visuel avec les statistiques de vente de carte postale pour ma grande soeur illustratrice et notamment une carte de la France avec ses boutiques. Le projet 2 consistera à créer un visuel avec des statistiques sur mes voyages en Europe. Le projet 3 sera une carte des préfectures de France déjà visitées.
 ---
 {% prerequis %}
 

@@ -11,12 +11,12 @@ tags:
   - 'Apprentissage'
   - 'Poésie'
 
-résumé: "J'ai voulu apprendre à développer une application mobile. J'ai donc décidé de développé une application mobile interactive pour l'apprentissage de poésies via des méthodes interactives telles que flashcards et fill-in-the-blanks, intégrant la répétition espacée."
+description: "J'ai voulu apprendre à développer une application mobile. J'ai donc décidé de développé une application mobile interactive pour l'apprentissage de poésies via des méthodes interactives telles que flashcards et fill-in-the-blanks, intégrant la répétition espacée."
 ---
 
 {% prerequis %}
 
-**Niveau :** Basique à Intermédiaire  
+**Niveau :** Basique à Intermédiaire
 **Pré-requis :**
 - Connaissances de base en React Native et JavaScript.
 - Notions de gestion d'état en React.
@@ -37,8 +37,8 @@ Ce POK décrit les étapes de développement d'une application mobile interactiv
 
 ## Objectifs principaux
 
-1. **Acquérir et consolider des compétences en développement mobile React Native** au travers d’un projet concret.  
-2. **Permettre un apprentissage interactif des poésies** via des exercices dynamiques (flashcards, fill-in-the-blanks, etc.).  
+1. **Acquérir et consolider des compétences en développement mobile React Native** au travers d’un projet concret.
+2. **Permettre un apprentissage interactif des poésies** via des exercices dynamiques (flashcards, fill-in-the-blanks, etc.).
 3. **Offrir une interface utilisateur intuitive** pour sélectionner un poème et suivre sa progression.
 
 
@@ -85,7 +85,7 @@ L'architecture du projet est organisée de la manière suivante :
 ```
 PoésieLearnApp/
 ├── App.js                 # Point d'entrée de l'application
-├── assets/               
+├── assets/
 │   ├── images/
 │   └── fonts/
 ├── components/            # Composants réutilisables
@@ -106,19 +106,19 @@ PoésieLearnApp/
 ## Sprints de développement
 
 ### Sprint 1 : Planification et configuration (~5h)
-- [x] **Définir le périmètre du MVP** et les fonctionnalités indispensables.  
-- [x] **Initialiser le projet avec Expo** :  
+- [x] **Définir le périmètre du MVP** et les fonctionnalités indispensables.
+- [x] **Initialiser le projet avec Expo** :
 
   ```bash
   npx expo init PoésieLearnApp
-  ``` 
+  ```
 
-- [x] Créer le dépôt Git et configurer l’environnement de développement sur Mac.  
-- [x] Élaborer un schéma d’architecture complet et préparer des maquettes pour les écrans.  
+- [x] Créer le dépôt Git et configurer l’environnement de développement sur Mac.
+- [x] Élaborer un schéma d’architecture complet et préparer des maquettes pour les écrans.
 
-- **Livrables :**  
-  - [x] Projet initialisé avec la structure vierge.  
-  - [x] Maquettes et schéma de l’application.  
+- **Livrables :**
+  - [x] Projet initialisé avec la structure vierge.
+  - [x] Maquettes et schéma de l’application.
 
 ---
 
@@ -126,10 +126,10 @@ PoésieLearnApp/
 
 Après avoir initialisé le projet, j'ai commencé à **remplir le code** :
 
-- [x] **Développer les écrans de base :**  
-  - `HomeScreen.js` (Accueil)  
-  - `PoemSelectionScreen.js` (Sélection de Poème)  
-  - `ExerciseScreen.js` (Exercice d’Apprentissage)  
+- [x] **Développer les écrans de base :**
+  - `HomeScreen.js` (Accueil)
+  - `PoemSelectionScreen.js` (Sélection de Poème)
+  - `ExerciseScreen.js` (Exercice d’Apprentissage)
 
 - [x] **App.js :** Fichier principal qui englobe la navigation.
 

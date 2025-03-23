@@ -13,7 +13,7 @@ tags:
   - actifs réels
   - finance décentralisée
 
-résumé: "Ce MON explore la tokenisation des actifs réels (RWA pour Real World Assets), ses applications concrètes à travers des exemples de projets comme MAPLE et RIO, et analyse ses enjeux techniques, économiques et réglementaires dans le monde de la finance et au-delà."
+description: "Ce MON explore la tokenisation des actifs réels (RWA pour Real World Assets), ses applications concrètes à travers des exemples de projets comme MAPLE et RIO, et analyse ses enjeux techniques, économiques et réglementaires dans le monde de la finance et au-delà."
 
 ---
 
@@ -36,7 +36,7 @@ résumé: "Ce MON explore la tokenisation des actifs réels (RWA pour Real World
 
 # Introduction
 
-Je vais au cours de ce rendu essayer de définir des chapitres pour séparer de façon bien distincteles notions abordées. 
+Je vais au cours de ce rendu essayer de définir des chapitres pour séparer de façon bien distincteles notions abordées.
 
 La tokenisation des actifs réels représente une avancée majeure dans le domaine de la finance, de l'investissement et de la gestion des biens. Cette technologie repose sur l'utilisation de la blockchain pour convertir des actifs physiques ou réels, tels que l'immobilier, les œuvres d'art, ou les matières premières, en tokens numériques. Ces tokens peuvent ensuite être échangés, fractionnés et transférés de manière plus fluide, transparente et sécurisée.
 

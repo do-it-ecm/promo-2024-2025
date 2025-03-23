@@ -12,7 +12,7 @@ tags:
   - "saumon"
   - "environnement"
 
-résumé: "Récap des notions clés sur l'environnement dont j'aurai besoin lors de mon TFE en conseil dans l'environnement"
+description: "Récap des notions clés sur l'environnement dont j'aurai besoin lors de mon TFE en conseil dans l'environnement"
 ---
 
 {% prerequis %}
@@ -46,7 +46,7 @@ Objectif général : **avoir une meilleure culture sur l'environnement** en me r
 - [x] regarder les cours de TREO et le site Transition Journey pour lister les sujets pertinents : 30min (30min)
 - [x] étudier les sujets trouvés et en faire des résumés sur GitHub : 9h30 (9h30)
 
-**Total d'heures sprint 1 : 10h**  
+**Total d'heures sprint 1 : 10h**
 **Etude post mortem** : en réalité j'ai fini mes 2h dernières heures du sprint 1 lors du sprint 2 car cette période était moins chargée.
 
 #### Sprint 2
@@ -54,7 +54,7 @@ Objectif général : **avoir une meilleure culture sur l'environnement** en me r
 - [x] étudier les sujets restant et en faire des résumés sur GitHub : 7h (10h)
 - [ ] ~~faire une mini étude de cas type bilan carbone ou ACV : 3h~~
 
-**Total d'heures sprint 2 : 10h**  
+**Total d'heures sprint 2 : 10h**
 **Etude post mortem** : j'ai changé un peu mon programme en remplaçant l'étude de cas par continuer mes recherches sur des notions sur l'environnement. En effet, je trouvais ça plus intéressant car en pratique j'ai déjà fait des petits ACV ou bilan carbone dans ma scolarité.
 
 ### ⌛Horodatage
@@ -94,21 +94,21 @@ Objectif général : **avoir une meilleure culture sur l'environnement** en me r
 
 📅 L'<b style="color: green;">Agenda 2030</b> (2015) est un **programme de développement durable à l’horizon 2030**, adopté par les 193 États membres des Nations unies. Il prend la suite de l'Agenda 21 et définit un ensemble d'objectifs et de cibles que les pays sont libres de choisir et de prioriser en fonction des spécificités de leurs circonstances nationales.
 
-📜 La <b style="color: green;">CSRD</b> (2024) signifiant **Corporate Sustainability Reporting Directive** est une **directive euopréenne** impose aux grandes entreprises et aux PME cotées en bourse de fournir un **reporting extra-financier annuel de durabilité**.  
+📜 La <b style="color: green;">CSRD</b> (2024) signifiant **Corporate Sustainability Reporting Directive** est une **directive euopréenne** impose aux grandes entreprises et aux PME cotées en bourse de fournir un **reporting extra-financier annuel de durabilité**.
 Le socle de la CSRD repose sur l'**analyse de double matérialité**. Les entreprises doivent rendre compte à la fois de :
 - l'**impact** de la société et de l’environnement **sur la performance financière** de leur entreprise
-- l'**impact** de leurs activités **sur la société et l'environnement**.  
+- l'**impact** de leurs activités **sur la société et l'environnement**.
 
 ✅ Les <b style="color: green;">ESRS</b> (**European Sustainability Reporting Standards**) sont les **normes européennes** en matière de **reporting de durabilité** développées pour compléter la CSRD. Les ESRS permettront de favoriser une meilleure transparence, harmonisation et standardisation des déclarations non financières des entreprises et permettront ainsi de pouvoir **comparer plus facilement** les rapports extra-financiers de diverses entreprises européennes. Les ESRS reposent sur les 3 pilliers <b style="color: green;">ESG</b> (**Environnement**, **Social** et **Gouvernance**) et se découpent en 4 sujets : les thématiques générales, les sujets environnementaux, les sujets sociaux et les sujets de gouvernance.
 
 📗 Le <b style="color: green;">Club de Rome</b> est une **association internationale** regroupant des experts de divers domaines pour **analyser les défis globaux** comme l'épuisement des ressources, la pollution et la croissance économique. En **1972**, il publie le <b style="color: green;">rapport Meadows</b>, intitulé *Halte à la Croissance ?*, qui **alerte sur les limites de la croissance matérielle**.
 
-🧑‍🔬 Le <b style="color: green;">Shift Project</b> (2010) est un **think tank** qui travaille « en faveur d’une **économie libérée de la contrainte carbone** » en **fournissant des informations et menant un lobbying dans le débat sur la transition énergétique**, de la France à l’Europe. Auteur d’un *Manifeste pour décarboner l’Europe*, The Shift Project émet des propositions qui répondraient à l’Accord de Paris tels que fermer toutes les centrales au charbon (-24% de GES), rénover les logements anciens (-17%) et généraliser la voiture à moins de 2L/100kms (-14%).  
+🧑‍🔬 Le <b style="color: green;">Shift Project</b> (2010) est un **think tank** qui travaille « en faveur d’une **économie libérée de la contrainte carbone** » en **fournissant des informations et menant un lobbying dans le débat sur la transition énergétique**, de la France à l’Europe. Auteur d’un *Manifeste pour décarboner l’Europe*, The Shift Project émet des propositions qui répondraient à l’Accord de Paris tels que fermer toutes les centrales au charbon (-24% de GES), rénover les logements anciens (-17%) et généraliser la voiture à moins de 2L/100kms (-14%).
 Son **président** est <b style="color: green;">Jean-Marc Jancovici</b>. Cet ancien élève de l’Ecole polytechnique est également co-fondateur de **Carbone 4** (société qui fournit conseil et données au monde économique pour se confronter au défi énergie climat) et membre depuis 2018 du **HCC**. Il est aussi auteur de 7 livres, du site [jancovici.com](jancovici.com) et de nombreux articles pour **vulgariser les questions relatives à l’énergie et au changement climatique**.
 
 ### RSE et développement durable
 
-🌱 Le <b style="color: green;">développement durable</b> est un développement qui **répond aux besoins du présent sans compromettre la capacité des générations futures** de répondre aux leurs. Il respose sur 3 pilliers : **économique, social et environnemental**.   
+🌱 Le <b style="color: green;">développement durable</b> est un développement qui **répond aux besoins du présent sans compromettre la capacité des générations futures** de répondre aux leurs. Il respose sur 3 pilliers : **économique, social et environnemental**.
 L’**Agenda 2030** a fixé <b style="color: green;">17 objectifs de développement durable</b> (ODD) qui couvrent l’intégralité des enjeux de développement dans tous les pays tels que le climat, la biodiversité, l’énergie, l’eau, la pauvreté, l’égalité des genres, la prospérité économique, la paix, l’agriculture, l’éducation, etc.
 
 <img src="ODD.png" width="45%" alt="17 ODD">
@@ -116,22 +116,22 @@ L’**Agenda 2030** a fixé <b style="color: green;">17 objectifs de développem
     Illustration trouvée sur Google image
 </div>
 
-🤝 La <b style="color: green;">RSE = responsabilité sociétale des entreprises</b>, également appelée responsabilité sociale des entreprises, est la **contribution des entreprises au développement durable**. Une entreprise qui pratique la RSE va donc chercher à avoir un impact positif sur la société tout en étant économiquement viable.  
+🤝 La <b style="color: green;">RSE = responsabilité sociétale des entreprises</b>, également appelée responsabilité sociale des entreprises, est la **contribution des entreprises au développement durable**. Une entreprise qui pratique la RSE va donc chercher à avoir un impact positif sur la société tout en étant économiquement viable.
 On parle de <b style="color: green;">RSO</b> pour la responsabilité sociétale des **organisations**.
 
 📜 La <b style="color: green;">norme ISO 26000</b> (2010), standard international, **définit le périmètre de la RSE autour de sept thématiques centrales** :
 gouvernance de l’organisation,droits de l’homme, relations et conditions de travail, l’environnement, loyauté des pratiques, questions relatives aux consommateurs, communautés et le développement local. Cette norme a été élaborée par un groupe de travail d’environ **500 experts** après 5 ans de négociations entre des représentants des gouvernements, des ONG, de l’industrie, des groupes de consommateurs et du monde du travail. Elle représente donc un **consensus international**.
 
-📜 La <b style="color: green;">loi Pacte</b> (2019) : cette loi offre la possibilité aux organisations qui le souhaitent d’aller plus loin en matière de RSE.  
-Elle leur permet, notamment, d’inscrire une <b style="color: green;">"raison d’être"</b> dans leurs statuts afin de **préciser leur projet collectif de long terme**.  
+📜 La <b style="color: green;">loi Pacte</b> (2019) : cette loi offre la possibilité aux organisations qui le souhaitent d’aller plus loin en matière de RSE.
+Elle leur permet, notamment, d’inscrire une <b style="color: green;">"raison d’être"</b> dans leurs statuts afin de **préciser leur projet collectif de long terme**.
 Elle permet également d’adopter un **nouveau modèle**, celui de <b style="color: green;">"société à mission"</b>. L'entreprise doit alors **associer sa raison d’être à un ou plusieurs objectifs environnementaux et sociétaux** qu’elle se donne pour mission de poursuivre dans le cadre de son activité.
 
 🅱️ Le label <b style="color: green;">B Corp</b> (« Benefit Corporation ») est une certification internationale qui distingue les **entreprises ayant un impact positif sur la société, l’environnement et l’économie**. Ces entreprises ayant un modèle « business for good » doivent répondre à des exigences strictes en matière de transparence, de responsabilité et de performance dans des domaines tels que la réduction des inégalités, la protection de l’environnement et l’amélioration des conditions de travail.
 
 ### GES, bilan carbone et décarbonation
 
-🔥 L'<b style="color: green;">effet de serre</b> est le phénomène naturel par lequel les **gaz** présents dans l’atmosphère (principalement la vapeur d’eau) **retiennent une partie de la chaleur émise par notre planète**.  
-Ainsi, les <b style="color: green;">gaz à effet de serre (GES)</b> désignent les **gaz présents dans l’atmosphère** qui contribuent à cet **effet de serre**. Ils garantissent les conditions de la vie sur notre planète : **sans GES**, la température moyenne de la terre serait de **-18°C** et là, elle est de **15°C**.  
+🔥 L'<b style="color: green;">effet de serre</b> est le phénomène naturel par lequel les **gaz** présents dans l’atmosphère (principalement la vapeur d’eau) **retiennent une partie de la chaleur émise par notre planète**.
+Ainsi, les <b style="color: green;">gaz à effet de serre (GES)</b> désignent les **gaz présents dans l’atmosphère** qui contribuent à cet **effet de serre**. Ils garantissent les conditions de la vie sur notre planète : **sans GES**, la température moyenne de la terre serait de **-18°C** et là, elle est de **15°C**.
 Malheureusement, l’**activité humaine a fait croître énormément la concentration de certains GES**, tel le dioxyde de carbone CO₂, ce qui a créé l’**effet de serre additionnel**. On a déjà gagné **+1°C par rapport à l’ère pré industrielle 1750**.
 
 <img src="effet_de_serre.jpg" width="45%" alt="effet de serre">
@@ -139,12 +139,12 @@ Malheureusement, l’**activité humaine a fait croître énormément la concent
     Illustration trouvée sur le site Save4Planet - Effet de Serre
 </div>
 
-Tous les gaz à effet de serre n’ont pas le même pouvoir réchauffant. Le <b style="color: green;">potentiel de réchauffement global (PRG)</b> ou Global Warming Potential (GWP) en anglais, d’un gaz est sa **capacité à garder la chaleur dans l’atmosphère** pendant une période de temps déterminée. Le **CO₂**, parce qu’il sert de référence, a reçu la valeur de **1**. Afin de pouvoir comparer les gaz entre eux, on convertit le potentiel de réchauffement de chaque gaz en <b style="color: green;">équivalent CO₂</b> sur une **période de cent ans** (période de référence utilisée par le GIEC).  
+Tous les gaz à effet de serre n’ont pas le même pouvoir réchauffant. Le <b style="color: green;">potentiel de réchauffement global (PRG)</b> ou Global Warming Potential (GWP) en anglais, d’un gaz est sa **capacité à garder la chaleur dans l’atmosphère** pendant une période de temps déterminée. Le **CO₂**, parce qu’il sert de référence, a reçu la valeur de **1**. Afin de pouvoir comparer les gaz entre eux, on convertit le potentiel de réchauffement de chaque gaz en <b style="color: green;">équivalent CO₂</b> sur une **période de cent ans** (période de référence utilisée par le GIEC).
 **CO₂ = ¾ de l’ensemble des GES**, PRG(méthane,CH₄) = 28 et PRG (protoxyde d'azote, N₂O) = 273
 
 📊 Le <b style="color: green;">Bilan carbone</b> est une **méthode de calcul** mise au point par l'**ADEME** pour **calculer les émissions de GES** d'une entreprise, d'un produit ou d'un individu. Le **résultat est exprimé en tonnes équivalent CO2**.
 
- Un Bilan carbone comprend l'analyse des émissions de gaz à effet de serre sur <b style="color: green;">3 scopes</b> : 
+ Un Bilan carbone comprend l'analyse des émissions de gaz à effet de serre sur <b style="color: green;">3 scopes</b> :
 - **Scope 1** : **émissions directes**, issues des sources directes et contrôlées par l’organisation
 - **Scope 2** : **émissions indirectes**, liées à la **consommation d'énergie** de l’organisation
 - **Scope 3** : **autres émissions indirectes** qui couvrent l’activité de l’organisation **en amont et aval** (depuis 2023)
@@ -194,10 +194,10 @@ Le <b style="color: green;">flygskam</b> (2018) né en Suède et popularisé par
 
 🦘 L'<b style="color: green;">effet rebond</b> aussi appelé « **paradoxe de Jevons** » désigne un **accroissement de la consommation** provoqué par l'**amélioration des performances énergétiques** d'un bien.   Ex : l’amélioration des performances énergétiques des voitures n’a pas réduit la demande en carburant. Les automobilistes ont fait plus de kilomètres, avec de plus grosses voitures et plus de voitures ont été vendues et au final l’impact sur les émissions de CO2 de l’automobile n’a pas diminué.
 
-⚖️ La <b style="color: green;">neutralité carbone</b> consiste à viser l’**équilibre entre** les **émissions de GES** et **ce que notre territoire est capable d’absorber** via les écosystèmes gérés par l’être humain (forêts, prairies, sols agricoles, zones humides…). Cela correspond à **diviser par 6 les émissions de GES d’ici 2050**.  
+⚖️ La <b style="color: green;">neutralité carbone</b> consiste à viser l’**équilibre entre** les **émissions de GES** et **ce que notre territoire est capable d’absorber** via les écosystèmes gérés par l’être humain (forêts, prairies, sols agricoles, zones humides…). Cela correspond à **diviser par 6 les émissions de GES d’ici 2050**.
 Ex : la <b style="color: green;">compensation carbone</b> permet aux entreprises, particuliers et collectivités de compenser leurs émissions de CO2 en **finançant des projets réduisant ou absorbant une quantité équivalente de GES** et ainsi d'atteindre la neutralité carbone. Ces initiatives, comme la reforestation ou les énergies renouvelables, génèrent des **crédits carbone**, achetables et échangeables sur le marché du carbone.
 
-📜 Le <b style="color: green;">Pacte Vert pour l’Europe</b> (2019) de son nom roiginal **Green Deal Européen** est initiative politique clé de l'Union européenne est un **engagement pris par les 27 États** membres pour faire face aux défis du changement climatique et aux dégradations en cours de l'environnement. Ils se fixent comme objectif d'atteindre la **neutralité climatique en 2050**, respectant ainsi les objectifs fixés dans l'accord de Paris.  
+📜 Le <b style="color: green;">Pacte Vert pour l’Europe</b> (2019) de son nom roiginal **Green Deal Européen** est initiative politique clé de l'Union européenne est un **engagement pris par les 27 États** membres pour faire face aux défis du changement climatique et aux dégradations en cours de l'environnement. Ils se fixent comme objectif d'atteindre la **neutralité climatique en 2050**, respectant ainsi les objectifs fixés dans l'accord de Paris.
 
 📜 La <b style="color: green;">loi énergie-climat</b> (2019) permet de fixer en **France** des objectifs ambitieux pour atteindre l’objectif de **neutralité carbone en 2050** pour répondre à l’urgence climatique et à l’Accord de Paris.
 
@@ -205,10 +205,10 @@ Ex : la <b style="color: green;">compensation carbone</b> permet aux entreprises
 
 ### Le climat
 
-⛅ Le <b style="color: green;">climat</b> correspond à l’ensemble des **phénomènes météorologiques propres à une région sur une période prolongée**, généralement plusieurs décennies et offre ainsi une vision globale des tendances atmosphériques.  
+⛅ Le <b style="color: green;">climat</b> correspond à l’ensemble des **phénomènes météorologiques propres à une région sur une période prolongée**, généralement plusieurs décennies et offre ainsi une vision globale des tendances atmosphériques.
 La **météo** au contraire décrit les conditions atmosphériques à court terme avec ce l’on observe **au jour le jour** : une journée pluvieuse ou ensoleillée, une hausse ou chute de température.
 
-🔥 Le <b style="color: green;">changement/dérèglement climatique</b> correspond à une **modification durable du climat au niveau planétaire** due à une **augmentation des GES** dans l’atmosphère.  
+🔥 Le <b style="color: green;">changement/dérèglement climatique</b> correspond à une **modification durable du climat au niveau planétaire** due à une **augmentation des GES** dans l’atmosphère.
 Les conséquences sont multiples : **fonte des glaces** et **élévation du niveau de la mer** qui menacent les zones côtières,  **perturbation des écosystèmes** entraînant une **perte de biodiversité**, augmentation de la fréquence et l’intensité des **phénomènes météorologiques extrêmes** (inondations, cyclones, sécheresses) et hausse de la **pollution de l’air** qui a des **effets néfastes sur la santé humaine**.
 
 🌡️ Les "<b style="color: green;">bandes de réchauffement</b>" (warmings stripes) créées par **Ed Hawkins** permettent de comprendre la rapidité avec laquelle le climat s’est déréglé ces dernières années. Les couleurs affichent l’**écart à la température moyenne** mondiale, de 1850 à 2018.
@@ -218,21 +218,21 @@ Les conséquences sont multiples : **fonte des glaces** et **élévation du nive
     Illustration trouvée sur Wikipédia - Bandes du réchauffement climatique
 </div>
 
-On peut retrouver les warming stripes et d'autres **graphiques intéressants** sur le site [show your stripes](https://showyourstripes.info/c/europe/france/all) comme celui sur le France ci-dessous : 
+On peut retrouver les warming stripes et d'autres **graphiques intéressants** sur le site [show your stripes](https://showyourstripes.info/c/europe/france/all) comme celui sur le France ci-dessous :
 
 <img src="warming_stripes_france.png" width="35%" alt="warming stripes france">
 <div align="center">
     Illustration trouvée sur le site Show your stripes
 </div>
 
-🌍 Les <b style="color: green;">9 limites planétaires</b> sont des **points de bascule du climat**. Ce sont des **seuils que l'humanité ne devrait pas dépasser** pour ne pas compromettre les conditions favorables dans lesquelles elle a pu se développer et pour pouvoir durablement vivre dans un écosystème sûr sans modifications brutales et imprévisibles de l'environnement planétaire. Chaque limite est ainsi fixée en amont d’un éventuel point de bascule.  
+🌍 Les <b style="color: green;">9 limites planétaires</b> sont des **points de bascule du climat**. Ce sont des **seuils que l'humanité ne devrait pas dépasser** pour ne pas compromettre les conditions favorables dans lesquelles elle a pu se développer et pour pouvoir durablement vivre dans un écosystème sûr sans modifications brutales et imprévisibles de l'environnement planétaire. Chaque limite est ainsi fixée en amont d’un éventuel point de bascule.
 
 <img src="limites.png" width="35%" alt="limites planétaires">
 <div align="center">
     Illustration trouvée sur le site Agence Lucie
 </div>
 
-Par exemple, on voit sur le schéma que le **changement climatique a déjà dépassé la limite planétaire** et est dans une zone de forte augmentation des risques : les changements initiés par le réchauffement vont continuer à s’amplifier même si les émissions de gaz à effet de serre sont stoppées.  
+Par exemple, on voit sur le schéma que le **changement climatique a déjà dépassé la limite planétaire** et est dans une zone de forte augmentation des risques : les changements initiés par le réchauffement vont continuer à s’amplifier même si les émissions de gaz à effet de serre sont stoppées.
 Le **dépassement de cette limite** nous fait entrer dans <b style="color: green;">l’Anthropocène</b>, la nouvelle époque géologique qui se caractérise par l'avènement des **hommes comme principale force de changement sur Terre**, surpassant les forces géophysiques.
 
 📆 Il ne faut pas confondre les limites planétaires avec <b style="color: green;">le jour du dépassement</b> qui est le **jour où l’humanité a "consommé" l’ensemble des ressources que la terre peut reconstituer en une année** calculée tous les ans par l’ONG Global Footprint Network.
@@ -246,39 +246,39 @@ Le **dépassement de cette limite** nous fait entrer dans <b style="color: green
 - Sa **fabrication**
 - Sa **distribution**
 - Son **utilisation**
-- La **fin de vie** du produit (déchets, recyclage, etc.)  
+- La **fin de vie** du produit (déchets, recyclage, etc.)
 
-Ainsi, l'ACV vise à repérer les étapes ayant le plus d’impact sur l’environnement afin de les optimiser et de réduire les émissions de GES ainsi que d’autres effets écologiques. En comparant différentes solutions, elle sert d’**outil d’aide à la décision stratégique** pour choisir l’option la moins coûteuse sur le plan environnemental.  
-L'ADEME a mis en place le site [base empreinte](https://base-empreinte.ademe.fr/) qui est la **base de données publique officielle de facteurs d'émission et de jeux de données** d'inventaire nécessaires à la réalisation d'exercices de comptabilité carbone des organisations et d'affichage environnemental des produits et services de grande consommation.  
+Ainsi, l'ACV vise à repérer les étapes ayant le plus d’impact sur l’environnement afin de les optimiser et de réduire les émissions de GES ainsi que d’autres effets écologiques. En comparant différentes solutions, elle sert d’**outil d’aide à la décision stratégique** pour choisir l’option la moins coûteuse sur le plan environnemental.
+L'ADEME a mis en place le site [base empreinte](https://base-empreinte.ademe.fr/) qui est la **base de données publique officielle de facteurs d'émission et de jeux de données** d'inventaire nécessaires à la réalisation d'exercices de comptabilité carbone des organisations et d'affichage environnemental des produits et services de grande consommation.
 Pour réaliser une ACV il y a le  site [OpenLCA](https://www.openlca.org/) qui est gratuit et bien pour débuter (je l'avais personnellement utilisé en Erasmus).
 
 💡 L'<b style="color: green;">éco-conception</b> consiste à intégrer la **protection de l’environnement dès la conception** des biens ou services. Elle a pour objectif de **réduire les impacts environnementaux des produits tout au long de leur cycle de vie** : extraction des matières premières, production, distribution, utilisation et fin de vie.
 
-🔨 La <b style="color: green;">low tech</b> désigne toutes les technologies respectant ces 3 piliers : 
+🔨 La <b style="color: green;">low tech</b> désigne toutes les technologies respectant ces 3 piliers :
 
 1. **Utile** : la low-tech répond à des besoins essentiels (énergie, alimentation, eau, habitat, transport…).
-2. **Accessible** : elle doit avoir un coût adapté à une large part de la population et être compréhensible, réparable et fabriquée localement. Cela favorise une plus grande autonomie des population et une meilleure répartition du travail et des ressources.  
-3. **Durable** : elle est conçue pour minimiser son impact écologique et social tout au long de son cycle de vie. Elle privilégie la robustesse, la réparabilité et la collaboration plutôt que l’accumulation technologique. Elle s'oppose ainsi au principe d'obsolescence programmée. 
+2. **Accessible** : elle doit avoir un coût adapté à une large part de la population et être compréhensible, réparable et fabriquée localement. Cela favorise une plus grande autonomie des population et une meilleure répartition du travail et des ressources.
+3. **Durable** : elle est conçue pour minimiser son impact écologique et social tout au long de son cycle de vie. Elle privilégie la robustesse, la réparabilité et la collaboration plutôt que l’accumulation technologique. Elle s'oppose ainsi au principe d'obsolescence programmée.
 
 Le <b style="color: green;">greenwashing</b> ou **éco-blanchiment**, est une **stratégie marketing trompeuse** visant à **verdir l’image d’une entreprise** en mettant en avant des engagements écologiques souvent éloignés de la réalité. Fréquemment dénoncé par les ONG, il nuit aux véritables efforts de sensibilisation et peut induire les consommateurs en erreur.
 
 {% note %}
-Les **types de greenwashing** les plus courants incluent :  
+Les **types de greenwashing** les plus courants incluent :
 
-- **Greenlabelling (marketing trompeur)** : utilisation de termes vagues comme *"naturel"* ou *"écologique"*, sans preuves tangibles ni certifications vérifiables.  
-- **Greenlighting (exagération des réalisations)** : mise en avant de petites initiatives pour détourner l’attention des impacts environnementaux réels.  
-- **Greenhushing (minimisation des impacts négatifs)** : prétendre être *"neutre en carbone"* ou *"zéro déchet"* sans considérer l’ensemble de la chaîne de valeur. Ex : une compagnie aérienne qui dit être "neutre en carbone" sur ses activités sur le sol  
-- **Greenrinsing (multiplication des engagements changeants)** : modifier fréquemment ses engagements écologiques pour semer la confusion sur son engagement réel.  
+- **Greenlabelling (marketing trompeur)** : utilisation de termes vagues comme *"naturel"* ou *"écologique"*, sans preuves tangibles ni certifications vérifiables.
+- **Greenlighting (exagération des réalisations)** : mise en avant de petites initiatives pour détourner l’attention des impacts environnementaux réels.
+- **Greenhushing (minimisation des impacts négatifs)** : prétendre être *"neutre en carbone"* ou *"zéro déchet"* sans considérer l’ensemble de la chaîne de valeur. Ex : une compagnie aérienne qui dit être "neutre en carbone" sur ses activités sur le sol
+- **Greenrinsing (multiplication des engagements changeants)** : modifier fréquemment ses engagements écologiques pour semer la confusion sur son engagement réel.
 - **Greencrowding (se cacher derrière des coalitions)** : signer des pactes environnementaux ou rejoindre des alliances pour donner l'impression d'être investi sans véritable engagement.
 {% endnote %}
 
 ### Biodiversité et agriculture
 
-🐾 Un <b style="color: green;">écosystème</b> désigne un ensemble d'organismes vivants (plantes, animaux, micro-organismes) qui intéragissent avec leur environnement physique (sol, eau, air) et entre eux.  
+🐾 Un <b style="color: green;">écosystème</b> désigne un ensemble d'organismes vivants (plantes, animaux, micro-organismes) qui intéragissent avec leur environnement physique (sol, eau, air) et entre eux.
 Par ailleurs, la diversité de ces écosystèmes présents sur Terre et des organismes vivants forme ce qu'on appelle la <b style="color: green;">biodiversité</b>.
 
-📉 L’<b style="color: green;">IPV = Indice Planète vivante</b> (en anglais LPI = living planet index) est un **indicateur d'état de la biodiversité** utilisé pour l'évaluation environnementale, en particulier par l'ONU. Cet indice compare l’évolution d’une population en prenant celle de **1970 comme référence (IPV = 1)** et mesure le taux de croissance ou de décroissance à une année donnée par rapport à cette valeur initiale.  
-L'IPV montre qu'au cours des **50 dernières années** (1970-2020), la **taille moyenne des populations d’animaux sauvages** suivies a **diminué de 73 %**. Les populations d’espèces d’eau douce affichent le plus fort déclin, avec une baisse de 85 %.  
+📉 L’<b style="color: green;">IPV = Indice Planète vivante</b> (en anglais LPI = living planet index) est un **indicateur d'état de la biodiversité** utilisé pour l'évaluation environnementale, en particulier par l'ONU. Cet indice compare l’évolution d’une population en prenant celle de **1970 comme référence (IPV = 1)** et mesure le taux de croissance ou de décroissance à une année donnée par rapport à cette valeur initiale.
+L'IPV montre qu'au cours des **50 dernières années** (1970-2020), la **taille moyenne des populations d’animaux sauvages** suivies a **diminué de 73 %**. Les populations d’espèces d’eau douce affichent le plus fort déclin, avec une baisse de 85 %.
 Certains scientifiques parlent même de **"sixième extinction"** ou "extinction de l’Holocène" pour définir cette disparition massive des espèces, mais le terme **"crise de la biodiversité"** fait plus l'unanimité.
 
 <img src="Indice_planete_vivante_2024.jpg" width="45%" alt="ipv 2024">
@@ -309,7 +309,7 @@ Concrètement, un <b style="color: green;">"produit "bio"/"biologique"</b>, est 
   <img src="logos_bio.png" alt="logos bio" style="width: 200px;">
 </div>
 
-🐑 Un <b style="color: green;">produit biosourcé</b> est **fabriqué avec de la matière issue de la biomasse** donc à partir de **végétaux** (blé, colza, lin, chanvre, sciure de bois…) ou de **matière venant des animaux** (laine de mouton, déchets organiques…).  
+🐑 Un <b style="color: green;">produit biosourcé</b> est **fabriqué avec de la matière issue de la biomasse** donc à partir de **végétaux** (blé, colza, lin, chanvre, sciure de bois…) ou de **matière venant des animaux** (laine de mouton, déchets organiques…).
 Les produits biosourcés, utilisés notamment dans la **construction**, visent à **préserver les ressources non renouvelables** en intégrant des matières naturelles. Toutefois, leur **caractère biosourcé ne garantit ni une production biologique ni une innocuité environnementale**. Le label « Produit Biosourcé » distingue trois niveaux (**bronze, argent, or**) selon la proportion de biomasse intégrée, avec des seuils spécifiques par famille de produits.
 
 <img src="logo_biosource.png" width="55%" alt="label biosourcé">
@@ -337,7 +337,7 @@ Les produits biosourcés, utilisés notamment dans la **construction**, visent �
 
 Pour obtenir l’agrément ESUS, il est nécessaire de déposer une demande qui est ensuite délivré pour une période de 5 ans et qui permet d’**accéder** au fonds d’épargne solidaire, à des outils de **financement** solidaire et à des marchés publics réservés.
 
-🍩 La <b style="color: green;">théorie du Donut</b> (2014), ou "économie du donut" considère une **économie** comme **prospère** lorsque **12 fondements sociaux sont réunis sans dépasser aucun des 9 plafonds écologiques** des 9 limites planétaires.  
+🍩 La <b style="color: green;">théorie du Donut</b> (2014), ou "économie du donut" considère une **économie** comme **prospère** lorsque **12 fondements sociaux sont réunis sans dépasser aucun des 9 plafonds écologiques** des 9 limites planétaires.
 L’autrice **Kate Raworth** définit ainsi au coueur du donut 12 besoin de bases dont personne ne devrait manquer qui constitue un « **plancher social** » pour assurer l’épanouissement de tous. Mais cet épanouissement ne peut se faire au-delà d’un cercle extérieur qu'elle appelle le « **plafond environnemental** ». Collectivement, nous ne pouvons utiliser les ressources de manière trop intensive, au risque de soumettre l’équilibre de la planète à une trop grande pression.
 
 <img src="donut.png" width="35%" alt="donut">
@@ -346,15 +346,15 @@ L’autrice **Kate Raworth** définit ainsi au coueur du donut 12 besoin de base
 </div>
 
 🌱 L'<b style="color: green;">économie verte</b> est une économie qui entraîne une **amélioration du bien-être humain et de l'équité sociale**, tout en **réduisant** de manière significative les **risques environnementaux et la pénurie de ressources**. Les emplois de l'économie verte ne sont pas uniquement liés à la nature et il en existe 2 types :
-- les **métiers verts** : métiers dont la finalité et les compétences mise en oeuvre contribuent à mesurer, prévenir, maîtriser, corriger les impacts négatifs et les dommages sur l'environnement.  
+- les **métiers verts** : métiers dont la finalité et les compétences mise en oeuvre contribuent à mesurer, prévenir, maîtriser, corriger les impacts négatifs et les dommages sur l'environnement.
   Ex : agent de parc national, technicien de mesure de la qualité de l'eau, poseur en isolation thermique, juriste en environnement...
-- les **métiers verdissants** : métiers dont la finalité n'est pas environnementale, mais qui intègrent de nouvelles "briques de compétences" pour prendre en compte de façon significative et quantifiable la dimension environnementale dans le geste métier.  
+- les **métiers verdissants** : métiers dont la finalité n'est pas environnementale, mais qui intègrent de nouvelles "briques de compétences" pour prendre en compte de façon significative et quantifiable la dimension environnementale dans le geste métier.
   Ex : agriculteur (produire bio), plombier (installer des pompes à chaleur)
 
 ♻️ L'<b style="color: green;">économie circulaire</b> est l’une des composante de l’économie verte. Cette notion désigne un modèle économique dont l’objectif est de **produire des biens et des services de manière durable**, en **limitant la consommation** et les gaspillages de ressources **et la production de déchets**. Elle vise à passer d’une société du tout jetable, basé sur une économie linéaire (extraire, fabriquer, consommer, jeter) vers un modèle économique plus circulaire.
 
-🚯 La <b style="color: green;">loi AGEC = loi anti-gaspillage pour une économie circulaire</b> (2020) vise l'**économie circulaire** autour de 5 grands axes : **sortir du tout jetable**, mieux **informer les consommateurs**, lutter contre le gaspillage et pour le **réemploi solidaire**, agir **contre l’obsolescence programmée** et mieux produire.  
-Ex : cette loi veut instauré l'**indice de durabilité** qui vise à **lutter contre l’obsolescence programmée** en attribuant un score aux produits selon leur longévité. Une première étape a été franchie avec l’**indice de réparabilité** en 2022.  
+🚯 La <b style="color: green;">loi AGEC = loi anti-gaspillage pour une économie circulaire</b> (2020) vise l'**économie circulaire** autour de 5 grands axes : **sortir du tout jetable**, mieux **informer les consommateurs**, lutter contre le gaspillage et pour le **réemploi solidaire**, agir **contre l’obsolescence programmée** et mieux produire.
+Ex : cette loi veut instauré l'**indice de durabilité** qui vise à **lutter contre l’obsolescence programmée** en attribuant un score aux produits selon leur longévité. Une première étape a été franchie avec l’**indice de réparabilité** en 2022.
 Ex : pour l'objectif de la **fin du plastique jetable d’ici 2040**, la loi introduit des interdictions progressives pour réduire l’utilisation du plastique à usage unique.
 
 🌊 L'<b style="color: green;">économie bleue</b> englobe toutes les **activités économiques associées aux ressources marines** et aux écosystèmes aquatiques. L’économie bleue cherche à favoriser une croissance économique durable en **protégeant les milieux marins et aquatiques**. Contrairement à l’économie verte et à l’économie circulaire, l'économie bleu ne consiste pas juste à polluer moins, mais à **ne plus polluer du tout** en éliminant la production de déchets au moyen d’un changement dans les méthodes de production.
@@ -369,12 +369,12 @@ Ex : pour l'objectif de la **fin du plastique jetable d’ici 2040**, la loi int
 
 ✅ Le <b style="color: green;">budget vert</b> (2020) est un outil de transparence qui évalue l’**impact environnemental des dépenses publiques**. Il classe chaque dépense selon **6 critères environnementaux** (atténuation climat, adaptation climat, eau, déchet, pollution, biodiversité) et attribue une cotation **favorable, défavorable, mixte ou neutre**.
 
-🎣 Les <b style="color: green;">communs</b> désignent des **ressources partagées** avec un **collectif d’acteur** qui disposent de droit et d’obligations et une **structure de gouvernance propre** où les utilisateurs ont leur mot à dire. Ex : zone de pêche, frigo, forêts, jardin partagés, systèmes d’irrigation, brevets, logiciel libres open, boîte de Do_It, boîte à livres, supermarché coopératif...  
+🎣 Les <b style="color: green;">communs</b> désignent des **ressources partagées** avec un **collectif d’acteur** qui disposent de droit et d’obligations et une **structure de gouvernance propre** où les utilisateurs ont leur mot à dire. Ex : zone de pêche, frigo, forêts, jardin partagés, systèmes d’irrigation, brevets, logiciel libres open, boîte de Do_It, boîte à livres, supermarché coopératif...
 Toutefois, l'article **La tragédie des communs** (1968) de Garrett Hardin a diffusé l’idée que l'absence de propriété privée mènerait inévitablement à la **surexploitation des ressources**. Cette approche a marqué la pensée environnementale contemporaine, encourageant la création de **trusts caritatifs environnementaux** qui promeuvent une **gestion privée des communs**, avec pour objectif exclusif leur préservation.
 
 ### Énergie
 
-🔋 Le <b style="color: green;">mix énergétique</b> (ou bouquet énergétique) désigne la **répartition des sources d’énergie** utilisées dans une région donnée. Il inclut les **énergies fossiles** (pétrole, gaz naturel, charbon), le **nucléaire** et les **énergies renouvelables** (biomasse, hydraulique, éolien, solaire).  
+🔋 Le <b style="color: green;">mix énergétique</b> (ou bouquet énergétique) désigne la **répartition des sources d’énergie** utilisées dans une région donnée. Il inclut les **énergies fossiles** (pétrole, gaz naturel, charbon), le **nucléaire** et les **énergies renouvelables** (biomasse, hydraulique, éolien, solaire).
 Aujourd’hui, le mix énergétique français dépend encore à plus de 60% des énergies fossiles. Pour atteindre ses objectifs climatiques, **la France doit décarboner son mix** et remplacer les sources fossiles par de l’électricité.
 
 ⚡ Le <b style="color: green;">mix électrique</b> représente l’éventail des **combustibles utilisés pour produire de l'électricité** dans une région donnée.
@@ -408,7 +408,7 @@ J'ai également regardé le graphique de la production d’électricité par fil
     Illustration trouvée sur le site Studioreset
 </div>
 
-🏢 Les <b style="color: green;">bâtiments passifs</b> consomment **moins de 15 kWh/m²/an pour le chauffage**, ce qui permettrait selon le Passiv Haus Institut de bénéficier de plus de 70% des besoins en chauffage gratuitement. Au total, ils consomment moins de 120 kWh/m²/an.  
+🏢 Les <b style="color: green;">bâtiments passifs</b> consomment **moins de 15 kWh/m²/an pour le chauffage**, ce qui permettrait selon le Passiv Haus Institut de bénéficier de plus de 70% des besoins en chauffage gratuitement. Au total, ils consomment moins de 120 kWh/m²/an.
 En pratique, les bâtiments passifs **ne disposent pas d'un système de chauffage actif**. Le concept est basé sur l'**isolation** des logements, additionnée à une **orientation tournée vers le sud**, et à l’utilisation d’apports internes, c'est-à-dire la chaleur dégagée par les occupants et leurs activités, ce qui permet de réduire les besoins thermiques du bâtiment. Ils sont également conçus dans l'optique de **limiter la consommation d'eau et d'électricité**. En France, le label Bâtiment Basse Consommation énergétique (BBC) s'inspire de ce **concept allemand d'origine**, « Passivhaus ». A titre personnel, j'ai vécu dans une Passivhzus lors de mon erasmus en AUtriche et c'était effectivement super niveau isolation.
 
 ## 👍 Conclusion de ce POK 3

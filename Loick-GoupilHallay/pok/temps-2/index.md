@@ -12,7 +12,7 @@ tags:
   - "dev"
   - "vscode"
 
-résumé: Développement d'une extension permettant de débloquer des succès en fonction de l'utilisation de VSCode.
+description: Développement d'une extension permettant de débloquer des succès en fonction de l'utilisation de VSCode.
 ---
 
 {% sommaire %}

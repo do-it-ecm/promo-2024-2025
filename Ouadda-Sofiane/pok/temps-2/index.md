@@ -15,7 +15,7 @@ tags:
   - 'MongoDB'
   - 'API REST'
   - 'Dark Kitchen'
-résumé: "Développement du BackEnd pour le site de ma Dark Kitchen en utilisant Node.js, Express.js, MongoDB et des API REST pour gérer les produits, le panier et les commandes."
+description: "Développement du BackEnd pour le site de ma Dark Kitchen en utilisant Node.js, Express.js, MongoDB et des API REST pour gérer les produits, le panier et les commandes."
 ---
 
 {% prerequis %}

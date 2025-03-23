@@ -14,7 +14,7 @@ tags:
   - "Web"
   - "Angular"
 
-résumé: Ce dernier POK est consacré à l'approfondissement des connaissances du language de programmation Angular. C'est la suite de mon POK2. Je vais ainsi continuer de développer le site de cuisine Miam'Miam, j'aimerais implémenter les fonctionnalités manquantes (ajout de recette, ...), mais aussi j'aimerais écrire des tests unitaires et déployer le site sur le serveur aioli (serveur de Do-It).
+description: Ce dernier POK est consacré à l'approfondissement des connaissances du language de programmation Angular. C'est la suite de mon POK2. Je vais ainsi continuer de développer le site de cuisine Miam'Miam, j'aimerais implémenter les fonctionnalités manquantes (ajout de recette, ...), mais aussi j'aimerais écrire des tests unitaires et déployer le site sur le serveur aioli (serveur de Do-It).
 ---
 
 {% prerequis %}

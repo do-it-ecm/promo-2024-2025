@@ -10,7 +10,7 @@ temps: 2
 tags:
   - "Python"
 
-résumé: Dans ce MON je souhaite découvrir comment manipuler des fichier vidéos/audio avec python notamment avec la bibliothèque python moviepy.
+description: Dans ce MON je souhaite découvrir comment manipuler des fichier vidéos/audio avec python notamment avec la bibliothèque python moviepy.
 ---
 
 {% prerequis %}

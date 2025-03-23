@@ -12,7 +12,7 @@ tags:
   - "Novice"
   - "C"
 
-résumé: Un POK ayant pour objectif d'apprendre le langage C.
+description: Un POK ayant pour objectif d'apprendre le langage C.
 ---
 
 {% prerequis %}

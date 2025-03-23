@@ -14,7 +14,7 @@ tags:
   - "Macros"
   - "Automatisations dans Google"
 
-résumé: "Un MON ayant pour but de monter en compétence sur Google Script."
+description: "Un MON ayant pour but de monter en compétence sur Google Script."
 
 ---
 

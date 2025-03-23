@@ -12,7 +12,7 @@ tags:
   - "No / low code"
   - "UI / UX"
 
-résumé: "Ce MON a pour but de présenter la création d'un tableau de bord à l'aide de Figma."
+description: "Ce MON a pour but de présenter la création d'un tableau de bord à l'aide de Figma."
 ---
 
 {% lien %}

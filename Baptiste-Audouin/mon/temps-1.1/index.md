@@ -4,13 +4,13 @@ layout: layout/mon.njk
 title: "Découverte des API REST"
 authors:
   - Baptiste Audouin
-  
+
 date: 2024-09-09
 
 temps: 1
 tags:
-  
-résumé: "Le but de ce MON est de me former sur les API REST ainsi que sur leurs intégrations dans des projets web"
+
+description: "Le but de ce MON est de me former sur les API REST ainsi que sur leurs intégrations dans des projets web"
 ---
 
 ## Introduction
@@ -18,7 +18,7 @@ A travers ce MON j'ai pu découvrir le fonctionnement et les utilisations des AP
 <br> J'ai donc suivi deux cours en ligne sur le sujet :
 - Ce premier [cours](https://openclassrooms.com/fr/courses/6031886-debutez-avec-les-api-rest) qui permet de découvrir et débuter avec les API REST
 - Et ce second [cours](https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web) qui forme sur les mises en application des API REST dans des projets web
-  
+
 ## Sommaire
 1. Qu'est-ce qu'une API ?
 2. Fonctionnement d'une API REST
@@ -42,7 +42,7 @@ REST est un type d'architecture qui signifie ***RE**presentational **S**tate **T
   + GET - Lire une ressource
   + POST - Créer une ressource
   + PUT - Modifier la valeur d'une ressource
-  + DELETE - Supprimer une ressource 
+  + DELETE - Supprimer une ressource
 + une représentation de la ressource (la réponse peut avoir plusieurs représentations possibles : HTML, JSON, XML)
 <br>
 Ces principes permettent de structurer les interactions entre les clients (par exemple, des applications ou des navigateurs) et les serveurs en utilisant des requêtes HTTP. Le client envoie des requêtes au serveur en fonction des verbes HTTP et des URLs, et le serveur renvoie une réponse sous la forme d’une représentation de la ressource. Cette approche rend les APIs REST faciles à comprendre et à utiliser indépendamment des plateformes (Linux, Windows, ...) et langages (Python, Java, ...).
@@ -63,7 +63,7 @@ Voici un exemple de requête avec POSTMAN, j'ai choisi l'API [countrylayer](http
 
 
 ## 3. Intégration dans un script Python
- 
+
 ### Utilisation de l'API CountryLayer avec Python
 
 #### Définition des variables globales
@@ -334,7 +334,7 @@ get_country_by_currency("usd")
  'Zimbabwe']
  ```
 
-Cette application n'était qu'un exemple illustrant l'intégration d'une API REST dans un script Python. Selon les besoins spécifiques d'un projet, des recherches ainsi que le parcours des documentations peuvent aider à trouver une API adaptée. 
+Cette application n'était qu'un exemple illustrant l'intégration d'une API REST dans un script Python. Selon les besoins spécifiques d'un projet, des recherches ainsi que le parcours des documentations peuvent aider à trouver une API adaptée.
 ## Conclusion
 
 Au cours de ce MON j'ai pu apprendre les fondamentaux des API REST ainsi que leur utilisation à travers l'API CountryLayer et des exemples pratiques en Python. L'intégration d'API REST simplifie la récupération et l'analyse des données facilitant ainsi leurs utilisations. Pour le sprint 2 de mon POK, je prévois d'intégrer une API REST en VBA dans Excel afin d'en explorer les manipulations avec ce langage.

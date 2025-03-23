@@ -9,7 +9,7 @@ date: 2025-01-28
 temps: 3
 tags:
 
-résumé: "Dans ce MON je souhaite découvrir la programmation orienté objet avec Python."
+description: "Dans ce MON je souhaite découvrir la programmation orienté objet avec Python."
 
 ---
 
@@ -59,7 +59,7 @@ class Voiture:
 ma_voiture = Voiture("Tesla", "Model 3")
 print(ma_voiture.afficher_info())
 ```
-Après execution, voici ce que le script renvoie : 
+Après execution, voici ce que le script renvoie :
 ```
 Voiture: Tesla Model 3
 ```
@@ -71,7 +71,7 @@ L'encapsulation limite l'accès direct aux attributs d'un objet ce qui permet de
 ```python
 class CompteBancaire:
     def __init__(self, solde):
-        self.__solde = solde  
+        self.__solde = solde
 
     def deposer(self, montant):
         self.__solde += montant
@@ -84,7 +84,7 @@ compte.deposer(500)
 print(compte.afficher_solde())
 ```
 
-Après execution, voici ce que le script renvoie : 
+Après execution, voici ce que le script renvoie :
 ```
 Votre solde est de 1500€
 ```
@@ -99,7 +99,7 @@ class Animal:
         self.nom = nom
 
     def parler(self):
-        pass 
+        pass
 
 class Chien(Animal):
     def parler(self):
@@ -111,11 +111,11 @@ class Chat(Animal):
 
 chien = Chien("Rex")
 chat = Chat("Mia")
-print(chien.parler())  
-print(chat.parler())  
+print(chien.parler())
+print(chat.parler())
 ```
 
-Après execution, voici ce que le script renvoie : 
+Après execution, voici ce que le script renvoie :
 ```
 Woof!
 Miaou!
@@ -185,7 +185,7 @@ print(livre1.emprunter())
 biblio.afficher_livres()
 ```
 
-Voici ce qui est renvoyé dansle terminal : 
+Voici ce qui est renvoyé dansle terminal :
 ````
 1984 de George Orwell - disponible
 Le Petit Prince de Antoine de Saint-Exupéry - disponible

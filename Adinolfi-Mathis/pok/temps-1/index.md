@@ -12,7 +12,7 @@ tags:
   - "Simulation"
   - "Python"
 
-résumé: Mon POK a pour but de simuler le trafic routier à l'aide de python afin d'analyser la formation d'embouteillage en ville
+description: Mon POK a pour but de simuler le trafic routier à l'aide de python afin d'analyser la formation d'embouteillage en ville
 ---
 
 {% prerequis %}

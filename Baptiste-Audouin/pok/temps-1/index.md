@@ -12,7 +12,7 @@ temps: 1
 tags:
   - "vba"
   - "Excel"
-résumé: POK traitant du langage VBA avec une mise en application concrète
+description: POK traitant du langage VBA avec une mise en application concrète
 ---
 {% prerequis %}
 - Connaissances de base en Excel
@@ -21,25 +21,25 @@ résumé: POK traitant du langage VBA avec une mise en application concrète
 
 {% lien %}
 [Excel pratique](https://excel-pratique.com)
-[Bases de données véhiculaires](https://voiture.car2db.com) 
+[Bases de données véhiculaires](https://voiture.car2db.com)
 [Bases de données géographiques](https://www.data.gouv.fr/fr/datasets/villes-de-france/#/resources)
 [API Open Route Service](https://openrouteservice.org)
 
 {% endlien %}
 
 J'aimerai à travers se POK me former au langage VBA qui est très souvent utilisé en entreprise.
-En mise en application j'aimerai créer un outil permettant aux commerciaux d'une entreprise de calculer les coûts de leurs déplacements afin de créer des notes de frais. 
+En mise en application j'aimerai créer un outil permettant aux commerciaux d'une entreprise de calculer les coûts de leurs déplacements afin de créer des notes de frais.
 ## Tâches
 ##### Sprint 1 :
 - [ ] Découvrir et me former en VBA *(Temps estimé : 4h)*
 - [ ] Définir le visuel et les fonctionnalités du rendu final *(Temps estimé : 1h)*
-- [ ] Ecrire une première version du code avec les éléments de base *(Temps estimé : 4h)* 
+- [ ] Ecrire une première version du code avec les éléments de base *(Temps estimé : 4h)*
 - [ ] Tester les fonctionnalités et réfléchir à des améliorations à réaliser lors du second sprint *(Temps estimé : 1h)*
 
 ##### Sprint 2 :
 - [ ] Définir les améliorations à implémenter *(Temps estimé : 1h)*
 - [ ] Améliorer et compléter l'outil avec les améliorations définies *(Temps estimé : 2h30)*
-- [ ] Appliquer les connaissances acquises lors du MON 1 avec une connexion API REST *(Temps estimé : 5h)* 
+- [ ] Appliquer les connaissances acquises lors du MON 1 avec une connexion API REST *(Temps estimé : 5h)*
 - [ ] Documenter le projet et préparer la présentation finale *(Temps estimé : 1h30)*
 ## Premier Sprint : découverte de VBA et première version de l'outil
 ###  Horodatage  :
@@ -68,11 +68,11 @@ La première version de l'outil utilise deux feuilles Excel, une feuille *Dépla
 
 Le bouton *Enregistrer*fait référence à la première macro du projet qui, lors d'un clique, va remplir le tableau sur la page Récap en ajoutant une ligne et en la remplissant suivant les données entrées dans le formulaire.
 Voici une explication détaillée du code VBA en utilisant un format Markdown :
-Ce code est coposé d'une macro principale `new_drive` qui utilise également une autre macro que j'ai créé `add_empty_row`. 
+Ce code est coposé d'une macro principale `new_drive` qui utilise également une autre macro que j'ai créé `add_empty_row`.
 
 #### `Sub add_empty_row()`
 Ce code ajoute une ligne vide en dessous de la dernière ligne non-vide dans le tableau de la feuille `Récap`.
-- **Déclaration des variables** :  
+- **Déclaration des variables** :
   - `ligne` est un entier long qui permet de parcourir les lignes de la feuille.
   - `feuille` est un objet représentant la feuille `Récap`.
   - `r_min` stocke la première ligne vide trouvée.
@@ -83,7 +83,7 @@ Dim feuille As Worksheet
 Dim r_min As Long
 Set feuille = Sheets("Récap")
 ```
-- **Insertion d'une nouvelle ligne en bas de tableau'** :  
+- **Insertion d'une nouvelle ligne en bas de tableau'** :
   Le programme parcourt le tableau de la feuille `Récap` en cherchant le dernière ligne non-vide avant d'en ajouter une en dessous.
 ```vba
 For ligne = 3 To feuille.Rows.Count
@@ -96,34 +96,34 @@ feuille.Rows(r_min).Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
 ```
 #### `Sub new_drive()`
 Une fois la macro `add_empty_row` créée, on peut code la macro générale `new_drive`.
-- **Définition des feuilles** :  
+- **Définition des feuilles** :
   Les objets `sourceFeuille` et `destinationFeuille` sont assignés aux feuilles respectives.
 ```vba
 Set sourceFeuille = Sheets("Déplacements")
 Set destinationFeuille = Sheets("Récap")
 ```
-- **Initialisation de la variable `ligne`** :  
-  Le programme commence à chercher une ligne vide à partir de la ligne 5 dans la feuille `Récap`.  
+- **Initialisation de la variable `ligne`** :
+  Le programme commence à chercher une ligne vide à partir de la ligne 5 dans la feuille `Récap`.
   La procédure `add_empty_row` est appelée pour ajouter une ligne vide.
 ```vba
 ligne = 4
 Call add_empty_row
 ```
-- **Boucle de recherche de la première ligne vide** :  
+- **Boucle de recherche de la première ligne vide** :
   Cette boucle vérifie la colonne B à partir de la ligne 5 pour trouver la première cellule vide, puis stocke le numéro de cette ligne.
 ```vba
 Do While destinationFeuille.Range("b" & ligne) <> ""
     ligne = ligne + 1
 Loop
 ```
-- **Copie des valeurs** :  
+- **Copie des valeurs** :
   Le programme copie les valeurs des cellules D6, D8, D10, etc. de la feuille `Déplacements` vers les colonnes B, C, D, etc. de la feuille `Récap`, à la ligne trouvée.
 ```vba
 destinationFeuille.Range("b" & ligne) = sourceFeuille.Range("D6").Value
 destinationFeuille.Range("c" & ligne) = sourceFeuille.Range("D8").Value
 ...
 ```
-- **Nettoyage des données sources** :  
+- **Nettoyage des données sources** :
   Après avoir copié les données, le contenu des cellules D6, D8, D10, etc. de la feuille `Déplacements` est effacé pour les préparer à de nouvelles entrées.
 ```vba
 sourceFeuille.Range("D6").ClearContents
@@ -139,7 +139,7 @@ Comme prévue lors de la définition des tâches de mon POK j'avais prévu un te
 *  Recherche d'une API pour avoir le prix du carburant actualisé
 *  Calcul du coût de déplacement
 *  Intégrer un envoie automatique de mail
-  
+
 ## Second Sprint : Intégration d'API et automatisation d'envoie de mail en VBA
 ###  Horodatage  :
 Dans ce second sprint j'ai été énormément ralenti par l'incompatibilité entre mac et Excel qui bloque l'utilisation d'API et l'envoie de mail. J'ai tout de même réussi à avancer en utilisant un autre ordinateur :
@@ -161,7 +161,7 @@ Sub GetDirections(ligne As Integer)
     'Definition des coordonnees
     Dim startcoord As String
     Dim endcoord As String
-    
+
     'Attribution des coordonnées
     startcoord = Application.WorksheetFunction.Index(Sheets("Villes").Range("L:L"), Application.WorksheetFunction.Match(Sheets("Recap").Range("e" & ligne).Value, Sheets("Villes").Range("D:D"), 0))
     endcoord = Application.WorksheetFunction.Index(Sheets("Villes").Range("L:L"), Application.WorksheetFunction.Match(Sheets("Recap").Range("f" & ligne).Value, Sheets("Villes").Range("D:D"), 0))
@@ -171,13 +171,13 @@ Sub GetDirections(ligne As Integer)
     request.Open "GET", "https://api.openrouteservice.org/v2/directions/driving-car?api_key=5b3ce3597851110001cf624851d78afb034647d69ce565d480d3b168&start=&startcoord&&end=&endcoord&", False
     ' Definir les en-tetes de la requete
     request.setRequestHeader "Accept", "application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8"
-    
+
     ' Envoyer la requete
     request.Send
     ' Recuperer et traiter la reponse
     Dim responseContent As String
     responseContent = request.responseText
-    
+
     ThisWorkbook.Sheets("Parametres").Range("F6").Value = responseContent
 End Sub
 ```
@@ -241,13 +241,13 @@ Sub new_drive()
     Dim ligne As Integer
     Dim sourceFeuille As Worksheet
     Dim destinationFeuille As Worksheet
-    
+
     ' Définir la feuille source (Deplacements)
     Set sourceFeuille = Sheets("Deplacements")
-    
+
     ' Définir la feuille de destination (Recap)
     Set destinationFeuille = Sheets("Recap")
-    
+
     ' Commencer à la ligne 5
     ligne = 4
     'Ajout d'une ligne vide
@@ -256,7 +256,7 @@ Sub new_drive()
     Do While destinationFeuille.Range("b" & ligne) <> ""
         ligne = ligne + 1
     Loop
-    
+
     ' Copier les valeurs depuis la feuille Sheet1 et les coller dans la feuille Récap
     destinationFeuille.Range("b" & ligne) = sourceFeuille.Range("D6").Value
     destinationFeuille.Range("c" & ligne) = sourceFeuille.Range("D8").Value
@@ -264,7 +264,7 @@ Sub new_drive()
     destinationFeuille.Range("e" & ligne) = sourceFeuille.Range("D12").Value
     destinationFeuille.Range("f" & ligne) = sourceFeuille.Range("D14").Value
     destinationFeuille.Range("g" & ligne) = sourceFeuille.Range("D16").Value
-    
+
     'Vide les valeurs du formulaire
 
     sourceFeuille.Range("D6").ClearContents
@@ -273,14 +273,14 @@ Sub new_drive()
     sourceFeuille.Range("D12").ClearContents
     sourceFeuille.Range("D14").ClearContents
     sourceFeuille.Range("D16").ClearContents
-    
+
     'Appel de l'API pour calculer la distance
-    
+
     Call GetDirections(ligne)
-    
+
     destinationFeuille.Range("h" & ligne) = Sheets("Parametres").Range("F12").Value
     destinationFeuille.Range("i" & ligne).Formula = "= (INDEX(Parametres!$H$2:$H$4, MATCH(INDEX(Véhicules!AT:AT, MATCH(Recap!G" & ligne & ", Véhicules!C:C, 0)), Parametres!$G$2:$G$4, 0)) * Recap!H" & ligne & " / 100) * INDEX(Véhicules!AW:AW, MATCH(Recap!G" & ligne & ", Véhicules!C:C, 0))"
-    
+
 End Sub
 ```
 ## Conclusion
@@ -288,5 +288,5 @@ Après un premier sprint concluant avec toutes les tâches réalisées sans rée
 
  - **1. Feuille `Deplacements`** : L'utilisateur entre son déplacement avec l'aide des bases de données `Villes` et `Véhicules` puis le valide avec le bouton `Enregistrer`.
  - **2. Feuille `Recap`** : Après que l'utilisateur ait enregistrer un déplacement, une nouvelle ligne apparait dans le tableau avec la distance de l'itinéraire calculée à l'aide d'une requête API REST ainsi que le calcul complet du coût du trajet grâce aux paramètres du véhicule utilisé présent dans la base de donnée `Véhicules`.
-  
+
  - **3. Feuille `Recap`** : Une fois ces deux dernières étapes réalisées autant de fois que l'utilisateur a de trajets à entrer, le bouton `Envoyer` permet d'envoyer le tableau récapitulatif de tous les trajets par mail.

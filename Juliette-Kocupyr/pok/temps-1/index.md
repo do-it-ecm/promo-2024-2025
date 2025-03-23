@@ -13,7 +13,7 @@ tags:
   - "Etude de cas"
 
 
-résumé: Ce POK traite des transformations agiles en entreprise, avec l'étude de deux grands groupes devenus des modèles de l'agile.
+description: Ce POK traite des transformations agiles en entreprise, avec l'étude de deux grands groupes devenus des modèles de l'agile.
 ---
 
 {% prerequis %}
@@ -149,7 +149,7 @@ Les facteurs déclencheurs déterminent deux approches de la transformation agil
    - L’agilité **opérationnelle**, qui concerne la manière dont les tâches et les projets sont gérés au quotidien.
    - L’agilité **stratégique**, qui se penche sur la capacité de l’entreprise à s’adapter aux changements du marché.
    - L’agilité **culturelle**, qui évalue la réceptivité et la flexibilité des employés face au changement.
-  
+
   En identifiant clairement les forces et les faiblesses dans ces domaines, il est possible de **cibler** précisément les **domaines d’amélioration** prioritaires dans la transformation agile.
 
 2. Il faut ensuite **définir une vision et des objectifs clairs**. Ça doit être une représentation claire et inspirante de ce que l'entreprise souhaite atteindre à travers l’adoption des pratiques agiles. Les objectifs, eux, doivent être formulés selon la méthode SMART (Spécifiques, Mesurables, Atteignables, Réalistes et Temporellement définis). Ils fourniront un **cadre clair** pour mesurer les progrès et les réussites tout au long du projet.

@@ -13,7 +13,7 @@ tags:
   - "bleu"
   - "saumon"
 
-résumé: "J’ai adoré l’intervention sur le design thinking par Oresys en tronc commun de Do_It et je me suis dit que travailler dans ce secteur pourrait bien me plaire et correspondre à mes compétences. Donc je fais ce MON pour mieux me renseigner sur le design thinking, le métier de consultant et valider ou non si j’ai enfin trouvé une idée de métier qui me plait !"
+description: "J’ai adoré l’intervention sur le design thinking par Oresys en tronc commun de Do_It et je me suis dit que travailler dans ce secteur pourrait bien me plaire et correspondre à mes compétences. Donc je fais ce MON pour mieux me renseigner sur le design thinking, le métier de consultant et valider ou non si j’ai enfin trouvé une idée de métier qui me plait !"
 ---
 
 {% prerequis %}

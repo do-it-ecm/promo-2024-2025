@@ -9,7 +9,7 @@ date: 2025-03-09
 temps: 3
 tags:
 
-résumé: "Ce MON traite de la découverte du langage R à travers l'analyse de données météorologiques."
+description: "Ce MON traite de la découverte du langage R à travers l'analyse de données météorologiques."
 ---
 
 {% prerequis %}
@@ -111,14 +111,14 @@ df_prophet <- data.frame(
 ```
 
 2. Entraîner le modèle :
-   
+
 ```bash
 model_prophet <- prophet(df_prophet)
 future <- make_future_dataframe(model_prophet, periods = 30)
 ```
 
 3. Faire des prévisions pour les 30 prochains jours :
-   
+
 ```bash
 forecast_prophet <- predict(model_prophet, future)
 ```

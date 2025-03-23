@@ -8,11 +8,11 @@ authors:
 date: 2025-03-01
 
 temps: 3
-tags: 
+tags:
 - Ecologie
 - Construction durable
 
-résumé: Ce Pok vise à faire un état des lieux des différentes normes thermiques et écologiques qui s'appliquent aux bâtiments ainsi que d'explorer les solutions qui permettent d'atteindre ces normes, voire mieux !
+description: Ce Pok vise à faire un état des lieux des différentes normes thermiques et écologiques qui s'appliquent aux bâtiments ainsi que d'explorer les solutions qui permettent d'atteindre ces normes, voire mieux !
 ---
 
 {% prerequis %}
@@ -163,7 +163,7 @@ Conscient de cet enjeu, l'état français a instauré une politique de pollueur-
 
 Dans le cas précis de la construction, des éco-organismes comme [Valobat](https://www.valobat.fr/) se sont créés pour accompagner les entreprises et artisans dans l'application de cette norme. Ils proposent l'accompagnement des fabricants et distibuteurs pour la mise en place de l'éco-contribution des produits qu'ils vendent mais aussi les entreprises et artisans du BTP pour collecter leurs déchets et les rediriger dans les filières de recyclage et revalorisations adaptées.
 
-Aujourd'hui, de plus en plus de déchets du BTP sont recyclés et le réemploi se développe de plus en plus pour limiter la production de déchets. Par exemple avec [CycleUp](https://www.cycle-up.fr/home), une entreprise peut mettre en vente des matériaux commandés en trop, déposés proprements de bâtiments existants, ou installés provisoirement sur des espaces tampons mis en place pendant la durée d'un chantier entre autres. D'autres entreprises ou artisans peuvent alors acheter ces matériaux d'occasion pour les installer sur d'autres chantiers. C'est un très bon moyen d'allier économie et écologie ! 
+Aujourd'hui, de plus en plus de déchets du BTP sont recyclés et le réemploi se développe de plus en plus pour limiter la production de déchets. Par exemple avec [CycleUp](https://www.cycle-up.fr/home), une entreprise peut mettre en vente des matériaux commandés en trop, déposés proprements de bâtiments existants, ou installés provisoirement sur des espaces tampons mis en place pendant la durée d'un chantier entre autres. D'autres entreprises ou artisans peuvent alors acheter ces matériaux d'occasion pour les installer sur d'autres chantiers. C'est un très bon moyen d'allier économie et écologie !
 
 Du côté de la revalorisation, de plus en plus de filières spécialisées se développent, comme chez [Tarkett](https://professionnels.tarkett.fr/fr_FR/node/recyclage-dalles-de-moquette-boucler-la-boucle-13211), un fabriquant français de moquettes qui rayonne à l'échelle mondiale. Ce producteur est le parfait exemple de l'intérêt de l'éco-contribution. Cette taxe sur la production de déchets a encouragé l'entreprise à investir sérieusement dans la recherche et le développement et ils sont capables aujourd'hui de produire des dalles de moquettes qu'ils savent recycler à 100% une fois la dalle en fin de vie. Plus généralement, Tarkett a introduit tant que faire se peut des matériaux recyclés ou biosourcés dans la production de leurs revêtements de sol.
 

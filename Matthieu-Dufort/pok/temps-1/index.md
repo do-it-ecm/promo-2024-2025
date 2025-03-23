@@ -13,7 +13,7 @@ tags:
   - "Novice"
   - "Pony"
 
-résumé: POK traitant des bases de données en général ainsi que de la façon d'en construire une.
+description: POK traitant des bases de données en général ainsi que de la façon d'en construire une.
 ---
 
 Ce POK a pour but de retracer toute la conception d'une base de données, en partant de sa définition pour ensuite la visualiser et l'organiser. Il se séparera en deux parties : une plus théorique et une partie pratique.
@@ -93,7 +93,7 @@ L'entreprise exemple fictive que nous allons utiliser tout au long de l'exercice
 Pour cela, BatiBase a fait appel à nous afin de construire leur base de données. Ils ne connaissent pas bien les bases de données et nous laissent donc libre choix sur tout, tant que cela couvre leur activité et que la base est scalable. Nous allons donc devoir choisir un modèle d'architecture et le construire en suivant les recommandations d'experts.
 
 ![logo BatiBase](./logoBatiBase.png)*(ChatGPT)*
-  
+
 ## Utilisation d'une base de données
 
 Elle est utilisée dans le monde digital pour conserver des données sur des personnes physiques, morales, ainsi que sur des objets, etc.
@@ -260,7 +260,7 @@ Pour ce Sprint, j'ai sous-estimé le temps passé sur cette première phase d'an
 
 J'ai aussi mal réparti mon temps en travaillant dessus beaucoup au dernier moment, ce qui a fait un sprint un peu lourd.
 
-{% enddetails %} 
+{% enddetails %}
 
 # Second Sprint
 
@@ -348,7 +348,7 @@ Ensuite, j'ai créé la base de données à l'aide du model défini précédemen
 ```python
 from pony import orm
 from DataModel import Tool, Employee, Supplier, Order, Skill, Client, Material, ConstructionSite, db
- 
+
 db.bind('sqlite', 'database.sqlite', create_db=True)
 orm.sql_debug(True)
 db.generate_mapping(create_tables=True)
@@ -362,11 +362,11 @@ Maintenant, je vais créer de la donnée dans la base afin d'être sur de son bo
 
 ```python
     ConstructionSite1 = ConstructionSite(
-        name="Maison4", 
-        address='Rue des patates', 
-        type="Maison", 
-        comment='Réparation cuisine', 
-        created_at="14/10/2024", 
+        name="Maison4",
+        address='Rue des patates',
+        type="Maison",
+        comment='Réparation cuisine',
+        created_at="14/10/2024",
         status="En cours"
     )
 
@@ -374,7 +374,7 @@ Maintenant, je vais créer de la donnée dans la base afin d'être sur de son bo
     ConstructionSite1.tools.add(Tool1)
     ConstructionSite1.employees.add(Employee1)
 
-    db.commit() 
+    db.commit()
 ```
 
 J'ai aussi créé chacun des autres objets en utilisant toujours la typographie NomDeLaClasse1. Une fois tous les liens et les champs remplis, il faut insérer le tout dans la base afin de créer la data avec la fonction *commit*
@@ -383,7 +383,7 @@ Il est temps d'intéragir avec pour vérifier le bon fonctionnement !
 
 ## Intéraction avec la base de données
 
-Pour intéragir avec la base de donnée, il est possible d'utiliser du language python : 
+Pour intéragir avec la base de donnée, il est possible d'utiliser du language python :
 
 ```python
 from pony import orm
@@ -406,7 +406,7 @@ Grâce à ceci, on obtient bien le client cherché avec ses informations. Il est
 ```python
 with orm.db_session:
     sql = """
-    SELECT o.order_id, o.created_at, o.price, o.currency, 
+    SELECT o.order_id, o.created_at, o.price, o.currency,
            s.name AS supplier_name, s.phone_number AS supplier_phone
     FROM "Order" AS o
     JOIN "Supplier" AS s ON o.supplier = s.supplier_id

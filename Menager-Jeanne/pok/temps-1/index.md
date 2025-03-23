@@ -10,7 +10,7 @@ date: 1970-09-01
 temps: 1
 tags:
 
-résumé: "Rassembler mon expérience interrail pour pouvoir le partager facilement."
+description: "Rassembler mon expérience interrail pour pouvoir le partager facilement."
 ---
 
 {% prerequis %}
@@ -41,11 +41,11 @@ Sur la page d’accueil, je souhaite que l’utilisateur puisse cliquer sur chaq
 
 ![Page d’accueil avec menu faite sur Figma](./site2.png)
 
-Mais depuis l’accueil, grâce aux onglets villes et pays, on pourra aussi accéder à un pays ou une ville 
+Mais depuis l’accueil, grâce aux onglets villes et pays, on pourra aussi accéder à un pays ou une ville
 
 ![Page de pays faite sur Figma](./site3.png)
 
-Sur la page d’un pays, je développerai mon itinéraire au sein de ce pays, de nouveau, l’utilisateur pourra cliquer sur les différentes villes pour avoir plus de détails. 
+Sur la page d’un pays, je développerai mon itinéraire au sein de ce pays, de nouveau, l’utilisateur pourra cliquer sur les différentes villes pour avoir plus de détails.
 
 ![Page de pays faite sur Figma](./site4.png)
 
@@ -54,21 +54,21 @@ Sur la page de la ville, je mettrai des photos et des bonnes adresses
 
 J’ai ensuite commencé à coder mais je me suis rendue compte que mes connaissances en flexion étaient un peu limité, j’ai donc refait des exercices sur ce sujet grâce à [Flexbox - Froggy](http://flexboxfroggy.com/#fr).
 
-Il a fallut aussi que je trouve toutes les cartes des pays avec les drapeaux et que je les positionne bien, voici je résultat : 
+Il a fallut aussi que je trouve toutes les cartes des pays avec les drapeaux et que je les positionne bien, voici je résultat :
 
 <video controls autoplay loop>
   <source src="./video_de_mon_site.mp4" type="video/mp4"/>
 </video>
 
 ## Sprint 2
-- [~]Coder les pages des différentes villes avec des photos 
+- [~]Coder les pages des différentes villes avec des photos
 - [x]Bien travailler le passage de la page de garde aux pages de villes
-- [ ]Mettre des liens externes pour des adresses 
+- [ ]Mettre des liens externes pour des adresses
 - [x]Mettre une carte
 
-Lors de ce sprint, je mettais fixé comme objectif de faire toutes les pages des différentes villes où je suis allées mais C'était trop et j'ai préféré faire quelques villes mais bien et avec une carte plutôt que toutes rapidement. Je trouvais aussi que cela me laissait plus de temps pour travailler le code. 
+Lors de ce sprint, je mettais fixé comme objectif de faire toutes les pages des différentes villes où je suis allées mais C'était trop et j'ai préféré faire quelques villes mais bien et avec une carte plutôt que toutes rapidement. Je trouvais aussi que cela me laissait plus de temps pour travailler le code.
 
-J'ai donc commencé par créer une page pour une première ville sur laquelle j'ai intégré une carte google map pour que l'utilisateur puisse voir les différents lieux que je recommande dans cette ville. pour cela, j'ai utilisé l'API Google Mpas Platform qui est gratuite pour les 30 000 premières requettes. 
+J'ai donc commencé par créer une page pour une première ville sur laquelle j'ai intégré une carte google map pour que l'utilisateur puisse voir les différents lieux que je recommande dans cette ville. pour cela, j'ai utilisé l'API Google Mpas Platform qui est gratuite pour les 30 000 premières requettes.
 
 ![Capture d'écran de la page de Flensburg](./Ex_ville1.png)
 
@@ -80,7 +80,7 @@ J'ai ensuite fait un form pour que les gens puissent me contacter si ils avaient
 
 ![Capture d'écran du form](./form.png)
 
-En cliquant sur envoyer, l'application de mail s'ouvre avec le message près à être envoyé: 
+En cliquant sur envoyer, l'application de mail s'ouvre avec le message près à être envoyé:
 
 ![Capture d'écran du mail](./mail.png)
 

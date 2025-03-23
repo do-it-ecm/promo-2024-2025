@@ -12,7 +12,7 @@ tags:
   - python
   - data
 
-résumé: À l'aide de Python, explorer le lien entre les mobilisations sociales et l’évolution des droits des travailleuses et travailleurs en analysant des données sur les grèves, les revendications et les réformes sociales.
+description: À l'aide de Python, explorer le lien entre les mobilisations sociales et l’évolution des droits des travailleuses et travailleurs en analysant des données sur les grèves, les revendications et les réformes sociales.
 ---
 
 {% lien %}

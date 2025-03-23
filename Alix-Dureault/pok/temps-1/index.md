@@ -11,12 +11,12 @@ temps: 1
 tags:
   - "Html et css"
 
-résumé: Création d'un site en utilisant html et css
+description: Création d'un site en utilisant html et css
 ---
 
 Dans l'objectif de mieux comprendre les enjeux du dev, je vais me former en front end. Dans ce but, je vais dev un site web dont l'objectif sera de regrouper des patrons en crochet.
 
-## Pré-requis : 
+## Pré-requis :
 
 {%prerequis 'Niveau débutant '%}
 
@@ -44,7 +44,7 @@ Après ce sprint, je me suis rendu compte que j'avais bien démarré sur les pre
 
 #### Sprint 2
 
-En perspective du premier sprint, les tâches que je prévois de remplir pour le prochain sprint sont les suivantes : 
+En perspective du premier sprint, les tâches que je prévois de remplir pour le prochain sprint sont les suivantes :
 - [x] Finaliser le contenu du site
 - [x] Ecrire le code css des pages
 - [ ] Ajouter de nouvelles fonctionalités comme une fiche contact et une barre de recherche
@@ -77,13 +77,13 @@ J'ai d'abord revu mes bases en html et css grâce aux POK de Louise Bourdon et V
 
 Ensuite, j'ai défini ce que je voulais comme base du site : une page d'acceuil emmenant sur les différents patrons existants dans le site et des fiches patrons. Dans les fiches patrons, elles doivent être simple mais contenir les mesures à prendre, une photo du résultat, le matériel nécessaire, la source et les instructions afin de réaliser le patron.
 
-J'ai ensuite consacré le reste de mon sprint 1 à crée la structure de ces pages : 
+J'ai ensuite consacré le reste de mon sprint 1 à crée la structure de ces pages :
 
 #### Page d'acceuil
 
-Le design de la page d'acceuil est assez sommaire pour l'instant. Il s'agit d'une page rappelant le nom du site et montrant les différents patrons disponibles. 
+Le design de la page d'acceuil est assez sommaire pour l'instant. Il s'agit d'une page rappelant le nom du site et montrant les différents patrons disponibles.
 
-Pour cela, j'ai codé avec html un code assez simple avec en titre de la page le nom du site ainsi qu'un petit paragraphe de bienvenu et un lien pour apprendre les bases du crochet : 
+Pour cela, j'ai codé avec html un code assez simple avec en titre de la page le nom du site ainsi qu'un petit paragraphe de bienvenu et un lien pour apprendre les bases du crochet :
 
 ```
 <h1>Capitaine crochet</h1>
@@ -92,7 +92,7 @@ Pour cela, j'ai codé avec html un code assez simple avec en titre de la page le
     <p>Si vous avez besoin de revoir les bases du crochet ou les aborder pour la première fois, munissez vous de votre meilleur crochet, d'un peu de coton et visionnez la série de <a href = "https://www.youtube.com/watch?v=oJtFRE6V0I8&t=600s" target = "_blank">4 vidéos réalisées par Retropically.</a></p>
 ```
 
-J'ai continué en ajoutant une image et le lien de chaque page de patron que j'ai pu crée : 
+J'ai continué en ajoutant une image et le lien de chaque page de patron que j'ai pu crée :
 ```
 <p>
         <img src="https://woolpattern.com/wp-content/uploads/2024/05/Lilith-Top.jpg" alt="Photo du Lilith Top en ocre" />
@@ -100,12 +100,12 @@ J'ai continué en ajoutant une image et le lien de chaque page de patron que j'a
     <a href = "patron3.html">Lilith Top</a>
 ```
 
-Voici donc le résultat de la page pour le moment : 
+Voici donc le résultat de la page pour le moment :
 ![Page d'acceuil](./Pageacceuil1.jpg)
 
 #### Page patron typique
 
-La page patron à une structure typique à chaque fois : 
+La page patron à une structure typique à chaque fois :
 - Titre du patron
 ```
 <h1>Lilith Top</h1>
@@ -177,7 +177,7 @@ La page patron à une structure typique à chaque fois :
     <a href = "https://www.youtube.com/watch?v=sjY9wFO0sU8" target = "_blank">Patron du Lilith Top par Made by BJax</a>
 ```
 
-Le résultat final du sprint donne quelque chose comme ça : 
+Le résultat final du sprint donne quelque chose comme ça :
 ![Début de la page patron](./Lilithtop1.jpg)
 ![Milieu de la page patron](./Lilithtop2.jpg)
 ![Fin de la page patron](./Dosnu1.jpg)
@@ -201,13 +201,13 @@ Mon code final en html donne ceci :
 ```html
     <!DOCTYPE html>
     <html lang="fr">
-    
+
     <head>
         <meta charset="utf-8">
         <title>Capitaine Crochet</title>
         <link href="Acceuil.css" rel="stylesheet">
     </head>
-    
+
     <body>
         <header role="banner">
             <div class="header-left">
@@ -217,19 +217,19 @@ Mon code final en html donne ceci :
                 <h1>Capitaine crochet</h1>
             </div>
         </header>
-    
+
         <main>
             <p>Bienvenue sur le site du Capitaine crochet ! Ici vous pourrez suivre de superbes patrons pour réaliser vos propres oeuvres en crochet.</p>
-    
+
             <p class="Aide">Si vous avez besoin de revoir les bases du crochet ou les aborder pour la première fois, munissez vous de votre meilleur crochet, d'un peu de coton et visionnez la série de 4 vidéos réalisées par Retropically :</p>
-            
+
             <div class="video-responsive">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/oJtFRE6V0I8?si=K_iq7vbUODj8tr3Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
             </div>
-            
+
             <p class="intro">Une fois les bases apprises, vous pouvez attaquer ces supers patrons. A vous de jouer !</p>
-    
+
                 <div class="gallerie">
                     <div class="Lilith">
                         <img src="Lilith Top photo.jpg" alt="Photo du Lilith Top en ocre" class="ImageLilith"/>
@@ -244,11 +244,11 @@ Mon code final en html donne ceci :
                         <a href = "patron2.html">Top dos nu</a>
                     </div>
                     </div>
-    
+
         </main>
-    
+
     </body>
-    
+
     </html>
 ```
 {% enddetails %}
@@ -258,13 +258,13 @@ Mon code final en html donne ceci :
 ```html
     <!DOCTYPE html>
     <html lang="fr">
-    
+
     <head>
         <meta charset="utf-8">
         <title>Capitaine Crochet - Top dos nu</title>
         <link href="patron2.css" rel="stylesheet">
     </head>
-    
+
     <body>
         <header role="banner">
             <div class="header-left">
@@ -272,19 +272,19 @@ Mon code final en html donne ceci :
                     <img src="logo-modified.png" alt="Logo du site" id="logo"/>
                 </a>
             </div>
-    
+
             <div class="header-center">
                 <p>Capitaine crochet</p>
             </div>
         </header>
-    
+
         <main>
             <h1>Top dos nu</h1>
-            
-            
+
+
             <img src="Backless Tank Top photo.png" alt="Photo d'un top dos nu réalisé au crochet" />
-            
-    
+
+
             <div class="Niveau">
                 <p>Niveau du patron : </p>
                 <img src="Etoile remplie.jpg" alt="Photo d'un pull patchwork réalisé au crochet" class="etoile"/>
@@ -293,7 +293,7 @@ Mon code final en html donne ceci :
                 <img src="Etoile vide.jpg" alt="Photo d'un pull patchwork réalisé au crochet" class="etoile"/>
                 <img src="Etoile vide.jpg" alt="Photo d'un pull patchwork réalisé au crochet" class="etoile"/>
             </div>
-    
+
             <div class="Corps">
             <h2 id = "matériel">Matériel</h2>
             <ul>
@@ -303,16 +303,16 @@ Mon code final en html donne ceci :
                 <li><span>1 aiguille à laine</span></li>
                 <li><span>1 mètre ruban</span></li>
             </ul>
-    
+
             <h2 id = "mesures">Mesures à prendre avant de commencer</h2>
             <img src="Dos nu mesures.jpg" alt="Photo expliquant les mesures à prendre pour réaliser le top." />
-    
+
             <h2 id = "abbréviations">Abbréviations utilisés dans le patron</h2>
                 <p>
                     <em>ch =</em> chain/chaine<br>
                     <em>kn st =</em> knit stitch
                 </p>
-    
+
             <h2 id = "instructions">Instructions</h2>
                 <h3>Devant</h3>
                 <ol>
@@ -322,7 +322,7 @@ Mon code final en html donne ceci :
                     <li>Recommencer le rang 2 jusqu'à avoir un rectangle de la hauteur de la mesure C.</li>
                     <li>Couper le fil et faire un noeud.</li>
                 </ol>
-    
+
                 <h3>Derrière</h3>
                 <ol>
                     <li>Faire un noeud coulant autour du crochet.</li>
@@ -334,23 +334,23 @@ Mon code final en html donne ceci :
                     <li>Attacher le fil 5 st avant la fin du rang 8 de l'autre côté de la première bretelle.</li>
                     <li>Faire le même nombre de rangs que de l'autre côté.</li>
                 </ol>
-    
+
                 <h3>Assemblage</h3>
                 <ol>
                     <li>Aligner les 2 pièces.</li>
                     <li>Attacher avec l'aiguille à laine le haut des bretelles.</li>
                     <li>Coudre les côtés en laissant un espace de chaque côté pour y passer les bras.</li>
                 </ol>
-    
+
             <h2 id = "sources">Sources</h2>
             <div class="video-responsive">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vv_IyfO5d4I?si=a1n5uhzUBixNq3fC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>   
-    </div> 
+        </div>
+    </div>
         </main>
-    
+
     </body>
-    
+
     </html>
 ```
 {% enddetails %}
@@ -360,15 +360,15 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
 - Mon code final en css donne ceci :
 
 {% details "Code css de la page d'acceuil" %}
-    
+
 ```css
     /*Supprimer marges verticale et horizontale*/
-    html, body, p{ 
-    	margin:0; 
-    	padding:0; 
+    html, body, p{
+    	margin:0;
+    	padding:0;
         background-color: #E9DCF9;
     }
-    
+
     /*Mise en place du header (couleur et position)*/
     header{
         background-color: #E9DCF9;/*Couleur de fond*/
@@ -378,7 +378,7 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         height: 16%;
         line-height: 350%;
     }
-    
+
     /*Placement du logo*/
     .header-left {
         float:left;
@@ -386,15 +386,15 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         margin-left: 25%;
         margin-top: 0.25%;
       }
-    
+
     /*Placement du nom du site*/
     .header-center {
         padding: 5px;
         align-items: center;
         margin-top: -1%;
       }
-    
-    /*Définition police titre header*/ 
+
+    /*Définition police titre header*/
     header h1{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight:500;
@@ -402,19 +402,19 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         font-size: 50px;
         margin-left: -15%;
     }
-    
+
     /*Taille du logo*/
     #logo{
         width: 30%;
         height: auto;
     }
-    
-    /*Définition police page*/ 
+
+    /*Définition police page*/
     body{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
     }
-    
+
     /*Placement du corps de la page*/
     main{
         background-color: #E9DCF9;
@@ -422,12 +422,12 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         margin-right: 10%;
         margin-top: 10%;
     }
-    
+
     /*Saut de ligne*/
     main p{
         margin-top: 1%;
     }
-    
+
     /*Placement de la vidéo*/
     .video-responsive {
         margin-left:25%;
@@ -436,13 +436,13 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         margin-top:1%;
         margin-bottom: 3%;
     }
-    
+
     /*Placement texte*/
     .aide{
         display: block;
         margin: auto;
     }
-    
+
     /*Placement de la galerie*/
     .gallerie{
         display:flex;
@@ -450,32 +450,32 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         align-items: center;
         margin-bottom: 3%;
     }
-    
+
     .Lilith{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: -2%;
     }
-    
+
     .Pull{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: -15%;
     }
-    
+
     .Top{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-right: 2%;
     }
-    
+
     .gallerie a{
         margin-top: 1%;
     }
-    
+
     /*Taille des images du corps de texte*/
     main img{
         width:50%;
@@ -488,11 +488,11 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
 {% details "Code css de la page d'un patron" %}
 ```css
     /*Supprimer marges verticale et horizontale*/
-    html, body, p{ 
-    	margin:0; 
-    	padding:0; 
+    html, body, p{
+    	margin:0;
+    	padding:0;
     }
-    
+
     /*Mise en place du header (couleur et position)*/
     header{
         background-color: #E9DCF9;
@@ -502,14 +502,14 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         height: 11%;
         line-height: 350%;
     }
-    
+
     /*Placement du logo*/
     .header-left {
         float:left;
         padding: 5px;
         margin-left: 2%;
       }
-    
+
     /*Placement du nom du site*/
     .header-center {
         float:left;
@@ -519,39 +519,39 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         align-items: center;
         margin-top: 0.5%;
       }
-    
-    /*Définition police titre header*/ 
+
+    /*Définition police titre header*/
     header p{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight:500;
     }
-    
-    /*Définition lien header*/ 
+
+    /*Définition lien header*/
     header a{
         text-decoration: none;
         font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
         color:black
     }
-    
+
     /*Taille du logo*/
     #logo{
         width: 20%;
         height: auto;
     }
-    
-    /*Définition police page*/ 
+
+    /*Définition police page*/
     body{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
     }
-    
+
     /*Placement du corps de la page*/
     main{
         margin-top: 7%;
         margin-left: 7%;
     }
-    
+
     /*Taille des images du corps de texte*/
     main img{
         display: block;
@@ -562,88 +562,88 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
         padding:5px;
         margin-bottom: 3%;
     }
-    
+
     /*Placement des images*/
     main h1{
         font-size: 60px;
         margin-left: 7%;
     }
-    
+
     .etoile{
         width:2%;
         height: auto;
         display:inline;
     }
-    
+
     .Niveau{
         margin-left: 7%;
     }
-    
+
     /*Couleur titres*/
     main h2{
         color:#7486ed
     }
-    
+
     main h3{
         color:#c80cce;
     }
-    
+
     main h4{
         color: #ad7fe5;
     }
-    
+
     /*Placement du texte*/
-    
+
     .Corps li, p {
         line-height: 1.5;
     }
-    
+
     .Corps p, ul, ol{
         margin-left: 10%;
     }
-    
+
     .Corps h2{
         margin-left: 7%;
     }
-    
+
     .Corps h3{
         margin-left: 8.5%;
     }
-    
+
     .Corps h4{
         margin-left: 9.5%;
     }
-    
+
     /*Souligner du texte*/
-    
+
     em{
         text-decoration: underline;
     }
-    
+
     /*Style des listes*/
-    
+
     ul{
         list-style-type: "\0025A1";
     }
-    
+
     li span {
         position: relative;
         left: 10px;
     }
-    
+
     ol{
         list-style-type: lower-roman;
         background-color: #f5effc;
         padding: 20px;
         margin-right:17%;
     }
-    
+
     li{
         margin-left: 3.5%;
     }
-    
+
     /*Placement de la vidéo*/
-    
+
     .video-responsive {
         margin-left:25%;
         height:50%;
@@ -652,17 +652,17 @@ Quand le code html est structuré et les balises correctement placé, on peut ut
     }
 ```
 {% enddetails %}
-    
+
 Tout ce code me permet d'obtenir un résultat beaucoup plus sympathique que lorsque l'on a juste un code html. Voici une plus jolie vision de ce que mon code a pu donné :
-    
+
 ![Visuel de la page d'accueil](./Accueilfinal1.png)
-    
+
 ![Visuel de la page d'accueil 2](./Accueilfinal2.png)
-    
+
 ![Visuel de la page patron](./Patronfinal1.png)
-    
+
 ![Visuel de la page patron 2](./Patronfinal2.png)
-    
+
 ![Visuel de la page patron 3](./Patronfinal3.png)
-    
+
 ![Visuel de la page patron 4](./Patronfinal4.png)

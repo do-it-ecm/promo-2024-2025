@@ -11,7 +11,7 @@ tags:
   - "info"
   - "POO"
 
-résumé: "Bases de la POO avec Python, quelles différences avec la POO en C/C++ ?"
+description: "Bases de la POO avec Python, quelles différences avec la POO en C/C++ ?"
 ---
 
 L'objectif de ce MON est de comprendre les bases de la Programmation Objet à partir du cours de M. Brucker. Ce cours utilisant Python et ayant suivi l'électif sur le C++ en 2A, je souhaite identifier les différences possibles.
@@ -46,14 +46,14 @@ La POO présente les avantages suivants :
 - Compartimentation du code : chaque partie du code et chaque opération est compartimentée, ce qui permet de les tester et des améliorer indépendamment du reste du code.
 - Plutôt que de créer un gros programme complexe, on crée plein de petits programmes indépendants (les objets) qui interagissent entre eux.
 
-La **programmation fonctionnelle** s’inspire dans son écriture des fonctions mathématiques, et a une application plus abstraite. Elle est donc très appréciée pour manipuler et analyser de gros volumes de données mais moins pertinente pour développer une application utile au quotidien. 
+La **programmation fonctionnelle** s’inspire dans son écriture des fonctions mathématiques, et a une application plus abstraite. Elle est donc très appréciée pour manipuler et analyser de gros volumes de données mais moins pertinente pour développer une application utile au quotidien.
 
 Un troisième type de programmation, la **programmation procédurale**, est une méthode qui procède à une analyse descendante pour résoudre un problème, en décomposant le problème en sous-problèmes jusqu’à ce que des actions très simples, aussi appelées procédures, soient identifiées. Cette méthode de programmation peut être très lourde, surtout sur des projets complexes. Elle est adaptée pour des programmes courts.
 
 La POO est donc la méthode à privilégier pour écrire des programmes de taille importante, avec des données complexes.
 
 #### Kézako un langage typé fortement ou faiblement ?
-Une fois encore, la nuance dépasse le "typé" ou "non typé". 
+Une fois encore, la nuance dépasse le "typé" ou "non typé".
 
 Un langage **fortement typé** (comme PHP) va vérifier à la compilation la cohérence entre les données et les types des objets. Cela permet de prévenir les erreurs à l'exécution, comme des erreurs de calcul et des exceptions. Ces langages sont a priori moins permissifs et demandent donc plus de rigueur.
 
@@ -67,7 +67,7 @@ Dans un système impératif, les variables doivent être définies, remplies, aj
 
 Dans le système déclaratif, on se concentre sur le contenu et le *quoi*. Par exemple, les pages HTML sont déclaratives car elles décrivent ce que contient une page (texte, titres, paragraphes, etc.) et non comment les afficher (positionnement, couleurs, polices de caractères…). (Ex. HMTL)
 
-#### Kézako : les autres définitions  
+#### Kézako : les autres définitions
 
 **Programmation événementielle**
 
@@ -91,26 +91,26 @@ Pour reprendre la programmation Orientée Objet sur de bonnes bases, j'ai suivi 
   - **agrégation:** les objets sont créés en dehors de la classe (ex. piles et télécommande).
   - **composition:** les objets sont créés au sein de la classe qui les utilise (ex. livre et pages).
 - **Copie et modification d'objets,** liens et impacts sur la définition et le choix des méthodes (en utilisant de préférence des objets non modifiables).
-- **Héritage:** organiser et réutiliser des classes, à condition que les classes "filles" soit plus spécifique que celle "mère" (ex. classe mère "Personne" / classes filles "Etudiant" ou "Enseignant"). 
+- **Héritage:** organiser et réutiliser des classes, à condition que les classes "filles" soit plus spécifique que celle "mère" (ex. classe mère "Personne" / classes filles "Etudiant" ou "Enseignant").
   - L'objectif est qu'une majorité des méthodes est réutilisée pour la classe fille, et non que la totalité des méthodes soient réécrites dans la classe fille.
   - Intérêt dans le cadre de l'usage d'une bibliothèque.
   - Notion de hiérarchie de classes (racine, *mro* en Python) : on peut définir une classe "object" de laquelle héritera toutes les autres classes pour créer des méthodes et comportements par défaut.
   - Héritage multiple : conflits dans les méthodes. => Usage de composition.
 - **Design Patterns**, notion que j'ai découverte à la fin du cours.
 
-> Les design patterns, ou façons de faire, sont pour ainsi dire de l'algorithmie objet : ils permettent de résoudre nombre de problèmes courants en développement et d'éviter les erreurs classiques, aussi appelées **anti-pattern**. 
-> 
-> Il existe 3 grands types de design pattern: 
-> 
+> Les design patterns, ou façons de faire, sont pour ainsi dire de l'algorithmie objet : ils permettent de résoudre nombre de problèmes courants en développement et d'éviter les erreurs classiques, aussi appelées **anti-pattern**.
+>
+> Il existe 3 grands types de design pattern:
+>
 > - les types creational qui créent des objets.
-> 
+>
 > - les types structural qui mettent les objets en relation.
 >
 > - les types behavioural qui regroupent les objets ayant même comportement.
 
 
 Le cours aborde aussi le test son code. J'ai noté le point de vigilence suivant avec la POO :
-> Attention, dans la mesure du possible ne pas utiliser les attributs de classes. 
+> Attention, dans la mesure du possible ne pas utiliser les attributs de classes.
 > On ne vérifie que les résultats de la méthode, pas comment l'objet stocke ses informations.
 >
 > Chaque méthode doit être testé.
@@ -127,19 +127,19 @@ Le cours aborde aussi le test son code. J'ai noté le point de vigilence suivant
 
 ❌ Les inconvénients :
 - Héritage - Tomber en désuétude ? et des ressources parfois désuettes
-- Peu intuitive : Elle sera moins facile d'accès que l'approche procédurale, généralement la première à être apprise lorsqu'on débute, ou l'approche fonctionnelle qui parlera tout de suite aux matheux. 
+- Peu intuitive : Elle sera moins facile d'accès que l'approche procédurale, généralement la première à être apprise lorsqu'on débute, ou l'approche fonctionnelle qui parlera tout de suite aux matheux.
 - Exigeante : La POO demande une grande rigueur dans le code pour que ses concepts s'appliquent correctement.
 
 #### Comparaison Python VS C++
-🐍 **Python:** 
+🐍 **Python:**
 
 - Langage polyvalent et qui n'est pas limité à la POO ;
-- Facile à apprendre ; 
+- Facile à apprendre ;
 - Usage de conventions (`self` le 1er paramètre de chaque méthode, `__init__`) ;
 - Fonction de propriétés
 - Lorsque vous souhaitez créer des programmes faciles à modifier et à maintenir au fil du temps.
 
-🧮 **C++:** 
+🧮 **C++:**
 - Le langage est plus rapide à exécuter, car il s'agit d'un langage compilé ;
 - Il demande du temps pour bien apprendre ;
 - C'est un "vieux" langage, les recherches en ligne peuvent donc fournir des informations désuettes voire obsolètes.

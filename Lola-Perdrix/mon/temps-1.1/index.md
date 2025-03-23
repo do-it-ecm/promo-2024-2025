@@ -14,7 +14,7 @@ tags:
  - "vert"
  - "bleu"
 
-résumé: "Comprendre les mécanismes et utilisations du Data Storytelling"
+description: "Comprendre les mécanismes et utilisations du Data Storytelling"
 ---
 
 {% prerequis %}
@@ -76,11 +76,11 @@ Les entreprises font face à des quantités massives de données (qui augmentent
   Les prises de décisions sont généralement composées d'une part rationelle et d'une autre émotionelle : en combinant un apport intellectuel (avec les données) avec un apport émotionnel (lié à leur histoire), il en résulte des prises de décisions plus **éclairées** et **efficaces**. Cela permet d'augmenter les performances.
 
 - **Des parties prenantes plus engagées et intéressées**
-  
+
   Le Data Storytelling permet une **meilleure compréhension** des parties prenantes dans les entreprises, qui ne sont pas toutes à l'aise avec les chiffres et les analyses brutes, et donc suciter plus d'engagement de leur part. De plus, l'aspect captivant des histoires **renforce l'intérêt** que portent les employés à leur données / résultats.
 
 - **Des données / chiffres plus faciles à mémoriser**
-  
+
   Présentés sous la forme d'histoire, l'auditeur sera plus enclin à retenir ce qui est raconté (comme expliqué précédemment) et donc celui-ci retiendra mieux les chiffres clés qui lui sont présentés. Les employés sont alors **mieux informés**.
 
 - **De meilleurs résultats**
@@ -250,7 +250,7 @@ Le Data Storytelling c'est utile, mais il ya tout de même quelques points d'att
 - Respecter la **qualité des données** (intégrité, fiabilité...)
 - Respecter la **confidentialité des données**
 - Rester **éthique** : le Data Storytelling ne doit pas être utilisé à des **fins de manipulation**, comme cela pourrait être le cas en créant des histoires influencant les auditeurs de manière abusive.
-  
+
   Par exemple : Cacher des données importantes que l'on ne veut pas voir, et montrer des chiffres insignifiants en racontant que tout va bien. De bonnes histoires peuvent en convaincre plusieurs d'entre nous... Gardez votre esprit critique !
 
 ## 5. Conclusion

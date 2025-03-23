@@ -13,7 +13,7 @@ tags:
   - "datavisualisation"
   - "infographie"
 
-résumé: Analyse de données, exploitation, visualisation et infographie.
+description: Analyse de données, exploitation, visualisation et infographie.
 ---
 
 {% prerequis %}
@@ -65,7 +65,7 @@ Liste des taches que l'on pense faire. On coche si la tache est réalisée. A la
 
 Je me suis finalement aperçue que ce qui me m'intéressait réellement, c’était la visualisation des données, l’infographie et la manière de rendre un contenu clair, pertinent et accessible d’un simple coup d’œil. Cependant, j’ai rapidement réalisé que les étapes préalables, comme l’analyse, le tri et l’exploitation des données nécessaires pour produire une visualisation, représentaient un travail trop conséquent avant d’atteindre la partie qui m’intéressait le plus.
 
-Pour cette raison, j’ai décidé de simplifier le processus en sélectionnant directement un catalogue de données déjà structuré, avec des chiffres, pourcentages et statistiques pertinents. 
+Pour cette raison, j’ai décidé de simplifier le processus en sélectionnant directement un catalogue de données déjà structuré, avec des chiffres, pourcentages et statistiques pertinents.
 
 Mon choix s’est porté sur un document du CNIEL, contenant des informations sur le lait et la filière laitière. Ce sujet m’a semblé intéressant car, bien que la France soit le 2ᵉ producteur de lait en Europe avec près de 25 milliards de litres produits chaque année, il reste encore méconnu du grand public. Inspirée par ce thème propre à la France, j’ai décidé d’en faire une infographie pour mieux valoriser ces données.
 
@@ -107,7 +107,7 @@ Cette expérience m’a permis de comprendre à la fois les exigences techniques
 
 #### Ce que j’aurais souhaité faire de plus dans cette première ébauche, mais le temps m’a manqué :
 
-3. Amélioration graphique : 
+3. Amélioration graphique :
 J’ai appliqué les principes d’UI Design vus en cours,  j'ai rassemblé une banque d’illustrations et de visuels dont je souhaite m'inspirer pour le design.
 J'ai également prévu de faire un brief graphique pour déterminer mes polices, mes titres et ma palette de couleurs finales.
 

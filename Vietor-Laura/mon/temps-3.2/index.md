@@ -9,7 +9,7 @@ date: 1971-01-01
 tags:
   - "temps 3"
 
-résumé: "Un MON traitant d'un sujet."
+description: "Un MON traitant d'un sujet."
 ---
 
 <script>

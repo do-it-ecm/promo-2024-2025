@@ -14,7 +14,7 @@ tags:
   - "Frédéric Laloux"
   - "saumon"
 
-résumé: "L'entreprise dans laquelle j'ai effectué mon stage de césure s'est fortement inspirée du modèle d'organisation opale de Frédéric Laloux pour établir ses modalités d'organisation. J'ai ainsi lu son livre (Reinventing Organizations, Vers des communautés de travail inspirées) et j'ai adoré ce modèle au point de vouloir en faire un résumé ici !"
+description: "L'entreprise dans laquelle j'ai effectué mon stage de césure s'est fortement inspirée du modèle d'organisation opale de Frédéric Laloux pour établir ses modalités d'organisation. J'ai ainsi lu son livre (Reinventing Organizations, Vers des communautés de travail inspirées) et j'ai adoré ce modèle au point de vouloir en faire un résumé ici !"
 ---
 
 {% prerequis %}
@@ -34,29 +34,29 @@ MON débutant, aucun prérequis
 
 ## Introduction
 
-Une **entreprise Opale** représente le **dernier stade de l'évolution organisationnelle et humaine** décrit par **Frédéric Laloux** dans son ouvrage **Reinventing Organizations : Vers des communautés de travail inspirées** (2015).  
+Une **entreprise Opale** représente le **dernier stade de l'évolution organisationnelle et humaine** décrit par **Frédéric Laloux** dans son ouvrage **Reinventing Organizations : Vers des communautés de travail inspirées** (2015).
 Ce livre m'avait été offert par mes collègues suite à mon **stage de césure au Tiers-Lab des Transitions** à Marseille car les cofondateurs du lieu s'était inspiré de ce modèle d'organisation pour créer leur structure. Je peux témoigner personnellement que travailler au sein d'une entreprisse opale était une expérience géniale et c'est pourquoi je voulais reprendre dans ce MON la théorie des entreprises opales qui se caractérisent par 3 piliers fondamentaux : la **raison d'être évolutive, la plénitude et l'auto-gouvernance**. Dans son livre, Frédéric décrit d'abord la liste des **différents modèles d’organisation** à tavers l'histoire, puis il **définit les caractéristiques du stade évolutif opale** dont il a personnellement observé le fonctionnement dans diverses entreprises.
 
 ## 📅 Évolution des modèles d’organisation à travers l’histoire
 
 Frédéric Laloux s'est inspiré du modèle de la **spirale dynamique** fondé sur l'**évolution par stades de la conscience humaine et des systèmes de valeurs** pour créer sa propre liste des différents stades d'organisation créés par les Hommes :
 
-<b style="color: #8B0000;">Stade Réactif – Paradigme InfraRouge</b>  
+<b style="color: #8B0000;">Stade Réactif – Paradigme InfraRouge</b>
 Entre **-100 000 et -50 000 ans**, l'humanité vit en petits groupes familiaux de **douze personnes maximum**. La cueillette est la principale source de nourriture, sans division du travail, à part pour les femmes s'occupant des enfants. La **violence** est omniprésente, et il n'y a pas de hiérarchie ni d'organisation.
 
-<b style="color: magenta;">Stade Magique – Paradigme Magenta</b>  
+<b style="color: magenta;">Stade Magique – Paradigme Magenta</b>
 Vers **-50 000 ans**, les tribus se forment et comptent **plusieurs centaines de membres**. Le monde est expliqué par la magie et les esprits, et les comportements sont ritualisés. Les **anciens ou shamans détiennent l’autorité**, et le lien avec le monde extérieur est souvent interprété comme une punition ou bénédiction magique.
 
-<b style="color: red;">Stade Impulsif – Paradigme Rouge</b>  
+<b style="color: red;">Stade Impulsif – Paradigme Rouge</b>
 Vers **-10 000 ans**, les premières chefferies apparaissent. L'**ego** se développe, conduisant à la **quête de pouvoir** et à la violence pour maintenir l'ordre. Le travail est divisé, et l’**esclavage** devient courant pour organiser les tâches. Ce modèle est illustré par des **meutes** et des **gangs** où le chef impose une autorité absolue.
 
-<b style="color: #FFBF00;">Stade Conformiste – Paradigme Ambre</b>  
+<b style="color: #FFBF00;">Stade Conformiste – Paradigme Ambre</b>
 Au stade Ambre, l'humanité progresse vers l'**agriculture, les États et des civilisations structurées**. Une meilleure prise en compte des **sentiments d'autrui** se développe, mais ces sociétés reposent sur une **morale stricte**, où une seule façon d'agir est jugée correcte. L'**autorité est liée à des rôles spécifiques** comme ceux des prêtres et l'**appartenance sociale** est cruciale. Les organisations Ambre cherchent l'**autarcie**, ce qui renforce leur **rigidité** et favorise les **inégalités**. Leur force réside dans la capacité à **planifier** à long terme et à construire des structures durables comme les Pyramides.
 
-<b style="color: orange;">Stade de la Réussite – Paradigme Orange</b>  
+<b style="color: orange;">Stade de la Réussite – Paradigme Orange</b>
 Le monde est vu comme un **mécanisme** complexe, et la quête de **l’efficacité** prime. Cette pensée permet de remettre en question l'autorité, les normes et le statu quo. Elle a encouragé la **recherche scientifique, l'innovation et l'entrepreneuriat**, mais ses défauts incluent la **rapacité** des entreprises, le court-termisme politique, la **surconsommation** et la **destruction des ressources naturelles**. Diffusée par les Lumières et la révolution industrielle, la pensée Orange domine aujourd'hui chez les élites économiques et politiques. Les **multinationales comme Amazon, Nike ou Coca-Cola** incarnent parfaitement ce modèle.
 
-<b style="color: green;">Stade Pluraliste – Paradigme Vert</b>  
+<b style="color: green;">Stade Pluraliste – Paradigme Vert</b>
 Le paradigme Vert accorde une grande importance aux **émotions** et prône le **respect** de tous les points de vue. Il valorise la **justice, l'égalité, l'harmonie, la coopération et le consensus** en incluant toutes les voix. Toutefois, ce modèle est parfois inefficace face à des comportements égocentriques ou rigides d'autres paradigmes. Il **se méfie du pouvoir et de la hiérarchie**, mais les **difficultés de consensus** sont fréquentes. Des entreprises comme **Southwest Airlines**, **Ben & Jerry’s** et **Starbucks** adoptent ce modèle, prônant le bien-être et la collaboration.
 
 {% note %}
@@ -70,10 +70,10 @@ Le paradigme Vert accorde une grande importance aux **émotions** et prône le *
 
 Cette frise révèle une réalité fascinante : **jamais auparavant autant de personnes n’ont vécu dans des paradigmes aussi variés simultanément** ! Des structures Rouges, Ambres, Oranges et Vertes coexistent dans une même ville, chacune fonctionnant selon ses propres principes et valeurs. Les **systèmes de rémunération** de chaque entreprise illustrent bien la diversité des paradigmes :
 
-- Un **patron qui modifie les salaires** à sa guise incarne le modèle <b style="color: red;">Impulsif Rouge</b> . 
-- Des **salaires fixes, basés sur la hiérarchie ou les diplômes**, reflètent le <b style="color: #FFBF00;">Conformiste Ambre</b>.  
-- L’attribution de **primes individuelles liées à des objectifs** traduit la logique de la <b style="color: orange;">Réussite Orange</b> .  
-- Enfin, des **primes d’équipe** mettent en avant la coopération reflètentent le modèle <b style="color: green;">Pluraliste Vert</b> .  
+- Un **patron qui modifie les salaires** à sa guise incarne le modèle <b style="color: red;">Impulsif Rouge</b> .
+- Des **salaires fixes, basés sur la hiérarchie ou les diplômes**, reflètent le <b style="color: #FFBF00;">Conformiste Ambre</b>.
+- L’attribution de **primes individuelles liées à des objectifs** traduit la logique de la <b style="color: orange;">Réussite Orange</b> .
+- Enfin, des **primes d’équipe** mettent en avant la coopération reflètentent le modèle <b style="color: green;">Pluraliste Vert</b> .
 
 {% details "Tableau récapitulatif des différents modèles d’organisation (issu du livre)" %}
 
@@ -92,7 +92,7 @@ Maintenant que nous avons exploré les modèles organisationnels précédents, t
 
 À ce niveau, nous prenons du recul par rapport à nos peurs et désirs, qui orientent souvent nos vies. En nous **détachant de notre ego**, nous accédons à des aspects plus profonds et sages de nous-mêmes. Les décisions ne sont plus prises en fonction de critères extérieurs, mais sur la base de ce qui résonne intérieurement. La question devient : **est-ce aligné avec mes valeurs ? Est-ce que cela contribue positivement au monde ?** L’ordre des priorités s’inverse alors : **le succès devient une conséquence d’une vie épanouissante, plutôt qu’un objectif en soi**. Les individus au stade Opale se consacrent à la découverte de leur vocation et recherchent des organisations qui ont un but clair et noble. Les entreprises Opale cherchent à **favoriser l'authenticité et l’esprit de groupe** en offrant un environnement où chacun peut être pleinement soi-même tout en créant des relations enrichissantes.
 
-🫀 **Métaphore d'organisme vivant** :  
+🫀 **Métaphore d'organisme vivant** :
 Les organisations Opale rejettent les métaphores traditionnelles : la *mécanique* de la Réussite Orange, axée sur l’efficacité, et la *famille* du Pluraliste Vert, centrée sur les relations. Elles adoptent l'image d'**organismes vivants** pour caractériser leur souplesse et leur adaptabilité. 3 avancées majeures les distinguent : **autogouvernance**, **quête de plénitude** et **raison d’être évolutive**.
 
 ### 1️⃣ L'autogouvernance
@@ -126,9 +126,9 @@ Les entreprises Opale abandonnent la hiérarchie pyramidale au profit de **struc
 Les entreprises opales valorisent l’**authenticité** et encouragent les employés à exprimer toutes les dimensions de leur être **émotionnelle, spirituelle et créative** grâce à environnements de travail protecteurs :
 
 - **Cadres de travail agréables et protecteurs** : Les organisations Opale favorisent l’expression authentique de soi au travail loin des rôles imposés par des structures traditionnelles et les espaces de travail sont souvent personalisés.
-  
+
 - **Espaces de recueillement** : Des lieux sont dédiés à l’introspection, où les collaborateurs peuvent se recentrer, méditer ou simplement se reposer.
-  
+
 - **Narration** : L’organisation encourage l’utilisation de récits pour renforcer la compréhension mutuelle et la cohésion.
 
 {% details "Processus de la quête de la plénitude opale et comparaison avec le modèle orange" %}
@@ -186,21 +186,21 @@ Plutôt que de se focaliser sur des objectifs rigides comme le profit, ces organ
 
 Pour trouver toutes les caractéristiques du modèle opale, Frédéric Laloux a d’abord sélectionné des organisations correspondant à ses critères (**autogouvernance, plénitude, raison d’être évolutive**), avec une taille minimale de **100 employés** et une expérience Opale d’**au moins 5 ans**. Laloux a également cherché une **diversité sectorielle** (industrie, santé, éducation, etc.) et **géographique**, pour montrer que le modèle Opale transcende les contextes culturels. Enfin, ces entreprises devaient afficher des **performances mesurables**, telles que des résultats financiers solides ou une forte satisfaction des employés et des clients, prouvant que ce modèle peut allier éthique et succès. Il a alors collecté des données variées : **documents internes**, **données publiques** et **entretiens approfondis** avec dirigeants et employés puis a également **visité certaines entreprises** pour observer leur fonctionnement. En analysant **45 pratiques clés** (**prise de décision**, **gestion RH**, **interactions quotidiennes**), il a identifié des **points communs** et **principes récurrents**, synthétisant ainsi le paradigme Opale comme un modèle **applicable** et **performant** dans divers contextes. Voici 2 entreprises qu'il utilise souvent comme exemples :
 
-### 1. **Buurtzorg (Pays-Bas)**  
+### 1. **Buurtzorg (Pays-Bas)**
 Buurtzorg est une entreprise de **soins à domicile** qui, avant sa transformation en entreprise opale, suivait une organisation traditionnelle avec des managers supervisant les équipes d’infirmiers. Les infirmiers passaient une grande partie de leur temps à remplir des documents administratifs, ce qui réduisait leur temps consacré aux patients. Suite aux plaintes croissantes des infirmiers, Jos de Blok, a transformé l'entreprise en introduisant un modèle basé sur l’autogestion des équipes typique du stade opale. Voici quelques caractéristiques :
-- **Équipes auto-organisées** :  
-   Chaque équipe de 10 à 12 infirmiers gère l’ensemble des tâches, de la planification des visites à la gestion budgétaire. Une équipe peut réorganiser ses horaires pour répondre aux besoins changeants des patients, sans demander l’approbation d’un supérieur. 
-- **Utilisation de la technologie pour simplifier les tâches** :  
-   Buurtzorg utilise une plateforme numérique intuitive qui facilite l’administration et réduit la paperasse, permettant aux infirmiers de passer plus de temps auprès des patients.  
-- **Soutien par des coachs et non des managers** :  
+- **Équipes auto-organisées** :
+   Chaque équipe de 10 à 12 infirmiers gère l’ensemble des tâches, de la planification des visites à la gestion budgétaire. Une équipe peut réorganiser ses horaires pour répondre aux besoins changeants des patients, sans demander l’approbation d’un supérieur.
+- **Utilisation de la technologie pour simplifier les tâches** :
+   Buurtzorg utilise une plateforme numérique intuitive qui facilite l’administration et réduit la paperasse, permettant aux infirmiers de passer plus de temps auprès des patients.
+- **Soutien par des coachs et non des managers** :
    Au lieu de managers, Buurtzorg emploie des coach externes qui accompagnent les équipes dans leur travail. Ces coachs n’ont pas de rôle hiérarchique mais apportent un soutien en cas de conflit ou de difficulté
 
-### 2. **Morning Star (États-Unis)**  
+### 2. **Morning Star (États-Unis)**
 L'entreprise Morning Star, un leader mondial dans la **transformation de tomates**, a elle aussi opéré une transformation radicale : avant cette transformation, elle avait une structure hiérarchique traditionnelle, avec des responsabilités attribuées à des managers pour superviser les employés. Voici quelques caractéristiques du nouveau modèle opale.
-- **Lettres d'engagement personnel** :  
-   Chaque employé rédige une lettre annuelle définissant ses objectifs et responsabilités en concertation avec ses collègues. Cela remplace les descriptions de poste fixes et rigides. 
-- **Responsabilité collective dans les investissements** :  
-   Les employés peuvent initier et justifier des dépenses nécessaires pour améliorer les opérations, en se coordonnant avec les équipes impactées. Un opérateur de machine peut décider d'acheter un nouvel équipement après avoir consulté les collègues impactés par ce changement.  
+- **Lettres d'engagement personnel** :
+   Chaque employé rédige une lettre annuelle définissant ses objectifs et responsabilités en concertation avec ses collègues. Cela remplace les descriptions de poste fixes et rigides.
+- **Responsabilité collective dans les investissements** :
+   Les employés peuvent initier et justifier des dépenses nécessaires pour améliorer les opérations, en se coordonnant avec les équipes impactées. Un opérateur de machine peut décider d'acheter un nouvel équipement après avoir consulté les collègues impactés par ce changement.
 
 On voit bien à travers ces 2 entreprises qu'elles ont des pratiques similaires caractéristique du modèle opale pour renforcer l’autonomie, l’engagement et la performance collective.
 
@@ -212,34 +212,34 @@ C'est bien beau de parler des caractéristiques des entreprises opales mais ... 
 
 Frédéric Laloux décrit des **conditions nécessaires** (mais pas forcément suffisantes) à l’émergence des organisations Opale. Certains membres jouent des rôles clés :
 
-🧑‍💼 **Le dirigeant** :  
+🧑‍💼 **Le dirigeant** :
 Le leader d’une organisation Opale doit être un **facilitateur** plutôt qu’un manager traditionnel. Il **soutient l’autogouvernance** et encourage une culture d’authenticité en créant un environnement sûr, propice à l’épanouissement de chaque individu. Il garantit que les équipes aient la liberté de prendre des décisions de manière autonome, tout en restant alignées avec la mission globale de l’organisation. C'est également **un collègue comme les autres** : il n’est pas supérieur aux autres membres et doit adopter une attitude d'humilité et de collaboration.
 
-✍️ **Le conseil d'administration** :  
+✍️ **Le conseil d'administration** :
 Il soutient l'autogouvernance en restant aligné sur la mission et les valeurs de l'organisation. Il n'agit pas comme une instance décisionnelle supérieure, mais comme un espace de **conseil**, d’**accompagnement** et de **soutien** stratégique, facilitant la direction sans imposer de contrôle.
 
-💰 **L'actionnariat** :  
+💰 **L'actionnariat** :
 L'actionnariat est **distribué** et **démocratisé**, évitant la concentration du pouvoir. Les décisions financières tiennent compte de l'ensemble des parties prenantes, avec une transparence totale sur les bénéfices et objectifs financiers.
 
 ### Comment créer une entreprise Opale ?
 
-🎯 **Définir des postulats et des valeurs générales** :  
-Par exemple l'entreprise opale **Morning Star** se fonde sur 2 principes : "les individus n’ont pas besoin d’être forcés ni contraints pour travailler ensemble" ; "les individus tiennent leurs engagements". L'entreprise opale **FAVI** (dont on parlera juste après) formule 3 postulats : "toute personne est par principe considérée comme bonne (fiable, motivée, digne de confiance, intelligente)" ; "une personne malheureuse ne peut pas être performante" ; "la valeur se crée dans l’usine".  
+🎯 **Définir des postulats et des valeurs générales** :
+Par exemple l'entreprise opale **Morning Star** se fonde sur 2 principes : "les individus n’ont pas besoin d’être forcés ni contraints pour travailler ensemble" ; "les individus tiennent leurs engagements". L'entreprise opale **FAVI** (dont on parlera juste après) formule 3 postulats : "toute personne est par principe considérée comme bonne (fiable, motivée, digne de confiance, intelligente)" ; "une personne malheureuse ne peut pas être performante" ; "la valeur se crée dans l’usine".
 Il faut aussi des **valeurs partagées**, alignées sur le service de la mission et des collaborateurs, et non sur la recherche exclusive de profit. Le **sens du projet** est fondamental pour guider les actions et décisions.
 
-🤝**Instaurer des pratiques liées à l’autogouvernance** :  
+🤝**Instaurer des pratiques liées à l’autogouvernance** :
 - La sollicitation d’avis
 - Un mécanisme de résolution de conflits
 - Évaluation par les pairs
 - Grilles salariales transparente
 
-🧘‍♀️**Instaurer des pratiques liées à la plénitude** :  
+🧘‍♀️**Instaurer des pratiques liées à la plénitude** :
 - Définir les règles de base d’un espace protecteur (ex : cadre de confiance à co-construire)
 - Cadre de travail coloré, accueillant, chaleureux
 - Processus d’intégration complet et fluide
 - Méthodes de réunion : faire des tours de météo, répartir la parole etc
 
-🌱 **Instaurer des pratiques liées à la raison d’être évolutive** :  
+🌱 **Instaurer des pratiques liées à la raison d’être évolutive** :
 - Recrutement par les pairs en prenant le temps
 - Rituel de la "chaise vide" :  cela consiste à ajouter une chaise vide dans les réunions importantes, représentant symboliquement la voix de la raison d’être ou celle des parties prenantes absentes, comme les clients, l’environnement ou les générations futures.
 
@@ -257,10 +257,10 @@ Face aux **résistances au changement**, notamment de la part des cadres habitu�
 
 ## Critiques du modèle
 
-Ce modèle Opale décrit par Frédéric Laloux semble être une solution parfaite mais son application soulève plusieurs défis.  
-Parmi les principales critiques figurent la **complexité de sa mise en œuvre**, nécessitant une transformation profonde et un **accompagnement constant**. La transition peut se heurter à une résistance des cadres et employés attachés aux modèles hiérarchiques, freinant le changement.  
-Il y a également des risques liés à l’autogouvernance, qui peuvent entraîner une **répartition floue des responsabilités** : certains employés peuvent être surchargés de tâches et d’autres risquent de se désengager, profitant de l'absence de contrôle hiérarchique.  
-De plus, le modèle peut être **difficile à appliquer dans des environnements compétitifs** (comme la finance ou la haute technologie) où la réactivité et la coordination sont cruciales, et il souffre d’une difficulté à mesurer les performances en raison de son accent sur des objectifs qualitatifs (épanouissement des employés).   
+Ce modèle Opale décrit par Frédéric Laloux semble être une solution parfaite mais son application soulève plusieurs défis.
+Parmi les principales critiques figurent la **complexité de sa mise en œuvre**, nécessitant une transformation profonde et un **accompagnement constant**. La transition peut se heurter à une résistance des cadres et employés attachés aux modèles hiérarchiques, freinant le changement.
+Il y a également des risques liés à l’autogouvernance, qui peuvent entraîner une **répartition floue des responsabilités** : certains employés peuvent être surchargés de tâches et d’autres risquent de se désengager, profitant de l'absence de contrôle hiérarchique.
+De plus, le modèle peut être **difficile à appliquer dans des environnements compétitifs** (comme la finance ou la haute technologie) où la réactivité et la coordination sont cruciales, et il souffre d’une difficulté à mesurer les performances en raison de son accent sur des objectifs qualitatifs (épanouissement des employés).
 Le succès du modèle repose souvent sur des **leaders visionnaires** capables d'incarner ses valeurs tels que Jean-François Zobrist à FAVI. Si ces leaders quittent l’organisation, celle-ci risque de régresser vers des modèles hiérarchiques traditionnels. C'est justement ce qui s'est passé après le départ de Zobrist : sans cette figure centrale pour guider et inspirer l’équipe, la dynamique de collaboration et de prise de décision collective a commencé à se fragilise. La transition vers une structure plus hiérarchique a été motivée par les difficultés à maintenir une dynamique de collaboration efficace, et par la nécessité de mieux coordonner la production et la planification stratégique dans un contexte de croissance et de compétition accrue.
 
 Ainsi, bien qu’inspirant, le **modèle Opale doit être adapté à chaque organisation**, en tenant compte de son contexte, de sa maturité et de ses besoins spécifiques.
@@ -269,14 +269,14 @@ Ainsi, bien qu’inspirant, le **modèle Opale doit être adapté à chaque orga
 
 Comme expliqué en intro, j'ai réalisé un stage de 6 mois au **Tiers-Lab des Transitions**, une entreprise opale où les cofondateurs se sont inspîrés directement du livre de Frédéric Laloux pour créer la structure. Ainsi, voici quelques exemples qui illustrent selon moi en quoi le Tiers-Lab fonctionnait dans le paradigme opal :
 
-1. **Autogouvernance** :  
-   Le Tiers-Lab fonctionne sans hiérarchie pyramidale mais en **holacratie**. Une holarchie est composée de holons désignant à la fois un tout et la partie d'un tout. C’est une structure complexe dans laquelle chaque sous-système est conjointement autonome et dépendant de la structure plus large dans laquelle il s'insère. Ainsi, nous n'avions **pas d’organigramme classique**, car les activités de la structure étaient représentées avec des holons sur le logiciel GlassFrog. Les **rôles n'étaient pas rigides** : nous définissions nous-mêmes nos missions et nous organisions librement en fonction des besoins des projets.  De plus, les décisions importantes étaient prises lors de réunions collectives où chacun peut s’exprimer et participer à la validation des projets via des processus de **décision par consentement**. Les problèmes nommés **"tensions" étaient vu comme des cadeaux** car ce sont des occasions d'améliorer l'entreprise. Chaque membre du Tiers-Lab avait **accès à toutes les informations** du drive y compris la grille salariale. 
+1. **Autogouvernance** :
+   Le Tiers-Lab fonctionne sans hiérarchie pyramidale mais en **holacratie**. Une holarchie est composée de holons désignant à la fois un tout et la partie d'un tout. C’est une structure complexe dans laquelle chaque sous-système est conjointement autonome et dépendant de la structure plus large dans laquelle il s'insère. Ainsi, nous n'avions **pas d’organigramme classique**, car les activités de la structure étaient représentées avec des holons sur le logiciel GlassFrog. Les **rôles n'étaient pas rigides** : nous définissions nous-mêmes nos missions et nous organisions librement en fonction des besoins des projets.  De plus, les décisions importantes étaient prises lors de réunions collectives où chacun peut s’exprimer et participer à la validation des projets via des processus de **décision par consentement**. Les problèmes nommés **"tensions" étaient vu comme des cadeaux** car ce sont des occasions d'améliorer l'entreprise. Chaque membre du Tiers-Lab avait **accès à toutes les informations** du drive y compris la grille salariale.
 
-2. **Quête de plénitude** :  
+2. **Quête de plénitude** :
    Le Tiers-Lab met un point d’honneur à valoriser la **convivialité** et l’authenticité. Par exemple, il y avait des cours de **yoga** les mardis soir, des apéros les soirs, des séminaires d'équipes, des journées thématiques etc. Les membres ont co-construit un **cadre de confiance** et chaque employé doit remplir une fiche expliquant ses **modalités de travail** (ce qu'on aime, ce qui nous irrite etc). On utilisait aussi de nombreux outils d'**intelligence collective** au quotidien (tour de météo, pense-écoute, débat mouvant, chapeaux de De Bono, tour de déclusion etc). Enfin, les locaux étaient très **chaleureux**, personnalisables avec des coins siestes et chill.
 
-3. **Raison d’être évolutive** :  
-   La mission du Tiers-Lab est centrée sur l’**accompagnement des transitions écologiques, sociales et numériques**, une finalité qui guide tous ses projets.  
+3. **Raison d’être évolutive** :
+   La mission du Tiers-Lab est centrée sur l’**accompagnement des transitions écologiques, sociales et numériques**, une finalité qui guide tous ses projets.
 
 ## 👍Conclusion
 

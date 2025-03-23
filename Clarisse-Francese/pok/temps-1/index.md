@@ -13,7 +13,7 @@ tags:
   - "google apps script"
   - "vert"
 
-résumé: Optimisation des tableaux de comptabilité de ma soeur artiste
+description: Optimisation des tableaux de comptabilité de ma soeur artiste
 
 ---
 {% prerequis %}

@@ -13,7 +13,7 @@ tags:
   - "Planning"
   - "Vert"
 
-résumé: "L'objectif de ce MON est de présenter comment j'ai réalisé un planning automatique via Google Sheets et App Script."
+description: "L'objectif de ce MON est de présenter comment j'ai réalisé un planning automatique via Google Sheets et App Script."
 ---
 {% lien %}
 

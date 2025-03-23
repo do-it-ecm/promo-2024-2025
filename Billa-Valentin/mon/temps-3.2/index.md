@@ -15,7 +15,7 @@ tags:
   - 'barbecue'
   - 'gestion de projet'
 
-résumé: "Organisation du Barbecue de fin d'option Do-IT"
+description: "Organisation du Barbecue de fin d'option Do-IT"
 ---
 
 {% sommaire %}
@@ -72,7 +72,7 @@ séance POK&MON. C'est donc ce que j'ai proposé aux professeurs, tous deux disp
 
 Plus tard, nous avons eu une réflexion pour potentiellement voir et faire le barbecue en fin de journée, car certains
 élèves font le ramadan. Suite à un sondage, nous avons finalement décidé de maintenir l'horaire du midi afin
-d'accommoder un maximum d'étudiants. Néanmoins, pour éviter d’organiser seulement un festin (ce qui serait un peu 
+d'accommoder un maximum d'étudiants. Néanmoins, pour éviter d’organiser seulement un festin (ce qui serait un peu
 triste pour nos camarades qui jeûnent) j'ai proposé de ramener une Nintendo Switch pour que nous puissions
 aussi jouer ensemble.
 

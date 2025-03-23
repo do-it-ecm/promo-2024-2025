@@ -15,7 +15,7 @@ tags:
   - "Management entreprise"
   - "Développement durable"
 
-résumé: "Etude de cas : Décathlon, une entreprise dynamique et innovante. L'objectif est d'analyser ce qui leur permet de se distinguer aujourd'hui et d'attirer, en particulier les jeunes, en examinant leur stratégie, leur modèle de gestion et leur approche de la transition vers le développement durable."
+description: "Etude de cas : Décathlon, une entreprise dynamique et innovante. L'objectif est d'analyser ce qui leur permet de se distinguer aujourd'hui et d'attirer, en particulier les jeunes, en examinant leur stratégie, leur modèle de gestion et leur approche de la transition vers le développement durable."
 ---
 
 {% prerequis %}
@@ -46,7 +46,7 @@ Comment Decathlon se positionne-t-elle parmi les entreprises les plus apprécié
 .
 
 
-<strong style="color:#3542ba; font-size:40px;"> 
+<strong style="color:#3542ba; font-size:40px;">
 STRATEGIE
 </strong>
 
@@ -66,7 +66,7 @@ Decathlon mise également sur quatre secteurs à forte croissance : le bien-êtr
 
 Selon le GIEC, atteindre la neutralité carbone d’ici le milieu du siècle est essentiel pour limiter le réchauffement à 1,5 °C, conformément à l’Accord de Paris. Decathlon s’inscrit dans cette stratégie en visant une réduction de 90 % de ses émissions de CO2 d’ici 2050 sur l’ensemble de sa chaîne de valeur, tout en prenant en compte l'augmentation des ventes.
 
-Dans un premier tant, Decathlon vise à réduire de 42 % les émissions de gaz à effet de serre (GES) des scopes 1, 2 et 3 d'ici 2030, par rapport à 2021. 
+Dans un premier tant, Decathlon vise à réduire de 42 % les émissions de gaz à effet de serre (GES) des scopes 1, 2 et 3 d'ici 2030, par rapport à 2021.
 
 Pour réaliser un bilan GES, les entreprises analysent les émissions de gaz à effet de serre selon trois périmètres appelés scopes :
 
@@ -90,13 +90,13 @@ https://engagements.decathlon.fr/quel-plan-daction-pour-une-baisse-des-emissions
 .
 
 
-<strong style="color:#3542ba; font-size:40px;"> 
+<strong style="color:#3542ba; font-size:40px;">
 MANAGEMENT
 </strong>
 
-Decathlon fonctionne avec un management responsabilisant. C'est à dire qu'ils ont pour objectif de libérer le travail et l’esprit d’entreprise en responsabilisant ses salariés afin de développer leur potentiel entrepreneurial. Ce modèle de gestion favorise l'autonomie et la prise d'initiative, permettant à chaque collaborateur de prendre des décisions rapidement sans les lourdeurs d'une hiérarchie traditionnelle. 
+Decathlon fonctionne avec un management responsabilisant. C'est à dire qu'ils ont pour objectif de libérer le travail et l’esprit d’entreprise en responsabilisant ses salariés afin de développer leur potentiel entrepreneurial. Ce modèle de gestion favorise l'autonomie et la prise d'initiative, permettant à chaque collaborateur de prendre des décisions rapidement sans les lourdeurs d'une hiérarchie traditionnelle.
 
-Les employés ont la possibilité de s'impliquer activement dans la vie de l'entreprise, ce qui stimule leur créativité et leur engagement. 
+Les employés ont la possibilité de s'impliquer activement dans la vie de l'entreprise, ce qui stimule leur créativité et leur engagement.
 Pour renforcer cet investissement, Decathlon a créé une plateforme interne regroupant toutes les offres d'emploi vacantes, accessibles à tous les collaborateurs, quelle que soit leur filière. Cela permet aux jeunes talents d'accéder à des postes à responsabilités, répondant ainsi à leurs aspirations professionnelles. Cette approche contribue à la **forte attractivité de Decathlon pour les nouvelles générations**.
 
 Cependant, ce modèle présente également des inconvénients. En magasin, la pression pour atteindre des résultats entraîne une classification de ceux jugés comme "ni, ni" (ni potentiels, ni experts). Les managers ont ensuite la responsabilité d'identifier les erreurs répétitives commises par ces individus. Par ailleurs, les autres collaborateurs contribuent à l'évaluation de ces situations de manière indirecte, en observant et en écoutant. Cette dynamique peut créer un environnement de travail stressant où les employés craignent pour leur emploi si leurs performances ne sont pas à la hauteur. Il arrive que certains collaborateurs finissent par dépasser les 50 heures de travail par semaine.
@@ -110,27 +110,27 @@ https://changethework.com/management-responsabilisant-decathlon/
 {% endlien %}
 .
 
-<strong style="color:#3542ba; font-size:40px;"> 
+<strong style="color:#3542ba; font-size:40px;">
 ENGAGEMENT ÉCOLOGIQUE
 </strong>
 
 .
 
-<strong style="color:#3542ba; font-size:20px;"> 
+<strong style="color:#3542ba; font-size:20px;">
 LA CIRCULARITE
 </strong>
 
 #### Pionnière et Engagée avec des acteurs externes
 
-Decathlon est reconnu comme l'une des entreprises pionnières en développement durable, selon Raphaël Guastavi, directeur adjoint à l'Ademe. 
+Decathlon est reconnu comme l'une des entreprises pionnières en développement durable, selon Raphaël Guastavi, directeur adjoint à l'Ademe.
 
 Le premier "trocathlon", permettant aux particuliers de revendre leur ancien matériel, a été organisé en 1986, et des recherches sur l’écoconception ont débuté en 2006.
 
 Après le Grenelle de l'environnement en 2007, l'entreprise a collaboré avec l’Ademe pour mettre en place un étiquetage informatif sur les impacts environnementaux des produits.
 
-Bien que, Romain Demissy,spécialiste du développement durable au laboratoire de recherches Atemis, souligne que ces efforts ne sont pas suffisants face à l'urgence environnementale, Decathlon houe un rôle important en étant actif dans les groupes de travail en France et en Europe, puisqu'il influence d'autres acteurs grâce à sa taille et sa réputation. 
+Bien que, Romain Demissy,spécialiste du développement durable au laboratoire de recherches Atemis, souligne que ces efforts ne sont pas suffisants face à l'urgence environnementale, Decathlon houe un rôle important en étant actif dans les groupes de travail en France et en Europe, puisqu'il influence d'autres acteurs grâce à sa taille et sa réputation.
 
-En 2023, Decathlon a déployé 46 référentiels de durabilité dans ses lignes de produits. Puis, elle partage ses recherches au sein d'un comité de l’AFNOR, qui travaille sur une norme de durabilité à venir en 2024. 
+En 2023, Decathlon a déployé 46 référentiels de durabilité dans ses lignes de produits. Puis, elle partage ses recherches au sein d'un comité de l’AFNOR, qui travaille sur une norme de durabilité à venir en 2024.
 
 Enfin, Decathlon participe à un groupe de travail pour établir une méthodologie de calcul de l'impact carbone évité grâce à la durabilité, prévue pour 2024.
 
@@ -185,7 +185,7 @@ Ces initiatives contribuent à un modèle d'affaires plus durable.
 Les sources d'informations pour l'analyse des défauts chez Decathlon incluent :
 
 - Retours clients : Lorsqu'un produit est retourné, l'entreprise identifie les causes du retour, ce qui constitue la principale source d'information en termes de quantité.
-- Produits loués : retournés par les clients, cela permet de collecter des données sur leur durée de vie, les points de casse ou d'usure, et les coûts de nettoyage et de réparation. 
+- Produits loués : retournés par les clients, cela permet de collecter des données sur leur durée de vie, les points de casse ou d'usure, et les coûts de nettoyage et de réparation.
 - Analyse approfondie : Certains retours sont envoyés aux équipes de conception pour des analyses plus détaillées.
 - Études clients : Des études spécifiques sont menées sur certains types de produits pour comprendre leur utilisation au-delà de la période de garantie, y compris sur les produits endommagés qui ne sont pas retournés.
 - Pièces détachées : Pour certains produits, les données sur les ventes de pièces détachées peuvent également servir d'indicateur.
@@ -197,9 +197,9 @@ Ces informations aideront à prolonger la durée de vie des produits et à amél
 
 #### Label d'écoconception
 
-Pour qu'un produit soit labellisé écoconçu par Decathlon, il doit respecter au moins un critère, tel que réduire l'impact carbone de 10 % par rapport à un modèle précédent ou prolonger sa durée de vie de plus de 30 %. Un produit est également considéré comme écoconçu si ses matières principales contiennent au moins 70 % de polyester recyclé ou 90 % de coton biologique. 
+Pour qu'un produit soit labellisé écoconçu par Decathlon, il doit respecter au moins un critère, tel que réduire l'impact carbone de 10 % par rapport à un modèle précédent ou prolonger sa durée de vie de plus de 30 %. Un produit est également considéré comme écoconçu si ses matières principales contiennent au moins 70 % de polyester recyclé ou 90 % de coton biologique.
 
-Cependant, en septembre 2022, l'Autorité des marchés de consommation aux Pays-Bas a rappelé Decathlon à l'ordre pour un usage abusif du terme "écoconception", ce qui a conduit l'entreprise à clarifier ses critères en attendant une réglementation gouvernementale. 
+Cependant, en septembre 2022, l'Autorité des marchés de consommation aux Pays-Bas a rappelé Decathlon à l'ordre pour un usage abusif du terme "écoconception", ce qui a conduit l'entreprise à clarifier ses critères en attendant une réglementation gouvernementale.
 
 De plus, pour qu'un produit soit reconnu comme écoconçu, il doit couvrir 80 % des casses et pannes liées à sa nature, avec une distinction entre les produits facilement réparables, comme les vélos, et ceux ayant subi des améliorations en matière de réparabilité. En 2023, 6 % de l'ensemble des produits de Decathlon ont bénéficié d'une démarche d'écoconception. Toutefois, 39 % des produits vendus ont bénéficié d'une approche d'écoconception, contre 23 % en 2022.
 
@@ -240,7 +240,7 @@ https://engagements.decathlon.fr/circulariser-evoluer-vers-une-economie-circulai
 https://engagements.decathlon.fr/lindex-de-reparabilite-chez-decathlon\
 https://www.novethic.fr/actualite/environnement/economie-circulaire/isr-rse/comment-decathlon-veut-atteindre-100-de-produits-ecoconcus-en-2026-151436.html \
 https://engagements.decathlon.fr/quel-plan-daction-pour-une-baisse-des-emissions-absolues-de-co2-eq \
-https://www.decathlon.fr/p/mp/909/veste-upcyclee-impermeable-et-coupe-vent-softshell-graphite-homme/_/R-p-5acf8dc7-b2d3-4106-a847-c42e2f4b2894 
+https://www.decathlon.fr/p/mp/909/veste-upcyclee-impermeable-et-coupe-vent-softshell-graphite-homme/_/R-p-5acf8dc7-b2d3-4106-a847-c42e2f4b2894
 {% endlien %}
 
 
@@ -264,7 +264,7 @@ https://www.planetegrandesecoles.com/decathlon-we-play-circular
 .
 
 
-<strong style="color:#3542ba; font-size:20px;"> 
+<strong style="color:#3542ba; font-size:20px;">
 LA BIODIVERSITE
 </strong>
 
@@ -352,7 +352,7 @@ https://fr.wikipedia.org/wiki/Decathlon_(entreprise) \
 https://www.la-croix.com/economie/developpement-durable-decathlon-se-reve-en-champion-de-l-economie-circulaire-20241008 \
 https://www.planetegrandesecoles.com/decathlon-we-play-circular \
 https://engagements.decathlon.fr/la-biodiversite-et-decathlon \
-https://engagements.decathlon.fr/circulariser-evoluer-vers-une-economie-circulaire \  
+https://engagements.decathlon.fr/circulariser-evoluer-vers-une-economie-circulaire \
 https://engagements.decathlon.fr/lindex-de-reparabilite-chez-decathlon \
 https://engagements.decathlon.fr/quel-plan-daction-pour-une-baisse-des-emissions-absolues-de-co2-eq \
 https://www.novethic.fr/actualite/environnement/economie-circulaire/isr-rse/comment-decathlon-veut-atteindre-100-de-produits-ecoconcus-en-2026-151436.html \

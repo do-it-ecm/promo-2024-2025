@@ -16,11 +16,11 @@ tags:
   - 'Vue.js'
   - 'Dark Kitchen'
 
-résumé: "Codage du FrontEnd du site de ma Dark Kitchen avec HTML/CSS/JavaScript et transition vers Vue.js pour une structure dynamique."
+description: "Codage du FrontEnd du site de ma Dark Kitchen avec HTML/CSS/JavaScript et transition vers Vue.js pour une structure dynamique."
 ---
 
 {% prerequis %}
-**Niveau :** Basique à Intermédiaire  
+**Niveau :** Basique à Intermédiaire
 **Pré-requis :**
 - Connaissances de base en HTML/CSS.
 - Connaissance des concepts fondamentaux de JavaScript (variables, fonctions, DOM).
@@ -82,7 +82,7 @@ Ce POK décrit les étapes du développement du site web de ma Dark Kitchen. Il 
 </div>
 
  #### [CE SPRINT N'A PAS ÉTÉ RÉALISER] (Pas utile pour la migration vers Vue)
-### Sprint 2 : Dynamisation avec JavaScript 
+### Sprint 2 : Dynamisation avec JavaScript
 - ~~**Objectif :** Intégrer des fonctionnalités JavaScript pour interagir avec le contenu.~~
   - ~~[ ] Utiliser JavaScript pour ajouter des produits au panier et mettre à jour dynamiquement le contenu.~~
   - ~~[ ] Gestion des événements DOM (ex. : clics sur les boutons "Ajouter au panier").~~

@@ -11,7 +11,7 @@ tags:
   - "hypersensibilité"
   - "émotions"
 
-résumé: "Explorer l'hypersensibilité avec un regard critique, en distinguant ce qui apporte réellement de la valeur de ce qui relève davantage du marketing et du business du coaching."
+description: "Explorer l'hypersensibilité avec un regard critique, en distinguant ce qui apporte réellement de la valeur de ce qui relève davantage du marketing et du business du coaching."
 ---
 
 {% prerequis %}

@@ -14,7 +14,7 @@ tags:
  - "bigquery"
  - "vert"
 
-résumé: "Reprendre les bases de SQL pour comprendre ce que c'est et acquérir les compétences fondamentales."
+description: "Reprendre les bases de SQL pour comprendre ce que c'est et acquérir les compétences fondamentales."
 ---
 
 {% prerequis %}
@@ -133,7 +133,7 @@ On peut ensuite **lister les tables** que contient le dataset :
 ```python
 # List all the tables in the "hacker_news" dataset
 tables = list(client.list_tables(dataset))
-for table in tables:  
+for table in tables:
     print(table.table_id)
 ```
 
@@ -285,7 +285,7 @@ first_query = """
               SELECT DISTINCT city, country
               FROM `bigquery-public-data.openaq.global_air_quality`
               WHERE unit = 'ppm'
-              """ 
+              """
 ```
 
 Retourne :
@@ -334,8 +334,8 @@ Retourne :
 ```python
 # Query to select all columns where the name contains 'ipl'
 query = """
-        SELECT * 
-        FROM `bigquery-public-data.pet_records.pets` 
+        SELECT *
+        FROM `bigquery-public-data.pet_records.pets`
         WHERE Name LIKE '%ipl%'
         """
 ```
@@ -573,7 +573,7 @@ Aussi appelées **fonctions window**, les fonctions analytiques permettent d'eff
 
 - Ces fonctions sont par exemple `AVG`, `SUM`, `FIRST_VALUE`, `RANK`, etc.
 - Chacune de ces fonctions s'appliquent avec une clause **OVER** qui définit comment la fonction doit être appliquée :
-  
+
   - **PARTITION BY** permet de regrouper des lignes à traiter ensemble (par exemple un résultat "pour chaque" utilisateur donnerait `PARTITION BY utilisateur`)
   - **ORDER BY** fait la même chose que ce qu'on a définit avant mais concerne surtout l'ordre dans lequel les calculs vont être effectués
   - La **window frame** définit les lignes qui doivent être considérées en input de la fonction : par exemple, si je souhaite calculer une somme cumulée, je peux indiquer `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` pour sommer sur toutes les lignes précédentes jusqu'à la ligne actuelle (c'est le principal avantage de ces fonctions)
@@ -592,7 +592,7 @@ num_trips_query = """
                   GROUP BY trip_date
                   )
                   SELECT *,
-                      SUM(num_trips) 
+                      SUM(num_trips)
                           OVER (
                                ORDER BY trip_date
                                ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW

@@ -13,7 +13,7 @@ tags:
   - "lean"
   - "vert"
 
-résumé: "MON pour apprendre la dactylographie et à faire une mindmap sur le lean."
+description: "MON pour apprendre la dactylographie et à faire une mindmap sur le lean."
 ---
 
 {% prerequis %}
@@ -22,14 +22,14 @@ MON débutant, aucun prérequis
 
 {% endprerequis %}
 {% lien %}
-**Partie dactylographie** :  
+**Partie dactylographie** :
 - [edclub](https://www.edclub.com/sportal/)
 - [keybr](https://www.keybr.com/fr)
 - [monkeytype](https://monkeytype.com/)
 - [10fastfingerrs](https://10fastfingers.com/typing-test/french)
 
-**Partie lean** :  
-Cours sur le lean de la filière métier "production et logistique"  
+**Partie lean** :
+Cours sur le lean de la filière métier "production et logistique"
 
 {% endlien %}
 
@@ -39,11 +39,11 @@ Cours sur le lean de la filière métier "production et logistique"
 
 ## ⌨️ Dactylographie
 
-Je n'ai jamais appris à bien écrire sur un clavier d'ordinateur sans regarder et en utilisant efficacement mes 10 doigts. Résultat, alors que je vais avoir un BAC+5, j'écris encore en regardant souvent mes doigts et je n'utilise que mes index (oui c'est la honte, je sais...). J'ai donc décidé de changer celà en **apprenant la dactylographie** ! La dactylographie est l'**action de saisir un texte sur un clavier**.  
+Je n'ai jamais appris à bien écrire sur un clavier d'ordinateur sans regarder et en utilisant efficacement mes 10 doigts. Résultat, alors que je vais avoir un BAC+5, j'écris encore en regardant souvent mes doigts et je n'utilise que mes index (oui c'est la honte, je sais...). J'ai donc décidé de changer celà en **apprenant la dactylographie** ! La dactylographie est l'**action de saisir un texte sur un clavier**.
 La **vitesse de frappe** sur un clavier s'exprime en **mpm** = mot par minute. Sachant qu'un mot est défini comme cinq caractères ou frappes de touche sur ordinateur.
 
 {% info %}
-La personne **moyenne** tape à environ **40 mpm**.  
+La personne **moyenne** tape à environ **40 mpm**.
 Les **meilleurs** dactylographes au monde sont à **plus de 200 mpm**.
 {% endinfo %}
 
@@ -58,8 +58,8 @@ En effet, il y a une manière optimale d'utiliser ses 10 doigts pour les déplac
 
 ### Sites pour s'entraîner
 
-[edclub](https://www.edclub.com/sportal/) :  
-J'ai d'abord commencé à **réapprendre à tapper chaque lettre avec le bon doigt** en suivant le cours sur le site **edclub**. Je trouve la **formation très bien faite** et ludique pour apprendre. Par contre, les exercices sont les mêmes donc c'est lassant de les refaire une fois réussi.  
+[edclub](https://www.edclub.com/sportal/) :
+J'ai d'abord commencé à **réapprendre à tapper chaque lettre avec le bon doigt** en suivant le cours sur le site **edclub**. Je trouve la **formation très bien faite** et ludique pour apprendre. Par contre, les exercices sont les mêmes donc c'est lassant de les refaire une fois réussi.
 J'ai mis ci-dessous des screens d'un entrainement pour montrer (lettres en rouge en cas d'erreur) et des scores en le faisant à fond : on voit bien la progression depuis le début !
 
 <div style="display: flex; justify-content: space-between;">
@@ -67,9 +67,9 @@ J'ai mis ci-dessous des screens d'un entrainement pour montrer (lettres en rouge
     <img src="edclub_score.png" alt="edclub score" style="width: 33%; height: auto;">
     <img src="edclub_graphique.png" alt="edclub statistique" style="width: 34%; height: auto;">
 </div>
-  
-[keybr](https://www.keybr.com/fr) :  
-Une fois les lettres toutes parfaitement apprises, j'ai renforcé ma précision et ma vitesse en utilisant le site **Keybr**. Il est assez intéressant car il propose des **sessions personnalisées en analysant notre vitesse de frappe et précision pour chaque lettre**. Ainsi, on s'entraîne sur nos difficultés.  
+
+[keybr](https://www.keybr.com/fr) :
+Une fois les lettres toutes parfaitement apprises, j'ai renforcé ma précision et ma vitesse en utilisant le site **Keybr**. Il est assez intéressant car il propose des **sessions personnalisées en analysant notre vitesse de frappe et précision pour chaque lettre**. Ainsi, on s'entraîne sur nos difficultés.
 Sur le premier screen, on voit une leçon personnalisée pour tapper plus vite la **touche "è"** et on voit sur le deuxième screen que l'entraînement porte ses fruits. Puis sur le troisème screen, on voit que ma **vitesse de frappe varie fortement selon les lettres** allant de 17 à 62 mpm.
 <img src="keybr_e.png" width="65%" alt="keybr e">
 <img src="keybr_ee.png" width="65%" alt="keybr e details">
@@ -78,7 +78,7 @@ Sur le premier screen, on voit une leçon personnalisée pour tapper plus vite l
     Screens du site Keybr
 </div>
 
-[monkeytype](https://monkeytype.com/) :  
+[monkeytype](https://monkeytype.com/) :
 J'ai aussi souvent utilisé le site **monkeytype** pour m'entraîner sur la vitesse et la précision car je trouve son **interface très agréable** et il y a de nombreux **modes personnalisables**.
 
 <img src="monkeytype.png" width="65%" alt="monkeytype">
@@ -86,7 +86,7 @@ J'ai aussi souvent utilisé le site **monkeytype** pour m'entraîner sur la vite
     Screen du site Monkeytype
 </div>
 
-[10fastfingerrs](https://10fastfingers.com/typing-test/french) :  
+[10fastfingerrs](https://10fastfingers.com/typing-test/french) :
 J'ai plusieurs fois utilisé le site 10fastfingers pour **mesurer ma vitesse et précision**.
 
 ### Conseils pour progresser
@@ -168,7 +168,7 @@ Je trouve que ce screen du site [nabiraem.ru](https://solo.nabiraem.ru/fr/overvi
 ![posture de travail](position.png)
 
 <div style="display: flex; align-items: center;">
-  <p style="margin-right: 10px;">J'ai franchi le cap de m'acheter une souris ergonomique et un jolis tapis de souris (je n'utilisais que mon pavé tactile avant). J'espère ainsi réduire efficacement les douleurs dans mon poignet quand je navigue longtemps sur mon ordinateur portable.  
+  <p style="margin-right: 10px;">J'ai franchi le cap de m'acheter une souris ergonomique et un jolis tapis de souris (je n'utilisais que mon pavé tactile avant). J'espère ainsi réduire efficacement les douleurs dans mon poignet quand je navigue longtemps sur mon ordinateur portable.
 Peut-être qu'un jour je franchirai aussi le pas d'acheter un clavier ergonomique si je sens que ma posture actuelle n'est pas assez bonne pour éviter les TMS.
   </p>
   <img src="souris.jpg" alt="logos bio" style="width: 100px;">
@@ -176,10 +176,10 @@ Peut-être qu'un jour je franchirai aussi le pas d'acheter un clavier ergonomiqu
 
 ## 🧠 Mindmap sur le lean
 
-En plus d'apprendre la dactylographie, j'ai eu envie d'apprendre à **faire une belle mindmap**. En effet, je n'ai jamais réalisé de vraie mindmap or je pense que c'est un **outil très visuel** et pratique pour retenir plein d'informations sur un sujet. Et ça tombe bien car je suis dans la filière métier **production et logistique** et on a eu de nombreux cours sur le "**lean**" : une méthode de management et de production qui vient du Japon et qui vise à produire au plus juste selon les besoins du client. J'ai adoré cette méthodologie au point d'avoir envie d'en faire une mindmap !  
+En plus d'apprendre la dactylographie, j'ai eu envie d'apprendre à **faire une belle mindmap**. En effet, je n'ai jamais réalisé de vraie mindmap or je pense que c'est un **outil très visuel** et pratique pour retenir plein d'informations sur un sujet. Et ça tombe bien car je suis dans la filière métier **production et logistique** et on a eu de nombreux cours sur le "**lean**" : une méthode de management et de production qui vient du Japon et qui vise à produire au plus juste selon les besoins du client. J'ai adoré cette méthodologie au point d'avoir envie d'en faire une mindmap !
 Ainsi, j'ai conscré la deuxième moitié de ce MON a réaliser une mindmap sur le lean sur [Canva](https://www.canva.com/) en utilisant le format "tableau blanc".
 
-Voilà le **résultat** obtenu : 
+Voilà le **résultat** obtenu :
 ![mindmap sur le lean](mindmap_lean.png)
 Je suis super satisfaite du résultat et je pense réutiliser Canva par la suite pour refaire des mindmaps très visuelles !
 

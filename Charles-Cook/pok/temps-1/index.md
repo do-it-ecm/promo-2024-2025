@@ -11,7 +11,7 @@ temps: 1
 tags:
   - "Python"
 
-résumé: Création d'un outils en Python permettant d'automatiser la création de bons de commande.
+description: Création d'un outils en Python permettant d'automatiser la création de bons de commande.
 ---
 
 {% prerequis %}

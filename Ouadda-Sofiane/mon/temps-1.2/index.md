@@ -6,13 +6,13 @@ authors:
   - Sofiane Ouadda
 date: 2024-10-10
 
-tags: 
+tags:
   - temps 1.2
   - "Développement Web"
   - "FrontEnd"
   - "Vue.js"
 
-résumé: "Ce cours détaille comment créer une application complète avec Vue.js, de la configuration initiale à la gestion des composants dynamiques."
+description: "Ce cours détaille comment créer une application complète avec Vue.js, de la configuration initiale à la gestion des composants dynamiques."
 
 ---
 
@@ -369,13 +369,13 @@ Dans cet exemple, lorsque l'utilisateur clique sur le bouton, le nombre d'articl
 
 ## Horodateur
 
-| Date       | Heures passées | Indications                                                                  | 
+| Date       | Heures passées | Indications                                                                  |
 |------------|----------------|------------------------------------------------------------------------------|
-| 25/09      | 1H30           | Visionnage de la vidéo "Vue.js Crash Course" sur YouTube, introduction à Vue.js : Concepts fondamentaux (MVVM, réactivité, directives) | 
+| 25/09      | 1H30           | Visionnage de la vidéo "Vue.js Crash Course" sur YouTube, introduction à Vue.js : Concepts fondamentaux (MVVM, réactivité, directives) |
 | 25/09      | 2H             | Lecture de la documentation officielle de Vue.js sur les concepts de base  |
-| 26/09      | 2H             | Visionnage de "Learn Vue 3 - The Complete Guide" sur YouTube  
+| 26/09      | 2H             | Visionnage de "Learn Vue 3 - The Complete Guide" sur YouTube
 | 26/09      | 1H30           | Communication entre composants : Événements et passage de données            |
 | 27/09      | 1H30           | Pratique des composants et du Vue Router avec des exemples simples   |
 | 27/09      | 1H30           | Gestion des événements utilisateurs et méthodes dynamiques                   |
-| 28/09      | 1H             | Utilisation des computed properties   | 
-| 29/09      | 1H             | Gestion de l'état global avec le système de réactivité de Vue                | 
+| 28/09      | 1H             | Utilisation des computed properties   |
+| 29/09      | 1H             | Gestion de l'état global avec le système de réactivité de Vue                |

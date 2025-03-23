@@ -13,7 +13,7 @@ tags:
   - 'dev'
   - 'vscode'
 
-résumé: "Optimiser les raccourcis et connaître les bonnes commandes pour gagner en productivité sur Visual Studio Code."
+description: "Optimiser les raccourcis et connaître les bonnes commandes pour gagner en productivité sur Visual Studio Code."
 ---
 
 <head>

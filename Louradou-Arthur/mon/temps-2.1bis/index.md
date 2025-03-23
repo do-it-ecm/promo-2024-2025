@@ -12,7 +12,7 @@ tags:
   - "Open Source"
   - "Libre"
 
-résumé: "Nous découvrirons ensemble le monde de l'Open Source dans le développement logiciel depuis ses contributions à l'industrie jusqu'à la manière d'y prendre part."
+description: "Nous découvrirons ensemble le monde de l'Open Source dans le développement logiciel depuis ses contributions à l'industrie jusqu'à la manière d'y prendre part."
 ---
 
 <img src="./assets/summary.png" alt="Planche résumé">

@@ -9,19 +9,19 @@ date: 2025-01-22
 
 temps: 3
 
-tags: 
+tags:
   - "temps 3"
   - "Management"
   - "Innovation"
   - "Strategy"
 
-résumé: "Ce MON traite des solutions mises à disposition des innovateurs pour protéger leurs créations ainsi que quelques outils et processus technologiques dont ils disposent pour suivre et péreniser leurs innovations."
+description: "Ce MON traite des solutions mises à disposition des innovateurs pour protéger leurs créations ainsi que quelques outils et processus technologiques dont ils disposent pour suivre et péreniser leurs innovations."
 ---
 
 {% prerequis %}
 
 1. [`Innovation Management : Who innovate ?`](https://francoisbrucker.github.io/do-it/promos/2024-2025/Merle-Thomas/mon/temps-2.2)
-2. Connaissances de base en innovation: 
+2. Connaissances de base en innovation:
 * Compréhension des concepts clés : innovation incrémentale, radicale, disruptive.
 * Familiarité avec les outils de gestion de l'innovation (roadmapping, gestion de projets, R&D)
 1. Maîtrise des outils de propriété intellectuelle
@@ -148,7 +148,7 @@ Beaucoup d'innovation proviennent des lead users das de nombreux secteurs:
 1. Identifier les lead users grâce à des méthodes systématiques comme les études de tendances ou les ateliers collaboratifs.
 2. Créer des écosystèmes d’innovation ouverte pour intégrer leurs idées dans le développement de produits.
 
---- 
+---
 ## 2 : Protéger une innovation face aux compétiteurs<a name="2-protéger-une-innovation-face-aux-compétiteurs"></a>
 
 ### 2.1. Mécanismes formels de protection<a name="21-mécanismes-formels-de-protection"></a>
@@ -226,7 +226,7 @@ Les **mécanismes informels** complètent les protections formelles en rendant u
 1. Combiner secret commercial et brevets (si possible) pour protéger différents aspects d’une innovation.
 2. Investir dans la complexité technique pour dissuader les imitateurs.
 3. Élaborer des stratégies de locking pour renforcer la dépendance des clients à vos solutions.
-  
+
 
 ## Sources
 - Cohen, Nelson, et Walsh (2002) - *Étude sur l'utilisation des brevets dans les innovations de produits et de processus*
@@ -237,7 +237,7 @@ Les **mécanismes informels** complètent les protections formelles en rendant u
 - EUIPO - Office de la propriété intellectuelle de l'Union Européenne - {% lien %} https://www.euipo.europa.eu/en/designs/before-applying/fees-payments{% endlien %}
 - EPO - European Patent Office - {% lien %} https://my.epoline.org/epoline-portal/classic/epoline.Scheduleoffees?page=0{% endlien %}
 
-  
+
 ## Horodateur<a name="horodateur"></a>
 
 Toutes les séances et le nombre d'heures que l'on y a passé.

@@ -9,11 +9,11 @@ authors:
   - Lola Perdrix
 
 date: 2025-02-02
-tags: 
+tags:
   - "vert"
   - "back"
 
-résumé: "Ce MON vise à découvrir les notions de back-end, la création de serveurs web, et la gestion de base de données avec les outils fournis sur le cours de M.Brucker"
+description: "Ce MON vise à découvrir les notions de back-end, la création de serveurs web, et la gestion de base de données avec les outils fournis sur le cours de M.Brucker"
 ---
 
 {% prerequis %}

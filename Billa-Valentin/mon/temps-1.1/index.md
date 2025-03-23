@@ -9,11 +9,11 @@ date: 2024-09-05
 
 temps: 1
 tags:
-  - 'vert'  
+  - 'vert'
   - 'avancé'
   - 'sql'
 
-résumé: Apprentissage de fonctionnalités avancées SQL
+description: Apprentissage de fonctionnalités avancées SQL
 ---
 
 {% prerequis "**Prérequis :**" %}
@@ -23,7 +23,7 @@ résumé: Apprentissage de fonctionnalités avancées SQL
 
 ## Objectifs
 Ayant une attirance particulière pour le back, SQL me fait de l'œil !
-C'est pourquoi je souhaite me former à ses fonctions les plus avancées, 
+C'est pourquoi je souhaite me former à ses fonctions les plus avancées,
 à minima pour savoir qu'elles existent le jour où j'en aurais besoin.
 
 Ce MON sera plutôt orienté MySQL (car j'aime bien leur doc) mais je
@@ -66,7 +66,7 @@ Le résultat de `EXPLAIN` comprend plusieurs colonnes importantes, notamment :
 
 {% note %}
 La commande `EXPLAIN` renvoie un résultat honnêtement difficile à aborder les premières fois.
-Avec le temps, on comprend de mieux en mieux les particularités à prendre en compte eg. les différents types de 
+Avec le temps, on comprend de mieux en mieux les particularités à prendre en compte eg. les différents types de
 **select_type** et en l'occurrence ceux qui sont symptomatiques d'une query qui va être lente.
 {% endnote %}
 
@@ -82,7 +82,7 @@ Par exemple, pour la requête précédente, le résultat de `EXPLAIN` pourrait r
 ```
 
 Dans cet exemple, on voit que la table `users` est analysée sans utiliser d'index (NULL), et que la requête estime
-devoir parcourir un million de lignes pour trouver les résultats. Cette estimation n'est pas anodyne, le SGBD fait 
+devoir parcourir un million de lignes pour trouver les résultats. Cette estimation n'est pas anodyne, le SGBD fait
 des statistiques au fur et à mesure des requêtes faites en bases de données et s'en sert pour mieux adapter le plan
 d'exécution, il est important que ces estimations ne soient pas trop loin du compte.
 
@@ -117,14 +117,14 @@ Les plans d'exécution pour ces deux requêtes sont identiques, car elles accomp
 ```
 
 {% note %}
-Attention néanmoins, il faut toujours garder en tête que même si deux requêtes font la même chose, 
+Attention néanmoins, il faut toujours garder en tête que même si deux requêtes font la même chose,
 elles peuvent mener à un plan d'exécution différent. En effet, le SQBD est libre d'interpréter le SQL
 comme il le souhaite la seule garantie est qu'il renverra les résultats qu'on lui a demandés.
 {% endnote %}
 
 ### La commande `ANALYZE`
 
-La commande `ANALYZE` est utilisée pour analyser et stocker les informations clé pour une table. 
+La commande `ANALYZE` est utilisée pour analyser et stocker les informations clé pour une table.
 Elle permet d'explicitement demander au SGBD de collecter des statistiques sur la distribution des données dans une table.
 Comme on l'a vu dans la partie `EXPLAIN` elle peut être très utile pour corriger des erreurs d'estimations.
 
@@ -226,7 +226,7 @@ Ce sont des mots clés, options, possibilités utiles individuellement.
 ## Vues
 
 Les **vues** (mot clé `VIEW`) sont des objets de la base de données qui permettent de sauvegarder des requêtes
-sous la forme d'une table virtuelle. Elles permettent de simplifier l'écriture de requête, souvent  en encapsulant 
+sous la forme d'une table virtuelle. Elles permettent de simplifier l'écriture de requête, souvent  en encapsulant
 des jointures complexes. Voici un exemple de création de vue :
 
 ```sql
@@ -371,7 +371,7 @@ et prennent en charge un large éventail de langages de programmation via des la
   *je la trouve plus facile à naviguer que les deux autres*
 - [Doc SQLite](https://www.sqlite.org/docs.html)
 - [Doc PostgresSQL 16.4](https://www.postgresql.org/docs/current/index.html)
-- [Writing My Own Database From Scratch - Tony Saro](https://www.youtube.com/watch?v=5Pc18ge9ohI) 
+- [Writing My Own Database From Scratch - Tony Saro](https://www.youtube.com/watch?v=5Pc18ge9ohI)
   *vidéo extrêmement enrichissante sur les détails techniques des SGBD*
 {% endlien %}
 

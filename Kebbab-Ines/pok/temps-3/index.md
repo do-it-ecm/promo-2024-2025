@@ -12,7 +12,7 @@ temps: 3
 tags:
   - "info"
 
-résumé: Ce POK tourne aux enjeux de la constitution d'une base de données et aux techniques de scrapping de site web, dans le cadre de mon projet aux Entrep'.
+description: Ce POK tourne aux enjeux de la constitution d'une base de données et aux techniques de scrapping de site web, dans le cadre de mon projet aux Entrep'.
 
 ---
 

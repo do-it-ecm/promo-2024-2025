@@ -13,7 +13,7 @@ tags:
   - "Google Docs"
   - "Automatisations"
 
-résumé: "Découvrir les bases de Apps Script pour automatiser l'envoie de certificats chaque trimestre nécessaire à la réception des paiements et le suivi"
+description: "Découvrir les bases de Apps Script pour automatiser l'envoie de certificats chaque trimestre nécessaire à la réception des paiements et le suivi"
 ---
 
 {% prerequis %}

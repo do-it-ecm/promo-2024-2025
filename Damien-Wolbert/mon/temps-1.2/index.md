@@ -8,7 +8,7 @@ date: 2024-09-08
 temps: 1
 tags:
 
-résumé: "Ce MON vise à à construire un socle de connaissances pour s'initier à Google Appscript. De plus, il présente les similitudes entre ce langage et VBA, afin de pouvoir passer de l'un à l'autre pour les fonctionnalités principales."
+description: "Ce MON vise à à construire un socle de connaissances pour s'initier à Google Appscript. De plus, il présente les similitudes entre ce langage et VBA, afin de pouvoir passer de l'un à l'autre pour les fonctionnalités principales."
 ---
 
 {% prerequis %}

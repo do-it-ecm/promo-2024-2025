@@ -10,7 +10,7 @@ date: 2024-11-17
 temps: 2
 tags:
 
-résumé: Un POK autour de React.js pour la création d'une application web de gestion de tâches style to-do list.
+description: Un POK autour de React.js pour la création d'une application web de gestion de tâches style to-do list.
 ---
 
 {% prerequis %}
@@ -33,7 +33,7 @@ résumé: Un POK autour de React.js pour la création d'une application web de g
 
 ## Contexte du Projet
 
-J'ai entrepris de créer une application de gestion de tâches, un projet basique mais qui permet selon mes recherches d'acquérir les bases.  L'idée était de développer une application web qui soit à la fois légère, fonctionnelle et agréable à utiliser. Je n'ai pas vraiment atteint ce dernier objectif mais le sprint 2 me permettra d'aller plus loin dans le front end. 
+J'ai entrepris de créer une application de gestion de tâches, un projet basique mais qui permet selon mes recherches d'acquérir les bases.  L'idée était de développer une application web qui soit à la fois légère, fonctionnelle et agréable à utiliser. Je n'ai pas vraiment atteint ce dernier objectif mais le sprint 2 me permettra d'aller plus loin dans le front end.
 
 A noter que j'ai utilisé partiellement l'environnement de développement Stackblitz qui permet de faire tourner des "server-side sorftware" directement dans le web browser. Une fois les test sur Firebase faits et validés j'ai travaillé en local sur ma machine sur VSCode.
 
@@ -61,13 +61,13 @@ Mon parcours de développement s'est étalé sur plusieurs sessions de travvail 
 Après quelques réflexions, j'ai opté pour une stack moderne :
 - **React.js** : Pour sa flexibilité et sa réactivité
 - **Tailwind CSS** : Afin de gagner en rapidité de développement et découvrir ce qu'était Tailwind.
-- **Firebase** : Pour gérer l'authentification et le stockage des données facilement, je ne voulais pas développer le "backend" de zéro par moi même, le but de ce POK est de découvrir le front. 
+- **Firebase** : Pour gérer l'authentification et le stockage des données facilement, je ne voulais pas développer le "backend" de zéro par moi même, le but de ce POK est de découvrir le front.
 
 ### Étapes de Réalisation
 
 #### Initialisation et Configuration
 
-Les premiers jours ont été consacrés à mettre en place l'environnement de développement. J'ai configuré Vite pour avoir un projet React et j'ai intégré Tailwind CSS pour le design. 
+Les premiers jours ont été consacrés à mettre en place l'environnement de développement. J'ai configuré Vite pour avoir un projet React et j'ai intégré Tailwind CSS pour le design.
 
 #### Développement des Composants
 
@@ -79,7 +79,7 @@ La construction des composants a été progressive mais la structure a été ét
 
 #### Intégration de Firebase
 
-L'ajout de Firebase a été un tournant crucial. Il m'a permis de mettre en place une authentification sécurisée rapidement sans me préoccuper du système d'authentification. 
+L'ajout de Firebase a été un tournant crucial. Il m'a permis de mettre en place une authentification sécurisée rapidement sans me préoccuper du système d'authentification.
 
 **Comme je l'ai developpé dans mon MON2.1**, l'utilisation de Firebase permet de développer un système d'authentification sans trop de mal de façon rapide et pratique pour ne pas s'attarder sur cette tâche.
 
@@ -148,7 +148,7 @@ Ce projet m'a permis de :
 - Maîtriser Tailwind CSS (maîtriser les bases et aller un peu plus loin avec des tutoriels Youtube, du genre ajouter des confettis)
 - Appréhender une approche composant pour le développement web (c'est mon premier projet web avec React)
 
-## Perspectives pour le SPRINT 2 : 
+## Perspectives pour le SPRINT 2 :
 
 Pour les prochaines versions, j'envisage :
 1. Ajouter des notifications
@@ -157,7 +157,7 @@ Pour les prochaines versions, j'envisage :
 4. Ajouter une barre de progression des tâches.
 5. Utiliser un formulaire pour ajouter des tâches (laisser seulement un bouton "Ajouter une tâche" sur la page)
 
-# SPRINT 2 : 
+# SPRINT 2 :
 
 ## Amélioration de l'UI de la page de login
 
@@ -179,9 +179,9 @@ Cette barre de progression est globale et les filtres ne s'y applique pas pour l
 ![alt text](./image-6.png)
 
 
-# Conclusion 
+# Conclusion
 
-En conclusion ce projet m'a permis de découvrir plus en profondeur le front avec l'implémentation de fonctionnalités simples. L'utilisation de firebase m'a fait gagné énormément de temps et éviter beaucoup de prises de tête sur la logique à découvrir pour gérer un backend. 
+En conclusion ce projet m'a permis de découvrir plus en profondeur le front avec l'implémentation de fonctionnalités simples. L'utilisation de firebase m'a fait gagné énormément de temps et éviter beaucoup de prises de tête sur la logique à découvrir pour gérer un backend.
 
 
 

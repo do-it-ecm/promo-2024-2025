@@ -9,7 +9,7 @@ date: 1971-02-01
 temps: 3
 tags:
 
-résumé: "MON faisant écho à mon MON 2.2 précédent, mais prenant cette fois ci le point de vue du salarié."
+description: "MON faisant écho à mon MON 2.2 précédent, mais prenant cette fois ci le point de vue du salarié."
 ---
 
 {% prerequis %}
@@ -27,19 +27,19 @@ Aucun
 
 - [4] : [Entretien avec Binet, S.,  Jean, A.,  Letourneux, F.,  Propos recueillis par Öngün, E. et Yon, K.  (2021) . À l’épreuve du télétravail. Mouvements, n° 106(2), 60-69.](https://doi.org/10.3917/mouv.106.0060)
 
-- [5] : [Ugict-Cgt. (s. d.). Campagne : # le télétravail c’est oui, MAIS. . . UGICT- CGT Ingés Cadres Techs - la Référence Syndicale.](https://teletravail.ugictcgt.fr/) 
+- [5] : [Ugict-Cgt. (s. d.). Campagne : # le télétravail c’est oui, MAIS. . . UGICT- CGT Ingés Cadres Techs - la Référence Syndicale.](https://teletravail.ugictcgt.fr/)
 
-- [6] : [Le télétravail permet-il d’améliorer les conditions de travail des cadres ? − L’économie et la société à l’ère du numérique | Insee. (s. d.).](https://www.insee.fr/fr/statistiques/4126590?sommaire=4238635#onglet-3) 
+- [6] : [Le télétravail permet-il d’améliorer les conditions de travail des cadres ? − L’économie et la société à l’ère du numérique | Insee. (s. d.).](https://www.insee.fr/fr/statistiques/4126590?sommaire=4238635#onglet-3)
 
 - [7] :  Picq, P. (2021). Les chimpanzés et le télétravail. Editions Eyrolles.
 
-- [8] : [Mofakhami, M.  (2023) . 1. La pandémie de covid-19, tournant dans la pratique du télétravail ? Dans Senik, C.  (dir.), Le travail à distance Défis, enjeux et limites. ( p. 19 -39 ). La Découverte.](https://doi.org/10.3917/dec.senik.2023.01.0020.) 
+- [8] : [Mofakhami, M.  (2023) . 1. La pandémie de covid-19, tournant dans la pratique du télétravail ? Dans Senik, C.  (dir.), Le travail à distance Défis, enjeux et limites. ( p. 19 -39 ). La Découverte.](https://doi.org/10.3917/dec.senik.2023.01.0020.)
 
 - [9] : [Joubert, A.  (2020) . Et si le télétravail exacerbait les conflits ? Administration, N° 267(2), 82-84.](https://doi.org/10.3917/admi.267.0082)
 
 - [10] : [Haute, T.  et Noûs, C.  (2021) . Le télétravail, frein à la représentation et à l’action collective en entreprise ? Sociologies pratiques, N° 43(2), 63-72. ](https://doi.org/10.3917/sopr.043.0063.)
 
-- [11] : [Comment répondre aux nouvelles attentes des jeunes sur le marché du travail ? - France Travail. (s. d.). France Travail.](https://www.francetravail.org/accueil/actualites/2022/comment-repondre-aux-nouvelles-attentes-des-jeunes-sur-le-marche-du-travail.html?type=article) 
+- [11] : [Comment répondre aux nouvelles attentes des jeunes sur le marché du travail ? - France Travail. (s. d.). France Travail.](https://www.francetravail.org/accueil/actualites/2022/comment-repondre-aux-nouvelles-attentes-des-jeunes-sur-le-marche-du-travail.html?type=article)
 
 - [12] : Ponton C., Saumon R., Millot C., Hoibian S. (CREDOC), 2023, Les jeunes et le travail en 2023. Résultats du baromètre DJEPVA sur la jeunesse, avec la collaboration de A. Charruault, INJEP, Notes & rapports/rapport d’étude.
 

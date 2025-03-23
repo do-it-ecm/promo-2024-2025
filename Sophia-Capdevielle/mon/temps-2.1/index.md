@@ -8,7 +8,7 @@ date: 2024-11-01
 temps: 2
 tags:
 
-résumé: "Ce MON a pour objectif de découvrir React, d'apprendre les bases"
+description: "Ce MON a pour objectif de découvrir React, d'apprendre les bases"
 ---
 
 {% prerequis %}

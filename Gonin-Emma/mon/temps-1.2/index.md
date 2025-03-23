@@ -12,7 +12,7 @@ tags:
   - "cryptologie"
   - "vert"
 
-résumé: "Un MON traitant des bases de la cryptologie."
+description: "Un MON traitant des bases de la cryptologie."
 ---
 
 {% prerequis %}

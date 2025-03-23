@@ -7,7 +7,7 @@ authors:
   - FRANCESE Clarisse
   - WOLBERT Damien
 
-résumé: Sublimer les arts martiaux en déclenchant des animations projetées sur un écran derrière les combattants en fonction de leurs mouvements.
+description: Sublimer les arts martiaux en déclenchant des animations projetées sur un écran derrière les combattants en fonction de leurs mouvements.
 ---
 
 Comment sublimer les arts martiaux avec l'informatique ?
@@ -49,9 +49,9 @@ La partie **informatique** de ce projet vient de la détection et du traitement 
 
 ## Membres de l'équipe
 
-- Kévin Bernard  
-- Clarisse Francese  
-- Damien Wolbert  
+- Kévin Bernard
+- Clarisse Francese
+- Damien Wolbert
 - Tuteur : Guillaume Laurie
 
 ## Résumé
@@ -66,10 +66,10 @@ Nous avons eu cette idée en partant d’un **rêve d’enfant** commun issu du 
 
 ## Cadrage
 
-Dans le thème **Informatique dans l’art et l'art dans l’informatique**, nous avons lié **arts martiaux** et **art audio-visuels**. Appuyés et conseillés par Guillaume LAURIE, nous avons d'abord fixé nos **principales deadlines** ce qui nous a permis de fonctionner sous forme d'**itérations** en fixant chaque semaine les **objectifs pour la réunion suivante** ; ainsi que sur les compétences et appétences de chacun :  
+Dans le thème **Informatique dans l’art et l'art dans l’informatique**, nous avons lié **arts martiaux** et **art audio-visuels**. Appuyés et conseillés par Guillaume LAURIE, nous avons d'abord fixé nos **principales deadlines** ce qui nous a permis de fonctionner sous forme d'**itérations** en fixant chaque semaine les **objectifs pour la réunion suivante** ; ainsi que sur les compétences et appétences de chacun :
 
-- Kévin : Animation & Responsable programmation  
-- Clarisse : Etude de mouvements, Programmation & Responsable de séance  
+- Kévin : Animation & Responsable programmation
+- Clarisse : Etude de mouvements, Programmation & Responsable de séance
 - Damien : Etude de mouvements, Programmation & Responsable montage vidéo
 
 ## Livrables
@@ -80,7 +80,7 @@ Dans le thème **Informatique dans l’art et l'art dans l’informatique**, nou
 
 ![alt text](media/schema.png)
 
-<center>Schéma du dispositif</center>  
+<center>Schéma du dispositif</center>
 
 <div style="margin: auto; width: fit-content">
   <video src="media/Video_demo.mp4" style="max-height: min(50vh, 300px)" controls loop>

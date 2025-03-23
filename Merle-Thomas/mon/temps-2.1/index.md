@@ -13,7 +13,7 @@ tags:
   - "DevWeb"
   - "Dark Kitchen"
 
-résumé: "Je réalise ce MON pour m'initier au BackEnd et au language Go afin de pouvoir comprendre le backend de notre projet 3A et de pouvoir y contribuer. Je vais probablement utiliser un tutoriel en ligne et utiliser la documentation Go."
+description: "Je réalise ce MON pour m'initier au BackEnd et au language Go afin de pouvoir comprendre le backend de notre projet 3A et de pouvoir y contribuer. Je vais probablement utiliser un tutoriel en ligne et utiliser la documentation Go."
 ---
 
 {% prerequis %}

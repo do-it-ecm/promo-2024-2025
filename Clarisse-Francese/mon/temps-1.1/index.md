@@ -17,7 +17,7 @@ tags:
   - "saumon"
 
 
-résumé: "Ce MON résume ce qu'est l’intelligence collective, ses conditions d’émergence et comment les créer. Il y a aussi des outils d’intelligence collective simples à utiliser et une proposition de temps collectif d’1h à la rentrée que pourrait animer Laetitia et François pour commencer à connaître la promo Do_It et créer du lien entre les élèves."
+description: "Ce MON résume ce qu'est l’intelligence collective, ses conditions d’émergence et comment les créer. Il y a aussi des outils d’intelligence collective simples à utiliser et une proposition de temps collectif d’1h à la rentrée que pourrait animer Laetitia et François pour commencer à connaître la promo Do_It et créer du lien entre les élèves."
 ---
 
 
@@ -51,8 +51,8 @@ L'intelligence collective (souvent abrégée IC dans la suite) est une **méthod
 ### ♟️Partie d’échec entre Garry Kasparov et la foule
 
 **Garry Kasparov** est un joueur russe d’échecs anciennement numéro un mondial.
-En 1999, un site internet de jeux vidéo lui propose d’affronter une foule lors d’une seule partie d’échecs.  
-Concrètement, la partie se déroule sur Internet et est ouverte à tout le monde sans aucun prérequis de compétence. Ainsi, environ **50 000 joueurs amateurs répartis dans 75 pays différents** s’inscrivent pour cette partie collective où chaque coup de la foule est déterminé par un vote (les joueurs ont 24h pour proposer le coup qu’ils jugent le plus approprié et le choix de la majorité est reproduit sur l’échiquier).  
+En 1999, un site internet de jeux vidéo lui propose d’affronter une foule lors d’une seule partie d’échecs.
+Concrètement, la partie se déroule sur Internet et est ouverte à tout le monde sans aucun prérequis de compétence. Ainsi, environ **50 000 joueurs amateurs répartis dans 75 pays différents** s’inscrivent pour cette partie collective où chaque coup de la foule est déterminé par un vote (les joueurs ont 24h pour proposer le coup qu’ils jugent le plus approprié et le choix de la majorité est reproduit sur l’échiquier).
 La confrontation dure 4 mois et est extrêmement serrée. Au final, la foule perd face au champion du monde mais malgré la défaite, cette partie a marqué l’histoire ! En effet, lors du dixième coup, **la foule a voté à 53% pour un déplacement non-conventionnel** qui n’avait jamais été vu auparavant en compétition. L’équipe collective décide d’avancer sa reine noire en E6, provoquant un subtile déséquilibre des forces en présence. On retrouve même aujourd’hui cette innovation dans certains manuels d’échecs.
 Après sa victoire, Kasparov a déclaré “*It is the greatest game in the history of chess. The sheer number of ideas, the complexity, and the contribution it has made to chess make it the most important game ever played*“. Il est donc clair qu’il considère que **la foule était un adversaire complexe**.
 
@@ -67,7 +67,7 @@ Vidéo publié par le chercheur Mehdi Moussaïd qui travaille à l’institut Ma
 
 ### 🐄Estimation du poids d’un boeuf par une foule
 
-En 2004 (5 ans après la partie d'échec opposant la foule à Garry Kasparov) l’écrivain James Surowiecki publie un livre intitulé “*La sagesse des foules*”. Dedans, il décrit les différents mécanismes qui permettent à une foule d’individus lambda de former des jugements pertinents et de résoudre des problèmes complexes. Notamment il popularise l'expérience ci-dessous :  
+En 2004 (5 ans après la partie d'échec opposant la foule à Garry Kasparov) l’écrivain James Surowiecki publie un livre intitulé “*La sagesse des foules*”. Dedans, il décrit les différents mécanismes qui permettent à une foule d’individus lambda de former des jugements pertinents et de résoudre des problèmes complexes. Notamment il popularise l'expérience ci-dessous :
 En 1906, le statisticien britannique **Francis Galton** se rend à un marché de bétail anglais dans lequel se déroule un concours consistant à **deviner le poids d’un bœuf**. Galton prend alors note de 787 paris d’amateurs et décide d’établir la médiane. Il est alors surpris de constater que la médiane est 1197 livres (548 kg), un résultat très proche du poids réel du bœuf qui était de 1198 livres.
 Ce même phénomène se produit si on demande à une foule d’estimer la distance entre 2 villes, le poids d’une baleine, le nombre de billes dans un vase etc. **La médiane des résultats d'une foule est toujours proche du vrai résultat** car les erreurs de chaque individu se compensent collectivement.
 
@@ -137,7 +137,7 @@ Maintenant que j’ai présenté quelles étaient les conditions d'émergence de
 
 ### 🎯Clarifier son intention
 
-Il existe de **multiples objectifs liés à un temps collectif**. Par exemple, un groupe peut se réunir pour créer du lien, partager des idées, réfléchir ensemble, trouver des solutions, résoudre des conflits, définir sa raison d'être, élaborer une vision commune etc.  
+Il existe de **multiples objectifs liés à un temps collectif**. Par exemple, un groupe peut se réunir pour créer du lien, partager des idées, réfléchir ensemble, trouver des solutions, résoudre des conflits, définir sa raison d'être, élaborer une vision commune etc.
 Ainsi, il est essentiel pour choisir des méthodes adaptées d’**aider le participant à se situer sur ce qui est attendu de lui**. Cela permet d'éviter les frustrations liées à une mauvaise compréhension d’un temps collectif (par exemple un participant déçu de ne pas créer du lien avec ses nouveaux collègues lors d’une réunion qui avait uniquement pour but d’informer les salariés d’un changement de procédure).
 
 ### 🧘‍♀️Adopter la bonne posture
@@ -155,8 +155,8 @@ La Facipulation est une pratique de manipulation consistant à faire participer 
 
 ### 🙋Avoir un facilitateur
 
-*Un atelier d'intelligence collective sans facilitateur, c'est comme un plat de pâtes sans sauce !*  
-D’après **J.-P. Poupard**, la raison d’être d’un facilitateur est de "***rendre la tâche d' un collectif plus facile tout en utilisant au mieux le temps et l'intelligence des individus qui le composent.*** "  
+*Un atelier d'intelligence collective sans facilitateur, c'est comme un plat de pâtes sans sauce !*
+D’après **J.-P. Poupard**, la raison d’être d’un facilitateur est de "***rendre la tâche d' un collectif plus facile tout en utilisant au mieux le temps et l'intelligence des individus qui le composent.*** "
 Ainsi le facilitateur doit non seulement accompagner les personnes vers une convergence et aboutir à des décisions mais aussi rendre les collaborations utiles, productives et plaisantes.
 
 Le rôle de facilitateur est différent de celui d’un formateur, ou coach ou consultant comme le résume le schéma ci-dessous :
@@ -172,8 +172,8 @@ Ainsi, les compétences clés d’un bon facilitateur sont l’écoute active, l
 
 ### 🖼️Garantir un cadre et des processus
 
-Parfois l’idée même de règles ou de cadre entraîne des résistances (peur d’enfermement) mais il est essentiel de rappeler que **l’absence de règles explicites cache en réalité énormément de règles implicites**.  
-Ainsi, un **cadre** pour un temps collectif permet de **se mettre d' accord sur les règles du jeu**, de favoriser la co-responsabilité, de générer de la sécurité et de la confiance au sein du groupe, de limiter les jeux d'égos et les rapports de domination et d’avoir des sessions de travail plus efficientes.  
+Parfois l’idée même de règles ou de cadre entraîne des résistances (peur d’enfermement) mais il est essentiel de rappeler que **l’absence de règles explicites cache en réalité énormément de règles implicites**.
+Ainsi, un **cadre** pour un temps collectif permet de **se mettre d' accord sur les règles du jeu**, de favoriser la co-responsabilité, de générer de la sécurité et de la confiance au sein du groupe, de limiter les jeux d'égos et les rapports de domination et d’avoir des sessions de travail plus efficientes.
 Voir l’outil : **cadre de confiance** dans la partie “Boîte à outils”
 
 Ensuite, les **processus** permettent de **passer plus facilement et sereinement de la phase de divergence à la phase de convergence** lors d’une décision de groupe.
@@ -184,7 +184,7 @@ On retrouve ces phases dans le **diamant de la participation**, un modèle de pr
 ## 📦Boîte à outils d’IC
 
 Maintenant que j’ai précisé comment créer théoriquement des conditions optimales pour un temps collectif, voici ci-dessous une liste de plein d’outils d’IC que j’ai tous personnellement eu l'occasion de vivre au cours de mon stage de 6 mois au Tiers-Lab des Transitions à Marseille. C'est au cours de ce stage que j'ai suivi une **formation de 2 jours nommée "*Inititation à l'intelligence collective*" du LICA**, le Laboratoire d'Intelligence Collective et Artificielle.
-Ces outils peuvent sembler en apparence assez simples mais leur utilisation apporte une grande différence dans le vécu d’un temps collectif !  
+Ces outils peuvent sembler en apparence assez simples mais leur utilisation apporte une grande différence dans le vécu d’un temps collectif !
 C’est **le facilitateur qui est censé animer ces outils** pendant le temps collectif.
 
 {% lien %}
@@ -199,13 +199,13 @@ Outil de **2 à 15** personnes, prévoir **1 à 2 min par participant**.
 
 #### Son but ?
 
-Il permet au groupe **d'exprimer et d'entendre comment chacun arrive dans le temps collectif** : niveau de fatigue, énergie, humeur, ressenti... Ainsi on se rend compte de son état, de ses biais du jour, de ceux des autres, on comprend l’humeur du groupe et on s’y adapte.  
+Il permet au groupe **d'exprimer et d'entendre comment chacun arrive dans le temps collectif** : niveau de fatigue, énergie, humeur, ressenti... Ainsi on se rend compte de son état, de ses biais du jour, de ceux des autres, on comprend l’humeur du groupe et on s’y adapte.
 Celà **permet d’éviter certaines interprétations**. Par exemple, si Michel ne semble pas trop m’écouter quand je parle ce n’est pas car il s’en fiche mais car il a fait une insomnie cette nuit et a donc du mal à se concentrer.
 Cet outil permet aussi de **percevoir l’évolution du collectif entre les réunions** et au cours d’une réunion si il est couplé avec l’outil “déclusion” (voir dans la suite).
 
 #### Comment l’animer ?
 
-Ex : "*Je propose que chacun partage en quelques mots avec quelle émotion il arrive aujourd'hui*"  
+Ex : "*Je propose que chacun partage en quelques mots avec quelle émotion il arrive aujourd'hui*"
 De là, un tour de parole s’installe en **écoute active**, sans réaction. On peut utiliser un sablier si besoin pour veiller à l’équilibre du temps de parole.
 
 #### Variantes
@@ -219,15 +219,15 @@ Outil de **2 à 20 personnes**, prévoir **5 à 10 min** au total.
 
 #### Son but ?
 
-Il permet en début d’un temps collectif à chaque membre d'**exprimer ses besoins pour le bon déroulement de ce moment ensemble**. Ainsi, on fixe collectivement les règles du jeu en définissant un **référentiel commun** permettant de "recadrer" si besoin. Il favorise également la co-responsabilité du groupe si l’un des participants ne respecte pas le cadre.  
+Il permet en début d’un temps collectif à chaque membre d'**exprimer ses besoins pour le bon déroulement de ce moment ensemble**. Ainsi, on fixe collectivement les règles du jeu en définissant un **référentiel commun** permettant de "recadrer" si besoin. Il favorise également la co-responsabilité du groupe si l’un des participants ne respecte pas le cadre.
 Le résultat final est un cadre (souvent une feuille, un paperboard…) avec des mots autours qui décrivent les règles de comportement pour la journée.
 
 #### Comment l’animer ?
 
-Cet outil est surtout utilisé avant des grosses réunions (½ journée) ou d’un temps collectif type séminaire ou pour définir les règles au travail d’une équipe bossant ensemble au quotidien.  
-Ex : "*De quoi avez-vous besoin pour bien vivre cette journée ?*"  
-Idéalement, il faut **co-construire le cadre de confiance avec le groupe**. Si on a peu de temps, on peut le faire en posant soi-même des règles de base (écoute active, équilibre de la parole, bienveillance...).  
-Avec un grand groupe, on peut le créer en version post-it silencieux.  
+Cet outil est surtout utilisé avant des grosses réunions (½ journée) ou d’un temps collectif type séminaire ou pour définir les règles au travail d’une équipe bossant ensemble au quotidien.
+Ex : "*De quoi avez-vous besoin pour bien vivre cette journée ?*"
+Idéalement, il faut **co-construire le cadre de confiance avec le groupe**. Si on a peu de temps, on peut le faire en posant soi-même des règles de base (écoute active, équilibre de la parole, bienveillance...).
+Avec un grand groupe, on peut le créer en version post-it silencieux.
 Une fois le cadre fini, il faut **l’afficher dans la salle** pour pouvoir s’y référer dans la journée et aux prochains temps collectifs s'ils ont lieu avec les mêmes personnes.
 
 Voici le cadre de confiance qui avait été construit lors d’une formation que j’ai suivi au LICA, le Laboratoire d’Intelligence Collective et Artificielle à Marseille.
@@ -248,10 +248,10 @@ En amont, **le facilitateur définit entre 1 et 3 questions et un temps imparti 
 
 Ex : “*Comment je me sens en ce moment dans l'organisation ?*”, “*Quelle est ta compréhension de mon rôle dans la structure ?*”, “*Comment trouves tu les espaces de travail (confort, praticité etc) ?*”, “*Pourquoi j’ai choisi de participer à cet atelier ?*”.
 
-Le facilitateur donne les consignes en collectif puis les participants se répartissent **en sous-groupe de 2 ou 3**. Dans chaque groupe, **une 1ère personne s'exprime** pour répondre à la/les questions sans être interrompu par les autres. Si elle a fini avant le temps prévu, elle laisse place au silence. Pendant ce temps, **l’autre est dans une écoute active** : pas de réaction, pas d'interruption, ni de question.  
-Puis on **inverse les rôles**.  
-Puis les **2 personnes peuvent discuter librement**.  
-Si c'est un groupe de 3 : la phase de discussion libre est remplacée par le monologue de la 3ème personne.  
+Le facilitateur donne les consignes en collectif puis les participants se répartissent **en sous-groupe de 2 ou 3**. Dans chaque groupe, **une 1ère personne s'exprime** pour répondre à la/les questions sans être interrompu par les autres. Si elle a fini avant le temps prévu, elle laisse place au silence. Pendant ce temps, **l’autre est dans une écoute active** : pas de réaction, pas d'interruption, ni de question.
+Puis on **inverse les rôles**.
+Puis les **2 personnes peuvent discuter librement**.
+Si c'est un groupe de 3 : la phase de discussion libre est remplacée par le monologue de la 3ème personne.
 Idéalement, les participants peuvent **marcher en même temps qu’ils parlent** en faisant un tour dans le jardin, dans les couloirs du bâtiment etc., celà aide à libérer la parole.
 
 Concrètement pour un groupe de 2 et une durée de 15 min cela donne :
@@ -272,11 +272,11 @@ Il permet de rendre visible les enjeux, les problèmes du sujet qui réunit les 
 
 #### Comment l’animer ?
 
-Le facilitateur dit une **affirmation volontairement clivante** dans le groupe.  
-Ex : “*Il faut séparer vie pro et vie perso*”, “*Les règles freinent nos libertés*”, “*L'absence de chef freine le collectif*”.  
-De là, chaque participant doit **se positionner spatialement dans l’espace dans 2 zones : d'accord / pas d'accord.** Les participants n’ont pas le droit de rester au milieu dans la "rivière du doute".  
-Ensuite, **un participant défend son point de vue** et pendant son argumentation, les **autres participants peuvent bouger en silence** (par exemple, les participants dans la zone opposée peuvent se rapprocher de la zone du participant argumentant si il les a un peu convaincu).  
-Puis, un **participant de la zone opposée prend la parole** pour exprimer à son tour son point de vue. Ce **cycle se répète** jusqu’à ce que tous les arguments aient été dit ou bien que le temps soit écoulé.  
+Le facilitateur dit une **affirmation volontairement clivante** dans le groupe.
+Ex : “*Il faut séparer vie pro et vie perso*”, “*Les règles freinent nos libertés*”, “*L'absence de chef freine le collectif*”.
+De là, chaque participant doit **se positionner spatialement dans l’espace dans 2 zones : d'accord / pas d'accord.** Les participants n’ont pas le droit de rester au milieu dans la "rivière du doute".
+Ensuite, **un participant défend son point de vue** et pendant son argumentation, les **autres participants peuvent bouger en silence** (par exemple, les participants dans la zone opposée peuvent se rapprocher de la zone du participant argumentant si il les a un peu convaincu).
+Puis, un **participant de la zone opposée prend la parole** pour exprimer à son tour son point de vue. Ce **cycle se répète** jusqu’à ce que tous les arguments aient été dit ou bien que le temps soit écoulé.
 Idéalement, le **facilitateur prend en note** les arguments des 2 équipes pour avoir un compte-rendu à la fin du débat mouvant.
 
 Voici la restitution visuelles d'un débat mouvant auquel j’avais participé au LICA, le Laboratoire d’Intelligence Collective et Artificielle à Marseille. Le thème était “*On peut coopérer avec tout le monde*”.
@@ -293,13 +293,13 @@ Il permet de **garder l'énergie du groupe jusqu'au bout**, de laisser un dernie
 
 #### Comment l’animer ?
 
-Le facilitateur lance un **tour de table** en fin de session avec **une question** et chaque participant doit y répondre en parlant pour lui-même. Les autres sont en écoute active (pas de réaction).  
+Le facilitateur lance un **tour de table** en fin de session avec **une question** et chaque participant doit y répondre en parlant pour lui-même. Les autres sont en écoute active (pas de réaction).
 Ex : "*Avec quelle émotion repartez vous aujourd'hui ?*", “*Quel élément vous a le plus marqué aujourd’hui ?*”
 
 #### Variantes
 
-**Pépite / caillou** : citer une pépite = un point fort de cette journée et un caillou = un point à améliorer.  
-**Mot clé** : dire un mot pour résumer cette journée.  
+**Pépite / caillou** : citer une pépite = un point fort de cette journée et un caillou = un point à améliorer.
+**Mot clé** : dire un mot pour résumer cette journée.
 **Mêmes outils que pour l'inclusion** : dire son niveau d’énergie après ce temps collectif.
 
 ### 🧊Les ice breaker
@@ -318,8 +318,8 @@ Outil de **3 à 15 personnes**, prévoir **45 min à 1h** au total.
 
 #### Son but ?
 
-**Édouard de De Bono**, un docteur en psychologie, a constaté que dans un groupe qui réfléchit à un sujet, on retrouve souvent : des phases et/ou personnes créatives, des phases et/ou des points de vue plutôt critiques, prudents qui voient les risques, des personnes qui manquent d’informations pour participer, des phases et/ou des points de vue qui veulent de la structure, du concret.  
-Toutes ces phases et tous ces points de vue sont utiles et légitimes mais le problème selon lui est de vouloir les traiter tous en même temps. En effet, cela produit de la stigmatisation, des tensions, du stress, une mauvaise circulation de l’information. C’est ce qu’il nomme la "**pensée spaghetti**".  
+**Édouard de De Bono**, un docteur en psychologie, a constaté que dans un groupe qui réfléchit à un sujet, on retrouve souvent : des phases et/ou personnes créatives, des phases et/ou des points de vue plutôt critiques, prudents qui voient les risques, des personnes qui manquent d’informations pour participer, des phases et/ou des points de vue qui veulent de la structure, du concret.
+Toutes ces phases et tous ces points de vue sont utiles et légitimes mais le problème selon lui est de vouloir les traiter tous en même temps. En effet, cela produit de la stigmatisation, des tensions, du stress, une mauvaise circulation de l’information. C’est ce qu’il nomme la "**pensée spaghetti**".
 Il propose donc la **méthode des 6 chapeaux** afin de permettre à un groupe de réfléchir à une problématique en abordant différents modes de pensée.
 Ainsi, **chaque chapeau correspond à un mode de pensée**. Tous les membres du groupe travaillent collectivement dans un mode de pensée en même temps. Cette méthode permet d’être plus efficace pour réfléchir ensemble et travailler sur un nouveau projet, un point d’étape, pour la résolution de conflit etc. Grâce à cette méthode, chacun s’exprime et on **prend en compte tous les points de vue**.
 
@@ -334,7 +334,7 @@ Les 6 chapeaux :
 
 #### Comment l’animer ?
 
-Selon la problématique, il faut que **le facilitateur définisse un enchaînement logique de séquence avec pour chacune une durée et des questions clés**. Il faut éviter tout débat, ce n'est pas un mode de prise de décision mais plutôt d’idéation.  
+Selon la problématique, il faut que **le facilitateur définisse un enchaînement logique de séquence avec pour chacune une durée et des questions clés**. Il faut éviter tout débat, ce n'est pas un mode de prise de décision mais plutôt d’idéation.
 Les **notes sont idéalement prises à la volée par le facilitateur** sans ralentir le flux et **elles sont visibles** tout au long de la production (paperboard affichés à la fin de chaque chapeau). La facilitateur filtre les apports en marquant ce que disent les participants que si c’est lors du bon chapeau.
 
 Ex de séquence sur la question générale : ***Comment faire évoluer nos réunions d'équipe ?***
@@ -348,7 +348,7 @@ Ex de séquence sur la question générale : ***Comment faire évoluer nos réun
 
 ## 🏫Exemple de temps collectif pour lancer l’année Do_It
 
-Maintenant que j’ai présenté plusieurs outils d’IC, je me suis amusée à **imaginer à quoi aurait pu ressembler la première matinée de Do_It lors de la rentrée.** Pour ce temps, je décide que l’intention est d’**apprendre aux élèves de la promo et aux professeurs à se connaître** et ainsi commencer à **créer du lien** entre tout ce beau monde ! Pour ceci, j'ai séparé ce temps d'environ 1h en 4 phases.  
+Maintenant que j’ai présenté plusieurs outils d’IC, je me suis amusée à **imaginer à quoi aurait pu ressembler la première matinée de Do_It lors de la rentrée.** Pour ce temps, je décide que l’intention est d’**apprendre aux élèves de la promo et aux professeurs à se connaître** et ainsi commencer à **créer du lien** entre tout ce beau monde ! Pour ceci, j'ai séparé ce temps d'environ 1h en 4 phases.
 J’emploie le mot facilitateur en imaginant que Laetitia et François se familiarisent avec les outils d’IC et qu’ils endossent successivement ce rôle au sein des différents temps.
 
 ### 👋Inclusion : accueil, prénom et humeur - 20 min
@@ -356,14 +356,14 @@ J’emploie le mot facilitateur en imaginant que Laetitia et François se famili
 Les élèves de Do_It arrivent dans la salle avec Laetitia et François. De là, ces derniers leur disent de **laisser toutes leurs affaires dans la salle et de venir avec eux dans la cour au soleil pour d’abord faire des présentations**.
 (Si il ne fait pas beau, possibilité de le faire dans la rue basse ou dans une salle dont les chaises et tables ont été poussé sur les côtés).
 
-Laetitia et François se **présentent**, **félicitent** les élèves d’être en Do_It et souhaitent à tout le monde une **bonne rentrée**. Ils précisent qu’on va d’abord **consacrer 1h de la matinée à faire des activités pour apprendre à mieux connaître la promo**.  
+Laetitia et François se **présentent**, **félicitent** les élèves d’être en Do_It et souhaitent à tout le monde une **bonne rentrée**. Ils précisent qu’on va d’abord **consacrer 1h de la matinée à faire des activités pour apprendre à mieux connaître la promo**.
 
-Puis l’un des facilitateurs commence par placer des **feuilles A4 plastifiées colorées** de manière espacée sur le sol avec des **émotions marquées dessus** (joie, sérénité, motivation, fatigue…) comme sur la photo ci-dessous.  
+Puis l’un des facilitateurs commence par placer des **feuilles A4 plastifiées colorées** de manière espacée sur le sol avec des **émotions marquées dessus** (joie, sérénité, motivation, fatigue…) comme sur la photo ci-dessous.
 
 <img src="inclusion_sentiment.png" width="40%" alt="Image description">
 
 
-Il explique alors les consignes : les **élèves ont 2 min pour regarder les feuilles et se positionner à côté de l’émotion qu’ils ressentent ce matin** lors de cette rentrée en Do_It.  
+Il explique alors les consignes : les **élèves ont 2 min pour regarder les feuilles et se positionner à côté de l’émotion qu’ils ressentent ce matin** lors de cette rentrée en Do_It.
 Un **tour de parole** s’installe où chaque élève doit dire **son prénom et dire le nom de l’émotion choisie en expliquant pourquoi en 1 phrase** (pas plus car il y a beaucoup d’élèves). Quand un élève a fini, il **désigne l’élève qui enchaîne** pour que la parole circule vite sans blanc.
 
 ### 👂Pense écoute : choix de Do_It - 20 min
@@ -376,9 +376,9 @@ Le fonctionnement est le suivant :
 - Puis on inverse pour les 5 minutes suivantes.
 - Puis les 2 parlent librement lors des 5 dernières minutes.
 
-Une fois les consignes données, les binômes peuvent **marcher dans la cour** pour discuter ensemble en suivant l’exercice.  
+Une fois les consignes données, les binômes peuvent **marcher dans la cour** pour discuter ensemble en suivant l’exercice.
 Le facilitateur doit choisir s'il veut annoncer lui-même les changements de temps toutes les 5 min (possible si les élèves ne sont pas trop loin) ou si les élèves gèrent eux-mêmes (si oui, il faut leur dire de mettre un chrono).
-Si il y a un nombre impair d’élèves, faire un groupe de 3 et remplacer la dernière phase de 5 min par le temps de parole de l’élève C.  
+Si il y a un nombre impair d’élèves, faire un groupe de 3 et remplacer la dernière phase de 5 min par le temps de parole de l’élève C.
 Pendant ce temps, le facilitateur peut récupérer les feuilles de l'activité précédente par terre.
 
 ### 👣Positionnement spatiale : césure, alternance, option 2A, couleur - 20 min
@@ -396,7 +396,7 @@ Questions possibles :
 
 ### 🗣️Déclusion : prénom et ressenti - 10 min
 
-Le facilitateur **remercie** les élèves pour le positionnement spatial et annonce qu’on va faire un dernier **tour de parole dans lequel chacun rappelle son prénom et explique en 1 phrase comment il a trouvé ce temps collectif.** Là encore, l’élève qui a fini de parler désigne l’élève suivant qui parlera.  
+Le facilitateur **remercie** les élèves pour le positionnement spatial et annonce qu’on va faire un dernier **tour de parole dans lequel chacun rappelle son prénom et explique en 1 phrase comment il a trouvé ce temps collectif.** Là encore, l’élève qui a fini de parler désigne l’élève suivant qui parlera.
 Une fois le tour fini, le facilitateur **remercie** pour le partage et indique aux élèves qu’on peut rentrer dans la salle pour passer à une présentation plus formelle de l’option (les cours, les POK, MON etc).
 
 ### ✅Bilan du temps collectif en Do_It

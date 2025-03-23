@@ -16,7 +16,7 @@ tags:
   - "gltf"
   - "3D"
 
-résumé: ""
+description: ""
 ---
 
 {% prerequis %}
@@ -30,7 +30,7 @@ résumé: ""
 - [Documentation R3F](https://r3f.docs.pmnd.rs)
 - [Vidéo Youtube de Codeur de Nuit, Tuto THREE.JS](https://www.youtube.com/watch?v=vhK6o26OV4Q)
 - [Vidéo Youtube de Codeur de Nuit, Tuto THREE.JS [Javascript]](https://www.youtube.com/watch?v=vhK6o26OV4Q)
-- [Vidéo Youtube de Graven, ThreeJS expliqué en 3 minutes (Javascript 3D✨)](https://www.youtube.com/watch?v=4IvhajhllFo) 
+- [Vidéo Youtube de Graven, ThreeJS expliqué en 3 minutes (Javascript 3D✨)](https://www.youtube.com/watch?v=4IvhajhllFo)
 - [Vidéo Youtube de rithmic, React Three Fiber (R3F) - The Basics](https://www.youtube.com/watch?v=vTfMjI4rVSI)
 -  [Site FreeCodeCamp, How to Implement a Blender Model in a React.js Application using Three.js](https://www.freecodecamp.org/news/blender-three-js-react-js/)
 -  [Vidéo Youtube de The Khronos Group, What is glTF?](https://www.youtube.com/watch?v=tonSNnEj-ow)
@@ -119,7 +119,7 @@ On peut mettre déclencher des actions quand l'utilisateur clique, hover, scroll
 
 {% lien %}
 - [Vidéo Youtube de Codeur de Nuit, Tuto THREE.JS [Javascript]](https://www.youtube.com/watch?v=vhK6o26OV4Q)
-- [Vidéo Youtube de Graven, ThreeJS expliqué en 3 minutes (Javascript 3D✨)](https://www.youtube.com/watch?v=4IvhajhllFo) 
+- [Vidéo Youtube de Graven, ThreeJS expliqué en 3 minutes (Javascript 3D✨)](https://www.youtube.com/watch?v=4IvhajhllFo)
 {% endlien %}
 
 ---

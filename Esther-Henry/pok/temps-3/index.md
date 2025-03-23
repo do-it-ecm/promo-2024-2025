@@ -8,14 +8,14 @@ authors:
 date: 1971-03-01
 
 temps: 3
-tags: 
+tags:
   - "inégalité"
   - "genre"
   - "entreprise"
   - "RH"
   - "diagnostic"
 
-résumé: L’objectif de ce POK est de créer un outil de diagnostic permettant aux entreprises de s’évaluer sur leur positionnement en matière d’égalité femmes-hommes. Cet outil, inspiré d’initiatives comme le "violentomètre", aidera à identifier les forces et les axes d’amélioration des organisations pour favoriser un environnement professionnel inclusif et équitable pour les femmes et les hommes.
+description: L’objectif de ce POK est de créer un outil de diagnostic permettant aux entreprises de s’évaluer sur leur positionnement en matière d’égalité femmes-hommes. Cet outil, inspiré d’initiatives comme le "violentomètre", aidera à identifier les forces et les axes d’amélioration des organisations pour favoriser un environnement professionnel inclusif et équitable pour les femmes et les hommes.
 ---
 
 {% prerequis %}
@@ -33,37 +33,37 @@ Aucun prérequis, seulement un peu d’ouverture d’esprit sur les questions d'
 
 ## Contexte
 
-L’objectif de ce POK est de réaliser un **dispositif de diagnostic à destination des entreprises et de leurs salariés** afin d’évaluer si l’entreprise est un lieu où **l’égalité homme-femme** est encouragée, respectée ou, au contraire, où persistent de nombreuses inégalités.  
+L’objectif de ce POK est de réaliser un **dispositif de diagnostic à destination des entreprises et de leurs salariés** afin d’évaluer si l’entreprise est un lieu où **l’égalité homme-femme** est encouragée, respectée ou, au contraire, où persistent de nombreuses inégalités.
 
-Ma première idée est de réaliser ce dispositif en m’inspirant du violentomètre dans l’apparence, car je trouve que ce format a, d’un côté, un **fort pouvoir visuel** : on comprend tout de suite où on se situe et ce que cela implique. D’un autre côté, cet outil est très **simple d’utilisation et de prise en main** (pas de calcul à faire ni de termes compliqués à comprendre).  
+Ma première idée est de réaliser ce dispositif en m’inspirant du violentomètre dans l’apparence, car je trouve que ce format a, d’un côté, un **fort pouvoir visuel** : on comprend tout de suite où on se situe et ce que cela implique. D’un autre côté, cet outil est très **simple d’utilisation et de prise en main** (pas de calcul à faire ni de termes compliqués à comprendre).
 
-En somme, je voudrais donc réaliser un outil de diagnostic des inégalités ou de l’égalité entre les femmes et les hommes pour les entreprises, qui soit à la fois visuel et simple à utiliser, tout en portant un message construit. 
+En somme, je voudrais donc réaliser un outil de diagnostic des inégalités ou de l’égalité entre les femmes et les hommes pour les entreprises, qui soit à la fois visuel et simple à utiliser, tout en portant un message construit.
 
-C’est l’occasion pour moi d’en apprendre plus sur le contexte légal en termes d’égalité homme-femme en France, mais aussi de me pencher sur la question de l’égalité et des stéréotypes de genre dans le milieu professionnel, avec une approche un peu plus sociologique, afin de mieux comprendre ces phénomènes et mécanismes.  
+C’est l’occasion pour moi d’en apprendre plus sur le contexte légal en termes d’égalité homme-femme en France, mais aussi de me pencher sur la question de l’égalité et des stéréotypes de genre dans le milieu professionnel, avec une approche un peu plus sociologique, afin de mieux comprendre ces phénomènes et mécanismes.
 
-## Le cadre légal de l’égalité de genre au travail en France 
+## Le cadre légal de l’égalité de genre au travail en France
 
-En France, l’égalité femmes-hommes au travail impose à l’employeur de respecter plusieurs principes : non-discrimination à l’embauche, égalité salariale et de carrière, obligations d’information et de prévention du harcèlement. En cas de non-respect, des sanctions civiles et pénales sont prévues. Les entreprises de plus de 50 salariés risquent des pénalités si elles n’adoptent pas d’accord ou de plan d’action en faveur de l’égalité professionnelle ou si elles ne réduisent pas les écarts de rémunération.  
+En France, l’égalité femmes-hommes au travail impose à l’employeur de respecter plusieurs principes : non-discrimination à l’embauche, égalité salariale et de carrière, obligations d’information et de prévention du harcèlement. En cas de non-respect, des sanctions civiles et pénales sont prévues. Les entreprises de plus de 50 salariés risquent des pénalités si elles n’adoptent pas d’accord ou de plan d’action en faveur de l’égalité professionnelle ou si elles ne réduisent pas les écarts de rémunération.
 
-Cependant, plus de 46 ans après l’inscription du principe « à travail de valeur égale, salaire égal », **il demeure 9 % d’écart de salaire injustifié entre les femmes et les hommes**.  
+Cependant, plus de 46 ans après l’inscription du principe « à travail de valeur égale, salaire égal », **il demeure 9 % d’écart de salaire injustifié entre les femmes et les hommes**.
 
-En parallèle, l'Index de l'égalité professionnelle est un outil mis en place en France pour mesurer les écarts de rémunération et de traitement entre les femmes et les hommes au sein des **entreprises d’au moins 50 salariés**. Calculé sur **100 points** à partir de plusieurs critères (écarts de salaire, augmentations, promotions, congé maternité, parité parmi les plus hautes rémunérations), il oblige les entreprises à publier leur score chaque année. **Un score inférieur à 75 impose des mesures correctives sous peine de sanctions financières**. Cet index vise à encourager une égalité réelle en incitant les employeurs à corriger les inégalités persistantes.  
+En parallèle, l'Index de l'égalité professionnelle est un outil mis en place en France pour mesurer les écarts de rémunération et de traitement entre les femmes et les hommes au sein des **entreprises d’au moins 50 salariés**. Calculé sur **100 points** à partir de plusieurs critères (écarts de salaire, augmentations, promotions, congé maternité, parité parmi les plus hautes rémunérations), il oblige les entreprises à publier leur score chaque année. **Un score inférieur à 75 impose des mesures correctives sous peine de sanctions financières**. Cet index vise à encourager une égalité réelle en incitant les employeurs à corriger les inégalités persistantes.
 
-Dans les faits, cet indicateur augmente en France depuis sa mise en place, mais son impact réel sur la réduction des inégalités au travail reste discutable.  
+Dans les faits, cet indicateur augmente en France depuis sa mise en place, mais son impact réel sur la réduction des inégalités au travail reste discutable.
 
-D’autres lois et mesures ont été mises en place en France, mais leur étude seule ne suffit pas à comprendre pleinement le sujet ni à mettre en contexte réel ces inégalités. C’est pourquoi la prochaine partie abordera les études sur le sujet.  
+D’autres lois et mesures ont été mises en place en France, mais leur étude seule ne suffit pas à comprendre pleinement le sujet ni à mettre en contexte réel ces inégalités. C’est pourquoi la prochaine partie abordera les études sur le sujet.
 
 ## Une approche sociologique de l’égalité de genre au travail
 
 {% note %}
 
-Cette partie s’appuie majoritairement sur les travaux de Clotilde Coron cités en bibliographie.  
+Cette partie s’appuie majoritairement sur les travaux de Clotilde Coron cités en bibliographie.
 
 {% endnote %}
 
 ### Limites du cadre légal
 
-Le cadre légal en France, avec notamment l’obligation d’affichage de l’index égalité homme-femme, est un bon premier pas vers l’égalité, mais il ne se concentre que sur des critères quantitatifs mesurables. Cette approche n’est cependant pas suffisante pour analyser et comprendre les inégalités au travail, qui comprennent des critères bien plus complexes et implicites, donc plus difficiles à mesurer.  
+Le cadre légal en France, avec notamment l’obligation d’affichage de l’index égalité homme-femme, est un bon premier pas vers l’égalité, mais il ne se concentre que sur des critères quantitatifs mesurables. Cette approche n’est cependant pas suffisante pour analyser et comprendre les inégalités au travail, qui comprennent des critères bien plus complexes et implicites, donc plus difficiles à mesurer.
 
 Ainsi, l’objectif de l’égalimètre est de **voir au-delà de ces indicateurs mesurables les facteurs pouvant accentuer ou lutter contre les inégalités entre les hommes et les femmes**, notamment des facteurs implicites et sur des sujets qui peuvent, à première vue, ne pas sembler liés au genre (comme la mobilité géographique, par exemple).
 
@@ -71,7 +71,7 @@ Ainsi, l’objectif de l’égalimètre est de **voir au-delà de ces indicateur
 
 Un de nos premiers postulats est que **les inégalités de genre sont en partie liées aux stéréotypes de genre**. En effet, lutter contre les inégalités (en facilitant le temps de travail des femmes, par exemple, ou en équilibrant les salaires) permet aussi de lutter contre les stéréotypes. Si les femmes avaient un statut égal à celui des hommes, la répartition des tâches dans un couple hétérosexuel serait peut-être plus équilibrée, ce qui permettrait aux hommes et aux femmes de s’impliquer de manière équivalente dans le domaine professionnel et personnel. Cela réduirait ainsi la vision stéréotypée des femmes et des mères, souvent perçues comme devant s’occuper du foyer. D’où l’intérêt de travailler sur les inégalités, sans pour autant délaisser le travail sur les stéréotypes, car l’un va de pair avec l’autre.
 
-On peut notamment distinguer **quatre dimensions de stéréotypes de genre** encore bien ancrés en France et en Europe :  
+On peut notamment distinguer **quatre dimensions de stéréotypes de genre** encore bien ancrés en France et en Europe :
 
 - Différences de **compétences** entre hommes et femmes : l’homme est perçu comme un leader, fait pour le travail rémunéré, tandis que la femme est associée à l’empathie, au sens de l’écoute et au travail domestique
 - **Vision moraliste des mères** : si une femme/mère accorde trop d’importance à son travail rémunéré, sa famille en souffrirait. On accorde donc une priorité au rôle de mère des femmes, en opposition avec leur carrière professionnelle
@@ -86,7 +86,7 @@ Les entreprises ont leur part à jouer pour réduire les inégalités et les st�
 
 {% attention %}
 
-Ces actions en faveur de l’égalité de genre, peuvent être menées sur différents axes plus ou moins complémentaires, mais il est nécessaire de ne pas en délaisser, car ils sont fortement liés les uns aux autres dans un système complexe.  
+Ces actions en faveur de l’égalité de genre, peuvent être menées sur différents axes plus ou moins complémentaires, mais il est nécessaire de ne pas en délaisser, car ils sont fortement liés les uns aux autres dans un système complexe.
 
 **Attention** cependant car, **en actionnant certains leviers pour réduire certaines inégalités** (comme proposer le temps partiel pour permettre plus de flexibilité), **on peut en accentuer d’autres** (comme une diminution de salaire).
 
@@ -94,24 +94,24 @@ Ces actions en faveur de l’égalité de genre, peuvent être menées sur diff�
 
 Les **inégalités peuvent être regroupées en cinq dimensions** principales et une sixième qui regroupe plusieurs points. Elles partagent des caractéristiques communes, bien que la frontière entre chacune soit mince et qu’agir sur l’une puisse avoir des répercussions positives mais aussi négatives sur une autre.
 
-- **Salaire** (horaire, mensuel, global, …)  
-- **Mixité ou ségrégation** (secteur et/ou métier)  
-- **VSS** (violences sexuelles et sexistes)  
-- **Responsabilité, promotion, carrière**  
-- **Accès à l’emploi** / recrutement  
-- **Équilibre vie pro/vie perso** / conciliation du temps  
+- **Salaire** (horaire, mensuel, global, …)
+- **Mixité ou ségrégation** (secteur et/ou métier)
+- **VSS** (violences sexuelles et sexistes)
+- **Responsabilité, promotion, carrière**
+- **Accès à l’emploi** / recrutement
+- **Équilibre vie pro/vie perso** / conciliation du temps
 
-C’est pourquoi il n’est pas possible de représenter toutes les inégalités sur un axe unidirectionnel (comme une simple échelle).  
+C’est pourquoi il n’est pas possible de représenter toutes les inégalités sur un axe unidirectionnel (comme une simple échelle).
 
 ## Égalimètre
 
 ### Choix pour l’Égalimètre
 
-J’ai donc fait le choix de me concentrer dans un premier temps sur la création d’un égalimètre pour une seule de ces dimensions, à savoir : **Responsabilité, promotion, carrière**.  
+J’ai donc fait le choix de me concentrer dans un premier temps sur la création d’un égalimètre pour une seule de ces dimensions, à savoir : **Responsabilité, promotion, carrière**.
 
 En effet, si j’avais mélangé toutes ces dimensions sur une même échelle, la position n’aurait pas vraiment eu de sens, car certaines inégalités viennent se renforcer quand d’autres s’opposent.
 
-Ma proposition d’Égalimètre est, à mes yeux, une première ébauche de ce que l’on peut produire à ce sujet, bien que d’autres choix auraient pu être faits.  
+Ma proposition d’Égalimètre est, à mes yeux, une première ébauche de ce que l’on peut produire à ce sujet, bien que d’autres choix auraient pu être faits.
 
 Ainsi, j’espère que ce POK pourra servir de base à d’autres travaux sur le sujet pour produire un Égalimètre le plus optimal possible (complet sans être trop long afin de conserver une prise en main facile).
 
@@ -151,7 +151,7 @@ J’ai ensuite mis en forme sur une échelle de couleurs inspirée des violentom
 
 Un autre axe de vigilance concerne **l’écart entre la politique RH et la pratique RH**. En effet, dans un contexte où des politiques RH sont mises en place pour diminuer les inégalités de genre en entreprise, elles peuvent en réalité, sur le terrain, ne pas aboutir à des pratiques respectueuses de ces politiques. C’est donc un point à garder en tête pour les entreprises.
 
-Par ailleurs, certaines discriminations sont plus ou moins faciles à discerner car il existe des discriminations directes et indirectes à l’encontre des femmes, à savoir : 
+Par ailleurs, certaines discriminations sont plus ou moins faciles à discerner car il existe des discriminations directes et indirectes à l’encontre des femmes, à savoir :
 
 La **discrimination directe** à l'encontre des femmes se manifeste par un traitement défavorable explicite fondé sur le sexe, comme le refus d'embauche en raison d'une grossesse. La **discrimination indirecte**, quant à elle, résulte de pratiques en apparence neutres, mais ayant un impact disproportionné sur les femmes, par exemple lorsqu'une exigence de disponibilité totale pénalise celles ayant des responsabilités familiales.
 
@@ -163,7 +163,7 @@ De plus, on peut garder en mémoire que les **moments clés** de réalisation de
 
 ### Objectifs
 
-- **Sprint 1** : Se documenter sur les droits et devoirs des entreprises en termes d’égalité hommes-femmes et sur les inégalités de genre dans le monde professionel.  
+- **Sprint 1** : Se documenter sur les droits et devoirs des entreprises en termes d’égalité hommes-femmes et sur les inégalités de genre dans le monde professionel.
 - **Sprint 2** Réaliser un outil de diagnostic pour les entreprises.
 
 ### Sprint 1

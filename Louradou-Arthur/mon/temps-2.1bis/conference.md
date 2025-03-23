@@ -7,7 +7,7 @@ authors:
 
 date: 2024-11-20
 
-résumé: "Cette page contient le résumé de la prise de note effectuée durant la conférence de Christian Keller à Centrale Méditerranée le 20/11/2024."
+description: "Cette page contient le résumé de la prise de note effectuée durant la conférence de Christian Keller à Centrale Méditerranée le 20/11/2024."
 ---
 
 <br />

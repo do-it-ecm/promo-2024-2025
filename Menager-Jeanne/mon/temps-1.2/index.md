@@ -9,7 +9,7 @@ date: 1970-10-01
 temps: 1
 tags:
 
-résumé: "Au cours de mon stage, j’ai remarqué que des étudiants d’école de commerce avait une grande maitrise de fonctionnalités que je ne soupçonnais pas d’exister sur Excel, je souhaite donc monter en compétence sur ce sujet"
+description: "Au cours de mon stage, j’ai remarqué que des étudiants d’école de commerce avait une grande maitrise de fonctionnalités que je ne soupçonnais pas d’exister sur Excel, je souhaite donc monter en compétence sur ce sujet"
 ---
 
 {% lien %}
@@ -20,7 +20,7 @@ résumé: "Au cours de mon stage, j’ai remarqué que des étudiants d’école
 
 ## Revoir les bases de Excel
 
-Comme je n'avais pas utilisé excel depuis très longtemps, j'ai commencé par revoir les bases comme par exemple, étendre le contenu d'une cellule mais aussi faire en sorte qu'un élément ne change pas lorsque qu'on étend la cellule en écrivant `$B$9` à la place de `B9`, j'ai aussi réappris à séléctionner une plage de cellule grâce à `B2:C5`. J'ai ensuite appris à utiliser le fonction `SI` afin de conditionner la valeur d'une cellule et appris à faire des listes de choix pour préremplir un excel. 
+Comme je n'avais pas utilisé excel depuis très longtemps, j'ai commencé par revoir les bases comme par exemple, étendre le contenu d'une cellule mais aussi faire en sorte qu'un élément ne change pas lorsque qu'on étend la cellule en écrivant `$B$9` à la place de `B9`, j'ai aussi réappris à séléctionner une plage de cellule grâce à `B2:C5`. J'ai ensuite appris à utiliser le fonction `SI` afin de conditionner la valeur d'une cellule et appris à faire des listes de choix pour préremplir un excel.
 
 ## Qu'est-ce que le VBA
 
@@ -31,7 +31,7 @@ Le VBA est un langage de programation qui sert notamment à automatiser certaine
 
 J'ai tout d'abords appris à générer une VBA grâce au bouton d'enregistrement : avec cette méthode, il n'y a pas besoin de savoir coder car nos actions sont directement enregistrées créant ainsi une macro.
 
-Dans l'éditeur, la VBA se présente ainsi : 
+Dans l'éditeur, la VBA se présente ainsi :
 
 ![Capture d'écran d'un exemple de macro](./Exemple_macro.png)
 
@@ -40,7 +40,7 @@ Les commentaires sont écrit entre appostrophes et sont repérables par leur cou
 
 On peut voir sur la capture d'écran que j'ai selectionné puis supprimé la colonne A puis la C et mis la colonne B à la place de la A et la D à la place de la C. \
 
-J'ai ensuite fait un bouton pour qu'à chaque fois qu'on clique dessus, cette action se refasse : 
+J'ai ensuite fait un bouton pour qu'à chaque fois qu'on clique dessus, cette action se refasse :
 
 <video controls autoplay loop>
   <source src="./macro1.mp4" type="video/mp4"/>
@@ -67,18 +67,18 @@ Maintenant que nous savons identifier une cellule, nous allons pouvoir lui faire
 
 ## Les variables
 
-Pour déclarer une variable, on écrit : 
-```vba 
+Pour déclarer une variable, on écrit :
+```vba
 Dim maVariable As Type
   maVariable = ...
 ```
 
-Cette variable est utilisable uniquement dans la procédure où elle est déclarée. 
-Il existe de nombreux types de variables : 
+Cette variable est utilisable uniquement dans la procédure où elle est déclarée.
+Il existe de nombreux types de variables :
 
 ![Types de variables](./type.png)
 
-Et si l'utilisateur veut créer son propre type, il peut : 
+Et si l'utilisateur veut créer son propre type, il peut :
 ```vba
 Type Utilisateur
   Nom As String
@@ -90,13 +90,13 @@ Dim user As Utilisateur
   user.prenom = Jeanne
 ```
 
-En remplaçant `Dim` par `Const`, on définit cette fois une constante dont la valeur ne pourra pas changer. Ceci est utile lorsque qu'on utilise plusieurs fois une même valeur fixée comme le taux de TVA par exemple. 
+En remplaçant `Dim` par `Const`, on définit cette fois une constante dont la valeur ne pourra pas changer. Ceci est utile lorsque qu'on utilise plusieurs fois une même valeur fixée comme le taux de TVA par exemple.
 
 ## Les tableaux
 
-Lorsqu'on a beaucoup de variables, il est plus intéréssant de les rentrer dans un grand tableau, pour les créer, on écrit : 
+Lorsqu'on a beaucoup de variables, il est plus intéréssant de les rentrer dans un grand tableau, pour les créer, on écrit :
 
-```vba 
+```vba
 Dim tab1(4) As String
   tab1(0) = ...
   tab1(1) = ...
@@ -106,7 +106,7 @@ Dim tab1(4) As String
 
 On a ici créé un tableau avec 1 colonne et 4 lignes et on l'a remplit de valeur de type String
 
-```vba 
+```vba
 Dim tab2(7,4) As String
   tab2(0,0) = ...
   tab2(0,1) = ...
@@ -115,13 +115,13 @@ Dim tab2(7,4) As String
   ...
 ```
 
-Cette fois, le tableau a 7 lignes et 5 colonnes, il est donc très long à remplir, c'est pourquoi, en VBA, il existe aussi des boucles 
+Cette fois, le tableau a 7 lignes et 5 colonnes, il est donc très long à remplir, c'est pourquoi, en VBA, il existe aussi des boucles
 
 ## Les Boucles et tests
 
 ### Boucle For
 
-```vba 
+```vba
 For i = 1 To 5
   'Instructions à effectuer'
 Next
@@ -133,14 +133,14 @@ Dans une boucle for, les instuctions vont s'effectuer un nombre définit de fois
 
 ### Le test If
 
-Le test if permet de vérifier une condition avant d'effectuer un instruction. Il permet aussi de traiter les cas non conformes à la condition grâce aux else if et else. 
+Le test if permet de vérifier une condition avant d'effectuer un instruction. Il permet aussi de traiter les cas non conformes à la condition grâce aux else if et else.
 
-```vba 
-If condition Then 
+```vba
+If condition Then
   'Instructions à effectuer'
-  ElseIf condition2 
+  ElseIf condition2
     'Instructions à effectuer'
-  Else 
+  Else
     'Instructions à effectuer'
 End If
 ```
@@ -148,8 +148,8 @@ On peut avoir autant de ElseIf que l'on souhaite mais à partir du moment où un
 
 ### Case
 
-Case permet de simplifier des If trop compliqués : 
-```vba 
+Case permet de simplifier des If trop compliqués :
+```vba
 Select case variable
   Case Is = ...
   Case Is ...
@@ -161,29 +161,29 @@ On va ici comparer la variable *variable* aux valeurs associées aux Case Is.
 ### Boucle Do
 
 Cette boucle permet d'efféctuer des instructions tant qu'une condition est vraie :
-```vba 
+```vba
 Do while condition
   'Instructions à effectuer'
 Loop
 ```
 Dans cette situation, si la condition n'est pas vraie, les instructions ne vont jamais être exécutées. À la place, on peut utiliser cette écriture pour s'assurer que l'on passe au moins une fois dans la boucle.
-```vba 
-Do 
+```vba
+Do
   'Instructions à effectuer'
 Loop while condition
 ```
 
 Enfin, on peut avoir besoin d'effectuer une action tant qu'une condition n'a pas été remplie, on écrira donc :
-```vba 
+```vba
 Do until condition
   'Instructions à effectuer'
-Loop 
+Loop
 ```
 
 ### Boucle For Each
 
 Le For Each fonctionnne comme un for sauf qu'il ne dépend pas d'une variable qui s'incrémente mais de la présence ou nous d'éléments dans un ensemble donné
-```vba 
+```vba
 For Each ... In ...
   'Instructions à effectuer'
 Next
@@ -204,16 +204,16 @@ Voici un exemple de test que l'on peut effectuer avec la fonction Like :
 
 ## Boites de dialogue
 
-Avec le VBA, on peut afficher des boites de dialogue pour interragir avec l'utilisateur: 
+Avec le VBA, on peut afficher des boites de dialogue pour interragir avec l'utilisateur:
 ```vba
 MsgBox([Texte], [Boutons], [Titre])
 ```
-Les choix de boutons sont les suivants : 
+Les choix de boutons sont les suivants :
 ![Option de boutons](./option.png)
 Lorsque l'utilisateur clique sur un bouton, une valeur et renvoyée et nous pouvons filtrer celle-ci:
 ![Réponse de boutons](./response.png)
 
-Il est aussi possible d'afficher des boites de dialogue dans lesquelles l'utilisateur peut écrire : 
+Il est aussi possible d'afficher des boites de dialogue dans lesquelles l'utilisateur peut écrire :
 ```vba
 InputBox([Texte], [Titre], [Valeur par défaut])
 ```

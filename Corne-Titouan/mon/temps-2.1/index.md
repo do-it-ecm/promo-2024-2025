@@ -13,7 +13,7 @@ tags:
   - "front"
   - "web"
 
-résumé: "Ce MON est consacré à la découverte et à la prise en main de React (une bibliothèque JavaScript)"
+description: "Ce MON est consacré à la découverte et à la prise en main de React (une bibliothèque JavaScript)"
 ---
 
 {% prerequis %}

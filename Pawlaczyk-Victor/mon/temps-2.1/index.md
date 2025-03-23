@@ -11,7 +11,7 @@ tags:
   - "Saumon"
   - "Audiophile"
 
-résumé: "Ce MON a pour but d'étudier les leader du marché de l'audiophile et du Hifi en Europe, et d'identifier leur stratégie de compétitivité, les forces et faiblesses de chacun."
+description: "Ce MON a pour but d'étudier les leader du marché de l'audiophile et du Hifi en Europe, et d'identifier leur stratégie de compétitivité, les forces et faiblesses de chacun."
 ---
 
 {% prerequis %}

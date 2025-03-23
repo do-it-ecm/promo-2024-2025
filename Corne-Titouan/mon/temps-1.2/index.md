@@ -12,7 +12,7 @@ tags:
   - "Excel"
   - "VBA"
 
-résumé: "Ce MON est consacré à la prise en main des macros Excel et du langage VBA"
+description: "Ce MON est consacré à la prise en main des macros Excel et du langage VBA"
 ---
 
 {% prerequis %}
@@ -82,7 +82,7 @@ Do Until [CONDITION]
 Dim cellule As Range
 For Each cellule In Range("A1:B3")
   cellule = cellule.Address
-Next     
+Next
 ```
 
 {% info %}
@@ -154,7 +154,7 @@ Sub GrilleDefaut()
     Range("B4").Interior.ColorIndex = 6
     Range("B5").Interior.ColorIndex = 45
     Range("B6").Interior.ColorIndex = 3
-    
+
     StyleColonne 'Ajouter un style aux colonnes (la fonction StyleColonne a été générée toute seule grâce à l'enregistrement d'une macro)
 End Sub
 ```

@@ -10,7 +10,7 @@ date: 1971-01-01
 temps: 2
 tags:
 
-résumé: Afin de pouvoir modéliser facilement un parc photovoltaïque avec un logiciel connu et utilisé par tous (Excel), ce POK me permettra de mettre en pratique mes connaissances en VBA et de mettre en place un outil permettant l'estimation des quantitatifs de câbles nécessaires la construction d'un parc solaire.
+description: Afin de pouvoir modéliser facilement un parc photovoltaïque avec un logiciel connu et utilisé par tous (Excel), ce POK me permettra de mettre en pratique mes connaissances en VBA et de mettre en place un outil permettant l'estimation des quantitatifs de câbles nécessaires la construction d'un parc solaire.
 ---
 
 {% prerequis %}
@@ -105,9 +105,9 @@ Le dépassement du quota horaire est dû à la modification des consignes ayant 
 
 {% details "Sprint 1" %}
 
-**GESTION GENERALE DU TEMPS :** Bonne estimation de la quantité de tâches pour la sprint 1. Il aurait fallu commencer directement une démarche de conception de l'interface utilisateur par l'essai, telle que définie plus bas. Cela aurait permis un gain de temps permettant d'anticiper de potentielles difficultés de programmation durant le sprint 2.  
+**GESTION GENERALE DU TEMPS :** Bonne estimation de la quantité de tâches pour la sprint 1. Il aurait fallu commencer directement une démarche de conception de l'interface utilisateur par l'essai, telle que définie plus bas. Cela aurait permis un gain de temps permettant d'anticiper de potentielles difficultés de programmation durant le sprint 2.
 
-**DIMENSIONNEMENT DU PROJET :** Projet a priori bien dimensionné. La démarche du sprint 1 va permettre une plus grande efficacité pour le sprint 2 : raisonnement à partir de connaissance détenues et pas des objectifs idéaux à atteindre. 
+**DIMENSIONNEMENT DU PROJET :** Projet a priori bien dimensionné. La démarche du sprint 1 va permettre une plus grande efficacité pour le sprint 2 : raisonnement à partir de connaissance détenues et pas des objectifs idéaux à atteindre.
 
 **DIMENSIONNEMENT DES TACHES :** Division exagérée des tâches entrainant une trop grande rigidité lors de la rédaction (à l'inverse du POK1). A la fin du sprint, toutes les tâches fixées on été réalisées, toutefois ni l'ordre ni la séparation des activités n'ont été réellement suivis.
 
@@ -124,8 +124,8 @@ Le dépassement du quota horaire est dû à la modification des consignes ayant 
 
 {% details "POK complet" %}
 
-**DIMENSIONNEMENT PROJET :** Plus réaliste qu'au temps 1 et ce grâce à la rédaction d'hypothèses simplificatrices, limitant le projet aux compétences détenues. Réel fonctionnement en mode agile : A GARDER !!  
-**DIMENSIONNEMENT TÂCHES:** Plus réaliste qu'au temps 1 mais rédigées de manière trop globales et rigides (par lôts et type de fonctionnalité). In fine, les tâches on été réalisées sans respecter la même segmentation, ni la même granulosité.  
+**DIMENSIONNEMENT PROJET :** Plus réaliste qu'au temps 1 et ce grâce à la rédaction d'hypothèses simplificatrices, limitant le projet aux compétences détenues. Réel fonctionnement en mode agile : A GARDER !!
+**DIMENSIONNEMENT TÂCHES:** Plus réaliste qu'au temps 1 mais rédigées de manière trop globales et rigides (par lôts et type de fonctionnalité). In fine, les tâches on été réalisées sans respecter la même segmentation, ni la même granulosité.
 **APPROCHE METHODOLOGIQUE :** Lancement des activités par le test plutôt que par la formalisation. A permis un gain de temps et une meilleure efficacité. Le reporting des activités aurait quand même dû être plus régulier et formel afin de gagner en efficacité lors de la rédaction du livrable sur le site Do-it.
 
 {% enddetails %}
@@ -133,7 +133,7 @@ Le dépassement du quota horaire est dû à la modification des consignes ayant 
 
 ## Vocabulaire et fonctionnement d'un parc photovoltaïque
 
-Afin de comprendre la suite de ce POK, il est nécessaire de s'intier au monde du photovoltaïque ainsi qu'à son vocabulaire. 
+Afin de comprendre la suite de ce POK, il est nécessaire de s'intier au monde du photovoltaïque ainsi qu'à son vocabulaire.
 
 {% details "Constitution générale d'un parc photovoltaïque" %}
 Le schema ci-dessous présente la configuration de parc utilisée tout au long du projet (c.f. hypothèses)
@@ -168,7 +168,7 @@ Un projeteur électricien est chargé de la réalisation des plans électriques 
 - Chaque stand ne contient qu'une seule string.
 - Les tranchées solaires (tranchées pour les câbles de petite section) sont perpendiculaires aux stands et passent au niveau des inter-stands.
 
-**Fonctionnalités principales**  
+**Fonctionnalités principales**
 1. Positionner les éléments principaux du parcs de manière graphique en imitant un fonctionnement drag&drop :
    1. Stands
    2. Boites de raccordement (BR)
@@ -186,7 +186,7 @@ Un projeteur électricien est chargé de la réalisation des plans électriques 
 
 ## Comment déterminer le format de l'outil et le raisonement de calcul ?
 ### Démarche
-Le format de l'outil doit répondre à deux critères principaux : facilité d'utilisation et rapidité de développement. 
+Le format de l'outil doit répondre à deux critères principaux : facilité d'utilisation et rapidité de développement.
 - **Pour garantir une facilité d'utilisation** : Déterminer le parcours utilisateur en simulant la conception d'un parc photovoltaïque et en testant différentes possibilités. Ce parcours définira par la suite la stratégie de programmation.
 - **Pour la rapidité de développement** : Créer des templates permettant de systématiser la méthode et d'accélérer la rédaction du code et tester au fur et à mesure les solutions techniques pouvant à la fois répondre à l'exigence utilisateur et être développée le plus rapidement possible.
 
@@ -239,7 +239,7 @@ Le parcours des grilles étant très couteux en temps, il est apparu primordiale
 
 {% details "Créer des variables d'état au sein des tableaux" %}
 
-**Objectif :** Eviter de devoir déterminer les premières lignes ou colonnes vides pour chaque tableau, voire chaque partie de tableau.  
+**Objectif :** Eviter de devoir déterminer les premières lignes ou colonnes vides pour chaque tableau, voire chaque partie de tableau.
 
 **Méthode :** Dédier une cellule précise au compte des colonnes utilisées : en première ligne du tableau ou sur une ligne de rang suffisamment grand. *ATTENTION : DANS CE CAS, IL FAUT S'ASSURER QUE LE NOMBRE DE LIGNES UTIILISEES PAR UN TABLEAU EST FINI !!!*
 
@@ -253,7 +253,7 @@ On peut ici voir que la cellule en jaune prend comme valeur le nombre de BR déj
 
 **Objectif :** Eviter de parcourir plusieurs grilles pour obtenir des informations ou réaliser un calcul.
 
-**Méthode :** A chaque parcours obligatoire/inévitable, reporter les informations sur une grille regroupant toutes les données.  
+**Méthode :** A chaque parcours obligatoire/inévitable, reporter les informations sur une grille regroupant toutes les données.
 
 **Exemple :** Ici, cela a consisté à utiliser les feuilles de la phase 4 comme bases de données.
 - La dernière grille (TEM 4.1) comme base de donnée complète du design. Ainsi, à chaque passage d'une phase à une autre (étapes du parcours utilisateur), la grille de la Phase 4.1 reçoit les informations des autres grilles.
@@ -272,7 +272,7 @@ La construction de cette fonctionnalité aurait été trop chronophage et peu in
 {% details "Jonctions entre BR et PTR" %}
 Cet outil devait initialement calculer les longueurs de câbles reliant les strings aux boites de raccordement (BR) mais également des BR au poste de transformation (PTR). Or, ce dernier aspect a été oublié lors de la conception du template du livrable final. Afin d'ajouter cette fonctionnalité il aurait fallu :
 1. Modifier le template final et donc une partie du codeallant de la phase 4 à la phase 5 (livrable final).
-2. Concevoir une fonction de calcul de distance déterminant : la position des BR, la position du PTR, la position des raccords au niveau du PTR (cloison du bâtiment acceptant l'entrée de câble).   
+2. Concevoir une fonction de calcul de distance déterminant : la position des BR, la position du PTR, la position des raccords au niveau du PTR (cloison du bâtiment acceptant l'entrée de câble).
 
 Coder ces éléments auraient été chronophage et aurait fait exploser le budget horaire du projet.
 {% enddetails %}

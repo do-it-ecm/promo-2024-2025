@@ -10,7 +10,7 @@ temps: 1
 tags:
   - "UX"
 
-résumé: "Introduction au Design Thinking et à l'UX Design."
+description: "Introduction au Design Thinking et à l'UX Design."
 ---
 
 Ce MON est une introduction au design thinking et à l'UX design. Il permet d'appréhender ces notions et d'avoir les bases nécessaires pour comprendre les enjeux de l'expérience utilisateur.

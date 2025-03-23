@@ -10,7 +10,7 @@ temps: 1
 tags:
   - "python"
 
-résumé: "Au cours de ce MON je souhaite découvrir la manipulation des bases de données avec Python et faire une application à des données sportives"
+description: "Au cours de ce MON je souhaite découvrir la manipulation des bases de données avec Python et faire une application à des données sportives"
 ---
 
 {% lien %}
@@ -196,7 +196,7 @@ Après avoir récupéré les données de deux autres joueurs majeurs de l'équip
 
 #### Analyse
 
-Poole et Thompson, montrent des corrélations plus importantes (surtout Thompson) dans des aspects du jeu qui impactent directement les résultats des matchs, notamment les points de Thompson et les passes de Poole. Curry, en tant que joueur constant semble moins "déterminant" dans les victoires ce qui s'explique par le fait que son niveau est toujours élevé. 
+Poole et Thompson, montrent des corrélations plus importantes (surtout Thompson) dans des aspects du jeu qui impactent directement les résultats des matchs, notamment les points de Thompson et les passes de Poole. Curry, en tant que joueur constant semble moins "déterminant" dans les victoires ce qui s'explique par le fait que son niveau est toujours élevé.
 
 En résumé, bien que Curry soit essentiel pour la stabilité de l’équipe, les victoires des Warriors semblent davantage liées aux performances de Poole et surtout Thompson.
 

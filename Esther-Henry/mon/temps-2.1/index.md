@@ -12,7 +12,7 @@ tags:
   - “vert”
   - “Excel”
 
-résumé: “Lors de mes premières semaines d’alternance, j’ai été confrontée à mes limites sur Excel, et j’aimerais profiter de ce MON pour approfondir mes connaissances sur Excel afin de les appliquer à un besoin personnel, me créer un budget planner sur Excel.”
+description: “Lors de mes premières semaines d’alternance, j’ai été confrontée à mes limites sur Excel, et j’aimerais profiter de ce MON pour approfondir mes connaissances sur Excel afin de les appliquer à un besoin personnel, me créer un budget planner sur Excel.”
 
 ---
 

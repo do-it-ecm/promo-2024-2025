@@ -12,7 +12,7 @@ tags:
   - "Management"
   - "Inclusivité"
 
-résumé: "Ce MON traite de comment adopté un management inclusif et notamment envers les personnes en situation de handicap"
+description: "Ce MON traite de comment adopté un management inclusif et notamment envers les personnes en situation de handicap"
 ---
 
 ## Introduction
@@ -34,7 +34,7 @@ varié, différent et se rapporte donc à la variété, à la pluralité". Dans 
 
 ### Inclusion
 
-La définition de l'inclusion est complexe mais repose sur 5 dimensions complémentaires : 
+La définition de l'inclusion est complexe mais repose sur 5 dimensions complémentaires :
 - L'équité,
 - La mise en place d'actions transversales,
 - Une dynamique de coopération intégrative,
@@ -113,9 +113,9 @@ Pour être reconnu en tant que travailleur handicapé, il faut se voir attribué
 
 ## Quelques chiffres
 
-Pour ce rendre compte de l'importance de la population en situation de handicap et donc du besoin de l'inclusion dans nos pratiques de travail, voici quelques chiffres sur le sujet : 
+Pour ce rendre compte de l'importance de la population en situation de handicap et donc du besoin de l'inclusion dans nos pratiques de travail, voici quelques chiffres sur le sujet :
 
-Le handicap en France : 
+Le handicap en France :
 - 1 français sur 2 sera en situation de handicap au cours de sa vie
 - 52 000 personnes sont victimes d’un accident du travail entraînant une incapacité permanente chaque année
 - 85 % des handicaps surviennent à l’âge adulte
@@ -123,7 +123,7 @@ Le handicap en France :
 - 15 % des personnes en situation de handicap cumulent au moins 2 types de handicap
 - 65 millions de personnes en situation de handicap sont régulièrement confrontées à la discrimination en Europe
 
-La population active handicapée : 
+La population active handicapée :
 - 880 000 actifs handicapés dont 500 000 salariés en milieu ordinaire de travail, 120 000 salariés en milieu protégé et 260 000 en recherche d’emploi
 - Le taux de chômage des personnes en situation de handicap est le double de celui tous publics, soit 19 % contre 9,5 %
 - Les chômeurs handicapés représentent 7,1 % de l’ensemble des demandeurs d’emploi alors qu’ils sont moins de 4 % de la population active
@@ -132,7 +132,7 @@ La population active handicapée :
 - 42 % des personnes, précédemment évoquées, ont retrouvé un emploi après une période de chômage supérieure à un an
 - 19,5 % de personnes handicapées vivant sous le seuil de pauvreté contre 14,5 % dans la population générale
 
-Précédemment, j'ai pu annoncé que le handicap était au coeur des politiques d'entreprise en terme d'inclusion. Malheuresement, cela n'empêche pas que cela soit toujours l'une des discriminations les plus fortes ressenssée comme le montre ce graphique : 
+Précédemment, j'ai pu annoncé que le handicap était au coeur des politiques d'entreprise en terme d'inclusion. Malheuresement, cela n'empêche pas que cela soit toujours l'une des discriminations les plus fortes ressenssée comme le montre ce graphique :
 
 ![Répartition des réclamations reçues par le Défenseur des droits en matière de discrimination](https://www.aefinfo.fr/assets/medias/documents/5/4/541211_prv.jpeg)
 
@@ -142,13 +142,13 @@ Les premières constatations de discrimination basée sur le physique de l'indiv
 
 ## Loi en France
 
-En France, l'élan de l'intégration des personnes en situation de handicap à la vie active c'est faite en parrallèle d'un mouvement européen. Ce mouvement est né dans l'après guerre de la première guerre mondiale. Suite à une guerre extrèmement meurtrière et suite à la vague de blessé de guerre, les gouvernements des pays concernés ont eu une volonté de rétribution, de récompense envers les vétérans qui sont revenus blessés. Cette logique venait aussi en complément d'un trop grand nombre de pension d'après guerre à payer de la part de l'état. Ainsi, en 1924, la loi impose aux entreprise l'embauche des mutilés de guerre. 
+En France, l'élan de l'intégration des personnes en situation de handicap à la vie active c'est faite en parrallèle d'un mouvement européen. Ce mouvement est né dans l'après guerre de la première guerre mondiale. Suite à une guerre extrèmement meurtrière et suite à la vague de blessé de guerre, les gouvernements des pays concernés ont eu une volonté de rétribution, de récompense envers les vétérans qui sont revenus blessés. Cette logique venait aussi en complément d'un trop grand nombre de pension d'après guerre à payer de la part de l'état. Ainsi, en 1924, la loi impose aux entreprise l'embauche des mutilés de guerre.
 
 ### Loi 57-1223
 
-C'est à la suite de la seconde guerre mondiale, en 1957, qu'on retrouve une seconde loi allant dans ce sens, la loi n° 57-1223 du 23 novembre 1957. Cette loi introduit pour la première fois la notion de travailleur handicapé et est la première en son genre à réellement encadré les lois sur le handicap en tant que catégorie. Plusieurs politiques avait précédemment mené des actions visés sur des catégories de handicap en fonction de son origine mais jamais à cette échelle. 
+C'est à la suite de la seconde guerre mondiale, en 1957, qu'on retrouve une seconde loi allant dans ce sens, la loi n° 57-1223 du 23 novembre 1957. Cette loi introduit pour la première fois la notion de travailleur handicapé et est la première en son genre à réellement encadré les lois sur le handicap en tant que catégorie. Plusieurs politiques avait précédemment mené des actions visés sur des catégories de handicap en fonction de son origine mais jamais à cette échelle.
 
-Cette loi emmène donc celle de 1924 sur une nouvelle dimension, elle ne vise pas seulement les mutilés de guerre mais toutes les personnes souffrant d'un handicap, peut importe son origine. 
+Cette loi emmène donc celle de 1924 sur une nouvelle dimension, elle ne vise pas seulement les mutilés de guerre mais toutes les personnes souffrant d'un handicap, peut importe son origine.
 
 C'est aussi aussi avec cette loi que nait la RQTH (Reconnaissance de la qualité de travailleur handicapé).
 
@@ -166,10 +166,10 @@ C'est cette observation qui a poussé l'arrivé d'une nouvelle loi en 1987. La l
 
 La prochaine loi sur le sujet a été votée en 2005. Elle suit une démarche mondiale et surtout européenne de mesures ambitieuses contre les discriminations. La loi n°2005-102 du 11 février 2005 questionne notamment la place des quotas dans une démarche d'antidiscrimination. Premièrement, la question de l'existence d'exceptions dans les catégories utilisées pour le calcul de la masse salariale d'une entreprise qui définie par la suite le quota auquel l'entreprise est soumise. Deuxièmement, la loi précedente était considéré en opposition avec le principe de non-discrimination car elle considérait différents degrés de handicap. Ainsi une personne "sévèremment" handicapé pouvait compter comme 5.5 travailleurs handicapés.
 
-Cette loi garde l'obligation d'un quota de 6 % de travailleurs en situation de handicap dans la masse salariale de l'entreprise mais complexifie les sanctions en cas de non conformité. Une entreprise n'ayant pas atteint le quota se voit offrir le choix entre 4 possibilités : 
-- verser une contribution au fonds de développement pour l’insertion professionnelle des personnes handicapées, géré par l’AGEFIPH. 
-- passer des contrats de sous-traitance ou de prestation de services avec des établissements du secteur protégé et adapté (emploi indirect), 
-- faire appel à des stagiaires handicapés, 
+Cette loi garde l'obligation d'un quota de 6 % de travailleurs en situation de handicap dans la masse salariale de l'entreprise mais complexifie les sanctions en cas de non conformité. Une entreprise n'ayant pas atteint le quota se voit offrir le choix entre 4 possibilités :
+- verser une contribution au fonds de développement pour l’insertion professionnelle des personnes handicapées, géré par l’AGEFIPH.
+- passer des contrats de sous-traitance ou de prestation de services avec des établissements du secteur protégé et adapté (emploi indirect),
+- faire appel à des stagiaires handicapés,
 - négocier et mettre en œuvre un accord collectif agréé par la Direction du Travail prévoyant un programme d’actions, le plus souvent triennal.
 
 De plus, si l'entreprise choisi la première option pendant 4 années successives, elle voit sa contribution majorée.
@@ -182,7 +182,7 @@ C'est bien beau de faire des lois mais la question se pose de savoir si elles on
 
 ### Impact quantitatif
 
-Tout d'abord, regardons les chiffres : 
+Tout d'abord, regardons les chiffres :
 - Parmi les établissements d’au moins 20 salariés qui sont assujettis à l’obligation d’emploi des personnes handicapées, 50% remplissent leur obligation par le seul emploi direct. 27% d’établissements ont un quota compris entre zéro et 6%, et 23% ont un quota égal à zéro.
 - Selon le bilan annuel 2008 de l’AGEFIPH, le nombre d’employeurs à « quota zéro » a baissé d’environ 27 000 en 2007 à 23.000 en 2008.
 - Après avoir fortement augmenté en 2006, les contributions du secteur privé versées à l’AGEFIPH ont commencé à baisser en 2007 : de 606 millions d’euros payés par 58.560 établissements, pour l’exercice 2006, à 592 millions d’euros payés par 57.012 établissements pour l’exercice 2007. Cette baisse est le signe que l’emploi (direct et indirect) des personnes handicapées progresse.
@@ -233,14 +233,14 @@ Dans un premier temps, il est primordial de s’intéresser aux compétences man
 
 Quand il en est de la formation sur les sujets de D&I, dans certains cas des modules existent mais n’abordent pas l'entièreté du sujet. Dans d’autres cas, ces modules n’existent même pas et la formation ne consiste qu’en des dispositifs de sensibilisations ponctuels.
 
-Les enjeux du management de la diversité et de l’inclusion sont donc : 
+Les enjeux du management de la diversité et de l’inclusion sont donc :
 - d’intégrer ces sujets aux différents processus de management
 - de mieux informer les managers sur les ressources et les outils mis à leur disposition afin qu’elles et ils puissent gérer des situations parfois jugées complexes ou sensibles (chartes, labels, documents relatifs aux outils et modes de collaboration,...)
 - de mieux évaluer les compétences liées au management de la diversité et de l’inclusion
 
 Face à ces enjeux, l’AFMD conseille de faire de la D&I un élément obligatoire des programmes de sensibilisation des personnes amenées à occuper des fonctions managériales. Cependant, cette obligation n’a été mise en place que très récemment par les entreprises. Ainsi, les managers avec le plus d’ancienneté peuvent faire le choix de ne pas se sensibiliser à ces enjeux. Cela crée une réelle différence d’information et d’accès à la formation pour les managers en fonction de leur niveau d’ancienneté.
 
-Après cet état des lieux de la place des enjeux de D&I dans le management, l’AFMD donne une feuille de route pour aider les manageurs dans l’accomplissement de plusieurs objectifs : 
+Après cet état des lieux de la place des enjeux de D&I dans le management, l’AFMD donne une feuille de route pour aider les manageurs dans l’accomplissement de plusieurs objectifs :
 - Recruter sans discriminer
 - Garantir un climat inclusif au sein de son équipe
 - Mobiliser des critères objectifs lors de toute prise de décision
@@ -248,7 +248,7 @@ Après cet état des lieux de la place des enjeux de D&I dans le management, l�
 
 Afin de compléter ces objectifs, certaines questions sont importantes à se poser : adopter la bonne posture, la place de notre N+1 dans la prévention des discriminations et avoir le sentiment d’être reconnu comme garant de la diversité et de l’inclusion au quotidien.
 
-Enfin, l’AFMD souligne pour chaque compétence du manager identifiée des conseils à appliquer au quotidien afin d’adopter un management inclusif. 
+Enfin, l’AFMD souligne pour chaque compétence du manager identifiée des conseils à appliquer au quotidien afin d’adopter un management inclusif.
 - Ecouter : construire des conditions d’écoute favorables, s’assure que chacun.e puisse s’exprimer lors des réunions, permettre aux salarié.es concerné.es de manifester leur ressenti vis-à-vis d’une décision, faire le point après des situations de potentielle discrimination, prêter attention aux “signaux faibles”
 - Soutenir : assurer la reconnaissance de chacun.e, garantir l’équité, s’appuyer sur les informations factuelles lors de la prise de décision, chercher une solution conciliante avec le concours des membres de l’équipe à la suite d’un conflit, assurer un climat de travail respectueux du pluralisme en favorisant la déconstruction des stéréotypes et des idées reçues
 - Expliquer : s’informer sur les règles organisationnelles, être en mesure d’expliquer la finalité de chaque décision, apporter une réponse ferme aux comportements transgressifs répétés, être capable de graduer la réponse, proscrire systématiquement “l’humour” stigmatisant et/ou blessant
@@ -270,7 +270,7 @@ Ces actions peuvent prendre différentes formes : journée(s) de sensibilisation
 
 Une autre méthode de sensibilisation est le partenariat entre l'entreprise et des établissements d'enseignement afin d'instaurer un lien entre des étudiants en situation de handicap et des salariés de l'entreprise. Ces actions sont doublement bénéfiques : elles sensibilisent les employés en même temps d'encourager les étudiants à poursuivre leurs études.
 
-Pistes d'actions de sensibilisation : 
+Pistes d'actions de sensibilisation :
 - Ateliers ludiques itinérants sur des lieux de grand passage pour marquer les esprits sur les cinq sens,
 - Parcours en fauteuil roulant dans les locaux de l’entreprise,
 - Organisation d’un « dîner dans le noir »,
@@ -283,7 +283,7 @@ Pour implémenter une politique d'entreprise d'intégration des personnes en sit
 Ces formations ont souvent une procédure assez classique, une formation sur 2 jours abordant le respect des lois (égalité des chances et non-discrimination), le processus de recrutement avec notamment la rédaction d’une offre non-discriminatoire, le recrutement et l'intégration d’un collaborateur reconnu travailleur handicapé, la problématique du maintien dans l’emploi, ...
 Elles peuvent être complétées par des actions transverses comme la participation des employé.es concerné.es à des forums, conférences, salons et tables rondes.
 
-Pistes d'actions de formation : 
+Pistes d'actions de formation :
 - Former les salariés sur le thème de la « perception du handicap » combinant des modules théoriques et des mises en situation,
 - S’initier à la Langue des Signes (LSF) dans le cadre du DIF,
 - Apprendre à un salarié à accueillir et à échanger avec un collègue ayant un handicap,
@@ -293,7 +293,7 @@ Pistes d'actions de formation :
 
 #### Communication interne
 
-Il y a de multiples manières d'implémenter une politique de communication interne. En voici quelques exemples : 
+Il y a de multiples manières d'implémenter une politique de communication interne. En voici quelques exemples :
 - Brochures mises à disposition,
 - Intranet (il permet de mettre à portée des employé.es tout un tas d'informations comme les accords et engagements de l’entreprise sur le handicap, une explication des différents handicaps, Les processus existants, les témoignages des personnes en situation de handicap comme de leurs collègues, les actualités, des modules interactifs),
 - Livret d’accueil à destination des personnes en situation de handicap,
@@ -301,12 +301,12 @@ Il y a de multiples manières d'implémenter une politique de communication inte
 - Newsletter de la Mission Handicap
 
 Pistes d'actions de communication interne :
-- « Dédramatiser la situation », faire tomber les tabous, démystifier le handicap en utilisant des approches ludiques et des supports différents (par exemple des vidéos sur le sujet du handicap), 
-- Développer des outils pour attirer l’attention, éveiller l’intérêt et faire connaître la politique handicap de l’entreprise, 
-- Utiliser les écrans vidéo internes à l’entreprise pour diffuser des clips personnalisés ou des campagnes publicitaires de l’AGEFIPH, 
-- Diffuser sur l’intranet des scènes vécues en théâtre filmé, 
-- Tourner au sein de l’entreprise un film joué et réalisé par des salariés volontaires, 
-- Diffuser une affiche sur l’ensemble des sites, avec le nom du correspondant handicap ou une adresse générique, 
+- « Dédramatiser la situation », faire tomber les tabous, démystifier le handicap en utilisant des approches ludiques et des supports différents (par exemple des vidéos sur le sujet du handicap),
+- Développer des outils pour attirer l’attention, éveiller l’intérêt et faire connaître la politique handicap de l’entreprise,
+- Utiliser les écrans vidéo internes à l’entreprise pour diffuser des clips personnalisés ou des campagnes publicitaires de l’AGEFIPH,
+- Diffuser sur l’intranet des scènes vécues en théâtre filmé,
+- Tourner au sein de l’entreprise un film joué et réalisé par des salariés volontaires,
+- Diffuser une affiche sur l’ensemble des sites, avec le nom du correspondant handicap ou une adresse générique,
 - Avoir le réflexe de rendre tous les messages notamment institutionnels lisibles par les déficients visuels.
 
 En mettant en place de telles mesures, il faut rester vigilant à trouver le ton juste, celui qui correspond au niveau de connaissance et de maturité de la cible adressée mais aussi éviter le décalage qui pourrait exister entre la communication faite et le degré d’avancement réel du projet.
@@ -318,8 +318,8 @@ Néanmoins, de telles mesures correctement implémentées permettent de retirer 
 Les actions de communication externe sont souvent mises en place dans l'objectif d'attirer de nouveaux candidats. Ces actions peuvent prendre la forme de mise en place de partenariats avec des associations, de participation à des forums et colloques, de publication dans la presse spécialisée, de diffusion des informations sur le site internet de l’entreprise, ...
 
 Pistes d'actions de communication externe :
-- Participer à des « handichats » permet d’échanger avec des internautes et faire connaître l’entreprise et ses métiers (voire d’obtenir des CV), 
-- Participer aux forums emploi pour rentrer en contact avec des candidats potentiels, 
+- Participer à des « handichats » permet d’échanger avec des internautes et faire connaître l’entreprise et ses métiers (voire d’obtenir des CV),
+- Participer aux forums emploi pour rentrer en contact avec des candidats potentiels,
 - Participer aux « handicafé » crées par l’ADAPT pour susciter un échange entre candidats et professionnels métiers.
 
 Cette communication pouvant être transformée en outil de marketing, il est important de rester vigilant à ne pas qu'elle devienne superficielle et soit détournée de son objectif premier qui est l’intégration et l’accompagnement des personnes en situation de handicap.
@@ -332,7 +332,7 @@ Il est important de sensibiliser et former les employé.es mais il est d'autant 
 
 Les mesures de ce type couvre l'intégration du premier entretien d'embauche à l'acceuil dans l'entreprise de la personne en situation de handicap.
 
-Différents outils peuvent être mis en place pour bien préparer l'acceuil : 
+Différents outils peuvent être mis en place pour bien préparer l'acceuil :
 - Bonne connaissance des différentes natures de handicap et de leurs contraintes, ou se donner les moyens de rechercher celles-ci en fonction des situations rencontrées,
 - Adhésion et engagement du manager direct,
 - Formations en amont pour les responsables du recrutement et les managers directs,
@@ -341,26 +341,26 @@ Différents outils peuvent être mis en place pour bien préparer l'acceuil :
 - Avoir une bonne connaissance des nécessités d’aménagement de son poste, même si, d’après l’AGEFIPH, 85% des travailleurs handicapés n’ont pas besoin d’aménagement physique de poste (parfois seulement un aménagement organisationnel),
 - Apporter des solutions aux équipes lorsqu’elles sont confrontées à des problèmes d’intégration ou de maintien dans l’emploi (appui direct du réseau handicap par exemple),
 - Mettre en place un système de tutorat ou de parrainage (temporaire ou permanent),
-- Solliciter des intervenants extérieurs, par exemple le SAMETH, le réseau Cap Emploi, les cabinets d’études ergonomiques, ...,  
+- Solliciter des intervenants extérieurs, par exemple le SAMETH, le réseau Cap Emploi, les cabinets d’études ergonomiques, ...,
 - D’autres démarches peuvent faciliter l’intégration d’une personne en situation de handicap : présentation de l’entreprise, séminaire d’accueil, livret d’accueil, parcours d’intégration, rapport d’étonnement, ...
 
 Pistes d'actions d'acceuil et d'intégration :
--  Impliquer le manager direct et son équipe le plus tôt possible, 
-- Sensibiliser encore et toujours pour combattre des stéréotypes qui ont la vie dure, 
-- Faire savoir au collectif de travail que tout salarié est embauché pour ses compétences et que ce n’est pas au détriment de la productivité, 
-- Communiquer sur des réussites, des témoignages, etc. Il peut être intéressant aussi de communiquer sur les échecs, de manière positive, en identifiant les points de progrès. Si la communication sur les échecs prend généralement une forme orale, celle sur les réussites passe également par l’écrit (magazine, intranet, etc.) 
+-  Impliquer le manager direct et son équipe le plus tôt possible,
+- Sensibiliser encore et toujours pour combattre des stéréotypes qui ont la vie dure,
+- Faire savoir au collectif de travail que tout salarié est embauché pour ses compétences et que ce n’est pas au détriment de la productivité,
+- Communiquer sur des réussites, des témoignages, etc. Il peut être intéressant aussi de communiquer sur les échecs, de manière positive, en identifiant les points de progrès. Si la communication sur les échecs prend généralement une forme orale, celle sur les réussites passe également par l’écrit (magazine, intranet, etc.)
 - Prévoir un suivi de l’intégration.
 
 #### Maintien dans l'emploi
 
 Le maintien dans l'emploi est "un ensemble d’actions permettant à une personne de continuer à exercer de manière durable une activité professionnelle adaptée à son état de santé". Ce type d'action permet à l'entreprise de conserver les compétences et d’améliorer les conditions de travail pour tous. Ces mesures ont tendance à être complexe, doivent être anticipées et font appel à une multiplicité des pôles de décision.
 
-Ce maintien se déroule en plusieurs étapes : 
+Ce maintien se déroule en plusieurs étapes :
 - Sensibiliser en permanence tous les salariés de l’entreprise,
-- Faire connaître les possibilités d’aides au maintien dans l’emploi, 
-- Mettre en œuvre les outils de compensation propres à chaque handicap si nécessaire en passant par les aménagements matériels ou organisationnels permettant une meilleure adéquation des postes de travail, 
-- Assurer le suivi personnalisé du salarié, 
-- Mener une étude sur l’inaptitude et ses conséquences afin de sécuriser les parcours professionnels , 
+- Faire connaître les possibilités d’aides au maintien dans l’emploi,
+- Mettre en œuvre les outils de compensation propres à chaque handicap si nécessaire en passant par les aménagements matériels ou organisationnels permettant une meilleure adéquation des postes de travail,
+- Assurer le suivi personnalisé du salarié,
+- Mener une étude sur l’inaptitude et ses conséquences afin de sécuriser les parcours professionnels ,
 - Former le travailleur handicapé pour assurer son employabilité, son évolution de carrière et lui permettre une reconversion le cas échéant
 
 Ces mesures font intervenir de multiples acteurs en interne (employeur, salarié, Mission Handicap, médecin du travail, ...) comme en externe (Caisse Primaire d'Assurance Maladie, Commission des droits de l'autonomie des personnes handicapées, médecin traitant, assistantes sociales, ...).
@@ -369,22 +369,22 @@ Des aménagements possibles sont par exemple la mise en place d'un logiciel lect
 
 Pistes d'actions de maintien dans l'emploi :
 - Permettre aux malentendants de téléphoner ou de participer à des réunions en toute autonomie,
-- Mettre sur l’intranet de l’entreprise des outils de contraste ou de grossissement d’écran, nécessaires pour les malvoyants, peut bénéficier à tous. 
+- Mettre sur l’intranet de l’entreprise des outils de contraste ou de grossissement d’écran, nécessaires pour les malvoyants, peut bénéficier à tous.
 
 #### Prévention
 
-Ces politiques de prévention en matière d’hygiène, sécurité et conditions de travail sont indispensables au maintien dans l’emploi. Elles se basent sur le constat que la majorité des handicaps surviennent à l'âge adulte et peuvent résulter d'un accident du travail. Afin de bien les mettre en place, il est important de repérer les situations professionnelles à risque suffisamment tôt afin de prévenir les éventuels problèmes d’inaptitude ou de santé. Les principales mesures de prévention sont de : 
-- Réduire l’absentéisme, 
-- Diminuer le nombre d’accidents de travail, 
-- Réduire les coûts (assurance, formation, planification des services), 
-- Stabiliser la performance des organisations de travail, 
-- Réduire les cas d’inaptitude, 
+Ces politiques de prévention en matière d’hygiène, sécurité et conditions de travail sont indispensables au maintien dans l’emploi. Elles se basent sur le constat que la majorité des handicaps surviennent à l'âge adulte et peuvent résulter d'un accident du travail. Afin de bien les mettre en place, il est important de repérer les situations professionnelles à risque suffisamment tôt afin de prévenir les éventuels problèmes d’inaptitude ou de santé. Les principales mesures de prévention sont de :
+- Réduire l’absentéisme,
+- Diminuer le nombre d’accidents de travail,
+- Réduire les coûts (assurance, formation, planification des services),
+- Stabiliser la performance des organisations de travail,
+- Réduire les cas d’inaptitude,
 - Assurer une meilleure ambiance dans l’entreprise (confiance et motivation des collaborateurs) et une évolution des mentalités.
 
 Pistes d'actions de prévention :
-- Des centres de compétences « accessibilité » pour développer des techniques destinées en premier lieu aux personnes en situation de handicap et qui peuvent bénéficier à tous, 
-- Associer la médecine du travail et la Mission Handicap sur tous les thèmes de santé pouvant déclencher une situation de handicap, 
-- Organiser des semaines ou des journées de prévention par thème dans les différentes entités ou lieux de l’entreprise, 
+- Des centres de compétences « accessibilité » pour développer des techniques destinées en premier lieu aux personnes en situation de handicap et qui peuvent bénéficier à tous,
+- Associer la médecine du travail et la Mission Handicap sur tous les thèmes de santé pouvant déclencher une situation de handicap,
+- Organiser des semaines ou des journées de prévention par thème dans les différentes entités ou lieux de l’entreprise,
 - Lors des formations classiques des managers, attirer leur attention sur les signaux d’alerte que peut adresser indirectement un salarié.
 
 #### Déclaration
@@ -394,7 +394,7 @@ Le facteur le plus important pour faciliter l'accès à la déclaration aux pers
 
 Pistes d'actions de favorisation de la déclaration :
 - Mettre en place un système d’accompagnement des travailleurs handicapés et une information complète sur la démarche de reconnaissance, notamment par les assistants sociaux et la Mission Handicap,
-- Ouvrir une ligne téléphonique / hotline auprès d’un cabinet extérieur pour permettre à tous les salariés qui ont des questions à poser sur le handicap de le faire en toute confidentialité, 
+- Ouvrir une ligne téléphonique / hotline auprès d’un cabinet extérieur pour permettre à tous les salariés qui ont des questions à poser sur le handicap de le faire en toute confidentialité,
 - Communiquer pour « démystifier » le sujet du handicap, le faire connaître et montrer aux travailleurs handicapés que leur entreprise est engagée et impliquée.
 
 #### Gestion de carrière

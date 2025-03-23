@@ -15,7 +15,7 @@ tags:
   - "Innovation"
   - "Strategy"
 
-résumé: "Ce 3ème MON sur l'Innovation Management présente une analyse approfondie des approches stratégiques, outils et pratiques permettant de maximiser l’adéquation produit/marché, de réduire les temps de cycle de développement, et de contrôler les coûts tout en favorisant l’agilité organisationnelle."
+description: "Ce 3ème MON sur l'Innovation Management présente une analyse approfondie des approches stratégiques, outils et pratiques permettant de maximiser l’adéquation produit/marché, de réduire les temps de cycle de développement, et de contrôler les coûts tout en favorisant l’agilité organisationnelle."
 ---
 
 {% prerequis %}
@@ -46,9 +46,9 @@ Objectifs :
 2. Optimiser la prise de décision dans les projets innovants
 3. Mesurer et améliorer la performance des processus de développement
 4. Explorer des stratégies collaboratives et ouvertes
-5. Adopter une approche stratégique du développement produit 
+5. Adopter une approche stratégique du développement produit
 6. Stimuler la capacité d'innovation des entreprises
-   
+
 {% endnote %}
 
 ---
@@ -205,7 +205,7 @@ Les fournisseurs peuvent contribuer à optimiser la conception des produits en p
 Le **crowdsourcing** est une approche de résolution de problèmes ou de production qui fait appel à un large groupe de personnes, souvent via une plateforme en ligne. Les participants contribuent volontairement par des idées, des compétences ou des ressources en échange de récompenses, de reconnaissance ou simplement du plaisir de participer.
 
 * 4 étapes du crowdsourcing:
-  1. **Définition du besoin (Need Translation)** : Une déclaration claire et concise du besoin est formulée en supprimant tout jargon industriel. L'objectif est de traduire le défi en termes scientifiques simples pour attirer des solutions provenant de divers domaines, parfois inattendus. 
+  1. **Définition du besoin (Need Translation)** : Une déclaration claire et concise du besoin est formulée en supprimant tout jargon industriel. L'objectif est de traduire le défi en termes scientifiques simples pour attirer des solutions provenant de divers domaines, parfois inattendus.
   2. **Connexion (Connecting)** : Le défi d'innovation est diffusé au sein d'un réseau de fournisseurs de solutions
   3. **Evaluation (Evaluation/Selection)** : Les propositions soumises sont examinées en profondeur. Les solutions les plus prometteuses sont compilées dans un rapport.
   4. **Acquisition** : L'entreprise engage des négociations avec le fournisseur de la solution choisie pour conclure un accord portant sur le transfert de connaissances, une licence, un brevet, etc. Il peut également être nécessaire d'adapter la solution à ses besoins spécifiques.
@@ -286,7 +286,7 @@ La **Failure Modes and Effects Analysis** (FMEA) est une méthode proactive util
 
 Cette méthode identifie les potentielles défaillances et établit des priorités pour leur prévention.
 
-## Conclusion 
+## Conclusion
 
 Les entreprises utilisent divers indicateurs pour mesurer l'efficacité et l'efficience de leurs processus de développement de nouveaux produits. Ces métriques permettent d'évaluer leur capacité à mener les projets de manière optimale, de la conception à la mise sur le marché.
 

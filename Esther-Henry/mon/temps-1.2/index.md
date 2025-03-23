@@ -11,7 +11,7 @@ tags:
   - “vert”
   - ”python”
 
-résumé: "Ce MON fait suite au MON1.1, son objectif est donc de continuer l’apprentissage de python pour les SHS et de passer cette fois à l’étape de manipulation de données, et de traiter un exemple simple d’analyse de données textuelles avec python."
+description: "Ce MON fait suite au MON1.1, son objectif est donc de continuer l’apprentissage de python pour les SHS et de passer cette fois à l’étape de manipulation de données, et de traiter un exemple simple d’analyse de données textuelles avec python."
 ---
 
 {% prerequis %}

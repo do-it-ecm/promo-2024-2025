@@ -11,7 +11,7 @@ tags:
   - “vert”
   - “VBA”
 
-résumé: "L’objectif de ce MON est de se former au langage VBA, puis de s’exercer sur un cas simple de mise en forme de données."
+description: "L’objectif de ce MON est de se former au langage VBA, puis de s’exercer sur un cas simple de mise en forme de données."
 ---
 
 {% prerequis %}
@@ -101,7 +101,7 @@ J’ai résolu ce problème par étapes :
 
 ```vba
 Sub effacer()
- 
+
 'Sélection des colonnes à supprimer
 Columns("B").Clear
 Columns("D:F").Clear
@@ -118,10 +118,10 @@ On passe alors de :
 
 ```vba
 Sub deplacer()
- 
+
     ' Selectioner et deplacer les colonnes restantes pour les rassembler
     Columns("C").Cut Destination:=Columns("B")
-    Columns("G").Cut Destination:=Columns("C") 
+    Columns("G").Cut Destination:=Columns("C")
 End Sub
 ```
 
@@ -135,22 +135,22 @@ On commence par effacer le contenu de chacune des lignes n'ayant pas une référ
 
 ```vba
 Sub reference()
- 
+
     'Vérifier que chaque reference produit existe dans le referentiel
     Dim p As Integer, r As Integer
     Dim nbligne As Integer, nbref As Integer
     Dim exist As Boolean
     Dim wsBrutes As Worksheet
     Dim wsProduits As Worksheet
- 
+
     ' Définir les feuilles
     Set wsBrutes = ThisWorkbook.Sheets("Données Brutes")
     Set wsProduits = Workbooks("Produits_100.xlsx").Sheets("Produits")
- 
+
     ' Nombre de lignes
     nbligne = wsBrutes.Cells(wsBrutes.Rows.Count, 3).End(xlUp).Row
     nbref = wsProduits.Cells(wsProduits.Rows.Count, 1).End(xlUp).Row
-   
+
     ' Boucle sur chaque ligne des données brutes
     For p = 2 To nbligne
     exist = False
@@ -158,17 +158,17 @@ Sub reference()
         For r = 2 To nbref
             If wsBrutes.Cells(p, 3).Value = wsProduits.Cells(r, 1).Value Then
                 exist = True
-            Exit For 
+            Exit For
             End If
         Next r
         ' Si la référence n'existe pas : effacer le contenu de la ligne
         If Not exist Then
             wsBrutes.Rows(p).Clear        End If
     Next p
-   
+
     ' Message de fin
     MsgBox "Vérification terminée", vbInformation
-   
+
 End Sub
 ```
 
@@ -180,26 +180,26 @@ Puis on vient supprimer les lignes vides :
 
 ```vba
 Sub reorganiser()
- 
+
 'Vérifier que chaque reference produit existe dans le referentiel
     Dim p As Integer
     Dim nbligne As Integer
     Dim wsBrutes As Worksheet
- 
+
     ' Définir les feuilles
     Set wsBrutes = ThisWorkbook.Sheets("Données Brutes")
- 
+
     ' Nombre de lignes
     nbligne = wsBrutes.Cells(wsBrutes.Rows.Count, 3).End(xlUp).Row
- 
+
     ' Parcourir les lignes de bas en haut
     For p = nbligne To 2 Step -1
         If wsBrutes.Cells(p, 1).Value = "" Then
             wsBrutes.Rows(p).Delete
         End If
     Next p
-   
-    
+
+
 ' Message de fin
     MsgBox "Lignes supprimées"
 End Sub
@@ -217,23 +217,23 @@ Ici, pour ne pas créer de décalage en raison de la suppression des lignes, il 
 
 ```vba
 Sub DateCorrecte()
- 
+
 Dim p As Integer
 Dim nbligne As Integer
-   
+
     Dim wsBrutes As Worksheet
- 
+
     ' Définir les feuilles
     Set wsBrutes = ThisWorkbook.Sheets("Données Brutes")
- 
+
     ' Nombre de lignes
     nbligne = wsBrutes.Cells(wsBrutes.Rows.Count, 3).End(xlUp).Row
-   
+
     'Parcourir la colonne A
     For p = 2 To nbligne
         wsBrutes.Cells(p, 1).Value = Format(wsBrutes.Cells(p, 1).Value, "dd/mm/yyyy")
     Next p
-   
+
 ' Message de fin
     MsgBox "Date corrigées"
 End Sub
@@ -247,40 +247,40 @@ End Sub
 
 ```vba
 Sub AjoutCategories()
- 
+
     'Vérifier que chaque reference produit existe dans le referentiel
     Dim p As Integer, r As Integer
     Dim dernierbrut As Long, dernierproduit As Long
     Dim trouve As Boolean
     Dim wsBrutes As Worksheet
     Dim wsProduits As Worksheet
- 
+
     ' Définir les feuilles
     Set wsBrutes = ThisWorkbook.Sheets("Données Brutes")
     Set wsProduits = Workbooks("Produits_100.xlsx").Sheets("Produits")
- 
-   
+
+
     ' Dernières lignes dans les deux feuilles
     dernierBrutes = wsBrutes.Cells(wsBrutes.Rows.Count, 3).End(xlUp).Row
     dernierProduits = wsProduits.Cells(wsProduits.Rows.Count, 1).End(xlUp).Row
- 
+
     ' Ajouter un en-tête Catégorie dans la feuille Données Brutes
     wsBrutes.Cells(1, 4).Value = "Catégorie"
- 
+
     ' Parcourir chaque référence produit
     For i = 2 To dernierBrutes
     refProduit = wsBrutes.Cells(i, 3).Value
       categorieTrouvee = False
     ' Chercher la catégorie correspondante dans "Produits"
         For j = 2 To dernierProduits
-           
+
             If wsProduits.Cells(j, 1).Value = refProduit Then
                 wsBrutes.Cells(i, 4).Value = wsProduits.Cells(j, 3).Value
                 categorieTrouvee = True
                 Exit For
             End If
         Next j
-       
+
         ' Gérer les cas où la catégorie n'existe pas
         If Not categorieTrouvee Then
             wsBrutes.Cells(i, 4).Value = "Inconnue"

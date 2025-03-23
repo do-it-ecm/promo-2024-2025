@@ -11,7 +11,7 @@ tags:
   - "responsive"
   - "web"
 
-résumé: "Ce MON a pour but d'étudier les différentes méthodes pour créer des sites web responsives et de mettre en pratique ces techniques sur mon site réalisé pendant mon POK du temps 3."
+description: "Ce MON a pour but d'étudier les différentes méthodes pour créer des sites web responsives et de mettre en pratique ces techniques sur mon site réalisé pendant mon POK du temps 3."
 ---
 
 {% prerequis %}
@@ -102,7 +102,7 @@ Gérer la taille des images est également quelque chose d'important pour le res
     height: auto;
     max-width: 100%;
     min-width: 100px;
-  } 
+  }
 ```
 
 - `height: auto` permet de conserver le ratio de l'image lors des rétrécissements et agrandissments donc c'est très utile.

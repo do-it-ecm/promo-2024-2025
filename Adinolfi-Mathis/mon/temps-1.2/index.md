@@ -11,7 +11,7 @@ tags:
   - "Dépenses énergétiques"
   - "Réchauffement climatique"
 
-résumé: "Les intelligences artificielles occupent une place centrale et semblent être la solution à tous nos problèmes, même à ceux qui ne nécessitent pas leur emploi. Mais qu'en est-il de la consommation énergétique ? Dans quelle mesure l'implémentation de l'IA alourdit-elle notre facture d'énergie ? C'est à ces questions que je m'efforcerai de répondre dans ce MON."
+description: "Les intelligences artificielles occupent une place centrale et semblent être la solution à tous nos problèmes, même à ceux qui ne nécessitent pas leur emploi. Mais qu'en est-il de la consommation énergétique ? Dans quelle mesure l'implémentation de l'IA alourdit-elle notre facture d'énergie ? C'est à ces questions que je m'efforcerai de répondre dans ce MON."
 ---
 
 {% details "⌛ Horodatage"%}
@@ -108,7 +108,7 @@ Tout n'est pas mauvais dans cette technologie. Bien que son entraînement et son
 </div>
 <br>
 
-Ainsi, ce qui est inquiétant, ce n'est pas la technologie en elle-même, mais les réactions qu'elle suscite, et comment les gens l'intégreront dans leur vie : l'utiliseront-ils de façon raisonnée ou à tort et à travers. Ce qui est à craindre, c'est l'effet rebond.  
+Ainsi, ce qui est inquiétant, ce n'est pas la technologie en elle-même, mais les réactions qu'elle suscite, et comment les gens l'intégreront dans leur vie : l'utiliseront-ils de façon raisonnée ou à tort et à travers. Ce qui est à craindre, c'est l'effet rebond.
 
 ## ⌛ Conclusion
 

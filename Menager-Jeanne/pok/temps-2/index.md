@@ -13,7 +13,7 @@ tags:
   - "Python"
   - "BeautifulSoup"
 
-résumé: Je vais apprendre à faire du scraping et l'utiliser pour récupérer des statistiques de football et en faire de la data visualisation
+description: Je vais apprendre à faire du scraping et l'utiliser pour récupérer des statistiques de football et en faire de la data visualisation
 ---
 
 {% prerequis %}
@@ -88,7 +88,7 @@ Enfin, j'ai voulu mettre le classement de la ligue 1 de la saison en cours.
 
 ![Statistique de la Ligue 1](./ligue1.png)
 
-Avec les filtres, on peut choisir de ne voir que certains club : 
+Avec les filtres, on peut choisir de ne voir que certains club :
 
 ![Statistique du PSG et de l'OM](./ligue1_filtre.png)
 
@@ -103,7 +103,7 @@ Lorsque je fais tourner le script, l'utilisateur peut choisir l'équipe dont il 
 
 ![Statistique du PSG](./psg.png)
 
-En refaisant tourner le script mais en demandant les statistiques de lille et en actualisant lookerStudio, on obtient : 
+En refaisant tourner le script mais en demandant les statistiques de lille et en actualisant lookerStudio, on obtient :
 
 ![Statistique du LOSC](./lille.png)
 

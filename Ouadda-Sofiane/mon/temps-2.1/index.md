@@ -13,7 +13,7 @@ tags:
   - "BackEnd"
   - "Node.js"
 
-résumé: "Ce cours détaille comment créer une application complète avec Node.js, de la configuration initiale à la mise en place d’une API REST."
+description: "Ce cours détaille comment créer une application complète avec Node.js, de la configuration initiale à la mise en place d’une API REST."
 
 ---
 

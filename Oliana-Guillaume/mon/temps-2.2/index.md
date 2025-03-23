@@ -9,7 +9,7 @@ date: 2024-12-01
 temps: 2
 tags:
 
-résumé: "Un MON autour de la blockchain."
+description: "Un MON autour de la blockchain."
 ---
 
 {% prerequis %}

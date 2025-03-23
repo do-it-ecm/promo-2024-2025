@@ -10,7 +10,7 @@ date: 1970-09-01
 tags:
   - "VBA"
 
-résumé: "Introduction au VBA et utilisation des macro pour des tâches chronophages."
+description: "Introduction au VBA et utilisation des macro pour des tâches chronophages."
 ---
 
 {% prerequis %}

@@ -17,7 +17,7 @@ tags:
   - 'RAID'
   - 'ZFS'
 
-résumé: "Comparaison des technologies RAID et ZFS pour le stockage et la redondance de données"
+description: "Comparaison des technologies RAID et ZFS pour le stockage et la redondance de données"
 ---
 
 {% prerequis %}
