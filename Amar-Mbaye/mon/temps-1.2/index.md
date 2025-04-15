@@ -301,7 +301,7 @@ Voici comment utiliser **Provider** pour gérer un compteur :
 
 {% endlien %}
 
-<img src="./4.PNG" alt="image" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.2/4.PNG" alt="image" />
 
 ---
 
@@ -320,7 +320,7 @@ Flutter permet de gérer facilement la navigation entre différentes pages avec 
 
 {% endlien %}
 
-<img src="./5.PNG" alt="image" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.2/5.PNG" alt="image" />
 
 <img src="./6.PNG" alt="image" />
 
@@ -344,7 +344,7 @@ Flutter peut facilement faire des appels réseau avec le package **http**. Cela 
 
 {% endlien %}
 
-<img src="./7.PNG" alt="image" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.2/7.PNG" alt="image" />
 
 
 ---

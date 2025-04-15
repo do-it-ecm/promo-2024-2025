@@ -137,9 +137,9 @@ Par exemple, on n'a pas besoin de retourner une valeur quand on met en forme une
 
 L'exemple suivant met en application les quelques points précédents en créant une procédure qui met sous forme de tableau une plage de données.
 
-![Alternate Text](Tableau.png)
+![Alternate Text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Pawlaczyk-Victor/mon/temps-1.1/Tableau.png)
 
-![Alternate](TableauMisEnForme.png)
+![Alternate](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Pawlaczyk-Victor/mon/temps-1.1/TableauMisEnForme.png)
 
 ```vb
 Sub Exemple_Mise_En_Forme()

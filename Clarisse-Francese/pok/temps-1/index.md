@@ -188,7 +188,7 @@ Ex dans le cas ci-dessus : =ET(MOIS(A$1) = MOIS(AUJOURDHUI());$B$8) car la case 
 **Colorer les doublons d’une plage avec MFC** : ajouter MFC et formule personnalisé =NB.SI(plage figée;A2)>1      A2 = cellule en haut à gauche de la plage
 Ex : =NB.SI($C$2:$C$19;A2)>1
 
-<img src="MFC.png" width="100%" alt="Image description">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Clarisse-Francese/pok/temps-1/MFC.png" width="100%" alt="Image description">
 
 #### Trier des données
 
@@ -501,10 +501,10 @@ Voici le [tuto nettoyage](https://developers.google.com/workspace/add-ons/sample
 
 Cette fois tout s'est bien passé, c'était même un peu décevant car en 20 min le tuto était fini et tout fonctionnait.  
 Voici le **tableau non nettoyé** :
-<img src="tableauPasNettoye.png" width="30%" alt="Image description">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Clarisse-Francese/pok/temps-1/tableauPasNettoye.png" width="30%" alt="Image description">
 
 Et ce qu'on obtient **après avoir exécuté le script** avec Google Apps Script :
-<img src="tableauNettoye.png" width="30%" alt="Image description">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Clarisse-Francese/pok/temps-1/tableauNettoye.png" width="30%" alt="Image description">
 
 #### 📅Projet 3 : remplir un agenda de vacances d'équipe
 
@@ -513,7 +513,7 @@ Je vais suivre ce [tuto agenda](https://developers.google.com/apps-script/sample
 
 Cette fois c'était tout le contraire du tuto précédent : j'ai passé 1h à suivre les étapes, constaté qu'il y avait des bugs, trouver des solutions, voir apparaître de nouveaux bugs etc. ChatGPT a fait de son mieux, mais même lui est coincé. C'est avec regret que **j'abandonne là aussi ce projet** car je n'ai clairement pas la patience de résoudre tous ces bugs. De ce que je comprends, il y a un problème avec l'une des adresses mail du groupe que j'ai créé mais je ne dispose pas d'autres adresses mail dispo pour tester cette fonctionnalité, donc tant pis.  
 Ci-dessous un screen d'un des bugs qui me donne encore des cauchemars :
-<img src="bugCode.png" width="70%" alt="Image description">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Clarisse-Francese/pok/temps-1/bugCode.png" width="70%" alt="Image description">
 
 Si on retient le positif, ce projet non fini m'a quand même permis de **mieux comprendre l'intérêt des Google groupes** pour envoyer plus facilement des emails à un groupe ou donner plus facilement accès à des ressources.
 

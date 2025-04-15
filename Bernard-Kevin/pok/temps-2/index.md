@@ -133,7 +133,7 @@ Il y avait 4 pages :
 
 Cela ne m'allait pas, je ne trouvais pas la chose attirante donc j'ai recherché des inspirations de sites en 3D sur Instagram et des sites internets dont le site [Awwwards](https://www.awwwards.com/) où j'ai trouvé le modèle [House of Dreamers](https://www.awwwards.com/sites/house-of-dreamers) de Andrea Giuffrida qui m'a beaucoup plu.
 
-<video controls src="media/houseofdreamers.mp4" title="Title"></video>
+<video controls src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Bernard-Kevin/pok/temps-2/media/houseofdreamers.mp4" title="Title"></video>
 
 ---
 
@@ -150,7 +150,7 @@ Après réflexion, j'ai trouvé cela trop compliqué à rendre intéressant et �
 J'ai passé beaucoup de temps sur l'apparence possible de mon site, je ne savais pas quoi décidé entre les 3 options.
 Sachant que je n'aurai pas le visuel tout de suite puisqu'il faut créer les décors sur Blender, je me suis arrêté là sur la partie design pour me concentrer sur la création du site en React.
 Pour l'instant, ma maquette ressemble à cela (option 2):
-![alt text](media/Figma.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Bernard-Kevin/pok/temps-2/media/Figma.png)
 
 {% lien %}
 <b>Sources</b>
@@ -190,7 +190,7 @@ Avec le temps qu'il me restait, j'ai rajouté les liens avec React-rooter-dom.
 
 Pour le moment cela ressemble à cela :
 
-![alt text](media/site_apres_sprint1.png)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Bernard-Kevin/pok/temps-2/media/site_apres_sprint1.png)
 
 ### Second Sprint
 
@@ -231,7 +231,7 @@ Une fois que j'avais un backend qui fonctionnait il ne me manquait que les donn�
 La première chose que j'ai faite a été de créer un diagramme de classes UML.
 J'ai pris le premier site qui me permettait de faire cela (LucidChart)[https://www.lucidchart.com/pages/fr] parce que je voulais simplement avoir une base simple.
 
-![alt text](media/creature_site.jpg)
+![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Bernard-Kevin/pok/temps-2/media/creature_site.jpg)
 
 {% lien %}
 [Vidéo de Youtube de Lucid Software, UML class diagrams](https://www.youtube.com/watch?v=6XrL5jXmTwM)

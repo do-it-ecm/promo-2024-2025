@@ -70,7 +70,7 @@ Le paradigme Vert accorde une grande importance aux **émotions** et prône le *
 **Chaque niveau de développement a sa propre valeur**. La véritable question réside dans l'**adéquation de ce niveau à la tâche à accomplir**. Les stades et leurs couleurs, bien qu'utiles pour représenter des aspects complexes de la réalité, ne sont que des modèles abstraits qui ne capturent pas toute la richesse de la réalité.
 {% endnote %}
 
-<img src="frise_paradigme.png" width="60%" alt="Image description">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Clarisse-Francese/mon/temps-2.2/frise_paradigme.png" width="60%" alt="Image description">
 <div align="center">
     Schéma issu du livre Reinventing Organizations : Vers des communautés de travail inspirées de Frédéric Laloux
 </div>

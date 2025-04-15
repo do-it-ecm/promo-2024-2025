@@ -16,5 +16,5 @@ et harmoniser ces données pour rendre une image globale.
 Lorsque l’utilisateur zoome, il peut lire le contenu des données
 C’est la mosaïque Le baiser à Barcelone qui nous a inspirée pour cette idée
 
-![El Beso](./el_beso.jpg)
+![El Beso](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/_projets/mosaiques/el_beso.jpg)
 *El món neix en cada besada "el beso"*  - Joan Fontcuberta et Antoni Cumella
