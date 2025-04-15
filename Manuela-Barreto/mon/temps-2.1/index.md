@@ -227,7 +227,7 @@ La première modification que nous allons effectuer concerne le fichier **`numé
 
 Une fois ces ajustements faits, déplacez le dossier du projet vers votre environnement Linux.
 
-![Explorateur](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Manuela-Barreto/mon/temps-2.1/assets/Explorateur.png)
+![Explorateur](./assets/Explorateur.png)
 
 #### Transférer le dossier vers le serveur souhaité
 
@@ -350,7 +350,7 @@ Pour que le site reste actif même après avoir quitté le terminal, nous utilis
 
 Voici une cheat sheet des commandes et raccourcis utiles pour **tmux** :
 
-![tmux](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Manuela-Barreto/mon/temps-2.1/assets/tmux.png)
+![tmux](./assets/tmux.png)
 
 Avec ces étapes, vous avez mis votre premier site en ligne ! Ce projet est simple et entièrement en **frontend**. La prochaine étape consistera à intégrer un **backend** et à comprendre les ajustements nécessaires pour un site complet.
 

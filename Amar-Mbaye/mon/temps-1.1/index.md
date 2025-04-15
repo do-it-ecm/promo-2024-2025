@@ -322,13 +322,13 @@ Cette page affiche le formulaire de contact à l'aide du composant Contact, perm
 
 
 ## Resultats 📊
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.1/image.png" alt="Page du jeu" />
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.1/image1.png" alt="hhh" />
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.1/image2.png" alt="On peut perdre"/>
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.1/image3.png" alt="On peut gagner"/>
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.1/image4.png" alt="On peut perdre"/>
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.1/image5.png" alt="On peut gagner"/>
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-1.1/Capture6.png" alt="On peut gagner"/>
+<img src="./image.png" alt="Page du jeu" />
+<img src="./image1.png" alt="hhh" />
+<img src="./image2.png" alt="On peut perdre"/>
+<img src="./image3.png" alt="On peut gagner"/>
+<img src="./image4.png" alt="On peut perdre"/>
+<img src="./image5.png" alt="On peut gagner"/>
+<img src="./Capture6.png" alt="On peut gagner"/>
 
 <div class="danger">
   <strong>Attention :</strong> Bien que React améliore la performance de l'interface utilisateur mais il n'est pas idéal pour le SEO sans l'utilisation d'outils comme Next.js ou le rendu côté serveur, car il fonctionne principalement côté client.

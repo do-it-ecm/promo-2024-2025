@@ -168,7 +168,7 @@ possible pour le staff de DataSud de faire tourner WAVE et Lighthouse sur le sit
 me concentrer sur les pages les plus problématiques, donner des exemples pour les erreurs communes, mais surtout des
 solutions !
 
-![Capture d'écran qui montre l'interface de WAVE](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Billa-Valentin/pok/temps-2/screenshot-wave.png)
+![Capture d'écran qui montre l'interface de WAVE](screenshot-wave.png)
 *Capture d'écran d'une utilisation de WAVE*
 
 ### Horodatage

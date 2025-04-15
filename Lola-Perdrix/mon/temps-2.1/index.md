@@ -246,7 +246,7 @@ Faire des requêtes sur des grandes tables de données peut très vite poser des
 
 ## Résumé
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Lola-Perdrix/mon/temps-2.1/resume.jpg)
+![image](resume.jpg)
 
 ***Photo : [StackLima.com](https://stacklima.com/sql-ddl-dml-tcl-et-dcl/)***
 

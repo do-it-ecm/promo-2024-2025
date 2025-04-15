@@ -8,7 +8,7 @@ authors:
 ---
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Adinolfi-Mathis/PP.png" width="500"/>
+    <img src="PP.png" width="500"/>
 </div>
 
 ## POK & MON

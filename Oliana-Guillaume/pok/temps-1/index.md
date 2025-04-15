@@ -31,7 +31,7 @@ Aucun prérequis ici, je suis parti de zéro. L'idée est de prendre en main Bub
 Ce POK présente le développement d'une application web avec Bubble.io pour aider les coureurs à suivre leurs performances et à personnaliser leurs plans d'entraînement selon leurs objectifs. Ce projet vise à terme à inclure la mise en place de fonctionnalités de base que l'on peut retrouver dans les applications déjà existantes et la personnalisation des plans d'entrainement en fonction des données fournies par l'utilisateur lors de son inscription.
 
 <div style="margin: auto; width: fit-content;">
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/pok/temps-1/logo_RunMate.png" alt="RunMate" style="width: 200px">
+  <img src="./logo_RunMate.png" alt="RunMate" style="width: 200px">
 
 </div>
 
@@ -209,7 +209,7 @@ Le **Sprint 2** du développement de l'application de suivi de course à pied su
     -   La base de données des **sessions** a été mise en place pour stocker les détails des séances d'entraînement hebdomadaires. Cette base prend en compte deux paramètres importants : le nombre de séances hebdomadaires choisi par l'utilisateur lors de son inscription (3, 4 ou 5 séances par semaine) et l'objectif de course sélectionné (10 km, semi-marathon ou marathon).
     -   Chaque session inclut des détails comme la distance à parcourir, le type de séance (endurance, fractionné, etc.), et la durée estimée, en fonction de l'objectif et du niveau de l'utilisateur.
 
-![reference_race](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/pok/temps-1/image-1.png)
+![reference_race](image-1.png)
 
 
 2.  **Visualisation des séances avec un repeating group** :

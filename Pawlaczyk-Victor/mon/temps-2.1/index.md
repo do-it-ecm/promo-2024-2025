@@ -37,7 +37,7 @@ Pour explorer un peu mieux ces deux stratégies, je vais procéder à deux étud
 
 JBL fait partie des marques de matériel audio les plus répandues en Europe, principalement sur les gammes d'appareils nomades bluetooth. Parmi ses best sellers on retrouve notamment des enceintes et casques bluetooth.
 
-![Alternate](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Pawlaczyk-Victor/mon/temps-2.1/jbl-logo.svg)
+![Alternate](jbl-logo.svg)
 
 Si on se penche sur les enceintes bluetooth, on remarque très vite ce que veut offrir la marque à ses clients : pouvoir écouter sa musique partout, facilement, et à moindre coût. En effet, sa gamme s'étend actuellement de la JBL Go 4 à 49,99 € à la JBL Boombox 3 à 509,99 €. Avec une entrée de gamme à 50€, la marque vise le grand public en proposant une enceinte abordable, légère et résistante. Pour ceux qui veulent faire plus de bruit, différentes tailles intermédiaires existent, toujours robustes et pensées pour être le plus nomade possible, avec des prix restant toujours raisonnables. Cette gamme reflète une optimisation du rapport qualité-prix pour offrir le meilleur produit possible au prix le plus abordable. La stratégie de JBL avec cette gamme apparaît alors clairement : vendre du volume. En optimisant ainsi le prix de ses produits, JBL se veut abordable pour le grand public. Ainsi la marque vend un grand volume d'équipements.
 
@@ -55,7 +55,7 @@ D'un point de vue marketing, cette fois-ci comme on l'a vu précédemment ce n'e
 
 Un dernier exemple qui synthétise toute cette partie est l'enceinte bluetooth nomade THE SWELL de Cabasse. Vendue à partir de 200 € selon les distributeurs, la seule enceinte nomade de la marque est déjà loin de la JBL GO à 50 €. Condensé de technologies de pointe, cette enceinte propose dans un format très compact et très léger des caractéristiques de qualité de son et de puissance bluffantes, décrochant haut la main le titre de [diapason d'or 2017](https://www.diapasonmag.fr/diapason-dor-hi-fi/enceintes/diapason-dor-2017-enceintes-connectees-cabasse-swell-24880.html). Le tout embarqué dans un équipement au design épuré, chic et élégant. On arrive ici aux antipodes de la gamme JBL : beaucoup moins chère, au design plus au service des besoins en robustesse et en puissance que de la beauté de l'enceinte elle-même.
 
-![Alternate](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Pawlaczyk-Victor/mon/temps-2.1/swell2.lifestyle.jpg)
+![Alternate](swell2.lifestyle.jpg)
 
 Les entreprises s'inscrivant dans la partie luxueuse du marché audiophile fondent leur stratégie sur le progrès technique et la qualité de leur produit, quitte à devoir sacrifier le budget marketing, pour créer des produits dont la qualité parlera d'elle-même.
 

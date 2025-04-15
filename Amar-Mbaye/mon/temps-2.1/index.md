@@ -57,7 +57,7 @@ Un **module** est une unité de base dans NestJS. Il regroupe des **contrôleurs
 
 Chaque application NestJS a un module principal (généralement `AppModule`) qui importe tous les autres modules.
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-2.1/image2.png)
+![image](./image2.png)
 Image explicite trouvée sur le site de la documentation de NestJs.
 
 ---
@@ -81,7 +81,7 @@ Les **contrôleurs** sont responsables de gérer les **requêtes HTTP**. Ils dé
   - **DELETE `/posts/:id`** : Supprimer un post par ID.
 {% enddetails %}
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-2.1/image1.png)
+![image](./image1.png)
 Image explicite trouvée sur le site de la documentation de NestJs.
 
 > **Rôle important :** Le contrôleur ne contient pas de logique complexe. Il délègue les opérations au **service**.
@@ -169,14 +169,14 @@ L'article de **SFEIR** sur **dev.to** m'a permis de comprendre cette partie. Le 
 - **Qu'est-ce que c'est ?** : Les pipes transforment ou valident les données avant qu'elles n'atteignent un contrôleur ou un service.
 - **Utilité** : Valider les données reçues dans une requête (par exemple, vérifier qu'un champ `title` n'est pas vide).
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-2.1/image4.png)
+![image](./image4.png)
 Image explicite trouvée sur le site de la documentation de NestJs.
 
 #### **Guards**
 - **Qu'est-ce que c'est ?** : Les guards protègent les routes en contrôlant l'accès.
 - **Utilité** : Implémenter l'authentification (JWT) ou des permissions.
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Amar-Mbaye/mon/temps-2.1/image3.png)
+![image](./image3.png)
 Image explicite trouvée sur le site de la documentation de NestJs.
 
 

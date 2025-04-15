@@ -226,22 +226,22 @@ Le questionnaire a été réalisé en milieu de MON. Ma compréhension du sujet 
 {% endnote %}
 
 {% details "Population questionnée" %}
-![Répartition par niveau d'étude](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/mon/temps-1.1/Population.png)
+![Répartition par niveau d'étude](./Population.png)
 Presque la moitier des personnes ayant répondu suit actuellement un cursus de 3ème année et l'autre moitier suit un cursus de 2ème année. Le niveau de maturité d'utilisation de l'outil proposé varie donc beaucoup : les 3ème années ont souvent d'autres ressources pour accéder à leur emploi du temps, mais pas à l'emploi du temps des salles par exemple.
 {% enddetails %}
 
 {% details "Emotions ressenties" %}
-![Emotions ressenties](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/mon/temps-1.1/Emotions.png)
+![Emotions ressenties](./Emotions.png)
 On s'aperçoit que les émotions les plus représentées sont des émotions liées à la surprise, à la curiosité et à l'appréhension. Suivent alors les émotions négatives comme la colère ou le dépit. Les émotions positives ne sont quant à elles, que peu représentées.
 {% enddetails %}
 
 {% details "Timing de communication" %}
-![Timing de communication](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/mon/temps-1.1/Timing.png)
+![Timing de communication](./Timing.png)
 Près de 35% des personnes interrogées estiment que la communication était trop tardive, 31% pensent qu'elle était un peut trop tardive et 31% qu'elle a été faite au bon moment. En traitant les données, on voit qu'à peu près le même nombre de 2ème années et de 3ème/4ème année pensent que la communication était un peu ou trop tardive. On ne peut donc pas dresser de lien entre l'expérience et le temps nécessaire pour accueillir l'information.
 {% enddetails %}
 
 {% details "Envie" %}
-![Envie](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Damien-Wolbert/mon/temps-1.1/Envie.png)
+![Envie](./Envie.png)
 On remarque que 100% des personnes interrogées affirment que l'équipe projet n'a pas essayé de donner "envie" aux utlisateurs. Un indicateur de cela est le manque de fonctionnalités utiles pour les élèves comme la possibilité de voir l'emploi du temps des salles afin de trouver des lieux pour travailler. L'absence de questionnement global, surout au vu du sytème de valeur des élèves de l'école, entraine probablement de plus fortes réticences et blocages.
 {% enddetails %}
 

@@ -35,11 +35,11 @@ Les lien utiles pour la compréhension de celui-ci.
 UX = User Experience
 UI = User Interface
 
-![Ux-Ui schema](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Corne-Titouan/mon/temps-2.2/img/ux-ui.png) *Similarities Between UI/UX Design. Source : [Aloa Blog](https://aloa.co/blog/user-interface-vs-user-experience) (2024)*
+![Ux-Ui schema](./img/ux-ui.png) *Similarities Between UI/UX Design. Source : [Aloa Blog](https://aloa.co/blog/user-interface-vs-user-experience) (2024)*
 
 Dans la vidéo youtube de Florent Kiecken ([Formation UX Design : Maîtriser les fondamentaux](https://www.youtube.com/watch?v=UvRVZIUxLyw)), dans la partie dédiée à la psychologie utilisateur, un concept expliqué m'a semblé essentiel et pertinent. Il s'agit de comprendre que l'utilisateur a deux systèmes de pensée :
 
-![ux - systèmes de pensée 1 & 2](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Corne-Titouan/mon/temps-2.2/img/ux-syst1-2.png) *UX - systèmes de pensée. Source : [Florent Kiecken](https://www.youtube.com/watch?v=UvRVZIUxLyw) (2022)*
+![ux - systèmes de pensée 1 & 2](./img/ux-syst1-2.png) *UX - systèmes de pensée. Source : [Florent Kiecken](https://www.youtube.com/watch?v=UvRVZIUxLyw) (2022)*
 
 Le but de l'UX est de garder l'utilisateur dans le système 1 le plus plus souvent possible. Dans ce système, l'utilisateur est dans son confort, il n'a pas besoin de se concentrer, il n'y a pas d'effort à faire. Mais, il est parfois inévitable d'écrire de gros paragraphes qui exigent un effort particulier chez l'utilisateur, c'est-à-dire d'utiliser le système 2. Pour que l'UX soit idéale, il est important que l'utilisateur passe par le système 1 avant d'utiliser le système 2. La transition entre système 1 et 2 doit se faire le plus naturellement possible.
 

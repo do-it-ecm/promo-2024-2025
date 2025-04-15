@@ -169,9 +169,9 @@ import ace_tools as tools; tools.display_dataframe_to_user(name="Rendements et V
 
 
 ```
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.2/image.png)
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.2/image-1.png)
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.2/image-2.png)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 
 ## 1.3 Optimisation avec la méthode de Markowitz
@@ -372,19 +372,19 @@ plt.axis('equal')
 plt.show()
 ```
 
-![Frontière de Markowitz](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.2/image-8.png)
+![Frontière de Markowitz](image-8.png)
 
 
 
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.2/image-4.png)
+![alt text](image-4.png)
 
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.2/image-5.png)
+![alt text](image-5.png)
 
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.2/image-6.png)
+![alt text](image-6.png)
 
 Ce qui est cohérent du fait que l'action d'APPLE est celle qui a le mieux performé sur cette période, comme on peut le voir dans le tableau suivant :
 
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/mon/temps-1.2/image-7.png)
+![alt text](image-7.png)
 
 
 Conclusion

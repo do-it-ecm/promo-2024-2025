@@ -43,7 +43,7 @@ Ci-après, deux exemples de personne cible pouvant profiter de l'application Mus
 Nous avons réalisé une étude de marché afin de voir les offres proposées par les principales applications de musique ayant le même objectif que MusiCoach
 
 *Benchmark :*
-![Benchmark](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/_projets/Music_DNA/Images/Benchmark.png)
+![Benchmark](Images/Benchmark.png)
 
 On remarque les éléments suivants : 
 + Aucune application ne propose les fonctionnalités *correction en temps réel* **et** *génération de partition*.

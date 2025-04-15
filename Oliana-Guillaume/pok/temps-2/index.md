@@ -116,7 +116,7 @@ La liste est triée ou filtrée selon des critères comme la date ou la priorit�
 Fonctionnalité pour éditer les détails d'une tâche existante.
 Suppression d'une tâche directement depuis l'interface, avec une synchronisation en temps réel avec Firestore.
 
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/pok/temps-2/image-2.png)
+![alt text](./image-2.png)
 
 ##### Structure du Frontend :
 
@@ -124,14 +124,14 @@ Le frontend est conçu en React.
 Utilisation de composants pour organiser le code (ex. : TaskList, TaskForm, LoginForm).
 
 
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/pok/temps-2/image.png)
+![alt text](./image.png)
 
 ##### Backend Firebase :
 
 Firestore est utilisé pour gérer la base de données en temps réel.
 Les règles de sécurité Firestore assurent que chaque utilisateur accède uniquement à ses propres tâches.
 
-![alt text](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Oliana-Guillaume/pok/temps-2/image-1.png)
+![alt text](./image-1.png)
 
 ## Défis Rencontrés
 

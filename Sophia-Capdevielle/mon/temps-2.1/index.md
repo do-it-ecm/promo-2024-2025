@@ -78,11 +78,11 @@ Pour être originale, on fait un Todo list pour s'entraîner !!
 
 On part d'une maquette (réalisée sur Figma):
 
-![Maquette to do list](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Sophia-Capdevielle/mon/temps-2.1/Todo-Maquette.png)
+![Maquette to do list](./Todo-Maquette.png)
 
 On identifie les composants suivants:
 
-![Maquette to do list avec composants](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Sophia-Capdevielle/mon/temps-2.1/Todo-Composants.png)
+![Maquette to do list avec composants](./Todo-Composants.png)
 
 1. ToDoTable: contient l'appli entière
 2. TacheTable: affiche et filtre la liste en fonction de la saisie utilisateur
@@ -91,7 +91,7 @@ On identifie les composants suivants:
 5. Filter: reçoit les saisies utilisateur, permet de masquer ou d'afficher les tâches déjà réalisées
 
 Arborescence des composants:
-![Arborescence composants to do list](https://raw.githubusercontent.com/do-it-ecm/promo-2024-2025/main/Sophia-Capdevielle/mon/temps-2.1/Todo-Arborescence.jpg)
+![Arborescence composants to do list](./Todo-Arborescence.jpg)
 
 On code, lien vers repo github: https://github.com/sophia-capdevielle/to-do-mon2
 
