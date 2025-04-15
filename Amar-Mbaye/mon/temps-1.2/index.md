@@ -6,10 +6,10 @@ authors:
   - Serigne Mbaye Sy AMAR
 
 date: 2024-16-09
-tags: 
+tags:
   - "développement web"
-  - "React"
-  - "Laravel"
+   - "React"
+   - "Laravel"
 
 résumé: "Un MON traitant de l'intégration de React dans Laravel ."
 ---
@@ -22,7 +22,7 @@ résumé: "Un MON traitant de l'intégration de React dans Laravel ."
 
 {% endprerequis %}
 {% lien %}
-Les lien utiles pour la compréhension de celui-ci: 
+Les lien utiles pour la compréhension de celui-ci:
 [Documentation officielle Laravel](https://laravel.com/docs/10.x)
 [Introduction à React](https://legacy.reactjs.org/docs/getting-started.html)
 
