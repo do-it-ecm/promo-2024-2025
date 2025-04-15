@@ -165,7 +165,7 @@ class MyApp extends StatelessWidget {
 
 
 ```
-<img src="1.jpeg" alt="image" />
+<img src="1.JPEG" alt="image" />
 
 
 ### Exemple de StatefulWidget
