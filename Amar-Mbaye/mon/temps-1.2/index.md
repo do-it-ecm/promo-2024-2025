@@ -8,8 +8,8 @@ authors:
 date: 2024-16-09
 tags:
   - "développement mobile"
-   - "Flutter"
-   - "Dart"
+  - "Flutter"
+  - "Dart"
 
 description: "Ce MON explique comment utiliser Flutter, un framework multiplateforme de Google, pour créer des applications avec une seule base de code. Il couvre l'installation, la configuration, la création de projets, et les concepts de base comme les widgets et les layouts. Il introduit aussi la gestion de l'état avec Provider, la navigation entre pages, et les appels HTTP pour interagir avec des API. "
 ---
